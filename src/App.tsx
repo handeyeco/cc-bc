@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import tagData from "./data/tags";
 import urlData from "./data/urls";
@@ -28,6 +28,10 @@ const licenses = Object.entries(
 function App() {
   const [selectedTag, setSelectedTag] = useState<number | null>(null);
   const [selectedLicense, setSelectedLicense] = useState<string | null>(null);
+
+  useEffect(() => {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }, [selectedTag, selectedLicense]);
 
   function setBothStates(tag: number | null, license: string | null) {
     setSelectedTag(tag);
