@@ -77,7 +77,7 @@ export default function UrlList(props: Props) {
         <div className="url-list__license-details">
           License details
           {getLicenseDescription(licenses, selectedLicense).map((e) => (
-            <p>{e}</p>
+            <p key={e}>{e}</p>
           ))}
           <a href={selectedLicense} target="_blank">
             Link to license
