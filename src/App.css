@@ -1,0 +1,87 @@
+:root {
+  --yellow: #ffb300;
+  --orange: #ff6f61;
+  --red: #d5006d;
+  --green: #00bfae;
+  --blue: #00a8e1;
+
+  --primary-color: #00bfae;
+  --seconary-color: #ffb300;
+  --tag-color: #00a8e1;
+  --license-color: #d5006d;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 2rem 0 1rem;
+  color: var(--red);
+  /* text-shadow: var(--yellow) 3px 3px, var(--blue) 6px 6px, var(--orange) 9px 9px,
+    var(--green) 12px 12px; */
+}
+
+h1:hover {
+  animation: 2s ease header infinite;
+}
+
+@keyframes header {
+  0% {
+    text-shadow: var(--yellow) 0 0, var(--blue) 0 0, var(--orange) 0 0,
+      var(--green) 0 0;
+  }
+
+  25% {
+    text-shadow: var(--yellow) 3px 3px, var(--blue) 6px 6px,
+      var(--orange) 9px 9px, var(--green) 12px 12px;
+  }
+
+  50% {
+    text-shadow: var(--yellow) -3px 3px, var(--blue) -6px 6px,
+      var(--orange) -9px 9px, var(--green) -12px 12px;
+  }
+
+  75% {
+    text-shadow: var(--yellow) -3px -3px, var(--blue) -6px -6px,
+      var(--orange) -9px -9px, var(--green) -12px -12px;
+  }
+
+  100% {
+    text-shadow: var(--yellow) 0 0, var(--blue) 0 0, var(--orange) 0 0,
+      var(--green) 0 0;
+  }
+}
+
+.app__about > a:link,
+.app__about > a:visited,
+.app__about > a:hover,
+.app__about > a:active {
+  color: var(--red);
+  text-decoration: wavy underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.app__random-button {
+  font-size: 1.5em;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 6px 6px var(--seconary-color);
+  transition: all 100ms;
+}
+
+.app__random-button:active {
+  box-shadow: 4px 4px var(--seconary-color);
+  transform: translate(2px, 2px);
+}
