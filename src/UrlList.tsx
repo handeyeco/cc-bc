@@ -106,7 +106,9 @@ export default function UrlList(props: Props) {
             u.favorite ? "url-list__listing--fave" : ""
           }`}
         >
-          <span className="url-list__star">{u.favorite ? "★ " : ""}</span>
+          <span className="url-list__star" title="Music I like">
+            {u.favorite ? "★ " : ""}
+          </span>
           <a href={u.url} target="_blank">
             {u.title}
           </a>
