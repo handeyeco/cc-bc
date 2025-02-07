@@ -4,6 +4,7 @@ export type UrlListing = {
   title: string;
   license_url: string;
   tags: ReadonlyArray<number>;
+  favorite?: boolean;
 };
 
 export type License = {

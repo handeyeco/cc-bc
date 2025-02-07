@@ -7,13 +7,14 @@ import { License } from "./types";
 type Props = {
   onSelectTag: (tag: number) => void;
   onSelectLicense: (licenseUrl: string) => void;
+  onSelectFaves: () => void;
   licenses: License[];
 };
 
 const LOW_COUNT = 5;
 
 export default function TagList(props: Props) {
-  const { onSelectTag, onSelectLicense, licenses } = props;
+  const { onSelectTag, onSelectLicense, onSelectFaves, licenses } = props;
   const [search, setSearch] = useState<string>("");
   const [filterLowCount, setFilterLowCount] = useState<boolean>(true);
 
@@ -30,6 +31,12 @@ export default function TagList(props: Props) {
           Filter tags
           <input value={search} onChange={(e) => setSearch(e.target.value)} />
         </label>
+      </div>
+
+      <div>
+        <button onClick={onSelectFaves} className="tag-list__fave">
+          ★ Faves
+        </button>
       </div>
 
       <div>

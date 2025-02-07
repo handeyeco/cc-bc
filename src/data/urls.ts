@@ -2660,6 +2660,7 @@ const urls = [
     url: "https://theloniousmartin.bandcamp.com/album/patchworks",
     title: "PATCHWORKS | Thelonious Martin",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    favorite: true,
     tags: [131, 95, 21, 112],
   },
   {
@@ -5659,6 +5660,7 @@ const urls = [
     url: "https://cialyn.bandcamp.com/album/calls-to-ours-stations",
     title: "Calls to ours Stations | CIALYN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    favorite: true,
     tags: [2, 1806, 1, 1440, 1860, 16, 1208],
   },
   {
@@ -7650,6 +7652,7 @@ const urls = [
     url: "https://kratzen.bandcamp.com/album/kratzen-zwei",
     title: "KRATZEN zwei | Kratzen",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    favorite: true,
     tags: [8, 9, 10, 11, 12, 13],
   },
   {
@@ -8068,6 +8071,7 @@ const urls = [
     url: "https://kinoue64.bandcamp.com/album/after-school",
     title: "after school | kinoue64",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    favorite: true,
     tags: [8, 9, 48, 12, 2510],
   },
   {
@@ -9296,6 +9300,7 @@ const urls = [
     url: "https://256pi.bandcamp.com/album/real-life-and-postcard-use",
     title: "Real Life and Postcard Use | 256 Pi",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    favorite: true,
     tags: [1, 2, 108, 331, 16, 29, 5, 516, 2732, 112],
   },
   {

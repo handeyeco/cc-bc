@@ -5,13 +5,14 @@ import tagData from "./data/tags";
 import "./UrlList.css";
 
 type Props = {
-  setSelectedTag: (tag: number | null) => void;
+  onSelectTag: (tag: number | null) => void;
   onSelectLicense: (licenseUrl: string) => void;
   onClickBack: () => void;
   urls: ReadonlyArray<UrlListing>;
   licenses: License[];
   selectedTag: number | null;
   selectedLicense: string | null;
+  showingFaves: boolean;
 };
 
 function shuffle(array: UrlListing[]) {
@@ -48,13 +49,14 @@ function getLicenseDescription(licenses: License[], lic: string): string[] {
 
 export default function UrlList(props: Props) {
   const {
-    setSelectedTag,
+    onSelectTag,
     onSelectLicense,
     onClickBack,
     urls,
     licenses,
     selectedTag,
     selectedLicense,
+    showingFaves,
   } = props;
 
   function licenseUrlToText(url: string): string {
@@ -71,7 +73,7 @@ export default function UrlList(props: Props) {
   return (
     <div>
       <button onClick={() => onClickBack()} className="url-list__back">
-        &lt; Tag List
+        ← Tag List
       </button>
       {selectedLicense && (
         <div className="url-list__license-details">
@@ -84,8 +86,27 @@ export default function UrlList(props: Props) {
           </a>
         </div>
       )}
+      {showingFaves && (
+        <div className="url-list__about-me">
+          <p>Just some cc-bc music I like.</p>
+
+          <p>Thanks for checking out the site!</p>
+
+          <p>
+            <a href="https://h-e.io/" target="_blank">
+              h-e.io
+            </a>
+          </p>
+        </div>
+      )}
       {shuffledUrls.map((u) => (
-        <div key={u.url} className="url-list__listing">
+        <div
+          key={u.url}
+          className={`url-list__listing ${
+            u.favorite ? "url-list__listing--fave" : ""
+          }`}
+        >
+          <span className="url-list__star">{u.favorite ? "★ " : ""}</span>
           <a href={u.url} target="_blank">
             {u.title}
           </a>
@@ -102,7 +123,7 @@ export default function UrlList(props: Props) {
                       ? " url-list__tag--active"
                       : "")
                   }
-                  onClick={() => setSelectedTag(t)}
+                  onClick={() => onSelectTag(t)}
                 >
                   {name}
                 </button>

@@ -12,7 +12,8 @@
 }
 
 .tag-list__license,
-.tag-list__tag {
+.tag-list__tag,
+.tag-list__fave {
   margin: 0.25rem;
   padding: 0.25rem 0.5rem;
   color: white;
@@ -27,6 +28,11 @@
 .tag-list__tag {
   border: 1px solid var(--tag-color);
   background: var(--tag-color);
+}
+
+.tag-list__fave {
+  border: 1px solid var(--fave-color);
+  background: var(--fave-color);
 }
 
 .tag-list__count {

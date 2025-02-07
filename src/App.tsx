@@ -26,6 +26,7 @@ const licenses = Object.entries(
   .sort((a, b) => b.count - a.count);
 
 function App() {
+  const [showFaves, setShowFaves] = useState<true | null>(null);
   const [selectedTag, setSelectedTag] = useState<number | null>(null);
   const [selectedLicense, setSelectedLicense] = useState<string | null>(null);
 
@@ -33,20 +34,40 @@ function App() {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   }, [selectedTag, selectedLicense]);
 
-  function setBothStates(tag: number | null, license: string | null) {
+  function changeStates(
+    tag: number | null,
+    license: string | null,
+    faves: true | null
+  ) {
     setSelectedTag(tag);
     setSelectedLicense(license);
+    setShowFaves(faves);
+  }
+
+  function changeTag(tag: number) {
+    changeStates(tag, null, null);
+  }
+
+  function changeLicense(lic: string) {
+    changeStates(null, lic, null);
+  }
+
+  function changeFaves() {
+    changeStates(null, null, true);
   }
 
   const filteredUrls = urlData.filter((u) => {
-    if (selectedTag == null && selectedLicense == null) return true;
+    if (selectedTag == null && selectedLicense == null && !showFaves)
+      return true;
 
     if (selectedTag != null) return u.tags.includes(selectedTag);
 
     if (selectedLicense != null) return u.license_url === selectedLicense;
+
+    if (showFaves) return !!u.favorite;
   });
 
-  const showList = selectedTag != null || selectedLicense != null;
+  const showList = selectedTag != null || selectedLicense != null || showFaves;
 
   function randomPageText() {
     const defaultText = "Random cc-bc album";
@@ -59,6 +80,9 @@ function App() {
       const lic = licenses.find((l) => l.url === selectedLicense);
       return lic ? `Random "${lic.text}" album` : defaultText;
     }
+    if (showFaves) {
+      return "Random favorite album";
+    }
   }
 
   function randomPage() {
@@ -69,7 +93,7 @@ function App() {
 
   return (
     <div className="main-container">
-      <h1 onClick={() => setBothStates(null, null)}>cc-bc</h1>
+      <h1 onClick={() => changeStates(null, null, null)}>cc-bc</h1>
       <p className="app__about">
         Some{" "}
         <a href="https://creativecommons.org/" target="_blank">
@@ -87,8 +111,9 @@ function App() {
       {!showList && (
         <TagList
           licenses={licenses}
-          onSelectTag={(tag) => setBothStates(tag, null)}
-          onSelectLicense={(lic) => setBothStates(null, lic)}
+          onSelectTag={(tag) => changeTag(tag)}
+          onSelectLicense={(lic) => changeLicense(lic)}
+          onSelectFaves={changeFaves}
         />
       )}
 
@@ -98,9 +123,10 @@ function App() {
           licenses={licenses}
           selectedTag={selectedTag}
           selectedLicense={selectedLicense}
-          setSelectedTag={(tag) => setBothStates(tag, null)}
-          onSelectLicense={(lic) => setBothStates(null, lic)}
-          onClickBack={() => setBothStates(null, null)}
+          showingFaves={!!showFaves}
+          onSelectTag={(tag) => changeTag(tag)}
+          onSelectLicense={(lic) => changeLicense(lic)}
+          onClickBack={() => changeStates(null, null, null)}
         />
       )}
       <footer>
