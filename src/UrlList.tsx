@@ -5,7 +5,7 @@ import tagData from "./data/tags";
 import "./UrlList.css";
 
 type Props = {
-  onSelectTag: (tag: number | null) => void;
+  onSelectTag: (tag: number) => void;
   onSelectLicense: (licenseUrl: string) => void;
   onClickBack: () => void;
   urls: ReadonlyArray<UrlListing>;
