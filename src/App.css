@@ -15,8 +15,7 @@ h1 {
   font-size: 5em;
   margin: 2rem 0 1rem;
   color: var(--red);
-  /* text-shadow: var(--yellow) 3px 3px, var(--blue) 6px 6px, var(--orange) 9px 9px,
-    var(--green) 12px 12px; */
+  cursor: pointer;
 }
 
 h1:hover {
@@ -84,4 +83,16 @@ button {
 .app__random-button:active {
   box-shadow: 4px 4px var(--seconary-color);
   transform: translate(2px, 2px);
+}
+
+footer {
+  padding: 1rem 0 5rem;
+}
+
+footer > a:link,
+footer > a:visited,
+footer > a:hover,
+footer > a:active {
+  color: black;
+  text-decoration: underline wavy var(--green);
 }

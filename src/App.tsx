@@ -69,7 +69,7 @@ function App() {
 
   return (
     <div className="main-container">
-      <h1>cc-bc</h1>
+      <h1 onClick={() => setBothStates(null, null)}>cc-bc</h1>
       <p className="app__about">
         Some{" "}
         <a href="https://creativecommons.org/" target="_blank">
@@ -103,6 +103,12 @@ function App() {
           onClickBack={() => setBothStates(null, null)}
         />
       )}
+      <footer>
+        🍹{" "}
+        <a href="https://github.com/handeyeco/cc-bc" target="_blank">
+          Source code and data
+        </a>
+      </footer>
     </div>
   );
 }
