@@ -1,18 +1,19 @@
 import { useMemo } from "react";
-import { License, UrlListing } from "./types";
+import { Link } from "react-router-dom";
+
+import { UrlListing } from "./types";
 import tagData from "./data/tags";
 
 import "./UrlList.css";
+import useQuery from "./hooks/useQuery";
+import {
+  getLicenseDescription,
+  licenseTextToUrl,
+  licenseUrlToText,
+} from "./util/licenses";
 
 type Props = {
-  onSelectTag: (tag: number) => void;
-  onSelectLicense: (licenseUrl: string) => void;
-  onClickBack: () => void;
   urls: ReadonlyArray<UrlListing>;
-  licenses: License[];
-  selectedTag: number | null;
-  selectedLicense: string | null;
-  showingFaves: boolean;
 };
 
 function shuffle(array: UrlListing[]) {
@@ -32,37 +33,13 @@ function shuffle(array: UrlListing[]) {
   }
 }
 
-const licenseExplanations: Record<string, string> = {
-  by: "requires attribution",
-  nc: "no commercial use",
-  nd: "no derivatives",
-  sa: "share-alike",
-};
-function getLicenseDescription(licenses: License[], lic: string): string[] {
-  const fullLic = licenses.find((l) => l.url === lic);
-  if (!fullLic) return [];
-
-  return fullLic.text
-    .split("-")
-    .map((e) => `- ${e}: ${licenseExplanations[e]}`);
-}
-
 export default function UrlList(props: Props) {
-  const {
-    onSelectTag,
-    onSelectLicense,
-    onClickBack,
-    urls,
-    licenses,
-    selectedTag,
-    selectedLicense,
-    showingFaves,
-  } = props;
+  const { urls } = props;
+  const query = useQuery();
 
-  function licenseUrlToText(url: string): string {
-    const lic = licenses.find((l) => l.url === url);
-    return lic?.text || "";
-  }
+  const selectedLicense = query.get("license");
+  const selectedTag = query.get("tag");
+  const showingFaves = !!query.get("faves");
 
   const shuffledUrls = useMemo<UrlListing[]>(() => {
     const urlCopy = JSON.parse(JSON.stringify(urls));
@@ -70,23 +47,32 @@ export default function UrlList(props: Props) {
     return urlCopy;
   }, [urls]);
 
+  const hasResults = urls.length !== 0;
+
   return (
     <div>
-      <button onClick={() => onClickBack()} className="url-list__back">
+      <Link to="/" className="link-button url-list__back">
         ← Tag List
-      </button>
-      {selectedLicense && (
+      </Link>
+
+      {!hasResults && (
+        <p className="url-list__not-found">
+          <b>Nothing found, how did you get here?</b>
+        </p>
+      )}
+
+      {hasResults && selectedLicense && (
         <div className="url-list__license-details">
           License details
-          {getLicenseDescription(licenses, selectedLicense).map((e) => (
+          {getLicenseDescription(selectedLicense).map((e) => (
             <p key={e}>{e}</p>
           ))}
-          <a href={selectedLicense} target="_blank">
+          <a href={licenseTextToUrl(selectedLicense)} target="_blank">
             Link to license
           </a>
         </div>
       )}
-      {showingFaves && (
+      {hasResults && showingFaves && (
         <div className="url-list__about-me">
           <p>Just some cc-bc music I like.</p>
 
@@ -117,34 +103,34 @@ export default function UrlList(props: Props) {
               const tag = tagData.find((e) => e.tag_id === t);
               const name = tag?.name || "";
               return (
-                <button
+                <Link
                   key={u.title + "_" + name + "_" + i}
+                  to={`/list?tag=${t}`}
                   className={
-                    "url-list__tag" +
-                    (tag?.tag_id === selectedTag
+                    "link-button url-list__tag" +
+                    (tag?.tag_id === +(selectedTag || -1)
                       ? " url-list__tag--active"
                       : "")
                   }
-                  onClick={() => onSelectTag(t)}
                 >
                   {name}
-                </button>
+                </Link>
               );
             })}
           </div>
           <div>
-            <button
+            <Link
               key={u.title + "_" + u.license_url}
+              to={`/list?license=${licenseUrlToText(u.license_url)}`}
               className={
-                "url-list__license" +
-                (u.license_url === selectedLicense
+                "link-button url-list__license" +
+                (licenseUrlToText(u.license_url) === selectedLicense
                   ? " url-list__license--active"
                   : "")
               }
-              onClick={() => onSelectLicense(u.license_url)}
             >
               {licenseUrlToText(u.license_url)}
-            </button>
+            </Link>
           </div>
         </div>
       ))}

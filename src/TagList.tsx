@@ -1,20 +1,13 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import tagData from "./data/tags";
 
 import "./TagList.css";
-import { License } from "./types";
-
-type Props = {
-  onSelectTag: (tag: number) => void;
-  onSelectLicense: (licenseUrl: string) => void;
-  onSelectFaves: () => void;
-  licenses: License[];
-};
+import { licenses } from "./util/licenses";
 
 const LOW_COUNT = 5;
 
-export default function TagList(props: Props) {
-  const { onSelectTag, onSelectLicense, onSelectFaves, licenses } = props;
+export default function TagList() {
   const [search, setSearch] = useState<string>("");
   const [filterLowCount, setFilterLowCount] = useState<boolean>(true);
 
@@ -34,32 +27,32 @@ export default function TagList(props: Props) {
       </div>
 
       <div>
-        <button onClick={onSelectFaves} className="tag-list__fave">
+        <Link to="/list?faves=true" className="link-button tag-list__fave">
           ★ Faves
-        </button>
+        </Link>
       </div>
 
       <div>
         {licenses.map((l) => (
-          <button
+          <Link
             key={l.text}
-            onClick={() => onSelectLicense(l.url)}
-            className="tag-list__license"
+            to={`/list?license=${l.text}`}
+            className="link-button tag-list__license"
           >
             {l.text} <span className="tag-list__count">{l.count}</span>
-          </button>
+          </Link>
         ))}
       </div>
 
       <div>
         {filteredTags.map((t) => (
-          <button
+          <Link
             key={t.name}
-            onClick={() => onSelectTag(t.tag_id)}
-            className="tag-list__tag"
+            to={`/list?tag=${t.tag_id}`}
+            className="link-button tag-list__tag"
           >
             {t.name} <span className="tag-list__count">{t.count}</span>
-          </button>
+          </Link>
         ))}
       </div>
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { Switch, Route, Link, useLocation } from "react-router-dom";
 
 import tagData from "./data/tags";
 import urlData from "./data/urls";
@@ -6,81 +6,49 @@ import TagList from "./TagList";
 import UrlList from "./UrlList";
 
 import "./App.css";
-
-const licenseReg = /licenses\/([A-Za-z-]+)\/([0-9.]+)/;
-const licenses = Object.entries(
-  urlData.reduce((acc: Record<string, number>, curr) => {
-    if (acc[curr.license_url]) {
-      acc[curr.license_url] = acc[curr.license_url] + 1;
-    } else {
-      acc[curr.license_url] = 1;
-    }
-    return acc;
-  }, {})
-)
-  .map(([url, count]) => {
-    const match = url.match(licenseReg);
-    const text = match ? match[1] : "";
-    return { url, text, count };
-  })
-  .sort((a, b) => b.count - a.count);
+import useQuery from "./hooks/useQuery";
+import {
+  filterUrlsByFaves,
+  filterUrlsByLicense,
+  filterUrlsByTag,
+} from "./util/url-filters";
+import { UrlListing } from "./types";
+import { useEffect } from "react";
 
 function App() {
-  const [showFaves, setShowFaves] = useState<true | null>(null);
-  const [selectedTag, setSelectedTag] = useState<number | null>(null);
-  const [selectedLicense, setSelectedLicense] = useState<string | null>(null);
+  const query = useQuery();
+  const { search } = useLocation();
 
   useEffect(() => {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-  }, [selectedTag, selectedLicense]);
+  }, [search]);
 
-  function changeStates(
-    tag: number | null,
-    license: string | null,
-    faves: true | null
-  ) {
-    setSelectedTag(tag);
-    setSelectedLicense(license);
-    setShowFaves(faves);
+  const selectedLicense = query.get("license");
+  const selectedTag = query.get("tag");
+  const showingFaves = !!query.get("faves");
+
+  let filteredUrls: ReadonlyArray<UrlListing> = urlData;
+  if (selectedLicense) {
+    filteredUrls = filterUrlsByLicense(selectedLicense, filteredUrls);
   }
-
-  function changeTag(tag: number) {
-    changeStates(tag, null, null);
+  if (selectedTag) {
+    filteredUrls = filterUrlsByTag(+selectedTag, filteredUrls);
   }
-
-  function changeLicense(lic: string) {
-    changeStates(null, lic, null);
+  if (showingFaves) {
+    filteredUrls = filterUrlsByFaves(filteredUrls);
   }
-
-  function changeFaves() {
-    changeStates(null, null, true);
-  }
-
-  const filteredUrls = urlData.filter((u) => {
-    if (selectedTag == null && selectedLicense == null && !showFaves)
-      return true;
-
-    if (selectedTag != null) return u.tags.includes(selectedTag);
-
-    if (selectedLicense != null) return u.license_url === selectedLicense;
-
-    if (showFaves) return !!u.favorite;
-  });
-
-  const showList = selectedTag != null || selectedLicense != null || showFaves;
 
   function randomPageText() {
     const defaultText = "Random cc-bc album";
     if (urlData.length === filteredUrls.length) return defaultText;
     if (selectedTag != null) {
-      const tag = tagData.find((t) => t.tag_id === selectedTag);
+      const tag = tagData.find((t) => t.tag_id === +selectedTag);
       return tag ? `Random "${tag.name}" album` : defaultText;
     }
     if (selectedLicense != null) {
-      const lic = licenses.find((l) => l.url === selectedLicense);
-      return lic ? `Random "${lic.text}" album` : defaultText;
+      return `Random "${selectedLicense}" album`;
     }
-    if (showFaves) {
+    if (showingFaves) {
       return "Random favorite album";
     }
   }
@@ -93,7 +61,9 @@ function App() {
 
   return (
     <div className="main-container">
-      <h1 onClick={() => changeStates(null, null, null)}>cc-bc</h1>
+      <Link to="/" className="header-link">
+        <h1>cc-bc</h1>
+      </Link>
       <p className="app__about">
         Some{" "}
         <a href="https://creativecommons.org/" target="_blank">
@@ -108,27 +78,14 @@ function App() {
         {randomPageText()}
       </button>
 
-      {!showList && (
-        <TagList
-          licenses={licenses}
-          onSelectTag={(tag) => changeTag(tag)}
-          onSelectLicense={(lic) => changeLicense(lic)}
-          onSelectFaves={changeFaves}
-        />
-      )}
-
-      {showList && (
-        <UrlList
-          urls={filteredUrls}
-          licenses={licenses}
-          selectedTag={selectedTag}
-          selectedLicense={selectedLicense}
-          showingFaves={!!showFaves}
-          onSelectTag={(tag) => changeTag(tag)}
-          onSelectLicense={(lic) => changeLicense(lic)}
-          onClickBack={() => changeStates(null, null, null)}
-        />
-      )}
+      <Switch>
+        <Route exact path="/">
+          <TagList />
+        </Route>
+        <Route path="/list">
+          <UrlList urls={filteredUrls} />
+        </Route>
+      </Switch>
       <footer>
         🍹{" "}
         <a href="https://github.com/handeyeco/cc-bc" target="_blank">

@@ -1,7 +1,7 @@
-a:link,
-a:visited,
-a:hover,
-a:active {
+a:link:not(.link-button),
+a:visited:not(.link-button),
+a:hover:not(.link-button),
+a:active:not(.link-button) {
   color: black;
   text-decoration: underline dotted var(--orange);
 }
@@ -9,4 +9,16 @@ a:active {
 label > input {
   display: block;
   box-sizing: border-box;
+}
+
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.25rem;
+  padding: 0.4rem 0.5rem 0.3rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
 }

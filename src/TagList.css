@@ -11,15 +11,6 @@
   margin: 0.25rem 0;
 }
 
-.tag-list__license,
-.tag-list__tag,
-.tag-list__fave {
-  margin: 0.25rem;
-  padding: 0.25rem 0.5rem;
-  color: white;
-  border-radius: 8px;
-}
-
 .tag-list__license {
   border: 1px solid var(--license-color);
   background: var(--license-color);
@@ -36,7 +27,8 @@
 }
 
 .tag-list__count {
-  margin-left: 0.25rem;
+  margin-left: 0.5rem;
+  font-size: 0.7em;
 }
 
 .tag-list__show-more {
