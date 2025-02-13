@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import tagData from "./data/tags";
 
@@ -9,7 +9,23 @@ const LOW_COUNT = 5;
 
 export default function TagList() {
   const [search, setSearch] = useState<string>("");
+  const prevSearchRef = useRef<string>("");
   const [filterLowCount, setFilterLowCount] = useState<boolean>(true);
+
+  useEffect(() => {
+    if (search !== prevSearchRef.current) {
+      // go from search to no search
+      if (!search && prevSearchRef.current) {
+        setFilterLowCount(true);
+      }
+      // go from no search to search
+      else if (search && !prevSearchRef.current) {
+        setFilterLowCount(false);
+      }
+    }
+
+    prevSearchRef.current = search;
+  }, [search]);
 
   const filteredTags = tagData.filter((t) => {
     if (filterLowCount && t.count <= LOW_COUNT) return false;
@@ -62,7 +78,7 @@ export default function TagList() {
             onClick={() => setFilterLowCount(false)}
             className="tag-list__show-more"
           >
-            Show more
+            Show more tags
           </button>
         )}
       </div>
