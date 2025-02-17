@@ -6,7 +6,7 @@
   --blue: #00a8e1;
 
   --primary-color: #00bfae;
-  --seconary-color: #ffb300;
+  --secondary-color: #ffb300;
   --tag-color: #00a8e1;
   --license-color: #d5006d;
   --fave-color: #ffb300;
@@ -81,12 +81,12 @@ button {
   background: var(--primary-color);
   color: white;
   border-radius: 8px;
-  box-shadow: 6px 6px var(--seconary-color);
+  box-shadow: 6px 6px var(--secondary-color);
   transition: all 100ms;
 }
 
 .app__random-button:active {
-  box-shadow: 4px 4px var(--seconary-color);
+  box-shadow: 4px 4px var(--secondary-color);
   transform: translate(2px, 2px);
 }
 
@@ -100,4 +100,26 @@ footer > a:hover,
 footer > a:active {
   color: black;
   text-decoration: underline wavy var(--green);
+}
+
+.sticky-player {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  max-width: 800px;
+  box-shadow: 0 0 8px 0 #00000055;
+  /* box-shadow: 0 0 8px 0 #d2d2d2; */
+  border-top: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+}
+
+.sticky-player > iframe {
+  border: none;
+  background: white;
+  width: 700px;
+  height: 42px;
+  display: block;
 }

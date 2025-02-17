@@ -27,10 +27,12 @@
 }
 
 .url-list__listing {
+  position: relative;
   border: 1px solid var(--green);
   padding: 1rem 0.75rem;
   margin: 2rem 0;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .url-list__listing.url-list__listing--fave {
@@ -75,4 +77,22 @@
 
 .url-list__not-found {
   margin: 6rem 0 5rem;
+}
+
+.url-list__listen {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: none;
+  border: none;
+  margin-left: 0.5rem;
+  background: var(--primary-color);
+  color: white;
+  padding: calc(0.5em + 1px) 0.75em 0.5em calc(0.75em + 1px);
+  /* padding: 0.5em 0.75em; */
+  border-top-left-radius: 5px;
+}
+
+.url-list__listen.url-list__listen--fave {
+  background: var(--fave-color);
 }

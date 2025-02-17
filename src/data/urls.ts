@@ -4,6 +4,7 @@ const urls = [
     url: "https://roelfuncken.bandcamp.com/album/parts",
     title: "Parts | Funckarma | Roel Funcken",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1216547581,
     tags: [1, 2, 3, 4, 5, 6, 7],
   },
   {
@@ -11,6 +12,7 @@ const urls = [
     url: "https://kratzen.bandcamp.com/album/iii",
     title: "III | Kratzen",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2529545644,
     tags: [8, 9, 10, 11, 12, 13],
   },
   {
@@ -18,6 +20,7 @@ const urls = [
     url: "https://gardaofficial.bandcamp.com/album/boards-of-canada-reworked",
     title: "Boards of Canada (Reworked) | Garda",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4047431861,
     tags: [1, 14, 2, 15, 16, 17],
   },
   {
@@ -25,6 +28,7 @@ const urls = [
     url: "https://leerosevere.bandcamp.com/album/hold-music",
     title: "Hold Music | Lee Rosevere",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4229619712,
     tags: [1, 2, 18, 19, 20, 21, 22, 23, 24, 25, 26],
   },
   {
@@ -32,6 +36,7 @@ const urls = [
     url: "https://brouqade.bandcamp.com/album/bqd039-oshana-multiverse-ep",
     title: "BQD039 Oshana Multiverse EP | Oshana | BROUQADE",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1097109266,
     tags: [1, 27, 28, 29, 30, 31, 32],
   },
   {
@@ -39,6 +44,7 @@ const urls = [
     url: "https://ruohorecords.bandcamp.com/album/chalak-at-sit",
     title: "chalak’At’sit | Ruoho Ruotsi | Ruoho Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2952820119,
     tags: [1, 33, 34, 2, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
   },
   {
@@ -46,6 +52,7 @@ const urls = [
     url: "https://hannahtelle.bandcamp.com/album/waking-up-to-tomorrow",
     title: "Waking Up to Tomorrow | Hannah Telle",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3918971748,
     tags: [8, 45, 46, 47, 48, 49, 50, 51, 12, 52, 53, 32],
   },
   {
@@ -54,6 +61,7 @@ const urls = [
     title:
       "(34.0851500, -118.2068100) | Eternal Raays, The Growth Eternal, Raays | The Growth Eternal",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 388471168,
     tags: [54, 55, 56, 54, 21, 32],
   },
   {
@@ -61,6 +69,7 @@ const urls = [
     url: "https://manytinyboxes.bandcamp.com/album/many-tiny-boxes",
     title: "many tiny boxes | many tiny boxes",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 850254664,
     tags: [8, 1, 54, 57, 58, 57],
   },
   {
@@ -69,6 +78,7 @@ const urls = [
     title:
       "12 Inch Dance - 70s Groove. Vol.2 | Various Artists | 12 Inch Dance",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1275690794,
     tags: [59, 1, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69],
   },
   {
@@ -76,6 +86,7 @@ const urls = [
     url: "https://12inchdance.bandcamp.com/album/12-inch-dance-chilled-vol-2",
     title: "12 Inch Dance Chilled, Vol. 2 | Various Artists | 12 Inch Dance",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 4069728676,
     tags: [59, 70, 1, 71, 72, 73, 61, 64, 65, 66, 67, 69],
   },
   {
@@ -83,6 +94,7 @@ const urls = [
     url: "https://velocityforgerecords.bandcamp.com/album/drum-bass-assassins-part-2",
     title: "Drum & Bass Assassins Part 2 | Velocity Forge Records",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1825823218,
     tags: [74, 75, 76, 77, 78, 79, 80, 81, 1, 82, 83, 84, 85, 86, 87, 88, 89],
   },
   {
@@ -90,6 +102,7 @@ const urls = [
     url: "https://christtt.bandcamp.com/album/no-lives-matter",
     title: "no lives matter | chris††† | christtt",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 545701119,
     tags: [1, 90, 91, 92, 93],
   },
   {
@@ -97,6 +110,7 @@ const urls = [
     url: "https://adamzerarez.bandcamp.com/album/ds-days",
     title: "DS DAYS | Adam Zerarez",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1884348018,
     tags: [54, 94, 95, 94, 21, 96, 97, 98],
   },
   {
@@ -104,6 +118,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/cyberspace-database",
     title: "Cyberspace Database | Fornax Void | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 492938440,
     tags: [2, 99, 100, 101, 1, 5, 102, 103, 104, 105],
   },
   {
@@ -111,6 +126,7 @@ const urls = [
     url: "https://royb0t.bandcamp.com/album/void-glide",
     title: "Void Glide | royb0t",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2061219179,
     tags: [106, 1, 107, 108, 109, 110, 111, 112],
   },
   {
@@ -118,6 +134,7 @@ const urls = [
     url: "https://sleeplesstapes.bandcamp.com/album/welcome-to-aloe-island",
     title: "Welcome to Aloe Island | Aloe Island Posse | Sleepless Tapes",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 560390947,
     tags: [1, 54, 92, 113, 114],
   },
   {
@@ -125,6 +142,7 @@ const urls = [
     url: "https://lavidaesunmus.bandcamp.com/album/games-of-power-2",
     title: "Games Of Power | Home Front | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 546769456,
     tags: [115, 116, 117, 118, 57, 30, 119, 120, 121, 117, 12, 122],
   },
   {
@@ -132,6 +150,7 @@ const urls = [
     url: "https://lavidaesunmus.bandcamp.com/album/collection-lp",
     title: "Collection LP | Rixe | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 764610441,
     tags: [117, 118, 123, 124, 121, 117, 125, 122],
   },
   {
@@ -139,6 +158,7 @@ const urls = [
     url: "https://moncul.bandcamp.com/album/litovsk",
     title: "Litovsk | LITOVSK | ET MON CUL C'EST DU TOFU ?",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 829821321,
     tags: [126, 127, 117, 128, 120, 129, 130],
   },
   {
@@ -146,6 +166,7 @@ const urls = [
     url: "https://tvgirl.bandcamp.com/album/french-exit",
     title: "French Exit | TV Girl",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1257160096,
     tags: [1, 131, 132, 96, 133, 1, 94, 132, 134, 135, 136, 96, 32],
   },
   {
@@ -153,6 +174,7 @@ const urls = [
     url: "https://flowernewyorkcity.bandcamp.com/album/hardly-a-dream",
     title: "Hardly A Dream | Flower",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3752930664,
     tags: [117, 137, 138, 117, 69],
   },
   {
@@ -160,6 +182,7 @@ const urls = [
     url: "https://donniepropa.bandcamp.com/album/straight-from-the-crate-cave-biggie-smalls-edition",
     title: "Straight From The Crate Cave. Biggie Smalls Edition | Donnie Propa",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2382503962,
     tags: [131, 95, 139, 140, 141],
   },
   {
@@ -167,6 +190,7 @@ const urls = [
     url: "https://donniepropa.bandcamp.com/album/straight-from-the-crate-cave-rawkus-edition",
     title: "Straight From The Crate Cave - Rawkus Edition | Donnie Propa",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 642017840,
     tags: [142, 131, 95, 143, 139, 144, 140, 141],
   },
   {
@@ -174,6 +198,7 @@ const urls = [
     url: "https://mattbloom.bandcamp.com/album/notes-from-yosemite-edition-one",
     title: "Notes From Yosemite / Edition One | Matt Bloom",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2284853530,
     tags: [54, 95, 145, 2, 56, 135, 146],
   },
   {
@@ -181,6 +206,7 @@ const urls = [
     url: "https://donniepropa.bandcamp.com/album/straight-from-the-crate-cave-the-evil-edition",
     title: "Straight From The Crate Cave. The EVIL EDition | Donnie Propa",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 823757775,
     tags: [131, 95, 139, 140, 141],
   },
   {
@@ -188,6 +214,7 @@ const urls = [
     url: "https://tonepoet.bandcamp.com/album/weve-come-undone-2",
     title: "We've Come Undone | Tonepoet",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1725593516,
     tags: [
       2, 2, 99, 147, 148, 149, 54, 150, 21, 42, 151, 152, 12, 153, 25, 154,
     ],
@@ -197,6 +224,7 @@ const urls = [
     url: "https://tonepoet.bandcamp.com/album/headspace",
     title: "Headspace | Tonepoet",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2954431174,
     tags: [
       2, 2, 99, 147, 148, 149, 54, 150, 21, 42, 151, 152, 12, 153, 25, 154,
     ],
@@ -206,6 +234,7 @@ const urls = [
     url: "https://monkeytypingpool.bandcamp.com/album/maybeness",
     title: "Maybeness | The Parabola Group | Monkey Typing Pool",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 687099286,
     tags: [8, 155, 156],
   },
   {
@@ -213,6 +242,7 @@ const urls = [
     url: "https://maxwaves.bandcamp.com/album/music-for-microworlds",
     title: "Music for Microworlds | Max Waves",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2937699591,
     tags: [2, 35, 157, 158, 35, 147, 1, 159, 160, 89],
   },
   {
@@ -220,6 +250,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/entering-the-body-by-way-of-window",
     title: "Entering the Body by Way of Window | Blanket Swimming | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3291216964,
     tags: [1, 54, 161, 2, 162, 163, 164, 165],
   },
   {
@@ -227,6 +258,7 @@ const urls = [
     url: "https://sevenism.bandcamp.com/album/life-still",
     title: "life still | sevenism",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3241089746,
     tags: [1, 2, 166, 167, 54, 129, 141],
   },
   {
@@ -234,6 +266,7 @@ const urls = [
     url: "https://sevenism.bandcamp.com/album/saw-ii-cd3mix",
     title: "saw ii cd3mix | sevenism",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4140048221,
     tags: [1, 2, 166, 167, 54, 129, 141],
   },
   {
@@ -241,6 +274,7 @@ const urls = [
     url: "https://cousinsilas1.bandcamp.com/album/emporium-drone-017",
     title: "Emporium Drone 017 | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 305248025,
     tags: [2, 167, 1, 54, 150, 168, 169, 170, 141],
   },
   {
@@ -248,6 +282,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/stories-live-in-time",
     title: "Stories Live in Time | Mabisyo | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1771571805,
     tags: [171, 172, 173, 174, 1, 54, 175, 90, 92, 105],
   },
   {
@@ -255,6 +290,7 @@ const urls = [
     url: "https://miamipalm.bandcamp.com/album/clouds-under-nicotine-extended-edition",
     title: "Clouds Under Nicotine [Extended Edition] | Mabisyo | Miami Palm",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2052235838,
     tags: [1, 54, 35, 176, 177, 90, 178, 92, 179],
   },
   {
@@ -262,6 +298,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/cursed-mall-the-soundtrack",
     title: "Cursed Mall (The Soundtrack) | AWITW | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 640983558,
     tags: [180, 54, 181, 182, 183, 184, 90, 185, 186, 187, 92, 188, 189],
   },
   {
@@ -269,6 +306,7 @@ const urls = [
     url: "https://deafheavens.bandcamp.com/album/demo",
     title: "demo | Deafheaven",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 116151259,
     tags: [8, 190, 191, 192, 132, 146],
   },
   {
@@ -276,6 +314,7 @@ const urls = [
     url: "https://glassing.bandcamp.com/album/from-the-other-side-of-the-mirror-2",
     title: "From the Other Side of the Mirror | Glassing",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2274036953,
     tags: [193, 190, 194, 195, 152, 196, 197],
   },
   {
@@ -283,6 +322,7 @@ const urls = [
     url: "https://matthewlyon.bandcamp.com/album/passage-of-remnants",
     title: "Passage of Remnants | Matthew Lyon",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3584382801,
     tags: [1, 148, 198, 1, 109, 21, 128, 199, 200],
   },
   {
@@ -290,6 +330,7 @@ const urls = [
     url: "https://dexterbritain.bandcamp.com/album/creative-commons-volume-4",
     title: "Creative Commons Volume. 4 | Dexter Britain",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2828508109,
     tags: [1, 25, 201, 2, 202, 203, 141],
   },
   {
@@ -297,6 +338,7 @@ const urls = [
     url: "https://dexterbritain.bandcamp.com/album/creative-commons-volume-3",
     title: "Creative Commons Volume. 3 | Dexter Britain",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1594322600,
     tags: [1, 25, 201, 2, 202, 203, 141],
   },
   {
@@ -305,6 +347,7 @@ const urls = [
     title:
       "Complete Discography (Creative Commons BY 4.0) | Alexander Nakarada",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1560542386,
     tags: [204, 190, 25, 99, 204, 205, 206, 199, 190, 207, 208, 192, 209],
   },
   {
@@ -312,6 +355,7 @@ const urls = [
     url: "https://kevinmacleod.bandcamp.com/album/complete-collection-creative-commons",
     title: "Complete Collection (Creative Commons) | Kevin MacLeod",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1029513932,
     tags: [25, 210, 211, 212, 213, 214, 215, 216],
   },
   {
@@ -319,6 +363,7 @@ const urls = [
     url: "https://greendjohn.bandcamp.com/album/string-theory",
     title: "String Theory | GreenDjohn",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1024319537,
     tags: [217, 2, 39, 150, 218, 21, 219, 25, 220],
   },
   {
@@ -326,6 +371,7 @@ const urls = [
     url: "https://soundofjw.bandcamp.com/album/oblitus",
     title: "Oblitus | Josh Whelchel",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3753574754,
     tags: [221, 222, 25, 223, 97, 35, 224, 109, 225, 21, 226, 227],
   },
   {
@@ -333,6 +379,7 @@ const urls = [
     url: "https://chriszabriskie.bandcamp.com/album/preludes",
     title: "Preludes | Chris Zabriskie",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 427797925,
     tags: [2, 228, 1, 54, 21, 229, 230],
   },
   {
@@ -340,6 +387,7 @@ const urls = [
     url: "https://chriszabriskie.bandcamp.com/album/its-a-wonderful-jaws",
     title: "It's a Wonderful Jaws | Chris Zabriskie",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2947545339,
     tags: [2, 228, 1, 54, 21, 230],
   },
   {
@@ -347,6 +395,7 @@ const urls = [
     url: "https://rootsofunity.bandcamp.com/album/other-cathedral",
     title: "Other Cathedral | Roots of Unity",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2324742326,
     tags: [231, 54, 232, 233, 127, 234, 235],
   },
   {
@@ -355,6 +404,7 @@ const urls = [
     title:
       "Blood Too Thick Symptoms | The Sons of David Ginola | The House Organ",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1109379529,
     tags: [54, 35, 236, 231, 237, 167, 238, 239, 127, 240],
   },
   {
@@ -362,6 +412,7 @@ const urls = [
     url: "https://scottlawlor.bandcamp.com/album/turn-around-and-youre-dead-in-your-dreams",
     title: "Turn Around and You're Dead in Your Dreams | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4034723418,
     tags: [2, 241, 167, 1, 242, 42, 153, 159, 243],
   },
   {
@@ -369,6 +420,7 @@ const urls = [
     url: "https://scottlawlor.bandcamp.com/album/floccinaucinihilipilification",
     title: "Floccinaucinihilipilification | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3959012104,
     tags: [2, 244, 241, 167, 1, 54, 245, 42, 159, 243],
   },
   {
@@ -376,6 +428,7 @@ const urls = [
     url: "https://kilowatts.bandcamp.com/album/live-at-the-gatherings-04272024",
     title: "Live At The Gatherings - 04.27.2024 | KiloWatts",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1048907231,
     tags: [2, 1, 5, 16, 246, 229, 247],
   },
   {
@@ -383,6 +436,7 @@ const urls = [
     url: "https://somatoast.bandcamp.com/album/mythology-10-years-of-somatoast",
     title: "Mythology: 10 Years of Somatoast | Somatoast",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 837269933,
     tags: [1, 5, 2, 35, 148, 248, 249, 109, 4, 153, 250],
   },
   {
@@ -390,6 +444,7 @@ const urls = [
     url: "https://quintessencerec.bandcamp.com/album/different-realities-ep",
     title: "Different Realities (EP) | Yons & Fifs | Quintessence Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2930402533,
     tags: [251, 1, 252, 253, 251, 254, 255, 1, 252, 253, 256, 257, 258],
   },
   {
@@ -397,6 +452,7 @@ const urls = [
     url: "https://darkfractal.bandcamp.com/album/mysterious-mentor",
     title: "Mysterious Mentor | Dark Fractal",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 42009491,
     tags: [259, 260, 1, 261],
   },
   {
@@ -404,6 +460,7 @@ const urls = [
     url: "https://asrecords.bandcamp.com/album/into-the-starless-night",
     title: "Into the Starless Night | v/a | Absolut Shit Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1874692334,
     tags: [1, 262, 251, 255, 263, 253, 197],
   },
   {
@@ -411,6 +468,7 @@ const urls = [
     url: "https://tatewarirecords.bandcamp.com/album/coatlicue",
     title: "COATLICUE | Der Sandmann | TATEWARI RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2170943781,
     tags: [1, 264, 265, 263, 266, 252, 267],
   },
   {
@@ -419,6 +477,7 @@ const urls = [
     title:
       "Audionimus - The Effect of World And Environment [LP] | Audionimus | Mighty Vibrations Rec.",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3540889620,
     tags: [268, 54, 263, 269, 253, 270, 271],
   },
   {
@@ -426,6 +485,7 @@ const urls = [
     url: "https://vandvl.bandcamp.com/album/fuck-apocalypse-breakcore-ru",
     title: "FUCK APOCALYPSE! [BREAKCORE.RU] | VANDVL",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1738927330,
     tags: [1, 5, 272, 273, 274, 275, 276, 277, 278, 279],
   },
   {
@@ -433,6 +493,7 @@ const urls = [
     url: "https://blaerg.bandcamp.com/album/everything-was-altered",
     title: "Everything was Altered | BLÆRG",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 626823618,
     tags: [1, 5, 273],
   },
   {
@@ -440,6 +501,7 @@ const urls = [
     url: "https://upscalehq.bandcamp.com/album/floral-strobe",
     title: "Floral Strobe | False Noise | Upscale",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3405226567,
     tags: [1, 280, 54, 5, 281, 282, 283],
   },
   {
@@ -447,6 +509,7 @@ const urls = [
     url: "https://rawt.bandcamp.com/album/huaze",
     title: "HUAZE | RAWT",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 598752405,
     tags: [1, 54, 284, 4, 130],
   },
   {
@@ -454,6 +517,7 @@ const urls = [
     url: "https://laevent.bandcamp.com/album/formulation-ii",
     title: "formulation ii | laevent",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2017368786,
     tags: [285, 1, 286, 113, 287, 288, 289],
   },
   {
@@ -461,6 +525,7 @@ const urls = [
     url: "https://seynoe.bandcamp.com/album/soulbound",
     title: "SoulBound | SeyNoe",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3033644713,
     tags: [1, 54, 290, 291, 292, 293, 294],
   },
   {
@@ -468,6 +533,7 @@ const urls = [
     url: "https://seynoe.bandcamp.com/album/aerial",
     title: "AERIAL!! | SeyNoe",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3459772090,
     tags: [1, 54, 295, 290, 291, 296, 288, 292, 294],
   },
   {
@@ -475,6 +541,7 @@ const urls = [
     url: "https://seynoe.bandcamp.com/album/xyz",
     title: "XYZ | SeyNoe",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2068442890,
     tags: [1, 54, 290, 291, 292, 294],
   },
   {
@@ -482,6 +549,7 @@ const urls = [
     url: "https://vertigoaway.bandcamp.com/album/betai-pack3t-d4c",
     title: "betai-pack3t_d4c | vertigoaway",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 696431325,
     tags: [1, 54, 297, 298, 273, 299, 300, 301, 292, 302, 303, 304, 283],
   },
   {
@@ -489,6 +557,7 @@ const urls = [
     url: "https://minttt.bandcamp.com/album/homeostasis",
     title: "Homeostasis | MINTTT",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 834986010,
     tags: [8, 108, 57, 190, 305, 306, 12, 307, 308],
   },
   {
@@ -496,6 +565,7 @@ const urls = [
     url: "https://howibecameinvisible.bandcamp.com/album/voyagers",
     title: "VOYAGERS | How I Became Invisible",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3372786275,
     tags: [237, 117, 309, 2, 310, 311, 312, 21, 313, 314, 315, 316, 247],
   },
   {
@@ -503,6 +573,7 @@ const urls = [
     url: "https://howibecameinvisible.bandcamp.com/album/planetary",
     title: "Planetary | How I Became Invisible",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1635796132,
     tags: [237, 314, 117, 311, 313, 317, 314, 192, 318, 319, 316, 320, 247],
   },
   {
@@ -510,6 +581,7 @@ const urls = [
     url: "https://howibecameinvisible.bandcamp.com/album/the-same-floor",
     title: "The Same Floor | How I Became Invisible",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1148281720,
     tags: [
       237, 321, 117, 322, 323, 324, 311, 313, 325, 314, 326, 327, 328, 316, 247,
     ],
@@ -519,6 +591,7 @@ const urls = [
     url: "https://howibecameinvisible.bandcamp.com/album/better-or-the-next-best-thing",
     title: "better, or the next best thing | How I Became Invisible",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 422061562,
     tags: [237, 117, 311, 313, 314, 316, 247],
   },
   {
@@ -526,6 +599,7 @@ const urls = [
     url: "https://daisyandjane.bandcamp.com/album/rosemary",
     title: "Rosemary | Daisy & Jane",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2756115772,
     tags: [8, 9, 329, 120, 330, 69],
   },
   {
@@ -533,6 +607,7 @@ const urls = [
     url: "https://steviasphere.bandcamp.com/album/two-months-of-moments",
     title: "two months of moments | glaciaere | Stevia Sphere",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1887682366,
     tags: [1, 331, 228, 16, 332, 333, 334, 335, 92, 336],
   },
   {
@@ -540,6 +615,7 @@ const urls = [
     url: "https://imsitro.bandcamp.com/album/reality-bytes",
     title: "Reality Bytes | sitro",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 495522098,
     tags: [337, 338, 1, 295, 273, 90, 339],
   },
   {
@@ -547,6 +623,7 @@ const urls = [
     url: "https://dokxid.bandcamp.com/album/have-you-ever-thought-about-moving-to-another-planet",
     title: "have you ever thought about moving to another planet | dokxid",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1634823625,
     tags: [338, 1, 54, 2, 273, 54, 292, 306, 160, 282, 89],
   },
   {
@@ -555,6 +632,7 @@ const urls = [
     title:
       "Sleepover suicide pact | small mistake / drifting away | drifting away",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2151358458,
     tags: [54, 273, 340, 341, 342],
   },
   {
@@ -562,6 +640,7 @@ const urls = [
     url: "https://plasticneesound.bandcamp.com/album/--16",
     title: "▲ | Plastic Neesound",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 350834077,
     tags: [54, 343, 344, 90, 345, 346, 347],
   },
   {
@@ -569,6 +648,7 @@ const urls = [
     url: "https://plasticneesound.bandcamp.com/album/5uhnake5",
     title: "5uhnake5 | Plastic Neesound",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2263987291,
     tags: [54, 343, 344, 90, 345, 346, 347],
   },
   {
@@ -576,6 +656,7 @@ const urls = [
     url: "https://plasticneesound.bandcamp.com/album/lost-girls-ep",
     title: "Lost Girls EP | Plastic Neesound",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3143587063,
     tags: [54, 343, 344, 90, 345, 346, 347],
   },
   {
@@ -583,6 +664,7 @@ const urls = [
     url: "https://plasticneesound.bandcamp.com/album/hollow",
     title: "Hollow | Plastic Neesound",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3121722212,
     tags: [54, 343, 344, 127, 348, 90, 345, 346, 347],
   },
   {
@@ -590,6 +672,7 @@ const urls = [
     url: "https://asukrai.bandcamp.com/album/closed-space",
     title: "Closed Space | asukrai",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1365896881,
     tags: [2, 1, 35, 349, 167, 54, 153, 350],
   },
   {
@@ -598,6 +681,7 @@ const urls = [
     title:
       "Sounds from the Black Lodge: The Return - A Tribute to Twin Peaks, Vol. II | Various Artists | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3276979399,
     tags: [25, 351, 352, 105],
   },
   {
@@ -605,6 +689,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/maui-sands",
     title: "Maui Sands | Second∞Sight | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4156936680,
     tags: [1, 2, 135, 353, 187, 92, 130],
   },
   {
@@ -613,6 +698,7 @@ const urls = [
     title:
       "Ꮬ​Ꮲ​Ꮥ​Ꭹ​Ꮯ​Ꮋ​Ꮠ​Ꮸ​⛋​Ꮇ​Ꭼ​Ꮇ​Ꮕ​Ꮢ​Ꭵ​Ꭼ​Ꭶ​Ꮬ | Zadig The Jasp | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1400209929,
     tags: [1, 54, 182, 354, 355, 175, 183, 90, 92, 356],
   },
   {
@@ -620,6 +706,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/v3-1",
     title: "[​지​오 프​론​트​] v3​.​1 | 猫 シ Corp. | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1314989967,
     tags: [1, 99, 354, 183, 90, 185, 357, 92, 356],
   },
   {
@@ -627,6 +714,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/sparkling-water",
     title: "sparkling water | desert sand feels warm at night | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 17011406,
     tags: [1, 2, 182, 358, 183, 359, 92, 356],
   },
   {
@@ -634,6 +722,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/siren-song",
     title: "SIREN SONG | DARK DESIRE & GORE | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2823431913,
     tags: [1, 172, 360, 174, 16, 245, 175, 92, 356],
   },
   {
@@ -641,6 +730,7 @@ const urls = [
     url: "https://magdalenevapor.bandcamp.com/album/i-abandon-here-my-love",
     title: "I Abandon Here My Love | Magdalene",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3085015773,
     tags: [1, 172, 174, 16, 187, 92, 361],
   },
   {
@@ -648,6 +738,7 @@ const urls = [
     url: "https://opalvessel.bandcamp.com/album/the-eggs-dream",
     title: "The Egg's Dream | Opal Vessel",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2256813908,
     tags: [1, 172, 362, 16, 54, 175, 363, 333, 92, 361],
   },
   {
@@ -655,6 +746,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/slow-drive-2",
     title: "Slow Drive | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3486653322,
     tags: [1, 108, 364, 16, 109, 365, 356],
   },
   {
@@ -662,6 +754,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/f-a-b-l-e-s",
     title: "F A B L E S | THAT WAS THEN THIS IS NOW | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 956853679,
     tags: [1, 108, 364, 16, 109, 365, 356],
   },
   {
@@ -669,6 +762,7 @@ const urls = [
     url: "https://nenrecs.bandcamp.com/album/--19",
     title: "Вход | Всуе | NEN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2457451173,
     tags: [366, 367, 368, 369, 370, 130],
   },
   {
@@ -676,6 +770,7 @@ const urls = [
     url: "https://nobread.bandcamp.com/album/rvota-schlam-split-7",
     title: 'Rvota / Schlam - Split 7" | NO BREAD! records',
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 475348633,
     tags: [117, 371, 372, 373],
   },
   {
@@ -683,6 +778,7 @@ const urls = [
     url: "https://nobread.bandcamp.com/album/ankylym-v-lk-10",
     title: 'ANKYLYM - Völk 10" | NO BREAD! records',
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 142827968,
     tags: [117, 244, 374, 118, 373],
   },
   {
@@ -690,6 +786,7 @@ const urls = [
     url: "https://wingsofanangel.bandcamp.com/album/topography-of-sleep",
     title: "Topography of Sleep | Wings Of An Angel",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4069955482,
     tags: [
       2, 375, 376, 377, 167, 170, 378, 149, 54, 379, 380, 153, 25, 381, 320,
       382,
@@ -701,6 +798,7 @@ const urls = [
     title:
       "Hidden Trails in Dreamland | Puppy Bordiga w. Various | Puppy Bordiga",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3465331088,
     tags: [2, 167, 383, 150, 384],
   },
   {
@@ -708,6 +806,7 @@ const urls = [
     url: "https://cousinsilas1.bandcamp.com/album/quadrants-3-part-2",
     title: "Quadrants 3 - Part 2 | Various | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 222219250,
     tags: [2, 1, 54, 150, 168, 169, 141],
   },
   {
@@ -715,6 +814,7 @@ const urls = [
     url: "https://cousinsilas1.bandcamp.com/album/quadrants-3-part-1",
     title: "Quadrants 3 - Part 1 | Various | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1349189820,
     tags: [2, 1, 54, 150, 168, 169, 141],
   },
   {
@@ -722,6 +822,7 @@ const urls = [
     url: "https://cousinsilas1.bandcamp.com/album/quadrants-2-part-2",
     title: "Quadrants 2 - Part 2 | Various | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1611659269,
     tags: [2, 1, 54, 150, 168, 169, 141],
   },
   {
@@ -729,6 +830,7 @@ const urls = [
     url: "https://mxqidlove.bandcamp.com/album/when-we-were-vampires",
     title: "When We Were Vampires | Qid Love",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2868551461,
     tags: [54, 244, 148, 241, 385, 150, 386, 387, 44],
   },
   {
@@ -737,6 +839,7 @@ const urls = [
     title:
       "START THE TRACK: VOL. VIII (INSTRUMENTAL COMPILATION) | Start-track.com",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2740352844,
     tags: [2, 388, 389, 21, 135, 30, 390, 391],
   },
   {
@@ -745,6 +848,7 @@ const urls = [
     title:
       "START THE TRACK: VOL. VII (ELLIOTT SMITH COVERS COMPILATION) | Start-track.com",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2982520167,
     tags: [8, 133, 389, 392, 393, 134, 48, 135, 394, 391],
   },
   {
@@ -753,6 +857,7 @@ const urls = [
     title:
       "START THE TRACK: VOL V. (CHRISTMAS '23 COMPILATION) | Start-track.com",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2489632551,
     tags: [395, 8, 133, 396, 389, 45, 134, 48, 135, 394, 391],
   },
   {
@@ -760,6 +865,7 @@ const urls = [
     url: "https://bigbluebazooka.bandcamp.com/album/spaceship-to-jupiter-v",
     title: "Spaceship to Jupiter V | Big Blue Bazooka",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2599148789,
     tags: [
       397, 398, 1, 96, 399, 400, 401, 228, 402, 21, 403, 404, 405, 160, 98,
     ],
@@ -769,6 +875,7 @@ const urls = [
     url: "https://starttrack.bandcamp.com/album/fundraising-sampler-24",
     title: "FUNDRAISING SAMPLER '24 | Start-track.com",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3674637452,
     tags: [133, 389, 45, 134, 48, 406, 135, 394, 12, 391],
   },
   {
@@ -776,6 +883,7 @@ const urls = [
     url: "https://mute-city.bandcamp.com/album/total-resignation",
     title: "Total Resignation | Mute City",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3408130700,
     tags: [1, 5, 2, 21, 407, 408],
   },
   {
@@ -783,6 +891,7 @@ const urls = [
     url: "https://alexvanzyl.bandcamp.com/album/skyfall",
     title: "SKYFALL | Alex van Zyl",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4052331957,
     tags: [249, 54, 29, 108, 273, 291, 292, 409],
   },
   {
@@ -790,6 +899,7 @@ const urls = [
     url: "https://gayedevice.bandcamp.com/album/the-curious-heart",
     title: "The Curious Heart | THE GAYE DEVICE",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4267184452,
     tags: [1, 2, 241, 167, 109, 410, 411],
   },
   {
@@ -797,6 +907,7 @@ const urls = [
     url: "https://gayedevice.bandcamp.com/album/the-cut-sleeve",
     title: "The Cut Sleeve | THE GAYE DEVICE",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3547919295,
     tags: [1, 2, 241, 167, 109, 410, 411],
   },
   {
@@ -804,6 +915,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/the-ambient-archives-may-2023",
     title: "The ambient archives - May 2023 | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2071741845,
     tags: [
       2, 1, 54, 353, 375, 99, 244, 147, 228, 167, 41, 412, 42, 12, 169, 413,
     ],
@@ -813,6 +925,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/the-ambient-archives-january-2025",
     title: "The ambient archives - January 2025 | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1574197499,
     tags: [
       2, 54, 353, 99, 147, 228, 167, 1, 414, 415, 128, 42, 416, 12, 169, 413,
     ],
@@ -822,6 +935,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/the-ambient-archives-january-2024",
     title: "The ambient archives - January 2024 | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2007507330,
     tags: [
       2, 54, 353, 375, 99, 147, 228, 167, 417, 412, 42, 418, 12, 169, 400, 413,
     ],
@@ -831,6 +945,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/abstractions",
     title: "Abstractions | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 738734156,
     tags: [2, 54, 353, 419, 99, 244, 147, 228, 167, 42, 420, 12, 169, 413],
   },
   {
@@ -838,6 +953,7 @@ const urls = [
     url: "https://wingsofanangel.bandcamp.com/album/to-the-uncaught-serial-killer-of-holograms",
     title: "To The Uncaught Serial Killer Of Holograms | Wings Of An Angel",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 72150568,
     tags: [2, 376, 54, 379, 25, 320, 382],
   },
   {
@@ -845,6 +961,7 @@ const urls = [
     url: "https://wingsofanangel.bandcamp.com/album/luscious-secrets-of-the-sky",
     title: "Luscious Secrets Of The Sky | Wings Of An Angel",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3378325390,
     tags: [2, 99, 376, 54, 414, 379, 153, 25, 381, 320, 382],
   },
   {
@@ -852,6 +969,7 @@ const urls = [
     url: "https://kastrinakastrina.bandcamp.com/album/--7",
     title: "圣诞特别 | 卡死缇娜 | 愛ｋａｓｔｒｉｎａ愛",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4048068728,
     tags: [396, 1, 54, 2, 241, 421, 358, 422, 184, 90, 187, 423, 424],
   },
   {
@@ -859,6 +977,7 @@ const urls = [
     url: "https://kastrinakastrina.bandcamp.com/album/--11",
     title: "ＳＬＵＳＨＷＡＶＥ　２０２３ | 愛ｋａｓｔｒｉｎａ愛",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1492124804,
     tags: [1, 54, 2, 241, 421, 358, 422, 184, 333, 425, 187, 426, 92],
   },
   {
@@ -866,6 +985,7 @@ const urls = [
     url: "https://telepathtelepath.bandcamp.com/album/--9",
     title: "ゲートウェイ | t e l e p a t h テレパシー能力者 | 天火見",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1049118929,
     tags: [427, 2, 421, 428, 429, 430, 135, 422, 431, 432, 92, 433],
   },
   {
@@ -873,6 +993,7 @@ const urls = [
     url: "https://oceanshores.bandcamp.com/album/live-remixed-vol-2",
     title: "LIVE & REMIXED VOL. 2 | Ｏｃｅａｎ Ｓｈｏｒｅｓ",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1187666619,
     tags: [1, 2, 56, 434, 310, 54, 246, 128, 183, 435, 178, 92, 32],
   },
   {
@@ -880,6 +1001,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/all-hallows-screens",
     title: "All Hallows’ Screens | V/A | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 82838679,
     tags: [180, 54, 436, 182, 437, 438, 439, 440, 90, 185, 186, 92, 188, 189],
   },
   {
@@ -887,6 +1009,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/uberjams",
     title: "UBERJAMS | ᐱиɢə∟Шʌvə | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 109888210,
     tags: [180, 441, 428, 54, 442, 443, 343, 90, 185, 345, 444, 92, 189],
   },
   {
@@ -895,6 +1018,7 @@ const urls = [
     title:
       "but, yesterday was tomorrow. | TWAYNG McGRAW | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 117059272,
     tags: [180, 54, 445, 185, 446, 447, 448, 449, 92, 189],
   },
   {
@@ -903,6 +1027,7 @@ const urls = [
     title:
       "Internal Garden: Research Collection Six | Justin Wiggan | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 142917687,
     tags: [180, 54, 450, 451, 452, 453, 454, 185, 455, 92, 189],
   },
   {
@@ -910,6 +1035,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/villa-party",
     title: "Villa Party | Stux.io & Cliché64 | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 141381141,
     tags: [180, 54, 456, 174, 457, 185, 315, 458, 92, 189],
   },
   {
@@ -917,6 +1043,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/slumlord",
     title: "SLUMLORD | SLUMLORD | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 120855473,
     tags: [180, 54, 182, 29, 185, 459, 460, 461, 92, 189],
   },
   {
@@ -924,6 +1051,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/f10d",
     title: "F10D | 忠ps2節_ワーdevシュ_産code業 | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3251824521,
     tags: [180, 54, 462, 131, 90, 185, 463, 187, 464, 444, 92, 189],
   },
   {
@@ -931,6 +1059,7 @@ const urls = [
     url: "https://miamipalm.bandcamp.com/album/bitmaps",
     title: "失​わ​れ​た​メ​デ​ィ​ア Bitmaps! | S ▲ L V ▲ T I O N | Miami Palm",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1897912478,
     tags: [1, 54, 465, 174, 183, 186, 187, 92, 179],
   },
   {
@@ -938,6 +1067,7 @@ const urls = [
     url: "https://asi14.bandcamp.com/album/nostalgic-chiptune-183",
     title: "Nostalgic Chiptune 183 | Asilee Sound Group | asi14",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 503891706,
     tags: [466, 1, 467, 468],
   },
   {
@@ -945,6 +1075,7 @@ const urls = [
     url: "https://2mellomakes.bandcamp.com/album/memories-of-tokyo-to",
     title: "Memories Of Tokyo-To | 2 Mello",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3279436434,
     tags: [1, 94, 95, 139, 356],
   },
   {
@@ -952,6 +1083,7 @@ const urls = [
     url: "https://stonegood.bandcamp.com/album/super-hot",
     title: "Super Hot | Stonegood",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 146374099,
     tags: [469, 284, 470, 249, 106, 1, 54, 471, 472, 473, 435, 474],
   },
   {
@@ -959,6 +1091,7 @@ const urls = [
     url: "https://tfmarz.bandcamp.com/album/wtf-vol-1",
     title: "WTF VOL. 1 | TF Marz",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3463608150,
     tags: [475, 1, 476, 94, 477, 478, 139, 479, 27, 480, 481, 482, 283],
   },
   {
@@ -966,6 +1099,7 @@ const urls = [
     url: "https://chmuramusic.bandcamp.com/album/diffuse-qualia",
     title: "Diffuse [Qualia] | chmura",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1361703230,
     tags: [1, 469, 284, 16, 435, 483],
   },
   {
@@ -973,6 +1107,7 @@ const urls = [
     url: "https://huckjorris.bandcamp.com/album/nocturnal-memory",
     title: "Nocturnal Memory | huck.jorris x Supernatural | huck.jorris",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 995866324,
     tags: [249, 54, 484, 485, 16, 486, 487, 283],
   },
   {
@@ -980,6 +1115,7 @@ const urls = [
     url: "https://orendabass.bandcamp.com/album/shifting-sands",
     title: "Shifting Sands | Orenda",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2734440870,
     tags: [1, 284, 331, 249, 435, 488, 283],
   },
   {
@@ -988,6 +1124,7 @@ const urls = [
     title:
       "Adventure In Istanbul + Remixes [OUTTA021] | Byzantine Time Machine | Outtallectuals",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 560245144,
     tags: [122],
   },
   {
@@ -995,6 +1132,7 @@ const urls = [
     url: "https://wolf-tech.bandcamp.com/album/the-dream",
     title: "The Dream | WolfTech",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4018718782,
     tags: [
       16, 1, 4, 489, 490, 491, 492, 469, 421, 493, 494, 495, 496, 497, 498,
     ],
@@ -1004,6 +1142,7 @@ const urls = [
     url: "https://globular.bandcamp.com/album/long-grass-for-small-frogs",
     title: "Long Grass for Small Frogs | Globular",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3782076128,
     tags: [469, 499, 290, 248, 1, 109, 500, 50, 490, 141],
   },
   {
@@ -1011,6 +1150,7 @@ const urls = [
     url: "https://globular.bandcamp.com/album/in-formation-2",
     title: "In Formation | Globular",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3230206239,
     tags: [248, 1, 109, 500, 50, 490, 141],
   },
   {
@@ -1018,6 +1158,7 @@ const urls = [
     url: "https://nibana.bandcamp.com/album/nibana-ask-the-universe",
     title: "Nibana - Ask The Universe | Nibana",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3685712172,
     tags: [1, 501, 331, 16, 109, 502, 503, 50, 504, 505, 253, 315, 506],
   },
   {
@@ -1025,6 +1166,7 @@ const urls = [
     url: "https://neogoarecords.bandcamp.com/album/distant-instincts-ep",
     title: "Distant Instincts EP | Uth | Neogoa",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 419819067,
     tags: [1, 2, 331, 16, 507, 508, 509, 253, 257],
   },
   {
@@ -1032,6 +1174,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/seasons-of-chords-one",
     title: "Seasons of Chords - One | Various Artists | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2024725270,
     tags: [510, 1, 2, 37, 511, 512, 248, 513, 514, 414, 515, 153, 516, 517],
   },
   {
@@ -1039,6 +1182,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/the-end-of-time",
     title: "The End Of Time | Ilya Kozhevnikov | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 783995246,
     tags: [
       1, 518, 2, 470, 37, 511, 512, 248, 513, 514, 515, 199, 169, 516, 517,
     ],
@@ -1048,6 +1192,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/signs",
     title: "Signs | The Open Circle | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3183171100,
     tags: [
       1, 2, 331, 37, 511, 512, 248, 513, 514, 109, 515, 153, 516, 519, 517,
     ],
@@ -1057,6 +1202,7 @@ const urls = [
     url: "https://dropbydrop.bandcamp.com/album/drop-one",
     title: "Drop One | dropbydrop",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1443415060,
     tags: [520, 131, 478, 521, 522, 479, 523, 482, 292, 122],
   },
   {
@@ -1064,6 +1210,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/hx-21",
     title: "HX.21 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 205953881,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -1071,6 +1218,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/hx-18",
     title: "HX.18 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2899277247,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -1078,6 +1226,7 @@ const urls = [
     url: "https://lakimisalive.bandcamp.com/album/the-joe-pesci-ep",
     title: "The Joe Pesci EP | LAKIM",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1291401794,
     tags: [
       528, 56, 310, 1, 95, 29, 478, 479, 529, 530, 481, 531, 532, 533, 534,
     ],
@@ -1087,6 +1236,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/edits-vol-i",
     title: "EDITS VOL I | Ballads",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 891904301,
     tags: [
       535, 536, 338, 1, 537, 29, 443, 477, 523, 538, 539, 540, 480, 541, 542,
     ],
@@ -1096,6 +1246,7 @@ const urls = [
     url: "https://noisyrejects.bandcamp.com/album/ruinous-intnt",
     title: "RUINOUS INTNT | NoisyRejects",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4137420325,
     tags: [543, 54, 544, 127, 545, 546],
   },
   {
@@ -1103,6 +1254,7 @@ const urls = [
     url: "https://oliver-buckland.bandcamp.com/album/temptation-stairway-ost",
     title: "Temptation Stairway OST | Oliver Buckland",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3368151109,
     tags: [8, 25, 547, 548, 162, 1, 549, 229, 550, 551, 552, 141],
   },
   {
@@ -1111,6 +1263,7 @@ const urls = [
     title:
       'J.S. Bach: "Open" Goldberg Variations, BWV 988 (Piano) | Kimiko Ishizaka',
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4173461786,
     tags: [202, 553, 547, 554, 555, 556, 402, 21, 229, 557],
   },
   {
@@ -1118,6 +1271,7 @@ const urls = [
     url: "https://godspeedsound.bandcamp.com/album/--11",
     title: "自我殺人 | GODSPEED 音",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3033403828,
     tags: [
       558, 172, 470, 331, 174, 16, 559, 560, 21, 561, 354, 175, 25, 92, 562,
     ],
@@ -1128,6 +1282,7 @@ const urls = [
     title:
       "新​年​の​新​し​い​挑​戦 (Special Edition) | Male Alchemy | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4182786839,
     tags: [1, 54, 172, 563, 16, 354, 175, 92, 356],
   },
   {
@@ -1135,6 +1290,7 @@ const urls = [
     url: "https://magdalenevapor.bandcamp.com/album/carte-blanche",
     title: "Carte Blanche | Magdalene",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 346347812,
     tags: [1, 2, 172, 331, 174, 16, 175, 90, 187, 92, 361],
   },
   {
@@ -1142,6 +1298,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/soft-focus",
     title: "Soft Focus | Life Form | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3150701166,
     tags: [1, 2, 16, 101, 564, 565, 135, 353, 187, 92, 130],
   },
   {
@@ -1150,6 +1307,7 @@ const urls = [
     title:
       "今​の​と​こ​ろ​一​人​で | THE WORLD WE LIVE IN 星 | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1513048756,
     tags: [1, 141],
   },
   {
@@ -1157,6 +1315,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/cortes-nacionales",
     title: "Cortes Nacionales | VITRIOL | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 535935805,
     tags: [1, 566, 567, 568, 569, 141],
   },
   {
@@ -1164,6 +1323,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/guilt",
     title: "GUILT 罪​悪​感 | slowerpace 音楽 | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1543639150,
     tags: [1, 570, 571, 141],
   },
   {
@@ -1171,6 +1331,7 @@ const urls = [
     url: "https://hypnoticdirgerecords.bandcamp.com/album/inside",
     title: "Inside | Notturno | Hypnotic Dirge Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2270828001,
     tags: [193, 572, 573, 190, 574, 575, 576, 194, 152, 577, 578],
   },
   {
@@ -1178,6 +1339,7 @@ const urls = [
     url: "https://ihatesex.bandcamp.com/album/circle-thinking",
     title: "Circle Thinking | I Hate Sex",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1538637394,
     tags: [117, 579, 311, 580, 196, 581, 582],
   },
   {
@@ -1185,6 +1347,7 @@ const urls = [
     url: "https://foglake.bandcamp.com/album/dragonchaser",
     title: "dragonchaser | Fog Lake",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3457406560,
     tags: [8, 583, 133, 584, 585, 135, 586, 192, 53, 587, 588],
   },
   {
@@ -1192,6 +1355,7 @@ const urls = [
     url: "https://peggy-p.bandcamp.com/album/groove-digger",
     title: "Groove Digger | Peggy_P",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4043473086,
     tags: [589, 590, 591, 592, 593, 594, 595],
   },
   {
@@ -1199,6 +1363,7 @@ const urls = [
     url: "https://ph0tonofficial.bandcamp.com/album/anyone-out-there",
     title: "...Anyone Out There | Ph0ton",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3422946967,
     tags: [589, 596, 591, 597, 90, 594, 356],
   },
   {
@@ -1207,6 +1372,7 @@ const urls = [
     title:
       "an endless void of spinning bad memories | Chvrchbvrner | Gibusnipu",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3587514560,
     tags: [54, 2, 241, 74, 127, 598, 599, 600],
   },
   {
@@ -1214,6 +1380,7 @@ const urls = [
     url: "https://chvrchbvrning.bandcamp.com/album/digital-flowers-analogue-fields",
     title: "Digital Flowers & Analogue Fields | Chvrchbvrner",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 228298421,
     tags: [1, 5, 273, 241, 57, 127, 315, 601, 600],
   },
   {
@@ -1221,6 +1388,7 @@ const urls = [
     url: "https://non-serviam.bandcamp.com/album/labyrinthe-ep",
     title: "Labyrinthe (EP) | Non Serviam",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1749408308,
     tags: [
       193, 602, 190, 603, 604, 555, 605, 606, 194, 371, 306, 372, 607, 608, 506,
     ],
@@ -1230,6 +1398,7 @@ const urls = [
     url: "https://theutter.bandcamp.com/album/pareidolia",
     title: "Pareidolia | The Utter",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 626961583,
     tags: [193, 609, 192, 166, 610, 54, 245, 141],
   },
   {
@@ -1237,6 +1406,7 @@ const urls = [
     url: "https://kekal.bandcamp.com/album/envisaged",
     title: "Envisaged | Kekal",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 931779132,
     tags: [1, 611, 190, 609, 612, 613, 614, 615, 616, 152, 617, 618],
   },
   {
@@ -1244,6 +1414,7 @@ const urls = [
     url: "https://screamatthesky.bandcamp.com/album/scream-at-the-sky",
     title: "Scream At The Sky | Scream At The Sky",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1665501576,
     tags: [301, 190, 117, 371, 619, 127, 620, 621],
   },
   {
@@ -1251,6 +1422,7 @@ const urls = [
     url: "https://sunworship.bandcamp.com/album/upon-the-hills-of-divination",
     title: "Upon the Hills of Divination | Sun Worship",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3422444576,
     tags: [190, 193, 241, 622, 623, 624, 89],
   },
   {
@@ -1258,6 +1430,7 @@ const urls = [
     url: "https://argwaan.bandcamp.com/album/violable",
     title: "Violable | Argwaan",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3621572966,
     tags: [575, 193, 572, 573, 190, 625],
   },
   {
@@ -1265,6 +1438,7 @@ const urls = [
     url: "https://skagos.bandcamp.com/album/chariot-sun-blazing",
     title: "Chariot Sun Blazing | Skagos",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3464072942,
     tags: [193, 626, 190, 200],
   },
   {
@@ -1272,6 +1446,7 @@ const urls = [
     url: "https://abstractvoid.bandcamp.com/album/back-to-reality",
     title: "Back to Reality | Abstract Void",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2774486833,
     tags: [627, 190, 575, 628, 629, 457, 54, 630, 631, 632, 616, 571, 315],
   },
   {
@@ -1279,6 +1454,7 @@ const urls = [
     url: "https://the4dboy.bandcamp.com/album/chipbreak-2",
     title: "Chipbreak 2 | 4Dboy",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2288170247,
     tags: [633, 338, 1, 273, 634, 466, 635, 636, 637, 638],
   },
   {
@@ -1286,6 +1462,7 @@ const urls = [
     url: "https://badcommandco.bandcamp.com/album/potioncore",
     title: "POTIONCORE | Noichan | Bad Command Co_",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 32245821,
     tags: [338, 1, 273, 634, 466, 301, 156],
   },
   {
@@ -1293,6 +1470,7 @@ const urls = [
     url: "https://manwomanchild.bandcamp.com/album/bellwether-single",
     title: "Bellwether [single] | Manwomanchild",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3290550337,
     tags: [192, 132, 48, 315, 247],
   },
   {
@@ -1300,6 +1478,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/techdog-4",
     title: "TECHDOG 4 | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2237250278,
     tags: [54, 5, 639, 640],
   },
   {
@@ -1307,6 +1486,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/pix-bit",
     title: "Pix & Bit | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1251695254,
     tags: [106, 54, 641, 642, 96, 643, 640],
   },
   {
@@ -1315,6 +1495,7 @@ const urls = [
     title:
       "Gay Aunt Jane's Static Caravan of Psychosomatic Crisis | Gay Aunt Jane | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 536445912,
     tags: [8, 54, 108, 273, 310, 44],
   },
   {
@@ -1322,6 +1503,7 @@ const urls = [
     url: "https://rawrdcore.bandcamp.com/album/doll",
     title: "DOLL | Yo-Yo Bingo | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 783689992,
     tags: [338, 54, 280, 644, 288, 44],
   },
   {
@@ -1329,6 +1511,7 @@ const urls = [
     url: "https://rawrdcore.bandcamp.com/album/sounds-from-the-cloud-vol-iv",
     title: "SOUNDS FROM THE CLOUD VOL. IV | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 936827352,
     tags: [54, 44],
   },
   {
@@ -1336,6 +1519,7 @@ const urls = [
     url: "https://yakuithemaid1.bandcamp.com/album/polyneuroparty",
     title: "Polyneuroparty | YAKUITHEMAID",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 657522861,
     tags: [54, 220],
   },
   {
@@ -1343,6 +1527,7 @@ const urls = [
     url: "https://kaitaithemaid.bandcamp.com/album/outrageous-2",
     title: "Outrageous | Kaitai The Maid",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 91327792,
     tags: [633, 54, 466, 135, 645, 637, 646, 647],
   },
   {
@@ -1350,6 +1535,7 @@ const urls = [
     url: "https://dopestarsinc.bandcamp.com/album/make-a-star-ep",
     title: "Make A Star EP | Dope Stars Inc.",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2834308856,
     tags: [
       8, 100, 310, 648, 649, 1, 650, 623, 651, 57, 602, 652, 190, 653, 192, 654,
       655,
@@ -1360,6 +1546,7 @@ const urls = [
     url: "https://coretothecore.bandcamp.com/album/core-to-the-core-volume-29-2022",
     title: "Core To The Core - Volume 29 (2022) | Core To The Core",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1163771463,
     tags: [
       656, 190, 657, 192, 658, 659, 660, 301, 661, 195, 616, 662, 502, 663, 664,
       665, 666,
@@ -1371,6 +1558,7 @@ const urls = [
     title:
       "V​​​​​​​.​​​​​​​A. - Azores & Metal Vol. #4 | Various Artists | Museu Heavy Metal Açoriano",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 510673775,
     tags: [190, 667],
   },
   {
@@ -1379,6 +1567,7 @@ const urls = [
     title:
       "Vol. 4 - OBSCENUS | AZOREAN HEAVY METAL 1980-2000 COLLECTION | Museu Heavy Metal Açoriano",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1362959975,
     tags: [190, 667],
   },
   {
@@ -1387,6 +1576,7 @@ const urls = [
     title:
       "Vol. 5 - HANGOVER / NECROPSIA | AZOREAN HEAVY METAL 1980-2000 COLLECTION | Museu Heavy Metal Açoriano",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1277247290,
     tags: [190, 667],
   },
   {
@@ -1394,6 +1584,7 @@ const urls = [
     url: "https://fire2theprisons.bandcamp.com/album/crust-and-gloom",
     title: "CRUST AND GLOOM | Fire To The Prisons",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3328220765,
     tags: [193, 190, 603, 137, 194, 668],
   },
   {
@@ -1401,6 +1592,7 @@ const urls = [
     url: "https://hxcantares.bandcamp.com/album/we-remain",
     title: "WE REMAIN | Foxy HxC Macfly [F.H.x.C.M]",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3550533854,
     tags: [1, 56, 669, 670, 405, 130],
   },
   {
@@ -1408,6 +1600,7 @@ const urls = [
     url: "https://johnnypanichiphop.bandcamp.com/album/voidspit",
     title: "Voidspit | Johnny Panic",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3292203358,
     tags: [95, 8, 671, 672, 132, 673, 674],
   },
   {
@@ -1415,6 +1608,7 @@ const urls = [
     url: "https://themtheys.bandcamp.com/album/record-of-resentment",
     title: "Record Of Resentment | Them Theys",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1775032785,
     tags: [311, 675, 117, 53, 230],
   },
   {
@@ -1422,6 +1616,7 @@ const urls = [
     url: "https://themtheys.bandcamp.com/album/the-silence-of-space",
     title: "The Silence Of Space | Them Theys",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 717845092,
     tags: [311, 675, 117, 230],
   },
   {
@@ -1429,6 +1624,7 @@ const urls = [
     url: "https://friendsinreallife.bandcamp.com/album/friends-in-real-life",
     title: "Friends In Real Life | Friends In Real Life",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 484773069,
     tags: [547, 676, 1, 96, 374, 117, 677],
   },
   {
@@ -1437,6 +1633,7 @@ const urls = [
     title:
       "There Is A Reason For Everything (Live In The Living Room) by Lee Scott, remixed by Tom Caruana | Lee Scott & Tom Caruana | Tom Caruana Remix Projects",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 258572841,
     tags: [95, 678, 591, 679, 680, 141],
   },
   {
@@ -1444,6 +1641,7 @@ const urls = [
     url: "https://donniepropa.bandcamp.com/album/straight-from-the-crate-cave-lewis-parker-edition",
     title: "Straight From The Crate Cave. Lewis Parker Edition | Donnie Propa",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2017618064,
     tags: [681, 142, 131, 95, 682, 139, 140, 683, 131, 141],
   },
   {
@@ -1451,6 +1649,7 @@ const urls = [
     url: "https://lapsky.bandcamp.com/album/instrumentals-vol-1",
     title: "Instrumentals vol. 1 | Lapsky",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 631059878,
     tags: [94, 95, 139, 16, 684, 405, 608, 685],
   },
   {
@@ -1458,6 +1657,7 @@ const urls = [
     url: "https://differentzen.bandcamp.com/album/bibione-ep",
     title: "Bibione EP | DifferentZen",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2646729064,
     tags: [95, 686, 687, 56, 545, 688],
   },
   {
@@ -1465,6 +1665,7 @@ const urls = [
     url: "https://differentzen.bandcamp.com/album/un-traditional",
     title: "(Un)traditional | DifferentZen",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1037945945,
     tags: [54, 131, 95, 686, 164, 687, 56, 689, 690, 545, 691, 688],
   },
   {
@@ -1472,6 +1673,7 @@ const urls = [
     url: "https://radek87.bandcamp.com/album/jupiter-split-call-for-obu",
     title: "Jupiter Split / Call For Obu | Radek87",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 700358734,
     tags: [692, 1, 99, 56, 331, 248, 564, 693, 292, 694],
   },
   {
@@ -1479,6 +1681,7 @@ const urls = [
     url: "https://dannydeepo.bandcamp.com/album/the-gentle-art-of-sampling-volume-2-skratch-music",
     title: "The Gentle Art of Sampling Volume 2 [Skratch Music] | Danny Deepo",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3519902365,
     tags: [1, 695, 696, 697, 698, 699, 700, 701, 702],
   },
   {
@@ -1486,6 +1689,7 @@ const urls = [
     url: "https://psykovsky.bandcamp.com/album/prostra-potustoronnego-zertsala",
     title: "Prostra Potustoronnego Zertsala | Psykovsky & Friends | Psykovsky",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1803770447,
     tags: [1, 54, 703, 1, 704, 253, 705],
   },
   {
@@ -1493,6 +1697,7 @@ const urls = [
     url: "https://asrecords.bandcamp.com/album/luuli-the-psycore-trilogy-ep3",
     title: "!luuli - The Psycore Trilogy EP3 | Absolut Shit Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2243507024,
     tags: [1, 262, 251, 255, 263, 253, 197],
   },
   {
@@ -1500,6 +1705,7 @@ const urls = [
     url: "https://e-kare.bandcamp.com/album/the-piss-cleaners-split",
     title: "The Piss Cleaner's Split | E-KARE",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4248381164,
     tags: [706, 1, 707, 708, 466, 237, 709, 710, 117, 711],
   },
   {
@@ -1507,6 +1713,7 @@ const urls = [
     url: "https://asrecords.bandcamp.com/album/where-shade-once-was",
     title: "Where Shade Once Was | v/a | Absolut Shit Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3254051235,
     tags: [1, 262, 251, 255, 263, 253, 197],
   },
   {
@@ -1514,6 +1721,7 @@ const urls = [
     url: "https://nonima.bandcamp.com/album/karmadebt",
     title: "Karmadebt | Nonima",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1269140598,
     tags: [
       2, 1, 54, 4, 5, 687, 712, 35, 54, 402, 713, 57, 714, 715, 716, 169, 141,
     ],
@@ -1523,6 +1731,7 @@ const urls = [
     url: "https://mitoma.bandcamp.com/album/fragments",
     title: "Fragments | Mitoma",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3579101787,
     tags: [2, 1, 54, 4, 717, 110, 141],
   },
   {
@@ -1530,6 +1739,7 @@ const urls = [
     url: "https://tsrono.bandcamp.com/album/anisotroph-4",
     title: "anisotroph₄ | tsrono",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3938455562,
     tags: [1, 29, 5, 107, 2, 3, 310, 28, 516, 356],
   },
   {
@@ -1537,6 +1747,7 @@ const urls = [
     url: "https://woulg.bandcamp.com/album/soap",
     title: "Soap | Woulg | woulg",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2242278672,
     tags: [1, 374, 4, 718, 719, 5, 720],
   },
   {
@@ -1544,6 +1755,7 @@ const urls = [
     url: "https://frequentaudio.bandcamp.com/album/dream-recall",
     title: "Dream Recall | Frequent",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3050876708,
     tags: [1, 721, 5, 16, 280, 281, 722],
   },
   {
@@ -1551,6 +1763,7 @@ const urls = [
     url: "https://sath04.bandcamp.com/album/hamcore",
     title: "Hamcore | sath",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 745326497,
     tags: [106, 1, 466, 723, 106, 724],
   },
   {
@@ -1558,6 +1771,7 @@ const urls = [
     url: "https://synovamusic.bandcamp.com/album/fan-club-edits-volume-3",
     title: "FAN CLUB EDITS VOLUME 3 | Synova",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 170862454,
     tags: [1, 249, 106, 54, 132, 32],
   },
   {
@@ -1565,6 +1779,7 @@ const urls = [
     url: "https://synovamusic.bandcamp.com/album/fan-club-edits-volume-1",
     title: "FAN CLUB EDITS VOLUME 1 | Synova",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 563603007,
     tags: [1, 249, 106, 54, 132, 32],
   },
   {
@@ -1572,6 +1787,7 @@ const urls = [
     url: "https://synovamusic.bandcamp.com/album/a-digital-notebook",
     title: "A Digital Notebook | Synova",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 874036752,
     tags: [1, 249, 106, 54, 132, 32],
   },
   {
@@ -1580,6 +1796,7 @@ const urls = [
     title:
       "MUGEN ∞ compilation vol.7 | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3279480148,
     tags: [273, 725, 1, 109, 726, 5, 727, 90, 728, 724],
   },
   {
@@ -1587,6 +1804,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/lolid-dream",
     title: "lolid dream | bukabukabukai | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 405840579,
     tags: [273, 1, 729, 724],
   },
   {
@@ -1594,6 +1812,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/i-feel-online",
     title: "i feel online | lhk | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 457945512,
     tags: [273, 338, 1, 730, 54, 724],
   },
   {
@@ -1601,6 +1820,7 @@ const urls = [
     url: "https://checkpoint303.bandcamp.com/album/checkpoint-tunes-remastered",
     title: "Checkpoint Tunes [Remastered] | Checkpoint 303",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4176451185,
     tags: [1, 731, 732, 733, 108, 734, 109, 54, 735, 114],
   },
   {
@@ -1608,6 +1828,7 @@ const urls = [
     url: "https://kassaoverall.bandcamp.com/album/shades-of-flu-2-2",
     title: "SHADES OF FLU 2 | Kassa Overall",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 427856087,
     tags: [736, 131, 94, 245, 139, 94, 245, 737, 738, 739, 139, 44],
   },
   {
@@ -1615,6 +1836,7 @@ const urls = [
     url: "https://empradio.bandcamp.com/album/blood-moon",
     title: "Blood Moon | SerpentEyes & Sutehx | EMP Radio",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2475899425,
     tags: [692, 338, 249, 1, 29, 516, 740, 249, 741, 6, 742, 743, 744],
   },
   {
@@ -1622,6 +1844,7 @@ const urls = [
     url: "https://amen-tal.bandcamp.com/album/amen-talist-round-5",
     title: "Amen-talist - Round 5 | Amen-tal",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3742518657,
     tags: [745, 273, 746, 54, 292, 747, 748],
   },
   {
@@ -1629,6 +1852,7 @@ const urls = [
     url: "https://peachesthewale.bandcamp.com/album/five",
     title: "Five | Peaches the Wale",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1652074902,
     tags: [1, 749, 280, 292, 750, 751, 752],
   },
   {
@@ -1636,6 +1860,7 @@ const urls = [
     url: "https://ptesquad.bandcamp.com/album/train-radio",
     title: "Train Radio | Pterodactyl Squad",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2501292190,
     tags: [753, 1, 754, 466, 755, 756, 757, 97, 758, 759, 498],
   },
   {
@@ -1643,6 +1868,7 @@ const urls = [
     url: "https://aliceffekt.bandcamp.com/album/dei-dain",
     title: "Dei Dain | aliceffekt",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4246216793,
     tags: [54, 5, 2, 466, 100, 57, 724],
   },
   {
@@ -1650,6 +1876,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/the-best-day",
     title: "The Best Day | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3030470592,
     tags: [106, 54, 29, 310, 96, 640],
   },
   {
@@ -1657,6 +1884,7 @@ const urls = [
     url: "https://idadeerz.bandcamp.com/album/modules-2015-2021",
     title: "modules 2015-2021 | ida deerz",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 538780591,
     tags: [1, 760, 466, 761, 762, 763, 625],
   },
   {
@@ -1664,6 +1892,7 @@ const urls = [
     url: "https://sparklecore.bandcamp.com/album/mailpup",
     title: "MAILPUP | MAILPUP | SPARKLECORE SOUNDSYSTEM",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3810689536,
     tags: [1, 273, 764, 639, 709, 765, 443, 591, 343, 766, 767, 768, 44],
   },
   {
@@ -1671,6 +1900,7 @@ const urls = [
     url: "https://sparklecore.bandcamp.com/album/alive",
     title: "ALIVE | Dj Orange | SPARKLECORE SOUNDSYSTEM",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3856679200,
     tags: [
       1, 769, 770, 310, 764, 249, 106, 639, 771, 379, 772, 767, 773, 774, 44,
     ],
@@ -1680,6 +1910,7 @@ const urls = [
     url: "https://gothicwvlff.bandcamp.com/album/maladaptive-nightmares",
     title: "maladaptive nightmares | gothicwvlff",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3501874780,
     tags: [
       1, 775, 776, 628, 777, 311, 639, 778, 90, 779, 780, 781, 782, 783, 784,
     ],
@@ -1689,6 +1920,7 @@ const urls = [
     url: "https://kavarimusic.bandcamp.com/album/laudanum",
     title: "Laudanum | KAVARI",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 19179270,
     tags: [8, 1, 785, 786, 2, 787, 249, 788, 127, 789],
   },
   {
@@ -1697,6 +1929,7 @@ const urls = [
     title:
       "LOLACORE VOL. 1: IS IT CALLED DARIACORE OR HYPERFLIP I FORGOT | Nico",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2829782859,
     tags: [1, 790, 725, 276, 29, 726, 443, 727, 591, 90, 791, 792, 294],
   },
   {
@@ -1704,6 +1937,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/--7",
     title: "新しいフォルダー (５) | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2439203250,
     tags: [273, 1, 793, 301, 794, 726, 795, 729, 727, 728, 724],
   },
   {
@@ -1711,6 +1945,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/we-never-die-ep",
     title: "we never die ep | pencil vs $$$$$$$$ | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1523977414,
     tags: [273, 1, 644, 288, 724],
   },
   {
@@ -1718,6 +1953,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/breakbouncer-fantasia",
     title: "Breakbouncer Fantasia | Afdez | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3498153405,
     tags: [2, 273, 338, 1, 644, 301, 29, 477, 796, 343, 724],
   },
   {
@@ -1725,6 +1961,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/sampler-vol-2",
     title: "深淵sampler vol.2 | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 574724046,
     tags: [797, 273, 280, 1, 443, 795, 477, 729, 343, 728, 798, 724],
   },
   {
@@ -1732,6 +1969,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/j-sampling-paradise-ep",
     title: "J Sampling Paradise EP | Pento_Baba. | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2205810224,
     tags: [273, 1, 793, 794, 795, 729, 724],
   },
   {
@@ -1739,6 +1977,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/ng-77-qop",
     title: "羅↓¡ng 楼77!qop | Ryo | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2178375609,
     tags: [273, 1, 793, 799, 727, 728, 800, 724],
   },
   {
@@ -1746,6 +1985,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/sampler-vol-5",
     title: "深淵sampler vol.5 | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 923174168,
     tags: [801, 273, 1, 765, 301, 795, 477, 729, 727, 724],
   },
   {
@@ -1753,6 +1993,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/popsv",
     title: "PopsV | LieDeeDonk | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 886806623,
     tags: [596, 802, 803, 1, 54, 804, 591, 139, 724],
   },
   {
@@ -1760,6 +2001,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/--4",
     title: "新しいフォルダー (４) | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 779538115,
     tags: [273, 1, 301, 5, 795, 729, 591, 343, 516, 724],
   },
   {
@@ -1768,6 +2010,7 @@ const urls = [
     title:
       "Shoebill / Himeko Katagiri Split | Shoebill / Himeko Katagiri | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 676809798,
     tags: [273, 805, 1, 729, 727, 724],
   },
   {
@@ -1775,6 +2018,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/--10",
     title: "新しいフォルダー (６) | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 534336900,
     tags: [273, 1, 793, 301, 794, 726, 729, 727, 724],
   },
   {
@@ -1782,6 +2026,7 @@ const urls = [
     url: "https://lanthanoide.bandcamp.com/album/clarity",
     title: "Clarity | Lanthan O'Ide",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1843079453,
     tags: [2],
   },
   {
@@ -1789,6 +2034,7 @@ const urls = [
     url: "https://wallmenis.bandcamp.com/album/stuff-i-had-put-into-hold-for-too-long-1-2",
     title: "Stuff I had put into hold for too long (1&2) | wallmenis",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2933992542,
     tags: [1, 669, 29, 315, 806],
   },
   {
@@ -1796,6 +2042,7 @@ const urls = [
     url: "https://sevish.bandcamp.com/album/human-astronomy",
     title: "Human Astronomy | Sevish",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 771996440,
     tags: [338, 1, 807, 808, 2, 99, 108, 280, 734, 1, 809, 810, 400, 811, 141],
   },
   {
@@ -1803,6 +2050,7 @@ const urls = [
     url: "https://dennismartensson.bandcamp.com/album/the-infinity-construct-chapter-2",
     title: "The Infinity Construct Chapter 2 | Dennis Martensson",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4164937650,
     tags: [660, 190, 661, 812, 617, 665, 660, 661, 812, 813, 617, 814],
   },
   {
@@ -1810,6 +2058,7 @@ const urls = [
     url: "https://necropolo.bandcamp.com/album/voyage-eclectique",
     title: "Voyage Eclectique | NecroPolo",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3527734938,
     tags: [753, 1, 190, 192, 466, 815],
   },
   {
@@ -1817,6 +2066,7 @@ const urls = [
     url: "https://d4xx.bandcamp.com/album/best-of-amiga-game-music-vol-2",
     title: "Best of Amiga Game Music - Vol. 2 | D4XX MUSIC",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3120879274,
     tags: [1, 816, 89],
   },
   {
@@ -1824,6 +2074,7 @@ const urls = [
     url: "https://mdvhimself.bandcamp.com/album/cosmos-cosmic-adventure",
     title: "Cosmo's Cosmic Adventure | Bobby Prince | mdvhimself",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 369705736,
     tags: [25, 817, 818, 819],
   },
   {
@@ -1831,6 +2082,7 @@ const urls = [
     url: "https://nobodysnailmachine.bandcamp.com/album/fallout-nevada-soundtrack",
     title: "Fallout: Nevada Soundtrack | Nobody's Nail Machine",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1892305083,
     tags: [25, 241, 167, 57, 763, 820],
   },
   {
@@ -1838,6 +2090,7 @@ const urls = [
     url: "https://microfunk.bandcamp.com/album/microfunk-ep",
     title: "Microfunk EP | Various Artists | Microfunk Music",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3643532685,
     tags: [338, 1, 5, 35, 470, 37, 109, 644, 4, 132, 288, 175, 821, 820],
   },
   {
@@ -1845,6 +2098,7 @@ const urls = [
     url: "https://aetheraudio.bandcamp.com/album/nexus",
     title: "Nexus | Aether",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2076003754,
     tags: [1, 822, 280, 249, 199, 823, 498],
   },
   {
@@ -1852,6 +2106,7 @@ const urls = [
     url: "https://yheti.bandcamp.com/album/everything-new-was-old",
     title: "Everything New Was Old | Yheti",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4027445900,
     tags: [824, 1, 5, 825, 56, 249, 54, 276, 559],
   },
   {
@@ -1859,6 +2114,7 @@ const urls = [
     url: "https://tonyjay.bandcamp.com/album/knife-is-but-a-dream",
     title: "Knife Is But A Dream | Tony Jay",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2656014778,
     tags: [96, 826, 827, 828, 829, 830, 146],
   },
   {
@@ -1866,6 +2122,7 @@ const urls = [
     url: "https://crashsymbols.bandcamp.com/album/starscape",
     title: "Starscape | Sungod | Crash Symbols",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 567461252,
     tags: [54, 107, 2, 831, 410, 42, 353, 50, 257, 832, 833],
   },
   {
@@ -1873,6 +2130,7 @@ const urls = [
     url: "https://karlcasey.bandcamp.com/album/white-bat-44",
     title: "White Bat 44 | Karl Casey",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1549797540,
     tags: [834, 1, 100, 835, 571, 315, 836],
   },
   {
@@ -1880,6 +2138,7 @@ const urls = [
     url: "https://karlcasey.bandcamp.com/album/greetings-from-hong-kong",
     title: "Greetings From Hong Kong | Karl Casey",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3824163601,
     tags: [834, 1, 100, 835, 571, 315, 836],
   },
   {
@@ -1887,6 +2146,7 @@ const urls = [
     url: "https://spacequesthistorian.bandcamp.com/album/police-quest-ii-a-fair-and-balanced-ep",
     title: "Police Quest II: A Fair and Balanced EP | Space Quest Historian",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3200521818,
     tags: [837, 544, 838, 25, 271],
   },
   {
@@ -1894,6 +2154,7 @@ const urls = [
     url: "https://spacequesthistorian.bandcamp.com/album/all-demons-must-go-to-hell-ost",
     title: "All Demons Must Go to Hell OST | Space Quest Historian",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2610249726,
     tags: [837, 544, 838, 25, 271],
   },
   {
@@ -1901,6 +2162,7 @@ const urls = [
     url: "https://rickyremedymusic.bandcamp.com/album/flip-pack-vol-1",
     title: "FLIP PACK VOL. 1 | Ricky Remedy",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1178572412,
     tags: [106, 839, 1, 131, 29, 435, 539, 284, 249, 179],
   },
   {
@@ -1908,6 +2170,7 @@ const urls = [
     url: "https://flybassmusic.bandcamp.com/album/flip-mix-vol-1-mixtape",
     title: "Flip Mix Vol.1 Mixtape | FLY",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3688945873,
     tags: [485, 338, 1, 435, 840, 841, 32],
   },
   {
@@ -1915,6 +2178,7 @@ const urls = [
     url: "https://5ammusic.bandcamp.com/album/5am-trio-well-fleeting-moments",
     title: "5AM Trio - Well Fleeting Moments | 5AM Trio | 5AM",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3702806378,
     tags: [54, 1, 54, 276, 4, 842, 843, 844, 245, 845, 247],
   },
   {
@@ -1922,6 +2186,7 @@ const urls = [
     url: "https://5ammusic.bandcamp.com/album/concentrated",
     title: "Concentrated | 5AM",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 618494500,
     tags: [54, 846, 847, 848, 276, 429, 4, 842, 844, 245, 845, 247],
   },
   {
@@ -1929,6 +2194,7 @@ const urls = [
     url: "https://breadwinnerbass.bandcamp.com/album/little-songs",
     title: "little songs | Bread Winner",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3771280701,
     tags: [1, 107, 56, 290, 249, 54, 276, 695, 4, 849, 850, 851, 852, 283],
   },
   {
@@ -1936,6 +2202,7 @@ const urls = [
     url: "https://crawdadsniper.bandcamp.com/album/mellifluous",
     title: "Mellifluous | crawdad sniper",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 720079081,
     tags: [338, 1, 469, 16, 249, 849, 841, 853],
   },
   {
@@ -1944,6 +2211,7 @@ const urls = [
     title:
       "Charli XCX - Brat (KK Extended Edits EP) | Charli XCX | Killer Kitsch",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4238702306,
     tags: [854, 855, 856, 857, 443, 96, 858, 859, 789],
   },
   {
@@ -1951,6 +2219,7 @@ const urls = [
     url: "https://neeiv.bandcamp.com/album/divas-ep-2",
     title: "DIVAS EP | Neeiv",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 967456117,
     tags: [1, 860],
   },
   {
@@ -1958,6 +2227,7 @@ const urls = [
     url: "https://chamos.bandcamp.com/album/from-erbil-to-amsterdam-edits",
     title: "From Erbil To Amsterdam (Edits) | CHAMOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1871984412,
     tags: [29, 861, 558, 862, 863, 864, 539, 469, 865, 866, 861, 7],
   },
   {
@@ -1965,6 +2235,7 @@ const urls = [
     url: "https://kuyaneil.bandcamp.com/album/sweetz-3",
     title: "SWEETZ | Kuya Neil",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 983785841,
     tags: [867, 1, 868, 869, 870, 787, 106, 644, 94, 288, 871, 872, 516, 98],
   },
   {
@@ -1972,6 +2243,7 @@ const urls = [
     url: "https://wilhelminamusic.bandcamp.com/album/salahilo",
     title: "SALAHILO | WILHELMINA",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1003877882,
     tags: [873, 1, 477, 558, 869, 787, 1, 874, 875, 876, 477, 877, 878, 879],
   },
   {
@@ -1979,6 +2251,7 @@ const urls = [
     url: "https://tromac.bandcamp.com/album/club-kit-vol-ii",
     title: "Club Kit Vol. II | Tromac",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2355356354,
     tags: [880, 881, 882, 883, 1, 477, 884, 885, 27, 886, 887, 888],
   },
   {
@@ -1986,6 +2259,7 @@ const urls = [
     url: "https://seandream.bandcamp.com/album/enter",
     title: "ENTER | Sean Dream",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4033594629,
     tags: [1, 54, 29, 478, 479, 435, 889, 890, 891, 892, 893, 532, 894],
   },
   {
@@ -1993,6 +2267,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/brat-pack",
     title: "BRAT PACK | Ballads",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1476463677,
     tags: [
       895, 1, 537, 896, 29, 897, 539, 898, 290, 855, 540, 890, 899, 541, 542,
     ],
@@ -2002,6 +2277,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/redefined-lp",
     title: "Redefined LP | Ballads",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 579036776,
     tags: [1, 641, 537, 29, 477, 139, 435, 523, 539, 27, 540, 311, 541, 542],
   },
   {
@@ -2009,6 +2285,7 @@ const urls = [
     url: "https://djsliink.bandcamp.com/album/charli-xcx-365-dj-sliink-remix-pack-clean-dirty",
     title: "Charli xcx - 365 (DJ Sliink Remix Pack ) Clean + Dirty | DJ Sliink",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1008633380,
     tags: [900, 1, 477, 901, 902, 792, 903],
   },
   {
@@ -2016,6 +2293,7 @@ const urls = [
     url: "https://djtray.bandcamp.com/album/jersey-club-remix-pack-001",
     title: "Jersey Club Remix Pack 001 | Dj Tray",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2637034236,
     tags: [1, 477, 904, 106, 29, 905, 879],
   },
   {
@@ -2023,6 +2301,7 @@ const urls = [
     url: "https://ikonika.bandcamp.com/album/details",
     title: "Details | Ikonika",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4247908050,
     tags: [906, 1, 29, 906, 787, 29, 516, 907, 122],
   },
   {
@@ -2030,6 +2309,7 @@ const urls = [
     url: "https://djkasir.bandcamp.com/album/flipside-3-remixes-edits",
     title: "FLIPSIDE 3 - Remixes & Edits | DJ Kasir",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1577748515,
     tags: [537, 95, 897, 908, 435, 539, 469, 909, 804, 910],
   },
   {
@@ -2038,6 +2318,7 @@ const urls = [
     title:
       "Lilian Bilotta - Indie Dance, Melodic Techno Pack Edit | Lilian Bilotta",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 638592571,
     tags: [911, 1, 912, 913, 914, 915, 916, 917, 918],
   },
   {
@@ -2045,6 +2326,7 @@ const urls = [
     url: "https://wearesanto.bandcamp.com/album/edit-pack-by-santo-vol-8",
     title: "EDIT PACK by SANTO vol 8 | SANTO",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 839722234,
     tags: [
       539, 537, 131, 95, 29, 897, 919, 920, 921, 787, 922, 923, 792, 924, 925,
     ],
@@ -2054,6 +2336,7 @@ const urls = [
     url: "https://xnywolf.bandcamp.com/album/sazon-season-3",
     title: "SAZON SEASON 3 | XNYWOLF",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2358934134,
     tags: [568, 926, 752],
   },
   {
@@ -2061,6 +2344,7 @@ const urls = [
     url: "https://osimmie.bandcamp.com/album/base",
     title: "BASE | O'SIMMIE",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3386071136,
     tags: [1, 787, 927],
   },
   {
@@ -2068,6 +2352,7 @@ const urls = [
     url: "https://htsrecords.bandcamp.com/album/seven-seas",
     title: "Seven Seas | HTS",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 746728210,
     tags: [1, 928, 787, 929, 930],
   },
   {
@@ -2075,6 +2360,7 @@ const urls = [
     url: "https://sskepticuk.bandcamp.com/album/papa-luvr-rock-da-house-ep",
     title: "Papa Luvr & Rock Da House EP | Skeptic",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 584709435,
     tags: [931, 1, 29, 523, 538, 932, 248, 564, 29, 933, 516, 934],
   },
   {
@@ -2082,6 +2368,7 @@ const urls = [
     url: "https://tssoundz.bandcamp.com/album/ts-summer-edits-vol-1",
     title: "TS Summer Edits Vol. 1 | TS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1047225021,
     tags: [290, 1, 564, 292, 564, 292, 531, 933, 413],
   },
   {
@@ -2089,6 +2376,7 @@ const urls = [
     url: "https://taleko.bandcamp.com/album/malvad-o-anthem",
     title: "Malvadão Anthem | Taleko",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1319112155,
     tags: [692, 1, 558, 469, 935, 936, 470, 937, 890, 429, 693, 21, 808, 308],
   },
   {
@@ -2096,6 +2384,7 @@ const urls = [
     url: "https://lolingo.bandcamp.com/album/lolingo-freaky-ft-elf",
     title: "Lolingo - Freaky ft. Elf | Lolingo",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3628619290,
     tags: [692, 1, 938, 939, 693, 21, 122],
   },
   {
@@ -2103,6 +2392,7 @@ const urls = [
     url: "https://hagan.bandcamp.com/album/hagan-edits",
     title: "Hagan Edits | Hagan",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1385172156,
     tags: [940, 941, 469, 1, 942, 861, 122],
   },
   {
@@ -2110,6 +2400,7 @@ const urls = [
     url: "https://saitbeats.bandcamp.com/album/soulection-sound-003-sa-t-edits",
     title: "Soulection Sound 003: Saï T (Edits) | Saï T",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3812301286,
     tags: [95, 478, 208, 130],
   },
   {
@@ -2117,6 +2408,7 @@ const urls = [
     url: "https://saitbeats.bandcamp.com/album/sa-t-edits-vol-2",
     title: "Saï T Edits Vol.2 | Saï T",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3906747520,
     tags: [95, 130],
   },
   {
@@ -2124,6 +2416,7 @@ const urls = [
     url: "https://deibeato.bandcamp.com/album/game-over-edit-pack-vol-1",
     title: "Game Over Edit Pack Vol.1 | Deibeato | deibeato",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2319042317,
     tags: [1, 537, 558, 889, 481, 7],
   },
   {
@@ -2131,6 +2424,7 @@ const urls = [
     url: "https://ritchrd.bandcamp.com/album/tattoo-w-breaks",
     title: "TATTOO W BREAKS | RITCHRD",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2577894722,
     tags: [1, 290, 564, 29, 292, 516, 339],
   },
   {
@@ -2138,6 +2432,7 @@ const urls = [
     url: "https://ritchrd.bandcamp.com/album/xcx-edits-i-must-delete-from-my-hd",
     title: "xcx edits i must delete from my HD | RITCHRD",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 324341345,
     tags: [1, 477, 290, 943, 922, 564, 29, 292, 516, 257, 339],
   },
   {
@@ -2145,6 +2440,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/mad-breaks-presents-vocalobreak",
     title: "MAD BREAKS Presents: Vocalobreak | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 489717845,
     tags: [1, 944, 477, 108, 273, 292, 282, 945],
   },
   {
@@ -2152,6 +2448,7 @@ const urls = [
     url: "https://kirairi.bandcamp.com/album/a-type-breakers",
     title: "A-Type Breakers | Various Artists | きらいり",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 390568025,
     tags: [1, 946, 273, 947, 729, 727, 728, 948],
   },
   {
@@ -2159,6 +2456,7 @@ const urls = [
     url: "https://jpxg.bandcamp.com/album/jpxg-greatest-hits-2024",
     title: "JPxG GREATEST HITS 2024 | JPxG",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 802460917,
     tags: [949, 106, 1, 389, 301, 950, 288, 127, 516, 724],
   },
   {
@@ -2166,6 +2464,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/sampler-vol-1",
     title: "深淵sampler vol.1 | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3724075389,
     tags: [273, 725, 1, 951, 709, 726, 288, 729, 727, 952, 435, 724],
   },
   {
@@ -2173,6 +2472,7 @@ const urls = [
     url: "https://no-logiky-scrawl.bandcamp.com/album/face-mini-best",
     title: "FACE MINI BEST | No Logiky ScrawL",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4022998086,
     tags: [589, 724],
   },
   {
@@ -2180,6 +2480,7 @@ const urls = [
     url: "https://breakcoredemon.bandcamp.com/album/amen-destroyer",
     title: "Amen Destroyer | Various Artists | Breakcore Demon",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3176790345,
     tags: [1, 953, 946, 273, 805, 301, 729, 727, 343, 728, 954],
   },
   {
@@ -2187,6 +2488,7 @@ const urls = [
     url: "https://mureco.bandcamp.com/album/otomad-constructed-packing",
     title: "otoMAD-constructed[Packing] | M.A.D | 無責任レコーズ",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3763670139,
     tags: [1, 794, 273, 955, 724],
   },
   {
@@ -2194,6 +2496,7 @@ const urls = [
     url: "https://yakumo.bandcamp.com/album/syncbreak",
     title: "#syncbreak | V.A. | Yakumo",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2762864930,
     tags: [1, 802, 956, 724],
   },
   {
@@ -2201,6 +2504,7 @@ const urls = [
     url: "https://kanpeki.bandcamp.com/album/cyb3rp0p-vol-1",
     title: "Cyb3rp0p Vol. 1 | KANPEKI",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2379828480,
     tags: [273, 338, 746, 1, 957, 958, 443, 292, 606, 277, 959],
   },
   {
@@ -2208,6 +2512,7 @@ const urls = [
     url: "https://snowpointlounge.bandcamp.com/album/vol-1",
     title: "予想外のメロディー Vol. 1 | snowpoint lounge",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2402734383,
     tags: [1, 172, 331, 16, 354, 175, 90, 333, 25, 92, 763, 960],
   },
   {
@@ -2215,6 +2520,7 @@ const urls = [
     url: "https://slowerpace.bandcamp.com/album/virtual-shelter",
     title: "Virtual Shelter シェルター | slowerpace 音楽",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 929179667,
     tags: [1, 961, 99, 172, 962, 90, 187, 963, 92],
   },
   {
@@ -2222,6 +2528,7 @@ const urls = [
     url: "https://arcologies.bandcamp.com/album/ocean-deep",
     title: "ocean deep | arcologies",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2737451827,
     tags: [337, 338, 1, 5, 964, 965, 966, 3, 967, 112],
   },
   {
@@ -2229,6 +2536,7 @@ const urls = [
     url: "https://danieljakob.bandcamp.com/album/vinylproces",
     title: "vinylproces | Daniel Jakob",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1276097803,
     tags: [54, 2, 167, 4, 271],
   },
   {
@@ -2236,6 +2544,7 @@ const urls = [
     url: "https://swainswainswain.bandcamp.com/album/the-long-dark-blue",
     title: "The Long Dark Blue | Swain",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3739729758,
     tags: [8, 192, 968, 969, 301],
   },
   {
@@ -2243,6 +2552,7 @@ const urls = [
     url: "https://studaly.bandcamp.com/album/loggerheads",
     title: "Loggerheads | Stu Daly",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1228362053,
     tags: [970, 374, 117, 479, 374, 117, 479, 971],
   },
   {
@@ -2250,6 +2560,7 @@ const urls = [
     url: "https://paper-rifles.bandcamp.com/album/traitors-hill",
     title: "Traitor's Hill | Paper Rifles",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1500714045,
     tags: [547, 972, 973, 132, 974, 975, 976, 117, 192, 977, 978, 979],
   },
   {
@@ -2257,6 +2568,7 @@ const urls = [
     url: "https://paper-rifles.bandcamp.com/album/headstrong",
     title: "Headstrong | Paper Rifles",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1799204843,
     tags: [
       547, 980, 973, 981, 982, 983, 132, 984, 975, 117, 192, 977, 985, 979,
     ],
@@ -2266,6 +2578,7 @@ const urls = [
     url: "https://amandapalmer.bandcamp.com/album/nighty-night",
     title: "Nighty Night | 8in8 | Amanda Palmer",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 529124273,
     tags: [986, 8, 987, 988, 989, 990, 991, 992, 993, 994, 52, 995, 996, 666],
   },
   {
@@ -2273,6 +2586,7 @@ const urls = [
     url: "https://marybellftw.bandcamp.com/album/histrion-ep",
     title: "HISTRION EP | Mary Bell",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 136366323,
     tags: [117, 969, 120, 330, 506],
   },
   {
@@ -2280,6 +2594,7 @@ const urls = [
     url: "https://pfau.bandcamp.com/album/pfau-ii",
     title: "PFAU II | PFAU (Influenza Records) | PFAU",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1081218909,
     tags: [8, 997, 237, 547, 998, 999, 506],
   },
   {
@@ -2287,6 +2602,7 @@ const urls = [
     url: "https://arroyodeathmatch.bandcamp.com/album/hidden-histories",
     title: "Hidden Histories | Arroyo Deathmatch",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3773936567,
     tags: [237, 117, 1000, 1001, 1002, 1003, 243],
   },
   {
@@ -2294,6 +2610,7 @@ const urls = [
     url: "https://rebelde.bandcamp.com/album/romagna-spaccaossa",
     title: "Romagna Spaccaossa | REBELDE rpm",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1393277018,
     tags: [117, 1004, 1005],
   },
   {
@@ -2302,6 +2619,7 @@ const urls = [
     title:
       "No Genocide: A Benefit for Mutual Aid in Gaza | Various | The Dissidents",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2868024936,
     tags: [117, 1001, 1006, 1007, 1008, 1009, 1010, 118, 1011, 11, 1012, 247],
   },
   {
@@ -2309,6 +2627,7 @@ const urls = [
     url: "https://phobiarecords.bandcamp.com/album/excrement-of-war-what-glory-in-death-lp",
     title: "Excrement Of War - What glory in death ... LP | phobiarecords",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3717937194,
     tags: [117, 1013, 1014],
   },
   {
@@ -2316,6 +2635,7 @@ const urls = [
     url: "https://victimsofclasswar.bandcamp.com/album/invitation-to-a-funeral",
     title: "Invitation to a Funeral | Victims of Classwar",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 594239601,
     tags: [190, 193, 1015, 1016, 622, 517],
   },
   {
@@ -2323,6 +2643,7 @@ const urls = [
     url: "https://1stclasscollapse.bandcamp.com/album/the-prim-x-1st-class-collapse-split",
     title: "the Prim x 1st Class Collapse Split | 1st Class Collapse",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4260054768,
     tags: [237, 117, 371, 301, 620, 1017],
   },
   {
@@ -2330,6 +2651,7 @@ const urls = [
     url: "https://sickurge.bandcamp.com/album/finland-means-murder",
     title: "Finland Means Murder | Sick Urge",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2873741447,
     tags: [117, 1018, 1019, 118, 620, 1020],
   },
   {
@@ -2338,6 +2660,7 @@ const urls = [
     title:
       "Enamorados Del Control Total EP | Algara | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 271670473,
     tags: [1021, 117, 117, 1022, 118, 30, 1023, 121, 122],
   },
   {
@@ -2345,6 +2668,7 @@ const urls = [
     url: "https://turbodiscos.bandcamp.com/album/hot-sauce-cs",
     title: "Hot Sauce CS | Sharizza | Turbo Discos",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4158612116,
     tags: [1024, 117, 564, 1025, 120, 1026, 89],
   },
   {
@@ -2353,6 +2677,7 @@ const urls = [
     title:
       "EXWHITE - STALKER CS | EXWHITE | Kuba Salami´s collection of music and knowledge",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2607144043,
     tags: [117, 192, 564, 301, 117, 654, 89],
   },
   {
@@ -2360,6 +2685,7 @@ const urls = [
     url: "https://pospishpotom.bandcamp.com/album/--2",
     title: "Не Приходить в Себя | Поспишь Потом",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 943672855,
     tags: [117, 1027, 1028, 1012, 1029],
   },
   {
@@ -2367,6 +2693,7 @@ const urls = [
     url: "https://oceandistricts.bandcamp.com/album/expeditions",
     title: "Expeditions | Ocean Districts",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1628071892,
     tags: [21, 190, 192, 2, 21, 195, 616, 152, 502, 617, 1030],
   },
   {
@@ -2374,6 +2701,7 @@ const urls = [
     url: "https://anaria.bandcamp.com/album/sign-of-life",
     title: "Sign of Life | Anaria",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1313258797,
     tags: [192, 1031, 623, 657, 1032, 666],
   },
   {
@@ -2381,6 +2709,7 @@ const urls = [
     url: "https://wearetulip.bandcamp.com/album/tulip-ep-remaster",
     title: "TULIP EP (Remaster) | TULIP",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3666016463,
     tags: [1033, 190, 617, 1031, 1034],
   },
   {
@@ -2388,6 +2717,7 @@ const urls = [
     url: "https://sioum.bandcamp.com/album/yet-further",
     title: "Yet Further | Sioum",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3282698994,
     tags: [
       21, 190, 616, 152, 502, 192, 54, 1035, 1036, 662, 1037, 617, 612, 112,
     ],
@@ -2397,6 +2727,7 @@ const urls = [
     url: "https://dontrustheruin.bandcamp.com/album/fight-for-your-dinner-vol-i",
     title: "Fight for Your Dinner Vol. I | Big Blood | dontrustheruin",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3857422970,
     tags: [
       54, 1038, 1039, 1040, 1041, 374, 1042, 1043, 1044, 379, 117, 1045, 1046,
     ],
@@ -2406,6 +2737,7 @@ const urls = [
     url: "https://dontrustheruin.bandcamp.com/album/ant-farm",
     title: "Ant Farm | Elliott Schwartz & Big Blood | dontrustheruin",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4161591355,
     tags: [
       54, 1038, 1039, 1040, 1041, 1047, 1048, 374, 1042, 1043, 1044, 379, 117,
       1046,
@@ -2416,6 +2748,7 @@ const urls = [
     url: "https://pedalmen.bandcamp.com/album/end-is-the-beginning",
     title: "End is the beginning | Colmena | pedalmen",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 83569359,
     tags: [237, 54, 1049, 1050, 135, 1051, 127, 191, 558, 1052],
   },
   {
@@ -2423,6 +2756,7 @@ const urls = [
     url: "https://swara1.bandcamp.com/album/scenes-from-a-breakup",
     title: "Scenes From a Breakup | Swara",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4237569464,
     tags: [547, 53, 1053],
   },
   {
@@ -2430,6 +2764,7 @@ const urls = [
     url: "https://malamigo.bandcamp.com/album/clima-de-opini-n",
     title: "CLIMA DE OPINIÓN | Van Delay | Mal Amigo",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1040856951,
     tags: [8, 1, 131, 135, 1054],
   },
   {
@@ -2437,6 +2772,7 @@ const urls = [
     url: "https://narcoleptica.bandcamp.com/album/10-00",
     title: "10:00 | narcoleptica",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3281535554,
     tags: [1, 54, 2, 198, 239, 1055, 1056, 127, 1057, 1058, 1059, 1054],
   },
   {
@@ -2444,6 +2780,7 @@ const urls = [
     url: "https://slvj.bandcamp.com/album/naturaleza-ravera",
     title: "Naturaleza Ravera | Slvj",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2058714185,
     tags: [469, 1060, 1, 1061, 516, 1062, 469, 414, 30, 1063, 516, 1064, 1054],
   },
   {
@@ -2451,6 +2788,7 @@ const urls = [
     url: "https://iberianjuke.bandcamp.com/album/take-me-back-to-the-south-lp-ij012",
     title: "Take Me Back To The South LP [IJ012] | BSN Posse | Iberian Juke",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3293303521,
     tags: [867, 1, 644, 1065, 288, 292, 1053],
   },
   {
@@ -2458,6 +2796,7 @@ const urls = [
     url: "https://bellcurve.bandcamp.com/album/obelisk",
     title: "Obelisk | Bell Curve",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 851662046,
     tags: [1, 291, 276, 644, 841, 288, 69],
   },
   {
@@ -2465,6 +2804,7 @@ const urls = [
     url: "https://daaliah.bandcamp.com/album/edit-pack-vol-1",
     title: "edit pack vol.1 | Daaliah",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1780672725,
     tags: [1, 1066],
   },
   {
@@ -2472,6 +2812,7 @@ const urls = [
     url: "https://kutcorners.bandcamp.com/album/100-edit-pack",
     title: "100% Edit Pack | Kutcorners",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1978540683,
     tags: [94, 29, 478, 521, 139, 479, 836],
   },
   {
@@ -2479,6 +2820,7 @@ const urls = [
     url: "https://tmshallibrukit.bandcamp.com/album/repo-25",
     title: "REPO 25 | L Clifford | ™Shall I Bruk It",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4262353597,
     tags: [1067, 1068, 1, 29, 245, 122],
   },
   {
@@ -2487,6 +2829,7 @@ const urls = [
     title:
       "Take Your Time | Tshego TMM x Vencer Cafe & Rober Owens | Vencer Cafe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 21135898,
     tags: [1069, 1, 29, 1070, 940, 1071],
   },
   {
@@ -2494,6 +2837,7 @@ const urls = [
     url: "https://tmshallibrukit.bandcamp.com/album/brukanova",
     title: "Brukanova | Good Bass, & Steal | ™Shall I Bruk It",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3642657857,
     tags: [1067, 1068, 1, 29, 245, 122],
   },
   {
@@ -2501,6 +2845,7 @@ const urls = [
     url: "https://ezel.bandcamp.com/album/beverly-hills-ezel-remixes",
     title: "Beverly Hills (Ezel Remixes) | Ezel",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2657475483,
     tags: [1069, 1, 1072, 1070, 940, 1073, 69],
   },
   {
@@ -2508,6 +2853,7 @@ const urls = [
     url: "https://fgrsktr.bandcamp.com/album/fs1-live-in-your-own-bubble-away-from-reality",
     title: "FS1: LIVE IN YOUR OWN BUBBLE AWAY FROM REALITY | FIGURE SKATER",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1033615208,
     tags: [1, 749, 1074, 90, 334, 1075, 1076, 1077, 1078],
   },
   {
@@ -2515,6 +2861,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/the-lost-iiii",
     title: "THE LOST IIII | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1746043050,
     tags: [1079, 1, 108, 1080, 364, 16, 109, 1081, 365, 356],
   },
   {
@@ -2522,6 +2869,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/magna-carta",
     title: "Magna Carta | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 143610600,
     tags: [1, 108, 364, 16, 109, 365, 356],
   },
   {
@@ -2529,6 +2877,7 @@ const urls = [
     url: "https://noone1.bandcamp.com/album/famitracker",
     title: 'FamiTracker | Kyler "No one1" Tang | No one1',
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 712402726,
     tags: [1082, 753, 1, 1083, 1084, 466, 1085],
   },
   {
@@ -2536,6 +2885,7 @@ const urls = [
     url: "https://thayashi.bandcamp.com/album/microsound-studies",
     title: "Microsound Studies | T. Hayashi",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2402942700,
     tags: [54, 1086],
   },
   {
@@ -2543,6 +2893,7 @@ const urls = [
     url: "https://felitte.bandcamp.com/album/virae-2010",
     title: "_virae (2010) | _ava_vitae (D.L.Felitte) | Damián L. Felitte",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3602861516,
     tags: [54, 5, 167, 1, 54, 127, 384],
   },
   {
@@ -2550,6 +2901,7 @@ const urls = [
     url: "https://felitte.bandcamp.com/album/ava-vitae-2010",
     title: "_ava_vitae (2010) | _ava_vitae (D.L.Felitte) | Damián L. Felitte",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 899233959,
     tags: [54, 5, 2, 167, 1, 54, 4, 127, 384],
   },
   {
@@ -2557,6 +2909,7 @@ const urls = [
     url: "https://dreamprofessor.bandcamp.com/album/--5",
     title: "夜中ランデブー | dream professor",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3425043054,
     tags: [2, 2, 241, 101, 276, 1087, 187, 1088, 92, 356],
   },
   {
@@ -2564,6 +2917,7 @@ const urls = [
     url: "https://telepathtelepath.bandcamp.com/album/--27",
     title: "アンタラ通信 | t e l e p a t h テレパシー能力者 | 天火見",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2857089362,
     tags: [427, 2, 755, 2, 421, 1089, 429, 430, 422, 353, 187, 432, 92],
   },
   {
@@ -2571,6 +2925,7 @@ const urls = [
     url: "https://disconscious.bandcamp.com/album/hologram-plaza",
     title: "Hologram Plaza | Disconscious",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2591494906,
     tags: [
       1, 2, 174, 421, 19, 276, 1090, 183, 1091, 1092, 90, 185, 50, 1093, 92,
       1094,
@@ -2581,6 +2936,7 @@ const urls = [
     url: "https://vestigevapor.bandcamp.com/album/online",
     title: "フOnline | Vestige Vapor",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2990516228,
     tags: [54, 174, 1095, 545, 750, 315, 92, 1096, 784],
   },
   {
@@ -2588,6 +2944,7 @@ const urls = [
     url: "https://steviasphere.bandcamp.com/album/hammock",
     title: "hammock | glaciaere | Stevia Sphere",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2584203929,
     tags: [1, 174, 228, 332, 21, 1097, 92, 1098, 336],
   },
   {
@@ -2595,6 +2952,7 @@ const urls = [
     url: "https://steviasphere.bandcamp.com/album/stevia-sphere-s-interconnected-art-gallery",
     title: "Stevia Sphere’s Interconnected Art Gallery | Stevia Sphere",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1022880538,
     tags: [1, 228, 332, 334, 456, 92, 336],
   },
   {
@@ -2602,6 +2960,7 @@ const urls = [
     url: "https://burntfeathers.bandcamp.com/album/in-the-light-of-total-love",
     title: "in the light of total love | burnt-feathers",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1019237078,
     tags: [54, 1099, 1100, 1101, 1102, 1103, 127, 90, 779, 780, 1104, 93],
   },
   {
@@ -2609,6 +2968,7 @@ const urls = [
     url: "https://ramshackleglory.bandcamp.com/album/die-the-nightmare",
     title: 'Die the nightmare | Pat "the bunny" Schneeweis | Ramshackle Glory',
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2591365350,
     tags: [
       1105, 1003, 1106, 117, 1107, 547, 671, 1108, 96, 314, 52, 53, 1109, 1110,
     ],
@@ -2618,6 +2978,7 @@ const urls = [
     url: "https://mikelikesrap.bandcamp.com/album/winter-new-york",
     title: "WINTER NEW YORK | MIKE",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2783468875,
     tags: [95, 1111, 8, 1112, 139, 69],
   },
   {
@@ -2625,6 +2986,7 @@ const urls = [
     url: "https://mikelikesrap.bandcamp.com/album/longest-day-shortest-night",
     title: "longest day, shortest night | MIKE",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2618428712,
     tags: [95, 1113, 1114, 8, 1112, 139, 69],
   },
   {
@@ -2632,6 +2994,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/meek-vol5",
     title: "MEEK.VOL5_ | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2990629924,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -2639,6 +3002,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/2pk-4trk-b-side",
     title: "2PK.4TRK.B.SiDE. | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1574956467,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -2646,6 +3010,7 @@ const urls = [
     url: "https://cristen.bandcamp.com/album/dntquit-2",
     title: "[dntquit] | C.R.I.S.T.E.N",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1416096956,
     tags: [54, 522, 1115, 695, 1116, 1117, 245, 1118],
   },
   {
@@ -2653,6 +3018,7 @@ const urls = [
     url: "https://outcrowdbeats.bandcamp.com/album/vices",
     title: "Vices | outcrowd.",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1709022109,
     tags: [1119, 95, 56, 128, 1120, 1121, 1122, 361],
   },
   {
@@ -2661,6 +3027,7 @@ const urls = [
     title: "PATCHWORKS | Thelonious Martin",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
     favorite: true,
+    bc_id: 1398379027,
     tags: [131, 95, 21, 112],
   },
   {
@@ -2668,6 +3035,7 @@ const urls = [
     url: "https://cultclassicrecords.bandcamp.com/album/friends-family-2",
     title: "Friends & Family 2 | Cult Classic Records",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3706739028,
     tags: [1123, 1124, 174, 402, 21, 1125, 1126, 122],
   },
   {
@@ -2675,6 +3043,7 @@ const urls = [
     url: "https://bamdcamp.bandcamp.com/album/prisoner-of-eternity-2",
     title: "Prisoner of Eternity | BACKWHEN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3234523009,
     tags: [1, 1127, 435, 1128, 283],
   },
   {
@@ -2682,6 +3051,7 @@ const urls = [
     url: "https://purpleposse.bandcamp.com/album/issue-07",
     title: "ISSUE 07 | PURPLEPOSSE",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1608368480,
     tags: [95, 1129, 1127, 435, 1130, 1131, 356],
   },
   {
@@ -2689,6 +3059,7 @@ const urls = [
     url: "https://isakgaines.bandcamp.com/album/transfigurations",
     title: "Transfigurations | isak gaines x frances, the mute | isak gaines",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3456673910,
     tags: [1, 54, 131, 202, 245, 545, 247],
   },
   {
@@ -2696,6 +3067,7 @@ const urls = [
     url: "https://smokesomeboshi.bandcamp.com/album/lean-grinded-russia-vol-3",
     title: "LEAN GRINDED RUSSIA VOL. 3 | Amatsu-Mikaboshi",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1003365876,
     tags: [1132, 95, 435, 1133, 470, 1127],
   },
   {
@@ -2703,6 +3075,7 @@ const urls = [
     url: "https://smokesomeboshi.bandcamp.com/album/lean-grinded-russia-vol-2",
     title: "LEAN GRINDED RUSSIA VOL. 2 | Amatsu-Mikaboshi",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 896253529,
     tags: [1132, 95, 435, 1133, 470, 1127],
   },
   {
@@ -2710,6 +3083,7 @@ const urls = [
     url: "https://smokesomeboshi.bandcamp.com/album/20xx-tape",
     title: '"20XX" TAPE | Amatsu-Mikaboshi',
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 59799071,
     tags: [1132, 95, 435, 1133, 470, 1127],
   },
   {
@@ -2717,6 +3091,7 @@ const urls = [
     url: "https://lainwired.bandcamp.com/album/something-like-nfs-underground",
     title: "Something Like NFS Underground | Yung Lain",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1507860841,
     tags: [337, 338, 1, 92, 108, 273, 290, 341, 338, 292, 130],
   },
   {
@@ -2724,6 +3099,7 @@ const urls = [
     url: "https://esazlesa.bandcamp.com/album/spole-nost-ps",
     title: "Společnost psů | ESAZLESA",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3793184904,
     tags: [192, 1134, 1135, 311, 301, 1136, 1137, 192, 196, 1138],
   },
   {
@@ -2731,6 +3107,7 @@ const urls = [
     url: "https://poli5.bandcamp.com/album/vhs",
     title: "VHS | B4 | Poli5 (label)",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 118106960,
     tags: [8, 9, 1139, 374, 845, 673, 1138],
   },
   {
@@ -2738,6 +3115,7 @@ const urls = [
     url: "https://amoebasplit.bandcamp.com/album/dance-of-the-goodbyes",
     title: "Dance of the goodbyes | Amoeba Split",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1226707552,
     tags: [1140, 612, 192, 1141, 1142, 1143, 1144, 1053],
   },
   {
@@ -2745,6 +3123,7 @@ const urls = [
     url: "https://pyramidalmusic.bandcamp.com/album/pyramidal",
     title: "Pyramidal | Pyramidal",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 530746483,
     tags: [612, 50, 192, 1145, 1146, 1147],
   },
   {
@@ -2752,6 +3131,7 @@ const urls = [
     url: "https://monkeypriest.bandcamp.com/album/the-psalm",
     title: "The Psalm | Monkeypriest",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2022173282,
     tags: [190, 372, 367, 1148, 1149],
   },
   {
@@ -2759,6 +3139,7 @@ const urls = [
     url: "https://entrobeats.bandcamp.com/album/60k",
     title: "60k | ENTRO//",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1352705484,
     tags: [56, 95, 145, 1150, 128, 1127, 98],
   },
   {
@@ -2766,6 +3147,7 @@ const urls = [
     url: "https://brockberrigan.bandcamp.com/album/diamond-in-the-rough",
     title: "Diamond in the Rough | Brock Berrigan",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1565827557,
     tags: [56, 131, 95, 139, 608, 56, 1151, 1152, 672, 684, 1153, 69],
   },
   {
@@ -2774,6 +3156,7 @@ const urls = [
     title:
       "３ａ.ｍ.Ｓｉｇｎａｌｓ | International Telecom | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1356891569,
     tags: [180, 54, 1154, 1155, 1156, 1157, 1158, 185, 186, 92, 1159, 188, 189],
   },
   {
@@ -2781,6 +3164,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/holography-is-the-future",
     title: "Holography is the future | PcUniverse | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 111939932,
     tags: [427, 180, 54, 181, 182, 185, 458, 92, 189],
   },
   {
@@ -2788,6 +3172,7 @@ const urls = [
     url: "https://catsystemcorp.bandcamp.com/album/sandrawave",
     title: "SANDRAWAVE | 猫 シ Corp.",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1782315087,
     tags: [1, 183, 90, 185, 357, 92],
   },
   {
@@ -2795,6 +3180,7 @@ const urls = [
     url: "https://catsystemcorp.bandcamp.com/album/live-in-los-angeles-2019",
     title: "Live in Los Angeles 2019 | 猫 シ Corp.",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 416938929,
     tags: [1, 183, 90, 185, 357, 92],
   },
   {
@@ -2802,6 +3188,7 @@ const urls = [
     url: "https://catsystemcorp.bandcamp.com/album/luxury-girls",
     title: "LUXURY GIRLS | 猫 シ Corp.",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1623164778,
     tags: [1, 183, 90, 185, 357, 92],
   },
   {
@@ -2809,6 +3196,7 @@ const urls = [
     url: "https://arufacentuara.bandcamp.com/album/ten-summer-whispers",
     title: "Ten Summer Whispers | Alpha Centauri アルファ",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1474020738,
     tags: [1, 1160, 1161, 113, 113, 92, 1162],
   },
   {
@@ -2817,6 +3205,7 @@ const urls = [
     title:
       "Ｚｅｌｄａｗａｖｅ ＩＩ // 近藤 浩治 // MM | Polygon Dream | Marble Pawns",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1863476817,
     tags: [8, 54, 315, 1163, 56, 45, 1, 21, 135, 50, 545, 160, 315, 92, 1164],
   },
   {
@@ -2824,6 +3213,7 @@ const urls = [
     url: "https://blackwarriorlures.bandcamp.com/album/some-mo-dorian",
     title: "Some Mo' Dorian | Black Warrior Lures",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2056067176,
     tags: [1, 1165, 2, 1166],
   },
   {
@@ -2831,6 +3221,7 @@ const urls = [
     url: "https://blackwarriorlures.bandcamp.com/album/xenharmonique-2",
     title: "Xenharmonique | Black Warrior Lures",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2757406337,
     tags: [1, 2, 1166],
   },
   {
@@ -2838,6 +3229,7 @@ const urls = [
     url: "https://patternsoflife.bandcamp.com/album/uptempo-stuff",
     title: "Uptempo Stuff | Roger Wilson",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 979309846,
     tags: [427, 627, 1, 1167, 1168, 1169, 199, 1170, 1171, 96, 1172],
   },
   {
@@ -2845,6 +3237,7 @@ const urls = [
     url: "https://andrewhelme.bandcamp.com/album/the-tree-of-life",
     title: "The Tree Of Life | Andrew R Helme",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1221237297,
     tags: [374, 1173, 1174, 310, 374, 1175, 21, 1176, 1177, 1178, 141],
   },
   {
@@ -2852,6 +3245,7 @@ const urls = [
     url: "https://dylanf.bandcamp.com/album/the-legend-of-zelda-majoras-mask-reborn",
     title: "The Legend of Zelda: Majora's Mask Reborn | Dylan Ferguson",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 154412056,
     tags: [192, 25, 207, 1179, 1180],
   },
   {
@@ -2860,6 +3254,7 @@ const urls = [
     title:
       "City Pop 🎷 Super Mario RPG: Legend of the Seven Stars 🍄 | Otorii Station",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3415672977,
     tags: [1, 1181, 331, 466, 1182, 128, 1183, 1184, 92, 1185, 97, 1186],
   },
   {
@@ -2867,6 +3262,7 @@ const urls = [
     url: "https://vvgo.bandcamp.com/album/vvghosts",
     title: "VVGhosts | Virtual Video Game Orchestra",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1459486792,
     tags: [
       25, 1187, 1188, 1189, 1190, 1191, 439, 440, 1192, 1193, 599, 1194, 97,
       1195, 1196, 1197,
@@ -2877,6 +3273,7 @@ const urls = [
     url: "https://djcutman.bandcamp.com/album/trekkin",
     title: "Trekkin' | Dj CUTMAN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3907650772,
     tags: [1, 56, 466, 109, 222, 97, 247],
   },
   {
@@ -2884,6 +3281,7 @@ const urls = [
     url: "https://mikeljakobi.bandcamp.com/album/zelda-chill-iii",
     title: "Zelda & Chill III | Mikel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1989934597,
     tags: [
       95, 470, 1198, 1199, 360, 94, 21, 128, 1200, 1201, 1202, 223, 97, 1203,
       1204,
@@ -2894,6 +3292,7 @@ const urls = [
     url: "https://fschr.bandcamp.com/album/nuclear-midnight",
     title: "Nuclear Midnight | FSCHR",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3526258706,
     tags: [1, 469, 249, 94, 1205, 160, 315, 1206],
   },
   {
@@ -2901,6 +3300,7 @@ const urls = [
     url: "https://grizzlycogs.bandcamp.com/album/hibernation",
     title: "Hibernation | Grizzly Cogs",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2181734024,
     tags: [1, 174, 466, 1168, 1207, 571, 315, 1208],
   },
   {
@@ -2908,6 +3308,7 @@ const urls = [
     url: "https://aturamusic.bandcamp.com/album/observer",
     title: "Observer | Atura",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 678670929,
     tags: [1, 28, 29, 1209, 257, 666],
   },
   {
@@ -2915,6 +3316,7 @@ const urls = [
     url: "https://cysmix.bandcamp.com/album/phone-me-first",
     title: "Phone Me First | cYsmix",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1343368566,
     tags: [790, 856, 1, 257, 502, 1210, 209],
   },
   {
@@ -2922,6 +3324,7 @@ const urls = [
     url: "https://alllevelsatonce.bandcamp.com/album/tessellate",
     title: "Tessellate | All Levels at Once",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 740252631,
     tags: [1211, 106, 1, 1212, 132, 134, 160, 310, 28, 1212, 160, 356],
   },
   {
@@ -2929,6 +3332,7 @@ const urls = [
     url: "https://soundoftheaviators.bandcamp.com/album/ghosts-in-the-code",
     title: "Ghosts in the Code | Aviators",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3042481617,
     tags: [8, 1089, 1213, 192, 160, 1214],
   },
   {
@@ -2936,6 +3340,7 @@ const urls = [
     url: "https://soundoftheaviators.bandcamp.com/album/mirrors-deluxe-version",
     title: "Mirrors (Deluxe Version) | Aviators",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 707293592,
     tags: [8, 1089, 1213, 192, 160, 1214],
   },
   {
@@ -2943,6 +3348,7 @@ const urls = [
     url: "https://skyshardmelody.bandcamp.com/album/the-borderline",
     title: "The Borderline | Skyshard",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2410388524,
     tags: [8, 1, 25, 21, 199, 207, 1215, 215, 315, 223, 97, 1216],
   },
   {
@@ -2950,6 +3356,7 @@ const urls = [
     url: "https://sylvergt.bandcamp.com/album/legend-you-are-meant-to-be-sylvver-remix",
     title: "Legend You Are Meant to Be (Sylvver Remix) | Sylvver",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3893096045,
     tags: [1, 106, 29, 1217],
   },
   {
@@ -2957,6 +3364,7 @@ const urls = [
     url: "https://sylvergt.bandcamp.com/album/the-wingpony",
     title: "The Wingpony | Sylvver",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 708608623,
     tags: [1, 106, 1, 29, 1218, 1217],
   },
   {
@@ -2964,6 +3372,7 @@ const urls = [
     url: "https://sylvergt.bandcamp.com/album/crazy-for-u",
     title: "Crazy For U | Sylvver, Trey Husk | Sylvver",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1773597319,
     tags: [1, 106, 29, 1217],
   },
   {
@@ -2971,6 +3380,7 @@ const urls = [
     url: "https://thel-train.bandcamp.com/album/moonrise",
     title: "Moonrise | L-Train presents Ro.C.S.M.Or. | L-Train",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1149252025,
     tags: [190, 1219, 1220, 1221],
   },
   {
@@ -2978,6 +3388,7 @@ const urls = [
     url: "https://bronikoni.bandcamp.com/album/friendship-express-2",
     title: "Friendship Express | BroniKoni",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3263927749,
     tags: [192, 8, 1222, 1223, 1224, 132, 1225, 1218, 314, 403, 612, 820],
   },
   {
@@ -2985,6 +3396,7 @@ const urls = [
     url: "https://electrokaplosion.bandcamp.com/album/marequest-ost-part-iii",
     title: "MareQuest OST (Part III) | ElectroKaplosion",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3850683434,
     tags: [1, 1226, 1227, 276, 132, 1228, 1229, 1230, 25, 1231, 823, 784],
   },
   {
@@ -2992,6 +3404,7 @@ const urls = [
     url: "https://recorderdude.bandcamp.com/album/rambley-review-ft-otterboyva-indigo-park-credits-theme",
     title: "Rambley Review Ft. OtterBoyVA (Indigo Park Credits Theme) | RecD",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 85233170,
     tags: [190, 1232, 192, 25, 223, 408],
   },
   {
@@ -2999,6 +3412,7 @@ const urls = [
     url: "https://entertainmentsystem.bandcamp.com/album/super-entertainment-system",
     title: "Super Entertainment System | Entertainment System",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1842352185,
     tags: [
       190, 612, 192, 1233, 1234, 1235, 1236, 1237, 190, 1238, 756, 617, 192,
       1239, 1240, 1241, 888,
@@ -3009,6 +3423,7 @@ const urls = [
     url: "https://rawz.bandcamp.com/album/one-two",
     title: "ONE TWO | Tiece & Rawz | Rawz",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3717377452,
     tags: [
       95, 1242, 1243, 1244, 1245, 786, 1246, 808, 1247, 1248, 1249, 1250, 1251,
     ],
@@ -3018,6 +3433,7 @@ const urls = [
     url: "https://cambattamusic.bandcamp.com/album/holy-ghost-3",
     title: "Holy Ghost 3 | Cambatta",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2160484048,
     tags: [95, 139, 1252, 1153, 1253, 1254],
   },
   {
@@ -3025,6 +3441,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/doujin-sonic-generation",
     title: "Doujin Sonic Generation | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 260582627,
     tags: [1, 108, 273, 292, 945],
   },
   {
@@ -3032,6 +3449,7 @@ const urls = [
     url: "https://saoirsedream.bandcamp.com/album/susies",
     title: "SUSIES | DJSUSIEDELTARUNE | saoirse dream",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3943891126,
     tags: [443, 477, 96, 725, 592, 90, 542],
   },
   {
@@ -3039,6 +3457,7 @@ const urls = [
     url: "https://blackdresses.bandcamp.com/album/forget-your-own-face",
     title: "Forget Your Own Face | Black Dresses",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3408632334,
     tags: [8, 1, 1255, 57, 190, 778, 96, 1023, 1256, 1257],
   },
   {
@@ -3047,6 +3466,7 @@ const urls = [
     title:
       "sovereign nose of (y)our arrogant face | scallops hotel | R.A.P. Ferreira",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4195136961,
     tags: [95, 1258, 1259, 1260],
   },
   {
@@ -3054,6 +3474,7 @@ const urls = [
     url: "https://liquidbrilliants.bandcamp.com/album/cursed-ep",
     title: "Cursed EP | Chill Collective | Liquid Brilliants",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4194673945,
     tags: [1261, 338, 1, 1262, 1263, 1264, 1126, 1206],
   },
   {
@@ -3061,6 +3482,7 @@ const urls = [
     url: "https://liquidbrilliants.bandcamp.com/album/atmosphere",
     title: "Atmosphere | SundayGrooves | Liquid Brilliants",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2158320127,
     tags: [1261, 338, 1, 1262, 1263, 1264, 1126, 1206],
   },
   {
@@ -3068,6 +3490,7 @@ const urls = [
     url: "https://liquidbrilliants.bandcamp.com/album/mine-is-love",
     title: "Mine Is Love | Optx | Liquid Brilliants",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2494433407,
     tags: [1261, 338, 1, 1262, 1263, 1264, 1126, 1206],
   },
   {
@@ -3075,6 +3498,7 @@ const urls = [
     url: "https://talons.bandcamp.com/album/after-talons",
     title: "After Talons' | Talons'",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2768771663,
     tags: [374, 1265, 1266, 1267, 1268, 1269],
   },
   {
@@ -3083,6 +3507,7 @@ const urls = [
     title:
       "The PLUR Shit: Remastered Classix Collection Vol. 1 | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3789667483,
     tags: [54, 44],
   },
   {
@@ -3091,6 +3516,7 @@ const urls = [
     title:
       "TINY TROON ADVENTURES | 4lung x Gaj x Blueberry Sunshine | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 596616641,
     tags: [54, 765, 766, 44],
   },
   {
@@ -3098,6 +3524,7 @@ const urls = [
     url: "https://derailedamazement.bandcamp.com/album/the-future-might-surprise-you",
     title: "the future might surprise you | Derailed Amazement",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2200882531,
     tags: [1, 145, 273, 470, 1270, 1, 677],
   },
   {
@@ -3105,6 +3532,7 @@ const urls = [
     url: "https://somasis.bandcamp.com/album/acetate-2014",
     title: "Acetate, 2014 | Somasis | somasis",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 203137613,
     tags: [1, 1271, 45, 280, 90, 316, 294],
   },
   {
@@ -3112,6 +3540,7 @@ const urls = [
     url: "https://trashgh0st.bandcamp.com/album/--4",
     title: "喚起 | ｇｈ０ｓｔ | ｔｒａｓｈｇｈ０ｓｔ",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2601267876,
     tags: [1, 436, 1272, 428, 54, 1273, 545, 92, 156],
   },
   {
@@ -3119,6 +3548,7 @@ const urls = [
     url: "https://7979.bandcamp.com/album/girls",
     title: "& girls² 💌 | 7979",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2746817479,
     tags: [2, 1274, 1275, 130],
   },
   {
@@ -3127,6 +3557,7 @@ const urls = [
     title:
       "I Heart Granpa | Lucas ‘Granpa’ Abela | Lucas Abela / Justice Yeldham / dualpLOVER",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2032171996,
     tags: [54, 166, 1276, 1277, 127, 1278, 752],
   },
   {
@@ -3135,6 +3566,7 @@ const urls = [
     title:
       "'LIVE' remix project 200724 Chicago @ Digital Art Demo Space | Granpa Abela | Lucas Abela / Justice Yeldham / dualpLOVER",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2389094521,
     tags: [54, 166, 1276, 1277, 127, 1278, 752],
   },
   {
@@ -3143,6 +3575,7 @@ const urls = [
     title:
       "Plover Brand | Peeled Hearts Paste | Lucas Abela / Justice Yeldham / dualpLOVER",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 511530818,
     tags: [54, 166, 1276, 1277, 127, 1278, 752],
   },
   {
@@ -3150,6 +3583,7 @@ const urls = [
     url: "https://kavarimusic.bandcamp.com/album/against-the-wood-opposed-to-flesh",
     title: "Against The Wood, Opposed To Flesh | KAVARI",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3458821664,
     tags: [8, 1, 785, 2, 787, 241, 1102, 167, 414, 1192, 127, 789],
   },
   {
@@ -3157,6 +3591,7 @@ const urls = [
     url: "https://nitefishofficial.bandcamp.com/album/permaculture-heaven-3",
     title: "Permaculture Heaven | N I T E F I S H",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2553155929,
     tags: [8, 1279, 108, 1280, 606, 709, 443, 1281, 1282, 257, 1283, 814],
   },
   {
@@ -3164,6 +3599,7 @@ const urls = [
     url: "https://sartana.bandcamp.com/album/pandemic-club-tools-vol-1-ep",
     title: "Pandemic Club Tools Vol.1 EP | SARTANA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3757408632,
     tags: [28, 1, 1284, 1285, 477, 897, 435, 1286],
   },
   {
@@ -3172,6 +3608,7 @@ const urls = [
     title:
       "DJ Sliink - Pull Up + Don Toliver + Joji + Bossman Dlow | DJ Sliink",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 733838848,
     tags: [1287, 900, 1288, 1, 477, 901, 1289, 1290, 902, 792, 903],
   },
   {
@@ -3179,6 +3616,7 @@ const urls = [
     url: "https://djsliink.bandcamp.com/album/dj-sliink-presents-girls-night-volume-1-exclusive",
     title: "DJ Sliink Presents - Girls Night Volume 1 [Exclusive] | DJ Sliink",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4048991943,
     tags: [900, 1, 477, 1291, 901, 143, 902, 792, 903],
   },
   {
@@ -3186,6 +3624,7 @@ const urls = [
     url: "https://kooxla.bandcamp.com/album/club-depot-vi",
     title: "CLUB DEPOT VI | KOOXLA",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2830280172,
     tags: [882, 1292, 106, 1, 477, 787, 310, 901, 1293, 516, 69],
   },
   {
@@ -3193,6 +3632,7 @@ const urls = [
     url: "https://djsliink.bandcamp.com/album/creepy-nuts-otonoke-dj-sliink-rmx-pack",
     title: "Creepy Nuts - Otonoke (DJ Sliink Rmx) Pack | DJ Sliink",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3925272120,
     tags: [900, 1, 477, 901, 902, 792, 903],
   },
   {
@@ -3200,6 +3640,7 @@ const urls = [
     url: "https://kei-9.bandcamp.com/album/hedgehog-club",
     title: "Hedgehog Club | kei-9",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1382638593,
     tags: [1294, 1, 787, 27, 1295, 1296, 1297, 724],
   },
   {
@@ -3207,6 +3648,7 @@ const urls = [
     url: "https://latinclubsquad.bandcamp.com/album/latin-club-iv-ever",
     title: "LATIN CLUB IV EVER | Latin Club Squad",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1672994274,
     tags: [558],
   },
   {
@@ -3214,6 +3656,7 @@ const urls = [
     url: "https://djsliink.bandcamp.com/album/the-faith-pack-i-love-you",
     title: "The Faith Pack (I Love You) | DJ Sliink",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1232322438,
     tags: [900, 1, 477, 1298, 1299, 901, 902, 792, 1300, 903],
   },
   {
@@ -3221,6 +3664,7 @@ const urls = [
     url: "https://youngfreshbeatz.bandcamp.com/album/purple-club-vol-2",
     title: "PURPLE CLUB VOL.2 | YOUNG FRESH",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1928327543,
     tags: [8, 862, 1301, 1302, 1303, 539, 927],
   },
   {
@@ -3228,6 +3672,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/motion-pack",
     title: "MOTION PACK | Ballads",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 624463172,
     tags: [1, 537, 29, 539, 540, 541, 542],
   },
   {
@@ -3235,6 +3680,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/with-you-ep",
     title: "With You EP | Ballads",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1644999,
     tags: [1, 1304, 641, 537, 29, 477, 522, 539, 540, 541, 96, 542],
   },
   {
@@ -3242,6 +3688,7 @@ const urls = [
     url: "https://querico.bandcamp.com/album/chaka-essence",
     title: "chaka.essence. | Que Rico",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4115731059,
     tags: [476, 95, 478, 479, 481, 792, 1260],
   },
   {
@@ -3249,6 +3696,7 @@ const urls = [
     url: "https://danielhertz.bandcamp.com/album/edits-fixes-vol-2",
     title: "edits & fixes vol. 2 | Daniel Hertz",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2500930509,
     tags: [
       1305, 1306, 1021, 1307, 1, 897, 1308, 108, 890, 28, 29, 292, 1309, 516,
       1310,
@@ -3259,6 +3707,7 @@ const urls = [
     url: "https://djpump.bandcamp.com/album/new-batch-022020",
     title: "NEW BATCH 02.2020 | DJ PUMP",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2842596378,
     tags: [131, 95, 479, 56, 481, 792, 114],
   },
   {
@@ -3266,6 +3715,7 @@ const urls = [
     url: "https://raisinheads.bandcamp.com/album/i-like-it",
     title: "I LIKE IT | DSTRUKT | Raisin Heads Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3406836136,
     tags: [1311, 1312, 131, 29, 478, 521, 531, 1313, 32],
   },
   {
@@ -3273,6 +3723,7 @@ const urls = [
     url: "https://fertildiscos.bandcamp.com/album/el-camino-de-leda-2",
     title: "El Camino de Leda | Fértil Discos",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2185156223,
     tags: [1314, 1315, 1316, 558, 1314, 1317, 1318, 1319, 558, 384],
   },
   {
@@ -3280,6 +3731,7 @@ const urls = [
     url: "https://fertildiscos.bandcamp.com/album/leda-edits-vol-1",
     title: "Leda. Edits Vol.1 | Fértil Discos",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 723264827,
     tags: [1314, 1315, 1316, 558, 384],
   },
   {
@@ -3288,6 +3740,7 @@ const urls = [
     title:
       "Michael Jackson - Don´t Stop Untill You get Enough (Disse Edits EP) | Michael Jackson Dj Disse | Dj Disse classic edits",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 682619650,
     tags: [481, 96, 1320, 1321, 1322, 1323, 792, 531, 271],
   },
   {
@@ -3295,6 +3748,7 @@ const urls = [
     url: "https://magicflowers.bandcamp.com/album/spring-flips-pack",
     title: "SPRING FLIPS PACK | Magic Flowers",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1107503955,
     tags: [
       1324, 1325, 1326, 481, 1, 29, 1327, 1328, 1329, 1330, 531, 1, 1073, 245,
       792, 1331,
@@ -3305,6 +3759,7 @@ const urls = [
     url: "https://creatxr.bandcamp.com/album/recents",
     title: "RECENTS. | Creatxr",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2268985261,
     tags: [54, 131, 95, 21, 531, 122],
   },
   {
@@ -3312,6 +3767,7 @@ const urls = [
     url: "https://monteos.bandcamp.com/album/faux-pas",
     title: "FAUX PAS | Abel | Monteos",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1355921584,
     tags: [95, 1332, 310, 1333, 804, 1334, 141],
   },
   {
@@ -3319,6 +3775,7 @@ const urls = [
     url: "https://seandream.bandcamp.com/album/soular-eternal",
     title: "SOULAR ETERNAL | Sean Dream",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3477640040,
     tags: [1, 54, 29, 478, 479, 435, 889, 893, 532, 894],
   },
   {
@@ -3326,6 +3783,7 @@ const urls = [
     url: "https://djshoe412.bandcamp.com/album/promises",
     title: "Promises | DJ Shoe",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3321569999,
     tags: [
       882, 1292, 1335, 787, 95, 29, 477, 1336, 1337, 478, 479, 787, 27, 901,
       230,
@@ -3336,6 +3794,7 @@ const urls = [
     url: "https://sv-1.bandcamp.com/album/splinter",
     title: "Splinter | sv1",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3758386785,
     tags: [1, 1338],
   },
   {
@@ -3343,6 +3802,7 @@ const urls = [
     url: "https://thecentrifuge.bandcamp.com/album/cf502-turbulent-topographies-compilation",
     title: "[CF502] Turbulent Topographies Compilation | The Centrifuge",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3364349661,
     tags: [107, 28, 1, 54, 4, 5, 122],
   },
   {
@@ -3350,6 +3810,7 @@ const urls = [
     url: "https://section27.bandcamp.com/album/decayed",
     title: "Decayed | Room of Wires | S27",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3314000485,
     tags: [16, 1, 54, 5, 57, 516, 2, 1339, 498],
   },
   {
@@ -3357,6 +3818,7 @@ const urls = [
     url: "https://section27.bandcamp.com/album/island-flux-remixes",
     title: "Island Flux Remixes | Dissolved | S27",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3671830887,
     tags: [16, 1, 54, 5, 57, 516, 498],
   },
   {
@@ -3364,6 +3826,7 @@ const urls = [
     url: "https://section27.bandcamp.com/album/va-sectioned-v60",
     title: "[VA] Sectioned v6.0 | Various Artists | S27",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4294045773,
     tags: [16, 1, 54, 5, 57, 516, 2, 3, 273, 1270, 28, 4, 153, 608, 498],
   },
   {
@@ -3371,6 +3834,7 @@ const urls = [
     url: "https://walkill.bandcamp.com/album/actuate",
     title: "actuate | Walk_iLL",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2531217573,
     tags: [1, 1340, 469, 249, 1, 4, 849, 841, 281, 50, 1341],
   },
   {
@@ -3378,6 +3842,7 @@ const urls = [
     url: "https://couchlockcollective.bandcamp.com/album/sofa-king-locked-clc-025",
     title: "Sofa King Locked - [CLC.025] | Couch Lock Collective",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 592723899,
     tags: [469, 249, 54, 1342, 1343, 841, 29, 6, 1344, 608, 673, 1345, 283],
   },
   {
@@ -3385,6 +3850,7 @@ const urls = [
     url: "https://breadwinnerbass.bandcamp.com/album/off-the-record",
     title: "Off The Record | Bread Winner",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1144073051,
     tags: [1, 290, 249, 54, 850, 852, 283],
   },
   {
@@ -3392,6 +3858,7 @@ const urls = [
     url: "https://crawdadsniper.bandcamp.com/album/2021-2022-releases",
     title: "2021-2022 Releases | crawdad sniper",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2587278819,
     tags: [338, 1, 469, 249, 849, 841, 853],
   },
   {
@@ -3399,6 +3866,7 @@ const urls = [
     url: "https://thepolishambassador.bandcamp.com/album/the-tide-remixes",
     title: "The Tide Remixes | Wildlight | The Polish Ambassador",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2974740354,
     tags: [470, 16, 1, 54, 792, 608, 108, 429, 1346, 558, 146],
   },
   {
@@ -3406,6 +3874,7 @@ const urls = [
     url: "https://thepolishambassador.bandcamp.com/album/twilight-safari",
     title: "Twilight Safari | The Polish Ambassador",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1067529467,
     tags: [54, 108, 429, 1346, 558, 146],
   },
   {
@@ -3413,6 +3882,7 @@ const urls = [
     url: "https://armonite.bandcamp.com/album/the-sun-is-new-each-day",
     title: "The Sun is New each Day | Armonite",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2957688352,
     tags: [192, 1347, 1037, 502, 1348, 1349],
   },
   {
@@ -3420,6 +3890,7 @@ const urls = [
     url: "https://venustheory.bandcamp.com/album/motions-and-echoes",
     title: "Motions And Echoes | Venus Theory",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2327205877,
     tags: [2, 148, 241, 1, 54, 210, 35, 1350, 39, 1351],
   },
   {
@@ -3427,6 +3898,7 @@ const urls = [
     url: "https://khaoman666.bandcamp.com/album/les-songes-dun-chaos",
     title: "Les Songes d'un Chaos | KHΛOMΛИ",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3354569346,
     tags: [54, 779, 244, 1352, 148, 241, 1353, 420, 697, 1354, 130],
   },
   {
@@ -3435,6 +3907,7 @@ const urls = [
     title:
       "Turning shadow into transient beauty | NLC & WOLF CITY | NOUVELLES LECTURES COSMOPOLITES",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1307795763,
     tags: [2, 2, 241, 1270, 374, 1355, 1356],
   },
   {
@@ -3442,6 +3915,7 @@ const urls = [
     url: "https://herrschaft.bandcamp.com/album/les-12-vertiges",
     title: "Les 12 Vertiges | Herrschaft",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2772509654,
     tags: [602, 190, 100, 649, 57, 506],
   },
   {
@@ -3449,6 +3923,7 @@ const urls = [
     url: "https://terrestre-terrestre.bandcamp.com/album/maere",
     title: "Maere | terrestre",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 608276331,
     tags: [192, 21, 1357, 1358, 616, 1359, 1137, 1360, 1054],
   },
   {
@@ -3456,6 +3931,7 @@ const urls = [
     url: "https://lemol.bandcamp.com/album/kara-oh-kee",
     title: "Kara Oh Kee | le_mol",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3381196550,
     tags: [54, 1222, 148, 21, 306, 1136, 152, 1137, 12, 1361, 1362, 1363, 1364],
   },
   {
@@ -3463,6 +3939,7 @@ const urls = [
     url: "https://twentytwosixteen.bandcamp.com/album/twenty-two-sixteen",
     title: "twenty two sixteen | twenty two sixteen",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2356625138,
     tags: [192, 2, 311, 152, 1365, 12, 390, 339],
   },
   {
@@ -3470,6 +3947,7 @@ const urls = [
     url: "https://papir.bandcamp.com/album/papir",
     title: "Papir | Papir",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3981324528,
     tags: [54, 1146, 50, 192, 1366, 1367],
   },
   {
@@ -3478,6 +3956,7 @@ const urls = [
     title:
       "A Road To Nowhere | The Last Weapon - Vanessa Funke | The Last Weapon",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2902004632,
     tags: [193, 1368, 622, 190, 1369, 609, 1370, 1371, 1372],
   },
   {
@@ -3485,6 +3964,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/home",
     title: "Home | KeepSleep | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1462298139,
     tags: [1373, 2, 492, 1374, 167, 1375, 380, 153, 105],
   },
   {
@@ -3492,6 +3972,7 @@ const urls = [
     url: "https://qualitytimes.bandcamp.com/album/--10",
     title: "光​の​女​神 | slowerpace 音楽 | Quality Times",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1181380508,
     tags: [1, 172, 16, 354, 92, 945],
   },
   {
@@ -3500,6 +3981,7 @@ const urls = [
     title:
       "The First Sound of The Future Past | Astrophysics & Hatsune Miku | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2360281627,
     tags: [1, 108, 273, 292, 96, 160, 315, 282, 945],
   },
   {
@@ -3507,6 +3989,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/--21",
     title: "천​국​의 뒷​마​당 | GODSPEED 音 | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1579075812,
     tags: [1, 54, 172, 470, 331, 16, 21, 245, 354, 175, 92, 356],
   },
   {
@@ -3514,6 +3997,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/filth",
     title: "FILTH | 𝐺𝑂𝑅𝐸 | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 411715590,
     tags: [1, 172, 360, 331, 174, 16, 175, 92, 356],
   },
   {
@@ -3521,6 +4005,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/vixere-remastered",
     title: "VIXERE (Remastered) | GODSPEED 音 | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 321583708,
     tags: [1, 54, 470, 331, 16, 21, 175, 281, 1376, 92, 356],
   },
   {
@@ -3528,6 +4013,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/1984-remastered",
     title: "1984 (Remastered) | Male Alchemy | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2100536582,
     tags: [1, 54, 470, 331, 174, 16, 92, 356],
   },
   {
@@ -3535,6 +4021,7 @@ const urls = [
     url: "https://m1televizio.bandcamp.com/album/t-r-a-n-s-i-t-night",
     title: "t r a n s i t [night] | M1 t e l e v í z i ó",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1845487399,
     tags: [54, 436, 186, 92, 1377, 1378],
   },
   {
@@ -3542,6 +4029,7 @@ const urls = [
     url: "https://mamamiyalozatoz.bandcamp.com/album/dolph15n",
     title: "dolph15n | MamamiyaLozatoz",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3584648047,
     tags: [1, 54, 1379, 131, 2, 291, 428, 109, 135, 343, 96, 192, 92, 1380],
   },
   {
@@ -3549,6 +4037,7 @@ const urls = [
     url: "https://f-o-m.bandcamp.com/album/harkening-critters",
     title: "harkening critters | various artists | forms of minutiae",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1846525577,
     tags: [54, 1381, 2, 1382, 1383, 167, 162, 414, 1384, 1385, 1386, 153],
   },
   {
@@ -3556,6 +4045,7 @@ const urls = [
     url: "https://lontanoseries.bandcamp.com/album/beloved-algorithms",
     title: "Beloved Algorithms | Mosaic Tapes | Lᴏɴᴛᴀɴᴏ Series",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 766371696,
     tags: [2, 1, 54, 1387, 167, 135, 1388, 1389, 1390, 1162],
   },
   {
@@ -3563,6 +4053,7 @@ const urls = [
     url: "https://sewerslvt.bandcamp.com/album/irly-ep",
     title: "IRLY - EP | Sewerslvt",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2861259521,
     tags: [1, 54, 107, 966, 273, 766, 516, 257, 752],
   },
   {
@@ -3570,6 +4061,7 @@ const urls = [
     url: "https://vsself.bandcamp.com/album/demo",
     title: "demo | vs self",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 722982535,
     tags: [117, 311, 1391, 1392, 196, 581, 1393],
   },
   {
@@ -3577,6 +4069,7 @@ const urls = [
     url: "https://awd-tapes.bandcamp.com/album/disarm-or-die",
     title: "Disarm or Die | DOGMA | a world divided",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 422308081,
     tags: [117, 1006, 1394, 1395],
   },
   {
@@ -3584,6 +4077,7 @@ const urls = [
     url: "https://awd-tapes.bandcamp.com/album/--2",
     title: "صاحب الموتور بيستند عليكن | TA2REEBAN | a world divided",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2804811893,
     tags: [117, 1396, 118, 1397, 1395],
   },
   {
@@ -3591,6 +4085,7 @@ const urls = [
     url: "https://domesticrust.bandcamp.com/album/apparatus-burning-in-hell-ep-2020",
     title: "Apparatus burning in hell (Ep 2020) | DOMESTICRUST | Dömesticrust",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1327247146,
     tags: [117, 137, 1398, 1399, 118, 1400],
   },
   {
@@ -3598,6 +4093,7 @@ const urls = [
     url: "https://deathtoll80k.bandcamp.com/album/harsh-realities",
     title: "Harsh Realities | Death Toll 80k",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2820673940,
     tags: [117, 371, 1401, 1402, 1403],
   },
   {
@@ -3605,6 +4101,7 @@ const urls = [
     url: "https://oliverlugg.bandcamp.com/album/thrive-soundtrack-complete-oliver-lugg-collection",
     title: "Thrive Soundtrack (Complete Oliver Lugg Collection) | Oliver Lugg",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2613736454,
     tags: [8, 2, 25, 141],
   },
   {
@@ -3612,6 +4109,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/punk",
     title: "Punk | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 755993132,
     tags: [54, 591, 90, 1404, 640],
   },
   {
@@ -3619,6 +4117,7 @@ const urls = [
     url: "https://daryldee.bandcamp.com/album/sorry-dude",
     title: "sorry dude | daryl dee",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3399351995,
     tags: [192, 547, 639, 132, 791, 160, 1086],
   },
   {
@@ -3626,6 +4125,7 @@ const urls = [
     url: "https://hyenrg.bandcamp.com/album/reverse-engineered",
     title: "Reverse Engineered | HyeNRG",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1709109319,
     tags: [1, 765, 1280, 639, 724],
   },
   {
@@ -3633,6 +4133,7 @@ const urls = [
     url: "https://angel-0a.bandcamp.com/album/angel-0a-ep-02",
     title: "Angel-0A EP 02 | Angel-0A",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3422864555,
     tags: [1, 1343, 1405, 301, 1406, 1407],
   },
   {
@@ -3640,6 +4141,7 @@ const urls = [
     url: "https://beansclub.bandcamp.com/album/take-all-you-need-from-me",
     title: "TAKE ALL YOU NEED FROM ME | beansclub",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 581256337,
     tags: [1, 1408, 725, 1405, 1409, 343, 1410, 798, 257, 1411, 1412, 1413],
   },
   {
@@ -3647,6 +4149,7 @@ const urls = [
     url: "https://purityleech.bandcamp.com/album/c34s3-d3s1st-volume-1",
     title: "C34S3 & D3S1ST Volume 1 | purityleech",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3914103613,
     tags: [338, 1, 765, 1414, 273, 343, 1410, 1415, 798, 257, 32],
   },
   {
@@ -3654,6 +4157,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/supersylph",
     title: "SUPERSYLPH | WⱯꓥƎ | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 399857791,
     tags: [946, 273, 1, 729, 727, 724],
   },
   {
@@ -3661,6 +4165,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/nekou-type-z",
     title: "NEKOU-Type Z | NekouaiZ | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 434202624,
     tags: [273, 1, 729, 127, 724],
   },
   {
@@ -3668,6 +4173,7 @@ const urls = [
     url: "https://amanogawaconverter.bandcamp.com/album/pedal-to-the-metal",
     title: "pedal to the metal | amanogawa converter",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1596338422,
     tags: [1, 343, 1410, 766, 1416],
   },
   {
@@ -3675,6 +4181,7 @@ const urls = [
     url: "https://oaths.bandcamp.com/album/green-tea-dreams",
     title: "green.tea.dreams | oaths",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 486810633,
     tags: [95, 1124, 56, 681, 470, 135, 1417, 128, 1418, 1419, 1420],
   },
   {
@@ -3682,6 +4189,7 @@ const urls = [
     url: "https://microcolossus.bandcamp.com/album/art-of-in-everything",
     title: "art of __ in everything | micro | ❁☽☽❁☾☾❁",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 911110622,
     tags: [1, 2, 1124, 16, 585, 1421, 112],
   },
   {
@@ -3689,6 +4197,7 @@ const urls = [
     url: "https://venosci.bandcamp.com/album/wild-gold",
     title: "WILD GOLD | venoSci",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 249246185,
     tags: [1422, 1, 1423, 301, 292, 1424, 1425, 1426, 257, 466, 635, 112],
   },
   {
@@ -3696,6 +4205,7 @@ const urls = [
     url: "https://venosci.bandcamp.com/album/club-nite",
     title: "Club Nite | venoSci",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2571554711,
     tags: [1422, 1, 1422, 466, 787, 635, 1427, 766, 112],
   },
   {
@@ -3703,6 +4213,7 @@ const urls = [
     url: "https://dramarecorder.bandcamp.com/album/trans-revolution-now",
     title: "Trans Revolution Now! | TRANS POWER | Drama Recorder",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 821969821,
     tags: [54, 241, 167, 1103, 127, 697, 1053],
   },
   {
@@ -3711,6 +4222,7 @@ const urls = [
     title:
       "Canciones de Babel I | ANTONIO MURGA & EL ZOMBIE ESPACIAL | EL ZOMBIE ESPACIAL",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1594133596,
     tags: [54, 1428, 1429, 414, 1103, 239, 384],
   },
   {
@@ -3718,6 +4230,7 @@ const urls = [
     url: "https://labeillecool.bandcamp.com/album/retraite-18-ans",
     title: "retraite à 18 ans | Saishō 最小 | L'Abeille Cool",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 129670142,
     tags: [8, 1430, 237, 170, 132, 1431, 1432, 1433, 1434, 1435],
   },
   {
@@ -3725,6 +4238,7 @@ const urls = [
     url: "https://labelpinceoreilles.bandcamp.com/album/naissance-de-lhorizon-3",
     title: "Naissance de l'horizon | Romain Baret | Label Pince-Oreilles",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2478552224,
     tags: [245, 192, 1436, 590, 239, 130],
   },
   {
@@ -3732,6 +4246,7 @@ const urls = [
     url: "https://mxqidlove.bandcamp.com/album/the-bardo-room",
     title: "The Bardo Room | Qid Love",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 712318911,
     tags: [54, 244, 4, 150, 386, 1437, 1438, 44],
   },
   {
@@ -3739,6 +4254,7 @@ const urls = [
     url: "https://jigsawscreening.bandcamp.com/album/p-o-d",
     title: "p.o.d. | Jigsaw Screening",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3597342563,
     tags: [54, 241, 1439, 1440, 1441, 1442],
   },
   {
@@ -3746,6 +4262,7 @@ const urls = [
     url: "https://stahlschlag.bandcamp.com/album/a-journey-to-the-end",
     title: "A Journey to the End | In Tenebris | STAHLSCHLAG",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 145849444,
     tags: [54, 1443, 241, 57, 1444, 1445, 1446],
   },
   {
@@ -3753,6 +4270,7 @@ const urls = [
     url: "https://stahlschlag.bandcamp.com/album/episode-1",
     title: "Episode 1 | Fundustrial | STAHLSCHLAG",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1040542014,
     tags: [54, 1443, 241, 57, 1444, 1445, 1446],
   },
   {
@@ -3760,6 +4278,7 @@ const urls = [
     url: "https://jesusonthemoon1.bandcamp.com/album/deadset",
     title: "Deadset | Jesus on the Moon",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1735593796,
     tags: [237, 1, 192, 132, 135, 1447, 1448],
   },
   {
@@ -3767,6 +4286,7 @@ const urls = [
     url: "https://jemmyjoe.bandcamp.com/album/not-quite-naked",
     title: "Not Quite Naked | Jemmy Joe",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4221131582,
     tags: [1449, 1450, 96, 1451, 1452, 374, 47, 48, 1453, 1454, 1455, 200],
   },
   {
@@ -3774,6 +4294,7 @@ const urls = [
     url: "https://auntlindasmusic.bandcamp.com/album/faces-without-looking",
     title: "Faces without Looking | Aunt Linda",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2574920711,
     tags: [8, 1456, 1457, 1447, 1448],
   },
   {
@@ -3781,6 +4302,7 @@ const urls = [
     url: "https://stahlschlag.bandcamp.com/album/fragments-of-the-void",
     title: "Fragments of the Void | Resonare Thalamum | STAHLSCHLAG",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 858242460,
     tags: [54, 1443, 241, 57, 1444, 1445, 1446],
   },
   {
@@ -3789,6 +4311,7 @@ const urls = [
     title:
       "ReGen Presents: BIG HIT RADIO - A Tribute to Die Warzau | ReGen Magazine",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3769868528,
     tags: [1422, 1458, 648, 28, 57, 652, 1459, 1460, 389, 1461],
   },
   {
@@ -3796,6 +4319,7 @@ const urls = [
     url: "https://es-thebigfix.bandcamp.com/album/the-big-fix-go-fight-bill-saveley",
     title: "The Big Fix - Go Fight / Bill Saveley | Go Fight | The Big Fix",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2096040514,
     tags: [8, 787, 1462, 1, 57, 112],
   },
   {
@@ -3803,6 +4327,7 @@ const urls = [
     url: "https://jumpsuitrecords.bandcamp.com/album/indighost",
     title: "Indighost | Deka Sul, The Polish Ambassador | Jumpsuit Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4106214879,
     tags: [1, 374, 804, 558, 310, 146],
   },
   {
@@ -3810,6 +4335,7 @@ const urls = [
     url: "https://jumpsuitrecords.bandcamp.com/album/wandering-mind",
     title: "Wandering Mind | Nomadic | Jumpsuit Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 472048551,
     tags: [1, 374, 804, 558, 2, 146],
   },
   {
@@ -3818,6 +4344,7 @@ const urls = [
     title:
       "Super Chill Goats, Vol. 1 & 2 | The Polish Ambassador | Jumpsuit Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 691199475,
     tags: [1, 374, 94, 804, 139, 558, 310, 146],
   },
   {
@@ -3825,6 +4352,7 @@ const urls = [
     url: "https://jumpsuitrecords.bandcamp.com/album/space-man",
     title: "Space Man | Dr. Sus | Jumpsuit Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4258788983,
     tags: [1, 374, 804, 558, 2, 310, 146],
   },
   {
@@ -3832,6 +4360,7 @@ const urls = [
     url: "https://jumpsuitrecords.bandcamp.com/album/fern-gully",
     title: "Fern Gully | Dr. Sus | Jumpsuit Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3418036186,
     tags: [1, 374, 804, 558, 2, 146],
   },
   {
@@ -3839,6 +4368,7 @@ const urls = [
     url: "https://jumpsuitrecords.bandcamp.com/album/savanna-sultana",
     title: "Savanna Sultana | Scott Nice | Jumpsuit Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2658670179,
     tags: [1, 374, 804, 558, 2, 146],
   },
   {
@@ -3846,6 +4376,7 @@ const urls = [
     url: "https://footprintsinthecustard.bandcamp.com/album/live-laugh-lads-2024",
     title: "Live, Laugh, Lads (2024) | Footprints In The Custard",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2476118624,
     tags: [589, 1463, 624, 190, 1464, 1465, 413],
   },
   {
@@ -3853,6 +4384,7 @@ const urls = [
     url: "https://nomadicrituals.bandcamp.com/album/marking-the-day",
     title: "Marking the Day | Nomadic Rituals",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1273501124,
     tags: [190, 401, 1466, 1467, 367, 1468, 372, 1469, 1470, 400, 1471],
   },
   {
@@ -3860,6 +4392,7 @@ const urls = [
     url: "https://omauk.bandcamp.com/album/luv-sic-hexalogy-oma-shing02-live-at-liquidroom",
     title: "Luv(sic) Hexalogy (OMA & Shing02 Live at Liquidroom) | OMA",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2028384330,
     tags: [131, 94, 95, 139, 684, 413],
   },
   {
@@ -3867,6 +4400,7 @@ const urls = [
     url: "https://nighttempo.bandcamp.com/album/fantasy",
     title: "Fantasy | Night Tempo",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2992705013,
     tags: [1, 1472, 1473, 1163, 1474, 429, 113, 96, 1475, 92, 1476],
   },
   {
@@ -3875,6 +4409,7 @@ const urls = [
     title:
       "Lo-fi 🍃 Donkey Kong Country 2: Diddy's Kong Quest OST 🌿 | Otorii Station",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2177708154,
     tags: [1, 360, 331, 1477, 466, 1478, 128, 1200, 1183, 92, 1185, 1186],
   },
   {
@@ -3882,6 +4417,7 @@ const urls = [
     url: "https://catsystemcorp.bandcamp.com/album/oasys",
     title: "OASYS ♁ 博物館 | 猫 シ Corp.",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 322336598,
     tags: [1, 183, 90, 185, 357, 92],
   },
   {
@@ -3889,6 +4425,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/vid-oboutique",
     title: "vid​é​oboutique | vcr-classique | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1293603231,
     tags: [1, 182, 1479, 128, 175, 183, 90, 92, 1096, 356],
   },
   {
@@ -3896,6 +4433,7 @@ const urls = [
     url: "https://celadonplaza.bandcamp.com/album/blyat",
     title: "BLYAT | DARK DESIRE | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1620144148,
     tags: [1, 172, 174, 16, 245, 354, 92, 356],
   },
   {
@@ -3904,6 +4442,7 @@ const urls = [
     title:
       "night skies again ま​た​夜​空 | Brickmason | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3424109523,
     tags: [1, 2, 167, 170, 135, 353, 187, 92, 130],
   },
   {
@@ -3911,6 +4450,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/vesper",
     title: "VESPER | IO | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4255742151,
     tags: [
       1, 1163, 2, 1480, 1481, 835, 79, 135, 1482, 1483, 353, 571, 187, 92, 130,
     ],
@@ -3921,6 +4461,7 @@ const urls = [
     title:
       "新しいコンピュータのOS 98 | 新しいコンピュータのOS 98 | Shatterfoil Industries",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 471754971,
     tags: [1, 181, 54, 1484, 1088, 92, 1485, 1486],
   },
   {
@@ -3928,6 +4469,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/1988",
     title: "1988 | Zadig The Jasp | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 240975844,
     tags: [1, 2, 135, 183, 353, 187, 92, 130],
   },
   {
@@ -3936,6 +4478,7 @@ const urls = [
     title:
       "A GHOST HUNTS FOXES IN WINTER TIME ON A FROZEN SEA | Rooms Without Doors",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 251845943,
     tags: [2, 167, 1, 54, 127, 92, 350],
   },
   {
@@ -3943,6 +4486,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/task",
     title: "Task | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2491976964,
     tags: [54, 2, 167, 639, 640],
   },
   {
@@ -3950,6 +4494,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/dance-odyssey",
     title: "Dance Odyssey | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2232999868,
     tags: [310, 106, 54, 1209, 640],
   },
   {
@@ -3957,6 +4502,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/aeroplane",
     title: "Aeroplane | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2727141724,
     tags: [54, 2, 639, 1209, 257, 640],
   },
   {
@@ -3964,6 +4510,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/new-piranesi",
     title: "New Piranesi | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2660346084,
     tags: [54, 2, 4, 127, 640],
   },
   {
@@ -3971,6 +4518,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/telecommunications",
     title: "Telecommunications | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3867376187,
     tags: [2, 54, 92, 640],
   },
   {
@@ -3978,6 +4526,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/walks-of-lung",
     title: "Walks of Lung | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3147347026,
     tags: [106, 54, 29, 96, 640],
   },
   {
@@ -3985,6 +4534,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/heavens-sun",
     title: "Heaven's Sun | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2650748947,
     tags: [54, 176, 1409, 135, 1487, 640],
   },
   {
@@ -3992,6 +4542,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/sapphire-apts",
     title: "Sapphire Apts | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2193402629,
     tags: [106, 54, 134, 96, 640],
   },
   {
@@ -3999,6 +4550,7 @@ const urls = [
     url: "https://janusawi.bandcamp.com/album/7-8",
     title: "7/8 | jan Usawi",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3790398822,
     tags: [96, 1488, 133, 1212, 1489, 443, 53, 1490, 959],
   },
   {
@@ -4006,6 +4558,7 @@ const urls = [
     url: "https://adamneelymusic.bandcamp.com/album/two-microtonal-lo-fi-jams",
     title: "two microtonal lo-fi jams | Adam Neely",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2178924324,
     tags: [1, 5, 106, 1491, 69],
   },
   {
@@ -4013,6 +4566,7 @@ const urls = [
     url: "https://adamneelymusic.bandcamp.com/album/christmas-microtonal-lo-fi-hip-hop-ep",
     title: "Christmas Microtonal Lo-Fi Hip Hop EP | Adam Neely",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3698290367,
     tags: [1, 5, 106, 1491, 69],
   },
   {
@@ -4020,6 +4574,7 @@ const urls = [
     url: "https://ryanosaurus.bandcamp.com/album/tesseract-interface",
     title: "Tesseract Interface | Ryanosaurus",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2062919320,
     tags: [1, 1492, 266, 109, 502, 50, 253, 1493, 257, 1494, 752],
   },
   {
@@ -4027,6 +4582,7 @@ const urls = [
     url: "https://insonitusrecords.bandcamp.com/album/va-digital-pharmacopeia",
     title: "VA - Digital Pharmacopeia | Insonitus Records",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1924859269,
     tags: [1495, 1496, 1, 1497, 1498, 269, 141],
   },
   {
@@ -4034,6 +4590,7 @@ const urls = [
     url: "https://gaggalacka.bandcamp.com/album/gaggalacka-2023-va-psyral-maddness-beach",
     title: "Gaggalacka 2023 VA Psyral Maddness - Beach | Gaggalacka",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1101829460,
     tags: [1, 2, 16, 252, 1499, 253, 89],
   },
   {
@@ -4041,6 +4598,7 @@ const urls = [
     url: "https://barbedwirealarms.bandcamp.com/album/icedancer-instrumental",
     title: "Icedancer (Instrumental) | Bladee, Ripsquadd | ☆☆☆",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2814072920,
     tags: [1, 1500],
   },
   {
@@ -4048,6 +4606,7 @@ const urls = [
     url: "https://pinegrove.bandcamp.com/album/everything-so-far",
     title: "Everything So Far | Pinegrove",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1432684628,
     tags: [8, 9, 615, 132, 1501, 1502, 1503, 1504],
   },
   {
@@ -4055,6 +4614,7 @@ const urls = [
     url: "https://koaner-layo.bandcamp.com/album/2000s",
     title: "2000s | layo | KOANER & LAYO",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1690142499,
     tags: [95],
   },
   {
@@ -4062,6 +4622,7 @@ const urls = [
     url: "https://djleancup.bandcamp.com/album/13-7-22-m-2-recovery-2",
     title: "13-7-22 m.2_recovery | 0xC9b5db189631ED9bB35eb795826d90717b43B56A",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1368096976,
     tags: [1, 131, 29, 935, 21, 1505],
   },
   {
@@ -4069,6 +4630,7 @@ const urls = [
     url: "https://djleancup.bandcamp.com/album/17-7-22-sundaytape",
     title: "17-7-22 SUNDAYTAPE! | 0xC9b5db189631ED9bB35eb795826d90717b43B56A",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 432417090,
     tags: [1, 131, 29, 935, 21, 1505],
   },
   {
@@ -4076,6 +4638,7 @@ const urls = [
     url: "https://pega.bandcamp.com/album/--2",
     title: "新しい日 | PEGA",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3120104590,
     tags: [96, 1181, 92, 32],
   },
   {
@@ -4083,6 +4646,7 @@ const urls = [
     url: "https://dntfck.bandcamp.com/album/syntrovert-the-gathering",
     title: "Syntrovert - The Gathering | Syntrovert | DNTFCK",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3285856154,
     tags: [1506, 1507, 787, 1, 54, 1508, 487, 1247, 945],
   },
   {
@@ -4090,6 +4654,7 @@ const urls = [
     url: "https://somenextguy.bandcamp.com/album/summon-e-p",
     title: "Summon E.P | SomeNextGuy",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2370821667,
     tags: [95, 1509, 693, 21, 122],
   },
   {
@@ -4097,6 +4662,7 @@ const urls = [
     url: "https://imaabs.bandcamp.com/album/alien-posse",
     title: "Alien Posse | Imaabs",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2508260543,
     tags: [1, 945],
   },
   {
@@ -4104,6 +4670,7 @@ const urls = [
     url: "https://apocalipsistoday.bandcamp.com/album/sin-fronteras",
     title: "Sin Fronteras | APOCALIPSIS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2037266153,
     tags: [54, 1510],
   },
   {
@@ -4111,6 +4678,7 @@ const urls = [
     url: "https://djdiegovalente.bandcamp.com/album/good-luck-babe-valente-edits",
     title: "Good Luck, Babe! (Valente Edits) | Chappell Roan | Diego Valente",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1296403391,
     tags: [1511, 1512, 96, 1513, 1514, 1515, 1516, 96, 1517, 836],
   },
   {
@@ -4118,6 +4686,7 @@ const urls = [
     url: "https://djdiegovalente.bandcamp.com/album/unholy-remixes",
     title: "Unholy Remixes | Diego Valente",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 356383698,
     tags: [1512, 96, 1517, 836],
   },
   {
@@ -4125,6 +4694,7 @@ const urls = [
     url: "https://soundklash.bandcamp.com/album/dangerous-ep-stompa-phunk",
     title: "Dangerous EP - Stompa Phunk | Sound Klash",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 256243216,
     tags: [310, 1518, 1519, 106, 481, 1, 1520, 29, 139, 1521, 310, 122],
   },
   {
@@ -4132,6 +4702,7 @@ const urls = [
     url: "https://playabaghdad.bandcamp.com/album/m-sica-hecha-en-casa-vol-2",
     title: "Música Hecha en Casa Vol. 2 | Playa Baghdad",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1257916805,
     tags: [1, 1520, 29, 107, 1522, 28, 1523],
   },
   {
@@ -4139,6 +4710,7 @@ const urls = [
     url: "https://chugginedits1.bandcamp.com/album/chuggin-edits-2023-re-visits-slo-mo",
     title: "Chuggin Edits 2023 re Visits Slo Mo | Chuggin Edits",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3781959984,
     tags: [521, 481, 141],
   },
   {
@@ -4146,6 +4718,7 @@ const urls = [
     url: "https://chugginedits1.bandcamp.com/album/previously-unreleased-edits-chuggin-edits",
     title: "Previously Unreleased Edits (Chuggin Edits) | Chuggin Edits",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 829740403,
     tags: [521, 481, 141],
   },
   {
@@ -4153,6 +4726,7 @@ const urls = [
     url: "https://diegolellilegoedit.bandcamp.com/album/dancefloor-edits-hot-barbecue",
     title: "Dancefloor Edits Hot Barbecue | Lego Edit",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 53266501,
     tags: [429, 29, 1524, 1168, 481, 1525, 1162],
   },
   {
@@ -4161,6 +4735,7 @@ const urls = [
     title:
       "ENJOY YOURSELF - Single | DAILY MIDNIGHT MESMERISM | DAILY MIDNIGHT催眠术",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 218670003,
     tags: [
       627, 54, 2, 1526, 1527, 113, 1154, 1528, 1529, 90, 50, 1530, 92, 1531,
     ],
@@ -4170,6 +4745,7 @@ const urls = [
     url: "https://vestigevapor.bandcamp.com/album/--5",
     title: "ｓｉｍｐｌｉｃｉｔｙ | Vestige Vapor",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2955520760,
     tags: [54, 174, 1095, 750, 92, 1096, 784],
   },
   {
@@ -4177,6 +4753,7 @@ const urls = [
     url: "https://auraenelespejo.bandcamp.com/album/viva-la-reina-hormiga",
     title: "¡Viva la reina hormiga! | Aura en el espejo",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3605255249,
     tags: [8, 1, 1532, 54, 1010, 1533, 945],
   },
   {
@@ -4184,6 +4761,7 @@ const urls = [
     url: "https://auraenelespejo.bandcamp.com/album/atlas-anat-mico-single-club",
     title: "Atlas anatómico [Single club] | Aura en el espejo",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1915544766,
     tags: [8, 1, 1532, 54, 1010, 945],
   },
   {
@@ -4191,6 +4769,7 @@ const urls = [
     url: "https://auraenelespejo.bandcamp.com/album/restaurante-vac-o",
     title: "Restaurante vacío | Aura en el espejo",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 690410918,
     tags: [8, 1, 1532, 54, 1534, 1010, 1533, 945],
   },
   {
@@ -4198,6 +4777,7 @@ const urls = [
     url: "https://poisoncut.bandcamp.com/album/scrumble-ship-extended-soundtrack",
     title: "Scrumble Ship Extended Soundtrack | poisoncut",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 310063657,
     tags: [753, 633, 1, 754, 466, 544, 25, 1535],
   },
   {
@@ -4205,6 +4785,7 @@ const urls = [
     url: "https://scottlawlor.bandcamp.com/album/rex-gentium-remastered",
     title: "Rex Gentium (remastered) | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1242720808,
     tags: [2, 1536, 241, 167, 1, 242, 42, 159, 243],
   },
   {
@@ -4212,6 +4793,7 @@ const urls = [
     url: "https://scottlawlor.bandcamp.com/album/the-twelve-hookers-of-christmas",
     title: "The Twelve Hookers of Christmas | Spank Hookers | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2496743784,
     tags: [2, 396, 241, 167, 1, 54, 42, 127, 159, 243],
   },
   {
@@ -4220,6 +4802,7 @@ const urls = [
     title:
       "Just a Dream of Iceland | Ingrid N, Skynbrögð & Scott Lawlor | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 536991294,
     tags: [2, 153, 148, 241, 167, 1, 1537, 242, 42, 1538, 159, 243],
   },
   {
@@ -4228,6 +4811,7 @@ const urls = [
     title:
       "A History of Dreaming | Scott Lawlor and The Circular Ruins | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3051914713,
     tags: [2, 241, 167, 1, 42, 159, 243],
   },
   {
@@ -4235,6 +4819,7 @@ const urls = [
     url: "https://scottlawlor.bandcamp.com/album/fallen-butterflies",
     title: "Fallen Butterflies | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3348475943,
     tags: [2, 241, 167, 1, 42, 1539, 159, 243],
   },
   {
@@ -4243,6 +4828,7 @@ const urls = [
     title:
       "drone​.​excursion​.​006 (waag_dex006) | Scott Lawlor | weareallghosts",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1512091547,
     tags: [2, 167, 170, 41, 1540],
   },
   {
@@ -4250,6 +4836,7 @@ const urls = [
     url: "https://cousinsilas1.bandcamp.com/album/emporium-drone-004",
     title: "Emporium Drone 004 | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1895570010,
     tags: [2, 1541, 1542, 1, 54, 150, 168, 169, 141],
   },
   {
@@ -4258,6 +4845,7 @@ const urls = [
     title:
       "Nocturnal Lullabies Volume 2 | Cousin Silas & Pete Swinton | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 601587159,
     tags: [2, 1, 54, 150, 168, 169, 148, 1543, 378, 39, 141],
   },
   {
@@ -4266,6 +4854,7 @@ const urls = [
     title:
       "Nocturnal Lullabies Volume 20 | Cousin Silas & Maximum Movement Theatre | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2962205608,
     tags: [2, 1, 54, 150, 168, 169, 141],
   },
   {
@@ -4274,6 +4863,7 @@ const urls = [
     title:
       "Confession Of Lazarus | Diabarha | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 186971280,
     tags: [1, 1544, 1545, 1546, 709, 301, 127, 1547, 768, 1548, 1549, 1550, 89],
   },
   {
@@ -4281,6 +4871,7 @@ const urls = [
     url: "https://speedcoreworldwideaudionetlabel.bandcamp.com/album/warnsystem-volume-2",
     title: "Warnsystem Volume 2 | V.A. | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 84099737,
     tags: [1, 709, 301, 1551, 127, 768, 1548, 1550, 1552, 1553, 89],
   },
   {
@@ -4288,6 +4879,7 @@ const urls = [
     url: "https://fleshengines.bandcamp.com/album/splintered-strings",
     title: "Splintered Strings | Nerium | Flesh Engines",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 509832295,
     tags: [1, 797, 1554, 1555, 709, 301, 1556, 646, 1053],
   },
   {
@@ -4295,6 +4887,7 @@ const urls = [
     url: "https://speedcoreworldwideaudionetlabel.bandcamp.com/album/speed-kvlt-vol-5",
     title: "Speed Kvlt Vol.5 | V.A. | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4111653936,
     tags: [1, 1546, 709, 301, 127, 1557, 768, 1548, 1558, 1550, 1552, 89],
   },
   {
@@ -4302,6 +4895,7 @@ const urls = [
     url: "https://speedcoreworldwideaudionetlabel.bandcamp.com/album/archangel",
     title: "Archangel | Mortified Rage | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3200414187,
     tags: [1, 1559, 1546, 709, 301, 1560, 127, 1561, 768, 1548, 1562, 1550, 89],
   },
   {
@@ -4309,6 +4903,7 @@ const urls = [
     url: "https://speedcoreworldwideaudionetlabel.bandcamp.com/album/circles-of-hell-vol-2",
     title: "Circles Of Hell Vol.2 | V.A. | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4089098825,
     tags: [1, 1563, 1546, 709, 301, 127, 768, 1564, 1550, 1552, 89],
   },
   {
@@ -4316,6 +4911,7 @@ const urls = [
     url: "https://speedcoreworldwideaudionetlabel.bandcamp.com/album/circles-of-hell-vol-5",
     title: "Circles Of Hell Vol.5 | V.A. | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3084433698,
     tags: [1, 1565, 1546, 709, 301, 127, 768, 1566, 1550, 1552, 89],
   },
   {
@@ -4324,6 +4920,7 @@ const urls = [
     title:
       "Circles Of Hell Vol.6.66 | V.A. | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3931859747,
     tags: [1, 1567, 1546, 709, 301, 127, 768, 1568, 1550, 1552, 89],
   },
   {
@@ -4331,6 +4928,7 @@ const urls = [
     url: "https://speedcoreworldwideaudionetlabel.bandcamp.com/album/celestial-fracture",
     title: "Celestial Fracture | V.A. | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2591468383,
     tags: [1, 1569, 54, 1570, 709, 1571, 301, 127, 768, 1572, 1550, 1552, 89],
   },
   {
@@ -4338,6 +4936,7 @@ const urls = [
     url: "https://viralconspiracyrecords.bandcamp.com/album/jensen-moments-of-transition",
     title: "Jensen - Moments Of Transition | Viral Conspiracy Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1500835171,
     tags: [1573, 1, 402, 1574, 1575, 1576, 1162],
   },
   {
@@ -4346,6 +4945,7 @@ const urls = [
     title:
       "Get Fast Or Die Hard | Tomegatherion | Speedcore Worldwide Audio Netlabel",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1535143580,
     tags: [1, 1546, 709, 1577, 301, 795, 127, 768, 1550, 1578, 89],
   },
   {
@@ -4353,6 +4953,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/sunday-syndrome",
     title: "sunday syndrome | aphextwinsucks & rehirable & temma | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3061614947,
     tags: [1, 108, 273, 292, 945],
   },
   {
@@ -4360,6 +4961,7 @@ const urls = [
     url: "https://reali.bandcamp.com/album/baconcore-funny-moments-part-1",
     title: "baconcore funny moments part 1 | reali",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 29354873,
     tags: [106, 1, 836],
   },
   {
@@ -4367,6 +4969,7 @@ const urls = [
     url: "https://traxhaven.bandcamp.com/album/trax-evasion-ep",
     title: "Trax Evasion EP | Trax Haven",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1009128126,
     tags: [1579, 932, 1, 1580, 1581, 1582, 644, 288, 1583, 141],
   },
   {
@@ -4374,6 +4977,7 @@ const urls = [
     url: "https://traxhaven.bandcamp.com/album/council-trax-ep",
     title: "Council Trax EP | Trax Haven",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2993194211,
     tags: [1579, 1, 1580, 1581, 644, 288, 141],
   },
   {
@@ -4381,6 +4985,7 @@ const urls = [
     url: "https://1tbsp.bandcamp.com/album/its-very-loud-ep",
     title: "It's Very Loud EP | 1tbsp",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3950379975,
     tags: [1, 29, 310, 132, 516, 668],
   },
   {
@@ -4388,6 +4993,7 @@ const urls = [
     url: "https://ainmono.bandcamp.com/album/there-it-is-missing",
     title: "There, it is Missing | (A) in Mono",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3928754237,
     tags: [1, 1584],
   },
   {
@@ -4395,6 +5001,7 @@ const urls = [
     url: "https://tigermendoza.bandcamp.com/album/the-myth-of-failing-fast",
     title: "The Myth of Failing Fast | Tiger Mendoza",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4263404269,
     tags: [547, 290, 1, 109, 192, 1251],
   },
   {
@@ -4402,6 +5009,7 @@ const urls = [
     url: "https://kilowatts.bandcamp.com/album/problem-solving",
     title: "Problem/Solving | KiloWatts",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3022798088,
     tags: [2, 1, 5, 16, 247],
   },
   {
@@ -4409,6 +5017,7 @@ const urls = [
     url: "https://2mellomakes.bandcamp.com/album/return-of-the-soul",
     title: "Return Of The Soul | 2 Mello",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1932067986,
     tags: [1, 94, 95, 139, 356],
   },
   {
@@ -4417,6 +5026,7 @@ const urls = [
     title:
       "DropLeafShoujo, passing of time | hearteyesL | djacc vs hearteyesL / onlinemanchuria label protection",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3595749452,
     tags: [54, 1585, 1586, 1587, 1588, 258],
   },
   {
@@ -4424,6 +5034,7 @@ const urls = [
     url: "https://fgrsktr.bandcamp.com/album/fs3-virtua-clouds-3",
     title: "FS3: VIRTUA CLOUDS 3 | FIGURE SKATER",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3462850640,
     tags: [1, 435, 523, 869, 1589, 693, 128, 1078],
   },
   {
@@ -4431,6 +5042,7 @@ const urls = [
     url: "https://miyalowe.bandcamp.com/album/chao-gardens",
     title: "CHAO GARDENS | EVABOY | Miya lowe",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1019028427,
     tags: [1, 273, 644, 1580, 292, 343, 1590, 1410, 766, 1591, 1592, 1078],
   },
   {
@@ -4438,6 +5050,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/the-strxwberry-vault",
     title: "The Strxwberry Vault | strxwberrymilk | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 916942494,
     tags: [1, 477, 108, 273, 644, 292, 945],
   },
   {
@@ -4445,6 +5058,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/jersey-club-epic-fail-compilation",
     title: "Jersey Club Epic Fail Compilation | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1433524666,
     tags: [1, 477, 108, 273, 644, 288, 292, 945],
   },
   {
@@ -4452,6 +5066,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/lights-camera-amen",
     title: "lights, camera, amen! | aphextwinsucks | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3033976433,
     tags: [1, 108, 273, 292, 945],
   },
   {
@@ -4459,6 +5074,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/the-second-summoning",
     title: "The Second Summoning | Astrophysics & Hatsune Miku | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2412835545,
     tags: [1, 108, 273, 1593, 1010, 292, 120, 315, 282, 945],
   },
   {
@@ -4466,6 +5082,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/ep-2",
     title: "ضوء القمر EP | GODSPEED 音 | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1587368377,
     tags: [1, 172, 108, 273, 16, 354, 292, 92, 945],
   },
   {
@@ -4473,6 +5090,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/reproducci-n-de-m-sica",
     title: "Reproducción de música | GoldenEggs | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2613685859,
     tags: [1, 793, 795, 1594, 108, 273, 292, 945],
   },
   {
@@ -4480,6 +5098,7 @@ const urls = [
     url: "https://dizzytunes.bandcamp.com/album/downfall-land-of-confusion-remixes",
     title: "Downfall & Land of Confusion Remixes | Armando | Dizzy Tunes",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2860030189,
     tags: [1, 107, 1595, 1596, 1597, 1598, 258],
   },
   {
@@ -4487,6 +5106,7 @@ const urls = [
     url: "https://kuyaneil.bandcamp.com/album/bootleg-pack-vol-3",
     title: "BOOTLEG PACK VOL 3 | Kuya Neil",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 867670117,
     tags: [106, 1, 1599, 1600, 868, 1601, 290, 787, 481, 644, 94, 288, 871, 98],
   },
   {
@@ -4494,6 +5114,7 @@ const urls = [
     url: "https://bastianbell.bandcamp.com/album/vol-8",
     title: "VOL.8 | Bastian Bell",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3827497264,
     tags: [131, 29, 897, 521, 941, 539, 1602, 1332, 1603, 892, 893, 945],
   },
   {
@@ -4501,6 +5122,7 @@ const urls = [
     url: "https://sicstyle.bandcamp.com/album/remixes-edits-pack-vol-2",
     title: "Remixes & Edits Pack vol. 2 | SicStyle",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2030366070,
     tags: [1, 131, 139, 435, 920, 1600, 284, 1604, 517],
   },
   {
@@ -4508,6 +5130,7 @@ const urls = [
     url: "https://tmshallibrukit.bandcamp.com/album/soul-brukossa",
     title: "Soul Brukossa | Matica x Beat Detective | ™Shall I Bruk It",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3408434831,
     tags: [1067, 1068, 1, 29, 245, 122],
   },
   {
@@ -4515,6 +5138,7 @@ const urls = [
     url: "https://tmshallibrukit.bandcamp.com/album/flames-for-the-club-vol-6",
     title: "Flames for the club vol 6 | Flames for the club | ™Shall I Bruk It",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2210795838,
     tags: [1067, 1068, 1, 29, 245, 122],
   },
   {
@@ -4522,6 +5146,7 @@ const urls = [
     url: "https://6la8.bandcamp.com/album/welcome-to-the-age-of-flaws",
     title: "Welcome To The Age Of Flaws | 6LA8",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1147435350,
     tags: [2, 167, 1, 152, 502, 1605],
   },
   {
@@ -4529,6 +5154,7 @@ const urls = [
     url: "https://ysma.bandcamp.com/album/the-gronau-variations-2022",
     title: "The Gronau Variations (2022) | Ysma",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 315313148,
     tags: [8, 9, 21, 617, 612, 1606],
   },
   {
@@ -4536,6 +5162,7 @@ const urls = [
     url: "https://ysma.bandcamp.com/album/fourth-wall-2014",
     title: "Fourth Wall (2014) | Ysma",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4260650574,
     tags: [8, 9, 21, 617, 612, 1606],
   },
   {
@@ -4543,6 +5170,7 @@ const urls = [
     url: "https://deepinthought.bandcamp.com/album/verses",
     title: "Verses | Deep in Thought",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1160211572,
     tags: [54, 2, 21, 190, 152, 612, 1607],
   },
   {
@@ -4550,6 +5178,7 @@ const urls = [
     url: "https://contradictionsgermany.bandcamp.com/album/alone",
     title: "Alone | Contradictions",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3709739798,
     tags: [8, 660, 623, 1608, 190, 661, 657, 624, 21, 1609, 89],
   },
   {
@@ -4557,6 +5186,7 @@ const urls = [
     url: "https://peculate.bandcamp.com/album/there-are-no-angels",
     title: "There Are No Angels | PECULATE",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1293785746,
     tags: [1610, 190, 1611, 1612, 244, 613, 203, 611, 1613, 617, 1614, 1615],
   },
   {
@@ -4564,6 +5194,7 @@ const urls = [
     url: "https://canofblissmusic.bandcamp.com/album/myrtle-broadway-the-big-bang-theory",
     title: "MYRTLE BROADWAY & THE BIG BANG THEORY | Can of Bliss",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1934275724,
     tags: [8, 1, 443, 1616, 1617, 311, 639, 134, 48, 12, 230],
   },
   {
@@ -4572,6 +5203,7 @@ const urls = [
     title:
       "Every Time You See Me I Look Like I Hit the Lotto Twice (JR-013) | Dikembe | Jeremy Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2679770830,
     tags: [117, 1233, 311, 48, 1618],
   },
   {
@@ -4579,6 +5211,7 @@ const urls = [
     url: "https://radiatorhospital.bandcamp.com/album/my-most-imaginary-friend",
     title: "My Most Imaginary Friend | Radiator Hospital",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1749934941,
     tags: [1619, 117, 1620, 1619, 1621, 1622, 1623, 247],
   },
   {
@@ -4587,6 +5220,7 @@ const urls = [
     title:
       "HDK 104 † HDK Dungeon​​​-​​​synth magazine # 5 | V.A. | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 290392682,
     tags: [1, 1624, 25, 1625],
   },
   {
@@ -4595,6 +5229,7 @@ const urls = [
     title:
       "HDK 07 † The curse of the ancient abbey | KOBOLD | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2699430217,
     tags: [1, 1624, 25, 1625],
   },
   {
@@ -4602,6 +5237,7 @@ const urls = [
     url: "https://rawrdcore.bandcamp.com/album/hypoborea",
     title: "hypoborea | bleak fortune | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1059770635,
     tags: [54, 44],
   },
   {
@@ -4609,6 +5245,7 @@ const urls = [
     url: "https://rawrdcore.bandcamp.com/album/sounds-from-the-cloud-vol-iii",
     title: "SOUNDS FROM THE CLOUD VOL. III | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 128690509,
     tags: [54, 44],
   },
   {
@@ -4616,6 +5253,7 @@ const urls = [
     url: "https://rawrdcore.bandcamp.com/album/hole",
     title: "Hole | Dalmatrix | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3227861319,
     tags: [54, 2, 167, 127, 169, 44],
   },
   {
@@ -4623,6 +5261,7 @@ const urls = [
     url: "https://rawrdcore.bandcamp.com/album/sentimental-illness",
     title: "SENTIMENTAL ILLNESS | 4lung | RAWRDCORE RECORDS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2869071792,
     tags: [54, 44],
   },
   {
@@ -4630,6 +5269,7 @@ const urls = [
     url: "https://jellebones.bandcamp.com/album/output",
     title: "output | Jellebones",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 190430894,
     tags: [1, 54, 1626, 273, 127, 98],
   },
   {
@@ -4637,6 +5277,7 @@ const urls = [
     url: "https://kinpatsukinpatsu.bandcamp.com/album/kinpatsukore-vol-1",
     title: "KINPATSUKORE VOL.1 | Various Artists | KINPATSU 金髪",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4287601635,
     tags: [1, 2, 171, 273, 280, 301, 729, 1216],
   },
   {
@@ -4644,6 +5285,7 @@ const urls = [
     url: "https://pstmdrn.bandcamp.com/album/flwrgrdn",
     title: "百flwrgrdn合 | p.stmdrn",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 432998230,
     tags: [95, 56, 401, 1627, 1628, 1629, 1630, 1631, 1632, 1393],
   },
   {
@@ -4651,6 +5293,7 @@ const urls = [
     url: "https://entrobeats.bandcamp.com/album/radar",
     title: "RADAR | ENTRO//",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 547479880,
     tags: [56, 95, 145, 1633, 1150, 128, 1127, 792, 98],
   },
   {
@@ -4658,6 +5301,7 @@ const urls = [
     url: "https://lookfordog.bandcamp.com/album/init-1",
     title: "init.1 | lookfordog.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 746470759,
     tags: [95, 1124, 94, 804, 1634, 139, 1153, 1635],
   },
   {
@@ -4665,6 +5309,7 @@ const urls = [
     url: "https://lookfordog.bandcamp.com/album/dry-food-ep",
     title: "dry.food.ep | lookfordog.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 484042394,
     tags: [95, 1124, 804, 139, 1153, 1635],
   },
   {
@@ -4672,6 +5317,7 @@ const urls = [
     url: "https://lakimisalive.bandcamp.com/album/blends-bootlegs-vol-vii",
     title: "blends & bootlegs, vol. VII | LAKIM",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4225462062,
     tags: [
       528, 56, 310, 1, 95, 29, 478, 479, 529, 530, 481, 531, 532, 533, 534,
     ],
@@ -4681,6 +5327,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/vgm-35",
     title: "VGM.35 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4246525369,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -4688,6 +5335,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/wt-20",
     title: "WT.20 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2272630893,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -4695,6 +5343,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/wt-148",
     title: "WT.14.8_カセットバージョン | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1109094497,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -4702,6 +5351,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/hx-11",
     title: "HX.11 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3581181030,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -4709,6 +5359,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/vgm-33",
     title: "VGM.33 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 293833195,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -4716,6 +5367,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/hx-138",
     title: "HX.13.8 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3691262110,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -4723,6 +5375,7 @@ const urls = [
     url: "https://kandonkyser.bandcamp.com/album/rihanna-bbhmm-remixes",
     title: "Rihanna BBHMM Remixes | Kandon Kyser",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2602181421,
     tags: [131, 95, 135, 478, 479, 1636, 1637],
   },
   {
@@ -4730,6 +5383,7 @@ const urls = [
     url: "https://lemaestromind.bandcamp.com/album/dangelo-brown-sugar-klm-flip",
     title: "D'ANGELO – BROWN SUGAR (KLM FLIP) | K, Le Maestro",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 50725574,
     tags: [95, 94, 122],
   },
   {
@@ -4737,6 +5391,7 @@ const urls = [
     url: "https://ricardobanks.bandcamp.com/album/ricardo-banks-edits-01-smooth-tasty",
     title: "Ricardo Banks Edits.01 - smooth & tasty | Ricardo Banks",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 71448058,
     tags: [131, 95, 479, 530, 1168, 429, 1638],
   },
   {
@@ -4744,6 +5399,7 @@ const urls = [
     url: "https://ricardobanks.bandcamp.com/album/ricardo-banks-edits-02-smooth-tasty",
     title: "Ricardo Banks Edits.02 - smooth & tasty | Ricardo Banks",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4021022544,
     tags: [131, 94, 95, 139, 479, 530, 1168, 481, 429, 693, 1638],
   },
   {
@@ -4751,6 +5407,7 @@ const urls = [
     url: "https://theyisgrove.bandcamp.com/album/spice",
     title: "SPICE | Grove",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1776548269,
     tags: [1639, 1, 131, 1640, 480, 875, 1641, 673, 1642],
   },
   {
@@ -4758,6 +5415,7 @@ const urls = [
     url: "https://ritchrd.bandcamp.com/album/everynight",
     title: "EVERYNIGHT | RITCHRD",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 718153145,
     tags: [1, 290, 249, 564, 29, 292, 516, 339],
   },
   {
@@ -4765,6 +5423,7 @@ const urls = [
     url: "https://t5umut5umu.bandcamp.com/album/tokyo-stain",
     title: "Tokyo Stain | T5UMUT5UMU",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2618907122,
     tags: [1, 693, 516, 1640, 108, 1643, 1644, 1645, 1646, 724],
   },
   {
@@ -4772,6 +5431,7 @@ const urls = [
     url: "https://oddfamiliar.bandcamp.com/album/odd-002",
     title: "ODD 002 | Odd Familiar",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1191257256,
     tags: [1, 1209, 1521, 1640, 1647, 1648, 1649, 516, 488, 1650, 1651, 122],
   },
   {
@@ -4779,6 +5439,7 @@ const urls = [
     url: "https://debba.bandcamp.com/album/bassweight-nostalgia-vol-10",
     title: "Bassweight Nostalgia [Vol 1.0] | Debba",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1813613811,
     tags: [1, 469, 108, 1, 516, 141],
   },
   {
@@ -4786,6 +5447,7 @@ const urls = [
     url: "https://functionrecordsuk.bandcamp.com/album/run-from-babylon-ep",
     title: "Run From Babylon EP | Charla Green | Function Records Uk",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 434066630,
     tags: [1652, 1, 1653, 1654, 280, 292, 1655],
   },
   {
@@ -4793,6 +5455,7 @@ const urls = [
     url: "https://danfresco.bandcamp.com/album/fresco-edits-vol-1",
     title: "Fresco Edits | Vol.1 | Dan Fresco",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3571503781,
     tags: [1, 29, 1656, 1521, 1535],
   },
   {
@@ -4800,6 +5463,7 @@ const urls = [
     url: "https://cobra303.bandcamp.com/album/kylie-minogue-slow-cobra303-remix",
     title: "Kylie Minogue - Slow (Cobra303 Remix) | Cobra303",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1896104890,
     tags: [1657, 1, 1658, 107, 1659, 108, 1168, 648, 28, 1660, 1661, 1662, 141],
   },
   {
@@ -4807,6 +5471,7 @@ const urls = [
     url: "https://kmrt.bandcamp.com/album/soulless-computer",
     title: "Soulless Computer | KMRT",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1740228042,
     tags: [107, 310, 1, 1659, 1663, 290, 32],
   },
   {
@@ -4814,6 +5479,7 @@ const urls = [
     url: "https://klubbk.bandcamp.com/album/trapped-jam-master-remixes",
     title: "Trapped (Jam Master Remixes) | Klubb K",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3285139001,
     tags: [290, 1069, 1168, 1, 669, 1473, 122],
   },
   {
@@ -4821,6 +5487,7 @@ const urls = [
     url: "https://bidehuts.bandcamp.com/album/ezlekuak",
     title: "Ezlekuak | Lisabö | bIDEhUTS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2210520261,
     tags: [8, 1664, 1665, 1666, 192, 1667],
   },
   {
@@ -4828,6 +5495,7 @@ const urls = [
     url: "https://bidehuts.bandcamp.com/album/eta-edertasunaren-lorratzetan-biluztu-ginen",
     title: "Eta Edertasunaren Lorratzetan Biluztu Ginen | Lisabö | bIDEhUTS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1319592670,
     tags: [8, 1664, 1665, 1666, 192, 1667],
   },
   {
@@ -4835,6 +5503,7 @@ const urls = [
     url: "https://ivonnevancleef.bandcamp.com/album/ojo-fatale",
     title: "Ojo Fatale | Ivonne Van Cleef",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2535551406,
     tags: [1668, 54, 1669, 1670, 241, 1671, 167, 127, 1672, 1673],
   },
   {
@@ -4842,6 +5511,7 @@ const urls = [
     url: "https://flyingdeadman.bandcamp.com/album/the-night",
     title: "The night | flyingdeadman",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3291285404,
     tags: [192, 1674, 48, 1675, 1676, 152, 130],
   },
   {
@@ -4850,6 +5520,7 @@ const urls = [
     title:
       "those things are mountains my friend EP (2013) rough version | seven sciences of plenty",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1904504796,
     tags: [192, 21, 1137, 1677, 12, 517],
   },
   {
@@ -4857,6 +5528,7 @@ const urls = [
     url: "https://amigo-imaginario.bandcamp.com/album/a-vida-que-falta",
     title: "A Vida Que Falta | Amigo Imaginário",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3334014124,
     tags: [8, 1678, 48, 1679, 1680],
   },
   {
@@ -4864,6 +5536,7 @@ const urls = [
     url: "https://milhaven.bandcamp.com/album/s-t",
     title: "s/t | Milhaven",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 825985886,
     tags: [192, 21, 1137, 89],
   },
   {
@@ -4871,6 +5544,7 @@ const urls = [
     url: "https://elhombretrajeado.bandcamp.com/album/shoplift",
     title: "Shoplift | El Hombre Trajeado",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2575975197,
     tags: [547, 54, 1036, 1681, 117, 789],
   },
   {
@@ -4878,6 +5552,7 @@ const urls = [
     url: "https://rubyandtheemeralds.bandcamp.com/album/before-and-after",
     title: "Before and After | Ruby and The Emeralds",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 448014390,
     tags: [1682, 429, 1683, 208, 192, 979],
   },
   {
@@ -4886,6 +5561,7 @@ const urls = [
     title:
       "Peter Pan Hits the Suburbs LP | The Astronauts | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3305917327,
     tags: [117, 1001, 118, 1684, 121, 502, 122],
   },
   {
@@ -4893,6 +5569,7 @@ const urls = [
     url: "https://smikkelbaard.bandcamp.com/album/plurex-007",
     title: "Plurex 007 | Interior | smikkelbaard",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1591968993,
     tags: [54, 1685],
   },
   {
@@ -4900,6 +5577,7 @@ const urls = [
     url: "https://geoband.bandcamp.com/album/geo",
     title: "Geo | Geo",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1647770886,
     tags: [117, 1686, 305, 120, 1687, 625],
   },
   {
@@ -4907,6 +5585,7 @@ const urls = [
     url: "https://jonivoid.bandcamp.com/album/everyday-is-the-song",
     title: "Everyday Is The Song | Joni Void",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 70764967,
     tags: [54, 148, 1, 1688, 1689, 50, 720],
   },
   {
@@ -4914,6 +5593,7 @@ const urls = [
     url: "https://o---s---b.bandcamp.com/album/ostraca-sotteranea-belleville",
     title: "Ostraca Sotteranea Belleville | OSB",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4207841822,
     tags: [1, 1690, 1691, 720],
   },
   {
@@ -4921,6 +5601,7 @@ const urls = [
     url: "https://o---s---b.bandcamp.com/album/overdraft-solution-bank",
     title: "Overdraft Solution Bank | OSB",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2140874045,
     tags: [1, 720],
   },
   {
@@ -4929,6 +5610,7 @@ const urls = [
     title:
       "Atmospheres, Soundtracks and Transmissions | Black Seas Ensemble | The Dim Coast",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 179873086,
     tags: [54, 162, 1207, 386, 127, 306, 1692],
   },
   {
@@ -4936,6 +5618,7 @@ const urls = [
     url: "https://zoominnight.bandcamp.com/album/snare-drum-2",
     title: "Snare Drum + | Taku Sugimoto | Zoomin' Night",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2185512557,
     tags: [54, 1436, 1693, 1694],
   },
   {
@@ -4943,6 +5626,7 @@ const urls = [
     url: "https://zoominnight.bandcamp.com/album/essay",
     title: "Essay | John Wilton | Zoomin' Night",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 55043105,
     tags: [54, 1139, 1695, 128, 1696, 1694],
   },
   {
@@ -4950,6 +5634,7 @@ const urls = [
     url: "https://subjamlabel.bandcamp.com/album/ake",
     title: "ake 阿科 | ake 阿科 | Sub Jam",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3311115100,
     tags: [54, 1139, 1697, 386, 1278, 1694],
   },
   {
@@ -4957,6 +5642,7 @@ const urls = [
     url: "https://sawako.bandcamp.com/album/sounds",
     title: "Sounds | sawako",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1079760358,
     tags: [2, 1207, 109, 54, 1698, 1697, 1699, 1700, 755, 30, 724],
   },
   {
@@ -4964,6 +5650,7 @@ const urls = [
     url: "https://fuselab.bandcamp.com/album/inner-maze-walkthrough",
     title: "Inner Maze Walkthrough | Morkebla | Fuselab",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 83500042,
     tags: [2, 1, 54, 5, 135, 1701, 1702],
   },
   {
@@ -4971,6 +5658,7 @@ const urls = [
     url: "https://braindancenews.bandcamp.com/album/free-gaza",
     title: "FREE GAZA | Braindance News Community",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3573859432,
     tags: [1, 5, 1703, 1704, 323, 54, 542],
   },
   {
@@ -4978,6 +5666,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/numerik",
     title: "Numerik | Peltiform | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2653792532,
     tags: [1, 54, 2, 162, 1, 109, 54, 5, 165],
   },
   {
@@ -4985,6 +5674,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/low",
     title: "Low | Substak + Signalstoerung | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1355546826,
     tags: [1, 54, 2, 167, 170, 162, 1, 54, 165],
   },
   {
@@ -4992,6 +5682,7 @@ const urls = [
     url: "https://magdalenevapor.bandcamp.com/album/heroine",
     title: "heroine | Magdalene",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1428896111,
     tags: [1, 2, 172, 1705, 56, 331, 174, 16, 1706, 128, 175, 90, 187, 92, 361],
   },
   {
@@ -4999,6 +5690,7 @@ const urls = [
     url: "https://oliver-buckland.bandcamp.com/album/twenty",
     title: "TWENTY二十 | Oliver Buckland",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4091922793,
     tags: [8, 1707, 1708, 1709, 1710, 547, 162, 1, 1711, 1712, 141],
   },
   {
@@ -5006,6 +5698,7 @@ const urls = [
     url: "https://experimentalrecords.bandcamp.com/album/murmuria-marble-waterfall",
     title: "Murmuria Marble Waterfall | Mur霧 | Experimental Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3317931573,
     tags: [8, 1, 54, 2, 1226, 113, 1155, 355, 135, 128, 1213, 92, 32],
   },
   {
@@ -5013,6 +5706,7 @@ const urls = [
     url: "https://experimentalrecords.bandcamp.com/album/satellite",
     title: "Satellite | Orbital Decay | Experimental Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 251704275,
     tags: [8, 54, 2, 436, 174, 1, 54, 113, 131, 128, 1213, 92, 1713, 32],
   },
   {
@@ -5021,6 +5715,7 @@ const urls = [
     title:
       "The Highways Of Captivity Rarely Guarantee Safety | Wings Of An Angel",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 865753665,
     tags: [
       2, 1714, 375, 376, 377, 170, 54, 1697, 414, 379, 153, 25, 381, 320, 382,
     ],
@@ -5030,6 +5725,7 @@ const urls = [
     url: "https://sangredemuerdago.bandcamp.com/album/o-vento-que-lambe-as-mi-as-feridas-2",
     title: "O Vento que Lambe as miñas Feridas | SANGRE DE MUERDAGO",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1676142159,
     tags: [374, 1715, 1141, 167, 1716, 1717, 1053],
   },
   {
@@ -5037,6 +5733,7 @@ const urls = [
     url: "https://barabbasdufortappade.bandcamp.com/album/barabbas-du-f-rtappade",
     title: "Кальк / Barabbas, du förtappade | Barabbas, du förtappade",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1032924093,
     tags: [117, 1718, 580, 1719, 196, 581, 814],
   },
   {
@@ -5044,6 +5741,7 @@ const urls = [
     url: "https://confettimalaise.bandcamp.com/album/a-thousand-burning-suns",
     title: "A Thousand Burning Suns | Confetti Malaise",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3885837572,
     tags: [117, 1593, 1270, 1010, 1213, 120, 930],
   },
   {
@@ -5051,6 +5749,7 @@ const urls = [
     url: "https://dahearditrecords.bandcamp.com/album/d-hr-45-finger-bueno",
     title: "[D!HR-45] Finger Bueno | Infecticide | Da ! Heard It Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1481528212,
     tags: [8, 1, 192, 1720, 57, 506],
   },
   {
@@ -5058,6 +5757,7 @@ const urls = [
     url: "https://bromptreb.bandcamp.com/album/bald-eagle-over-food-city",
     title: "Bald Eagle Over Food City | Bromp Treb",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 149773534,
     tags: [54, 2, 56, 162, 1, 54, 414, 127, 153, 1721, 1390, 1722, 32],
   },
   {
@@ -5065,6 +5765,7 @@ const urls = [
     url: "https://klaps.bandcamp.com/album/lovers-without-borders",
     title: "Lovers Without Borders | Lovers Without Borders | Karl Blau",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 438199012,
     tags: [1723, 1724, 1725, 558, 1726, 1727, 247],
   },
   {
@@ -5072,6 +5773,7 @@ const urls = [
     url: "https://klaps.bandcamp.com/album/maherrington-fantasy-volume-1-the-sessions",
     title: "Maherrington Fantasy: Volume 1, The Sessions | Karl Blau",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 552729314,
     tags: [1723, 1724, 1725, 558, 1726, 247],
   },
   {
@@ -5079,6 +5781,7 @@ const urls = [
     url: "https://klaps.bandcamp.com/album/beneath-beneath-waves",
     title: "Beneath Beneath Waves | by Various Artists | Karl Blau",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1021861924,
     tags: [1723, 1724, 1725, 558, 1726, 247],
   },
   {
@@ -5086,6 +5789,7 @@ const urls = [
     url: "https://klaps.bandcamp.com/album/in-return-of-ghost-country",
     title: "In Return Of Ghost Country | Karl Blau",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 815218047,
     tags: [1723, 1724, 1725, 558, 1726, 247],
   },
   {
@@ -5093,6 +5797,7 @@ const urls = [
     url: "https://klaps.bandcamp.com/album/stereoearrings",
     title: "Stereoearrings | Stereoearrings | Karl Blau",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 797715222,
     tags: [1723, 1724, 1725, 558, 1726, 247],
   },
   {
@@ -5100,6 +5805,7 @@ const urls = [
     url: "https://klaps.bandcamp.com/album/if-i-knew-zen-what-i-know-now",
     title: "If I Knew Zen What I Know Now | Karl Blau",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 966909555,
     tags: [1723, 1724, 1725, 558, 1726, 247],
   },
   {
@@ -5107,6 +5813,7 @@ const urls = [
     url: "https://getcrevlabs.bandcamp.com/album/black-jack-parsons-instrumentals",
     title: "BLACK JACK PARSONS instrumentals | SUBTITLE | GET CREV LABS",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 71610895,
     tags: [54, 1728, 166, 244, 1729, 1, 94, 1231, 1730, 1153, 1247, 32],
   },
   {
@@ -5114,6 +5821,7 @@ const urls = [
     url: "https://dizza.bandcamp.com/album/five-finger-discount",
     title: "Five-Finger Discount | DZA",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 363614375,
     tags: [1, 1731],
   },
   {
@@ -5121,6 +5829,7 @@ const urls = [
     url: "https://lapti.bandcamp.com/album/allure",
     title: "Allure | Lapti",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3599172517,
     tags: [56, 131, 95, 1732, 435, 673, 1731],
   },
   {
@@ -5128,6 +5837,7 @@ const urls = [
     url: "https://catsystemcorp.bandcamp.com/album/good-morning-america",
     title: "Good Morning America | 猫 シ Corp.",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1204128327,
     tags: [1, 183, 90, 185, 357, 92],
   },
   {
@@ -5135,6 +5845,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/bootleg-cuts-vol-1",
     title: "bootleg cuts vol.1 | slowerpace 音楽 | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1283765601,
     tags: [1, 141],
   },
   {
@@ -5142,6 +5853,7 @@ const urls = [
     url: "https://micromecha.bandcamp.com/album/i-dont-know-unless-i-try",
     title: "I Don't Know Unless I Try | MICROMECHA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2803531772,
     tags: [
       338, 1, 171, 172, 108, 291, 16, 280, 245, 1733, 354, 292, 1264, 175, 608,
       92, 1162,
@@ -5152,6 +5864,7 @@ const urls = [
     url: "https://mikeljakobi.bandcamp.com/album/middle-earth-chill",
     title: "Middle-Earth & Chill | Mikel",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3374881080,
     tags: [
       1, 94, 95, 139, 360, 323, 39, 94, 804, 21, 128, 1734, 1202, 219, 25, 1204,
     ],
@@ -5161,6 +5874,7 @@ const urls = [
     url: "https://sebastienskaf.bandcamp.com/album/video-game-piano-covers-vii",
     title: "Video Game Piano Covers VII | Sebastien Skaf",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3086489395,
     tags: [25, 229, 97, 1735],
   },
   {
@@ -5168,6 +5882,7 @@ const urls = [
     url: "https://miraclesofmodernscience.bandcamp.com/album/meems",
     title: "MEEMS | Miracles of Modern Science",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4269293903,
     tags: [
       8, 1736, 1737, 202, 1738, 1739, 48, 1740, 207, 1741, 1742, 1743, 1744,
     ],
@@ -5177,6 +5892,7 @@ const urls = [
     url: "https://bigbrother404.bandcamp.com/album/the-retronica-remix-ep",
     title: "The Retronica Remix EP | Foilverb",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3881596888,
     tags: [1, 210, 8, 466, 1745, 12, 724],
   },
   {
@@ -5184,6 +5900,7 @@ const urls = [
     url: "https://zohryu.bandcamp.com/album/thanatos",
     title: "THANATOS | zohryu",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4257688258,
     tags: [1, 1746, 2, 35, 1747, 1748, 109, 1749, 135, 282, 1750, 720],
   },
   {
@@ -5191,6 +5908,7 @@ const urls = [
     url: "https://producersfightclub.bandcamp.com/album/antagonist",
     title: "antagonist | Producers Fight Club",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2011747900,
     tags: [1, 724],
   },
   {
@@ -5198,6 +5916,7 @@ const urls = [
     url: "https://bitplane.bandcamp.com/album/free-download-album-moondiver-ep",
     title: "[Free Download Album] Moondiver - EP | Bitplane",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 706656893,
     tags: [466, 1, 1751, 1752, 762, 1753, 25, 562],
   },
   {
@@ -5205,6 +5924,7 @@ const urls = [
     url: "https://sylvysprit.bandcamp.com/album/nociception-simple-outlook-from-hell-ost",
     title: "Nociception: Simple Outlook From Hell OST | Princess Sylvysprit",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2485958523,
     tags: [54, 1754, 817, 1755, 1210, 1756, 763, 1195, 1757, 625],
   },
   {
@@ -5212,6 +5932,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/fresh-tapes-2",
     title: "Fresh Tapes 2 | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1593785416,
     tags: [54, 443, 695, 57, 640],
   },
   {
@@ -5219,6 +5940,7 @@ const urls = [
     url: "https://hjkl-8901.bandcamp.com/album/plastic-flesh-ferrofluid-blood",
     title: "Plastic Flesh & Ferrofluid Blood | Sophiaaaahjkl;8901",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3535844372,
     tags: [
       1, 54, 5, 1758, 3, 639, 4, 277, 1759, 288, 127, 90, 1760, 178, 92, 146,
     ],
@@ -5228,6 +5950,7 @@ const urls = [
     url: "https://artetetra.bandcamp.com/album/exotic-sot-rique-vol-3",
     title: "Exotic Ésotérique Vol​.​3 | Artetetra",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3899046392,
     tags: [54, 1761, 1762, 1763, 644, 1764, 94, 127, 1765, 50, 1766, 1625],
   },
   {
@@ -5235,6 +5958,7 @@ const urls = [
     url: "https://oyubi.bandcamp.com/album/earnin-it",
     title: "Earnin It | Oyubi",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2849108452,
     tags: [1, 1285, 787, 644, 288, 1767],
   },
   {
@@ -5242,6 +5966,7 @@ const urls = [
     url: "https://ill-esha.bandcamp.com/album/illusions",
     title: "Illusions | ill-esha",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 814562799,
     tags: [1, 641, 742, 1768, 249, 1769, 841, 1770, 1771, 271],
   },
   {
@@ -5249,6 +5974,7 @@ const urls = [
     url: "https://erothyme.bandcamp.com/album/feel-recording",
     title: "Feel Recording | Erothyme",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3627098168,
     tags: [1, 148, 16, 162, 1772, 1773, 1697, 1774, 1775, 199, 1776, 350],
   },
   {
@@ -5257,6 +5983,7 @@ const urls = [
     title:
       "Organología Latinoamericana vol.II: Sonido mapuche | Creación sonora",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2073346754,
     tags: [54, 1777, 54, 374, 1778, 1779, 1780, 1781],
   },
   {
@@ -5264,6 +5991,7 @@ const urls = [
     url: "https://timothy-seals.bandcamp.com/album/a-new-dawn-bred-for-war-edition",
     title: "A New Dawn (Bred for War Edition) | Timothy Seals",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3682154253,
     tags: [2, 4, 190, 612, 25, 1782],
   },
   {
@@ -5271,6 +5999,7 @@ const urls = [
     url: "https://stellardrone.bandcamp.com/album/light-years",
     title: "Light Years | Stellardrone",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3768795543,
     tags: [2, 148, 167, 1, 153, 159, 1783],
   },
   {
@@ -5278,6 +6007,7 @@ const urls = [
     url: "https://migueljohnson.bandcamp.com/album/citizen-of-the-stars",
     title: "Citizen of the Stars | Miguel Johnson",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3819158365,
     tags: [202, 210, 1784, 1785, 1786, 838, 207, 25, 400, 159, 223, 97, 32],
   },
   {
@@ -5285,6 +6015,7 @@ const urls = [
     url: "https://spacequesthistorian.bandcamp.com/album/police-quest-i-a-fair-and-balanced-ep",
     title: "Police Quest I - A Fair and Balanced EP | Space Quest Historian",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3929488869,
     tags: [837, 544, 838, 25, 271],
   },
   {
@@ -5292,6 +6023,7 @@ const urls = [
     url: "https://spacequesthistorian.bandcamp.com/album/kings-quest-vi-a-fair-and-balanced-ep",
     title: "King's Quest VI - A Fair and Balanced EP | Space Quest Historian",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 769851722,
     tags: [837, 544, 838, 25, 271],
   },
   {
@@ -5299,6 +6031,7 @@ const urls = [
     url: "https://slowerpace.bandcamp.com/album/enesis",
     title: "𝒢ENESIS | Mabisyo & slowerpace 音楽 | slowerpace 音楽",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1074456705,
     tags: [1, 2, 35, 99, 100, 1787, 962, 187, 153, 92],
   },
   {
@@ -5306,6 +6039,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/a-candle-illuminates-the-dungeon",
     title: "A Candle Illuminates the Dungeon | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4282547049,
     tags: [1, 1788, 108, 241, 364, 16, 1624, 109, 1089, 365, 356],
   },
   {
@@ -5313,6 +6047,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/shvdow-redux",
     title: "SHVDOW REDUX | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 261137461,
     tags: [1, 108, 364, 16, 109, 365, 356],
   },
   {
@@ -5320,6 +6055,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/b-o-a-r-d-w-a-l-k",
     title: "B O A R D W A L K | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 682503036,
     tags: [
       1, 131, 1789, 2, 108, 1272, 202, 198, 364, 16, 109, 1790, 91, 365, 356,
     ],
@@ -5329,6 +6065,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/close",
     title: "close | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 430797008,
     tags: [1, 108, 364, 16, 109, 365, 356],
   },
   {
@@ -5336,6 +6073,7 @@ const urls = [
     url: "https://blvckceiling.bandcamp.com/album/beaches",
     title: "BEACHES | BLVCKCEILING",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 803387267,
     tags: [1, 1791, 108, 364, 16, 109, 365, 356],
   },
   {
@@ -5343,6 +6081,7 @@ const urls = [
     url: "https://helmut.bandcamp.com/album/helmut-ep",
     title: "HELMUT ep | Helmut",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1813112474,
     tags: [1, 96, 1792, 1793, 134, 1794, 1795, 160, 258],
   },
   {
@@ -5350,6 +6089,7 @@ const urls = [
     url: "https://telepathicteddybear.bandcamp.com/album/the-course-of-empire",
     title: "The Course Of Empire | Telepathic Teddy Bear",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 301727242,
     tags: [1796, 96, 1797, 28, 1798, 1, 132, 134, 96, 192, 1799],
   },
   {
@@ -5357,6 +6097,7 @@ const urls = [
     url: "https://jahzzar.bandcamp.com/album/hifi-city-tales",
     title: "HiFi City Tales | Jahzzar",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1934776558,
     tags: [826, 8, 1800, 1, 131, 435, 56, 28, 1801, 21, 1052],
   },
   {
@@ -5364,6 +6105,7 @@ const urls = [
     url: "https://badloop.bandcamp.com/album/fragments",
     title: "Fragments | bad loop",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 686140416,
     tags: [1, 2, 1802, 109, 5, 516, 1020],
   },
   {
@@ -5371,6 +6113,7 @@ const urls = [
     url: "https://z8phyr.bandcamp.com/album/journey",
     title: "Journey | Z8phyR",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1437364250,
     tags: [1, 1803, 1804, 1805, 21, 1393],
   },
   {
@@ -5378,6 +6121,7 @@ const urls = [
     url: "https://z8phyr.bandcamp.com/album/elegant-whispers",
     title: "Elegant Whispers | Z8phyR",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4249883393,
     tags: [1, 1803, 1804, 1805, 21, 1393],
   },
   {
@@ -5385,6 +6129,7 @@ const urls = [
     url: "https://z8phyr.bandcamp.com/album/faith-in-the-wind",
     title: "Faith in the Wind | Z8phyR",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2250872802,
     tags: [1, 1803, 1804, 1805, 21, 1393],
   },
   {
@@ -5392,6 +6137,7 @@ const urls = [
     url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-105-electric-star",
     title: "HDK 105 † Electric star | ALLUSTE | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3981816070,
     tags: [1806, 1, 1807, 1624, 410, 25, 1625],
   },
   {
@@ -5399,6 +6145,7 @@ const urls = [
     url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-38-zargos-lords",
     title: "HDK 38 † Zargo's Lords | GNOLL | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 467898277,
     tags: [1, 1624, 25, 1625],
   },
   {
@@ -5407,6 +6154,7 @@ const urls = [
     title:
       "HDK 117 † The Kiss of the Spider-God (Mazes O.S.T.) | GNOLL | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1989316354,
     tags: [1808, 1, 1624, 205, 1538, 25, 1625],
   },
   {
@@ -5414,6 +6162,7 @@ const urls = [
     url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-40-m-rk-borg",
     title: "HDK 40 † Mörk Borg | GNOLL | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4183859424,
     tags: [1, 367, 1624, 1809, 117, 1538, 25, 1625],
   },
   {
@@ -5421,6 +6170,7 @@ const urls = [
     url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-119-eleventh-hour",
     title: "HDK 119 † Eleventh hour | STEVEN GRACE | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2579684401,
     tags: [1806, 1, 1624, 25, 1625],
   },
   {
@@ -5428,6 +6178,7 @@ const urls = [
     url: "https://ojne.bandcamp.com/album/prima-che-tutto-bruci",
     title: "Prima Che Tutto Bruci | Øjne",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1337244534,
     tags: [117, 311, 301, 195, 196, 581, 1810],
   },
   {
@@ -5435,6 +6186,7 @@ const urls = [
     url: "https://errorvanessa.bandcamp.com/album/varias-paredes-pintadas",
     title: "Varias Paredes Pintadas | Error Vanessa",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 133137897,
     tags: [8, 338, 9, 1811, 192, 12, 384],
   },
   {
@@ -5442,6 +6194,7 @@ const urls = [
     url: "https://twineadl.bandcamp.com/album/new-old-horse",
     title: "New Old Horse | Twine",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2956678742,
     tags: [8, 192, 9, 1812, 1813, 1695, 1814, 306, 1502, 195, 1221],
   },
   {
@@ -5449,6 +6202,7 @@ const urls = [
     url: "https://uboa.bandcamp.com/album/the-origin-of-my-depression-2",
     title: "The Origin Of My Depression | Uboa",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3361656682,
     tags: [54, 2, 1815, 367, 1816, 127, 1500],
   },
   {
@@ -5456,6 +6210,7 @@ const urls = [
     url: "https://apockrysis.bandcamp.com/album/planet-music",
     title: "Planet Music | Jupiluxe | APOC KRYSIS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3078441561,
     tags: [95, 139, 1817, 1127, 1818, 1819, 1153, 959],
   },
   {
@@ -5463,6 +6218,7 @@ const urls = [
     url: "https://voiddweller000.bandcamp.com/album/employee",
     title: "EMPLOYEE | VoidDweller",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1471461390,
     tags: [95, 605, 606, 131, 127, 1820, 139, 93],
   },
   {
@@ -5470,6 +6226,7 @@ const urls = [
     url: "https://corvilioret.bandcamp.com/album/live-at-trickster",
     title: "Live at Trickster | Francesco Corvi & Hugo Lioret",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2869241288,
     tags: [1821, 54, 1, 54, 1822, 1823, 258],
   },
   {
@@ -5477,6 +6234,7 @@ const urls = [
     url: "https://jienanyuan.bandcamp.com/album/silk-rubato",
     title: "Silk:Rubato | Jienan Yuan",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1309936904,
     tags: [54, 1, 1266, 374, 229, 25, 112],
   },
   {
@@ -5484,6 +6242,7 @@ const urls = [
     url: "https://devagar.bandcamp.com/album/dj-karen-volteira",
     title: "DJ Karen - Volteira | Devagar",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 518847195,
     tags: [1, 1824, 1825, 940, 248, 1826, 1827],
   },
   {
@@ -5491,6 +6250,7 @@ const urls = [
     url: "https://desce.bandcamp.com/album/certo",
     title: "CERTO | BLEID | DESCE",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4068772831,
     tags: [1, 54, 766, 469, 787, 1828, 1829, 644, 1546, 875, 1830, 1831, 1832],
   },
   {
@@ -5498,6 +6258,7 @@ const urls = [
     url: "https://zulimusic.bandcamp.com/album/komy-ep",
     title: "Komy [EP] | ZULI",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1413551873,
     tags: [469, 290, 1, 693, 131, 469, 56, 1833, 1834],
   },
   {
@@ -5505,6 +6266,7 @@ const urls = [
     url: "https://wonpound.bandcamp.com/album/won-pound-3",
     title: "Won Pound | Won Pound",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2142655604,
     tags: [1, 1, 1835],
   },
   {
@@ -5512,6 +6274,7 @@ const urls = [
     url: "https://devonwho.bandcamp.com/album/amalgama-i",
     title: "Amalgama I | devonwho",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 418557429,
     tags: [1, 542],
   },
   {
@@ -5519,6 +6282,7 @@ const urls = [
     url: "https://sv-1.bandcamp.com/album/system-exports-23",
     title: "system_exports_23 | sv1",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2048679160,
     tags: [1, 1338],
   },
   {
@@ -5526,6 +6290,7 @@ const urls = [
     url: "https://kindohm.bandcamp.com/album/algosix-stream",
     title: "Algosix Stream | Kindohm",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2402354338,
     tags: [1, 1836, 1837, 1838, 127, 1839, 1840, 1841, 1842],
   },
   {
@@ -5533,6 +6298,7 @@ const urls = [
     url: "https://siiiiideproject.bandcamp.com/album/sideproject-live-2020-2021",
     title: "sideproject live 2020 - 2021 | sideproject",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 914123176,
     tags: [1, 434, 310, 5, 246, 516, 1843],
   },
   {
@@ -5540,6 +6306,7 @@ const urls = [
     url: "https://korteriflog.bandcamp.com/album/hva-segiru-king",
     title: "hvað segiru king | korter í flog",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 358229800,
     tags: [117, 1844, 1146, 306, 120, 1843],
   },
   {
@@ -5547,6 +6314,7 @@ const urls = [
     url: "https://novembersuite.bandcamp.com/album/the-grass-will-grow-again-someday",
     title: "The Grass Will Grow Again Someday | November Suite",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3904165522,
     tags: [8, 1758, 133, 132, 47, 48, 135, 357, 1845],
   },
   {
@@ -5554,6 +6322,7 @@ const urls = [
     url: "https://totorro.bandcamp.com/album/ep",
     title: "EP | Totorro",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3585879323,
     tags: [2, 152, 1846],
   },
   {
@@ -5561,6 +6330,7 @@ const urls = [
     url: "https://ssupervvoid.bandcamp.com/album/the-supervoid-choral-ensemble",
     title: "The Supervoid Choral Ensemble | The Supervoid Choral Ensemble",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1173319425,
     tags: [190, 1847, 1036, 69],
   },
   {
@@ -5568,6 +6338,7 @@ const urls = [
     url: "https://cloudkicker.bandcamp.com/album/hello",
     title: "Hello | Cloudkicker",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3523435146,
     tags: [190, 2, 167, 21, 127, 1848],
   },
   {
@@ -5575,6 +6346,7 @@ const urls = [
     url: "https://cloudkicker.bandcamp.com/album/little-histories",
     title: "Little Histories | Cloudkicker",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2123746043,
     tags: [190, 2, 21, 502, 1848],
   },
   {
@@ -5582,6 +6354,7 @@ const urls = [
     url: "https://thisisaformicatable.bandcamp.com/album/solve-et-coagula",
     title: "Solve et Coagula | This Is A Formica Table",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1064258756,
     tags: [
       54, 1849, 1850, 1851, 1852, 244, 1853, 1103, 1854, 1855, 1856, 127, 1857,
       1730, 411,
@@ -5592,6 +6365,7 @@ const urls = [
     url: "https://thisisaformicatable.bandcamp.com/album/aurum-nostrum-non-est-aurum-vulgi",
     title: "Aurum Nostrum Non Est Aurum Vulgi | This Is A Formica Table",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 996094123,
     tags: [
       54, 1849, 1850, 1851, 1852, 244, 1853, 1103, 1854, 1855, 1856, 127, 1857,
       1730, 411,
@@ -5602,6 +6376,7 @@ const urls = [
     url: "https://thisisaformicatable.bandcamp.com/album/theres-fire-where-you-are-going",
     title: "There's Fire Where You Are Going | This Is A Formica Table",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 772862214,
     tags: [
       54, 1849, 1850, 1851, 1852, 244, 1853, 1103, 1854, 1855, 1856, 127, 1857,
       1730, 411,
@@ -5612,6 +6387,7 @@ const urls = [
     url: "https://thisisaformicatable.bandcamp.com/album/evolution-of-the-arm",
     title: "Evolution of the Arm | This Is A Formica Table",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 379706250,
     tags: [
       54, 1849, 1850, 1851, 1852, 244, 1853, 1103, 1854, 1855, 1856, 127, 1857,
       1730, 411,
@@ -5622,6 +6398,7 @@ const urls = [
     url: "https://thisisaformicatable.bandcamp.com/album/pholiotina-smithii",
     title: "Pholiotina Smithii | This Is A Formica Table",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 129915450,
     tags: [
       54, 1849, 1850, 1851, 1852, 244, 1853, 1103, 1854, 1855, 1856, 127, 1857,
       1730, 411,
@@ -5632,6 +6409,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/landing-page-002",
     title: "Landing Page 002 | Dib | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3309762304,
     tags: [510, 1858, 1, 2, 331, 37, 511, 512, 248, 513, 514, 515, 516, 517],
   },
   {
@@ -5639,6 +6417,7 @@ const urls = [
     url: "https://noyaderecords.bandcamp.com/album/--6",
     title: "Беззвучно гремя цепями | fshs, Old Moss | Noyade Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 478965589,
     tags: [54, 167, 170, 1859, 127],
   },
   {
@@ -5646,6 +6425,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/ruins",
     title: "Ruins | Demetrio Cecchitelli | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1198035903,
     tags: [1, 54, 2, 167, 162, 1, 54, 276, 165],
   },
   {
@@ -5653,6 +6433,7 @@ const urls = [
     url: "https://kahvicollective.bandcamp.com/album/fragment-special-edition",
     title: "Fragment (Special Edition) | 4T Thieves | Kahvi Collective",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3770091003,
     tags: [1, 2, 470, 5, 21, 1403],
   },
   {
@@ -5661,6 +6442,7 @@ const urls = [
     title: "Calls to ours Stations | CIALYN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
     favorite: true,
+    bc_id: 622931318,
     tags: [2, 1806, 1, 1440, 1860, 16, 1208],
   },
   {
@@ -5668,6 +6450,7 @@ const urls = [
     url: "https://citiesofearth.bandcamp.com/album/bathymetry",
     title: "Bathymetry | Cities Of Earth",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2585061524,
     tags: [1, 1861, 1862, 1440, 57, 25, 356],
   },
   {
@@ -5675,6 +6458,7 @@ const urls = [
     url: "https://cialyn.bandcamp.com/album/under-the-two-lights-of-time",
     title: "Under The Two Lights Of Time | CIALYN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3629593882,
     tags: [2, 1806, 1, 1440, 1860, 16, 1208],
   },
   {
@@ -5682,6 +6466,7 @@ const urls = [
     url: "https://cialyn.bandcamp.com/album/the-descent-unseen",
     title: "The Descent Unseen | CIALYN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3991026459,
     tags: [2, 1806, 1, 1440, 1860, 16, 1208],
   },
   {
@@ -5689,6 +6474,7 @@ const urls = [
     url: "https://kindlyspokenthieves.bandcamp.com/album/carbon-zero",
     title: "Carbon Zero | Kindly Spoken Thieves",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1825560315,
     tags: [2, 16, 1, 1863, 229, 1231, 1864],
   },
   {
@@ -5697,6 +6483,7 @@ const urls = [
     title:
       "And You May Find Yourself Living In An Age Of Mass Extinction | Audio Obscura",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1690934139,
     tags: [1865, 1866, 1867, 1, 1868, 786, 35, 109, 30, 229, 1869, 141],
   },
   {
@@ -5704,6 +6491,7 @@ const urls = [
     url: "https://lesondouble.bandcamp.com/album/entre-leau-et-la-feuille",
     title: "Entre l'eau et la feuille | pä",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3677881949,
     tags: [54, 167, 162, 414, 1870, 1871, 1872, 1873],
   },
   {
@@ -5712,6 +6500,7 @@ const urls = [
     title:
       "Be Here Now | Wilfried Hanrath + Boban Ristevski | attenuation circuit",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1772441093,
     tags: [54, 2, 1874, 167, 127, 1875],
   },
   {
@@ -5719,6 +6508,7 @@ const urls = [
     url: "https://sonnovdrone.bandcamp.com/album/runezix",
     title: "Runezix | соннов",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3345089861,
     tags: [2, 241, 170, 414, 1714, 647],
   },
   {
@@ -5726,6 +6516,7 @@ const urls = [
     url: "https://globalpattern.bandcamp.com/album/--24",
     title: "夢の哲学 | 夜明けを残す | 𝔾𝕃𝕆𝔹𝔸𝕃 ℙ𝔸𝕋𝕋𝔼ℝℕ",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 751803917,
     tags: [1, 961, 1374, 167, 42, 1876, 425, 380, 1877, 1878, 92, 1879, 506],
   },
   {
@@ -5733,6 +6524,7 @@ const urls = [
     url: "https://globalpattern.bandcamp.com/album/atmosphere-absorbency",
     title: "Atmosphere Absorbency | Mick Rudry | 𝔾𝕃𝕆𝔹𝔸𝕃 ℙ𝔸𝕋𝕋𝔼ℝℕ",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 423398508,
     tags: [1, 1880, 1091, 1876, 425, 1881, 187, 92, 1879, 506],
   },
   {
@@ -5740,6 +6532,7 @@ const urls = [
     url: "https://globalpattern.bandcamp.com/album/digital-vacation",
     title: "Digital Vacation | рмнчитто | 𝔾𝕃𝕆𝔹𝔸𝕃 ℙ𝔸𝕋𝕋𝔼ℝℕ",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 707759994,
     tags: [1, 1882, 1182, 537, 113, 1883, 1876, 425, 92, 1879, 506],
   },
   {
@@ -5747,6 +6540,7 @@ const urls = [
     url: "https://globalpattern.bandcamp.com/album/love-story-through-the-static",
     title: "love story through the static | 送信機 | 𝔾𝕃𝕆𝔹𝔸𝕃 ℙ𝔸𝕋𝕋𝔼ℝℕ",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 567003381,
     tags: [1, 436, 1876, 425, 186, 92, 1879, 506],
   },
   {
@@ -5755,6 +6549,7 @@ const urls = [
     title:
       "自然の音楽 / 生まれ変わり | From Tokyo to Honolulu | 𝔾𝕃𝕆𝔹𝔸𝕃 ℙ𝔸𝕋𝕋𝔼ℝℕ",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 472464426,
     tags: [1, 167, 42, 494, 450, 1884, 454, 1876, 425, 1885, 92, 1879, 506],
   },
   {
@@ -5762,6 +6557,7 @@ const urls = [
     url: "https://bambamthevoodoochi7d.bandcamp.com/album/bambams-voodoo-chants",
     title: "BAMbam's Voodoo Chants | BAMbam The Voodoo Chi7d",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1534513483,
     tags: [95, 1886, 1887, 679, 673, 1888, 1889],
   },
   {
@@ -5770,6 +6566,7 @@ const urls = [
     title:
       "There Is Peace and Tranquility in Lost Media Found | binary deconstructed",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1107424794,
     tags: [2, 358, 90, 187, 92, 356],
   },
   {
@@ -5777,6 +6574,7 @@ const urls = [
     url: "https://halospit.bandcamp.com/album/there-is-an-end",
     title: "there is an end | halospit",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 688222731,
     tags: [1, 1890, 273, 341, 606, 291, 5, 853],
   },
   {
@@ -5784,6 +6582,7 @@ const urls = [
     url: "https://snowpointlounge.bandcamp.com/album/--2",
     title: "失われた時間 | snowpoint lounge",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2184402741,
     tags: [1, 171, 172, 331, 16, 175, 183, 90, 333, 92, 763, 960],
   },
   {
@@ -5791,6 +6590,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/breathe-deeper",
     title: "Breathe Deeper | Sodium Chloride | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1113295619,
     tags: [1, 2, 175, 141],
   },
   {
@@ -5798,6 +6598,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/archangel-of-shimokitazawa",
     title: "archangel of shimokitazawa | DΛRKNΣSS | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3830236827,
     tags: [1, 171, 54, 141],
   },
   {
@@ -5805,6 +6606,7 @@ const urls = [
     url: "https://modestbydefault.bandcamp.com/album/--3",
     title: "我别无选择（你也没有） | modest by default",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1955510542,
     tags: [1, 99, 172, 21, 92, 1891],
   },
   {
@@ -5812,6 +6614,7 @@ const urls = [
     url: "https://modestbydefault.bandcamp.com/album/-",
     title: "ОРТОДОНТИЯ | modest by default",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2407131057,
     tags: [1, 99, 172, 21, 92, 1891],
   },
   {
@@ -5819,6 +6622,7 @@ const urls = [
     url: "https://projectlazarus.bandcamp.com/album/--6",
     title: "ЦВЕТОМУЗЫКА | Project Lazarus",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4113033209,
     tags: [1, 16, 1, 128, 1892, 315, 92],
   },
   {
@@ -5826,6 +6630,7 @@ const urls = [
     url: "https://cinematicsequences.bandcamp.com/album/night-shift",
     title: "Night Shift | Cinematic Sequences",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4290757090,
     tags: [1, 1893, 1894, 1895, 183, 90, 92, 625],
   },
   {
@@ -5833,6 +6638,7 @@ const urls = [
     url: "https://hotelshampoo.bandcamp.com/album/double-date",
     title: "double date | ホテル shampoo",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3731132820,
     tags: [1, 92, 69],
   },
   {
@@ -5840,6 +6646,7 @@ const urls = [
     url: "https://hotelshampoo.bandcamp.com/album/in-yr-dreams",
     title: "In Yr Dreams | ホテル shampoo",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 227956013,
     tags: [1, 187, 92, 69],
   },
   {
@@ -5847,6 +6654,7 @@ const urls = [
     url: "https://opalvessel.bandcamp.com/album/disfigurement-2",
     title: "Disfigurement | Opal Vessel",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2915605026,
     tags: [1, 2, 241, 1896, 54, 333, 92, 361],
   },
   {
@@ -5854,6 +6662,7 @@ const urls = [
     url: "https://modestbydefault.bandcamp.com/album/the-siren-method",
     title: "THE SIREN METHOD (没有出口) | modest by default",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2448075505,
     tags: [1, 99, 172, 21, 92, 1891],
   },
   {
@@ -5861,6 +6670,7 @@ const urls = [
     url: "https://majestic12.bandcamp.com/album/pure-emotion",
     title: "Pure Emotion | Majestic 12",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2731366075,
     tags: [1, 54, 2, 172, 143, 90, 92, 356],
   },
   {
@@ -5868,6 +6678,7 @@ const urls = [
     url: "https://crashsymbols.bandcamp.com/album/enigmatic",
     title: "Enigmatic | Paradise of Yesterday | Crash Symbols",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3188762267,
     tags: [54, 1897, 245, 1154, 1158, 50, 192, 92, 832, 833],
   },
   {
@@ -5875,6 +6686,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/introspect",
     title: "Introspect | Paradise Of Yesterday | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3171708469,
     tags: [2, 1898, 16, 28, 1, 1155, 353, 1899, 315, 92, 105],
   },
   {
@@ -5882,6 +6694,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/expanded",
     title: "学園都市 Expanded | 豊平区民TOYOHIRAKUMIN | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4162270687,
     tags: [56, 54, 21, 755, 1900, 92, 105],
   },
   {
@@ -5889,6 +6702,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/--55",
     title: "ひまわり画像 | 天気予報 | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3492585184,
     tags: [1101, 1901, 102, 1902, 433, 1903, 105],
   },
   {
@@ -5896,6 +6710,7 @@ const urls = [
     url: "https://sunuprecordings.bandcamp.com/album/diskette-romances",
     title: "Diskette Romances | Diskette Romances | Sunup Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1383603184,
     tags: [1904, 96, 1480, 1905, 1906, 1907, 1908, 356],
   },
   {
@@ -5903,6 +6718,7 @@ const urls = [
     url: "https://poolhouseltd.bandcamp.com/album/together",
     title: "Together 永遠に | GH | Pool House Ltd.",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4094985637,
     tags: [1, 331, 175, 90, 92, 179],
   },
   {
@@ -5910,6 +6726,7 @@ const urls = [
     url: "https://catsystemcorp.bandcamp.com/album/oasys-2",
     title: "OASYS✓✓✓☞❐計算 ソフトウェア | 猫 シ Corp.",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1010475092,
     tags: [1, 436, 128, 183, 90, 185, 357, 92],
   },
   {
@@ -5917,6 +6734,7 @@ const urls = [
     url: "https://catsystemcorp.bandcamp.com/album/news-at-11-remastered",
     title: "NEWS AT 11 (remastered) | 猫 シ Corp.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1409100359,
     tags: [1, 183, 90, 185, 357, 92],
   },
   {
@@ -5924,6 +6742,7 @@ const urls = [
     url: "https://takeosuzuki.bandcamp.com/album/ambient-buddhism-japanese-ambient-album",
     title: "Ambient Buddhism (Japanese Ambient Album) | TAKEO SUZUKI",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2455474250,
     tags: [1, 2, 1909, 1910, 1207, 1429, 1911, 1912, 516, 724],
   },
   {
@@ -5931,6 +6750,7 @@ const urls = [
     url: "https://takeosuzuki.bandcamp.com/album/ambient-buddhism-2-japanese-ambient-album",
     title: "Ambient Buddhism 2 (Japanese Ambient Album) | TAKEO SUZUKI",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2989088913,
     tags: [1, 2, 1909, 1910, 1207, 1429, 1911, 1912, 516, 724],
   },
   {
@@ -5938,6 +6758,7 @@ const urls = [
     url: "https://clairechase.bandcamp.com/album/liza-lim-sex-magic-density-2036-part-vii-2020",
     title: "Liza Lim: Sex Magic — Density 2036: Part VII (2020) | Claire Chase",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1640315497,
     tags: [54, 1913, 1914, 230],
   },
   {
@@ -5945,6 +6766,7 @@ const urls = [
     url: "https://robertamichel.bandcamp.com/album/hush",
     title: "Hush | Roberta Michel",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 691846612,
     tags: [202, 202, 203, 162, 54, 1913, 1915, 1914, 230],
   },
   {
@@ -5952,6 +6774,7 @@ const urls = [
     url: "https://newfocusrecordings.bandcamp.com/album/playlist",
     title: "playlist | andPlay | New Focus Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2312842343,
     tags: [69],
   },
   {
@@ -5960,6 +6783,7 @@ const urls = [
     title:
       "Dark Days | Scott Wollschleger & Karl Larson | New Focus Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2647664390,
     tags: [203, 229, 1916, 69],
   },
   {
@@ -5967,6 +6791,7 @@ const urls = [
     url: "https://newfocusrecordings.bandcamp.com/album/between-breath",
     title: "Between Breath | Scott Wollschleger | New Focus Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2958982825,
     tags: [1917, 1918, 203, 69],
   },
   {
@@ -5975,6 +6800,7 @@ const urls = [
     title:
       "New Dances of the League of David | David Kaplan | New Focus Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3203180935,
     tags: [229, 1916, 69],
   },
   {
@@ -5982,6 +6808,7 @@ const urls = [
     url: "https://newfocusrecordings.bandcamp.com/album/ebony-chants",
     title: "Ebony Chants | Paolo Marchettini | New Focus Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 795943920,
     tags: [1919, 203, 69],
   },
   {
@@ -5989,6 +6816,7 @@ const urls = [
     url: "https://newfocusrecordings.bandcamp.com/album/metalofonico",
     title: "Metalofonico | Metalofonico & Jon Nelson | New Focus Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1554448362,
     tags: [1920, 203, 1921, 69],
   },
   {
@@ -5996,6 +6824,7 @@ const urls = [
     url: "https://oliviadeprato.bandcamp.com/album/streya-2",
     title: "Streya | Olivia De Prato",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3538167430,
     tags: [202, 1922, 1923, 1, 238, 843, 1744, 69],
   },
   {
@@ -6003,6 +6832,7 @@ const urls = [
     url: "https://tedhearne.bandcamp.com/album/sound-from-the-bench-2",
     title: "Sound from the Bench | Ted Hearne & The Crossing | Ted Hearne",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4022937516,
     tags: [202, 162, 54, 132, 1924, 823, 32],
   },
   {
@@ -6010,6 +6840,7 @@ const urls = [
     url: "https://newfocusrecordings.bandcamp.com/album/we-live-the-opposite-daring",
     title: "We Live the Opposite Daring | Ekmeles | New Focus Recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1212197598,
     tags: [1009, 823, 1925, 69],
   },
   {
@@ -6017,6 +6848,7 @@ const urls = [
     url: "https://movingfurniturerecords.bandcamp.com/album/smelter",
     title: "Smelter | DNMF | Moving Furniture Records",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2691697758,
     tags: [190, 367, 194, 167, 7],
   },
   {
@@ -6024,6 +6856,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/miniatures",
     title: "Miniatures | Julien Palomo + Fabien Robbe | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2194673820,
     tags: [1, 54, 2, 162, 54, 245, 1926, 229, 165],
   },
   {
@@ -6031,6 +6864,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/stages",
     title: "Stages | Tokee | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4058554519,
     tags: [1, 54, 1927, 2, 16, 162, 1, 109, 5, 792, 1231, 160, 315, 165],
   },
   {
@@ -6038,6 +6872,7 @@ const urls = [
     url: "https://dissolved.bandcamp.com/album/the-misleading-echo",
     title: "The Misleading Echo | Dissolved",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 627679238,
     tags: [2, 1, 109, 54, 5, 4, 836],
   },
   {
@@ -6045,6 +6880,7 @@ const urls = [
     url: "https://abstraktreflections.bandcamp.com/album/v-a-vision",
     title: "V/A: Vision | Various Artists | Abstrakt Reflections",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 751263917,
     tags: [54, 687, 1928, 1929, 1930, 109, 54, 5, 1931, 496, 1932, 1827],
   },
   {
@@ -6052,6 +6888,7 @@ const urls = [
     url: "https://marcolucchi.bandcamp.com/album/sehnsucht",
     title: "Sehnsucht | Marco Lucchi",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1901227099,
     tags: [202, 1933, 1934, 1, 54, 1935, 1936, 1937, 229, 1938, 1939, 1940],
   },
   {
@@ -6059,6 +6896,7 @@ const urls = [
     url: "https://latatucera.bandcamp.com/album/blue-neon",
     title: "BLUE NEON | ALWIN VAN DER LINDE | lA tAtUcErA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1448928726,
     tags: [1941, 54, 244, 1429, 1822, 1942, 1943, 1944],
   },
   {
@@ -6066,6 +6904,7 @@ const urls = [
     url: "https://emerge.bandcamp.com/album/neighbours-hunters",
     title: "Neighbours Hunters | NEIGHBOURS HUNTERS | attenuation circuit",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1546828769,
     tags: [54, 2, 167, 127, 1445, 1875],
   },
   {
@@ -6073,6 +6912,7 @@ const urls = [
     url: "https://emerge.bandcamp.com/album/inner-space-outer-space",
     title: "Inner space / outer space | STAR TURBINE | attenuation circuit",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 83734087,
     tags: [54, 2, 167, 127, 1875],
   },
   {
@@ -6080,6 +6920,7 @@ const urls = [
     url: "https://emerge.bandcamp.com/album/canvas-live",
     title: "canvas - live | -EMERGE- | attenuation circuit",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 81285793,
     tags: [54, 2, 167, 127, 1875],
   },
   {
@@ -6087,6 +6928,7 @@ const urls = [
     url: "https://emerge.bandcamp.com/album/foehn",
     title: "FOEHN | SLO-BLO | attenuation circuit",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 71182760,
     tags: [54, 2, 167, 127, 1875],
   },
   {
@@ -6094,6 +6936,7 @@ const urls = [
     url: "https://bfwrecordings.bandcamp.com/album/the-bfw-christmas-album-2010",
     title: "The BFW Christmas Album 2010 | BFW recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3361294254,
     tags: [2, 396, 2, 1, 109, 54, 132, 12, 413],
   },
   {
@@ -6102,6 +6945,7 @@ const urls = [
     title:
       "I Heard Something In The Distance volume 4 - a BFW recordings sampler | BFW recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2922511245,
     tags: [2, 109, 54, 132, 12, 413],
   },
   {
@@ -6110,6 +6954,7 @@ const urls = [
     title:
       "I Heard Something In The Distance volume 5 - a BFW recordings sampler | BFW recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 208621468,
     tags: [2, 109, 54, 132, 12, 413],
   },
   {
@@ -6117,6 +6962,7 @@ const urls = [
     url: "https://bfwrecordings.bandcamp.com/album/the-bfw-christmas-album-2011",
     title: "The BFW Christmas Album 2011 | BFW recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3186414475,
     tags: [2, 396, 5, 2, 1945, 1, 109, 54, 132, 12, 413],
   },
   {
@@ -6124,6 +6970,7 @@ const urls = [
     url: "https://bfwrecordings.bandcamp.com/album/the-bfw-christmas-album-2013",
     title: "The BFW Christmas Album 2013 | BFW recordings",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2765089148,
     tags: [2, 396, 1946, 424, 167, 109, 54, 1947, 132, 127, 12, 413],
   },
   {
@@ -6131,6 +6978,7 @@ const urls = [
     url: "https://auralfilms1.bandcamp.com/album/fog-music-17",
     title: "Fog Music 17 | Frans Kedes | Aural Films",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 306912268,
     tags: [1948, 1949, 1950, 1951, 25, 1952, 39, 1953, 25, 1954, 356],
   },
   {
@@ -6138,6 +6986,7 @@ const urls = [
     url: "https://cousinsilas1.bandcamp.com/album/snapshots",
     title: "Snapshots | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1419625769,
     tags: [2, 1, 54, 150, 168, 169, 378, 169, 141],
   },
   {
@@ -6145,6 +6994,7 @@ const urls = [
     url: "https://cousinsilas1.bandcamp.com/album/the-four-elements-water-volume-1",
     title: "The Four Elements - Water (Volume 1) | Various | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 757263602,
     tags: [2, 1, 54, 150, 168, 169, 470, 167, 141],
   },
   {
@@ -6152,6 +7002,7 @@ const urls = [
     url: "https://gurubobol.bandcamp.com/album/fenelle",
     title: "FENELLE | guru bobol",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1789486475,
     tags: [54, 1955, 1956],
   },
   {
@@ -6159,6 +7010,7 @@ const urls = [
     url: "https://chiennedesondes.bandcamp.com/album/betrylone",
     title: "BETRYLONE | guru bobol | chienne des ondes",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 886769449,
     tags: [54, 1957, 1956],
   },
   {
@@ -6166,6 +7018,7 @@ const urls = [
     url: "https://gurubobol.bandcamp.com/album/m-totr-s-e",
     title: "MÉTOTRÉSÉE | guru bobol",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3273871169,
     tags: [54, 2, 1958, 99, 241, 1955, 1, 50, 1956],
   },
   {
@@ -6173,6 +7026,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/the-ambient-archives-december-2024",
     title: "The ambient archives -December 2024 | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3975047120,
     tags: [2, 353, 99, 147, 228, 167, 415, 417, 128, 41, 42, 418, 12, 169, 413],
   },
   {
@@ -6181,6 +7035,7 @@ const urls = [
     title:
       "The Eternal Music Box (Expanded version) | Ethereal Ephemera | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 811578101,
     tags: [
       2, 353, 99, 147, 228, 167, 170, 415, 412, 42, 418, 416, 12, 169, 413,
     ],
@@ -6190,6 +7045,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/lo-fi-ambient-works",
     title: "Lo-fi Ambient Works | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3773805071,
     tags: [
       2, 1, 54, 5, 353, 99, 147, 228, 167, 128, 412, 42, 12, 169, 1907, 413,
     ],
@@ -6199,6 +7055,7 @@ const urls = [
     url: "https://jacobnewman.bandcamp.com/album/santraukos",
     title: "Santraukos | Sole Massif & Jacob Newman | Jacob Newman",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1021223875,
     tags: [2, 14, 99, 37, 167, 1, 414, 42, 169, 1959, 350],
   },
   {
@@ -6206,6 +7063,7 @@ const urls = [
     url: "https://psalters.bandcamp.com/album/ch-vii-carry-the-bones",
     title: "ch. VII carry the bones | psalters",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 826968881,
     tags: [558, 1006, 374, 247],
   },
   {
@@ -6214,6 +7072,7 @@ const urls = [
     title:
       "From Rotting Fantasylands | Nero's Day At Disneyland | Lauren Bousfield",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4013364802,
     tags: [1, 1960, 32],
   },
   {
@@ -6221,6 +7080,7 @@ const urls = [
     url: "https://rentstrike.bandcamp.com/album/now",
     title: "NOW | RENT STRIKE",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 594783075,
     tags: [8, 117, 1003, 132, 53, 1961],
   },
   {
@@ -6229,6 +7089,7 @@ const urls = [
     title:
       "The Difference Between Thieves and Crooks | Chatterbox and the Latter Day Satanists",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2715742746,
     tags: [117, 1962, 374, 1003, 117, 791, 722],
   },
   {
@@ -6236,6 +7097,7 @@ const urls = [
     url: "https://dogparkdissidents.bandcamp.com/album/the-pink-and-black-album",
     title: "The Pink and Black Album | Dog Park Dissidents",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1317775954,
     tags: [117, 314, 1012, 791, 1963, 192, 1964],
   },
   {
@@ -6244,6 +7106,7 @@ const urls = [
     title:
       "Broken Home Sing Alongs | Mutiny Amongst Friends | DIY Bandits Record Label",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1971735161,
     tags: [1003, 1965, 117, 1966, 1967, 139, 1635],
   },
   {
@@ -6251,6 +7114,7 @@ const urls = [
     url: "https://taxpayers.bandcamp.com/album/big-delusion-factory-2016",
     title: "Big Delusion Factory (2016) | The Taxpayers",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3015724651,
     tags: [1968, 117, 1968, 54, 1003, 1969, 245, 1970, 117, 356],
   },
   {
@@ -6258,6 +7122,7 @@ const urls = [
     url: "https://crickettheguy.bandcamp.com/album/jacques-the-cat",
     title: "Jacques The Cat | Cricket!",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3670230585,
     tags: [117, 1971, 1968, 1003, 112],
   },
   {
@@ -6265,6 +7130,7 @@ const urls = [
     url: "https://girlfriends.bandcamp.com/album/girlfriends",
     title: "Girlfriends | Girlfriends",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 383327673,
     tags: [54, 191, 1109, 1972, 1973, 542],
   },
   {
@@ -6272,6 +7138,7 @@ const urls = [
     url: "https://goodlookingfriends.bandcamp.com/album/wasted-now",
     title: "Wasted Now | Good Looking Friends",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3609793464,
     tags: [8, 1974, 1975, 1365, 132, 135, 1976, 69],
   },
   {
@@ -6279,6 +7146,7 @@ const urls = [
     url: "https://exocietymusic.bandcamp.com/album/im-on-to-me",
     title: "I'M ON TO ME | Rav | EXO",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 327286716,
     tags: [
       95, 1977, 1978, 1979, 695, 1980, 131, 1981, 1982, 1983, 1984, 1985, 1986,
       139, 1153, 356,
@@ -6289,6 +7157,7 @@ const urls = [
     url: "https://redaktedrecords.bandcamp.com/album/rr-va-001",
     title: "RR•VA 001 | Redakted Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3602885630,
     tags: [1, 564, 693, 742, 516, 1640, 1987, 258],
   },
   {
@@ -6296,6 +7165,7 @@ const urls = [
     url: "https://personalbrand.bandcamp.com/album/energeia-23",
     title: "Energeia 23 | personalbrand",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1092279250,
     tags: [1, 1988, 1989],
   },
   {
@@ -6303,6 +7173,7 @@ const urls = [
     url: "https://clubunique.bandcamp.com/album/ot-in-the-03-cu016",
     title: "OT.IN.THE.03 [CU016] | Bahns | Club Unique",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3312670230,
     tags: [1579, 1, 1990, 516, 290, 310, 292, 1991],
   },
   {
@@ -6310,6 +7181,7 @@ const urls = [
     url: "https://tinyclub.bandcamp.com/album/rollin-thru-puni",
     title: "Rollin Thru Puni | Coffee Breaks | TinyClub",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1964947501,
     tags: [1, 469, 644, 288, 292, 1992],
   },
   {
@@ -6317,6 +7189,7 @@ const urls = [
     url: "https://kavarimusic.bandcamp.com/album/scalping-gods-for-their-neglect",
     title: "Scalping Gods For Their Neglect | EEL BLOOD | KAVARI",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 758230479,
     tags: [8, 1, 785, 2, 787, 127, 789],
   },
   {
@@ -6324,6 +7197,7 @@ const urls = [
     url: "https://xxiii.bandcamp.com/album/safe-with-you",
     title: "Safe With You | Disaffected | XXIII",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1039259540,
     tags: [1, 1640, 523, 1993, 1994, 292, 892, 1873],
   },
   {
@@ -6331,6 +7205,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/how-im-feeling-now-charli-xcx-remix-album",
     title: "how i'm feeling now (charli xcx remix album) | Ballads",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2369383759,
     tags: [1, 641, 537, 29, 443, 477, 523, 539, 855, 540, 541, 542],
   },
   {
@@ -6338,6 +7213,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/ballads-club-vol-1",
     title: "BALLADS CLUB VOL 1 | Ballads",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2681493215,
     tags: [1, 537, 29, 539, 540, 541, 542],
   },
   {
@@ -6345,6 +7221,7 @@ const urls = [
     url: "https://rhymingstanzah.bandcamp.com/album/editpack",
     title: "EDITPACK | Stanzah!",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 432520043,
     tags: [
       1124, 56, 672, 481, 537, 131, 95, 1995, 128, 1996, 792, 1997, 545, 1998,
       122,
@@ -6355,6 +7232,7 @@ const urls = [
     url: "https://partyardi.bandcamp.com/album/basic-blendz-vol-2",
     title: "Basic Blendz vol. 2 | Party Ardi",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 326859023,
     tags: [1, 1304, 537, 29, 435, 146],
   },
   {
@@ -6362,6 +7240,7 @@ const urls = [
     url: "https://magicflowers.bandcamp.com/album/house-flips-pack-part-1",
     title: "HOUSE FLIPS PACK. PART 1 | Magic Flowers",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4130593757,
     tags: [
       1326, 1462, 481, 1, 1999, 476, 29, 1328, 478, 792, 531, 479, 532, 1331,
     ],
@@ -6372,6 +7251,7 @@ const urls = [
     title:
       "CHAPTER TWENTY EDITS [TBE020] - Free Download! | Various Artists | theBasement Discos",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2849187766,
     tags: [1069, 1, 2000, 1168, 29, 2001, 2002],
   },
   {
@@ -6380,6 +7260,7 @@ const urls = [
     title:
       "CHAPTER EIGHTEEN EDITS (TBE018) - Free Download! | Various Artists | theBasement Discos",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 137850564,
     tags: [1069, 1, 2000, 1520, 1168, 29, 2001, 2003, 2004, 2002],
   },
   {
@@ -6387,6 +7268,7 @@ const urls = [
     url: "https://clubcoral.bandcamp.com/album/miramare",
     title: "Miramare | Various Artists | Club Coral",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1143414741,
     tags: [
       427, 470, 331, 1168, 1518, 1, 1161, 429, 113, 29, 916, 1473, 2005, 2006,
       315, 92, 114,
@@ -6397,6 +7279,7 @@ const urls = [
     url: "https://android-apartment.bandcamp.com/album/fino-a-qui-tutto-bene",
     title: "Fino a qui tutto bene | Android Apartment",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2573456782,
     tags: [54, 1168, 1, 429, 113, 1883, 2007, 1473, 1661, 2008, 92, 1162],
   },
   {
@@ -6404,6 +7287,7 @@ const urls = [
     url: "https://desired.bandcamp.com/album/momo-club",
     title: "Momo Club | Desired",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1076902732,
     tags: [1, 1168, 113, 1883, 1473, 92, 2009],
   },
   {
@@ -6411,6 +7295,7 @@ const urls = [
     url: "https://groovygodzilla.bandcamp.com/album/godzilla-got-remastered",
     title: "Godzilla Got Remastered | Groovy Kaiju",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4167415093,
     tags: [
       1, 171, 1182, 113, 1883, 2010, 2011, 2012, 1473, 479, 2013, 2014, 2008,
       92, 534,
@@ -6421,6 +7306,7 @@ const urls = [
     url: "https://groovygodzilla.bandcamp.com/album/kaiju-cave-log-in-instructions",
     title: "Kaiju Cave | Log In Instructions | Groovy Kaiju",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4147582175,
     tags: [1, 113, 1473, 2013, 92, 534],
   },
   {
@@ -6428,6 +7314,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/happy-birthday",
     title: "Happy Birthday | Mabisyo | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2835580395,
     tags: [1, 338, 280, 1, 354, 2015, 141],
   },
   {
@@ -6435,6 +7322,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/letting-go-dying-slow",
     title: "Letting Go, Dying Slow | Opal Vessel | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3605881792,
     tags: [1, 16, 54, 175, 141],
   },
   {
@@ -6442,6 +7330,7 @@ const urls = [
     url: "https://welcometoqingdaomarket.bandcamp.com/album/sun-colored-eyes",
     title: "Sun Colored Eyes | Mabisyo | QINGDAO MARKET",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3257275435,
     tags: [1, 172, 331, 92, 2016],
   },
   {
@@ -6449,6 +7338,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/space-cowboys",
     title: "SPACE COWBOYS | slowerpace 音楽 | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 628084309,
     tags: [1, 171, 25, 2008, 141],
   },
   {
@@ -6456,6 +7346,7 @@ const urls = [
     url: "https://chpoint.bandcamp.com/album/anim-alcrossing",
     title: "anim alcrossing | c h point",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 25998225,
     tags: [8, 466, 311, 48, 1036, 223, 112],
   },
   {
@@ -6463,6 +7354,7 @@ const urls = [
     url: "https://thesoftgreens.bandcamp.com/album/variastrix",
     title: "Variastrix | The Soft Greens",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3490985203,
     tags: [1422, 162, 1, 2017, 2018, 290, 4, 1805, 405, 356],
   },
   {
@@ -6470,6 +7362,7 @@ const urls = [
     url: "https://jerrypaper.bandcamp.com/album/feels-emotions",
     title: "Feels Emotions | Jerry Paper",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2782903918,
     tags: [2019, 8, 32],
   },
   {
@@ -6477,6 +7370,7 @@ const urls = [
     url: "https://jerrypaper.bandcamp.com/album/fuzzy-logic",
     title: "Fuzzy Logic | Jerry Paper",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1250894787,
     tags: [2019, 8, 32],
   },
   {
@@ -6484,6 +7378,7 @@ const urls = [
     url: "https://lavidaesunmus.bandcamp.com/album/el-nuevo-hombre-lp",
     title: "El Nuevo Hombre LP | Ciudad Lineal | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 81575630,
     tags: [1021, 1, 117, 1593, 1270, 118, 2020, 1213, 121, 122],
   },
   {
@@ -6491,6 +7386,7 @@ const urls = [
     url: "https://standard-in-fi.bandcamp.com/album/volatil-2",
     title: "Volatil | Faune | Standard in-Fi",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3676569744,
     tags: [54, 130],
   },
   {
@@ -6498,6 +7394,7 @@ const urls = [
     url: "https://standard-in-fi.bandcamp.com/album/bizzaro",
     title: "Bizzaro | France | Standard in-Fi",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1632092220,
     tags: [54, 130],
   },
   {
@@ -6505,6 +7402,7 @@ const urls = [
     url: "https://non-serviam.bandcamp.com/album/self-titled-ep",
     title: "Self-titled (EP) | N​é​ant | Non Serviam",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2249585903,
     tags: [190, 603, 604, 555, 605, 2021, 606, 371, 652, 2022, 616, 608, 506],
   },
   {
@@ -6512,6 +7410,7 @@ const urls = [
     url: "https://plumgreen.bandcamp.com/album/somnambulistic",
     title: "Somnambulistic | Plum Green",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2863548938,
     tags: [8, 2023, 2024, 1452, 2025, 2026, 2027, 374, 1010, 21, 98],
   },
   {
@@ -6519,6 +7418,7 @@ const urls = [
     url: "https://trippywicked.bandcamp.com/album/going-home",
     title: "Going Home | Trippy Wicked & the Cosmic Children of the Knight",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2254649461,
     tags: [192, 367, 194, 2028, 372, 1360, 2029, 141],
   },
   {
@@ -6526,6 +7426,7 @@ const urls = [
     url: "https://papir.bandcamp.com/album/jams",
     title: "Jams | Papir",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3526241105,
     tags: [54, 1146, 50, 192, 1367],
   },
   {
@@ -6533,6 +7434,7 @@ const urls = [
     url: "https://deepspacedestructors.bandcamp.com/album/voyage-to-innerspace",
     title: "Voyage to Innerspace | Deep Space Destructors",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3682089717,
     tags: [612, 51, 2030, 192, 1145, 2031, 2032],
   },
   {
@@ -6540,6 +7442,7 @@ const urls = [
     url: "https://vinnumsabbathi.bandcamp.com/album/of-dimensions-theories",
     title: "of Dimensions & Theories | Vinnum Sabbathi",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2915651023,
     tags: [2033, 192, 367, 21, 190, 91, 318, 400, 1145, 945],
   },
   {
@@ -6547,6 +7450,7 @@ const urls = [
     url: "https://vinnumsabbathi.bandcamp.com/album/6-side-b",
     title: "6 σ : Side B | Vinnum Sabbathi",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2664935291,
     tags: [2033, 192, 400, 367, 190, 400, 945],
   },
   {
@@ -6554,6 +7458,7 @@ const urls = [
     url: "https://vinnumsabbathi.bandcamp.com/album/6-side-a",
     title: "6 σ: Side A | Vinnum Sabbathi",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1856852779,
     tags: [367, 167, 2033, 127, 192, 367, 190, 400, 945],
   },
   {
@@ -6561,6 +7466,7 @@ const urls = [
     url: "https://elescuadrondelamuerte.bandcamp.com/album/los-d-as-podridos",
     title: "Los Días Podridos | El Escuadrón de la Muerte",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 183184028,
     tags: [192, 2034, 367, 2035, 1360, 2036],
   },
   {
@@ -6569,6 +7475,7 @@ const urls = [
     title:
       "Split | Weedsnake & El Escuadrón de la Muerte | Loud, Slow and Distorted Riffs",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1598109553,
     tags: [192, 367, 167, 2028, 50, 1360, 945],
   },
   {
@@ -6576,6 +7483,7 @@ const urls = [
     url: "https://hijodelatormenta.bandcamp.com/album/el-manto-de-la-especie",
     title: "El Manto de la Especie | Hijo de la Tormenta",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 568610806,
     tags: [2037, 192, 2038, 367, 152, 51, 2039, 2029, 2040],
   },
   {
@@ -6583,6 +7491,7 @@ const urls = [
     url: "https://waterfrontdining.bandcamp.com/album/sweet",
     title: "Sweet 甘い | waterfront dining",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 599563064,
     tags: [54, 2041, 90, 92],
   },
   {
@@ -6590,6 +7499,7 @@ const urls = [
     url: "https://waterfrontdining.bandcamp.com/album/reflections",
     title: "reflections 反射 | waterfront dining",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 844806243,
     tags: [54, 2041, 90, 92],
   },
   {
@@ -6597,6 +7507,7 @@ const urls = [
     url: "https://waterfrontdining.bandcamp.com/album/american-love",
     title: "American Love 愛 | waterfront dining",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2996829103,
     tags: [54, 2041, 90, 92],
   },
   {
@@ -6604,6 +7515,7 @@ const urls = [
     url: "https://dmtrec.bandcamp.com/album/memory",
     title: "Memory | Dan Mason ダン·メイソン | DMT[REC]",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3952895104,
     tags: [1, 2042, 174, 2043, 113, 1090, 2044, 92, 784],
   },
   {
@@ -6612,6 +7524,7 @@ const urls = [
     title:
       "Vaporwave meets Future Funk | BALENTSバランス & Squarecom広場SOFTWARE | DMT[REC]",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 144474836,
     tags: [1, 2042, 2043, 113, 2044, 2008, 92, 784],
   },
   {
@@ -6619,6 +7532,7 @@ const urls = [
     url: "https://dmtrec.bandcamp.com/album/dazzle",
     title: "Dazzle 光彩 | waterfront dining | DMT[REC]",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 463413115,
     tags: [1, 2042, 174, 2043, 428, 2045, 1090, 2044, 90, 333, 92, 784],
   },
   {
@@ -6626,6 +7540,7 @@ const urls = [
     url: "https://vhstaperewinder.bandcamp.com/album/simulation",
     title: "リアルライフSIMULATION | VHSテープリワインダー",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3758426191,
     tags: [429, 2, 174, 2046, 428, 1, 90, 571, 92, 2047, 2048],
   },
   {
@@ -6634,6 +7549,7 @@ const urls = [
     title:
       "𝙀𝙢𝙚𝙧𝙖𝙡𝙙𝘾𝙤𝙧𝙥 𝙀𝙣𝙩𝙚𝙧𝙥𝙧𝙞𝙨𝙚𝙨: 𝘈 𝘎𝘳𝘦𝘦𝘯𝘦𝘳 𝘙𝘦𝘢𝘭𝘪𝘵𝘺 | 𝙀𝙢𝙚𝙧𝙖𝙡𝙙𝘾𝙤𝙧𝙥 𝙀𝙣𝙩𝙚𝙧𝙥𝙧𝙞𝙨𝙚𝙨 | ウィンドウズ88",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1930432544,
     tags: [54, 1379, 456, 2049, 92, 2050, 1078],
   },
   {
@@ -6641,6 +7557,7 @@ const urls = [
     url: "https://realitytelevision98.bandcamp.com/album/happy-computing",
     title: "Happy Computing! | R E A L I T Y テレビ",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2222219626,
     tags: [96, 182, 1, 183, 1590, 92, 1086],
   },
   {
@@ -6648,6 +7565,7 @@ const urls = [
     url: "https://realitytelevision98.bandcamp.com/album/cybermall-com",
     title: "CyberMall.com | R E A L I T Y テレビ",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 57942180,
     tags: [96, 182, 1, 183, 1590, 92, 1086],
   },
   {
@@ -6655,6 +7573,7 @@ const urls = [
     url: "https://repairerofreputations.bandcamp.com/album/mirage-instrumental",
     title: "Mirage (Instrumental) | Repairer of Reputations",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4043476147,
     tags: [1, 2, 57, 127, 2051],
   },
   {
@@ -6663,6 +7582,7 @@ const urls = [
     title:
       "Nature Sound Effects Iceland | Waterfalls and Rivers | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 94770975,
     tags: [
       2052, 54, 1697, 2053, 2054, 2055, 2056, 1215, 2057, 2058, 2059, 2060,
       2061,
@@ -6673,6 +7593,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/royalty-free-ocean-sounds-seaside-ambience",
     title: "Royalty Free Ocean Sounds & Seaside Ambience | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 110316011,
     tags: [2052, 54, 1697, 2062, 2058, 2063, 42, 2064, 2065, 2066, 2059, 2061],
   },
   {
@@ -6681,6 +7602,7 @@ const urls = [
     title:
       "Market Sound Effects | Midnight Ambience Chiang Mai | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 107943650,
     tags: [2052, 2067, 54, 1697, 2053, 2068, 2058, 2069, 153, 2070, 2071, 2061],
   },
   {
@@ -6688,6 +7610,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/hong-kong-sounds-green-bus-interior",
     title: "Hong Kong Sounds | Green Bus Interior | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 103579296,
     tags: [2052, 2072, 54, 1697, 2053, 2073, 2074, 2075, 2058, 2076, 153, 2061],
   },
   {
@@ -6696,6 +7619,7 @@ const urls = [
     title:
       "Free Room Tone Sound Effects Library | Parking Garage | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 64020192,
     tags: [2052, 54, 1697, 1546, 2075, 2058, 153, 599, 2018, 2077, 2061],
   },
   {
@@ -6704,6 +7628,7 @@ const urls = [
     title:
       "Denver International Airport Sound Library + Aircraft Take Off & Train Interior Sounds | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 113836420,
     tags: [
       2078, 2079, 2080, 2052, 54, 1697, 2081, 2082, 2058, 2083, 2084, 2085,
       2086, 2061,
@@ -6714,6 +7639,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-hair-dryer-sound-effects-library",
     title: "Free Hair Dryer Sound Effects Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 46697592,
     tags: [
       2052, 2087, 54, 1697, 414, 2088, 2053, 2089, 2090, 496, 2058, 169, 2061,
     ],
@@ -6723,6 +7649,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/binaural-sound-effects-library-singapore-airport",
     title: "Binaural Sound Effects Library Singapore Airport | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3993801316,
     tags: [2078, 2052, 2091, 2092, 2093, 2094, 54, 1697, 2095, 2058, 2061],
   },
   {
@@ -6730,6 +7657,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/city-rain-thunder-sounds-zagreb-croatia",
     title: "City Rain Thunder Sounds Zagreb, Croatia | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3969465573,
     tags: [
       2052, 2096, 2097, 2098, 54, 1697, 2053, 1696, 2099, 496, 2058, 2100, 2061,
     ],
@@ -6739,6 +7667,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/nara-park-ambience-japan-2018",
     title: "Nara Park Ambience Japan 2018 | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3956081705,
     tags: [2052, 54, 1697, 2053, 755, 2101, 2102, 2058, 2069, 153, 2061],
   },
   {
@@ -6746,6 +7675,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/industrial-fan-sounds-ventilator-sound-effects",
     title: "Industrial Fan Sounds | Ventilator Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3949862668,
     tags: [
       2052, 54, 2103, 1697, 2104, 2105, 2053, 57, 2106, 2082, 2058, 2069, 2107,
       2061,
@@ -6757,6 +7687,7 @@ const urls = [
     title:
       "Volleyball Sounds Women High School Team Indoor Training Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3949758172,
     tags: [
       2052, 54, 1697, 2058, 2, 2053, 2108, 2109, 2075, 153, 2110, 2111, 2061,
     ],
@@ -6767,6 +7698,7 @@ const urls = [
     title:
       "Free Eerie Pier Sound Effects | Creaks and Motions | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3941486913,
     tags: [2052, 378, 54, 1697, 414, 402, 2088, 624, 755, 190, 2058, 153, 2061],
   },
   {
@@ -6774,6 +7706,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/car-interior-sound-library-toyota-rav4-2021",
     title: "Car Interior Sound Library | Toyota RAV4 2021 | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3939578779,
     tags: [
       2052, 2112, 2113, 54, 1697, 2053, 2075, 496, 2058, 2018, 2114, 2115, 2061,
     ],
@@ -6784,6 +7717,7 @@ const urls = [
     title:
       "Car Interior Driving Sound Library Mitsubishi Pajero | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3938537265,
     tags: [
       2052, 2116, 2117, 2113, 2118, 54, 1697, 2053, 2119, 2120, 2075, 2058,
       2121, 2061,
@@ -6794,6 +7728,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/singapore-sound-effects-library",
     title: "Singapore Sound Effects Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3935724229,
     tags: [2052, 2122, 2123, 54, 1697, 2095, 2058, 2076, 153, 2124, 2085, 2061],
   },
   {
@@ -6801,6 +7736,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/skatepark-sound-effects-singapore",
     title: "Skatepark Sound Effects - Singapore | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3934870850,
     tags: [
       2052, 54, 1697, 2125, 2058, 2126, 2127, 2128, 2129, 1215, 2095, 2130,
       2131, 2061,
@@ -6811,6 +7747,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/bells-sample-sound-effects-library",
     title: "Bells Sample Sound Effects Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3934808741,
     tags: [2052, 2132, 2133, 2134, 54, 1697, 1215, 2135, 2058, 153, 2061],
   },
   {
@@ -6818,6 +7755,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/hindu-ceremonial-sound-effects-ubud-bali",
     title: "Hindu Ceremonial Sound Effects! Ubud, Bali | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3931740652,
     tags: [
       2052, 54, 1697, 2136, 2058, 2137, 2138, 2139, 2140, 2141, 2142, 246, 2143,
       2144, 2061,
@@ -6829,6 +7767,7 @@ const urls = [
     title:
       "Korean Sound Effects Library Cheonggyecheon Stream | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3925320207,
     tags: [2052, 54, 1697, 2145, 2146, 2147, 2148, 2149, 2075, 2058, 153, 2061],
   },
   {
@@ -6836,6 +7775,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/wing-sounds-flys-cricket-wing-sound-effects",
     title: "Wing Sounds Fly's & Cricket Wing Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3913751841,
     tags: [
       2052, 54, 1697, 2058, 2, 2150, 2108, 2151, 2152, 1696, 2058, 2153, 2061,
     ],
@@ -6846,6 +7786,7 @@ const urls = [
     title:
       "Birds Of Iceland - Seagulls, Puffins, Gannets, Guillemots, Razorbills, Snipes | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3892364217,
     tags: [
       2052, 2154, 2155, 54, 1697, 2053, 2054, 1696, 1215, 2058, 2069, 2156, 153,
       2061,
@@ -6856,6 +7797,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/wind-sound-effects-library",
     title: "Wind Sound Effects Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3891772340,
     tags: [
       2052, 54, 1697, 2053, 2157, 2158, 2082, 2058, 153, 1959, 2107, 2159, 2061,
     ],
@@ -6865,6 +7807,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/thunder-and-rain-sound-library-usa",
     title: "Thunder and Rain Sound Library USA | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2201152565,
     tags: [
       2052, 54, 1697, 2058, 2096, 1696, 2160, 2161, 2099, 2162, 2163, 2100,
       2061,
@@ -6875,6 +7818,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/usa-heavy-freight-train-sound-library",
     title: "USA Heavy Freight Train Sound Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1171095640,
     tags: [
       2052, 2164, 54, 1697, 2053, 2165, 2089, 496, 2058, 757, 2018, 2166, 2061,
     ],
@@ -6884,6 +7828,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/car-doors-sound-effects-engine-volvo-850",
     title: "Car Doors Sound Effects | Engine VOLVO 850 | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1169827647,
     tags: [
       2052, 2167, 2112, 2168, 2169, 2170, 54, 1697, 2171, 2058, 2172, 2173,
       2082, 2061,
@@ -6895,6 +7840,7 @@ const urls = [
     title:
       "Traffic Pass By Sound Effects Chiang Mai Thailand | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1165787756,
     tags: [
       2052, 2112, 54, 1697, 2053, 2174, 2058, 2076, 2175, 153, 2071, 2176, 2061,
     ],
@@ -6905,6 +7851,7 @@ const urls = [
     title:
       "Windy Night & Dripping Rain! Spooky, Eerie & Mysterious Sounds | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1165757852,
     tags: [
       2052, 54, 1697, 2177, 1696, 2058, 2053, 2178, 2161, 2099, 2179, 2180,
       2159, 2181, 2061,
@@ -6915,6 +7862,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-bird-sound-effects-pigeons-cappadocia",
     title: "Free Bird Sound Effects Pigeons Cappadocia | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1102183875,
     tags: [2052, 2154, 54, 1697, 2182, 2053, 2082, 2058, 153, 1959, 2183, 2061],
   },
   {
@@ -6922,6 +7870,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-eating-sound-effects-chips-binaural",
     title: "Free Eating Sound Effects | Chips Binaural | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1098975895,
     tags: [
       2052, 2184, 2185, 2186, 54, 1697, 2104, 2187, 2058, 492, 2188, 496, 2061,
     ],
@@ -6932,6 +7881,7 @@ const urls = [
     title:
       "Airbus 380 Interior Take Off Landing & Touchdown Sounds | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1010734135,
     tags: [
       2189, 2190, 2052, 54, 1697, 2191, 2192, 2081, 2075, 2135, 2058, 2076,
       1697, 2061,
@@ -6942,6 +7892,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-hong-kong-ambience-choi-hung-real-estate",
     title: "Free Hong Kong Ambience | Choi Hung Real Estate | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1010406729,
     tags: [2052, 2122, 54, 1697, 2053, 2073, 2193, 2058, 2076, 153, 2061],
   },
   {
@@ -6949,6 +7900,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/asmr-sounds-white-noise-for-deep-sleep",
     title: "ASMR Sounds | White Noise For Deep Sleep | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1009248313,
     tags: [
       492, 2052, 2194, 2195, 54, 1697, 414, 2196, 2197, 2198, 2058, 2199, 2061,
     ],
@@ -6959,6 +7911,7 @@ const urls = [
     title:
       'Hong Kong Sounds "The Angry" Chef Ringing Kitchen Bell | freetousesounds',
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 997321160,
     tags: [
       2052, 54, 1697, 2200, 2074, 2058, 2, 2133, 2201, 2202, 1696, 153, 2061,
     ],
@@ -6969,6 +7922,7 @@ const urls = [
     title:
       "Super Hokuto Limited Express Interior Sound Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 881083108,
     tags: [2052, 54, 1697, 755, 2101, 2075, 2058, 2203, 2204, 2205, 2061],
   },
   {
@@ -6976,6 +7930,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-fishing-harbor-sound-effects-malaysia",
     title: "Free Fishing Harbor Sound Effects Malaysia | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 865422447,
     tags: [492, 2052, 54, 1697, 2088, 2182, 2062, 2058, 2206, 2207, 1098, 2061],
   },
   {
@@ -6983,6 +7938,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/queima-das-fitas-sound-effects-library-portugal",
     title: "Queima das Fitas Sound Effects Library Portugal | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 472623548,
     tags: [
       2052, 54, 1697, 2208, 2209, 976, 2058, 2123, 2210, 2211, 2212, 2213, 2061,
     ],
@@ -6993,6 +7949,7 @@ const urls = [
     title:
       "Car Driving Sound Effects - Zagreb Night & Rain Interior Ambience | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 191419014,
     tags: [
       2052, 2214, 2117, 2096, 2097, 2113, 54, 1697, 2053, 2075, 1215, 2058,
       2215, 2061,
@@ -7004,6 +7961,7 @@ const urls = [
     title:
       "Cobblestone Sound Effects! Cars, Motorbikes & Tuk Tuk's Lisbon | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 165482678,
     tags: [
       2052, 2112, 2216, 54, 1697, 1830, 2174, 2209, 2058, 2069, 2, 2217, 2218,
       2061,
@@ -7014,6 +7972,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/spanish-apartment-sounds-foley-sound-effects",
     title: "Spanish Apartment Sounds Foley Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 153420492,
     tags: [
       2052, 2219, 2220, 54, 1697, 2104, 2221, 2171, 2222, 2058, 1141, 2223,
       2057, 2061,
@@ -7024,6 +7983,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/airbus-350-interior-sound-effects-library",
     title: "Airbus 350 Interior Sound Effects Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 152504103,
     tags: [
       2224, 2225, 2052, 2226, 54, 1697, 2053, 2075, 2135, 2058, 2076, 2227,
       2085, 2061,
@@ -7035,6 +7995,7 @@ const urls = [
     title:
       "Crowd Walla Ambience USA | Exhibition And Wedding Soundscape | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3888969800,
     tags: [
       2052, 2123, 54, 1697, 2053, 2127, 2228, 2229, 2058, 153, 2018, 2085, 2061,
     ],
@@ -7044,6 +8005,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/turkey-traffic-ambience-sound-library",
     title: "Turkey Traffic Ambience Sound Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3876714539,
     tags: [
       2052, 2230, 54, 1697, 2053, 1696, 2058, 2124, 2231, 2232, 2233, 2061,
     ],
@@ -7053,6 +8015,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/skate-sounds-skateboards-sound-effects",
     title: "Skate Sounds | Skateboards Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3850365837,
     tags: [
       2052, 2234, 2235, 54, 1697, 2236, 2237, 2058, 2018, 2, 2123, 1921, 2085,
       2061,
@@ -7064,6 +8027,7 @@ const urls = [
     title:
       "Train Interior Sound Effects And Room Tone | Sounds Of Lisbon | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3842409065,
     tags: [
       2052, 54, 1697, 2053, 1830, 2228, 2209, 2075, 2082, 2058, 153, 2205, 757,
       2061,
@@ -7075,6 +8039,7 @@ const urls = [
     title:
       "Room Tone Sound Library! Parking Garage Ambience USA | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3837785724,
     tags: [
       2052, 54, 1697, 2053, 2238, 2239, 2075, 2058, 2076, 2070, 2018, 2166,
       2199, 2061,
@@ -7085,6 +8050,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/gondola-sounds-cable-car-cabin-sound-effects",
     title: "Gondola Sounds | Cable Car Cabin Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3816559831,
     tags: [
       2052, 54, 1697, 2058, 2240, 2053, 2241, 2192, 2075, 2242, 2243, 2069,
       2179, 2061,
@@ -7095,6 +8061,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/dark-drones-sound-effects-geofon-sample-pack",
     title: "Dark Drones Sound Effects - Geofon Sample Pack | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3802655938,
     tags: [
       2052, 54, 1697, 2244, 2245, 2058, 378, 2246, 2182, 2053, 2222, 496, 2061,
     ],
@@ -7104,6 +8071,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/heavy-rain-traffic-ambience-busan-korea",
     title: "Heavy Rain Traffic Ambience Busan Korea | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3799312477,
     tags: [
       2052, 2247, 2248, 2249, 54, 1697, 2250, 2251, 2146, 2252, 2058, 2253,
       2254, 2255, 2061,
@@ -7114,6 +8082,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/seagulls-call-and-crowd-walla-ambience-bangkok",
     title: "Seagulls Call and Crowd Walla Ambience Bangkok | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3793486131,
     tags: [
       2052, 2256, 2154, 2257, 54, 1697, 2053, 2258, 2259, 2058, 153, 2260, 2061,
     ],
@@ -7124,6 +8093,7 @@ const urls = [
     title:
       "Drawers Open Closing Sound Effects | Aspen Residence | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3784275696,
     tags: [2052, 2261, 54, 1697, 2173, 2053, 2171, 2082, 2057, 2058, 153, 2061],
   },
   {
@@ -7131,6 +8101,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-party-blower-sound-effects-binaural",
     title: "Free Party Blower Sound Effects | Binaural | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2144020072,
     tags: [
       2052, 2262, 54, 1697, 2263, 2264, 2265, 2266, 2267, 2268, 2269, 2058,
       2076, 2061,
@@ -7141,6 +8112,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-fizzy-sound-effects",
     title: "Free Fizzy Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3662198611,
     tags: [2052, 54, 1697, 2126, 2053, 1215, 2057, 496, 2058, 2207, 2061],
   },
   {
@@ -7148,6 +8120,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/lom-electrosluch-mini-city-sample-library",
     title: "LOM Electrosluch Mini City Sample Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2539030000,
     tags: [2052, 56, 2270, 28, 54, 1697, 2053, 91, 2058, 1231, 516, 2061],
   },
   {
@@ -7155,6 +8128,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/vintage-elevator-sound-library-of-portugal",
     title: "Vintage Elevator Sound Library of Portugal | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2159930705,
     tags: [2052, 2271, 54, 1697, 1830, 2208, 2209, 2058, 2076, 153, 2272, 2061],
   },
   {
@@ -7163,6 +8137,7 @@ const urls = [
     title:
       "Coin Spinning Sample Library | Korg CM 300 | LOM Geofon | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1581428804,
     tags: [
       2052, 2273, 2274, 54, 1697, 2104, 2053, 2057, 2135, 2275, 2058, 2276,
       2061,
@@ -7173,6 +8148,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/electro-shutters-and-garage-doors-sound-effects",
     title: "Electro Shutters And Garage Doors Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1527146055,
     tags: [2052, 28, 54, 1697, 2126, 2053, 564, 2192, 2058, 2061],
   },
   {
@@ -7181,6 +8157,7 @@ const urls = [
     title:
       "Old Lift and Elevator Sound Effects Library North America | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 223579225,
     tags: [2052, 54, 1697, 2058, 2277, 241, 2278, 2279, 2126, 2179, 2061],
   },
   {
@@ -7189,6 +8166,7 @@ const urls = [
     title:
       "Rainforest Rice Field Ambience At Night Bali, Indonesia Soundscape | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3779817949,
     tags: [
       2052, 2138, 54, 1697, 2280, 2281, 1696, 2282, 1215, 2058, 169, 1697, 2061,
     ],
@@ -7199,6 +8177,7 @@ const urls = [
     title:
       "Lom Geofon Underground Trains and Scary Dock Sound Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3778173569,
     tags: [
       2052, 2087, 378, 54, 1697, 2053, 2158, 2245, 2057, 2283, 496, 2058, 673,
       2061,
@@ -7209,6 +8188,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/ticking-sound-effects-1925-clock-tower-sounds",
     title: "Ticking Sound Effects! 1925 Clock Tower Sounds | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3768868816,
     tags: [
       2052, 2284, 54, 1697, 2058, 1247, 2285, 2286, 2287, 2058, 2288, 2061,
     ],
@@ -7218,6 +8198,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/metal-chains-rattling-sound-effects",
     title: "Metal Chains Rattling Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3764095197,
     tags: [2052, 54, 1697, 2058, 2289, 414, 2053, 2158, 2290, 2291, 2179, 2061],
   },
   {
@@ -7226,6 +8207,7 @@ const urls = [
     title:
       "ASMR Underwater Sounds For Deep Sleep & Relaxation | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3752350544,
     tags: [
       2052, 54, 1697, 2058, 2292, 2293, 2175, 2294, 492, 2188, 2197, 1433, 2203,
       2059, 2061,
@@ -7236,6 +8218,7 @@ const urls = [
     url: "https://itemcaligo.bandcamp.com/album/rest-in-oblivion",
     title: "Rest In Oblivion | Item Caligo",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2124432874,
     tags: [2, 241, 1432, 1926, 229, 2295],
   },
   {
@@ -7243,6 +8226,7 @@ const urls = [
     url: "https://itemcaligo.bandcamp.com/album/defective-puppets",
     title: "Defective Puppets | Item Caligo",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 375227060,
     tags: [2, 241, 135, 2296, 1432, 1926, 229, 2297, 2298, 2295],
   },
   {
@@ -7250,6 +8234,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/--75",
     title: "会议 | Maykretch | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2059568169,
     tags: [172, 173, 331, 174, 16, 1, 54, 21, 105],
   },
   {
@@ -7257,6 +8242,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/before-you-eros",
     title: "Before You, Eros! | DARK DESIRE | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 983434793,
     tags: [172, 2299, 174, 16, 1, 245, 2300, 92, 105],
   },
   {
@@ -7264,6 +8250,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/--56",
     title: "許して忘れる | GODSPEED 音 | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3513993001,
     tags: [172, 173, 331, 1, 92, 105],
   },
   {
@@ -7271,6 +8258,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/marriage-to-catherine",
     title: "Marriage, to Catherine | Shima33 | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1937582342,
     tags: [2, 1, 2301, 353, 105],
   },
   {
@@ -7278,6 +8266,7 @@ const urls = [
     url: "https://unacebolla.bandcamp.com/album/auto-trol",
     title: "Auto Trol | Una Cebolla",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 404225948,
     tags: [2302, 1, 2303, 2304, 2040],
   },
   {
@@ -7285,6 +8274,7 @@ const urls = [
     url: "https://miraclestew.bandcamp.com/album/baile-juice",
     title: "Baile Juice | Miracles",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 110382646,
     tags: [
       539, 787, 1060, 1, 865, 2305, 2306, 792, 1600, 469, 2307, 480, 2308, 866,
       32,
@@ -7295,6 +8285,7 @@ const urls = [
     url: "https://wilhelminamusic.bandcamp.com/album/wilhelmina-remix-pack-number-one",
     title: "WILHELMINA Remix Pack Number One | WILHELMINA",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3170782916,
     tags: [882, 1, 558, 469, 787, 477, 879],
   },
   {
@@ -7302,6 +8293,7 @@ const urls = [
     url: "https://dosflakos.bandcamp.com/album/tools-4-da-hoes-6",
     title: "Tools 4 Da Hoes 6 | Dos Flakos",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 814168491,
     tags: [2309, 2310, 942, 897, 558, 539, 2311, 2312, 865, 2313, 288, 2314],
   },
   {
@@ -7310,6 +8302,7 @@ const urls = [
     title:
       "DJ Sliink Presents : The 6 Pack Ft Kendrick Lamar , Malcolm Todd , Sailorr + More | DJ Sliink",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4091741465,
     tags: [900, 1, 477, 2315, 2316, 2317, 901, 902, 792, 903],
   },
   {
@@ -7318,6 +8311,7 @@ const urls = [
     title:
       "DJ Sliink Presents - Girls Night The Mixtape (FULL BIRTHDAY TAPE) | DJ Sliink",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2286692285,
     tags: [
       2318, 900, 1, 2319, 2320, 477, 2321, 2322, 2323, 2324, 901, 2325, 902,
       792, 2326, 903,
@@ -7328,6 +8322,7 @@ const urls = [
     url: "https://djpump.bandcamp.com/album/dj-pump-x-nick-bike-joints-001",
     title: "DJ Pump x Nick Bike - [Joints 001] | DJ Pump x Nick Bike | DJ PUMP",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 818730509,
     tags: [131, 95, 479, 56, 481, 792, 114],
   },
   {
@@ -7335,6 +8330,7 @@ const urls = [
     url: "https://yunghiram.bandcamp.com/album/the-edits-vol-6",
     title: "the edits vol. 6 | hiram | Hiram",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2678374445,
     tags: [1, 131, 435, 539, 787, 2327, 480, 890, 292, 792, 2328],
   },
   {
@@ -7342,6 +8338,7 @@ const urls = [
     url: "https://wearesanto.bandcamp.com/album/summer-pack-by-santo",
     title: "SUMMER PACK by SANTO | SANTO",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1325293247,
     tags: [539, 537, 131, 95, 29, 920, 862, 940, 481, 792, 925],
   },
   {
@@ -7349,6 +8346,7 @@ const urls = [
     url: "https://djbenaiah.bandcamp.com/album/amapiano-blends-vol-1",
     title: "Amapiano Blends vol. 1 | Benaiah",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1613710176,
     tags: [906, 2329, 2330, 2331, 480, 1, 537, 94, 95, 2332, 478, 139, 2333],
   },
   {
@@ -7356,6 +8354,7 @@ const urls = [
     url: "https://1981tokyo.bandcamp.com/album/anniversary-ascension",
     title: "ANNIVERSARY // ASCENSION | 1981 Tokyo",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1591757857,
     tags: [1462, 481, 1, 476, 131, 522, 112],
   },
   {
@@ -7363,6 +8362,7 @@ const urls = [
     url: "https://raisinheads.bandcamp.com/album/sweet-operator",
     title: "Sweet Operator | DSTRUKT | Raisin Heads Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1026049196,
     tags: [
       2334, 2335, 1311, 2336, 131, 29, 478, 521, 792, 531, 2337, 479, 1312, 32,
     ],
@@ -7372,6 +8372,7 @@ const urls = [
     url: "https://fistikuts.bandcamp.com/album/the-secret-techniques-of-water-tiger-style",
     title: "The Secret Techniques of Water Tiger Style | Fistikuts",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2382099798,
     tags: [95, 145, 339],
   },
   {
@@ -7379,6 +8380,7 @@ const urls = [
     url: "https://fistikuts.bandcamp.com/album/whats-good",
     title: "What's Good | Fistikuts",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3306677092,
     tags: [95, 145, 339],
   },
   {
@@ -7386,6 +8388,7 @@ const urls = [
     url: "https://aquariusjay.bandcamp.com/album/flip-central-vol-1",
     title: "FLIP CENTRAL VOL. 1 | Aquarius Jay",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2409434205,
     tags: [95, 145, 2338, 695, 1818, 2339],
   },
   {
@@ -7393,6 +8396,7 @@ const urls = [
     url: "https://wearesanto.bandcamp.com/album/edit-pack-vol-1-by-santo",
     title: "EDIT PACK vol 1 by SANTO | SANTO",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2891498758,
     tags: [539, 537, 131, 95, 29, 920, 925],
   },
   {
@@ -7400,6 +8404,7 @@ const urls = [
     url: "https://sicstyle.bandcamp.com/album/remixes-edits-vol-5",
     title: "REMIXES & EDITS VOL. 5 | SicStyle",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 954039065,
     tags: [906, 1, 94, 29, 139, 435, 920, 539, 284, 481, 517],
   },
   {
@@ -7407,6 +8412,7 @@ const urls = [
     url: "https://xnywolf.bandcamp.com/album/4daclub-edit-pack",
     title: "4DACLUB (EDIT PACK) | XNYWOLF",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2102010095,
     tags: [568, 926, 752],
   },
   {
@@ -7414,6 +8420,7 @@ const urls = [
     url: "https://souldynamic.bandcamp.com/album/soul-edits-boots-full-pack-2",
     title: 'Soul Edits & Boots "Full pack" | Souldynamic',
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4016760588,
     tags: [
       2340, 1069, 2341, 1518, 1, 29, 1473, 1070, 801, 429, 1661, 2342, 1322,
       1323, 2343, 1162,
@@ -7424,6 +8431,7 @@ const urls = [
     url: "https://souldynamic.bandcamp.com/album/essential-soul-edits-re-works",
     title: 'Essential Soul "Edits & Re-works" | Souldynamic',
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3086021046,
     tags: [
       2340, 1069, 1, 29, 1473, 478, 479, 1070, 801, 429, 1661, 2342, 1322, 1323,
       2343, 1162,
@@ -7434,6 +8442,7 @@ const urls = [
     url: "https://tmshallibrukit.bandcamp.com/album/dr-dubz",
     title: "Dr Dubz | Dr Dub V Dr SIBI | ™Shall I Bruk It",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 427046408,
     tags: [1067, 1068, 1, 29, 245, 122],
   },
   {
@@ -7442,6 +8451,7 @@ const urls = [
     title:
       "Angel Eyes (Serge Santiago Epic Edit) - Stompa Phunk | Roxy Music | Serge Santiago",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1890596161,
     tags: [2344, 481, 1, 29, 2345, 310, 1073, 2346, 2347],
   },
   {
@@ -7450,6 +8460,7 @@ const urls = [
     title:
       "I'm Really Hot (Serge Santiago Version) - Stompa Phunk | Missy E | Serge Santiago",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2374217860,
     tags: [2344, 481, 1, 29, 2345, 2348, 310, 2346, 516, 2347],
   },
   {
@@ -7457,6 +8468,7 @@ const urls = [
     url: "https://ezel.bandcamp.com/album/brown-sugar-ezel-mixes",
     title: "Brown Sugar (Ezel Mixes) | Ezel",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3096831963,
     tags: [940, 1069, 1, 1073, 1070, 940, 1073, 69],
   },
   {
@@ -7464,6 +8476,7 @@ const urls = [
     url: "https://ethanxtomas.bandcamp.com/album/asake-active-riddim-remix-pack",
     title: "ASAKE - ACTIVE RIDDIM [REMIX PACK] | Ethan Tomas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3834613205,
     tags: [941, 94, 95, 478, 139, 2349, 230],
   },
   {
@@ -7472,6 +8485,7 @@ const urls = [
     title:
       "Tamia - Officially Missing You (DSTRUKT Bounce Remix) | DSTRUKT | Raisin Heads Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1551551623,
     tags: [2350, 1332, 1311, 131, 29, 2300, 2351, 478, 521, 531, 359, 1332, 32],
   },
   {
@@ -7479,6 +8493,7 @@ const urls = [
     url: "https://jonantonio.bandcamp.com/album/edits-blends-vol-2",
     title: "Edits & Blends, Vol. 2 | Jon Antonio",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3694785901,
     tags: [
       941, 906, 2335, 310, 1, 537, 94, 29, 521, 435, 539, 529, 481, 591, 592,
       32,
@@ -7489,6 +8504,7 @@ const urls = [
     url: "https://sicstyle.bandcamp.com/album/remixes-edits-vol-4",
     title: "REMIXES & EDITS VOL. 4 | SicStyle",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2413408931,
     tags: [1, 29, 139, 435, 920, 538, 539, 284, 480, 481, 693, 517],
   },
   {
@@ -7496,6 +8512,7 @@ const urls = [
     url: "https://wearesanto.bandcamp.com/album/reload-ii",
     title: "RELOAD II | SANTO",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1114235408,
     tags: [941, 539, 537, 131, 94, 95, 29, 139, 920, 2352, 890, 792, 925],
   },
   {
@@ -7503,6 +8520,7 @@ const urls = [
     url: "https://futurejames.bandcamp.com/album/edits-001",
     title: "edits.001 | future james",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3830279075,
     tags: [95, 906, 2353, 131, 478, 2354, 523, 1393],
   },
   {
@@ -7510,6 +8528,7 @@ const urls = [
     url: "https://fuzzmakesmusic.bandcamp.com/album/fuzz-club-tools-vol-1",
     title: "FUZZ CLUB TOOLS VOL. 1 | FUZZ (AU)",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2089707828,
     tags: [539, 1, 477, 2355, 2356, 2357],
   },
   {
@@ -7517,6 +8536,7 @@ const urls = [
     url: "https://joog.bandcamp.com/album/joogs-bachata-edits",
     title: "JOOG's Bachata Edits | JOOG",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3739521143,
     tags: [1, 2358, 95, 96, 522, 2359, 481, 592, 146],
   },
   {
@@ -7524,6 +8544,7 @@ const urls = [
     url: "https://bastianbell.bandcamp.com/album/vol-4",
     title: "VOL. 4 | Bastian Bell",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 598221504,
     tags: [537, 478, 521, 479, 941, 1602, 1332, 480, 1603, 892, 945],
   },
   {
@@ -7532,6 +8553,7 @@ const urls = [
     title:
       "Best of House Music Vol. 1 | Various Artists | RetroDeep Vibes House",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 238120668,
     tags: [2360, 1, 2361, 2362, 2363, 2364, 2365, 2366, 2367, 2368, 2369, 69],
   },
   {
@@ -7539,6 +8561,7 @@ const urls = [
     url: "https://say3.bandcamp.com/album/batida-say3-lit-rendition",
     title: "Batida Say3 Lit Rendition | SAYE",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1167886488,
     tags: [2309, 558, 941, 889, 865, 2370, 94, 804, 2371, 230],
   },
   {
@@ -7546,6 +8569,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/wt-138",
     title: "WT.13.8_[ラフミックス] | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2113218394,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -7553,6 +8577,7 @@ const urls = [
     url: "https://caoutchou.bandcamp.com/album/magic-crystal",
     title: "Magic Crystal | Rolando Simmons | Caoutchou",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2038159813,
     tags: [1, 5, 2372, 2373, 1861, 3, 2374, 109, 54, 4, 292, 2375],
   },
   {
@@ -7560,6 +8585,7 @@ const urls = [
     url: "https://omoidelabel.bandcamp.com/album/odds-ends-instance-2",
     title: "odds & ends instance 2 | snarewaves | OMOIDE LABEL",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1516913944,
     tags: [96, 469, 724],
   },
   {
@@ -7567,6 +8593,7 @@ const urls = [
     url: "https://omoidelabel.bandcamp.com/album/01999-gnyonpix",
     title: "01,999のGnyonpix | mori aka Gnyonpix | OMOIDE LABEL",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 234257846,
     tags: [1, 96, 466, 109, 2376, 1426, 724],
   },
   {
@@ -7574,6 +8601,7 @@ const urls = [
     url: "https://omoidelabel.bandcamp.com/album/--34",
     title: "二重写し | DJ Mashiro (2) | OMOIDE LABEL",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 246283452,
     tags: [2377, 2378, 338, 96, 746, 1, 292, 724],
   },
   {
@@ -7581,6 +8609,7 @@ const urls = [
     url: "https://omoidelabel.bandcamp.com/album/--24",
     title: "エスケープシーケンス | kai shibata | OMOIDE LABEL",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 240345073,
     tags: [1, 54, 96, 435, 469, 310, 516, 823, 724],
   },
   {
@@ -7588,6 +8617,7 @@ const urls = [
     url: "https://dtsq.bandcamp.com/album/neon-coloured-milky-way",
     title: "Neon-Coloured Milky Way | DTSQ",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1899428183,
     tags: [8, 2379, 2380, 2381, 2382, 51, 1145, 1476],
   },
   {
@@ -7595,21 +8625,15 @@ const urls = [
     url: "https://joshlis.bandcamp.com/album/rear-view",
     title: "Rear View | EVA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3015725225,
     tags: [627, 1, 571, 1231, 160, 315, 247],
-  },
-  {
-    url_id: 1032,
-    url: "https://mqrotrecords.bandcamp.com/album/edits-cuts-004-cold-wave-proto-ebm-1981-1982-tracks-re-edited",
-    title:
-      "Edits & Cuts 004 (Cold Wave & Proto EBM 1981 - 1982 Tracks Re​​-​​Edited) | Unknown Artist | Mosaique Records",
-    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-    tags: [2383, 1, 107, 2384, 481, 28, 57, 1322, 571, 315, 516, 89],
   },
   {
     url_id: 1033,
     url: "https://schegg.bandcamp.com/album/schegg-edits-japan-edition",
     title: "SCHEGG EDITS - Japan Edition | Schegg",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2597389546,
     tags: [627, 1, 755, 1182, 1168, 29, 2345, 2346, 516, 89],
   },
   {
@@ -7617,6 +8641,7 @@ const urls = [
     url: "https://omauk.bandcamp.com/album/mf-doom-instrumentals-live-at-the-hip-hop-chip-shop-2023",
     title: "MF DOOM Instrumentals (Live at The Hip-Hop Chip Shop 2023) | OMA",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2789584185,
     tags: [131, 94, 95, 139, 684, 413],
   },
   {
@@ -7624,6 +8649,7 @@ const urls = [
     url: "https://kannibalproducer.bandcamp.com/album/pi-ata",
     title: "Piñata | Kannibal",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3317668546,
     tags: [2385, 2386, 95, 1201, 2387, 2388, 2389, 792, 178, 92, 128, 1393],
   },
   {
@@ -7631,6 +8657,7 @@ const urls = [
     url: "https://dokowala.bandcamp.com/album/90-proof",
     title: "90 Proof | Dokowala",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3093794904,
     tags: [56, 131, 95, 145, 1629, 139, 2390, 2391, 531, 545, 2392],
   },
   {
@@ -7638,6 +8665,7 @@ const urls = [
     url: "https://sichtexot.bandcamp.com/album/f-nf",
     title: "FÜNF | Knowsum | Sichtexot",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2192052616,
     tags: [131, 95, 681, 470, 54, 669, 145, 2393, 1125, 2394, 139, 2395, 89],
   },
   {
@@ -7645,6 +8673,7 @@ const urls = [
     url: "https://pisse.bandcamp.com/album/lp",
     title: "LP | pisse",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2062288642,
     tags: [117, 2396, 2397],
   },
   {
@@ -7653,6 +8682,7 @@ const urls = [
     title: "KRATZEN zwei | Kratzen",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
     favorite: true,
+    bc_id: 375447818,
     tags: [8, 9, 10, 11, 12, 13],
   },
   {
@@ -7660,6 +8690,7 @@ const urls = [
     url: "https://kratzen.bandcamp.com/album/kratzen-4",
     title: "KRATZEN | Kratzen",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4076834947,
     tags: [8, 9, 10, 11, 12, 13],
   },
   {
@@ -7667,6 +8698,7 @@ const urls = [
     url: "https://granulat.bandcamp.com/album/hoppe-hoppe-hyper",
     title: "Hoppe Hoppe Hyper | Granulat",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 686531639,
     tags: [
       2398, 237, 2399, 2400, 2401, 2402, 117, 2403, 2404, 1907, 2405, 650, 1012,
       2406, 1606,
@@ -7677,6 +8709,7 @@ const urls = [
     url: "https://wrackspurts.bandcamp.com/album/wo-du-weniger-oft-weinst",
     title: "wo du weniger oft weinst | WRACKSPURTS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 60765627,
     tags: [
       8, 117, 2407, 2408, 237, 969, 2409, 2410, 394, 117, 2411, 1365, 2412, 517,
     ],
@@ -7686,6 +8719,7 @@ const urls = [
     url: "https://dvrchnvll.bandcamp.com/album/durch-null",
     title: "Durch Null | Durch Null",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 415911271,
     tags: [117, 2413, 237, 11, 120, 2414, 2415],
   },
   {
@@ -7693,6 +8727,7 @@ const urls = [
     url: "https://finalbody.bandcamp.com/album/nothyng",
     title: "Nothyng | Final Body",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3680607690,
     tags: [192, 1270, 1010, 120, 767, 44],
   },
   {
@@ -7700,6 +8735,7 @@ const urls = [
     url: "https://casketcassette.bandcamp.com/album/love-letters-to-ghosts",
     title: "Love Letters to Ghosts | Casket Cassette",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 827276006,
     tags: [627, 1, 2384, 1270, 1010, 132, 1213, 120, 1023, 1231, 160, 32],
   },
   {
@@ -7707,6 +8743,7 @@ const urls = [
     url: "https://realiciderex.bandcamp.com/album/2008-demo-2009-tape",
     title: "2008 demo + 2009 tape | BIRTH! | Realicide Rex",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3035243149,
     tags: [2416, 2417, 57, 2418, 227],
   },
   {
@@ -7714,6 +8751,7 @@ const urls = [
     url: "https://realiciderex.bandcamp.com/album/i-will",
     title: "I Will | BIRTH! | Realicide Rex",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3764522946,
     tags: [2417, 2418, 227],
   },
   {
@@ -7721,6 +8759,7 @@ const urls = [
     url: "https://realiciderex.bandcamp.com/album/gods",
     title: "GODS | Bomb20 | Realicide Rex",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 612219500,
     tags: [2419, 2420, 958, 2421, 2422, 671, 273, 606, 2423, 227],
   },
   {
@@ -7728,6 +8767,7 @@ const urls = [
     url: "https://oxygenfad.bandcamp.com/album/born-again-triggered",
     title: "BORN AGAIN TRIGGERED | Oxygenfad",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 484834293,
     tags: [273, 2424, 106, 1, 4, 5, 127, 769, 466, 2425, 249, 720],
   },
   {
@@ -7735,6 +8775,7 @@ const urls = [
     url: "https://valueexchange.bandcamp.com/album/nathan-palimpsest",
     title: "Nathan Palimpsest | Empathic Window | Value Exchange",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2365682407,
     tags: [54, 2, 2426, 1103, 420, 127, 2427],
   },
   {
@@ -7742,6 +8783,7 @@ const urls = [
     url: "https://galacticnorthrecords.bandcamp.com/album/bad-alchemy",
     title: "Bad Alchemy | Galactic North | Galactic North Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2131640689,
     tags: [8, 589, 2428],
   },
   {
@@ -7749,6 +8791,7 @@ const urls = [
     url: "https://vivabelgrado.bandcamp.com/album/japanese-bonus-tracks",
     title: "Japanese Bonus Tracks | Viva Belgrado",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 970879779,
     tags: [2429, 117, 152, 196, 581, 2040],
   },
   {
@@ -7756,6 +8799,7 @@ const urls = [
     url: "https://valtielscreamo.bandcamp.com/album/human-error",
     title: "Human Error | VALTIEL",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3655939413,
     tags: [661, 117, 2430, 2431, 301, 1613, 195, 196, 44],
   },
   {
@@ -7763,6 +8807,7 @@ const urls = [
     url: "https://ketaminecat.bandcamp.com/album/dependency",
     title: "Dependency | Ketamine Cat",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 899470907,
     tags: [8, 54, 2432, 2433, 1489, 47, 48, 2434, 53, 307, 1799, 44],
   },
   {
@@ -7770,6 +8815,7 @@ const urls = [
     url: "https://lavidaesunmus.bandcamp.com/album/earthworks",
     title: "Earthworks | Straw Man Army | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4031814918,
     tags: [117, 2435, 118, 1329, 1394, 121, 122],
   },
   {
@@ -7777,6 +8823,7 @@ const urls = [
     url: "https://crewcuts.bandcamp.com/album/sick-tired-of-the-talking-heads",
     title: "Sick & Tired Of The Talking Heads | Thought Control | Crew Cuts",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 747933954,
     tags: [117, 301, 118, 1012, 141],
   },
   {
@@ -7784,6 +8831,7 @@ const urls = [
     url: "https://lavidaesunmus.bandcamp.com/album/tir-group",
     title: "Tir Groupé | Rixe | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4147520352,
     tags: [2436, 117, 2437, 2438, 118, 124, 121, 2418, 122],
   },
   {
@@ -7791,6 +8839,7 @@ const urls = [
     url: "https://filler-pgh.bandcamp.com/album/tour-tape-2024",
     title: "Tour Tape 2024 | DEATH GASP | Filler Distro",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3262842484,
     tags: [1336, 117, 671, 1006, 1398, 2439, 1399, 2440, 2441, 93],
   },
   {
@@ -7798,6 +8847,7 @@ const urls = [
     url: "https://powerofdusk.bandcamp.com/album/if-you-don-t-speak",
     title: "If You Don’t Speak | Power Of Dusk",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1097585699,
     tags: [301, 118, 117, 2442, 2443],
   },
   {
@@ -7805,6 +8855,7 @@ const urls = [
     url: "https://horriblethings.bandcamp.com/album/everybody-else",
     title: "Everybody Else | Horrible Things",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2116829152,
     tags: [117, 2017, 314, 112],
   },
   {
@@ -7812,6 +8863,7 @@ const urls = [
     url: "https://jeffrosenstock.bandcamp.com/album/ska-dream",
     title: "SKA DREAM | Jeff Rosenstock",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 537045355,
     tags: [117, 69],
   },
   {
@@ -7819,6 +8871,7 @@ const urls = [
     url: "https://messyngband.bandcamp.com/album/f-ile-na-gr-ine-2024-ads",
     title: "Féile Na Gréine 2024 ads | Messyng FC",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3074657027,
     tags: [589, 1, 2444, 2445, 273, 2446, 2447, 1924, 2448, 702],
   },
   {
@@ -7827,6 +8880,7 @@ const urls = [
     title:
       "Nuacht TnaG 31st October 1996 | serial experiments leighlinbridge | Scauldwave Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3584438907,
     tags: [54, 2449, 358, 127, 2450, 92, 2451],
   },
   {
@@ -7835,6 +8889,7 @@ const urls = [
     title:
       "The Globgogabcollab | MC G Real, Yer Man, Owenowenowenowenowenowen | Scauldwave Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 277754610,
     tags: [54, 244, 2449, 1822, 127, 306, 2452, 2450, 2451],
   },
   {
@@ -7843,6 +8898,7 @@ const urls = [
     title:
       "Mario Kart 14: Waluigi Fucks Hard, Fucks Often and Fucks With The Door Open - What Fucking Cunts Let Us Release 100 Of These??? Past, Present and Future Scauld | Scauldwave Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 175679899,
     tags: [
       54, 2453, 107, 273, 2449, 58, 277, 1103, 1854, 443, 636, 127, 2450, 2454,
       2451,
@@ -7853,6 +8909,7 @@ const urls = [
     url: "https://mothmom.bandcamp.com/album/how-to-cut-your-losses",
     title: "How to Cut Your Losses | MothMom",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2068635990,
     tags: [8, 971],
   },
   {
@@ -7860,6 +8917,7 @@ const urls = [
     url: "https://dumbogetsmad.bandcamp.com/album/things-are-random-and-time-is-speeding-up",
     title: "Things Are Random And Time Is Speeding Up | Dumbo Gets Mad",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4010858865,
     tags: [96, 50, 192, 96, 50, 32],
   },
   {
@@ -7867,6 +8925,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/sassy-things",
     title: "sassy things | GENDEMA | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 321063912,
     tags: [2, 1314, 2455, 174, 16, 280, 1, 54, 5, 21, 105],
   },
   {
@@ -7874,6 +8933,7 @@ const urls = [
     url: "https://hizuo.bandcamp.com/album/unauthorized-speed-high-tempo-bootleg-ep",
     title: "Unauthorized Speed (High Tempo Bootleg EP) | Hizuo",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1834638228,
     tags: [1, 2456, 292, 724],
   },
   {
@@ -7881,6 +8941,7 @@ const urls = [
     url: "https://daaliah.bandcamp.com/album/when-im-in-your-arms-daaliah-deibeato-jungle-edit",
     title: "When I'm In Your Arms (Daaliah & Deibeato JUNGLE Edit) | Daaliah",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1133214721,
     tags: [1, 1066],
   },
   {
@@ -7888,6 +8949,7 @@ const urls = [
     url: "https://kutcorners.bandcamp.com/album/2025-edit-pack",
     title: "2025 Edit Pack | Kutcorners",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 52028883,
     tags: [478, 521, 836],
   },
   {
@@ -7895,6 +8957,7 @@ const urls = [
     url: "https://caycaleb.bandcamp.com/album/the-world-burning-while-youre-in-your-own-bubble",
     title: "THE WORLD BURNING WHILE YOU'RE IN YOUR OWN BUBBLE | cay caleb.",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3344373088,
     tags: [537, 95, 522, 2457, 2458, 2459, 21, 139, 2460, 2461, 2462],
   },
   {
@@ -7902,6 +8965,7 @@ const urls = [
     url: "https://isaiahsims.bandcamp.com/album/longitude",
     title: "LONGITUDE | Isaiah Sims",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2856224754,
     tags: [429, 2463, 131, 478, 521, 479, 542],
   },
   {
@@ -7910,6 +8974,7 @@ const urls = [
     title:
       "Televised Revolution | 2econd Cousins (5ifth Element & Dee Jackson) | 5ifth Element",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1335748977,
     tags: [95, 112],
   },
   {
@@ -7917,6 +8982,7 @@ const urls = [
     url: "https://sinatra911.bandcamp.com/album/soul-train-dancer",
     title: "Soul Train Dancer | Cyrano & J.Slikk | Cyrano Sinatra",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1339622321,
     tags: [
       2464, 94, 95, 2465, 2466, 139, 2467, 2468, 2469, 2470, 2471, 2472, 2473,
       2474, 2475, 2476, 2477,
@@ -7927,6 +8993,7 @@ const urls = [
     url: "https://revoltmotionrecords.bandcamp.com/album/r-a-g-e",
     title: "R.A.G.E. | One Nation | Revolt Motion Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1683776011,
     tags: [94, 95, 478, 139, 479, 21, 1257],
   },
   {
@@ -7934,6 +9001,7 @@ const urls = [
     url: "https://jzawu.bandcamp.com/album/xxxvi",
     title: "XXXVI | jisah",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2454781568,
     tags: [95, 54, 2312, 21, 2478, 479, 945],
   },
   {
@@ -7941,6 +9009,7 @@ const urls = [
     url: "https://jzawu.bandcamp.com/album/unnecessary-sounds",
     title: "unNecessary Sounds | jisah",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 335722241,
     tags: [95, 54, 2312, 21, 2478, 479, 945],
   },
   {
@@ -7949,6 +9018,7 @@ const urls = [
     title:
       "An Adventure To Pepperland Through Rhyme & Space (2023 Remaster) | Tom Caruana Remix Projects",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 152628314,
     tags: [95, 678, 591, 679, 680, 141],
   },
   {
@@ -7956,6 +9026,7 @@ const urls = [
     url: "https://oldboyhiphop.bandcamp.com/album/remix-of-terror-e-p",
     title: "Remix Of Terror E.P. | Oldboy Green",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 861276554,
     tags: [95, 140, 141],
   },
   {
@@ -7963,6 +9034,7 @@ const urls = [
     url: "https://oldboyhiphop.bandcamp.com/album/insane-yoda-2",
     title: "Insane Yoda | Oldboy Green",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3522637939,
     tags: [95, 140, 141],
   },
   {
@@ -7970,6 +9042,7 @@ const urls = [
     url: "https://braindeadpunk.bandcamp.com/album/libertalia",
     title: "Libertalia | BrainDead",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 54563758,
     tags: [2479, 248, 301, 2480, 117, 2481, 2482, 1446],
   },
   {
@@ -7977,6 +9050,7 @@ const urls = [
     url: "https://dubamix.bandcamp.com/album/la-haine-du-capital",
     title: "La Haine du Capital | Dubamix",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 296881457,
     tags: [1, 2483, 291, 248, 28, 208, 506],
   },
   {
@@ -7984,6 +9058,7 @@ const urls = [
     url: "https://foreigndubbers.bandcamp.com/album/drum-knobs",
     title: "Drum & Knobs | Foreign Dubbers",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3555287091,
     tags: [248, 109, 2484, 54, 208, 192, 558, 248, 1012, 2485],
   },
   {
@@ -7991,6 +9066,7 @@ const urls = [
     url: "https://wrenharmonic.bandcamp.com/album/twigs",
     title: "Twigs | Wrenharmonic",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4135233257,
     tags: [1, 810, 811, 2477],
   },
   {
@@ -7998,6 +9074,7 @@ const urls = [
     url: "https://megamoonx.bandcamp.com/album/ice-cream-ep",
     title: "Ice Cream EP | megamoon x",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3008466564,
     tags: [54, 2, 2486, 379, 2487, 2488, 120, 2418, 2489, 2490],
   },
   {
@@ -8005,6 +9082,7 @@ const urls = [
     url: "https://kidsquid.bandcamp.com/album/moonfall",
     title: "Moonfall | Kid Squid",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 553428954,
     tags: [2, 241, 2491, 470, 241, 135, 2197],
   },
   {
@@ -8012,6 +9090,7 @@ const urls = [
     url: "https://thefogweaver.bandcamp.com/album/vedurnan",
     title: "Vedurnan | Fogweaver",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4181215458,
     tags: [2, 2492, 2493, 2494, 1089, 2495, 2496, 2497, 542],
   },
   {
@@ -8019,6 +9098,7 @@ const urls = [
     url: "https://aliceffekt.bandcamp.com/album/short-stories-in-impossible-spaces",
     title: "Short Stories In Impossible Spaces | aliceffekt",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2065824251,
     tags: [54, 5, 2, 466, 148, 100, 167, 57, 127, 2498, 2499, 1907, 724],
   },
   {
@@ -8026,6 +9106,7 @@ const urls = [
     url: "https://tdstr.bandcamp.com/album/7-grand-dance",
     title: "7 Grand Dance | tdstr",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3153172817,
     tags: [2500, 1, 725, 2501, 639, 958, 726, 2502],
   },
   {
@@ -8033,6 +9114,7 @@ const urls = [
     url: "https://sleepytimejesse.bandcamp.com/album/i-miss-you-earthbound-2012",
     title: "I Miss You - EarthBound 2012 | Various Artists | sleepytimejesse",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1498394804,
     tags: [
       2503, 2504, 25, 2505, 244, 203, 2506, 544, 135, 1084, 756, 2507, 2006,
       2508, 97, 2509,
@@ -8043,6 +9125,7 @@ const urls = [
     url: "https://ko3untitled.bandcamp.com/album/game-over",
     title: "GAME OVER | KO3",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2779213640,
     tags: [1069, 1, 29, 1170, 1582, 284, 544, 301, 1776, 724],
   },
   {
@@ -8050,6 +9133,7 @@ const urls = [
     url: "https://fellsiusmusic.bandcamp.com/album/eyes",
     title: "Eyes | Fellsius",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3616016043,
     tags: [1, 1767],
   },
   {
@@ -8057,6 +9141,7 @@ const urls = [
     url: "https://carpainter.bandcamp.com/album/super-dance-tools-vol-4",
     title: "SUPER DANCE TOOLS Vol.4 | Carpainter",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1517386052,
     tags: [1, 29, 913, 284, 766, 724],
   },
   {
@@ -8064,6 +9149,7 @@ const urls = [
     url: "https://omoidelabel.bandcamp.com/album/lost",
     title: "LOST | toti | OMOIDE LABEL",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 188926845,
     tags: [1, 641, 96, 310, 96, 724],
   },
   {
@@ -8072,6 +9158,7 @@ const urls = [
     title: "after school | kinoue64",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
     favorite: true,
+    bc_id: 1170486009,
     tags: [8, 9, 48, 12, 2510],
   },
   {
@@ -8079,6 +9166,7 @@ const urls = [
     url: "https://kinoue64.bandcamp.com/album/2023demo",
     title: "2023demo | kinoue64",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 174081076,
     tags: [8, 9, 48, 12, 2510],
   },
   {
@@ -8086,6 +9174,7 @@ const urls = [
     url: "https://dontrustheruin.bandcamp.com/album/electric-voyeur-instrumental",
     title: "Electric Voyeur INSTRUMENTAL | Big Blood | dontrustheruin",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3561459568,
     tags: [
       54, 2511, 1038, 1039, 1040, 1041, 1, 54, 374, 2512, 1042, 1043, 2513,
       1044, 379, 117, 1046,
@@ -8096,6 +9185,7 @@ const urls = [
     url: "https://subhumans.bandcamp.com/album/crisis-point",
     title: "Crisis Point | Subhumans",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2559076708,
     tags: [117, 808, 1006, 2514, 1924, 1012, 2515, 2516],
   },
   {
@@ -8103,6 +9193,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-sheep-sound-effects-farm-animals-georgia",
     title: "Free Sheep Sound Effects | Farm Animals Georgia | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 88467187,
     tags: [
       2052, 2517, 2154, 54, 1697, 2053, 2119, 1696, 2518, 2519, 2058, 2069, 153,
       2061,
@@ -8113,6 +9204,7 @@ const urls = [
     url: "https://friendshouserecords.bandcamp.com/album/a-very-fhr-christmas",
     title: "a very FHR christmas | Various Artists | friend's house records",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2462399370,
     tags: [396, 389, 2520, 2521, 44],
   },
   {
@@ -8120,6 +9212,7 @@ const urls = [
     url: "https://johnchristian.bandcamp.com/album/darker",
     title: "Darker | John Christian",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3348216029,
     tags: [2, 1806, 1, 2, 241, 2522],
   },
   {
@@ -8127,6 +9220,7 @@ const urls = [
     url: "https://finlayshakespeare.bandcamp.com/album/directions-out-of-town",
     title: "Directions Out Of Town | Finlay Shakespeare",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4171725157,
     tags: [1, 687, 160, 2418, 1642],
   },
   {
@@ -8134,6 +9228,7 @@ const urls = [
     url: "https://karlkavedurian.bandcamp.com/album/wiener-linien",
     title: "Wiener Linien | Karl Kave & Durian",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1750450505,
     tags: [1, 29, 2523, 310, 1270, 2524, 120, 2525],
   },
   {
@@ -8141,6 +9236,7 @@ const urls = [
     url: "https://fill-lexrecords.bandcamp.com/album/mysteria",
     title: "Mysteria | Vinilette | Fill-Lex Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3974548347,
     tags: [241, 2383, 648, 28, 1, 1231, 516, 315, 2002],
   },
   {
@@ -8149,6 +9245,7 @@ const urls = [
     title:
       "The Owl-Adventures in the Land of the Falcons [Ep. 01] | N.W.T | Nothing Was There Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 971235999,
     tags: [2383, 1, 54, 516, 28, 128, 2526],
   },
   {
@@ -8156,6 +9253,7 @@ const urls = [
     url: "https://plangmusic.bandcamp.com/album/synthetic-blossom",
     title: "SYNTHETIC BLOSSOM | BLOMTEK | PLAN G",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2637764494,
     tags: [1, 651, 2527, 258],
   },
   {
@@ -8163,6 +9261,7 @@ const urls = [
     url: "https://djlocalb.bandcamp.com/album/in-memory-of-local-b",
     title: "In Memory of Local B | DJ Local B",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2559364028,
     tags: [1, 516, 257, 2528],
   },
   {
@@ -8170,6 +9269,7 @@ const urls = [
     url: "https://pegassi.bandcamp.com/album/go-slow-ep",
     title: "Go Slow EP | Pegassi",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2552534285,
     tags: [1, 29, 516, 257, 2357],
   },
   {
@@ -8177,6 +9277,7 @@ const urls = [
     url: "https://fuzzmakesmusic.bandcamp.com/album/fuzz-2023-edits-complete-pack",
     title: "FUZZ 2023 EDITS (COMPLETE PACK) | FUZZ (AU)",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3124095957,
     tags: [906, 539, 1, 477, 940, 539, 2355, 933, 2356, 2357],
   },
   {
@@ -8184,6 +9285,7 @@ const urls = [
     url: "https://willhofbauer.bandcamp.com/album/the-shovel-is-a-shovel-was-a-shovel",
     title: "The Shovel is a Shovel was a Shovel | Will Hofbauer",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2402856201,
     tags: [1, 469, 310, 28, 29, 122],
   },
   {
@@ -8191,6 +9293,7 @@ const urls = [
     url: "https://crashsymbols.bandcamp.com/album/sanctuary",
     title: "Sanctuary | Spliff Jacksun | Crash Symbols",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1639597109,
     tags: [54, 2529, 2, 56, 1480, 245, 1629, 42, 50, 91, 832, 833],
   },
   {
@@ -8199,6 +9302,7 @@ const urls = [
     title:
       "Ξ X O F O R Ξ S T | y o u r d i s c o v e r y & Cyber Surfer 3D | 𝔾𝕃𝕆𝔹𝔸𝕃 ℙ𝔸𝕋𝕋𝔼ℝℕ",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2527467823,
     tags: [1, 2, 16, 2530, 2531, 1876, 425, 2532, 1282, 92, 1879, 506],
   },
   {
@@ -8207,6 +9311,7 @@ const urls = [
     title:
       "大​気​の​川​【​O N L I N E ◉ P H A N T A S Y】 | 呪われた • 創世記 | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3406501109,
     tags: [180, 54, 181, 182, 1154, 1155, 185, 2008, 92, 2533, 189],
   },
   {
@@ -8214,6 +9319,7 @@ const urls = [
     url: "https://telepathtelepath.bandcamp.com/album/--28",
     title: "永遠の愛 | t e l e p a t h テレパシー能力者 | 天火見",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3857939909,
     tags: [427, 2, 2, 421, 54, 1089, 429, 1304, 422, 187, 92],
   },
   {
@@ -8221,6 +9327,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/fragmented-memories",
     title: "Fragmented Memories | 断片化された友人 | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2428578861,
     tags: [2534, 2, 2535, 187, 92, 105],
   },
   {
@@ -8228,6 +9335,7 @@ const urls = [
     url: "https://autum-memory.bandcamp.com/album/a-lifetime-later",
     title: "A Lifetime Later | 秋",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3508351969,
     tags: [1, 187, 460, 92, 2536],
   },
   {
@@ -8235,6 +9343,7 @@ const urls = [
     url: "https://sistermaple.bandcamp.com/album/songs-to-put-on-your-ipod",
     title: "SONGS TO PUT ON YOUR IPOD | sister maple",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 173339879,
     tags: [54, 122],
   },
   {
@@ -8243,6 +9352,7 @@ const urls = [
     title:
       "THE FUN-DIPPED FELINE FRENZY | Acid Fundip | ACIDIC FUNDIP SOUNDSYSTEMS",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4022846828,
     tags: [1, 54, 958, 1663, 35, 108, 273, 276, 709, 301, 766, 768, 516, 2537],
   },
   {
@@ -8250,6 +9360,7 @@ const urls = [
     url: "https://yonkagor.bandcamp.com/album/circus-hop",
     title: "Circus Hop | YonKaGor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2379336705,
     tags: [2538, 96, 2539, 1206],
   },
   {
@@ -8257,6 +9368,7 @@ const urls = [
     url: "https://yonkagor.bandcamp.com/album/silly-plans",
     title: "Silly Plans | YonKaGor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2784838855,
     tags: [245, 96, 2539, 1206],
   },
   {
@@ -8264,6 +9376,7 @@ const urls = [
     url: "https://shadrow.bandcamp.com/album/spider-girl-acoustic-version",
     title: "Spider Girl (Acoustic Version) | Shadrow",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4108338629,
     tags: [547, 8, 1, 132, 192, 2540, 223, 1500],
   },
   {
@@ -8271,6 +9384,7 @@ const urls = [
     url: "https://soundoftheaviators.bandcamp.com/album/from-oceans-to-skies",
     title: "From Oceans to Skies | Aviators",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1381019843,
     tags: [8, 1089, 1213, 192, 160, 1214],
   },
   {
@@ -8278,6 +9392,7 @@ const urls = [
     url: "https://circus-p.bandcamp.com/album/715",
     title: "715 | Circus-P",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4011480417,
     tags: [310, 856, 1, 96, 282, 1835],
   },
   {
@@ -8286,6 +9401,7 @@ const urls = [
     title:
       "エビチャーハン! (You’re Telling Me A SHRIMP Fried This Rice?!) | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2303453842,
     tags: [96, 108, 310, 1798, 1, 2541, 2542, 335, 282, 2328],
   },
   {
@@ -8293,6 +9409,7 @@ const urls = [
     url: "https://jamiepaige.bandcamp.com/album/autumns-other-days",
     title: "Autumn's Other Days | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3014212005,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -8300,6 +9417,7 @@ const urls = [
     url: "https://oddeeo.bandcamp.com/album/eons-ft-avanna",
     title: ".EonS (ft. Avanna) | ODDEEO",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2983201155,
     tags: [
       1, 315, 2, 35, 2543, 2544, 457, 2545, 2542, 571, 2546, 160, 315, 282,
       2547,
@@ -8310,6 +9428,7 @@ const urls = [
     url: "https://quedro.bandcamp.com/album/fioritura",
     title: "Fioritura | quedronol",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1080058761,
     tags: [1, 443, 192, 132, 356],
   },
   {
@@ -8317,6 +9436,7 @@ const urls = [
     url: "https://tdstr.bandcamp.com/album/phase-9-juxtapositional-music",
     title: "Phase 9: Juxtapositional Music | tdstr",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2278727241,
     tags: [1, 958, 794, 639, 2548, 727, 591, 90, 2502],
   },
   {
@@ -8324,6 +9444,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/agnes-hilda",
     title: "Agnes & Hilda | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 194945528,
     tags: [54, 443, 639, 2549, 640],
   },
   {
@@ -8331,6 +9452,7 @@ const urls = [
     url: "https://s00z.bandcamp.com/album/the-great-overseer",
     title: "The Great Overseer | s00z",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2037995148,
     tags: [54, 2550, 48, 152, 53, 2551],
   },
   {
@@ -8338,6 +9460,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/the-flowers-of-robert-mapplethorpe",
     title: "The Flowers of Robert Mapplethorpe | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2912176483,
     tags: [54, 1271, 2552, 639, 2549, 779, 640],
   },
   {
@@ -8345,6 +9468,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/techdog-1-7",
     title: "TECHDOG 1-7 | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1328620518,
     tags: [54, 5, 639, 640],
   },
   {
@@ -8352,6 +9476,7 @@ const urls = [
     url: "https://miyalowe.bandcamp.com/album/jook-til-i-die",
     title: "...jook 'til i die | evaboy | Miya lowe",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2845789384,
     tags: [867, 338, 1, 477, 523, 538, 1280, 644, 693, 292, 343, 1078],
   },
   {
@@ -8359,6 +9484,7 @@ const urls = [
     url: "https://sparklecore.bandcamp.com/album/glitch",
     title: "glitch | Dj Orange | SPARKLECORE SOUNDSYSTEM",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3172540067,
     tags: [1, 769, 770, 764, 249, 639, 771, 2434, 379, 772, 767, 773, 774, 44],
   },
   {
@@ -8366,6 +9492,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/mir4clen-5",
     title: "MIR4CLEN 5 | ღDJ魔女っ娘ミラクるんღ | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3966686968,
     tags: [932, 106, 1, 1410, 343, 2553, 724],
   },
   {
@@ -8373,6 +9500,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/mentalout",
     title: "Mentalout | yumeHolic | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 516055156,
     tags: [805, 1, 301, 795, 729, 768, 724],
   },
   {
@@ -8380,6 +9508,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/hyperflip-overture",
     title: "HYPERFLIP OVERTURE | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 75450505,
     tags: [273, 725, 106, 1, 726, 477, 727, 90, 724],
   },
   {
@@ -8387,6 +9516,7 @@ const urls = [
     url: "https://negroleo.bandcamp.com/album/rela-2",
     title: "RELA | Negro Leo",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1755716959,
     tags: [366, 2554, 2555, 308],
   },
   {
@@ -8394,6 +9524,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/vgm-37",
     title: "VGM.37 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3499786698,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -8401,6 +9532,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/hx-22",
     title: "HX.22 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2285586321,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -8408,6 +9540,7 @@ const urls = [
     url: "https://tropes.bandcamp.com/album/strain-in-the-air-6",
     title: "Strain in the Air 6 | tropes",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1936622256,
     tags: [95, 356],
   },
   {
@@ -8415,6 +9548,7 @@ const urls = [
     url: "https://tropes.bandcamp.com/album/wake-soon",
     title: "wake soon | tropes",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1644355267,
     tags: [95, 356],
   },
   {
@@ -8422,6 +9556,7 @@ const urls = [
     url: "https://aquidela.bandcamp.com/album/calm",
     title: "Calm | aqui dela",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2926696867,
     tags: [95, 56, 2556, 804, 128, 139, 724],
   },
   {
@@ -8429,6 +9564,7 @@ const urls = [
     url: "https://tropes.bandcamp.com/album/burn",
     title: "burn | tropes",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 315118682,
     tags: [95, 356],
   },
   {
@@ -8436,6 +9572,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/2pk-4trk",
     title: "2PK.4TRK_ | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4142949311,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -8443,6 +9580,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/v3",
     title: "家.V3 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3330714530,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -8450,6 +9588,7 @@ const urls = [
     url: "https://whitesample.bandcamp.com/album/zukunft-zyklus",
     title: "Zukunft Zyklus | white sample",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2826712752,
     tags: [1, 2557, 2, 1139, 276, 4, 1781],
   },
   {
@@ -8457,6 +9596,7 @@ const urls = [
     url: "https://xxiii.bandcamp.com/album/poder-paralelo",
     title: "PODER PARALELO | Holandês | XXIII",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3425276905,
     tags: [1, 523, 28, 429, 1993, 1994, 892, 1873],
   },
   {
@@ -8464,6 +9604,7 @@ const urls = [
     url: "https://mikisan.bandcamp.com/album/pluck-riddim-mks-prod",
     title: "PLUCK RIDDIM - MKS PROD | MIKISAN",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3121247281,
     tags: [208, 920, 249, 591, 2558, 792, 2559],
   },
   {
@@ -8471,6 +9612,7 @@ const urls = [
     url: "https://generationbass.bandcamp.com/album/sadat-alaa-fifty-cent-the-best-of",
     title: "Sadat & Alaa Fifty Cent - The Best Of... | GENERATION BASS",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3362479461,
     tags: [
       2560, 2561, 1, 866, 892, 2562, 2563, 2564, 2565, 2566, 2567, 2568, 2569,
       2570, 2571,
@@ -8481,6 +9623,7 @@ const urls = [
     url: "https://ptesquad.bandcamp.com/album/seapunk2020",
     title: "SEAPUNK2020 | Whitely | Pterodactyl Squad",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3007687682,
     tags: [753, 2572, 338, 1, 754, 466, 756, 750, 97, 498],
   },
   {
@@ -8488,6 +9631,7 @@ const urls = [
     url: "https://ile-nemusic6.bandcamp.com/album/empty-canvas",
     title: "Empty Canvas | Leą",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 825779435,
     tags: [2573, 1, 466, 2574, 2575, 685],
   },
   {
@@ -8495,6 +9639,7 @@ const urls = [
     url: "https://defensemechanism.bandcamp.com/album/retrospectacles",
     title: "Retrospectacles | DEFENSE MECHANISM",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3708686463,
     tags: [633, 1, 817, 466, 1, 635, 707, 2576, 2006, 763, 2577],
   },
   {
@@ -8502,6 +9647,7 @@ const urls = [
     url: "https://voipetsu.bandcamp.com/album/polymorph",
     title: "Polymorph | voipetsu",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3783177296,
     tags: [1, 54, 273, 291, 280, 292, 293, 2578],
   },
   {
@@ -8509,6 +9655,7 @@ const urls = [
     url: "https://nikuwolf.bandcamp.com/album/border-breaker",
     title: "border:breaker | Kuda Krystalis | NiKU(s)TRAX",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 569757271,
     tags: [1, 273, 606, 54, 709, 301, 443, 190, 768, 1210, 97, 2328],
   },
   {
@@ -8516,6 +9663,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/--73",
     title: "禅​の​庭 | GORE | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3336431718,
     tags: [755, 172, 173, 360, 174, 16, 54, 175, 92, 105],
   },
   {
@@ -8523,6 +9671,7 @@ const urls = [
     url: "https://enoughrec.bandcamp.com/album/enough-records-radio-show-108",
     title: "Enough Records Radio Show #108 | ps | Enough Records",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4027065510,
     tags: [558, 2, 1, 54, 132, 2579, 2580, 2581, 2582],
   },
   {
@@ -8530,6 +9679,7 @@ const urls = [
     url: "https://enoughrec.bandcamp.com/album/livre",
     title: "Livre | M-PeX | Enough Records",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3594043459,
     tags: [558, 2, 148, 2583, 1, 54, 132, 2579, 2584, 558, 2582],
   },
   {
@@ -8537,6 +9687,7 @@ const urls = [
     url: "https://sunnexo.bandcamp.com/album/retro-complex",
     title: "Retro Complex | Sunnexo",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 895875948,
     tags: [466, 338, 249, 1, 54, 2575, 707, 625],
   },
   {
@@ -8544,6 +9695,7 @@ const urls = [
     url: "https://aiobahn.bandcamp.com/album/all-connected-ep",
     title: "all connected EP | Aiobahn",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 775151048,
     tags: [856, 1, 29, 2585, 1209, 724],
   },
   {
@@ -8551,6 +9703,7 @@ const urls = [
     url: "https://ncmr.bandcamp.com/album/thou-art-such-a-n",
     title: "Thou art such a(n) ____ | Northwich committee of magic researches",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 162499883,
     tags: [2586, 54, 612, 282, 2587, 1210, 2588, 2589],
   },
   {
@@ -8558,6 +9711,7 @@ const urls = [
     url: "https://crescentia.bandcamp.com/album/carnaval-des-animaux",
     title: "carnaval des animaux | 11th hour | crescentia",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3467058133,
     tags: [202, 2590, 245, 1193, 229, 1210, 853],
   },
   {
@@ -8566,6 +9720,7 @@ const urls = [
     title:
       "東方聖鮮血 ~ Heart of Sacred Singularity | Consonances & Dissonances",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2473787959,
     tags: [25, 2591, 114],
   },
   {
@@ -8573,6 +9728,7 @@ const urls = [
     url: "https://akakyu.bandcamp.com/album/traces-of-utopian-civilisation",
     title: "北海道調査 ～ Traces of Utopian Civilisation | Aka Kyuketsuki",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 83589008,
     tags: [25, 2592, 1210, 1756, 2593, 2588, 130],
   },
   {
@@ -8580,6 +9736,7 @@ const urls = [
     url: "https://sylvysprit.bandcamp.com/album/touhou-fraternity-of-melancholy",
     title: "Touhou: Fraternity of Melancholy | Princess Sylvysprit",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1743562978,
     tags: [54, 2385, 205, 817, 1210, 1756, 2591, 1195, 1757, 625],
   },
   {
@@ -8587,6 +9744,7 @@ const urls = [
     url: "https://kallettiklub.bandcamp.com/album/partisan-ep",
     title: "Partisan EP | Kalletti Klub",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1142771963,
     tags: [1, 2594, 2595, 1446],
   },
   {
@@ -8594,6 +9752,7 @@ const urls = [
     url: "https://elbuho.bandcamp.com/album/sierra-del-mar-feat-alex-serra",
     title: "Sierra Del Mar (feat. Alex Serra) | El Búho",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3200102625,
     tags: [2596, 1589, 1, 109, 1319, 2597, 2598],
   },
   {
@@ -8601,6 +9760,7 @@ const urls = [
     url: "https://mrux.bandcamp.com/album/in-the-hold-2",
     title: "In The Hold | M.RUX",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2742601429,
     tags: [1, 2599, 2600, 109, 50, 2601, 258],
   },
   {
@@ -8609,6 +9769,7 @@ const urls = [
     title:
       "Caffè Corretto Edits #005 - Coffee Shots Vol.2 (V/A) | BPlan, Fab_o, Reece Johnson, Joutro Mundo, Shamako | Caffè Corretto Edits",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 159172557,
     tags: [2602, 429, 29, 862, 1168, 890, 481, 429, 1073, 1323, 1162],
   },
   {
@@ -8616,6 +9777,7 @@ const urls = [
     url: "https://sierrra.bandcamp.com/album/sierrra-digital-tracks",
     title: "Sierrra digital tracks | SIERRRA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1510683276,
     tags: [1, 29, 862, 1168, 429, 2002],
   },
   {
@@ -8623,6 +9785,7 @@ const urls = [
     url: "https://cassetteblog.bandcamp.com/album/cassette-blog-10mo-aniversario",
     title: "Cassette Blog 10mo aniversario | Va | Cassette Blog",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 524045341,
     tags: [
       1, 131, 469, 2603, 2604, 1589, 2605, 2606, 693, 288, 568, 2607, 1585, 435,
       1604, 1523,
@@ -8633,6 +9796,7 @@ const urls = [
     url: "https://wearesanto.bandcamp.com/album/edit-pack-by-santo-vol-6",
     title: "EDIT PACK by SANTO vol 6 | SANTO",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2313352726,
     tags: [539, 537, 131, 95, 29, 920, 787, 890, 792, 925],
   },
   {
@@ -8640,6 +9804,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/sos-pack",
     title: "SOS PACK | Ballads",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3381771227,
     tags: [535, 1, 537, 29, 477, 897, 523, 539, 540, 481, 1993, 541, 542],
   },
   {
@@ -8648,6 +9813,7 @@ const urls = [
     title:
       "Ｋｗｅｅｎ Ｐｅｐｓｉ (Japanese Edition) [SINGLE] | Jesse Cassettes",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2285484252,
     tags: [1, 2608, 1473, 1161, 1883, 2346, 2609, 1473, 1661, 2008, 92, 2610],
   },
   {
@@ -8655,6 +9821,7 @@ const urls = [
     url: "https://playednfaved.bandcamp.com/album/fantasy-magic-sound-effects-sample-pack",
     title: "Fantasy Magic Sound Effects Sample Pack | Played N Faved",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3860989626,
     tags: [
       2053, 2082, 558, 1089, 2611, 2612, 2613, 2126, 493, 2614, 2615, 2616,
       2617, 2058, 2618,
@@ -8666,6 +9833,7 @@ const urls = [
     title:
       "Vibration Sound Effects Library | The Dark Shinkansen | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1618975355,
     tags: [
       2052, 198, 167, 54, 1697, 2053, 1192, 755, 2058, 2069, 2619, 2620, 2621,
       2061,
@@ -8676,6 +9844,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-supermarket-sound-effects-portugal",
     title: "Free Supermarket Sound Effects Portugal | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 68384712,
     tags: [2052, 2123, 54, 1697, 414, 2228, 2209, 2058, 153, 2061],
   },
   {
@@ -8683,6 +9852,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/eternal-flames-of-yanarta-ambience",
     title: "Eternal Flames of Yanartaş Ambience | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 44547507,
     tags: [
       2052, 54, 1697, 2622, 2623, 2182, 2053, 1696, 2082, 2058, 2624, 153, 2061,
     ],
@@ -8693,6 +9863,7 @@ const urls = [
     title:
       "Underwater Sound Effects | Fishing Port | Crabs and Barnacles | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 42248753,
     tags: [2052, 54, 1697, 2053, 2625, 2082, 2058, 2076, 153, 1959, 2294, 2061],
   },
   {
@@ -8701,6 +9872,7 @@ const urls = [
     title:
       "Birds Of Iceland ! Attacking Arctic Terns Shrills & Scream Sounds | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 36533235,
     tags: [
       2052, 2626, 2627, 2154, 2628, 54, 1697, 2054, 1696, 2629, 2058, 2156,
       2053, 2058, 2061,
@@ -8711,6 +9883,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/coins-spinning-sound-effects",
     title: "Coins Spinning Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 35968948,
     tags: [
       2052, 54, 1697, 2058, 2630, 2274, 2631, 1215, 2057, 496, 2632, 2633, 2634,
       2635, 2061,
@@ -8721,6 +9894,7 @@ const urls = [
     url: "https://tincanaudio.bandcamp.com/album/music-for-video-game-menus",
     title: "Music For Video Game Menus | Tin Can Audio",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2922701180,
     tags: [
       2636, 786, 2, 2637, 466, 2575, 2638, 2639, 2640, 756, 1296, 2508, 25, 97,
       789,
@@ -8732,6 +9906,7 @@ const urls = [
     title:
       "Vietnamese Ambience Phong Nha Paradise Cave Soundscape | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 30206085,
     tags: [2052, 54, 1697, 2058, 2052, 2641, 2123, 414, 2642, 2643, 2085, 2061],
   },
   {
@@ -8739,6 +9914,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/ho-chi-minh-city-sound-effects-library",
     title: "Ho Chi Minh City Sound Effects Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 30000220,
     tags: [2052, 54, 1697, 2644, 2058, 2643, 2645, 2, 2096, 1215, 2646, 2061],
   },
   {
@@ -8746,6 +9922,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/bicycle-sound-effects-library",
     title: "BICYCLE SOUND EFFECTS LIBRARY! | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 28512842,
     tags: [
       2052, 54, 1697, 2058, 2647, 414, 2648, 2105, 2649, 2057, 496, 2058, 2650,
       2061,
@@ -8757,6 +9934,7 @@ const urls = [
     title:
       "Train Sounds & Train Station Sound Effects Library Vietnam | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 6131235,
     tags: [
       2052, 54, 1697, 2264, 2651, 2058, 2643, 2645, 2, 2123, 414, 2652, 2192,
       757, 2061,
@@ -8767,6 +9945,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/destruction-sound-effects-rampage-chaos",
     title: "Destruction Sound Effects Rampage Chaos | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 152685700,
     tags: [
       2052, 2653, 2654, 2655, 2656, 54, 1697, 2053, 2657, 2082, 2283, 496, 2658,
       2058, 2061,
@@ -8777,6 +9956,7 @@ const urls = [
     url: "https://kekal.bandcamp.com/album/quantum-resolution",
     title: "Quantum Resolution | Kekal",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 525174023,
     tags: [
       611, 190, 609, 612, 1674, 613, 614, 248, 1207, 615, 1533, 617, 12, 607,
       618,
@@ -8787,6 +9967,7 @@ const urls = [
     url: "https://srarecords.bandcamp.com/album/deer",
     title: "Deer ++ | Hulk Smash | SRA Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3162184263,
     tags: [623, 612, 117, 194, 301, 118, 57, 502, 372, 1145, 247],
   },
   {
@@ -8794,6 +9975,7 @@ const urls = [
     url: "https://miginc.bandcamp.com/album/--3",
     title: "切り刻んでねじ込む | Mig Inc",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3809445053,
     tags: [1, 671, 276, 1103, 57, 1435],
   },
   {
@@ -8802,6 +9984,7 @@ const urls = [
     title:
       "Whore's Breath // raté - split album | Whore's Breath & raté | L'Abeille Cool",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3986813251,
     tags: [8, 1430, 237, 1103, 1854, 1855, 132, 127, 1435],
   },
   {
@@ -8809,6 +9992,7 @@ const urls = [
     url: "https://saisho.bandcamp.com/album/contre-le-travail",
     title: "contre le travail | Saishō 最小",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 157806644,
     tags: [2, 2659, 457, 167, 1431, 1432, 416, 380, 1433, 2660, 1435],
   },
   {
@@ -8816,6 +10000,7 @@ const urls = [
     url: "https://chriszabriskie.bandcamp.com/album/angies-sunday-service",
     title: "Angie's Sunday Service | Chris Zabriskie",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2450995279,
     tags: [2, 228, 1, 54, 21, 229, 230],
   },
   {
@@ -8823,6 +10008,7 @@ const urls = [
     url: "https://emamouse.bandcamp.com/album/black-big-fighter",
     title: "Black Big Fighter | emamouse",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3554432926,
     tags: [2661, 96, 2662, 374, 2663, 2664, 724],
   },
   {
@@ -8830,6 +10016,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/doors-door-open-and-closing-sound-effects",
     title: "Doors | Door Open And Closing Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 389881450,
     tags: [
       2052, 2665, 2666, 2667, 54, 1697, 2104, 2182, 1215, 2058, 2070, 2061,
     ],
@@ -8839,6 +10026,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/camino-frances-part-04-wind-sounds-meseta",
     title: "Camino Frances Part 04 Wind Sounds Meseta | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 118335160,
     tags: [
       2052, 54, 1697, 2053, 1696, 2242, 496, 2058, 153, 1141, 2668, 2107, 2181,
       2061,
@@ -8849,6 +10037,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/airport-sound-effects-library-bangkok-airport",
     title: "Airport Sound Effects Library - Bangkok Airport | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 362754630,
     tags: [
       2052, 54, 1697, 2058, 2669, 2670, 2080, 2, 2671, 2127, 2058, 2085, 2061,
     ],
@@ -8858,6 +10047,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/storm-rain-and-thunder-sounds-from-split-croatia",
     title: "Storm Rain And Thunder Sounds From Split Croatia | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 358056650,
     tags: [2052, 54, 1697, 2053, 494, 2160, 2058, 2069, 153, 2162, 2061],
   },
   {
@@ -8865,6 +10055,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/free-cruise-ship-sound-effects",
     title: "Free Cruise Ship Sound Effects | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 461611628,
     tags: [
       2052, 2672, 2673, 2118, 54, 1697, 2053, 57, 2192, 2518, 2058, 153, 2294,
       2061,
@@ -8875,6 +10066,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/city-park-ambience-zagreb-sounds-of-croatia",
     title: "City Park Ambience Zagreb | Sounds Of Croatia | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 409066861,
     tags: [
       2052, 2097, 2674, 54, 1697, 2053, 2675, 2676, 2677, 2228, 2678, 496, 2058,
       2061,
@@ -8885,6 +10077,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/dark-ambient-mad-max-car-park-melbourne",
     title: "Dark Ambient | Mad Max Car Park Melbourne | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 378334890,
     tags: [2052, 198, 54, 1697, 564, 439, 2089, 2679, 2058, 153, 2061],
   },
   {
@@ -8892,6 +10085,7 @@ const urls = [
     url: "https://audioobscura.bandcamp.com/album/self-isolation-tapes",
     title: "Self Isolation Tapes | Audio Obscura",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2286217096,
     tags: [
       2, 1, 54, 30, 2680, 2681, 35, 2682, 109, 1697, 30, 229, 1869, 2683, 141,
     ],
@@ -8902,6 +10096,7 @@ const urls = [
     title:
       "Inside The Tettrix Wave Accumulator Downloading Full Spectrum Melodies | Audio Obscura",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3332078314,
     tags: [469, 513, 1, 4, 35, 109, 1697, 2684, 410, 30, 2685, 229, 1869, 141],
   },
   {
@@ -8909,6 +10104,7 @@ const urls = [
     url: "https://audioobscura.bandcamp.com/album/love-in-the-time-of-the-anthropocene",
     title: "Love in the time of the Anthropocene | Audio Obscura",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 694682465,
     tags: [1865, 1866, 1867, 1, 2686, 35, 2687, 2682, 109, 30, 229, 1869, 141],
   },
   {
@@ -8917,6 +10113,7 @@ const urls = [
     title:
       "Real Dark Arps Do Not DJ | Dark Arps of Canada | Dark Arps Of Canada",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1745970216,
     tags: [1, 681, 5, 128, 257, 435, 836],
   },
   {
@@ -8924,6 +10121,7 @@ const urls = [
     url: "https://jonnay.bandcamp.com/album/the-first-sacrifice",
     title: "The First Sacrifice | Jonnay",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3381728660,
     tags: [1, 107, 1663, 2688, 516, 1086],
   },
   {
@@ -8931,6 +10129,7 @@ const urls = [
     url: "https://danmason.bandcamp.com/album/infinite-failure",
     title: "Infinite Failure | Dan Mason",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2696860250,
     tags: [1, 35, 133, 311, 160, 92, 2689],
   },
   {
@@ -8938,6 +10137,7 @@ const urls = [
     url: "https://retrovex.bandcamp.com/album/nostalgic-soundscapes-season-1",
     title: "Nostalgic Soundscapes - Season 1 | Retrovex",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2627097315,
     tags: [2690, 2424, 1, 249, 141],
   },
   {
@@ -8945,6 +10145,7 @@ const urls = [
     url: "https://nighttempo.bandcamp.com/album/concentration",
     title: "集中 Concentration | Night Tempo",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2311534768,
     tags: [1, 94, 139, 435, 1163, 2, 113, 245, 135, 96, 2006, 2691, 92, 1476],
   },
   {
@@ -8952,6 +10153,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/--34",
     title: "家族. 劳动. 쇼핑. | 猫 シ Corp. | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3927047101,
     tags: [1, 2, 135, 183, 353, 187, 92, 130],
   },
   {
@@ -8959,6 +10161,7 @@ const urls = [
     url: "https://francisroberts.bandcamp.com/album/all-paths-lead-to-tulmere",
     title: "All Paths Lead To Tulmere | Francis Roberts",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 847949403,
     tags: [2, 2692, 2693, 2694, 1624, 2695, 40, 2696, 207, 25, 763, 1094],
   },
   {
@@ -8967,6 +10170,7 @@ const urls = [
     title:
       "к​​​о​​​г​​​д​​​а з​​​л​​​о г​​​о​​​с​​​п​​​о​​​д​​​с​​​т​​​в​​​у​​​е​​​т | haircuts for men | Celadon Plaza",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1218990807,
     tags: [1, 470, 174, 16, 21, 175, 92, 356],
   },
   {
@@ -8974,6 +10178,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/time-flows-constantly",
     title: "Time Flows Constantly | MICROMECHA | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 973229953,
     tags: [1, 2348, 171, 2697, 108, 354, 175, 90, 2015, 141],
   },
   {
@@ -8981,6 +10186,7 @@ const urls = [
     url: "https://rabbitholeclub.bandcamp.com/album/opaque-crystal",
     title: "OPAQUE CRYSTAL | DΛRKNΣSS | Rabbithole Club",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2547904468,
     tags: [1, 141],
   },
   {
@@ -8988,6 +10194,7 @@ const urls = [
     url: "https://dvonhendryx.bandcamp.com/album/dreamcast-summer-songs",
     title: "DREAMCAST SUMMER SONGS | Devon Hendryx",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1677626798,
     tags: [
       2, 1, 95, 132, 135, 583, 310, 109, 276, 29, 21, 2698, 2699, 50, 545, 2700,
       724,
@@ -8998,6 +10205,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/emo-gen-2",
     title: "emo.gen 2 | Various Artists | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2621243929,
     tags: [946, 273, 338, 1, 109, 730, 5, 729, 724],
   },
   {
@@ -9005,6 +10213,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/mir4clen-3",
     title: "MIR4CLEN 3 | ღDJ魔女っ娘ミラクるんღ | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 436474977,
     tags: [932, 106, 1, 1410, 343, 2553, 724],
   },
   {
@@ -9012,6 +10221,7 @@ const urls = [
     url: "https://kirairi.bandcamp.com/album/hyperscream",
     title: "HyperScream!! | Various Artists | きらいり",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 406805265,
     tags: [1, 725, 726, 727, 90, 948],
   },
   {
@@ -9019,6 +10229,7 @@ const urls = [
     url: "https://kizuna-the-devil.bandcamp.com/album/4n-m-sm-ep",
     title: "4n!m!sm EP | k!zun4",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4119644442,
     tags: [1, 726, 2701, 724],
   },
   {
@@ -9026,6 +10237,7 @@ const urls = [
     url: "https://curren.bandcamp.com/album/one-true-color",
     title: "One True Color | .｡*ﾟ+.*.Curren｡+..｡*ﾟ+",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 497252045,
     tags: [1, 2702, 724],
   },
   {
@@ -9033,6 +10245,7 @@ const urls = [
     url: "https://lostfrog.bandcamp.com/album/--11",
     title: "無常再興 | λμκικαζε | Lost Frog Productions",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3373830075,
     tags: [946, 273, 1, 729, 727, 724],
   },
   {
@@ -9040,6 +10253,7 @@ const urls = [
     url: "https://telepathtelepath.bandcamp.com/album/--32",
     title: "仮想夢プラザ | 仮想夢プラザ | 天火見",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2627620131,
     tags: [427, 2, 2, 421, 2703, 429, 422, 183, 494, 127, 187, 92, 1098],
   },
   {
@@ -9047,6 +10261,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/--20",
     title: "牧歌的な生き方 | 放浪者 | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1049203905,
     tags: [1, 2, 1374, 167, 2704, 135, 2705, 353, 187, 92, 130],
   },
   {
@@ -9054,6 +10269,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/secluded-creek",
     title: "Secluded Creek | Amanita | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 31805854,
     tags: [1, 2, 1480, 135, 1483, 30, 353, 187, 2489, 92, 130],
   },
   {
@@ -9061,6 +10277,7 @@ const urls = [
     url: "https://opussciencecollective.bandcamp.com/album/starlight-memories-feat-dr-halc",
     title: "Starlight Memories (Feat. Dr. halc) | OSC",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 42445012,
     tags: [633, 466, 1, 429, 131, 94, 139, 571, 1295, 28, 223, 2347],
   },
   {
@@ -9068,6 +10285,7 @@ const urls = [
     url: "https://christmasasaurus.bandcamp.com/album/christmasasaurus-unleashed-2",
     title: "Christmasasaurus Unleashed! 2 | Christmasasaurus",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3881644944,
     tags: [396, 54, 2, 273, 466, 2706, 374, 2521, 443, 160, 2418, 356],
   },
   {
@@ -9075,6 +10293,7 @@ const urls = [
     url: "https://jamiepaige.bandcamp.com/album/cadmium-colors",
     title: "Cadmium Colors | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3081932887,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -9082,6 +10301,7 @@ const urls = [
     url: "https://jamiepaige.bandcamp.com/album/jamie-p-jam-pack-april-2024",
     title: "Jamie P Jam Pack - April 2024 | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2652347828,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -9089,6 +10309,7 @@ const urls = [
     url: "https://jamiepaige.bandcamp.com/album/buttercream",
     title: "Buttercream | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2576749771,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -9096,6 +10317,7 @@ const urls = [
     url: "https://ivysinthetic.bandcamp.com/album/meaningless-off-screen-death",
     title: "meaningless off-screen death | ivy sinthetic",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 89988245,
     tags: [1, 778, 306, 96, 44],
   },
   {
@@ -9103,6 +10325,7 @@ const urls = [
     url: "https://transtrenderz.bandcamp.com/album/its-a-very-trans-christmas-live-band-edition",
     title: "It's A Very Trans Christmas: Live Band Edition | Trans Trenderz",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 828848563,
     tags: [
       95, 791, 478, 139, 1760, 435, 396, 1946, 2707, 2708, 2709, 2710, 2711,
       720,
@@ -9113,6 +10336,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/visiting-narcissa",
     title: "Visiting Narcissa | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4218130054,
     tags: [54, 5, 58, 639, 4, 640],
   },
   {
@@ -9120,6 +10344,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/traveller",
     title: "Traveller | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3613120872,
     tags: [54, 2, 315, 640],
   },
   {
@@ -9127,6 +10352,7 @@ const urls = [
     url: "https://laurenbousfieldanyev3r.bandcamp.com/album/fire-songs",
     title: "Fire Songs | Lauren Bousfield",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2404362243,
     tags: [1, 1960, 32],
   },
   {
@@ -9134,6 +10360,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/sun-colored-eyes",
     title: "Sun Colored Eyes | Mabisyo | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 550734600,
     tags: [172, 173, 331, 1, 92, 105],
   },
   {
@@ -9142,6 +10369,7 @@ const urls = [
     title:
       "Retrosexual | The Polish Ambassador Time Machine Club | Jumpsuit Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3131541452,
     tags: [1, 374, 804, 558, 310, 146],
   },
   {
@@ -9150,6 +10378,7 @@ const urls = [
     title:
       "Indighost | Deka Sul, The Polish Ambassador | The Polish Ambassador",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 605420993,
     tags: [1, 54, 108, 310, 429, 1346, 558, 146],
   },
   {
@@ -9157,6 +10386,7 @@ const urls = [
     url: "https://dannygrooves.bandcamp.com/album/sections-ep",
     title: "Sections EP | Danny Grooves",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2489273640,
     tags: [1, 2712, 131, 1340, 469, 284, 1332, 2713, 841, 131, 1776, 2714, 112],
   },
   {
@@ -9164,6 +10394,7 @@ const urls = [
     url: "https://kahvicollective.bandcamp.com/album/dream-cast",
     title: "Dream Cast | Abjective | Kahvi Collective",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3782232207,
     tags: [1, 2, 470, 5, 21, 1403],
   },
   {
@@ -9171,6 +10402,7 @@ const urls = [
     url: "https://alanhostage.bandcamp.com/album/bloghaus-bangers-vol-ii-the-remixes",
     title: "Bloghaus bangers vol II - the remixes | Hostage",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3332882885,
     tags: [2, 469, 28, 1, 29, 516, 141],
   },
   {
@@ -9178,6 +10410,7 @@ const urls = [
     url: "https://beatspace-iono.bandcamp.com/album/rewire-new-connections",
     title: "Rewire New Connections | Cylon (IONO MUSIC) | Iono Music",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 509292298,
     tags: [1, 502, 253, 89],
   },
   {
@@ -9185,6 +10418,7 @@ const urls = [
     url: "https://alanhostage.bandcamp.com/album/original-ruffneck-ep",
     title: "Original Ruffneck EP | Hostage",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 90335433,
     tags: [2, 469, 338, 28, 1, 29, 295, 516, 301, 292, 141],
   },
   {
@@ -9192,6 +10426,7 @@ const urls = [
     url: "https://alanhostage.bandcamp.com/album/the-edge-of-the-earth-ep",
     title: "The Edge of the Earth EP | Hostage",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2659906896,
     tags: [2350, 2, 469, 28, 1, 29, 443, 2715, 516, 469, 28, 516, 141],
   },
   {
@@ -9199,6 +10434,7 @@ const urls = [
     url: "https://otherstothefront.bandcamp.com/album/hoo-compilation-vol-1",
     title: "HoO compilation Vol.1 | Others to the Front",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3910409915,
     tags: [
       1069, 1, 29, 1209, 1659, 2716, 2717, 1073, 2718, 516, 2719, 1650, 1054,
     ],
@@ -9208,6 +10444,7 @@ const urls = [
     url: "https://rentboyband.bandcamp.com/album/memory-forever",
     title: "Memory Forever | rentboy",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 28861331,
     tags: [8, 1069, 29, 108, 45, 134, 1702, 160, 247],
   },
   {
@@ -9216,6 +10453,7 @@ const urls = [
     title:
       "Music For A Confinement: Memories Of A Quarantine | Various Artists | Music For A Confinement",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 964048181,
     tags: [54, 2, 1828, 1207, 109, 12, 92],
   },
   {
@@ -9223,6 +10461,7 @@ const urls = [
     url: "https://qualitytimes.bandcamp.com/album/--3",
     title: "अप्सरा डांसर लैंड्स | BABEFAKE | Quality Times",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3492483397,
     tags: [1, 172, 16, 354, 92, 945],
   },
   {
@@ -9230,6 +10469,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/new-blood-ii",
     title: "NEW BLOOD II | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3983453561,
     tags: [1, 108, 273, 292, 945],
   },
   {
@@ -9237,6 +10477,7 @@ const urls = [
     url: "https://madbreaks.bandcamp.com/album/otaku-hardcore-bootleg",
     title: "Otaku Hardcore Bootleg | Dev | MAD BREAKS",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1129419807,
     tags: [1, 108, 273, 292, 727, 945],
   },
   {
@@ -9244,6 +10485,7 @@ const urls = [
     url: "https://tohomoko.bandcamp.com/album/aerodynamics-of-an-album",
     title: "aerodynamics of an album | tohomoko",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2762112607,
     tags: [1, 466, 2706, 2720, 763, 356],
   },
   {
@@ -9251,6 +10493,7 @@ const urls = [
     url: "https://roboctopus.bandcamp.com/album/crystal-cavern-cruisin",
     title: "Crystal Cavern Cruisin' | roboctopus",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1904680761,
     tags: [1, 754, 2721, 466, 2722, 2723],
   },
   {
@@ -9258,6 +10501,7 @@ const urls = [
     url: "https://rettjester.bandcamp.com/album/kilaflow-kickstarter-demo-ost",
     title: "KilaFlow Kickstarter Demo OST | Rett Jester",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3939500227,
     tags: [1, 2724, 2725, 108, 273, 291, 1229, 2726, 2727, 2728, 320, 197],
   },
   {
@@ -9265,6 +10509,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/wavetable",
     title: "Wavetable | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2154481019,
     tags: [106, 54, 769, 249, 96, 2729, 640],
   },
   {
@@ -9272,6 +10517,7 @@ const urls = [
     url: "https://tellyrstory.bandcamp.com/album/sumac-grove-improvisations",
     title: "Sumac Grove: Improvisations | Noel'le Longhaul",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1811837832,
     tags: [54, 583, 311, 2730, 135, 791, 2731],
   },
   {
@@ -9279,6 +10525,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/little-spoon",
     title: "Little Spoon | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1024648909,
     tags: [396, 54, 2, 134, 229, 96, 640],
   },
   {
@@ -9286,6 +10533,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/gloria",
     title: "Gloria | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2833547328,
     tags: [54, 443, 642, 639, 640],
   },
   {
@@ -9293,6 +10541,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/wax-under-wolcnum",
     title: "Wax Under Wolcnum | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2074196381,
     tags: [54, 5, 58, 695, 639, 640],
   },
   {
@@ -9301,6 +10550,7 @@ const urls = [
     title: "Real Life and Postcard Use | 256 Pi",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
     favorite: true,
+    bc_id: 240607676,
     tags: [1, 2, 108, 331, 16, 29, 5, 516, 2732, 112],
   },
   {
@@ -9308,6 +10558,7 @@ const urls = [
     url: "https://nahreally.bandcamp.com/album/secret-pancake",
     title: "Secret Pancake | NAHreally",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3375361419,
     tags: [95, 2733, 804, 679, 2734],
   },
   {
@@ -9315,6 +10566,7 @@ const urls = [
     url: "https://pinegrove.bandcamp.com/album/skylight",
     title: "Skylight | Pinegrove",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2874731889,
     tags: [8, 9, 615, 132, 1501, 1503, 1504],
   },
   {
@@ -9323,6 +10575,7 @@ const urls = [
     title:
       "Free Foley Sound Effects Library | Breaking Wood Kicking Glass | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 71924149,
     tags: [
       2052, 54, 1697, 2648, 2735, 402, 2173, 2736, 2737, 2053, 2738, 2082, 496,
       2058, 2061,
@@ -9334,6 +10587,7 @@ const urls = [
     title:
       "Tsablnari Waterfall Sound Effects | Sounds Of Georgia | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 182973542,
     tags: [
       2052, 54, 1697, 2053, 2739, 1696, 2229, 2058, 153, 2059, 2740, 2741, 2061,
     ],
@@ -9343,6 +10597,7 @@ const urls = [
     url: "https://freetousesounds.bandcamp.com/album/coffee-machine-sound-effects-library",
     title: "Coffee Machine Sound Effects Library | freetousesounds",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 174505007,
     tags: [
       2052, 2742, 2743, 54, 1697, 414, 2104, 2744, 1921, 2229, 496, 2058, 2061,
     ],
@@ -9353,6 +10608,7 @@ const urls = [
     title:
       "Pittura liquida e gocce di lacrime | Paolino Canzoneri | Lᴏɴᴛᴀɴᴏ Series",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1521543194,
     tags: [2, 1, 54, 241, 167, 414, 289, 169, 1162],
   },
   {
@@ -9361,6 +10617,7 @@ const urls = [
     title:
       "The Cousin Silas Emporium Members Project - Quadrants 4 - Part 2 | Various | Cousin Silas",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3516295418,
     tags: [2, 1, 54, 150, 168, 169, 141],
   },
   {
@@ -9368,6 +10625,7 @@ const urls = [
     url: "https://naviarrecords.bandcamp.com/album/11-years-of-haiku",
     title: "11 years of haiku | V/A | Naviar Records",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3427208386,
     tags: [1, 54, 2, 122],
   },
   {
@@ -9375,6 +10633,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/sundara",
     title: "Sundara | The Open Circle | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3558208040,
     tags: [510, 1, 2, 37, 511, 512, 248, 513, 514, 515, 516, 519, 517],
   },
   {
@@ -9382,6 +10641,7 @@ const urls = [
     url: "https://energostatic.bandcamp.com/album/aesthesia-vol-2",
     title: "Aesthesia Vol. 2 | Various Artists | Energostatic Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 472412058,
     tags: [1, 2, 511, 2745, 512, 513, 2746],
   },
   {
@@ -9389,6 +10649,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/simple-things",
     title: "Simple Things | Substak | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3470421469,
     tags: [1, 2, 37, 2747, 511, 513, 514, 515, 2748, 516, 517],
   },
   {
@@ -9396,6 +10657,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/more-space",
     title: "More Space | mjulev | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 767488233,
     tags: [2749, 1, 2, 37, 511, 512, 248, 513, 514, 515, 2750, 516, 517],
   },
   {
@@ -9403,6 +10665,7 @@ const urls = [
     url: "https://digitaldiamonds.bandcamp.com/album/dd019l-archives",
     title: "[DD019L] Archives | Deto & Gleam | Digital Diamonds",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2555193134,
     tags: [2749, 1, 199, 502, 2751, 2752, 89],
   },
   {
@@ -9410,6 +10673,7 @@ const urls = [
     url: "https://digitaldiamonds.bandcamp.com/album/dd014-kisses-tears-ep",
     title: "[DD014] Kisses & Tears EP | Deto & Gleam | Digital Diamonds",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3100696609,
     tags: [2749, 1, 199, 502, 2751, 2752, 89],
   },
   {
@@ -9417,6 +10681,7 @@ const urls = [
     url: "https://deepindub.bandcamp.com/album/zzzzra-axs-ala-ned-rex",
     title: "Zzzzra & Axs - Ala Ned Rex | Zzzzra, Axs, | Deepindub",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3024650160,
     tags: [1, 2753, 2754, 37, 1069, 511, 248, 513, 2755, 2756, 2757],
   },
   {
@@ -9424,6 +10689,7 @@ const urls = [
     url: "https://deepindub.bandcamp.com/album/michael-renk-the-cock-crows-on",
     title: "Michael Renk - The Cock Crows On | Michael Renk | Deepindub",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 508626235,
     tags: [1, 1069, 511, 2745, 2758, 513, 2755, 29, 2757],
   },
   {
@@ -9432,6 +10698,7 @@ const urls = [
     title:
       "CHAPTER NINETEEN EDITS (TBE019) - Free Download! | Kellit | theBasement Discos",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3369401536,
     tags: [1069, 1, 2000, 1168, 29, 2001, 2002],
   },
   {
@@ -9439,6 +10706,7 @@ const urls = [
     url: "https://bottin.bandcamp.com/album/mutazioni-4-twenty-italian-oddball-edits",
     title: "Mutazioni 4: Twenty Italian Oddball Edits | BOTTIN",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3548555724,
     tags: [1, 916, 1473, 1168, 2346, 400, 2759],
   },
   {
@@ -9447,6 +10715,7 @@ const urls = [
     title:
       'A polaroid for Christmas 2024 | "Memoria polaroid" - un blog alla radio',
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3950814273,
     tags: [8, 396, 2760, 134, 48, 2761, 135, 2762, 1799, 1286],
   },
   {
@@ -9454,6 +10723,7 @@ const urls = [
     url: "https://fantasticixmary.bandcamp.com/album/live-bologna-2007",
     title: "Live Bologna 2007 | X-Mary",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 868557993,
     tags: [2763, 96, 2764, 118, 2765, 2766, 246, 2767, 1162],
   },
   {
@@ -9462,6 +10732,7 @@ const urls = [
     title:
       "Zernar: la grande estasi dell'intagliatore | Stato Nero | Dischi Bervisti",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3636237464,
     tags: [8, 1, 276, 371, 301, 1854, 48, 127, 697, 1162],
   },
   {
@@ -9469,6 +10740,7 @@ const urls = [
     url: "https://sonic-belligeranza.bandcamp.com/album/la-cuadra-s-b-11",
     title: "La Cuadra (S.B.11) | Domestic Arapaima | SONIC BELLIGERANZA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4148505683,
     tags: [1, 164, 273, 1103, 1286],
   },
   {
@@ -9476,6 +10748,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/cautious-exploring-token",
     title: "Cautious Exploring Token | WDX | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 345116471,
     tags: [1, 54, 2, 248, 162, 1, 54, 414, 57, 420, 516, 165],
   },
   {
@@ -9483,6 +10756,7 @@ const urls = [
     url: "https://mahorka.bandcamp.com/album/1",
     title: "1 | shabaH | Mahorka",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2884663681,
     tags: [1, 54, 687, 2, 248, 162, 2768, 54, 127, 488, 165],
   },
   {
@@ -9490,6 +10764,7 @@ const urls = [
     url: "https://section27.bandcamp.com/album/like-phantoms",
     title: "Like Phantoms | Peltiform | S27",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1180301302,
     tags: [16, 1, 54, 5, 57, 516, 2, 4, 498],
   },
   {
@@ -9498,6 +10773,7 @@ const urls = [
     title:
       "Can't Get Enough of Your Love (Juno's \"Juno Club\" Club Mixes) | JUNO CLUB | Library of Modern Sound",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4066077113,
     tags: [1, 5, 107, 2769, 3, 290, 1168, 2345, 2770, 114],
   },
   {
@@ -9505,6 +10781,7 @@ const urls = [
     url: "https://samaleums.bandcamp.com/album/reality-machine",
     title: "Reality Machine | Sam Aleums",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3168226895,
     tags: [1, 1861, 28, 109, 2771, 29, 516, 2772],
   },
   {
@@ -9512,6 +10789,7 @@ const urls = [
     url: "https://dogparkdissidents.bandcamp.com/album/magnificent-bastards",
     title: "Magnificent Bastards | Dog Park Dissidents",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3790974084,
     tags: [117, 314, 1012, 791, 1963, 192, 1964],
   },
   {
@@ -9519,6 +10797,7 @@ const urls = [
     url: "https://sole.bandcamp.com/album/worlds-not-yet-gone",
     title: "Worlds Not Yet Gone | sole",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1280071275,
     tags: [95, 1, 54, 94, 139, 1835],
   },
   {
@@ -9526,6 +10805,7 @@ const urls = [
     url: "https://gisibleibt.bandcamp.com/album/gisi-sampler",
     title: "Gisi Sampler | Gisi / GGS31",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2525282759,
     tags: [8, 94, 117, 139, 2773, 137, 2774],
   },
   {
@@ -9533,6 +10813,7 @@ const urls = [
     url: "https://kampa.bandcamp.com/album/-",
     title: "смерть | Kämpa",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3285997426,
     tags: [95, 139, 671, 2775, 673, 2776],
   },
   {
@@ -9540,6 +10821,7 @@ const urls = [
     url: "https://clan-des-dinos.bandcamp.com/album/dinos-for-future-2",
     title: "Dinos for Future | Clan des Dinos",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 742614304,
     tags: [56, 2777, 95, 2778, 673, 1304, 2779, 2774],
   },
   {
@@ -9547,6 +10829,7 @@ const urls = [
     url: "https://beatspace-iono.bandcamp.com/album/you-know-it",
     title: "You Know It | Altered Forms & Cybergrass (IONO MUSIC) | Iono Music",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3815460593,
     tags: [1, 502, 253, 89],
   },
   {
@@ -9554,6 +10837,7 @@ const urls = [
     url: "https://theeirmalouise.bandcamp.com/album/playlist",
     title: "Playlist | Thee Irma & Louise",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3493939899,
     tags: [2780, 564, 11, 117, 192, 2781, 2782],
   },
   {
@@ -9561,6 +10845,7 @@ const urls = [
     url: "https://vetonoir.bandcamp.com/album/winter-noir",
     title: "winter noir | véto noir",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2723167710,
     tags: [117, 2783, 2784, 135, 11, 2785, 2786],
   },
   {
@@ -9568,6 +10853,7 @@ const urls = [
     url: "https://honeywhitlock.bandcamp.com/album/can-i-borrow-a-feeling-ep",
     title: "Can I Borrow a Feeling? EP | Honey Whitlock",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3181419857,
     tags: [117, 2787, 2788, 330, 2789, 2790, 2791, 888],
   },
   {
@@ -9575,6 +10861,7 @@ const urls = [
     url: "https://infinitepizza.bandcamp.com/album/escape-from-pizza-monster-island",
     title: "Escape From Pizza Monster Island | Infinite Pizza",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 420180808,
     tags: [314, 117, 2792, 371, 1402, 620, 888],
   },
   {
@@ -9582,6 +10869,7 @@ const urls = [
     url: "https://medievallofi.bandcamp.com/album/medieval-lofi-vol-4",
     title: "Medieval Lofi, Vol. 4 | Medieval Lofi",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2151782473,
     tags: [1, 360, 16, 374, 128, 2492, 98],
   },
   {
@@ -9589,6 +10877,7 @@ const urls = [
     url: "https://norsklh.bandcamp.com/album/verse-i-la-montagne-vivante",
     title: "VERSE I : La Montagne Vivante | Nors'Klh",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 799221033,
     tags: [2, 241, 2793, 2794, 28, 57, 1355, 2795, 207, 130],
   },
   {
@@ -9596,6 +10885,7 @@ const urls = [
     url: "https://glitchers.bandcamp.com/album/ctrl-alt-del",
     title: "Ctrl Alt Del | Glitchers",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2521388564,
     tags: [118, 2796, 117, 1012, 2797, 2798, 976, 141],
   },
   {
@@ -9603,6 +10893,7 @@ const urls = [
     url: "https://slippymudman.bandcamp.com/album/booze-breaks-and-bicalutamide",
     title: "Booze, Breaks, and Bicalutamide | slippymudman",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1723480153,
     tags: [1, 273, 301, 292, 127, 1393],
   },
   {
@@ -9610,6 +10901,7 @@ const urls = [
     url: "https://azureotsu.bandcamp.com/album/daydreamer",
     title: "DAYDREAMER | azureotsu",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 327822201,
     tags: [1, 2799, 1414, 523, 108, 273, 1748, 106, 763, 2800],
   },
   {
@@ -9617,6 +10909,7 @@ const urls = [
     url: "https://crappyblue.bandcamp.com/album/the-water-aisle",
     title: "The Water Aisle | Crappy Blue",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3622863005,
     tags: [1082, 753, 1, 466, 2575, 222, 2801],
   },
   {
@@ -9624,6 +10917,7 @@ const urls = [
     url: "https://odysseymusic.bandcamp.com/album/super-ponybeat-vol-1",
     title: "Super Ponybeat Vol. 1 | Eurobeat Brony | Odyssey Eurobeat",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2470597023,
     tags: [2802, 1, 109, 2803, 191, 192, 1393],
   },
   {
@@ -9631,6 +10925,7 @@ const urls = [
     url: "https://kawaiidash.bandcamp.com/album/neon-xavi-penumbra-the-remixes",
     title: "NeoN & XAVI - Penumbra The Remixes | NeoN & XAVI | mikuma",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3112913790,
     tags: [2424, 95, 29, 2745, 2804, 2805, 2806],
   },
   {
@@ -9638,6 +10933,7 @@ const urls = [
     url: "https://rskomusic.bandcamp.com/album/lofi-pon-ep",
     title: "Lofi Pon EP | RSKO",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4169085593,
     tags: [95, 109, 564, 29, 1734, 608, 2807],
   },
   {
@@ -9645,6 +10941,7 @@ const urls = [
     url: "https://bitl.bandcamp.com/album/bitls-scribbles",
     title: "Bitl's Scribbles | Bitl",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2627917085,
     tags: [8, 356],
   },
   {
@@ -9652,6 +10949,7 @@ const urls = [
     url: "https://cheraxdestructor.bandcamp.com/album/lost-no-longer",
     title: "Lost No Longer | Cherax Destructor | cxdr",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1035986971,
     tags: [1, 5, 56, 310, 54, 1319, 4, 152, 2808, 752],
   },
   {
@@ -9659,6 +10957,7 @@ const urls = [
     url: "https://ditherer.bandcamp.com/album/the-closet-anthology",
     title: "The Closet Anthology | TCB & Ditherer | Ditherer the Fussbudget",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 155235283,
     tags: [
       95, 2809, 1062, 1248, 1874, 2810, 2811, 1022, 1887, 2812, 1218, 2813,
     ],
@@ -9668,6 +10967,7 @@ const urls = [
     url: "https://khand.bandcamp.com/album/the-sage-of-witherthorn",
     title: "The Sage of Witherthorn | Khand",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2721149011,
     tags: [1, 193, 2814, 1624, 1, 1089, 2815, 1355, 153, 2816, 2817],
   },
   {
@@ -9675,6 +10975,7 @@ const urls = [
     url: "https://hayley-patton.bandcamp.com/album/temporary-safety",
     title: "Temporary Safety | Hayley Patton",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 608131287,
     tags: [2818, 54, 35, 2819, 2820, 612, 2821],
   },
   {
@@ -9682,6 +10983,7 @@ const urls = [
     url: "https://kiyosumi.bandcamp.com/album/in-your-arms",
     title: "in your arms | kiyosumi",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2721973440,
     tags: [1, 108, 291, 280, 4, 13],
   },
   {
@@ -9689,6 +10991,7 @@ const urls = [
     url: "https://ergophizmizmusic.bandcamp.com/album/p3l35t1n3-2",
     title: "p3L35t1n3 | Ergo Phizmiz & Depresstival | Ergo Phizmiz",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1222766489,
     tags: [8, 8, 1, 54, 709, 127, 2822, 1924, 117, 192, 2823, 25, 786],
   },
   {
@@ -9696,6 +10999,7 @@ const urls = [
     url: "https://edelveiss.bandcamp.com/album/skull",
     title: "Skull | Edelveiss",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4001962494,
     tags: [8, 2824, 192, 2, 148, 21, 152, 1137, 1037, 502, 2825],
   },
   {
@@ -9703,6 +11007,7 @@ const urls = [
     url: "https://phaneronaut.bandcamp.com/album/tik-tak",
     title: "Tik-Tak | Phaneronaut",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 287917102,
     tags: [1, 54, 2826, 2827, 2828, 1037, 400, 2829],
   },
   {
@@ -9710,6 +11015,7 @@ const urls = [
     url: "https://aetherwaves.bandcamp.com/album/ther-waves-vol-3",
     title: "Æther Waves Vol. 3 | Æther Waves",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 800965582,
     tags: [2830, 1, 2831, 2, 1207, 54, 276, 233, 2832, 405, 516, 89],
   },
   {
@@ -9717,6 +11023,7 @@ const urls = [
     url: "https://soundsofspaceproject.bandcamp.com/album/in-auroras-garden",
     title: "In Aurora's Garden | Sounds of Space Project",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 556266132,
     tags: [2833, 54, 1381, 2834, 414, 239, 169, 2835],
   },
   {
@@ -9724,6 +11031,7 @@ const urls = [
     url: "https://robotsinlove.bandcamp.com/album/july",
     title: "July | Sobriquet | Robots In Love",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1957617732,
     tags: [1, 310, 1270, 28, 1010, 57, 2836],
   },
   {
@@ -9732,6 +11040,7 @@ const urls = [
     title:
       "The Second Summer of Love | Zoë Blade feat. Aisha Ricketts | Zoë Blade",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3823653823,
     tags: [1, 2, 2837, 5, 516, 2838],
   },
   {
@@ -9739,6 +11048,7 @@ const urls = [
     url: "https://evangreer.bandcamp.com/album/she-her-they-them",
     title: "she/her/they/them | Evan Greer",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3472279396,
     tags: [
       132, 1758, 2839, 1924, 2840, 117, 791, 671, 2841, 132, 48, 330, 2842,
       1760, 666,
@@ -9749,6 +11059,7 @@ const urls = [
     url: "https://daveydynamite.bandcamp.com/album/this-year-pt-2-b-w-souvenirs",
     title: "This Year Pt. 2 b/w Souvenirs | Davey Dynamite",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1823906887,
     tags: [8, 1422, 2843, 2844, 374, 1003, 314, 117, 1012, 192, 112],
   },
   {
@@ -9756,6 +11067,7 @@ const urls = [
     url: "https://rentstrike.bandcamp.com/album/m-bius-strip-mall",
     title: "Möbius Strip Mall | RENT STRIKE",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1619691537,
     tags: [8, 117, 1003, 132, 1012, 53, 1961],
   },
   {
@@ -9764,6 +11076,7 @@ const urls = [
     title:
       "This Is Just Survival: An Against Me!/Laura Jane Grace Covers Compilation Benefiting Trans Lifeline | TBILOC$18",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2546369960,
     tags: [8, 2845, 245, 117, 2846, 311, 69],
   },
   {
@@ -9771,6 +11084,7 @@ const urls = [
     url: "https://hypnoticdirgerecords.bandcamp.com/album/obsessions",
     title: "Obsessions | Notturno | Hypnotic Dirge Records",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 105131357,
     tags: [193, 572, 190, 575, 2847, 1467, 576, 194, 152, 577, 578],
   },
   {
@@ -9778,6 +11092,7 @@ const urls = [
     url: "https://kekal.bandcamp.com/album/the-habit-of-fire",
     title: "The Habit Of Fire | Kekal",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1549823907,
     tags: [
       2848, 611, 190, 612, 613, 614, 2849, 1546, 2850, 1533, 662, 617, 2851,
       618,
@@ -9788,6 +11103,7 @@ const urls = [
     url: "https://neurotech.bandcamp.com/album/infra-versus-ultra",
     title: "Infra Versus Ultra | Neurotech",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2023490165,
     tags: [99, 2852, 2853, 190, 2854, 257, 2855],
   },
   {
@@ -9795,6 +11111,7 @@ const urls = [
     url: "https://neurotech.bandcamp.com/album/in-remission",
     title: "In Remission | Neurotech",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 846744594,
     tags: [99, 2852, 2853, 190, 2854, 257, 617, 2855],
   },
   {
@@ -9802,6 +11119,7 @@ const urls = [
     url: "https://neuroaxis.bandcamp.com/album/the-change-of-constant",
     title: "The Change of Constant | NeuroAxis",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2171791359,
     tags: [1, 2, 99, 331, 16, 2856],
   },
   {
@@ -9809,6 +11127,7 @@ const urls = [
     url: "https://stellardrone.bandcamp.com/album/on-a-beam-of-light",
     title: "On A Beam Of Light | Stellardrone",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 776543589,
     tags: [2, 148, 167, 1, 153, 159, 1783],
   },
   {
@@ -9816,6 +11135,7 @@ const urls = [
     url: "https://ntn-music.bandcamp.com/album/nevermind-the-name-ep",
     title: "Nevermind the Name EP | Nevermind the Name",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3781462956,
     tags: [1, 192, 616, 152, 557],
   },
   {
@@ -9823,6 +11143,7 @@ const urls = [
     url: "https://theambientvisitor.bandcamp.com/album/under-the-veil-of-moonlight",
     title: "Under the Veil of Moonlight | The Ambient Visitor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3522321527,
     tags: [2, 1, 375, 99, 228, 167, 54, 415, 412, 42, 353, 418, 169, 400, 413],
   },
   {
@@ -9830,6 +11151,7 @@ const urls = [
     url: "https://scottlawlor.bandcamp.com/album/new-beginnings-and-reflections-volume-5",
     title: "New Beginnings and Reflections, Volume 5 | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3218675897,
     tags: [2, 241, 167, 1, 42, 159, 243],
   },
   {
@@ -9837,6 +11159,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/the-ambient-archives-may-2024",
     title: "The ambient archives - May 2024 | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2192476824,
     tags: [2, 353, 99, 244, 147, 228, 167, 417, 41, 412, 42, 418, 12, 169, 413],
   },
   {
@@ -9844,6 +11167,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/the-ambient-archives-december-2023",
     title: "The ambient archives - December 2023 | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1294811027,
     tags: [2, 54, 353, 99, 147, 228, 167, 414, 415, 42, 418, 12, 169, 413],
   },
   {
@@ -9851,6 +11175,7 @@ const urls = [
     url: "https://bingsatellites.bandcamp.com/album/the-true-joy-is-in-the-mystery",
     title: "The True Joy is in the Mystery | Bing Satellites",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 368511846,
     tags: [2, 396, 1, 54, 353, 99, 147, 228, 167, 42, 416, 12, 169, 413],
   },
   {
@@ -9858,6 +11183,7 @@ const urls = [
     url: "https://scottlawlor.bandcamp.com/album/new-stories-new-nightmares",
     title: "New Stories, New Nightmares | Nox Intempesta | Scott Lawlor",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1097332523,
     tags: [2, 241, 167, 1, 439, 242, 2857, 42, 153, 159, 243],
   },
   {
@@ -9865,6 +11191,7 @@ const urls = [
     url: "https://cimitir.bandcamp.com/album/recollection-of-loathsome-legends",
     title: "Recollection of Loathsome Legends | Cimitir",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3834351869,
     tags: [627, 1, 2858, 241, 439, 1192, 2859, 2860, 405, 1393],
   },
   {
@@ -9872,6 +11199,7 @@ const urls = [
     url: "https://noproblematapes.bandcamp.com/album/disidencia-lime-a",
     title: "Disidencia Limeña | Blurred Hologram | NO PROBLEMA TAPES",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2396185548,
     tags: [2, 2217, 513, 1, 2301, 2861, 105],
   },
   {
@@ -9879,6 +11207,7 @@ const urls = [
     url: "https://lindsheavenvirtualplaza.bandcamp.com/album/sign-off-meditations-1982-2",
     title: "Sign-Off Meditations, 1982 | Lindsheaven Virtual Plaza",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 781004158,
     tags: [1, 2, 174, 167, 54, 135, 2862, 42, 353, 380, 357, 169, 92, 308],
   },
   {
@@ -9886,6 +11215,7 @@ const urls = [
     url: "https://uvexe.bandcamp.com/album/--5",
     title: "もう痛くない | u v . e x e",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1644593682,
     tags: [
       54, 2, 172, 174, 1182, 457, 428, 354, 183, 450, 184, 185, 186, 187, 92,
       356,
@@ -9896,6 +11226,7 @@ const urls = [
     url: "https://miamipalm.bandcamp.com/album/--4",
     title: "超​越​時​間 | Quantum Dreams | Miami Palm",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1941995429,
     tags: [1, 54, 172, 362, 174, 457, 2863, 92, 179],
   },
   {
@@ -9903,6 +11234,7 @@ const urls = [
     url: "https://tvvinpinezm4ll.bandcamp.com/album/shorai-g-fanku-ll",
     title: "Shorai G FANKU ll | TVVIN_PINEZ_M4LL",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 661884903,
     tags: [54, 2864, 2865, 2866, 2867, 185, 2868, 444, 92, 356],
   },
   {
@@ -9910,6 +11242,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/ocean-beach-mall",
     title: "Ocean Beach Mall | マドロスMERCURY | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4060581435,
     tags: [180, 54, 181, 2869, 183, 185, 92, 189],
   },
   {
@@ -9917,6 +11250,7 @@ const urls = [
     url: "https://boguscollective.bandcamp.com/album/cadillac-club",
     title: "Cadillac club | Manila Ice | B O G U S // COLLECTIVE",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1717983,
     tags: [180, 54, 172, 360, 2870, 1155, 1156, 185, 2008, 444, 92, 189],
   },
   {
@@ -9924,6 +11258,7 @@ const urls = [
     url: "https://snowpointlounge.bandcamp.com/album/sevii-safari",
     title: "Sevii Safari 遠征 | snowpoint lounge",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3411666545,
     tags: [1, 54, 171, 172, 331, 16, 175, 90, 92, 763, 97, 960],
   },
   {
@@ -9931,6 +11266,7 @@ const urls = [
     url: "https://micromecha.bandcamp.com/album/time-flows-constantly",
     title: "Time Flows Constantly | MICROMECHA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1031345711,
     tags: [
       338, 1, 171, 172, 2697, 362, 108, 174, 16, 354, 175, 90, 333, 608, 2015,
       92, 1162,
@@ -9941,6 +11277,7 @@ const urls = [
     url: "https://micromecha.bandcamp.com/album/hagakure",
     title: "Hagakure 葉隠 | MICROMECHA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3943781194,
     tags: [
       338, 1, 171, 172, 362, 108, 174, 16, 2871, 354, 175, 90, 333, 608, 2015,
       92, 1162,
@@ -9951,6 +11288,7 @@ const urls = [
     url: "https://micromecha.bandcamp.com/album/mecha-saken",
     title: "MECHA-SAKEN | MICROMECHA, undersaken | MICROMECHA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3828748743,
     tags: [
       338, 1, 171, 172, 2697, 362, 108, 290, 174, 16, 280, 292, 90, 333, 608,
       92, 1162,
@@ -9961,6 +11299,7 @@ const urls = [
     url: "https://secondthrone.bandcamp.com/album/with-the-machine-against-the-machine",
     title: "With the Machine, Against the Machine | Throne",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1472983245,
     tags: [1, 2872, 2873, 273, 1207, 190, 25, 315, 89],
   },
   {
@@ -9968,6 +11307,7 @@ const urls = [
     url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-71-cro-man",
     title: "HDK 71 † Cro-man | GNOLL | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2810707048,
     tags: [1, 1624, 25, 1625],
   },
   {
@@ -9976,6 +11316,7 @@ const urls = [
     title:
       "HDK 51 † Confessions of a Satan's Priestess | ULYSSES & STONE | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 470941653,
     tags: [1, 1624, 25, 1625],
   },
   {
@@ -9983,6 +11324,7 @@ const urls = [
     url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-111",
     title: "HDK 111 † ΝΕΚΡΟΑΣΤΙΚΑ | ξόρκι | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2965689092,
     tags: [1, 1624, 2874, 1192, 120, 25, 2875, 1625],
   },
   {
@@ -9990,6 +11332,7 @@ const urls = [
     url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-31-music-for-dungeons",
     title: "HDK 31 † Music for Dungeons | GNOLL | Heimat Der Katastrophe",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1474510950,
     tags: [2876, 1, 2877, 1624, 2878, 1089, 25, 1625],
   },
   {
@@ -9998,6 +11341,7 @@ const urls = [
     title:
       "Echoes of Extinction (Dino Synth Anthology I) | Unreal Estate Records",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3979121375,
     tags: [1, 2, 241, 2879, 2880, 167, 170, 1624, 2881, 89],
   },
   {
@@ -10005,6 +11349,7 @@ const urls = [
     url: "https://suckpuckcompillations.bandcamp.com/album/frozen-ass-collection-vol-3",
     title: "FROZEN ASS COLLECTION vol.3 | Suck Puck Compilations",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2386520581,
     tags: [1, 5, 107, 273, 466, 644, 301, 292, 766, 2882, 2883],
   },
   {
@@ -10012,6 +11357,7 @@ const urls = [
     url: "https://alexcompton.bandcamp.com/album/untitled-mixtape-2019",
     title: "Untitled Mixtape (2019) | Alex Compton",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 785665821,
     tags: [1, 2884, 787, 356],
   },
   {
@@ -10019,6 +11365,7 @@ const urls = [
     url: "https://labok.bandcamp.com/album/funky-drill-edits",
     title: "FUNKY DRILL EDITS | LABOK",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1016909173,
     tags: [1, 284, 787, 942, 875, 2885, 2886],
   },
   {
@@ -10026,6 +11373,7 @@ const urls = [
     url: "https://mortenhidef.bandcamp.com/album/combat-archaeology",
     title: "Combat Archaeology | Morten HD",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3294561526,
     tags: [1, 2887, 109, 276, 2888, 2889, 1195, 2890],
   },
   {
@@ -10033,6 +11381,7 @@ const urls = [
     url: "https://projectlazarus.bandcamp.com/album/--5",
     title: "Учитесь Защищать Родину! | Project Lazarus",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3356544042,
     tags: [1, 16, 128, 1892, 315, 92],
   },
   {
@@ -10040,6 +11389,7 @@ const urls = [
     url: "https://projectlazarus.bandcamp.com/album/--7",
     title: "Я один четыре три | Project Lazarus",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1244082990,
     tags: [1, 16, 128, 1892, 315, 92],
   },
   {
@@ -10047,6 +11397,7 @@ const urls = [
     url: "https://devilisabottom.bandcamp.com/album/live-at-the-worx-detroit-mi",
     title: "Live at The Worx - Detroit, MI | Devil is a Bottom",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2398891673,
     tags: [1, 2891, 2892, 110, 2893, 2894, 516, 2895],
   },
   {
@@ -10055,6 +11406,7 @@ const urls = [
     title:
       "Amazon II Jungle Repress EP | Amazon II Featuring Aphrodite | DJ Aphrodite",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3380880634,
     tags: [2896, 1306, 338, 1, 29, 292, 108, 301, 292, 2897, 122],
   },
   {
@@ -10062,6 +11414,7 @@ const urls = [
     url: "https://makunouchibento.bandcamp.com/album/bodrog-ost",
     title: "Bodrog OST | Makunouchi Bento",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 402756180,
     tags: [2, 148, 162, 1, 54, 167, 1229, 169, 25, 2898],
   },
   {
@@ -10069,6 +11422,7 @@ const urls = [
     url: "https://experimentalrecords.bandcamp.com/album/--26",
     title: "Ｂｅａｃｈ Ｐｈａｓｅ | Anonymous | Experimental Records",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 293778436,
     tags: [627, 8, 1, 54, 2899, 113, 430, 1155, 355, 128, 1213, 92, 32],
   },
   {
@@ -10076,6 +11430,7 @@ const urls = [
     url: "https://underwater-computing.bandcamp.com/album/four-love-letters",
     title: "Four Love Letters | Elijah Knutsen | Underwater Computing _",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2816905057,
     tags: [1, 2, 1911, 2900, 135, 30, 353, 187, 92, 130],
   },
   {
@@ -10083,6 +11438,7 @@ const urls = [
     url: "https://sepia.bandcamp.com/album/forgotten-tapes-vol-3",
     title: "Forgotten Tapes Vol 3 | Sepia",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 674677098,
     tags: [2901, 1, 1640, 2902, 249, 564, 693, 1642],
   },
   {
@@ -10090,6 +11446,7 @@ const urls = [
     url: "https://sevendoves.bandcamp.com/album/back-from-the-dead",
     title: "BACK FROM THE DEAD | CASIO X SEVENDOVES | sevendoves",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1599750806,
     tags: [1, 673, 2903, 21, 1129, 1127, 2904, 1907, 89],
   },
   {
@@ -10097,6 +11454,7 @@ const urls = [
     url: "https://purpleposse.bandcamp.com/album/sub-zero",
     title: "SUB ZERO | PURPLEPOSSE",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3593288482,
     tags: [95, 1129, 1127, 435, 1130, 1131, 356],
   },
   {
@@ -10104,6 +11462,7 @@ const urls = [
     url: "https://tfmarz.bandcamp.com/album/been-out-here",
     title: "Been Out Here | TF Marz",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2285438693,
     tags: [475, 1, 94, 478, 139, 479, 283],
   },
   {
@@ -10111,6 +11470,7 @@ const urls = [
     url: "https://deejaytheory.bandcamp.com/album/buju-banton-trust-deejay-theory-remix",
     title: "Buju Banton - Trust (Deejay Theory remix) | Deejay Theory",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 725419910,
     tags: [94, 1473, 139, 208, 480, 208, 792, 2905, 2906, 356],
   },
   {
@@ -10118,6 +11478,7 @@ const urls = [
     url: "https://djnu-mark.bandcamp.com/album/vinyl-destination-7-mix",
     title: 'Vinyl Destination 7" Mix | DJ NU-MARK',
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1245759778,
     tags: [1462, 2907, 429, 131, 95, 804, 2908, 2909, 2910, 8, 54, 32],
   },
   {
@@ -10125,6 +11486,7 @@ const urls = [
     url: "https://micromecha.bandcamp.com/album/beats-to-pilot-your-mecha-to",
     title: "Beats To Pilot Your Mecha To | MICROMECHA",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 570683774,
     tags: [
       338, 1, 131, 145, 171, 172, 672, 108, 360, 174, 16, 1123, 128, 1734, 608,
       92, 1162,
@@ -10136,6 +11498,7 @@ const urls = [
     title:
       "未来日记 2253 (Future Diary 2253) | youxi, Matcha girl 凌风酱, VRality TApe | youxi [游奚]",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 767485934,
     tags: [95, 456, 2, 1, 450, 90, 333, 1282, 2911, 178, 92, 2912],
   },
   {
@@ -10143,6 +11506,7 @@ const urls = [
     url: "https://lifeformed.bandcamp.com/album/umbra",
     title: "Umbra | Lifeformed × Janice Kwan | Lifeformed",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 568006953,
     tags: [1, 2913, 2, 470, 174, 466, 1, 544, 25, 2914],
   },
   {
@@ -10150,6 +11514,7 @@ const urls = [
     url: "https://slowerpace.bandcamp.com/album/barbershop-simulator",
     title: "Barbershop Simulator™ | slowerpace 音楽",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3166557607,
     tags: [1, 172, 174, 838, 354, 183, 90, 25, 2015, 92, 97],
   },
   {
@@ -10157,6 +11522,7 @@ const urls = [
     url: "https://elliminxte.bandcamp.com/album/nitor",
     title: "nitor | elliminxte",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2291954657,
     tags: [245, 2915, 172, 1, 2916, 183, 92, 413],
   },
   {
@@ -10164,6 +11530,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/circuit-echoes",
     title: "Circuit Echoes | Infinitedub | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3603063665,
     tags: [1, 2917, 2, 37, 511, 512, 248, 513, 514, 515, 516, 517],
   },
   {
@@ -10171,6 +11538,7 @@ const urls = [
     url: "https://insectorama.bandcamp.com/album/old-growth",
     title: "Old Growth | Essentia Sound | insectorama",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 648039718,
     tags: [1, 2918, 2, 331, 37, 512, 248, 513, 514, 109, 515, 169, 516, 517],
   },
   {
@@ -10178,6 +11546,7 @@ const urls = [
     url: "https://dualmonitor.bandcamp.com/album/dual-monitor-sample-pack-2",
     title: "Dual Monitor Sample Pack | Dual Monitor",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1867064512,
     tags: [
       1, 29, 469, 290, 310, 1739, 109, 292, 1629, 2919, 2920, 2921, 91, 1642,
     ],
@@ -10187,6 +11556,7 @@ const urls = [
     url: "https://kalozin.bandcamp.com/album/pindorama-x700-2",
     title: "Pindorama X700 | KALOZIN",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1677038402,
     tags: [2922, 1678, 1, 54, 2923, 2924, 2925, 2926, 2927, 2928, 2929, 2930],
   },
   {
@@ -10194,6 +11564,7 @@ const urls = [
     url: "https://headkick.bandcamp.com/album/only-acid",
     title: "Only Acid | HEADLOVSKYKICKLOVSKY | Headkick",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3657641775,
     tags: [1, 958, 2931, 273, 301, 2932, 2933],
   },
   {
@@ -10201,6 +11572,7 @@ const urls = [
     url: "https://p1nkf1re.bandcamp.com/album/cart2",
     title: "cart2 | p1nkf1re",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1324677423,
     tags: [1, 107, 3, 109, 5, 647],
   },
   {
@@ -10208,6 +11580,7 @@ const urls = [
     url: "https://christtt.bandcamp.com/album/www",
     title: "www | christtt",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 829745105,
     tags: [1, 90, 91, 92, 93],
   },
   {
@@ -10216,6 +11589,7 @@ const urls = [
     title:
       "christtt @ MIDWESTHETIC presents: SEASON OF THE GLITCH 10/6/23 | christtt",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1243258981,
     tags: [1, 90, 91, 92, 93],
   },
   {
@@ -10223,6 +11597,7 @@ const urls = [
     url: "https://christtt.bandcamp.com/album/christtt-slugfest-3-the-last-ride-12-1-23",
     title: "christtt @ SLUGFEST 3: THE LAST RIDE 12/1/23 | christtt",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3465277504,
     tags: [1, 90, 91, 92, 93],
   },
   {
@@ -10230,6 +11605,7 @@ const urls = [
     url: "https://christtt.bandcamp.com/album/clubmix001",
     title: "clubmix001 | christtt",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3711703406,
     tags: [1, 90, 91, 92, 93],
   },
   {
@@ -10237,6 +11613,7 @@ const urls = [
     url: "https://cibes.bandcamp.com/album/bateau-ch-naie",
     title: "Bateau & Chênaie | cibes",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3374062022,
     tags: [54, 2, 167, 4, 90, 92, 2577],
   },
   {
@@ -10244,6 +11621,7 @@ const urls = [
     url: "https://ratcorp.bandcamp.com/album/pascal-and-the-soulless",
     title: "Pascal and The Soulless | rat corp",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 670012374,
     tags: [1, 430, 2934, 90, 333, 959],
   },
   {
@@ -10251,6 +11629,7 @@ const urls = [
     url: "https://vangoe.bandcamp.com/album/vaporva-compilation-vol-1",
     title: "VaporVA Compilation Vol.1 | VaporVA | V4NGOE",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3532463012,
     tags: [1, 2, 45, 292, 333, 92],
   },
   {
@@ -10258,6 +11637,7 @@ const urls = [
     url: "https://topazgang.bandcamp.com/album/palm-tree-fm",
     title: "palm_tree.fm | Topaz Gang",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3520899749,
     tags: [174, 1, 2045, 92, 498],
   },
   {
@@ -10265,6 +11645,7 @@ const urls = [
     url: "https://virt.bandcamp.com/album/mighty-switch-force-2-ost",
     title: "Mighty Switch Force 2 OST | Jake Kaufman",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3427672164,
     tags: [
       2935, 1, 466, 2722, 1168, 28, 222, 2936, 29, 2937, 756, 2938, 2939, 32,
     ],
@@ -10274,6 +11655,7 @@ const urls = [
     url: "https://virt.bandcamp.com/album/fx4",
     title: 'FX4 | Jake "virt" Kaufman | Jake Kaufman',
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1233556496,
     tags: [
       1082, 1, 2940, 2941, 2942, 2943, 1084, 466, 2722, 222, 2936, 190, 2938,
       2944, 2945, 32,
@@ -10285,6 +11667,7 @@ const urls = [
     title:
       "dance! not sleep! dance! [MNMN502] | Очень Длинный Кот | MONUMENTAL NETLABEL",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 646107216,
     tags: [54, 29, 2946, 2947, 2948, 1689, 2949, 2950, 2904, 516, 2951],
   },
   {
@@ -10293,6 +11676,7 @@ const urls = [
     title:
       "In All The Empty Houses [MNMN312] | Очень Длинный Кот | MONUMENTAL NETLABEL",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 313891535,
     tags: [54, 5, 2952, 2953, 2954, 2955, 16, 2951],
   },
   {
@@ -10300,6 +11684,7 @@ const urls = [
     url: "https://eebrozgi.bandcamp.com/album/elegy-of-the-stars-void-stranger-original-soundtrack",
     title: "Elegy of the Stars -Void Stranger Original Soundtrack- | eebrozgi",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3825558983,
     tags: [1, 2956, 25, 99, 2957, 817, 2958, 2959, 2960, 223, 97, 1403],
   },
   {
@@ -10307,6 +11692,7 @@ const urls = [
     url: "https://virt.bandcamp.com/album/shovel-knight-plague-of-shadows-ost",
     title: "Shovel Knight - Plague of Shadows OST | Jake Kaufman",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4076761160,
     tags: [
       753, 1, 222, 1084, 1229, 2961, 2962, 466, 2722, 222, 2936, 2938, 25, 763,
       2945, 32,
@@ -10317,6 +11703,7 @@ const urls = [
     url: "https://battleofthebits.bandcamp.com/album/summer-chip-ii",
     title: "Summer Chip II | Battle of the Bits",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 162126595,
     tags: [633, 1, 2963, 2964, 2721, 466, 128, 2965, 1202, 2966, 2967, 2968],
   },
   {
@@ -10324,6 +11711,7 @@ const urls = [
     url: "https://plustek.bandcamp.com/album/melolignia",
     title: "Melolignia | +TEK",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1331984158,
     tags: [1, 466, 2722, 222, 25, 97, 685],
   },
   {
@@ -10331,6 +11719,7 @@ const urls = [
     url: "https://jamiepaige.bandcamp.com/album/hope-caf",
     title: "Hope Café | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3926975838,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -10338,6 +11727,7 @@ const urls = [
     url: "https://jamiepaige.bandcamp.com/album/jamie-p-jam-pack-may-2024",
     title: "Jamie P Jam Pack - May 2024 | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2012808694,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -10345,6 +11735,7 @@ const urls = [
     url: "https://jamiepaige.bandcamp.com/album/jamie-p-jam-pack-june-2024",
     title: "Jamie P Jam Pack - June 2024 | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2441109913,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -10353,6 +11744,7 @@ const urls = [
     title:
       "Jamie P Jam Pack - Constant Companions (Initial Ideas) | Jamie Paige",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2250237479,
     tags: [96, 1798, 1, 2541, 335, 2328],
   },
   {
@@ -10360,6 +11752,7 @@ const urls = [
     url: "https://tohomoko.bandcamp.com/album/i-want-a-vespa",
     title: "i want a vespa | tohomoko",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3530773558,
     tags: [1, 466, 2706, 2720, 763, 356],
   },
   {
@@ -10367,6 +11760,7 @@ const urls = [
     url: "https://purelygrey.bandcamp.com/album/27",
     title: "27 | Purely Grey",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2755965990,
     tags: [1, 2, 466, 310, 28, 48, 135, 190, 12, 647],
   },
   {
@@ -10374,6 +11768,7 @@ const urls = [
     url: "https://laamaa.bandcamp.com/album/golden-chiptune-greats-vol-1",
     title: "Golden Chiptune Greats vol. 1 | laamaa",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2631067619,
     tags: [1, 466, 2720, 2969, 334, 1231, 1403],
   },
   {
@@ -10381,6 +11776,7 @@ const urls = [
     url: "https://glassbeach.bandcamp.com/album/the-first-glass-beach-album",
     title: "the first glass beach album | glass beach",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3077286953,
     tags: [117, 1222, 133, 311, 2970, 120, 44],
   },
   {
@@ -10388,6 +11784,7 @@ const urls = [
     url: "https://c418.bandcamp.com/album/little-things",
     title: "little things | C418",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2046239476,
     tags: [1, 2, 28, 109, 5, 1338],
   },
   {
@@ -10395,6 +11792,7 @@ const urls = [
     url: "https://lainwired.bandcamp.com/album/endgame",
     title: "EndGame | Yung Lain",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1669814539,
     tags: [1, 92, 273, 2971, 338, 2972, 292, 1127, 130],
   },
   {
@@ -10402,6 +11800,7 @@ const urls = [
     url: "https://kannibalproducer.bandcamp.com/album/wu-tang-64",
     title: "Wu-Tang 64 | Kannibal",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2660288089,
     tags: [
       2973, 95, 1201, 2974, 2975, 792, 178, 92, 223, 2976, 2977, 128, 1393,
     ],
@@ -10412,6 +11811,7 @@ const urls = [
     title:
       "h e d g e h o g w a v e : r u n n i n g _ b a c k w a r d s | DREAMCASTLE™🕯🕸🏰🛡️🔮 ✨⚗️ | Dreamcastle™",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1110013565,
     tags: [54, 2978, 174, 1, 90, 571, 92, 356],
   },
   {
@@ -10419,6 +11819,7 @@ const urls = [
     url: "https://thenobledemon.bandcamp.com/album/bloodborne-psx",
     title: "Bloodborne PSX | The Noble Demon",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 784389393,
     tags: [2979, 1758, 1229, 25, 1192, 207, 223, 542],
   },
   {
@@ -10426,6 +11827,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/necrosphere64",
     title: "Necrosphere64 | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2316462508,
     tags: [54, 107, 2, 57, 135, 25, 640],
   },
   {
@@ -10433,6 +11835,7 @@ const urls = [
     url: "https://djcmanmusic.bandcamp.com/album/cymande-dove-3-x-cman-house-edits",
     title: "Cymande - Dove (3 x CMAN House Edits) | DJ CMAN",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 33715799,
     tags: [2980, 429, 131, 29, 479, 1070, 1168, 429, 50, 1604, 752],
   },
   {
@@ -10440,6 +11843,7 @@ const urls = [
     url: "https://rickyremedymusic.bandcamp.com/album/flip-pack-vol-2",
     title: "FLIP PACK VOL. 2 | Ricky Remedy",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2080954535,
     tags: [106, 1, 131, 29, 435, 469, 179],
   },
   {
@@ -10448,6 +11852,7 @@ const urls = [
     title:
       "Skrillex - Scary Monsters & Nice Sprites (Synova & XHRIS Edit) | Synova",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3511116138,
     tags: [1, 249, 106, 54, 132, 32],
   },
   {
@@ -10455,6 +11860,7 @@ const urls = [
     url: "https://explorersoftheinternet.bandcamp.com/album/ambatukam",
     title: "Ambatukam『アンバトゥカム』 | Explorers of the Internet",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2923494312,
     tags: [1, 2981, 2982, 2983],
   },
   {
@@ -10462,6 +11868,7 @@ const urls = [
     url: "https://patriciataxxon.bandcamp.com/album/bicycle",
     title: "Bicycle | Patricia Taxxon",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1625879282,
     tags: [54, 2955, 513, 639, 640],
   },
   {
@@ -10469,6 +11876,7 @@ const urls = [
     url: "https://auk303.bandcamp.com/album/tracks-from-2024",
     title: "Tracks from 2024 | HawaiiBlue | auk303",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1956042806,
     tags: [54, 29, 289, 1446],
   },
   {
@@ -10476,6 +11884,7 @@ const urls = [
     url: "https://oyoyoyoy.bandcamp.com/album/fangs-and-flowers",
     title: "Fangs and Flowers | Pecorino | Animali dei Ruderi",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3869856503,
     tags: [753, 54, 2, 466, 1, 54, 639, 127, 90, 97, 1162],
   },
   {
@@ -10483,6 +11892,7 @@ const urls = [
     url: "https://hiimcase.bandcamp.com/album/lightning-2",
     title: "LIGHTNING | hi i'm Case | caseJackal",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 711483320,
     tags: [96, 403, 2984],
   },
   {
@@ -10490,6 +11900,7 @@ const urls = [
     url: "https://hiimcase.bandcamp.com/album/opposite-reaction",
     title: "OPPOSITE REACTION | STELRCIDE | caseJackal",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1922848059,
     tags: [623, 190, 96, 1465, 403, 2984],
   },
   {
@@ -10497,6 +11908,7 @@ const urls = [
     url: "https://tomsmith.bandcamp.com/album/the-last-hero-on-earth",
     title: "The Last Hero On Earth | Tom Smith",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 841773286,
     tags: [589, 2985, 374, 192, 53, 2986, 2987, 2988, 468],
   },
   {
@@ -10504,6 +11916,7 @@ const urls = [
     url: "https://tomsmith.bandcamp.com/album/itom-30-true-love-waits",
     title: "iTom 3.0: True Love Waits | Tom Smith",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 813889009,
     tags: [589, 2985, 374, 192, 53, 2989, 468],
   },
   {
@@ -10511,6 +11924,7 @@ const urls = [
     url: "https://tomsmith.bandcamp.com/album/songs-of-the-fump-vol-1",
     title: "Songs of The FuMP, Vol. 1 | Tom Smith",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4192319528,
     tags: [589, 2985, 374, 192, 53, 468],
   },
   {
@@ -10518,6 +11932,7 @@ const urls = [
     url: "https://tomsmith.bandcamp.com/album/domino-death",
     title: "Domino Death | Tom Smith",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3662403590,
     tags: [589, 2985, 374, 192, 53, 468],
   },
   {
@@ -10525,6 +11940,7 @@ const urls = [
     url: "https://sunnielarsen.bandcamp.com/album/the-space-between-notes",
     title: "The Space Between Notes | Sunnie Larsen",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1228933004,
     tags: [374, 2985, 44],
   },
   {
@@ -10532,6 +11948,7 @@ const urls = [
     url: "https://marcwithac.bandcamp.com/album/john-who",
     title: "John Who? | Marc With a C",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3043257108,
     tags: [96, 2990, 2038, 2991, 1489, 939, 2992, 134, 48, 49, 1799, 2689],
   },
   {
@@ -10539,6 +11956,7 @@ const urls = [
     url: "https://marcwithac.bandcamp.com/album/unicorns-get-more-bacon",
     title: "Unicorns Get More Bacon | Marc With a C",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3281283746,
     tags: [96, 237, 939, 2992, 2993, 134, 48, 96, 192, 1799, 2689],
   },
   {
@@ -10547,6 +11965,7 @@ const urls = [
     title:
       "Lullaby For the Debris | Peace De Résistance | LA VIDA ES UN MUS DISCOS",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 735666173,
     tags: [117, 2994, 2995, 118, 1146, 138, 120, 121, 122],
   },
   {
@@ -10554,6 +11973,7 @@ const urls = [
     url: "https://dontrustheruin.bandcamp.com/album/electric-voyeur",
     title: "Electric Voyeur | Big Blood | dontrustheruin",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3622024549,
     tags: [
       54, 2511, 1038, 1039, 1040, 1041, 1, 54, 374, 2512, 1042, 1043, 2513,
       1044, 379, 117, 1046,
@@ -10564,6 +11984,7 @@ const urls = [
     url: "https://vinnumsabbathi.bandcamp.com/album/live-at-channel-666",
     title: "Live at Channel 666 | Vinnum Sabbathi",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3235208954,
     tags: [2033, 192, 367, 190, 400, 945],
   },
   {
@@ -10571,6 +11992,7 @@ const urls = [
     url: "https://skagos.bandcamp.com/album/skagos-panopticon",
     title: "Skagos/Panopticon | Skagos",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2853326733,
     tags: [626, 190, 200],
   },
   {
@@ -10578,6 +12000,7 @@ const urls = [
     url: "https://standard-in-fi.bandcamp.com/album/do-den-haag-church-lp",
     title: "Do Den Haag Church (LP) | France | Standard in-Fi",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3290758021,
     tags: [54, 130],
   },
   {
@@ -10585,6 +12008,7 @@ const urls = [
     url: "https://la-novia.bandcamp.com/album/la-baracande-4",
     title: "La Baracande | La Nòvia",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3446491053,
     tags: [8, 54, 374, 2996, 2997],
   },
   {
@@ -10592,6 +12016,7 @@ const urls = [
     url: "https://lesondouble.bandcamp.com/album/dialogue-sur-le-sommeil",
     title: "dialogue sur le sommeil | pä",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3199193034,
     tags: [54, 167, 170, 162, 2998, 30, 1870, 1872, 1873],
   },
   {
@@ -10599,6 +12024,7 @@ const urls = [
     url: "https://empty6pack.bandcamp.com/album/master-22",
     title: "Master 22 | PLOU PLIM | EMPTY 6 PACK",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3611370877,
     tags: [8, 273, 605, 2999, 1207, 54, 131, 127, 3000, 96, 139, 768, 638],
   },
   {
@@ -10606,6 +12032,7 @@ const urls = [
     url: "https://repetidor-shop.bandcamp.com/album/la-era-del-trance",
     title: "La era del trance | Severine Beata y Javi Álvarez | Repetidor",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3512066808,
     tags: [
       8, 3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 257, 3009, 54, 132,
       117, 3010, 3011,
@@ -10616,6 +12043,7 @@ const urls = [
     url: "https://glitchgirl.bandcamp.com/album/nice-one-lad",
     title: "NICE ONE LAD 👍 | GLITCHGIRL",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 715392378,
     tags: [
       337, 1, 5, 295, 3012, 3013, 273, 290, 291, 280, 276, 709, 292, 516, 1535,
     ],
@@ -10625,6 +12053,7 @@ const urls = [
     url: "https://jokabi.bandcamp.com/album/chilltendo-deluxe",
     title: "Chilltendo Deluxe | Jokabi",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3906285836,
     tags: [95, 1201, 56, 470, 1199, 360, 21, 135, 128, 1734, 223, 3014],
   },
   {
@@ -10632,6 +12061,7 @@ const urls = [
     url: "https://dennismartensson.bandcamp.com/album/the-infinity-construct-chapter-1",
     title: "The Infinity Construct Chapter 1 | Dennis Martensson",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1976462704,
     tags: [190, 660, 661, 812, 813, 617, 814],
   },
   {
@@ -10639,6 +12069,7 @@ const urls = [
     url: "https://trucksandcoyotes.bandcamp.com/album/uncertainty-2",
     title: "Uncertainty | Yann Le Vot",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 18731719,
     tags: [2, 241, 167, 54, 3015, 153, 506],
   },
   {
@@ -10646,6 +12077,7 @@ const urls = [
     url: "https://mattgrayyes.bandcamp.com/album/inchindown-oil-tanks",
     title: "Inchindown Oil Tanks | Matt Gray",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1999769683,
     tags: [1, 2675, 122],
   },
   {
@@ -10653,6 +12085,7 @@ const urls = [
     url: "https://ztrip.bandcamp.com/album/nightmare-on-z-street-halloween-mix",
     title: "Nightmare on Z Street - HALLOWEEN MIX | DJ Z-Trip",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3221505820,
     tags: [469, 131, 95, 3016, 792, 698, 1094],
   },
   {
@@ -10660,6 +12093,7 @@ const urls = [
     url: "https://crashparty.bandcamp.com/album/weapon-a",
     title: "Weapon A | Crash Party",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3691381218,
     tags: [3017, 1582, 499, 290, 2456, 1],
   },
   {
@@ -10667,6 +12101,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/30k-pack",
     title: "30K PACK | Ballads",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3205860159,
     tags: [3018, 1, 537, 29, 477, 897, 3019, 539, 27, 540, 1311, 541, 542],
   },
   {
@@ -10674,6 +12109,7 @@ const urls = [
     url: "https://djdiegovalente.bandcamp.com/album/pop-for-djs-vol-1",
     title: "POP for DJs - Vol. 1 | Diego Valente",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 607549393,
     tags: [
       1512, 3020, 96, 3021, 3022, 3023, 2991, 1515, 3024, 592, 96, 1517, 836,
     ],
@@ -10684,6 +12120,7 @@ const urls = [
     title:
       "EUROPOP 2 - The Italian Connection. Vol. 2 | Various Artists | Italian Dream House",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1745607474,
     tags: [1, 3025, 1521, 3026, 3027, 3028, 3029, 3030, 3031, 3032, 3033, 44],
   },
   {
@@ -10691,6 +12128,7 @@ const urls = [
     url: "https://killerkitsch.bandcamp.com/album/the-dare-sex-ep-kk-extended-edits",
     title: "The Dare - Sex EP (KK Extended Edits) | Killer Kitsch",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1164129123,
     tags: [1, 96, 3034, 859, 329, 3035, 3036, 96, 3037, 3038, 789],
   },
   {
@@ -10698,6 +12136,7 @@ const urls = [
     url: "https://killerkitsch.bandcamp.com/album/pop-edits-vol-1",
     title: "Pop Edits Vol 1 | Killer Kitsch",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3787887298,
     tags: [96, 859, 789],
   },
   {
@@ -10705,6 +12144,7 @@ const urls = [
     url: "https://daaliah.bandcamp.com/album/edit-pack-vol-5",
     title: "edit pack vol.5 | Daaliah",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 80267574,
     tags: [3039, 1, 29, 478, 479, 1, 532, 1066],
   },
   {
@@ -10712,20 +12152,15 @@ const urls = [
     url: "https://yunghiram.bandcamp.com/album/the-edits-vol-5",
     title: "the edits vol. 5 | Hiram",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2496352624,
     tags: [1, 131, 568, 435, 1332, 787, 2327, 480, 890, 531, 2328],
-  },
-  {
-    url_id: 1451,
-    url: "https://thisisnadi.bandcamp.com/album/booty-edits",
-    title: "Booty Edits | Nadī | NADĪ",
-    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
-    tags: [1, 478, 932, 787, 480, 3040, 3041, 248, 673, 122],
   },
   {
     url_id: 1452,
     url: "https://1tbsp.bandcamp.com/album/megacity1000",
     title: "megacity1000 | 1tbsp",
     license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2931311121,
     tags: [1, 29, 1061, 787, 310, 516, 668],
   },
   {
@@ -10733,6 +12168,7 @@ const urls = [
     url: "https://haliski.bandcamp.com/album/losing-my-mind",
     title: "losing my mind | Gluke x HALISKI | HALISKI",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1845065514,
     tags: [108, 1168, 1, 564, 29, 477, 538, 3042],
   },
   {
@@ -10740,6 +12176,7 @@ const urls = [
     url: "https://sv-1.bandcamp.com/album/trace",
     title: "trace | sv1 & 00ff1a | sv1",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2708548944,
     tags: [1, 1338],
   },
   {
@@ -10747,6 +12184,7 @@ const urls = [
     url: "https://djmurderclub.bandcamp.com/album/permanent-summer-vacation",
     title: "PERMANENT SUMMER VACATION | MURDER CLUB",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3394944378,
     tags: [1, 882, 787, 58, 477, 343, 1257],
   },
   {
@@ -10754,6 +12192,7 @@ const urls = [
     url: "https://balladsmusic.bandcamp.com/album/gangsigns-crate-vol-1",
     title: "GANGSIGNS CRATE VOL 1 | Ballads",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3294007372,
     tags: [
       882, 1060, 1, 641, 537, 29, 477, 1061, 539, 530, 27, 540, 480, 481, 541,
       542,
@@ -10764,6 +12203,7 @@ const urls = [
     url: "https://djbenaiah.bandcamp.com/album/amapiano-blends-vol-2",
     title: "Amapiano Blends vol. 2 | Benaiah",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2463468180,
     tags: [480, 537, 94, 95, 478, 139, 2333],
   },
   {
@@ -10771,6 +12211,7 @@ const urls = [
     url: "https://shinoblackkmusik.bandcamp.com/album/the-blackk-album-vol-6",
     title: "THE BLACKK ALBUM VOL.6 | Shino Blackk Musik",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 33738641,
     tags: [1, 29, 1070, 247],
   },
   {
@@ -10779,6 +12220,7 @@ const urls = [
     title:
       "Titan Davis Presents: GINZU GANG vol 1 | Titan Davis | Titan Davis Remixes & Edits",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2668604782,
     tags: [3043, 3044, 1, 3045, 1070, 481, 1073, 531, 3046],
   },
   {
@@ -10786,6 +12228,7 @@ const urls = [
     url: "https://mbreezy88.bandcamp.com/album/teatym-w-dj-jimmy-smith",
     title: "TeaTym w/DJ Jimmy Smith | M Breezy",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 818030643,
     tags: [54, 3047, 3048, 3049, 2300, 2371, 3050],
   },
   {
@@ -10793,6 +12236,7 @@ const urls = [
     url: "https://misounds.bandcamp.com/album/ovanite",
     title: "OvaNite | M I Sounds",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1777301580,
     tags: [1069, 1, 3051, 29, 1070, 940, 531, 879],
   },
   {
@@ -10800,6 +12244,7 @@ const urls = [
     url: "https://magicflowers.bandcamp.com/album/house-flips-edits-pack-part-3",
     title: "HOUSE FLIPS & EDITS PACK. PART 3 | Magic Flowers",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2678798548,
     tags: [
       3052, 1326, 1069, 3053, 481, 1, 564, 29, 3054, 1328, 30, 3055, 2904, 531,
       538, 1331,
@@ -10810,6 +12255,7 @@ const urls = [
     url: "https://akalex.bandcamp.com/album/party-funk-ep",
     title: "Party Funk (EP) | Akalex",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3016348279,
     tags: [941, 558, 1602, 787, 3056, 905, 506],
   },
   {
@@ -10817,6 +12263,7 @@ const urls = [
     url: "https://xxiii.bandcamp.com/album/baile-parade",
     title: "Baile Parade | Adame | XXIII",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2354324031,
     tags: [1, 523, 28, 429, 1993, 1994, 892, 516, 1873],
   },
   {
@@ -10824,6 +12271,7 @@ const urls = [
     url: "https://oxtek.bandcamp.com/album/mundos-paralelos-guaracha",
     title: "MUNDOS PARALELOS GUARACHA | Oxtek",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 781019314,
     tags: [
       3057, 1, 3058, 3059, 787, 3060, 568, 3061, 3062, 3063, 488, 1650, 3064,
     ],
@@ -10833,6 +12281,7 @@ const urls = [
     url: "https://djzetroc.bandcamp.com/album/cortez-edits",
     title: "Cortez Edits | DJ Zetroc",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3157875494,
     tags: [131, 94, 95, 568, 139, 479, 429, 197],
   },
   {
@@ -10841,6 +12290,7 @@ const urls = [
     title:
       "Yours Truly | DSTRUKT X CUTSO X PUMP X HEDSPIN | Raisin Heads Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3828664821,
     tags: [1332, 1312, 1311, 131, 29, 132, 96, 478, 521, 792, 531, 479, 32],
   },
   {
@@ -10848,6 +12298,7 @@ const urls = [
     url: "https://the-a-l.bandcamp.com/album/comoque-single",
     title: "¿comoque? - Single | Ice Spice & Austin Lebrón | Austin Lebron",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3731608316,
     tags: [568, 3065, 477, 3066, 3067, 3068, 69],
   },
   {
@@ -10855,6 +12306,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/v2",
     title: "家​.​V2 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3140677516,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -10862,6 +12314,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/vgm-22",
     title: "VGM.22 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4064468085,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -10869,6 +12322,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/vgm-21",
     title: "VGM.21 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3094503418,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -10876,6 +12330,7 @@ const urls = [
     url: "https://ohwshe.bandcamp.com/album/ohwblend-19",
     title: "OHWBLEND.1.9 | ohwshe.",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 568005869,
     tags: [94, 95, 526, 139, 3069, 891, 525, 3070, 3071],
   },
   {
@@ -10883,6 +12338,7 @@ const urls = [
     url: "https://knxwledge.bandcamp.com/album/wt-18",
     title: "WT.18 | Knxwledge.",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2042011777,
     tags: [95, 524, 525, 526, 527, 32],
   },
   {
@@ -10890,6 +12346,7 @@ const urls = [
     url: "https://mrcarmack.bandcamp.com/album/dimebag-2",
     title: "DIMEBAG | mr. carmack",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1282396742,
     tags: [558, 3072],
   },
   {
@@ -10897,6 +12354,7 @@ const urls = [
     url: "https://mrcarmack.bandcamp.com/album/vibes-vol-2",
     title: "Vibes, Vol. 2 | mr. carmack",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2382888404,
     tags: [558, 3072],
   },
   {
@@ -10904,6 +12362,7 @@ const urls = [
     url: "https://noizionrecordz.bandcamp.com/album/back-in-time-ep",
     title: "Back In Time EP | 903Lun | NOIZION recordz",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 453215682,
     tags: [3073, 284, 56, 740, 248, 249, 1207, 130],
   },
   {
@@ -10911,6 +12370,7 @@ const urls = [
     url: "https://revoltmotionrecords.bandcamp.com/album/diosa-intifada",
     title: "Diosa Intifada | Sunya & Sadhu Militia | Revolt Motion Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2700188982,
     tags: [94, 95, 478, 139, 479, 21, 1257],
   },
   {
@@ -10918,6 +12378,7 @@ const urls = [
     url: "https://onsetsw.bandcamp.com/album/onse-tsw-sikadelik-men-of-shadows",
     title: "Onse TSW & Sikadelik - Men Of Shadows | Onse TSW",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2165723330,
     tags: [95, 130],
   },
   {
@@ -10925,6 +12386,7 @@ const urls = [
     url: "https://sickrat.bandcamp.com/album/abstrapped",
     title: "Abstrapped | Sick rat",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2217045139,
     tags: [131, 95, 3074, 3075, 608, 1162],
   },
   {
@@ -10933,6 +12395,7 @@ const urls = [
     title:
       "Speaker Performing Kiosk | Live Sessions Vol. 1 | Nicolás Varchausky | Inkilino Records",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4234412107,
     tags: [54, 166, 167, 1207, 1278, 169],
   },
   {
@@ -10940,6 +12403,7 @@ const urls = [
     url: "https://stevepeters.bandcamp.com/album/airforms-chamber-music-10-2017",
     title: "Airforms: Chamber Music 10 (2017) | Steve Peters",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3901899494,
     tags: [54, 2, 162, 414, 239, 30, 44],
   },
   {
@@ -10947,6 +12411,7 @@ const urls = [
     url: "https://kennethkirschner.bandcamp.com/album/april-2-2024",
     title: "April 2, 2024 | Kenneth Kirschner",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4085525719,
     tags: [
       202, 54, 244, 1917, 1923, 203, 3076, 810, 1432, 1926, 3077, 229, 3078, 69,
     ],
@@ -10956,6 +12421,7 @@ const urls = [
     url: "https://thollem.bandcamp.com/album/the-hot-pursuit-of",
     title: "The Hot Pursuit Of... | Godammit Tommy! | Thollem",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 789261295,
     tags: [54, 3079, 3080, 970, 1489, 3081, 120, 3082, 160, 315],
   },
   {
@@ -10964,6 +12430,7 @@ const urls = [
     title:
       "Sunshine Pipeline | Thollem, Honda, Ortman, Lurie, Momin, Wimberly, Hohl | Thollem",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3848390062,
     tags: [54, 3079, 3081, 120, 3082],
   },
   {
@@ -10971,6 +12438,7 @@ const urls = [
     url: "https://fiepblatter.bandcamp.com/album/axiomatic-rhythmicry",
     title: "Axiomatic Rhythmicry | Jan St. Werner | Fiepblatter Catalogue",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2455858573,
     tags: [3083, 2155, 54, 3084],
   },
   {
@@ -10978,6 +12446,7 @@ const urls = [
     url: "https://onewayness.bandcamp.com/album/live-feed",
     title: "live//FEED | onewayness",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3149954918,
     tags: [54, 2, 167, 1, 30, 3085],
   },
   {
@@ -10986,6 +12455,7 @@ const urls = [
     title:
       "I T ' S N O T T H A T B A D | B L A C K B O X R E C O R D E R | M. Peck",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2592211758,
     tags: [2, 2, 3086, 241, 167, 3087, 1351],
   },
   {
@@ -10993,6 +12463,7 @@ const urls = [
     url: "https://erichall.bandcamp.com/album/visibilities",
     title: "Visibilities | Eric Hall",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1707926656,
     tags: [1, 2, 248, 276, 127, 50, 3088],
   },
   {
@@ -11000,6 +12471,7 @@ const urls = [
     url: "https://davidwallraf.bandcamp.com/album/insomnia",
     title: "Insomnia. | ■ david wallraf",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 328055746,
     tags: [54, 276, 414, 127, 3089, 779, 1446],
   },
   {
@@ -11007,6 +12479,7 @@ const urls = [
     url: "https://wearedmc.bandcamp.com/album/mind-meld",
     title: "Mind Meld | Dysfunktional Message Control",
     license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2041768918,
     tags: [54, 1258, 167, 1, 239, 127, 1378],
   },
   {
@@ -11014,6 +12487,7 @@ const urls = [
     url: "https://robbyt.bandcamp.com/album/loon-of-doom",
     title: "Loon of Doom | robbyt & DJ Scam | robbyt",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1705422599,
     tags: [338, 1, 69],
   },
   {
@@ -11021,6 +12495,7 @@ const urls = [
     url: "https://invictaaudio.bandcamp.com/album/formula-big-cats-dont-purr-ep",
     title: "Formula - Big Cats Don't Purr EP | Invicta Audio",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 154194251,
     tags: [3090, 3091, 291, 338, 280, 1, 3092, 1642],
   },
   {
@@ -11028,6 +12503,7 @@ const urls = [
     url: "https://phibesuk.bandcamp.com/album/change-of-late-album",
     title: "Change of late (ALBUM) | Phibes",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 756362596,
     tags: [1652, 1, 3093, 3094, 141],
   },
   {
@@ -11035,6 +12511,7 @@ const urls = [
     url: "https://amerigo.bandcamp.com/album/work-to-do-single",
     title: "Work To Do (Single) | Amerigo Gazaway",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1064275018,
     tags: [94, 95, 479, 21, 3095],
   },
   {
@@ -11043,6 +12520,7 @@ const urls = [
     title:
       "You Gotta Be Kitten Me! (Original Game Soundtrack) | Amerigo Gazaway",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 689626895,
     tags: [94, 95, 1229, 479, 21, 3096, 25, 1196, 3095],
   },
   {
@@ -11051,6 +12529,7 @@ const urls = [
     title:
       "Gorbachev Wallets (feat. Awon) (Remix) | Napoleon Da Legend & Amerigo Gazaway | Amerigo Gazaway",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3047433451,
     tags: [94, 95, 479, 21, 3095],
   },
   {
@@ -11058,6 +12537,7 @@ const urls = [
     url: "https://amerigo.bandcamp.com/album/city-hop-deluxe-edition",
     title: "City Hop (Deluxe Edition) | Amerigo Gazaway",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2407532638,
     tags: [3097, 94, 95, 479, 3098, 1182, 21, 245, 135, 3099, 571, 315, 3095],
   },
   {
@@ -11065,6 +12545,7 @@ const urls = [
     url: "https://cutchemist.bandcamp.com/album/home-of-the-schlitz-mix-tape",
     title: "Home Of The Schlitz (Mix Tape) | Various Artist | Cut Chemist",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 842673146,
     tags: [1, 54, 95, 479, 429, 94, 164, 32],
   },
   {
@@ -11072,6 +12553,7 @@ const urls = [
     url: "https://jonivoid.bandcamp.com/album/every-life-is-a-light",
     title: "Every Life Is A Light | Joni Void",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4097291389,
     tags: [54, 148, 1, 1688, 1689, 50, 720],
   },
   {
@@ -11080,6 +12562,7 @@ const urls = [
     title:
       "Renegades Of Rhythm Live in Oakland (Audio) | DJ Shadow And Cut Chemist | Cut Chemist",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1555723962,
     tags: [1, 54, 95, 94, 164, 32],
   },
   {
@@ -11087,6 +12570,7 @@ const urls = [
     url: "https://cutchemist.bandcamp.com/album/please-pass-the-mic",
     title: "Please Pass The Mic | Various Artists | Cut Chemist",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2924185202,
     tags: [1, 54, 95, 94, 164, 32],
   },
   {
@@ -11095,6 +12579,7 @@ const urls = [
     title:
       "To Whom It May Concern (Remastered) | Freestyle Fellowship | Cut Chemist",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1386235475,
     tags: [1, 54, 95, 94, 164, 32],
   },
   {
@@ -11102,6 +12587,7 @@ const urls = [
     url: "https://tmshallibrukit.bandcamp.com/album/spacial-herbz",
     title: "Spacial Herbz | Spacial Herbz | ™Shall I Bruk It",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1933353428,
     tags: [1067, 1068, 1, 29, 245, 122],
   },
   {
@@ -11109,6 +12595,7 @@ const urls = [
     url: "https://slowerpace.bandcamp.com/album/chant-e",
     title: "CHANTÉE | slowerpace 音楽",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1257200504,
     tags: [1, 99, 172, 362, 174, 16, 175, 90, 92],
   },
   {
@@ -11116,6 +12603,7 @@ const urls = [
     url: "https://outtallectuals.bandcamp.com/album/phewa-dawn-outta028",
     title: "Phewa Dawn [OUTTA028] | Outtallectuals",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2280494678,
     tags: [3100, 864, 1777, 866, 3101, 3102, 488, 558, 3103, 3104, 122],
   },
   {
@@ -11123,6 +12611,7 @@ const urls = [
     url: "https://outtallectuals.bandcamp.com/album/almanac-lullabies-outta051",
     title: "Almanac Lullabies [OUTTA051] | Outtallectuals",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4106837540,
     tags: [122],
   },
   {
@@ -11130,6 +12619,7 @@ const urls = [
     url: "https://kalyascintilla.bandcamp.com/album/kalya-scintilla-remixed",
     title: "Kalya Scintilla - Remixed | Kalya Scintilla",
     license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 873043062,
     tags: [
       469, 1, 109, 4, 3105, 56, 249, 849, 866, 3106, 608, 558, 3107, 3103, 1500,
     ],
@@ -11139,6 +12629,7 @@ const urls = [
     url: "https://chillhop.bandcamp.com/album/chillhop-essentials-spring-2021",
     title: "Chillhop Essentials Spring 2021 | Various Artists | Chillhop Music",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2498053749,
     tags: [131, 95, 2916, 470, 360, 608, 3108],
   },
   {
@@ -11146,6 +12637,7 @@ const urls = [
     url: "https://chillhop.bandcamp.com/album/chillhop-essentials-winter-2020",
     title: "Chillhop Essentials Winter 2020 | Various Artists | Chillhop Music",
     license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4228021616,
     tags: [131, 95, 2916, 470, 360, 608, 3108],
   },
   {
@@ -11153,6 +12645,7 @@ const urls = [
     url: "https://dreamhop.bandcamp.com/album/starfall-fields",
     title: "Starfall Fields | Dreamhop Music",
     license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3014791293,
     tags: [131, 95, 145, 360, 128, 927],
   },
   {
@@ -11160,10 +12653,4711 @@ const urls = [
     url: "https://purrplecat.bandcamp.com/album/night-train",
     title: "Night Train | Purrple Cat",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4075110567,
     tags: [
       95, 686, 1201, 2, 56, 331, 131, 3109, 135, 128, 3110, 3111, 229, 3112,
       2691, 356,
     ],
+  },
+  {
+    url_id: 1512,
+    url: "https://snsi.bandcamp.com/album/father-of-all-lies",
+    title: "Father of all lies | Si Non Sedes Is",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 241762040,
+    tags: [190, 117, 54, 301, 190, 117, 3113],
+  },
+  {
+    url_id: 1513,
+    url: "https://boguscollective.bandcamp.com/album/--15",
+    title: "ノスタルジアの危険 | レディーフィンガー | B O G U S // COLLECTIVE",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 107917252,
+    tags: [
+      180, 54, 2, 2535, 101, 167, 128, 183, 185, 3114, 187, 1878, 783, 92, 189,
+    ],
+  },
+  {
+    url_id: 1514,
+    url: "https://poolhouseltd.bandcamp.com/album/buy-now-summer-vapors-vol-2",
+    title: "BUY NOW: Summer Vapors Vol. 2 | Pool House Ltd.",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3673738609,
+    tags: [1, 54, 331, 1168, 175, 90, 3115, 2008, 92, 179],
+  },
+  {
+    url_id: 1515,
+    url: "https://stratfordcompilations.bandcamp.com/album/stratford-ct-secret-selection-1-10",
+    title: "Stratford Ct. | Secret Selection #1-10 | Ѕtratford Ct.",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3338909036,
+    tags: [1, 1473, 470, 570, 174, 113, 315, 92, 3116],
+  },
+  {
+    url_id: 1516,
+    url: "https://celadonplaza.bandcamp.com/album/ep-special-edition",
+    title:
+      "あ​な​た​は​い​つ​も​私​を​見​て​い​ま​す​ep (Special Edition) | Male Alchemy | Celadon Plaza",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 241430947,
+    tags: [1, 54, 172, 331, 174, 16, 175, 608, 92, 356],
+  },
+  {
+    url_id: 1517,
+    url: "https://ragnarok8.bandcamp.com/album/bust-a-groove",
+    title: "Bust-A-Groove | R85O",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3456334885,
+    tags: [1, 3117, 92, 3118, 3119],
+  },
+  {
+    url_id: 1518,
+    url: "https://hanahata.bandcamp.com/album/2003-toyota-corolla",
+    title: "2003 Toyota Corolla | 2003 Toyota Corolla | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 880980543,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1519,
+    url: "https://hanahata.bandcamp.com/album/return",
+    title: "(return) - 返回 | begotten real | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3754672381,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1520,
+    url: "https://hanahata.bandcamp.com/album/--11",
+    title: "唯 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2142902273,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1521,
+    url: "https://hanahata.bandcamp.com/album/--4",
+    title: "ジェナ・キャリー | 花畑 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2407298411,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1522,
+    url: "https://hanahata.bandcamp.com/album/mommy-there-is-poop-in-my-pants",
+    title: "Mommy, There Is Poop in My Pants | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2905015281,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1523,
+    url: "https://hanahata.bandcamp.com/album/--21",
+    title: "私 | 私は | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 257652903,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1524,
+    url: "https://hanahata.bandcamp.com/album/hoe",
+    title: "Hoe™ | FamiCorp Virtual Enterprises | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 448365333,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1525,
+    url: "https://hanahata.bandcamp.com/album/floral-shoppe-3",
+    title: "Floral Shoppe 3 | Crusty Man | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1527731804,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1526,
+    url: "https://hanahata.bandcamp.com/album/family-guy-operators",
+    title: "Family Guy Operators | Family Guy Operators | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1353386778,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1527,
+    url: "https://hanahata.bandcamp.com/album/--5",
+    title: "恋人 | 花畑 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 244862166,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1528,
+    url: "https://hanahata.bandcamp.com/album/the-yo-mama-song-remixes",
+    title: "The Yo Mama Song (Remixes) | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1832911575,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1529,
+    url: "https://hanahata.bandcamp.com/album/--6",
+    title: "密林 / 蘭 | 花畑 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1421231490,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1530,
+    url: "https://hanahata.bandcamp.com/album/--7",
+    title: "地球 | 花畑 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1040741501,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1531,
+    url: "https://hanahata.bandcamp.com/album/--8",
+    title: "ビジネスクラス | 花畑 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 549022400,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1532,
+    url: "https://hanahata.bandcamp.com/album/future-funk-for-crackheads",
+    title: "FUTURE FUNK FOR CRACKHEADS | FUTURE FUNK FOR CRACKHEADS | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 39998743,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1533,
+    url: "https://hanahata.bandcamp.com/album/among-us-trap-remix",
+    title: "among us trap remix | among us trap remix | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1550077380,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1534,
+    url: "https://hanahata.bandcamp.com/album/glitch-heaven",
+    title: "glitch heaven | Christian Contemporary | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2480379439,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1535,
+    url: "https://hanahata.bandcamp.com/album/sapporo-redux",
+    title: "SAPPORO REDUX | INFODUMPバーチャル | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3268677935,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1536,
+    url: "https://hanahata.bandcamp.com/album/brazillian-torch-music",
+    title: "Brazillian Torch Music | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2861412928,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1537,
+    url: "https://hanahata.bandcamp.com/album/--9",
+    title: "Ｃｕｂｉｃ　Ｈｅｌｌｓｃａｐｅ | 꽃밭 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1153201386,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1538,
+    url: "https://hanahata.bandcamp.com/album/2010",
+    title: "2010 セレナーデ | 死 C O M P U T E R 死 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2334973141,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1539,
+    url: "https://hanahata.bandcamp.com/album/bloodborn-oranges",
+    title: "bloodborN orangEs | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 31751685,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1540,
+    url: "https://hanahata.bandcamp.com/album/sentinel",
+    title: "Sentinel | Blacker Banshee | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3369280826,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1541,
+    url: "https://hanahata.bandcamp.com/album/--19",
+    title: "マッカ | フロッピー | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4188457397,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1542,
+    url: "https://hanahata.bandcamp.com/album/2",
+    title: "マッカ2 | フロッピー | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2677233323,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1543,
+    url: "https://hanahata.bandcamp.com/album/vaporcrap-redux",
+    title:
+      "Vaporcrap (Redux) | ヘイワスポピンジンボ, けいこ, ブローフォンミージャキア, ヨシザグレート, チーズの脂肪ループ | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4157018803,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1544,
+    url: "https://hanahata.bandcamp.com/album/music-for-nowhere",
+    title: "music for nowhere | big chungus | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 562375279,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1545,
+    url: "https://hanahata.bandcamp.com/album/hermitian-conjugate-matrix",
+    title: "HERMITIAN CONJUGATE MATRIX | 2037 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2414954325,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1546,
+    url: "https://hanahata.bandcamp.com/album/rtk64",
+    title: "Rtk64 | 2037 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2457037034,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1547,
+    url: "https://hanahata.bandcamp.com/album/sickened-panic",
+    title: "SICKENED PANIC | MACINTOSH MINUS | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3496044244,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1548,
+    url: "https://hanahata.bandcamp.com/album/floral-beats",
+    title: "Floral Beats | MP205 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2984054849,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1549,
+    url: "https://hanahata.bandcamp.com/album/underthroat",
+    title: "Underthroat | sans undertale | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1996724020,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1550,
+    url: "https://hanahata.bandcamp.com/album/hand-crushed-by-yo-mama",
+    title: "Hand Crushed by Yo Mama | MACINTOSH MINUS | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1063010615,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1551,
+    url: "https://hanahata.bandcamp.com/album/-",
+    title: "花畑 | 花畑 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1589734819,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1552,
+    url: "https://hanahata.bandcamp.com/album/--2",
+    title: "収集 | 花畑 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 850251190,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1553,
+    url: "https://hanahata.bandcamp.com/album/starving-with-somalia",
+    title: "Starving With Somalia | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2036969879,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1554,
+    url: "https://hanahata.bandcamp.com/album/4am-programming",
+    title: "4AM Programming | Hanahata Broadcasting Co. | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4227637039,
+    tags: [54, 101, 3120, 90, 186, 187, 92, 879],
+  },
+  {
+    url_id: 1555,
+    url: "https://hanahata.bandcamp.com/album/the-yo-mama-song",
+    title: "The Yo Mama Song | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2581921208,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1556,
+    url: "https://hanahata.bandcamp.com/album/hey-girls-did-you-know-that-um-hey-girls",
+    title: "hey girls did you know that | um hey girls | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 78837556,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1557,
+    url: "https://hanahata.bandcamp.com/album/--3",
+    title: "Ｃｕｂｉｃ　Ｄｒｅａｍ | 꽃밭 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 311291515,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1558,
+    url: "https://hanahata.bandcamp.com/album/bitchass-pinterest-unironically-black-mix",
+    title: "Bitchass Pinterest (Unironically Black Mix) | 🧫 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2195561912,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1559,
+    url: "https://hanahata.bandcamp.com/album/ill-try-pedaling-like-this",
+    title: "I'll Try Pedaling Like This | MACINTOSH MINUS | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3310448315,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1560,
+    url: "https://hanahata.bandcamp.com/album/no-pedals-matter",
+    title: "no pedals matter | MACINTOSH MINUS | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2846154386,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1561,
+    url: "https://hanahata.bandcamp.com/album/r-e-m",
+    title: "R.E.M.ドリフト | 꽃밭 | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1585274111,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1562,
+    url: "https://hanahata.bandcamp.com/album/sad-machine-divinity",
+    title: "sad machine / divinity | hanahata",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3642887345,
+    tags: [54, 101, 3120, 90, 187, 92, 879],
+  },
+  {
+    url_id: 1563,
+    url: "https://bringyourknapsack.bandcamp.com/album/the-buzz-of-a-lifetime",
+    title: "The buzz of a lifetime | Knapsack | knapsack",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2075803068,
+    tags: [1, 641, 69],
+  },
+  {
+    url_id: 1564,
+    url: "https://xaev.bandcamp.com/album/xaev-album-leak-dec0252024",
+    title: "xaev_ALBUM.LEAK(Dec0252024) | xaev",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2250609947,
+    tags: [1, 27, 310, 886, 54, 3121, 1500],
+  },
+  {
+    url_id: 1565,
+    url: "https://tdstr.bandcamp.com/album/some-more-files",
+    title: "Some More Files | tdstr",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3938063736,
+    tags: [1, 966, 273, 3122, 292, 2502],
+  },
+  {
+    url_id: 1566,
+    url: "https://jpxg.bandcamp.com/album/round-2",
+    title: 'ROUND "2" | Amanogawa Converter, null | JPxG',
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1110840912,
+    tags: [1, 171, 801, 3123, 3124, 343, 1410, 90, 1631, 724],
+  },
+  {
+    url_id: 1567,
+    url: "https://lostfrog.bandcamp.com/album/farewell-dariacore-you-wont-be-missed",
+    title:
+      "farewell dariacore, you WONT be missed | Various Artists | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 660540097,
+    tags: [273, 725, 1, 726, 727, 90, 724],
+  },
+  {
+    url_id: 1568,
+    url: "https://lostfrog.bandcamp.com/album/breakid-ep",
+    title: "BreaKID EP | CaӤdy🍬Syлc | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 143396573,
+    tags: [946, 273, 1, 729, 724],
+  },
+  {
+    url_id: 1569,
+    url: "https://lostfrog.bandcamp.com/album/--8",
+    title: "酩酊 | λμκικαζε | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 301749883,
+    tags: [946, 273, 1, 729, 727, 724],
+  },
+  {
+    url_id: 1570,
+    url: "https://lostfrog.bandcamp.com/album/were-already-in-hell",
+    title: "we're already in hell | ivy sinthetic | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 467749314,
+    tags: [1890, 273, 338, 1, 730, 54, 768, 724],
+  },
+  {
+    url_id: 1571,
+    url: "https://lostfrog.bandcamp.com/album/dreamscape",
+    title: "dreamscape | yandere | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4175166761,
+    tags: [2, 273, 3125, 106, 1, 477, 435, 724],
+  },
+  {
+    url_id: 1572,
+    url: "https://oakseanid.bandcamp.com/album/megatape-a-collection",
+    title: "Megatape (A Collection) | Various Artists | Oaksean",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 834985753,
+    tags: [1, 54, 131, 1457, 2, 56, 241, 1546, 239, 127, 229, 315, 3126],
+  },
+  {
+    url_id: 1573,
+    url: "https://analogueheart.bandcamp.com/album/user-pleasure-guaranteed",
+    title: "User Pleasure Guaranteed | Analogue Heart",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2958931571,
+    tags: [8, 45, 311, 48, 335, 315, 959],
+  },
+  {
+    url_id: 1574,
+    url: "https://spacetown.bandcamp.com/album/obsolescence",
+    title: "OBSOLESCENCE | Space Town",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1876275879,
+    tags: [1, 3127, 3128, 3129, 516, 1393],
+  },
+  {
+    url_id: 1575,
+    url: "https://merugb.bandcamp.com/album/0x4f-tracks",
+    title: "0x4F tracks | Meru",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 56438798,
+    tags: [1, 466, 3130, 28, 3131, 128, 710, 3132, 1061, 516, 257, 1162],
+  },
+  {
+    url_id: 1576,
+    url: "https://calaveralovesyou.bandcamp.com/album/kintsugi",
+    title: "Kintsugi | Calavera",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3113209986,
+    tags: [
+      3133, 633, 1, 3134, 469, 3135, 2721, 466, 109, 635, 4, 128, 3136, 707,
+      756, 2006, 98,
+    ],
+  },
+  {
+    url_id: 1577,
+    url: "https://ptesquad.bandcamp.com/album/seasonal",
+    title: "Seasonal | Imaginary | Pterodactyl Squad",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3283226621,
+    tags: [753, 1, 754, 466, 3137, 707, 756, 97, 498],
+  },
+  {
+    url_id: 1578,
+    url: "https://christmasreapers.bandcamp.com/album/traveling-stars",
+    title: "Traveling Stars | Christmas Reapers",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3734699757,
+    tags: [396, 245, 1162],
+  },
+  {
+    url_id: 1579,
+    url: "https://projectomourente.bandcamp.com/album/ao-teu-redor",
+    title: "Ao teu redor | Projecto Mourente",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1648082610,
+    tags: [1715, 96, 1212, 160, 3138],
+  },
+  {
+    url_id: 1580,
+    url: "https://malandromeda.bandcamp.com/album/animais-da-feira",
+    title: "Animais da feira | Malandrómeda",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2741295337,
+    tags: [95, 3139],
+  },
+  {
+    url_id: 1581,
+    url: "https://ataqueescampe.bandcamp.com/album/o-disco-vermello",
+    title: "O disco vermello (LP) | Ataque Escampe",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3920839626,
+    tags: [
+      8, 1715, 3140, 3141, 2552, 1222, 3142, 1168, 248, 3143, 3144, 3145, 3139,
+    ],
+  },
+  {
+    url_id: 1582,
+    url: "https://ataqueescampe.bandcamp.com/album/ed-wood-e-a-invasi-n-dos-paraugas-asasinos-maqueta",
+    title: "Ed Wood e a invasión dos paraugas asasinos (demo) | Ataque Escampe",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 550173243,
+    tags: [8, 1715, 3141, 2552, 1222, 3142, 3139],
+  },
+  {
+    url_id: 1583,
+    url: "https://wakethewave.bandcamp.com/album/dal-by-the-sea-demo",
+    title: "Dalí By The Sea (Demo) | Wake The Wave",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1631709316,
+    tags: [8, 3146, 2379, 969, 135, 129, 3147],
+  },
+  {
+    url_id: 1584,
+    url: "https://chicharron.bandcamp.com/album/postal",
+    title: "Postal | Chicharrón",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1312872513,
+    tags: [96, 3148, 3149, 1715, 3150, 3151, 3152],
+  },
+  {
+    url_id: 1585,
+    url: "https://dotheunicornibot.bandcamp.com/album/dalle",
+    title: "Dalle! | Unicornibot",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2470277470,
+    tags: [589, 192, 3153, 1613, 117, 3154, 1053],
+  },
+  {
+    url_id: 1586,
+    url: "https://vivabazooka.bandcamp.com/album/beso-mata-banda-bang",
+    title: "Beso Mata Banda Bang! | Viva Bazooka",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2043322395,
+    tags: [117, 8, 310, 1023, 3155, 3156],
+  },
+  {
+    url_id: 1587,
+    url: "https://cosmictentacles.bandcamp.com/album/zandergraun",
+    title: "Zandergraun | Meido | Cosmic Tentacles!",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2399994912,
+    tags: [190, 1036, 3157, 127, 1053],
+  },
+  {
+    url_id: 1588,
+    url: "https://cosmictentacles.bandcamp.com/album/vol-ii",
+    title: "Vol. II | Doctor Sax | Cosmic Tentacles!",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3469014617,
+    tags: [190, 192, 3158, 3159, 374, 1053],
+  },
+  {
+    url_id: 1589,
+    url: "https://cosmictentacles.bandcamp.com/album/bastards-and-liars",
+    title: "Bastards and Liars | Memest | Cosmic Tentacles!",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 426246752,
+    tags: [190, 192, 367, 624, 1053],
+  },
+  {
+    url_id: 1590,
+    url: "https://cosmictentacles.bandcamp.com/album/el-blues-de-los-pollos-sin-cabeza",
+    title:
+      "El Blues de los Pollos sin Cabeza | Electric Belt | Cosmic Tentacles!",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3008948322,
+    tags: [190, 192, 970, 2819, 1053],
+  },
+  {
+    url_id: 1591,
+    url: "https://nashgul.bandcamp.com/album/nashgul-teething",
+    title: "Nashgul / Teething | NASHGUL",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1573125336,
+    tags: [3160, 190, 371, 3161],
+  },
+  {
+    url_id: 1592,
+    url: "https://blackpanda.bandcamp.com/album/viaje-a-la-lona",
+    title: "Viaje a la Lona | Black Panda | BLACK PANDA",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 42058414,
+    tags: [192, 3162, 3163, 301, 3164, 117, 3165, 3161],
+  },
+  {
+    url_id: 1593,
+    url: "https://wehavenozen.bandcamp.com/album/whnz-14-peul",
+    title: "WHNZ:14:PEUL | Profeetta Elämän Äänikoulu | We Have No Zen!",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3047614215,
+    tags: [54, 2969, 3166, 3167, 50, 3168],
+  },
+  {
+    url_id: 1594,
+    url: "https://acidmotherstemple.bandcamp.com/album/shall-we-return-to-outer-space",
+    title:
+      "Shall We Return To Outer Space? | Acid Mothers Temple & The Melting Paraiso U.F.O. | Acid Mothers Temple",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1637243766,
+    tags: [54, 192, 2, 167, 2031, 1146, 30, 127, 51, 1145, 724],
+  },
+  {
+    url_id: 1595,
+    url: "https://jaja.bandcamp.com/album/eternal-solitude",
+    title: "Eternal solitude | Jaja",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1954892153,
+    tags: [3169, 3170, 2, 99, 1923, 831, 42, 159],
+  },
+  {
+    url_id: 1596,
+    url: "https://crawe.bandcamp.com/album/artisresistance",
+    title: "ArTiSrEsIsTaNcE | CrAwE",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3410443354,
+    tags: [1105, 54, 241, 167, 12, 153, 748],
+  },
+  {
+    url_id: 1597,
+    url: "https://idmfnetlabel.bandcamp.com/album/anagram-4-lume-definitive-edition-idmf072",
+    title:
+      "Anagram 4: Lume (Definitive Edition) (IDMf072) | Silent Strangers | Glitchpulse Records",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3490352084,
+    tags: [2, 1, 54, 5, 109, 4, 1500],
+  },
+  {
+    url_id: 1598,
+    url: "https://idmfnetlabel.bandcamp.com/album/mutual-mastication-idmf006",
+    title: "Mutual Mastication (IDMf006) | IG88 | Glitchpulse Records",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 170816549,
+    tags: [2, 1, 54, 5, 109, 4, 1500],
+  },
+  {
+    url_id: 1599,
+    url: "https://idmfnetlabel.bandcamp.com/album/length-brecht-remixed-idmf004",
+    title: "Length & Brecht Remixed (IDMf004) | Halogen | Glitchpulse Records",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1080155551,
+    tags: [2, 1, 54, 5, 109, 4, 1500],
+  },
+  {
+    url_id: 1600,
+    url: "https://elephantstereo.bandcamp.com/album/midwest-trash",
+    title: "Midwest Trash | Elephant Stereo",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2349295427,
+    tags: [8, 1, 5, 466, 2575, 50, 112],
+  },
+  {
+    url_id: 1601,
+    url: "https://jamiepaige.bandcamp.com/album/bittersweet",
+    title: "Bittersweet | Jamie Paige",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1120010418,
+    tags: [96, 108, 310, 1798, 1, 2541, 3171, 134, 335, 282, 2328],
+  },
+  {
+    url_id: 1602,
+    url: "https://christmasasaurus.bandcamp.com/album/christmasasaurus-x",
+    title: "Christmasasaurus X | Christmasasaurus",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4205460693,
+    tags: [396, 54, 273, 470, 605, 2803, 559, 3172, 2521, 57, 1689, 160, 356],
+  },
+  {
+    url_id: 1603,
+    url: "https://kinpatsukinpatsu.bandcamp.com/album/complete-works",
+    title: "Complete Works | Emray | KINPATSU 金髪",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3577018177,
+    tags: [338, 1, 795, 2, 171, 273, 280, 292, 729, 1216],
+  },
+  {
+    url_id: 1604,
+    url: "https://toyou.bandcamp.com/album/until-2020",
+    title: "Until 2020 | ToYou トーヨー",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 803430347,
+    tags: [2901, 1, 765, 3173, 1406, 171, 1767],
+  },
+  {
+    url_id: 1605,
+    url: "https://lostfrog.bandcamp.com/album/doujin-weapon",
+    title: "Doujin Weapon | 九八式旋回機関銃 | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3489627690,
+    tags: [946, 273, 1, 729, 724],
+  },
+  {
+    url_id: 1606,
+    url: "https://lostfrog.bandcamp.com/album/a-world-of-sounds",
+    title: "A World Of Sounds | Cat Destroyer | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2395236293,
+    tags: [273, 338, 1, 54, 3174, 301, 768, 724],
+  },
+  {
+    url_id: 1607,
+    url: "https://slax23.bandcamp.com/album/we-are-number-one-slax-remix",
+    title: "We Are Number One (Slax Remix) | Robbie Rotten | Slax",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 479241830,
+    tags: [
+      1, 765, 795, 1406, 3175, 3176, 3177, 199, 3178, 3179, 792, 3180, 3181,
+      3182, 3183, 1162,
+    ],
+  },
+  {
+    url_id: 1608,
+    url: "https://appleachia.bandcamp.com/album/the-coo-of-the-dove-ep",
+    title: "the coo of the dove - EP | appleachia",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3450670337,
+    tags: [338, 54, 3184, 127, 546],
+  },
+  {
+    url_id: 1609,
+    url: "https://sewerslvt.bandcamp.com/album/if-you-re-out-there-i-miss-you-ep",
+    title: "if you’re out there i miss you ｡ﾟ･ (>﹏<) ･ﾟ｡ - EP | Sewerslvt",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3444347367,
+    tags: [338, 1, 54, 966, 1103, 752],
+  },
+  {
+    url_id: 1610,
+    url: "https://sewerslvt.bandcamp.com/album/kawaii-razor-blades-feat-yandere",
+    title: "Kawaii Razor Blades (feat. yandere) | Sewerslvt",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2214358709,
+    tags: [338, 1, 54, 966, 273, 292, 766, 3185, 752],
+  },
+  {
+    url_id: 1611,
+    url: "https://sewerslvt.bandcamp.com/album/yves-tumor-jackie-sewerslvt-remake",
+    title: "Yves Tumor - Jackie (Sewerslvt Remake) | Sewerslvt",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3051738318,
+    tags: [1, 54, 3186, 108, 1103, 752],
+  },
+  {
+    url_id: 1612,
+    url: "https://goldzillaband.bandcamp.com/album/goldzilla-vs-robohitler",
+    title: "GOLDZILLA VS ROBOHITLER | GOLDZILLA",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 425922939,
+    tags: [
+      2399, 117, 3187, 237, 3188, 3189, 48, 117, 1012, 3190, 3191, 3192, 258,
+    ],
+  },
+  {
+    url_id: 1613,
+    url: "https://rivalrivalrival.bandcamp.com/album/truthcannon",
+    title: "TRUTHCANNON | A_Rival",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2084386202,
+    tags: [3193, 466, 856, 1, 3194, 2721],
+  },
+  {
+    url_id: 1614,
+    url: "https://popskyy.bandcamp.com/album/last-stream-standing-original-soundtrack",
+    title: "Last Stream Standing - Original Soundtrack | Popskyy",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1045050536,
+    tags: [466, 1, 2328],
+  },
+  {
+    url_id: 1615,
+    url: "https://popskyy.bandcamp.com/album/better-days-ahead-ep",
+    title: "Better Days Ahead EP | Popskyy",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3974421342,
+    tags: [466, 1, 2328],
+  },
+  {
+    url_id: 1616,
+    url: "https://popskyy.bandcamp.com/album/eternity",
+    title: "Eternity | Popskyy",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 308199760,
+    tags: [466, 1, 2328],
+  },
+  {
+    url_id: 1617,
+    url: "https://popskyy.bandcamp.com/album/city-of-neon",
+    title: "City of NEON | Popskyy",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 488329656,
+    tags: [466, 1, 2328],
+  },
+  {
+    url_id: 1618,
+    url: "https://sunspells.bandcamp.com/album/here-and-beyond",
+    title: "Here and Beyond | Sun Spells",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1464653033,
+    tags: [1, 570, 174, 571, 315, 92, 69],
+  },
+  {
+    url_id: 1619,
+    url: "https://drtwelele.bandcamp.com/album/in-my-world",
+    title: "In My World | Dr Twelele",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3541603640,
+    tags: [1, 174, 1, 132, 128, 571, 315, 97, 506],
+  },
+  {
+    url_id: 1620,
+    url: "https://benf.bandcamp.com/album/the-pavanist-2",
+    title: "The Pavanist | ben fox",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4244132122,
+    tags: [245, 845, 1964],
+  },
+  {
+    url_id: 1621,
+    url: "https://oceanboyfriend.bandcamp.com/album/well-always-love-you-but-thats-not-the-point",
+    title: "We'll Always Love You (But That's Not The Point) | Ocean Boyfriend",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1496634327,
+    tags: [547, 1964],
+  },
+  {
+    url_id: 1622,
+    url: "https://blastingcompany.bandcamp.com/album/for-hire",
+    title: "For Hire | The Blasting Company",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3228400500,
+    tags: [374, 1668, 3195, 3196, 3197, 3198, 3199, 25, 32],
+  },
+  {
+    url_id: 1623,
+    url: "https://feedmejack.bandcamp.com/album/chumpfrey",
+    title: "Chumpfrey | Feed Me Jack",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1524203197,
+    tags: [8, 3200, 54, 132, 1036, 502, 192],
+  },
+  {
+    url_id: 1624,
+    url: "https://jeffrosenstock.bandcamp.com/album/we-cool",
+    title: "We Cool? | Jeff Rosenstock",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 47985011,
+    tags: [117, 3201, 48, 3202, 3203, 3204, 3205, 3206, 3207, 3208, 69],
+  },
+  {
+    url_id: 1625,
+    url: "https://thepomps.bandcamp.com/album/alternate-america-ep",
+    title: "Alternate America EP | The Pomps",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 82021049,
+    tags: [1622, 208, 2846, 666],
+  },
+  {
+    url_id: 1626,
+    url: "https://thedelazers.bandcamp.com/album/obsidian-strand",
+    title: "Obsidian Strand | The Delazers",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3413591191,
+    tags: [95, 128, 56, 695, 3209, 3210, 131, 135, 128, 3211, 1153, 474],
+  },
+  {
+    url_id: 1627,
+    url: "https://hiphoppapotamus.bandcamp.com/album/music-for-your-mind-ep",
+    title: "Music For Your Mind EP | Hippo Sound System | DJ Hiphoppapotamus",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1498915008,
+    tags: [862, 941, 290, 338, 245, 568, 208, 2846, 862, 866, 292, 3104, 1642],
+  },
+  {
+    url_id: 1628,
+    url: "https://modestbydefault.bandcamp.com/album/the-curse-of-colonialism-i",
+    title: "THE CURSE OF COLONIALISM I | modest by default",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 276252478,
+    tags: [1, 99, 172, 21, 92, 1891],
+  },
+  {
+    url_id: 1629,
+    url: "https://sethmartinandthemenders.bandcamp.com/album/live-at-no-country-an-introduction-to-seth-mountain",
+    title:
+      "이산 Live at No Country: An Introduction to Seth Mountain | Seth Mountain 이산",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1975301551,
+    tags: [3212, 374, 558, 671, 2146, 3213, 3214, 948],
+  },
+  {
+    url_id: 1630,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/airports-at-night",
+    title: "Airports At Night | Garry Franks | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3288290293,
+    tags: [2916, 3215, 786, 2670, 3216, 363, 141],
+  },
+  {
+    url_id: 1631,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/sad-lonely-washed-out-poetry-piano",
+    title:
+      "Sad Lonely & Washed Out / Poetry Piano | Pathos | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2470090257,
+    tags: [8, 132, 2822, 96, 786, 141],
+  },
+  {
+    url_id: 1632,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/japanese-ambient-elevator-musak-2-kyoto-chimes",
+    title:
+      'Japanese Ambient Elevator Musak 2 "Kyoto Chimes" | Muzaic | Beauty Of Record Labels',
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3468590231,
+    tags: [755, 19, 1911, 3217, 141],
+  },
+  {
+    url_id: 1633,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/japanese-ambient-japonisme-extented-track",
+    title:
+      "Japanese Ambient / Japonisme (extented track ) | malcolm fisher music for borl | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3020566384,
+    tags: [2, 3218, 141],
+  },
+  {
+    url_id: 1634,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/japanese-ambient-japonesme-6-tracks",
+    title:
+      "Japanese Ambient / Japonesme (6 tracks) | Malcolm Fisher tracks for borl | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2708715681,
+    tags: [3219, 470, 755, 3220, 3221, 380, 3222, 141],
+  },
+  {
+    url_id: 1635,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/japanese-ambient-bullet-train-through-japanese-blossom-shinkansen-de-nihon-no-hana",
+    title:
+      "Japanese Ambient / Bullet Train Through Japanese Blossom 新幹線で日本の花 Shinkansen de Nihon no hana | borl ambiences/malcolm fisher music for borl/ automated voices | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1226538078,
+    tags: [1199, 1911, 3223, 3217, 1433, 3224, 141],
+  },
+  {
+    url_id: 1636,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/garden-of-love-garden-of-rhodes-mix",
+    title:
+      "Garden Of Love (Garden Of Rhodes Mix) | Garry Franks | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3548733356,
+    tags: [3225, 3226, 3227, 786, 141],
+  },
+  {
+    url_id: 1637,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/ambient-piano-music-for-sleep",
+    title:
+      "ambient piano music for sleep | borl malcolm fisher | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1734106734,
+    tags: [3228, 202, 421, 3229, 229, 380, 141],
+  },
+  {
+    url_id: 1638,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/malcolm-fisher-green",
+    title:
+      "Malcolm Fisher GREEN | Malcolm Fisher tracks for borl | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2955164416,
+    tags: [2052, 2, 3082, 141],
+  },
+  {
+    url_id: 1639,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/human-gareth-lilley-malcolm-fisher-poetry-piano-music",
+    title:
+      "Human -Gareth Lilley /Malcolm Fisher (poetry/piano music) | Gareth Lilley to the piano music of Malcolm Fisher | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1485047597,
+    tags: [229, 2822, 141],
+  },
+  {
+    url_id: 1640,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/ambient-piano-distant-rain-music",
+    title:
+      "Ambient Piano Distant Rain Music | borl malcolm fisher | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 4016683790,
+    tags: [2, 3230, 3231, 755, 2160, 141],
+  },
+  {
+    url_id: 1641,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/a-walk-in-the-countryside-ambient-piano-music-countryside-recordings",
+    title:
+      "A Walk In The Countryside (ambient piano music/countryside recordings) | malcolm fisher (for borl) | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2484519869,
+    tags: [2, 3232, 3223, 1696, 3224, 141],
+  },
+  {
+    url_id: 1642,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/where-do-you-go-to-my-lovely",
+    title:
+      "Where Do You Go To, My Lovely? | Louisa Jones (with Stephen Bowers) | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3206008196,
+    tags: [3233, 3234, 141],
+  },
+  {
+    url_id: 1643,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/paris-musique",
+    title: "Paris Musique | voix automatiques | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3596401157,
+    tags: [3235, 124, 3236, 3237, 3238, 3239, 141],
+  },
+  {
+    url_id: 1644,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/the-big-rhythm",
+    title:
+      "The Big Rhythm | Karen Underhill / Chameleon Jersey | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 165364908,
+    tags: [977, 3240, 3241, 106, 141],
+  },
+  {
+    url_id: 1645,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/love-ep",
+    title: "Love (EP) | Malcolm Fisher for borl | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1165263366,
+    tags: [3228, 970, 202, 3229, 3242, 422, 229, 3243, 3037, 141],
+  },
+  {
+    url_id: 1646,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/green-music-for-modern-homes",
+    title:
+      "Green Music For Modern Homes | malcolm fisher/the electronic wizard/borl | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 870397168,
+    tags: [2, 470, 202, 3217, 353, 229, 141],
+  },
+  {
+    url_id: 1647,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/beauty-of-kraftwerkian",
+    title: "Beauty Of Kraftwerkian | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1174877611,
+    tags: [627, 106, 1, 109, 3244, 3245, 1146, 160, 141],
+  },
+  {
+    url_id: 1648,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/musak-for-love-elevators",
+    title:
+      "Musak For Love Elevators | musaic v the love machine | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 404591746,
+    tags: [2, 3246, 3247, 19, 422, 3217, 141],
+  },
+  {
+    url_id: 1649,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/electronic-jazz-blues-reflection-poetry-late-night-electronic-music",
+    title:
+      "Electronic Jazz Blues Reflection (poetry/late night electronic music) | Garry Franks | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3651206975,
+    tags: [2, 35, 1154, 2863, 141],
+  },
+  {
+    url_id: 1650,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/city-of-glows-poetry-electronic-music",
+    title:
+      "City Of Glows (poetry/electronic music) | Garry Franks | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 793876576,
+    tags: [627, 1, 3248, 3246, 2217, 3249, 141],
+  },
+  {
+    url_id: 1651,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/the-telephone-calls-samples-of-telephone-calls-set-to-kraftwerk-like-electronic-music",
+    title:
+      "The Telephone Calls (samples of telephone calls set to Kraftwerk-like electronic music) | Automated Voices | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2628697884,
+    tags: [786, 2991, 109, 3216, 3250, 141],
+  },
+  {
+    url_id: 1652,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/bird-chorus-continous-mix-birdsong-set-to-ambient-music",
+    title:
+      "Bird Chorus (Continous Mix) (birdsong set to Ambient Music) | various (features field recordings by Geoffrey Sample) | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1081573104,
+    tags: [2491, 3251, 3252, 141],
+  },
+  {
+    url_id: 1653,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/bird-chorus-birdsong-set-to-ambient-music",
+    title:
+      "Bird Chorus (Birdsong set to Ambient Music) | various (features field-recordings by Geoffrey Sample) | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2955108126,
+    tags: [3253, 3252, 494, 2197, 380, 141],
+  },
+  {
+    url_id: 1654,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/true-word-audio-poetry-poetry-set-to-music",
+    title:
+      "True Word (audio poetry/ poetry set to music)) | David Altair (Chameleon Jersey) | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 822332171,
+    tags: [3254, 141],
+  },
+  {
+    url_id: 1655,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/the-lark-ascending-audio-poem-also-set-to-electronic-ambient-music",
+    title:
+      "The Lark Ascending (Audio Poem/ also set to electronic ambient music) | David Altair | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 390443916,
+    tags: [3254, 141],
+  },
+  {
+    url_id: 1656,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/on-wenlock-edge-poem-set-to-electronic-ambient-music",
+    title:
+      "On Wenlock Edge (Poem set to Electronic Ambient music) | David Altair | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2728351201,
+    tags: [3254, 141],
+  },
+  {
+    url_id: 1657,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/from-dantes-paradiso-audio-poem-set-to-electronic-ambient-music",
+    title:
+      "from Dante`s Paradiso (audio poem & set to electronic ambient music | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2915707576,
+    tags: [141],
+  },
+  {
+    url_id: 1658,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/vocoder-suite-3-vocoder-poems-mixed-from-the-music-of-chameleon-jersey",
+    title:
+      "Vocoder Suite (3 vocoder poems mixed from the music of Chameleon Jersey) | garry franks | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3964406981,
+    tags: [1, 2, 3254, 3255, 141],
+  },
+  {
+    url_id: 1659,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/ecopolis-audio-eco-poem-set-to-electronic-ambient-music",
+    title:
+      "Ecopolis (Audio Eco Poem/Set to Electronic Ambient Music) | david altair | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3167694674,
+    tags: [786, 3254, 141],
+  },
+  {
+    url_id: 1660,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/omg",
+    title: "OMG | Garry Franks & The Love Machine | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 134344682,
+    tags: [786, 35, 3256, 2991, 109, 3254, 141],
+  },
+  {
+    url_id: 1661,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/funky-pluto-dancefloors-of-the-world-007",
+    title:
+      "Funky Pluto (Dancefloors Of The World 007) | A.V (automated voices) | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3635879555,
+    tags: [3257, 1659, 1663, 106, 2991, 564, 3258, 141],
+  },
+  {
+    url_id: 1662,
+    url: "https://beautyofrecordlabels.bandcamp.com/album/quay-club-music-inspired-by-newcastle-60s-beat-scene-including-music-by-paul-fisher",
+    title:
+      "Quay Club -Music Inspired By Newcastle 60`s Beat Scene (including music by Paul Fisher ) | various | Beauty Of Record Labels",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 867463563,
+    tags: [3259, 3260, 3261, 141],
+  },
+  {
+    url_id: 1663,
+    url: "https://outtallectuals.bandcamp.com/album/found-in-translation-vol-1-outta045",
+    title: "Found In Translation Vol.1 [OUTTA045] | Outtallectuals",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3394715051,
+    tags: [249, 1777, 3262, 1319, 866, 435, 558, 3107, 122],
+  },
+  {
+    url_id: 1664,
+    url: "https://xxiii.bandcamp.com/album/xxiii-volume-13",
+    title: "XXIII // VOLUME 13 | XXIII",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3509919738,
+    tags: [1, 523, 1993, 1994, 292, 892, 516, 1640, 1873],
+  },
+  {
+    url_id: 1665,
+    url: "https://kenmeier.bandcamp.com/album/unauthorized-zeditz-vol-1",
+    title: "Unauthorized Zeditz Vol.1 | Zcorpz | Ken Meier",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4175109168,
+    tags: [1, 516, 69],
+  },
+  {
+    url_id: 1666,
+    url: "https://kroba.bandcamp.com/album/work-it-out",
+    title: "Work It Out | Kroba",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2735126244,
+    tags: [54, 2, 239, 245, 50, 3263, 153, 497, 1231, 823, 69],
+  },
+  {
+    url_id: 1667,
+    url: "https://monofonicos.bandcamp.com/album/mnf050-douglas-fugazi-mar-de-la-tranquilidad",
+    title:
+      "MNF050 - Douglas Fugazi - Mar de la Tranquilidad | Douglas Fugazi | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1648714062,
+    tags: [1, 3264, 3265, 513, 109, 54, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1668,
+    url: "https://monofonicos.bandcamp.com/album/mnf-001-dsum-libertad-ep",
+    title: "MNF 001 - Dsum - Libertad EP | Dsum | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 168467743,
+    tags: [1069, 1, 29, 109, 54, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1669,
+    url: "https://monofonicos.bandcamp.com/album/mns-001-various-colores-fluidos",
+    title:
+      "MNS 001 - Various - Colores: Fluidos | Various Artists | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 663662305,
+    tags: [1069, 1, 29, 109, 54, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1670,
+    url: "https://monofonicos.bandcamp.com/album/mnf-002-figueroa-made-in-milk",
+    title:
+      "MNF 002 - Figueroa - Made In Milk | Figueroa | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2896882219,
+    tags: [1069, 1, 29, 516, 109, 54, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1671,
+    url: "https://monofonicos.bandcamp.com/album/mnf-003-vandelklang-joed-kleem-roundtrip",
+    title:
+      "MNF 003 - Vandelklang & Joed Kleem - Roundtrip! | Vandelklang & Joed Kleem | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 447443732,
+    tags: [1069, 1, 29, 516, 109, 54, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1672,
+    url: "https://monofonicos.bandcamp.com/album/mnf-004-qk-415",
+    title: "MNF 004 - Qk - 415 | Qk | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4163040166,
+    tags: [1069, 1, 29, 516, 109, 54, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1673,
+    url: "https://monofonicos.bandcamp.com/album/mnf-041-callejas-p-ramo",
+    title: "MNF 041 - Callejas - Páramo | Callejas | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4054409184,
+    tags: [
+      3267, 1, 29, 3268, 3269, 3270, 513, 109, 54, 29, 3271, 30, 516, 3266,
+    ],
+  },
+  {
+    url_id: 1674,
+    url: "https://monofonicos.bandcamp.com/album/mnf-042-afm-lonely-streets",
+    title: "MNF 042 - AFM - Lonely Streets | AFM | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2459456830,
+    tags: [3272, 1069, 1, 29, 3273, 1521, 109, 54, 1546, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1675,
+    url: "https://monofonicos.bandcamp.com/album/mne-014-therap-integration",
+    title: "MNE 014 - Therap - Integration | Therap | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1440033633,
+    tags: [1, 54, 30, 516, 3274, 109, 54, 1546, 29, 30, 516, 3266],
+  },
+  {
+    url_id: 1676,
+    url: "https://monofonicos.bandcamp.com/album/mne-015-m4kia-grayscale",
+    title: "MNE 015 - M4kia - Grayscale | M4kia | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1680065005,
+    tags: [1, 5, 109, 54, 29, 3273, 30, 3275, 516, 3266],
+  },
+  {
+    url_id: 1677,
+    url: "https://monofonicos.bandcamp.com/album/mnf-043-qk-for-my-cat",
+    title: "MNF 043 - Qk - For My Cat | QK | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 221393353,
+    tags: [1, 29, 1521, 516, 109, 54, 29, 3273, 30, 3275, 516, 3266],
+  },
+  {
+    url_id: 1678,
+    url: "https://monofonicos.bandcamp.com/album/mnf-044-m-a-l-a-selected-bass-works-vol-2",
+    title:
+      "MNF 044 - M.A.L.A - Selected Bass Works Vol. 2 | M.A.L.A | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2477120036,
+    tags: [1, 29, 1521, 516, 109, 54, 29, 3273, 30, 3275, 516, 3266],
+  },
+  {
+    url_id: 1679,
+    url: "https://monofonicos.bandcamp.com/album/mnf-045-cyanea-strepto-sonaris",
+    title: "MNF 045 / Cyanea - Strepto Sonaris | Cyanea | Monofónicos Netlabel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2364909110,
+    tags: [3276, 3270, 1, 3277, 3278, 109, 54, 1546, 29, 30, 3275, 516, 3266],
+  },
+  {
+    url_id: 1680,
+    url: "https://boombassbrothersmusic.bandcamp.com/album/free-junglist-ep-boombass-music",
+    title: "Free Junglist EP [Boombass Music] | Boombassbrothers",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3818924898,
+    tags: [338, 1, 292, 208, 291, 3279, 2040],
+  },
+  {
+    url_id: 1681,
+    url: "https://lovespiralsdownwards.bandcamp.com/album/little-drummer-boy-single",
+    title: "Little Drummer Boy (Single) | Love Spirals Downwards",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3156898179,
+    tags: [
+      8, 396, 338, 3280, 2760, 3281, 1270, 16, 45, 280, 109, 149, 3282, 3283,
+      32,
+    ],
+  },
+  {
+    url_id: 1682,
+    url: "https://galcherlustwerk.bandcamp.com/album/information-redacted",
+    title: "Information (Redacted) | Galcher Lustwerk",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 469283255,
+    tags: [1, 1069, 16, 29, 21, 245, 139, 823, 69],
+  },
+  {
+    url_id: 1683,
+    url: "https://lavidaesunmus.bandcamp.com/album/working-out-in-heaven",
+    title: "Working Out In Heaven | Brorlab | LA VIDA ES UN MUS DISCOS",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 388445566,
+    tags: [3284, 3285, 117, 2438, 118, 305, 121, 50, 122],
+  },
+  {
+    url_id: 1684,
+    url: "https://hcbaxxter.bandcamp.com/album/4-album",
+    title: "4. Album | HC BAXXTER",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2574953064,
+    tags: [1, 117, 766, 516, 257, 3286, 3287],
+  },
+  {
+    url_id: 1685,
+    url: "https://mommaswift.bandcamp.com/album/the-wild-is-calling-to-our-minds",
+    title: "The Wild Is Calling To Our Minds | Momma Swift",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1750887560,
+    tags: [237, 117, 3288, 2841, 1003, 2788, 2347],
+  },
+  {
+    url_id: 1686,
+    url: "https://rentstrike.bandcamp.com/album/rent-strike",
+    title: "RENT STRIKE!! | RENT STRIKE",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2639954241,
+    tags: [8, 117, 547, 3289, 1003, 132, 53, 1961],
+  },
+  {
+    url_id: 1687,
+    url: "https://owtunes.bandcamp.com/album/ow",
+    title: "Ow! | The Ow! Collective",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3253624480,
+    tags: [8, 311, 374, 3290, 117, 3291, 44],
+  },
+  {
+    url_id: 1688,
+    url: "https://rvivr.bandcamp.com/album/the-beauty-between",
+    title: "The Beauty Between | RVIVR",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4047227165,
+    tags: [117, 1012, 3292, 117, 3293, 3294, 3295, 200],
+  },
+  {
+    url_id: 1689,
+    url: "https://thedappercadavers.bandcamp.com/album/regarde",
+    title: "Regarde | The Dapper Cadavers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3646941397,
+    tags: [374, 3296, 3297, 542],
+  },
+  {
+    url_id: 1690,
+    url: "https://timecrashers.bandcamp.com/album/ep-isode-2-the-edison-paradox",
+    title: "EP-isode 2: The Edison Paradox | Time Crashers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4010895447,
+    tags: [589, 3298, 3299, 117, 192, 318, 3300, 317, 318, 3301, 3302],
+  },
+  {
+    url_id: 1691,
+    url: "https://friendshouserecords.bandcamp.com/album/our-friends-house-vol-2-3",
+    title: "our friend's house​... Vol. 2 <3 | friend's house records",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2934830433,
+    tags: [3303, 237, 3304, 389, 311, 3305, 3306, 128, 2579, 44],
+  },
+  {
+    url_id: 1692,
+    url: "https://sharkbitespite.bandcamp.com/album/valentine-c-w-pink-lamp",
+    title: "valentine c/w pink lamp | shark bite spite",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1681790156,
+    tags: [8, 1164],
+  },
+  {
+    url_id: 1693,
+    url: "https://shittykickflips.bandcamp.com/album/everything-rocks-forever",
+    title: "EVERYTHING ROCKS!!! ...FOREVER?! | shitty kickflips",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 449770972,
+    tags: [117, 466, 3307, 2379, 3308, 128, 3309, 307, 3310],
+  },
+  {
+    url_id: 1694,
+    url: "https://patriciataxxon.bandcamp.com/album/gelb",
+    title: "Gelb | Patricia Taxxon",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3325240455,
+    tags: [106, 54, 443, 769, 96, 640],
+  },
+  {
+    url_id: 1695,
+    url: "https://patriciataxxon.bandcamp.com/album/rainbow-road",
+    title: "Rainbow Road | Patricia Taxxon",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 560227785,
+    tags: [54, 2, 643, 315, 640],
+  },
+  {
+    url_id: 1696,
+    url: "https://patriciataxxon.bandcamp.com/album/gallery",
+    title: "Gallery | Patricia Taxxon",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4099491487,
+    tags: [54, 5, 3311, 2, 229, 640],
+  },
+  {
+    url_id: 1697,
+    url: "https://patriciataxxon.bandcamp.com/album/nostalgia-2",
+    title: "Nostalgia | Patricia Taxxon",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1535955058,
+    tags: [54, 2, 3312, 1624, 640],
+  },
+  {
+    url_id: 1698,
+    url: "https://lifeformed.bandcamp.com/album/fastfall",
+    title: "Fastfall | Lifeformed",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2118918607,
+    tags: [
+      753, 1, 2, 470, 174, 466, 2722, 2720, 544, 25, 763, 223, 97, 1196, 2914,
+    ],
+  },
+  {
+    url_id: 1699,
+    url: "https://helenganya.bandcamp.com/album/share-your-care",
+    title: "Share Your Care | Helen Ganya",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1667870042,
+    tags: [8, 1, 134, 2347],
+  },
+  {
+    url_id: 1700,
+    url: "https://kristindaelyn.bandcamp.com/album/beyond-the-break",
+    title: "Beyond the Break | Kristin Daelyn",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3101117882,
+    tags: [374, 35, 3313, 374, 47, 247],
+  },
+  {
+    url_id: 1701,
+    url: "https://oneeyedbastardfrog.bandcamp.com/album/moving-clocks",
+    title: "moving clocks | One Eyed Bastard Frog",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1486444546,
+    tags: [
+      1, 133, 310, 58, 2456, 3314, 109, 311, 54, 3315, 5, 132, 3316, 2949, 12,
+      3317,
+    ],
+  },
+  {
+    url_id: 1702,
+    url: "https://binarydeconstructed.bandcamp.com/album/--6",
+    title: "私の魂は街を歩く | binary deconstructed",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3648027930,
+    tags: [2, 358, 90, 187, 3318, 3319, 92, 356],
+  },
+  {
+    url_id: 1703,
+    url: "https://psicadence.bandcamp.com/album/--9",
+    title: "夏の愛 | Psicadence",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4251220453,
+    tags: [2, 101, 1, 54, 90, 3320, 187, 92, 2930],
+  },
+  {
+    url_id: 1704,
+    url: "https://digitalparadisecity.bandcamp.com/album/--10",
+    title: "彼​女​は​天​使 | デジタル楽園都市",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3343069436,
+    tags: [2],
+  },
+  {
+    url_id: 1705,
+    url: "https://digitalparadisecity.bandcamp.com/album/--18",
+    title: "昼間 | デジタル楽園都市",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 844900484,
+    tags: [2],
+  },
+  {
+    url_id: 1706,
+    url: "https://digitalparadisecity.bandcamp.com/album/--19",
+    title: "目的地に向かって | デジタル楽園都市",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 14149993,
+    tags: [2],
+  },
+  {
+    url_id: 1707,
+    url: "https://digitalparadisecity.bandcamp.com/album/--21",
+    title: "明日の夜 | デジタル楽園都市",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3202257320,
+    tags: [2],
+  },
+  {
+    url_id: 1708,
+    url: "https://digitalparadisecity.bandcamp.com/album/--22",
+    title: "深い集中 | デジタル楽園都市",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 683453330,
+    tags: [2],
+  },
+  {
+    url_id: 1709,
+    url: "https://digitalparadisecity.bandcamp.com/album/--20",
+    title: "日常のリズム | デジタル楽園都市",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3865943499,
+    tags: [2],
+  },
+  {
+    url_id: 1710,
+    url: "https://moisturizingcream.bandcamp.com/album/leaving-with-love",
+    title: "Leaving with Love | moisturizing cream",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2865381472,
+    tags: [1, 428, 92, 1341],
+  },
+  {
+    url_id: 1711,
+    url: "https://noproblematapes.bandcamp.com/album/no-problema-presents-hallworth-collective",
+    title:
+      "天堂山：最精美的收藏 (No Problema presents... Hallworth Collective) | 天堂山 | NO PROBLEMA TAPES",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1978763274,
+    tags: [2, 470, 3321, 187, 92, 105],
+  },
+  {
+    url_id: 1712,
+    url: "https://madbreaks.bandcamp.com/album/negi-assort-y",
+    title: "negi assort Y+ | toyod ine | MAD BREAKS",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4167638707,
+    tags: [1, 108, 273, 292, 727, 3322, 945],
+  },
+  {
+    url_id: 1713,
+    url: "https://midnightfrequency.bandcamp.com/album/-",
+    title:
+      "Ｏ​ｒ​ｂ​ｉ​ｔ​ａ​ｌ​Ｌ​ｏ​ｃ​ａ​ｔ​ｉ​ｏ​ｎ | International Telecom | midnight frequency",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 641978141,
+    tags: [54, 1154, 186, 92, 112],
+  },
+  {
+    url_id: 1714,
+    url: "https://cinematicsequences.bandcamp.com/album/workprint-2024-mc",
+    title: "Workprint 2024-MC | Cinematic Sequences",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 513277690,
+    tags: [1, 1893, 1894, 1895, 90, 92, 625],
+  },
+  {
+    url_id: 1715,
+    url: "https://ragnarok8.bandcamp.com/album/tonight-you",
+    title: "Tonight.....You | R85O",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 258700320,
+    tags: [1, 92, 2, 187],
+  },
+  {
+    url_id: 1716,
+    url: "https://thefatrat.bandcamp.com/album/parallax",
+    title: "PARALLAX | TheFatRat",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2651916603,
+    tags: [1, 856, 109, 849, 132, 3323, 3324],
+  },
+  {
+    url_id: 1717,
+    url: "https://mikeljakobi.bandcamp.com/album/zelda-chill",
+    title: "Zelda & Chill | Mikel",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2495407455,
+    tags: [
+      95, 1201, 56, 360, 94, 21, 128, 3325, 1200, 1734, 1202, 3326, 3327, 1203,
+      1204,
+    ],
+  },
+  {
+    url_id: 1718,
+    url: "https://peppsen.bandcamp.com/album/rimworld",
+    title: "RimWorld | Peppsen",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1176456916,
+    tags: [25, 3328, 470, 25, 97, 3329],
+  },
+  {
+    url_id: 1719,
+    url: "https://scarf005.bandcamp.com/album/synthwave-set-of-magical-astronomy-2",
+    title: "Synthwave Set Of Magical Astronomy | scarf",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1228465699,
+    tags: [1, 174, 835, 315, 1210, 3330, 1756, 1476],
+  },
+  {
+    url_id: 1720,
+    url: "https://someone45356.bandcamp.com/album/combi-de-touhou",
+    title: "Combi de Touhou | Someone45356",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 32453301,
+    tags: [568, 3331, 1589, 1168, 374, 3068, 1210, 3330, 1756, 3332],
+  },
+  {
+    url_id: 1721,
+    url: "https://blackdresses.bandcamp.com/album/laughingfish",
+    title: "LAUGHINGFISH | Black Dresses",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1447482211,
+    tags: [8, 1, 57, 778, 318, 1257],
+  },
+  {
+    url_id: 1722,
+    url: "https://blacksquares.bandcamp.com/album/rockstar-super-heat",
+    title: "Rockstar Super Heat | Anarchy 99 | Devi McCallion",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 733503715,
+    tags: [8, 1, 3333, 96, 192, 3334, 1257],
+  },
+  {
+    url_id: 1723,
+    url: "https://armpittermites.bandcamp.com/album/cometothebathroom-ep",
+    title: "cometothebathroom ep | ARMPIT TERMITES",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2084850340,
+    tags: [1, 16, 109, 3335, 356],
+  },
+  {
+    url_id: 1724,
+    url: "https://beansclub.bandcamp.com/album/bootleg-tape-vol-2",
+    title: "bootleg tape vol.2 | beansclub",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3526181761,
+    tags: [1, 343, 1410, 798, 257, 1411, 1413],
+  },
+  {
+    url_id: 1725,
+    url: "https://paperceilings.bandcamp.com/album/so-many-dogs",
+    title: "So Many Dogs! | Paper Ceilings",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2357203574,
+    tags: [192, 3336, 134, 48, 314, 3334, 3337],
+  },
+  {
+    url_id: 1726,
+    url: "https://sabach.bandcamp.com/album/made-up-memories",
+    title: "Made Up Memories | The Middle Initials | S.A. Bach",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2331738980,
+    tags: [192, 3338, 9, 3289, 1737, 46, 134, 48, 192, 53, 3339],
+  },
+  {
+    url_id: 1727,
+    url: "https://sabach.bandcamp.com/album/snooze-fest",
+    title: "Snooze Fest | S.A. Bach",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 902032992,
+    tags: [
+      547, 1327, 192, 8, 1514, 9, 3289, 1737, 1003, 132, 47, 134, 48, 3340, 403,
+      53, 3339,
+    ],
+  },
+  {
+    url_id: 1728,
+    url: "https://djkennetha.bandcamp.com/album/shadows-in-the-deep-feat-manoptic",
+    title: "Shadows in the Deep (feat Manoptic) | DJ Kenneth A",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2929256647,
+    tags: [106, 1, 3341, 148, 291, 280, 3342, 109, 3343, 207, 792, 257, 888],
+  },
+  {
+    url_id: 1729,
+    url: "https://mute-city.bandcamp.com/album/plague-cave",
+    title: "Plague Cave | Mute City",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1477663415,
+    tags: [1, 5, 2, 684, 21, 407, 3344, 408],
+  },
+  {
+    url_id: 1730,
+    url: "https://globalpattern.bandcamp.com/album/sleep-better",
+    title: "SLEEP BETTER | Denis Tremblay | 𝔾𝕃𝕆𝔹𝔸𝕃 ℙ𝔸𝕋𝕋𝔼ℝℕ",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 404343024,
+    tags: [1, 167, 3345, 42, 353, 1876, 425, 416, 380, 92, 1879, 506],
+  },
+  {
+    url_id: 1731,
+    url: "https://byeproduct.bandcamp.com/album/jazz",
+    title: "JAZZ | Bye-Product",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3877147278,
+    tags: [1, 276, 429, 127, 90, 92, 93],
+  },
+  {
+    url_id: 1732,
+    url: "https://christtt.bandcamp.com/album/bootcamp",
+    title: "bootcamp | christtt",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1487718721,
+    tags: [1, 90, 91, 92, 93],
+  },
+  {
+    url_id: 1733,
+    url: "https://christtt.bandcamp.com/album/clubmix002",
+    title: "clubmix002 | christtt",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2934473145,
+    tags: [1, 90, 91, 92, 93],
+  },
+  {
+    url_id: 1734,
+    url: "https://christtt.bandcamp.com/album/christtt-skylive-24-6-16-24",
+    title: "christtt @ SKYLIVE '24 6/16/24 | christtt",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1980750835,
+    tags: [1, 90, 91, 92, 93],
+  },
+  {
+    url_id: 1735,
+    url: "https://christtt.bandcamp.com/album/christtt-flamingofest-2023-11-4-23",
+    title: "christtt @ FLAMINGOFEST 2023 11/4/23 | christtt",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 418334154,
+    tags: [1, 90, 91, 92, 93],
+  },
+  {
+    url_id: 1736,
+    url: "https://christtt.bandcamp.com/album/collision-pittsburgh-11-9-21",
+    title: "아버지 @ Collision Pittsburgh 11/9/21 | 아버지 | christtt",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 562690831,
+    tags: [1, 90, 91, 92, 93],
+  },
+  {
+    url_id: 1737,
+    url: "https://christtt.bandcamp.com/album/chris-livewire-festival-ii-7-18-20",
+    title: "chris††† @ LIVEWIRE FESTIVAL II 7/18/20 | chris††† | christtt",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 188889651,
+    tags: [1, 90, 91, 92, 93],
+  },
+  {
+    url_id: 1738,
+    url: "https://katsumashii.bandcamp.com/album/written-in-stone",
+    title: "Written in Stone | katsumashi",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4243949127,
+    tags: [8, 612, 3346, 389, 54, 132, 48, 21, 3347, 152, 617, 1760, 1500],
+  },
+  {
+    url_id: 1739,
+    url: "https://conlangcritic.bandcamp.com/album/entertaining-sound-2017",
+    title: "entertaining sound (2017) | jan Misali",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3703895050,
+    tags: [25, 3348, 3349],
+  },
+  {
+    url_id: 1740,
+    url: "https://janusawi.bandcamp.com/album/jan-ale-lon-ma",
+    title: "jan ale lon ma | jan Usawi",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3731365582,
+    tags: [96, 133, 1212, 1489, 53, 1490, 959],
+  },
+  {
+    url_id: 1741,
+    url: "https://protodome.bandcamp.com/album/blueshift",
+    title: "BLUESHIFT | PROTODOME",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 165391187,
+    tags: [
+      753, 633, 466, 1, 429, 132, 21, 245, 2944, 3350, 2575, 21, 2585, 160,
+      3351, 141,
+    ],
+  },
+  {
+    url_id: 1742,
+    url: "https://purrplecat.bandcamp.com/album/indigo-dreams",
+    title: "Indigo Dreams | Purrple Cat",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4017624337,
+    tags: [
+      95, 686, 1201, 2, 56, 681, 470, 16, 135, 128, 229, 2197, 2691, 482, 356,
+    ],
+  },
+  {
+    url_id: 1743,
+    url: "https://counterpartshc.bandcamp.com/album/tragedy-will-find-us",
+    title: "Tragedy Will Find Us | Counterparts",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2450673055,
+    tags: [301, 3178, 190, 661, 117, 2806],
+  },
+  {
+    url_id: 1744,
+    url: "https://cloudkicker.bandcamp.com/album/fade",
+    title: "Fade | Cloudkicker",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3312279518,
+    tags: [190, 2, 21, 152, 12, 1848],
+  },
+  {
+    url_id: 1745,
+    url: "https://cloudkicker.bandcamp.com/album/subsume",
+    title: "Subsume | Cloudkicker",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2481989016,
+    tags: [190, 2, 21, 502, 1848],
+  },
+  {
+    url_id: 1746,
+    url: "https://geoffplaysguitar.bandcamp.com/album/kirbstomp-sparkles-sprinkles-blood",
+    title: "KiRBSTOMP - Sparkles, Sprinkles, Blood | geoffplaysguitar",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1168732157,
+    tags: [25, 3352, 3353, 97, 3354, 3355, 356],
+  },
+  {
+    url_id: 1747,
+    url: "https://nicolasdominique.bandcamp.com/album/vortex",
+    title: "VORTEX | Nicolas Dominique",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4275892615,
+    tags: [338, 1, 1209, 3356, 3357, 331, 3358, 257, 685],
+  },
+  {
+    url_id: 1748,
+    url: "https://balloonparty.bandcamp.com/album/after-party",
+    title: "After Party | Balloon Party (Aviators' Group) | Balloon Party",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2603170696,
+    tags: [1, 356],
+  },
+  {
+    url_id: 1749,
+    url: "https://electrokaplosion.bandcamp.com/album/the-epitome-of-flight-deluxe-edition",
+    title: "The Epitome of Flight (Deluxe Edition) | ElectroKaplosion",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 910570147,
+    tags: [1, 276, 132, 1231, 823, 784],
+  },
+  {
+    url_id: 1750,
+    url: "https://soundoftheaviators.bandcamp.com/album/aeterno-rewind-ep",
+    title: "Aeterno: REWIND - EP | Aviators",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3902038266,
+    tags: [8, 1089, 1213, 192, 160, 207, 1214],
+  },
+  {
+    url_id: 1751,
+    url: "https://soundoftheaviators.bandcamp.com/album/constellations-single",
+    title: "Constellations - Single | Aviators",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1549044888,
+    tags: [
+      3359, 8, 3360, 3361, 1089, 3362, 3363, 3364, 1213, 192, 3365, 160, 1214,
+    ],
+  },
+  {
+    url_id: 1752,
+    url: "https://paranoiddj.bandcamp.com/album/paranoid-rework-ep",
+    title: "PARANOiD Rework EP | PARANOiD DJ",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1181615391,
+    tags: [1, 785, 29, 96, 496, 411],
+  },
+  {
+    url_id: 1753,
+    url: "https://virt.bandcamp.com/album/strike-the-earth-shovel-knight-arranged",
+    title: "Strike the Earth! Shovel Knight Arranged | Jake Kaufman",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1704234545,
+    tags: [1, 2722, 222, 2936, 2938, 32],
+  },
+  {
+    url_id: 1754,
+    url: "https://ultimusic.bandcamp.com/album/adachiwave",
+    title: "AdachiWave | Ultima",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3520554747,
+    tags: [8, 2458, 3366, 192, 3367, 429, 245, 3368, 192, 223],
+  },
+  {
+    url_id: 1755,
+    url: "https://jamiepaige.bandcamp.com/album/butcher-vanity",
+    title: "BUTCHER VANITY | Flavor Foley | Jamie Paige",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3993719261,
+    tags: [96, 3369, 1798, 1, 2541, 335, 3370, 2328],
+  },
+  {
+    url_id: 1756,
+    url: "https://jamiepaige.bandcamp.com/album/jamie-p-jam-pack-march-2024",
+    title: "Jamie P Jam Pack - March 2024 | Jamie Paige",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1812863319,
+    tags: [96, 1798, 1, 2541, 335, 2328],
+  },
+  {
+    url_id: 1757,
+    url: "https://flowerranger.bandcamp.com/album/termagant-sword",
+    title: "Termagant Sword | Flower Ranger",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2663615364,
+    tags: [96, 3371, 3372, 3373, 93],
+  },
+  {
+    url_id: 1758,
+    url: "https://heelsmemphis.bandcamp.com/album/even-if-its-nothing-its-something",
+    title: "Even If It's Nothing, It's Something | HEELS",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3751181343,
+    tags: [117, 1233, 564, 1012, 3374],
+  },
+  {
+    url_id: 1759,
+    url: "https://palaceinthunderland.bandcamp.com/album/into-the-maelstrom",
+    title: "Into The Maelstrom | Palace In Thunderland",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3895644343,
+    tags: [192, 2029, 2028, 195, 51, 1145, 3339],
+  },
+  {
+    url_id: 1760,
+    url: "https://themillers.bandcamp.com/album/complete-demos",
+    title: "Complete Demos | The Millers",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3959845328,
+    tags: [8, 311, 301, 48, 3375],
+  },
+  {
+    url_id: 1761,
+    url: "https://snakethursday.bandcamp.com/album/iter",
+    title: "Iter | Snake Thursday",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 225744728,
+    tags: [192, 1671, 623, 3376, 192, 1145, 1360, 2029, 3377],
+  },
+  {
+    url_id: 1762,
+    url: "https://stonefromthesky.bandcamp.com/album/songs-from-the-deepwater",
+    title: "Songs From The Deepwater | Stone From The Sky",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1592714202,
+    tags: [2, 1681, 151, 50, 1145, 3378],
+  },
+  {
+    url_id: 1763,
+    url: "https://prfmonthlytributeseries.bandcamp.com/album/october-2024-neutral-milk-hotel",
+    title: "October 2024: Neutral Milk Hotel | PRF Monthly Tribute Series",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4215679909,
+    tags: [192, 3379, 112],
+  },
+  {
+    url_id: 1764,
+    url: "https://prfmonthlytributeseries.bandcamp.com/album/june-2016-fleetwood-mac",
+    title: "June 2016: Fleetwood Mac | PRF Monthly Tribute Series",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4218659163,
+    tags: [192, 3379, 112],
+  },
+  {
+    url_id: 1765,
+    url: "https://prfmonthlytributeseries.bandcamp.com/album/december-2021-joni-mitchell",
+    title: "December 2021: Joni Mitchell | PRF Monthly Tribute Series",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2494730329,
+    tags: [192, 3379, 112],
+  },
+  {
+    url_id: 1766,
+    url: "https://vietnamii.bandcamp.com/album/crimewave",
+    title: "Crimewave | Vietnam II",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 732173953,
+    tags: [8, 3146, 228, 3380, 2379, 134, 48, 3381, 3146, 69],
+  },
+  {
+    url_id: 1767,
+    url: "https://vietnamii.bandcamp.com/album/i-wouldnt-want-to-disappoint-you-by-not-disappointing-you",
+    title:
+      "I Wouldn't Want To Disappoint You By Not Disappointing You | Vietnam II",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 404520883,
+    tags: [8, 3146, 3382, 3383, 3384, 3380, 2379, 134, 48, 3381, 69],
+  },
+  {
+    url_id: 1768,
+    url: "https://thefuckedupbeat.bandcamp.com/album/investigates-strange-weather-patterns-and-the-ufo-cults-of-cold-war-nevada-ii",
+    title:
+      "Investigates Strange Weather Patterns and the UFO Cults of Cold War Nevada II | The Fucked Up Beat",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2205543140,
+    tags: [54, 3385, 3386, 228, 3380, 1440, 245, 1200, 3387, 138, 357, 608, 69],
+  },
+  {
+    url_id: 1769,
+    url: "https://marthadiy.bandcamp.com/album/sycamore",
+    title: "Sycamore | Martha",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3644678822,
+    tags: [237, 96, 134, 48, 1026, 117, 1012, 3388],
+  },
+  {
+    url_id: 1770,
+    url: "https://marthadiy.bandcamp.com/album/martha",
+    title: "Martha | Martha",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3543231275,
+    tags: [96, 134, 3389, 48, 96, 314, 1026, 1012, 3388],
+  },
+  {
+    url_id: 1771,
+    url: "https://tobyfoster.bandcamp.com/album/on-moving-and-standing-still",
+    title: "On Moving and Standing Still | Toby Foster",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 197091374,
+    tags: [547, 96, 314, 1026, 117, 3390],
+  },
+  {
+    url_id: 1772,
+    url: "https://daveydynamite.bandcamp.com/album/waitt",
+    title: "WAITT | Davey Dynamite and Friends | Davey Dynamite",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 627670936,
+    tags: [1422, 374, 1003, 117, 1012, 3391, 112],
+  },
+  {
+    url_id: 1773,
+    url: "https://spoonboy.bandcamp.com/album/i-love-you-this-is-a-robbery",
+    title: "I Love You, This is a Robbery | Spoonboy",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 966048586,
+    tags: [192, 547, 1003, 134, 1106, 96, 117, 3392, 3393],
+  },
+  {
+    url_id: 1774,
+    url: "https://killdren.bandcamp.com/album/overkill-is-underrated",
+    title: "Overkill is Underrated | Killdren",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 719429685,
+    tags: [1, 117, 273, 28, 766, 3394, 3395],
+  },
+  {
+    url_id: 1775,
+    url: "https://nyxfears.bandcamp.com/album/halloween-is-every-day",
+    title: "Halloween Is Every Day | May Leitz",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3793328222,
+    tags: [8, 443, 117, 45, 2379, 96, 3396],
+  },
+  {
+    url_id: 1776,
+    url: "https://unwoman.bandcamp.com/album/circling",
+    title: "Circling | Unwoman",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3886889946,
+    tags: [
+      3397, 3398, 96, 3399, 1736, 1737, 1270, 3400, 276, 2841, 1010, 1051, 3401,
+      146,
+    ],
+  },
+  {
+    url_id: 1777,
+    url: "https://johnoswald.bandcamp.com/album/sonatas-and-interludes-by-john-cage-for-prepared-piano",
+    title:
+      "Sonatas and Interludes by John Cage for prepared piano | Henry Kucharzyk | rascali klepitoire",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3060747354,
+    tags: [202, 90, 3402, 3403, 1954, 3404, 114],
+  },
+  {
+    url_id: 1778,
+    url: "https://bogwizard.bandcamp.com/album/journey-through-the-dying-lands",
+    title: "Journey Through the Dying Lands | Bog Wizard",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1961064987,
+    tags: [1808, 190, 367, 194, 246, 3405, 372, 25, 2039, 361],
+  },
+  {
+    url_id: 1779,
+    url: "https://thedeadflowersgraves.bandcamp.com/album/elemento",
+    title: "ELEMENTO | The Dead Flowers Graves",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3028272126,
+    tags: [190, 194, 3406, 3407, 624, 3408, 1162],
+  },
+  {
+    url_id: 1780,
+    url: "https://muddy1.bandcamp.com/album/the-rehearsal-demos",
+    title: "The Rehearsal Demos | Muddy",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1466923908,
+    tags: [8, 367, 192, 2029, 2029, 1435],
+  },
+  {
+    url_id: 1781,
+    url: "https://ugabuga.bandcamp.com/album/year-of-the-hog",
+    title: "Year Of The Hog | Üga Büga",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3258594945,
+    tags: [623, 3409, 192, 624, 372, 2039, 3410],
+  },
+  {
+    url_id: 1782,
+    url: "https://shotgunfacelift1.bandcamp.com/album/red-river-flood",
+    title: "Red River Flood | Shotgun Facelift",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 59580188,
+    tags: [3411, 623, 624, 190, 661, 1465, 3412],
+  },
+  {
+    url_id: 1783,
+    url: "https://woodchickens.bandcamp.com/album/skunk-ape-7",
+    title: 'Skunk Ape 7" | Wood Chickens',
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2159869972,
+    tags: [3413, 117, 3414, 3415, 51, 3416, 3417],
+  },
+  {
+    url_id: 1784,
+    url: "https://shiru8bit.bandcamp.com/album/system-beeps",
+    title: "System Beeps | shiru8bit",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3989078745,
+    tags: [3418, 3419, 633, 1, 466, 3420, 3421, 3422, 1231, 223, 1731],
+  },
+  {
+    url_id: 1785,
+    url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-76-dungeon-rave",
+    title: "HDK 76 † Dungeon Rave | LUCIFER ANALOG | Heimat Der Katastrophe",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2186883081,
+    tags: [1, 1624, 25, 1625],
+  },
+  {
+    url_id: 1786,
+    url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-21-avventura-nel-castello",
+    title:
+      "HDK 21 † Avventura nel castello | 1Kbyte DUNGEON | Heimat Der Katastrophe",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3568960096,
+    tags: [753, 3423, 1, 1624, 25, 3424, 1625],
+  },
+  {
+    url_id: 1787,
+    url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-27-vette-inquiete",
+    title:
+      "HDK 27 † Vette inquiete | SIDEREAL FORTRESS | Heimat Der Katastrophe",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 377119477,
+    tags: [1, 1624, 25, 1625],
+  },
+  {
+    url_id: 1788,
+    url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-30-the-druids-apprentices",
+    title:
+      "HDK 30 † The druid's apprentices | WITHMARRH | Heimat Der Katastrophe",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1571159963,
+    tags: [1, 1624, 25, 1625],
+  },
+  {
+    url_id: 1789,
+    url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-25-the-short-and-foolish-quest-of-sylovar-and-hrud",
+    title:
+      "HDK 25 † The short and foolish quest of Sylovar and Hrud | SILENCIO PERMANENTE | Heimat Der Katastrophe",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2400502866,
+    tags: [1, 1624, 353, 25, 1625],
+  },
+  {
+    url_id: 1790,
+    url: "https://heimatderkatastrophe.bandcamp.com/album/hdk-50-the-village-in-the-frozen-mountains",
+    title:
+      "HDK 50 † The village in the frozen mountains | KOBOLD | Heimat Der Katastrophe",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1118798280,
+    tags: [1, 1624, 25, 1625],
+  },
+  {
+    url_id: 1791,
+    url: "https://tabbymusic.bandcamp.com/album/volume-alpha-64",
+    title: "Volume Alpha 64 | TABBY",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1612584903,
+    tags: [3425, 1, 2, 3426, 3427, 25, 3428, 763, 2727],
+  },
+  {
+    url_id: 1792,
+    url: "https://odysseymusic.bandcamp.com/album/super-ponybeat-vol-1-alternate-versions",
+    title:
+      "Super Ponybeat Vol.1 [ALTERNATE VERSIONS] | Eurobeat Brony | Odyssey Eurobeat",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3328296433,
+    tags: [
+      2802, 1, 201, 1223, 310, 622, 109, 2803, 1225, 191, 3429, 531, 192, 516,
+      1393,
+    ],
+  },
+  {
+    url_id: 1793,
+    url: "https://ponyphonic.bandcamp.com/album/heart-in-a-cloud",
+    title: "Heart in a Cloud | ponyphonic",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3144470991,
+    tags: [1225, 96, 1223, 3430, 96, 53, 3431],
+  },
+  {
+    url_id: 1794,
+    url: "https://radiarc.bandcamp.com/album/void-album",
+    title: "Void (album) | Radiarc",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 88433346,
+    tags: [148, 25, 210, 1774, 207, 219, 1338],
+  },
+  {
+    url_id: 1795,
+    url: "https://marumaru.bandcamp.com/album/lb02",
+    title: "LB02 | lucky beast | marumaru",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 636101115,
+    tags: [
+      1, 29, 2, 1007, 99, 16, 109, 1489, 1319, 3432, 152, 545, 3433, 153, 752,
+    ],
+  },
+  {
+    url_id: 1796,
+    url: "https://amen-tal.bandcamp.com/album/amen-tal-v-a-amen01-12-2007",
+    title: 'Amen-tal - V/A - Amen01 - 12"(2007) | Amen-tal',
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 719197411,
+    tags: [745, 273, 746, 54, 292, 747, 748],
+  },
+  {
+    url_id: 1797,
+    url: "https://doesitbang.bandcamp.com/album/rave-beans-2",
+    title: "RAVE BEANS | DJ PLEASE | DoesitBANG?",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1331403356,
+    tags: [106, 1, 785, 5, 469, 3434, 3435, 273, 803, 288, 766, 516, 339],
+  },
+  {
+    url_id: 1798,
+    url: "https://suckpuckcompillations.bandcamp.com/album/frozen-ass-collection-vol-2",
+    title: "FROZEN ASS COLLECTION vol.2 | Suck Puck Compilations",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 64162005,
+    tags: [1, 107, 273, 466, 803, 644, 301, 292, 2882, 2883],
+  },
+  {
+    url_id: 1799,
+    url: "https://ritchrd.bandcamp.com/album/be-the-one-feel-the-beat",
+    title: "BE THE ONE / FEEL THE BEAT | RITCHRD",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1185878403,
+    tags: [1, 290, 564, 29, 292, 516, 339],
+  },
+  {
+    url_id: 1800,
+    url: "https://lorisms.bandcamp.com/album/latinarab-edits",
+    title: "LatinArab Edits | Loris",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3081524755,
+    tags: [1, 731, 558, 864, 3436, 292, 568, 516, 945],
+  },
+  {
+    url_id: 1801,
+    url: "https://wearesanto.bandcamp.com/album/edit-pack-by-santo-vol-7",
+    title: "EDIT PACK by SANTO vol 7 | SANTO",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 198897174,
+    tags: [539, 537, 131, 95, 29, 920, 925],
+  },
+  {
+    url_id: 1802,
+    url: "https://djmurderclub.bandcamp.com/album/patreon-anti-club-tools-pack-2025",
+    title: "PATREON - ANTI-CLUB TOOLS PACK [2025] | MURDER CLUB",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3661659435,
+    tags: [1, 882, 787, 58, 477, 343, 1257],
+  },
+  {
+    url_id: 1803,
+    url: "https://djkdeucez.bandcamp.com/album/campaign",
+    title: "CAMPAIGN | K-Deucez | Dj K-Deucez",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1529911133,
+    tags: [1, 94, 3437, 477, 139, 901, 356],
+  },
+  {
+    url_id: 1804,
+    url: "https://djsliink.bandcamp.com/album/dj-sliink-the-mystery-pack",
+    title: "DJ Sliink - The Mystery Pack ? | DJ Sliink",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2998619650,
+    tags: [900, 1, 477, 901, 902, 792, 903],
+  },
+  {
+    url_id: 1805,
+    url: "https://djsliink.bandcamp.com/album/dj-sliink-112-anywhere-exclusive-sample-pack-140-bpm-w-individual-song-purchase-option",
+    title:
+      "DJ Sliink - 112 Anywhere [Exclusive Sample Pack]140 BPM w/ Individual Song Purchase Option* | DJ Sliink",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1355798961,
+    tags: [3438, 900, 1, 477, 3439, 901, 902, 792, 2921, 3440, 903],
+  },
+  {
+    url_id: 1806,
+    url: "https://chamos.bandcamp.com/album/5k-riddim-pack",
+    title: "5K Riddim Pack | CHAMOS",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4288362341,
+    tags: [558, 862, 863, 539, 469, 861, 7],
+  },
+  {
+    url_id: 1807,
+    url: "https://keysnkratesknk.bandcamp.com/album/flips-vol-1",
+    title: "Flips Vol 1 | Keys N Krates",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3271311144,
+    tags: [1, 476, 131, 94, 29, 478, 139, 479, 56, 792, 482, 1257],
+  },
+  {
+    url_id: 1808,
+    url: "https://tmshallibrukit.bandcamp.com/album/lotsa-luvin-riddim",
+    title: "Lotsa Luvin Riddim | Dub Large! | ™Shall I Bruk It",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 124573434,
+    tags: [1067, 1068, 1, 29, 245, 122],
+  },
+  {
+    url_id: 1809,
+    url: "https://wajang.bandcamp.com/album/baile-do-satyr-2",
+    title: "Baile do Satyr | Amor Satyr | WAJANG",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 453883791,
+    tags: [3441, 3442, 1, 3443, 506],
+  },
+  {
+    url_id: 1810,
+    url: "https://kutoquilla.bandcamp.com/album/ukupacha-ep",
+    title: "Ukupacha EP | Kuto Quilla",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1632602383,
+    tags: [
+      3331, 1589, 3444, 591, 3445, 558, 1589, 3446, 3447, 3448, 3449, 1446,
+    ],
+  },
+  {
+    url_id: 1811,
+    url: "https://wajang.bandcamp.com/album/edit-pack-1",
+    title: "Edit Pack#1 | Amor Satyr | WAJANG",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 194642896,
+    tags: [1, 506],
+  },
+  {
+    url_id: 1812,
+    url: "https://defunkmusic.bandcamp.com/album/demixes",
+    title: "Demixes | Defunk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2544261985,
+    tags: [
+      1132, 3450, 1, 3451, 469, 310, 3452, 429, 849, 3453, 3454, 792, 435, 1086,
+    ],
+  },
+  {
+    url_id: 1813,
+    url: "https://printedpaperrecording.bandcamp.com/album/blue-bird-ep",
+    title: "blue bird ep | sodaboy64 | Printed Paper Recording",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1262020236,
+    tags: [3455, 192, 1233, 8, 132, 134, 128, 778, 96, 117, 3456, 3457, 3458],
+  },
+  {
+    url_id: 1814,
+    url: "https://patriciataxxon.bandcamp.com/album/foley-artist",
+    title: "Foley Artist | Patricia Taxxon",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 464275845,
+    tags: [54, 2, 241, 127, 96, 779, 640],
+  },
+  {
+    url_id: 1815,
+    url: "https://patriciataxxon.bandcamp.com/album/yes-and",
+    title: "Yes, And | Patricia Taxxon",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3150543280,
+    tags: [54, 5, 2549, 640],
+  },
+  {
+    url_id: 1816,
+    url: "https://patriciataxxon.bandcamp.com/album/schwarz",
+    title: "Schwarz | Patricia Taxxon",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1545733484,
+    tags: [106, 54, 145, 2, 1271, 640],
+  },
+  {
+    url_id: 1817,
+    url: "https://256pi.bandcamp.com/album/marble-jar-remastered",
+    title: "Marble Jar (Remastered) | 256 Pi",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3962730471,
+    tags: [1, 331, 16, 245, 1247, 112],
+  },
+  {
+    url_id: 1818,
+    url: "https://256pi.bandcamp.com/album/inside-the-mainframe",
+    title: "Inside the Mainframe | 256 Pi",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1795656267,
+    tags: [1, 2, 331, 16, 245, 192, 516, 112],
+  },
+  {
+    url_id: 1819,
+    url: "https://256pi.bandcamp.com/album/if-tomorrow-is-a-ball-can-i-bounce-it-on-the-driveway",
+    title: "If Tomorrow Is A Ball, Can I Bounce It On The Driveway? | 256 Pi",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1644283129,
+    tags: [1, 2, 290, 3459, 3460, 1168, 429, 1473, 766, 25, 516, 112],
+  },
+  {
+    url_id: 1820,
+    url: "https://barracudabomb.bandcamp.com/album/parallel-process",
+    title: "Parallel Process | Barracuda Bomb",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 4228729382,
+    tags: [21, 190, 616, 152, 502, 617, 3461],
+  },
+  {
+    url_id: 1821,
+    url: "https://velvetic.bandcamp.com/album/atmospheric-extinction-ost",
+    title: "Atmospheric Extinction OST | Velvetic",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1354402459,
+    tags: [8, 198, 28, 54, 57, 127, 612, 241, 617, 3462, 315, 3463],
+  },
+  {
+    url_id: 1822,
+    url: "https://sewerslvt.bandcamp.com/album/we-had-good-times-together-dont-forget-that",
+    title: "we had good times together, don't forget that | Sewerslvt",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2350190403,
+    tags: [338, 1, 54, 2, 966, 108, 1103, 257, 752],
+  },
+  {
+    url_id: 1823,
+    url: "https://sewerslvt.bandcamp.com/album/deafheaven-dream-house-sewerslvt-remake",
+    title: "Deafheaven - Dream House (Sewerslvt Remake) | Sewerslvt",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2484511534,
+    tags: [193, 628, 1, 54, 3464, 273, 3465, 292, 12, 752],
+  },
+  {
+    url_id: 1824,
+    url: "https://steviasphere.bandcamp.com/album/steviadx",
+    title: "SteviaDX | Stevia Sphere",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1698160334,
+    tags: [1, 228, 135, 1097, 335, 160, 92, 336],
+  },
+  {
+    url_id: 1825,
+    url: "https://steviasphere.bandcamp.com/album/earlier-ep",
+    title: "Earlier EP | Stevia Sphere",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3915936676,
+    tags: [1, 456, 228, 19, 183, 3466, 3467, 92, 336],
+  },
+  {
+    url_id: 1826,
+    url: "https://steviasphere.bandcamp.com/album/elevator-relaxation-tapes-1-4",
+    title: "Elevator Relaxation Tapes 1-4 | Stevia Sphere",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2010633929,
+    tags: [1, 54, 3468, 456, 92, 228, 2271, 183, 1091, 3467, 3469, 1097, 336],
+  },
+  {
+    url_id: 1827,
+    url: "https://steviasphere.bandcamp.com/album/software-piracy",
+    title: "Software Piracy | Stevia Sphere",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3967402992,
+    tags: [1, 3470, 3467, 466, 228, 3471, 3472, 223, 336],
+  },
+  {
+    url_id: 1828,
+    url: "https://airglow-strat.bandcamp.com/album/airglow-memory-bank",
+    title: "AIRGLOW | Memory Bank | AIRGLOW",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 602196422,
+    tags: [1, 3473, 174, 3474, 2006, 571, 3475, 315, 3476],
+  },
+  {
+    url_id: 1829,
+    url: "https://starfrosch.bandcamp.com/album/free-the-music-vol-6-synthwave-ii",
+    title: "Free the music - Vol. 6 - Synthwave II | starfrosch",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4278478478,
+    tags: [1, 3477, 3478, 1205, 571, 1231, 315, 3479],
+  },
+  {
+    url_id: 1830,
+    url: "https://ph4nt24.bandcamp.com/album/viel-l-rm-um-nichts",
+    title: "Viel Lärm um Nichts | ph4nt.",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2971958791,
+    tags: [
+      237, 1, 1758, 3480, 100, 3481, 649, 329, 3482, 3483, 791, 1963, 3484,
+      1231, 3485, 2418, 3486,
+    ],
+  },
+  {
+    url_id: 1831,
+    url: "https://scottlawlor.bandcamp.com/album/no-customers-on-valentines-day-theyre-all-hiding-behind-a-flimsy-veneer-of-romanticism-for-their-wives",
+    title:
+      "No Customers on Valentine's day, they're all hiding behind a Flimsy Veneer of Romanticism for their Wives | Spank Hookers | Scott Lawlor",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2227697726,
+    tags: [2, 241, 167, 1, 1103, 1854, 42, 127, 159, 243],
+  },
+  {
+    url_id: 1832,
+    url: "https://scottlawlor.bandcamp.com/album/a-blanket-of-white-in-the-night",
+    title: "a Blanket of White in the Night | Scott Lawlor",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 163263749,
+    tags: [2, 241, 167, 1, 242, 2857, 42, 153, 159, 424, 243],
+  },
+  {
+    url_id: 1833,
+    url: "https://scottlawlor.bandcamp.com/album/winter-solitude",
+    title: "Winter Solitude | Scott Lawlor",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2996150543,
+    tags: [2, 241, 167, 1, 242, 42, 159, 424, 243],
+  },
+  {
+    url_id: 1834,
+    url: "https://scottlawlor.bandcamp.com/album/curve-of-time",
+    title: "Curve of Time | Scott Lawlor",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1931393221,
+    tags: [2, 241, 167, 1, 242, 2857, 42, 153, 159, 243],
+  },
+  {
+    url_id: 1835,
+    url: "https://scottlawlor.bandcamp.com/album/bad-seed",
+    title: "Bad Seed | Scott Lawlor",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1263193037,
+    tags: [2, 3487, 241, 167, 1, 1192, 242, 42, 159, 243],
+  },
+  {
+    url_id: 1836,
+    url: "https://ancientastronaut.bandcamp.com/album/through-the-tunnel-of-love",
+    title: "Through the Tunnel of Love | Ancient Astronaut",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1055725343,
+    tags: [
+      2, 2, 35, 3488, 99, 147, 16, 1, 422, 42, 503, 2197, 3489, 159, 3490, 1846,
+    ],
+  },
+  {
+    url_id: 1837,
+    url: "https://petroglyphmusic.bandcamp.com/album/the-september-equinox-2024-compilation",
+    title: "The September Equinox 2024 (Compilation) | Petroglyph Music",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1859412195,
+    tags: [2, 54, 244, 3491, 1923, 414, 127, 1278, 3492, 209],
+  },
+  {
+    url_id: 1838,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/anti-f-orm-vol-11",
+    title: "Anti f:Orm Vol 11 | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2790983623,
+    tags: [1, 54, 2579, 2, 57, 2579, 152, 220],
+  },
+  {
+    url_id: 1839,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/bottom-up-ghgr-022117",
+    title: "Bottom up GHGR 022117 | M.K.R | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2088298875,
+    tags: [1, 54, 2579, 2, 57, 152, 220],
+  },
+  {
+    url_id: 1840,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/anti-f-orm-compilation-volume-6",
+    title: "Anti f:Orm Compilation Volume 6 | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1326713089,
+    tags: [1, 54, 2579, 2, 57, 152, 220],
+  },
+  {
+    url_id: 1841,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/our-souls-ghgr-28923",
+    title: "Our souls GHGR 28923 | Soon the moon | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2753140645,
+    tags: [1, 54, 2579, 2, 57, 152, 220],
+  },
+  {
+    url_id: 1842,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/th-me-ghgr-29023",
+    title: "Thème GHGR 29023 | Thème | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2948926245,
+    tags: [1, 54, 2579, 2, 57, 152, 220],
+  },
+  {
+    url_id: 1843,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/light-ghgr-29123",
+    title: "Light GHGR 29123 | STV SITKO | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3032016136,
+    tags: [1, 54, 2579, 2, 57, 152, 220],
+  },
+  {
+    url_id: 1844,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/whiteout-ghgr-29223",
+    title: "Whiteout GHGR 29223 | SLOW_FAST | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2501993666,
+    tags: [1, 54, 2579, 2, 57, 152, 220],
+  },
+  {
+    url_id: 1845,
+    url: "https://godhatesgodrecords2.bandcamp.com/album/anti-f-orm-vol-10",
+    title: "Anti f:Orm vol. 10 | GodHatesGodRecords",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1680472829,
+    tags: [1, 54, 2579, 2, 57, 152, 220],
+  },
+  {
+    url_id: 1846,
+    url: "https://nouvelleslecturescosmopolites.bandcamp.com/album/ekitai-on-keiho",
+    title:
+      "Ekitai-on Keiho | Christophe Bailleau & Julien Ash | NOUVELLES LECTURES COSMOPOLITES",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1533417775,
+    tags: [2, 2, 241, 1270, 374, 1355, 1356],
+  },
+  {
+    url_id: 1847,
+    url: "https://mahorka.bandcamp.com/album/distorted-planet",
+    title: "Distorted Planet | Grosso Gadgetto + Brainquake | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2760866472,
+    tags: [1, 54, 2, 35, 244, 162, 1, 109, 54, 5, 516, 165],
+  },
+  {
+    url_id: 1848,
+    url: "https://substan.bandcamp.com/album/digitales-vii",
+    title: "DigiTales VII | Substan",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2155126614,
+    tags: [1, 5, 2, 470, 331, 504, 3493],
+  },
+  {
+    url_id: 1849,
+    url: "https://tsone.bandcamp.com/album/boredom-is-a-toothless-lion",
+    title: "Boredom Is A Toothless Lion | tsone",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1341350815,
+    tags: [2, 170, 276, 3494, 30, 697, 3495],
+  },
+  {
+    url_id: 1850,
+    url: "https://proudfather1.bandcamp.com/album/sunlight-breaks-over-the-black-pearl-2",
+    title: "Sunlight Breaks over the Black Pearl | Proud/Father",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2396549145,
+    tags: [2, 167, 54, 1480, 3496, 170, 153, 2489, 1964],
+  },
+  {
+    url_id: 1851,
+    url: "https://bigbrassbed.bandcamp.com/album/the-glow",
+    title: "The glow | ruddaring & Un Ciego | big brass bed",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3360989576,
+    tags: [54, 3497, 583, 3498, 54, 414, 374, 3499, 2822, 3500, 1669, 1393],
+  },
+  {
+    url_id: 1852,
+    url: "https://thewoodworks.bandcamp.com/album/long-live-dilla",
+    title: "LONG LIVE DILLA | SIR | SiR",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3157739552,
+    tags: [
+      3501, 131, 95, 245, 1329, 139, 522, 3502, 131, 3503, 3504, 139, 479, 3505,
+      3506,
+    ],
+  },
+  {
+    url_id: 1853,
+    url: "https://devinmorrison.bandcamp.com/album/dream-lobby-vol-viii",
+    title: "Dream Lobby Vol. VIII | Devin Morrison",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4121053280,
+    tags: [3507, 521, 32],
+  },
+  {
+    url_id: 1854,
+    url: "https://devinmorrison.bandcamp.com/album/dream-lobby-vol-iii",
+    title: "Dream Lobby Vol. III | Devin Morrison",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2637068344,
+    tags: [3507, 521, 32],
+  },
+  {
+    url_id: 1855,
+    url: "https://lakimisalive.bandcamp.com/album/blends-bootlegs-vol-iv",
+    title: "blends & bootlegs, vol. IV | LAKIM",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 330419466,
+    tags: [
+      528, 56, 310, 1, 95, 29, 478, 479, 529, 530, 481, 531, 532, 533, 534,
+    ],
+  },
+  {
+    url_id: 1856,
+    url: "https://donniepropa.bandcamp.com/album/straight-from-the-crate-cave-valentines-day-2025",
+    title: "Straight From The Crate Cave - Valentines Day 2025 | Donnie Propa",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2769919472,
+    tags: [131, 95, 139, 140, 141],
+  },
+  {
+    url_id: 1857,
+    url: "https://donniepropa.bandcamp.com/album/straight-from-the-crate-cave-nasty-nas-edition",
+    title: "Straight From The Crate Cave - Nasty Nas Edition | Donnie Propa",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3280809217,
+    tags: [131, 95, 139, 140, 141],
+  },
+  {
+    url_id: 1858,
+    url: "https://donniepropa.bandcamp.com/album/donnie-propa-for-promotional-use-only-tape-kingz",
+    title:
+      "Donnie Propa - For Promotional Use Only (Tape Kingz) | Donnie Propa",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4074306560,
+    tags: [142, 131, 95, 139, 3508, 140, 672, 141],
+  },
+  {
+    url_id: 1859,
+    url: "https://donniepropa.bandcamp.com/album/donnie-propa-and-dj-cable-mixtape-marauders",
+    title: "Donnie Propa and DJ Cable - Mixtape Marauders | Donnie Propa",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 967556380,
+    tags: [131, 95, 139, 140, 141],
+  },
+  {
+    url_id: 1860,
+    url: "https://donniepropa.bandcamp.com/album/straight-from-the-crate-cave-big-l-edition",
+    title: "Straight From The Crate Cave - Big L Edition | Donnie Propa",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3805178983,
+    tags: [142, 131, 95, 139, 140, 3509, 3510, 143, 141],
+  },
+  {
+    url_id: 1861,
+    url: "https://donniepropa.bandcamp.com/album/the-world-famous-mixtape",
+    title: "The World Famous Mixtape | Donnie Propa",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3888646037,
+    tags: [131, 95, 139, 140, 141],
+  },
+  {
+    url_id: 1862,
+    url: "https://mattbloom.bandcamp.com/album/ambient-notes-from-yosemite",
+    title: "Ambient Notes From Yosemite | Matt Bloom",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 838874096,
+    tags: [54, 95, 145, 2, 56, 135, 146],
+  },
+  {
+    url_id: 1863,
+    url: "https://practicalrecords.bandcamp.com/album/injury",
+    title: "Injury | The Bedroom Witch | Practical Records",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 861935971,
+    tags: [366, 198, 96, 1231, 32],
+  },
+  {
+    url_id: 1864,
+    url: "https://labelpinceoreilles.bandcamp.com/album/argot-lunaire",
+    title: "ARGOT LUNAIRE | Label Pince-Oreilles",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1823856059,
+    tags: [245, 192, 3511, 3512, 1436, 590, 239, 3513, 130],
+  },
+  {
+    url_id: 1865,
+    url: "https://sellocabello.bandcamp.com/album/tony-malaby-trio-2",
+    title: "TONY MALABY TRIO | sello cabello | SELLO CABELLO",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2873740760,
+    tags: [
+      8, 192, 547, 3514, 3515, 3516, 3517, 402, 3518, 245, 845, 3519, 127, 3520,
+      3521, 3522,
+    ],
+  },
+  {
+    url_id: 1866,
+    url: "https://cylinderecordings.bandcamp.com/album/cr002-dikeman-lonberg-holm-almeida-hadow",
+    title:
+      "(CR002) Dikeman/ Lonberg-Holm/ Almeida/ Hadow | John Dikeman (tenor sax) Fred Lonberg-Holm (cello) Gonçalo Almeida (db.) George Hadow (dr.) | cylinder_recordings",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3736463530,
+    tags: [54, 386, 3108],
+  },
+  {
+    url_id: 1867,
+    url: "https://tomweeks.bandcamp.com/album/the-catbird-seat",
+    title: "The Catbird Seat | Tom Weeks Quartet | Tom Weeks",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4208239792,
+    tags: [547, 54, 244, 2684, 239, 245, 339],
+  },
+  {
+    url_id: 1868,
+    url: "https://abrasions.bandcamp.com/album/lacerations",
+    title: "Lacerations | abrasions",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3989567661,
+    tags: [3523, 1, 3524, 57, 120, 167, 127, 306, 339],
+  },
+  {
+    url_id: 1869,
+    url: "https://afrolab9000.bandcamp.com/album/who-told-you-to-think",
+    title: "who told you to think??!!?!?!?! | milo | R.A.P. Ferreira",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2115474357,
+    tags: [95, 1258, 1259, 1260],
+  },
+  {
+    url_id: 1870,
+    url: "https://afrolab9000.bandcamp.com/album/i-wish-my-brother-rob-was-here",
+    title: "I wish my brother Rob was here | milo | R.A.P. Ferreira",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2519964989,
+    tags: [
+      95, 1044, 3525, 3526, 1258, 374, 132, 245, 3527, 3528, 1259, 12, 1260,
+    ],
+  },
+  {
+    url_id: 1871,
+    url: "https://olekamusic.bandcamp.com/album/reanimate",
+    title: "Reanimate | Nicholas Okeefe",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4003426753,
+    tags: [547, 3529, 3530],
+  },
+  {
+    url_id: 1872,
+    url: "https://kavarimusic.bandcamp.com/album/your-innocence-as-forfeit-ep",
+    title: "your innocence as forfeit [EP] | EEL BLOOD | KAVARI",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3458667685,
+    tags: [8, 1, 785, 2, 787, 1103, 127, 780, 789],
+  },
+  {
+    url_id: 1873,
+    url: "https://normalpleasure.bandcamp.com/album/melbournes-dead",
+    title: "MELBOURNE'S DEAD!! | Normal Pleasure",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1202605057,
+    tags: [1, 310, 29, 90, 670, 3531],
+  },
+  {
+    url_id: 1874,
+    url: "https://djstreaks.bandcamp.com/album/brickphone-beats",
+    title: "BRICKPHONE BEATS | Dj Streaks",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3593430487,
+    tags: [1069, 1, 29, 523, 538, 310, 1535],
+  },
+  {
+    url_id: 1875,
+    url: "https://neana.bandcamp.com/album/bonus-beats",
+    title: "Bonus Beats | Neana",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4075527175,
+    tags: [3187, 1, 29, 3532, 808, 861, 56, 290, 787, 693, 21, 258],
+  },
+  {
+    url_id: 1876,
+    url: "https://frankydrama.bandcamp.com/album/a-solid-research",
+    title: "A Solid Research | frankydrama",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4274466473,
+    tags: [1, 29, 742, 1640, 523, 469, 290, 310, 1828, 516, 1054],
+  },
+  {
+    url_id: 1877,
+    url: "https://scotia.bandcamp.com/album/xoxo-vol-1",
+    title: "XOXO, Vol. 1 | Scotia",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 588718606,
+    tags: [1, 29, 107, 29, 516, 69],
+  },
+  {
+    url_id: 1878,
+    url: "https://plangmusic.bandcamp.com/album/grimehood-ep",
+    title: "GRIMEHOOD EP | Juicy Selekta | PLAN G",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1466006725,
+    tags: [1, 2527, 258],
+  },
+  {
+    url_id: 1879,
+    url: "https://plyntrecords.bandcamp.com/album/why-the-eye",
+    title: "Why The Eye ? | Why The Eye ? | Plynt Records",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3396330762,
+    tags: [8, 3533, 201, 3533, 3534, 1, 3535, 57, 3536, 3537, 192, 3538, 3539],
+  },
+  {
+    url_id: 1880,
+    url: "https://sophiadjebelrose.bandcamp.com/album/m-tempsycose-2",
+    title: "Métempsycose | Sophia Djebel Rose",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1979347560,
+    tags: [8, 54, 374, 244, 3540, 1720, 1452, 3541, 46, 3542, 53, 130],
+  },
+  {
+    url_id: 1881,
+    url: "https://wearetulip.bandcamp.com/album/the-perpetual-dream",
+    title: "The Perpetual Dream | TULIP",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1423498806,
+    tags: [1033, 190, 617, 1031, 1034],
+  },
+  {
+    url_id: 1882,
+    url: "https://alightinthedark.bandcamp.com/album/a-long-journey-home",
+    title: "A Long Journey Home | A Light in the Dark",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 374569147,
+    tags: [190, 99, 3543, 628, 630, 609, 616, 12, 3544],
+  },
+  {
+    url_id: 1883,
+    url: "https://celephas.bandcamp.com/album/tir-na-nog",
+    title: "Tir n'a n'Og | Celephaïs",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1022668590,
+    tags: [193, 21, 190, 609, 152, 616, 89],
+  },
+  {
+    url_id: 1884,
+    url: "https://magmawaves.bandcamp.com/album/and-who-will-take-care-of-you-now",
+    title: "...and who will take care of you now | MAGMA WAVES",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2347130190,
+    tags: [192, 3545, 3546, 21, 1357, 1681, 616, 152, 1359, 1137, 192],
+  },
+  {
+    url_id: 1885,
+    url: "https://dennismartensson.bandcamp.com/album/the-infinity-construct-chapter-3",
+    title: "The Infinity Construct Chapter 3 | Dennis Martensson",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 384795809,
+    tags: [660, 190, 661, 812, 617, 665, 660, 661, 812, 813, 617, 814],
+  },
+  {
+    url_id: 1886,
+    url: "https://mute-city.bandcamp.com/album/sick-grin",
+    title: "Sick Grin | Mute City",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3749079045,
+    tags: [1, 5, 2, 21, 407, 408],
+  },
+  {
+    url_id: 1887,
+    url: "https://ancestormusic.bandcamp.com/album/b-sides-unreleased-vol-1-2008-2012",
+    title:
+      "B Sides Unreleased Vol 1 (2008-2012) | Eskmo | Brendan Angelides (FKA ESKMO)",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3755921098,
+    tags: [1, 32],
+  },
+  {
+    url_id: 1888,
+    url: "https://woulg.bandcamp.com/album/bubblegum",
+    title: "Bubblegum | woulg",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4125215390,
+    tags: [1, 1, 374, 4, 5, 96, 335, 720],
+  },
+  {
+    url_id: 1889,
+    url: "https://exonoiz.bandcamp.com/album/exonoiz-sound-design-pack-2",
+    title: "EXONOIZ SOUND DESIGN PACK 2 | qebrµs | ⋋≒ℵ≓⋌ ⋶ℵ⊖ɲ⊖ᚋ೭",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2955810053,
+    tags: [1, 3547, 3548, 3549, 109, 3550, 3551, 3552, 3553, 3554, 3555],
+  },
+  {
+    url_id: 1890,
+    url: "https://wagawaga.bandcamp.com/album/smoke-nettles",
+    title: "Smoke Nettles | wAgAwAgA",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3382103585,
+    tags: [1, 3556, 3557, 3558, 3559, 141],
+  },
+  {
+    url_id: 1891,
+    url: "https://wagawaga.bandcamp.com/album/tasmagoria",
+    title: "Tasmagoria | wAgAwAgA",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 920110084,
+    tags: [1, 3560, 141],
+  },
+  {
+    url_id: 1892,
+    url: "https://farmersmanual.bandcamp.com/album/squimble-2",
+    title: "squimble | 2o4 | farmersmanual",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 935540706,
+    tags: [3561, 3562, 3563, 3564, 3565, 258],
+  },
+  {
+    url_id: 1893,
+    url: "https://farmersmanual.bandcamp.com/album/reject-all",
+    title: "reject all | farmersmanual",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3290661102,
+    tags: [3566, 3567, 3568, 3569, 3570, 3571, 258],
+  },
+  {
+    url_id: 1894,
+    url: "https://lisaullen.bandcamp.com/album/heirloom",
+    title: "Heirloom | Lisa Ullén",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3775470513,
+    tags: [54, 1923, 2684, 845, 229, 3402, 336],
+  },
+  {
+    url_id: 1895,
+    url: "https://jossmolders.bandcamp.com/album/ochd-harmosc-qpas",
+    title: "OCHD > HarmOsc > QPAS | Jos Smolders",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2179312207,
+    tags: [54, 3572, 3573, 1207, 1697, 3574],
+  },
+  {
+    url_id: 1896,
+    url: "https://jossmolders.bandcamp.com/album/karawane-1916",
+    title: "Karawane 1916 | Jos Smolders",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 97294618,
+    tags: [54, 3572, 3573, 1207, 1697, 3575, 3574],
+  },
+  {
+    url_id: 1897,
+    url: "https://gasparclaus.bandcamp.com/album/un-monde-violent-original-motion-picture-soundtrack",
+    title:
+      "Un Monde Violent (Original Motion Picture Soundtrack) | Gaspar Claus",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1397315872,
+    tags: [
+      1736, 54, 3576, 3577, 3578, 1226, 3086, 3579, 3580, 239, 3581, 3582, 2959,
+      506,
+    ],
+  },
+  {
+    url_id: 1898,
+    url: "https://wombs.bandcamp.com/album/unitopians",
+    title: "Unitopians | Wombs",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1139000113,
+    tags: [54, 555, 1737, 3583, 3584, 127, 96, 3585, 192, 3586, 3587, 3588],
+  },
+  {
+    url_id: 1899,
+    url: "https://civilcivic.bandcamp.com/album/run-overdrive-fuck-youth",
+    title: "Run Overdrive/Fuck Youth | CIVIL CIVIC",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2612953813,
+    tags: [8, 135, 127, 3589, 120, 152, 141],
+  },
+  {
+    url_id: 1900,
+    url: "https://strinewhine.bandcamp.com/album/strine-whine-issue-01",
+    title: "STRINE WHINE: ISSUE 01 | STRINE WHINE",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 601462710,
+    tags: [54, 3590, 98],
+  },
+  {
+    url_id: 1901,
+    url: "https://horsepills.bandcamp.com/album/reflection-is-torture",
+    title: "Reflection Is Torture | Horse Pills",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1384775214,
+    tags: [1, 2, 3591, 3592, 3593, 871, 127, 3594, 3595, 3596, 3597, 98],
+  },
+  {
+    url_id: 1902,
+    url: "https://tarotplane.bandcamp.com/album/zikzak-10",
+    title: "zikzak 10 | tarotplane",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3768978899,
+    tags: [54, 2, 167, 1146, 50, 888],
+  },
+  {
+    url_id: 1903,
+    url: "https://tarotplane.bandcamp.com/album/zikzak-mix-9",
+    title: "zikzak mix 9 | tarotplane",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 399569164,
+    tags: [54, 2, 2837, 167, 1146, 50, 888],
+  },
+  {
+    url_id: 1904,
+    url: "https://fuselab.bandcamp.com/album/stels",
+    title: "Stels | Vika Kuchak | Fuselab",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1290231415,
+    tags: [1, 54, 5, 1702],
+  },
+  {
+    url_id: 1905,
+    url: "https://fuselab.bandcamp.com/album/broads",
+    title: "Broads | Broads | Fuselab",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1285547358,
+    tags: [687, 2, 167, 1, 54, 374, 5, 135, 127, 1907, 1702],
+  },
+  {
+    url_id: 1906,
+    url: "https://aeonyahweh.bandcamp.com/album/down-with-the-sun",
+    title: "Down with the Sun | Aeon Yahweh",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4069514533,
+    tags: [
+      117, 547, 3598, 3599, 3600, 198, 3452, 3601, 117, 3602, 192, 3603, 3604,
+      2536,
+    ],
+  },
+  {
+    url_id: 1907,
+    url: "https://thecradle.bandcamp.com/album/half-a-double-life",
+    title: "Half a Double Life | The Cradle",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1640414003,
+    tags: [3605, 366, 1043, 3606, 2822, 1907, 69],
+  },
+  {
+    url_id: 1908,
+    url: "https://thecradle.bandcamp.com/album/sea-level-demo",
+    title: "Sea Level Demo | The Cradle",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4216420833,
+    tags: [3605, 366, 1043, 3606, 2822, 1907, 69],
+  },
+  {
+    url_id: 1909,
+    url: "https://thecradle.bandcamp.com/album/skipping-rocks-split-tape-w-superflower",
+    title: "Skipping Rocks (Split Tape w/ Superflower) | The Cradle",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3691460358,
+    tags: [3605, 366, 1043, 3606, 2822, 1907, 69],
+  },
+  {
+    url_id: 1910,
+    url: "https://andrewweathers.bandcamp.com/album/light-flies-out-of-us",
+    title:
+      "Light Flies Out of Us | Houser/Jacques/Montiel/Salinas/Weathers | Andrew Weathers",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3511686861,
+    tags: [54, 202, 167, 414, 3167, 30, 3607],
+  },
+  {
+    url_id: 1911,
+    url: "https://agf-poemproducer.bandcamp.com/album/spell-of-repair",
+    title: "spell of repair | AGF | AGF ✸ poemproducer ✸ Antye Greie-Ripatti",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2991126838,
+    tags: [54, 3608, 3609, 3610, 3611, 1278, 3612],
+  },
+  {
+    url_id: 1912,
+    url: "https://psalmone.bandcamp.com/album/is-this-a-safe-space",
+    title:
+      "Is This A Safe Space? | Psalm One & Optiks | Psalm One aka Hologram Kizzie",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1479027030,
+    tags: [3613, 131, 94, 95, 1585, 139, 479, 1153, 112],
+  },
+  {
+    url_id: 1913,
+    url: "https://kikuo.bandcamp.com/album/kikuo-miku-6",
+    title: "Kikuo Miku 6 | Kikuo",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3368925023,
+    tags: [1, 109, 96, 282, 724],
+  },
+  {
+    url_id: 1914,
+    url: "https://starseer.bandcamp.com/album/voidpunk-generation",
+    title: "Voidpunk Generation | STARSEER",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3973435455,
+    tags: [54, 3614, 3482, 3615, 591, 592, 3000, 90, 3616, 3617, 3618, 3417],
+  },
+  {
+    url_id: 1915,
+    url: "https://jamiepaige.bandcamp.com/album/constant-companions",
+    title: "Constant Companions | Jamie Paige",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4145454834,
+    tags: [96, 2552, 108, 1798, 1, 2541, 134, 335, 3370, 282, 2328],
+  },
+  {
+    url_id: 1916,
+    url: "https://lilithpad.bandcamp.com/album/operation-guide",
+    title: "Operation Guide | Lilithpad",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1890734381,
+    tags: [1, 16, 109, 639, 1417, 1827],
+  },
+  {
+    url_id: 1917,
+    url: "https://lilithpad.bandcamp.com/album/scattered-noises-sample-pack-demos",
+    title:
+      "Scattered Noises (Sample Pack Demos) | Lilithpad, TINCTURE | Lilithpad",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1855362510,
+    tags: [1, 639, 1827],
+  },
+  {
+    url_id: 1918,
+    url: "https://lilithpad.bandcamp.com/album/heat-seeker",
+    title: "Heat Seeker | Lilithpad",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1787553130,
+    tags: [1, 107, 639, 3619, 1827],
+  },
+  {
+    url_id: 1919,
+    url: "https://zephyrianna.bandcamp.com/album/odo-speedcore-remix",
+    title: "Odo (Speedcore remix) | Zephyrianna, Lycanix | Zephyrianna",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3990180197,
+    tags: [623, 602, 190, 661, 3620, 2452, 356],
+  },
+  {
+    url_id: 1920,
+    url: "https://orion2777.bandcamp.com/album/make-love",
+    title: "Make Love | Itai The Maid | Orion",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 962851423,
+    tags: [192, 2, 1489, 615, 135, 12, 1731],
+  },
+  {
+    url_id: 1921,
+    url: "https://mahoukichi.bandcamp.com/album/my-addiction",
+    title: "My Addiction | Kichi",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1836837602,
+    tags: [2, 99, 190, 616, 152, 21, 820],
+  },
+  {
+    url_id: 1922,
+    url: "https://mahoukichi.bandcamp.com/album/reborn",
+    title: "REBORN | Kichi",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2642689625,
+    tags: [2, 99, 190, 616, 152, 21, 820],
+  },
+  {
+    url_id: 1923,
+    url: "https://plantagenia.bandcamp.com/album/mosaic",
+    title: "Mosaic | Plantagenia",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3500337759,
+    tags: [96, 3621, 1168, 2590, 1, 429, 3622, 245, 1210, 1756, 2588, 114],
+  },
+  {
+    url_id: 1924,
+    url: "https://consonancesdissonances.bandcamp.com/album/travelogue-of-47-days",
+    title: "東西幻想録 ～ Travelogue of 47 Days | Consonances & Dissonances",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1246920087,
+    tags: [25, 25, 1210, 2591, 3623, 114],
+  },
+  {
+    url_id: 1925,
+    url: "https://stuckinnovember.bandcamp.com/album/first-slice-of-cake",
+    title: "First Slice Of Cake | Stuck in November",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1643529410,
+    tags: [192, 21, 1036, 3624],
+  },
+  {
+    url_id: 1926,
+    url: "https://regna.bandcamp.com/album/cinema",
+    title: "Cinema | Regna",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1176976524,
+    tags: [192, 3625, 638],
+  },
+  {
+    url_id: 1927,
+    url: "https://judicatormetal.bandcamp.com/album/concord",
+    title: "Concord | Judicator",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 5668814,
+    tags: [190, 3626, 2878, 624, 190, 3627, 617, 3628, 3042],
+  },
+  {
+    url_id: 1928,
+    url: "https://avirosenfeld.bandcamp.com/album/bz-dz-purple-snake",
+    title: "Bz Dz Purple Snake | Avi Rosenfeld",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 806537456,
+    tags: [612, 192, 2819, 2038, 3629, 192, 382],
+  },
+  {
+    url_id: 1929,
+    url: "https://avirosenfeld.bandcamp.com/album/battle-cry",
+    title: "Battle Cry | Avi Rosenfeld",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1297207324,
+    tags: [612, 192, 2819, 2038, 3629, 192, 382],
+  },
+  {
+    url_id: 1930,
+    url: "https://slowerpace.bandcamp.com/album/deluxe",
+    title:
+      "自​​​分​​​自​​​身​​​の​​​禁​​​止 (DELUXE) | slowerpace 音楽 & insomaniac | slowerpace 音楽",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 222025210,
+    tags: [1, 172, 174, 16, 3630, 92],
+  },
+  {
+    url_id: 1931,
+    url: "https://unrealestaterecords.bandcamp.com/album/welcome-to-the-black-office",
+    title: "Welcome to the Black Office | Black★Office | Unreal Estate Records",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2075650816,
+    tags: [1, 3631, 3632, 333, 92, 89],
+  },
+  {
+    url_id: 1932,
+    url: "https://micromecha.bandcamp.com/album/winter-arc-i",
+    title: "Winter Arc I | MICROMECHA",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 543480086,
+    tags: [
+      338, 1, 1262, 964, 171, 965, 966, 3633, 172, 108, 273, 291, 280, 292,
+      1264, 92, 1162,
+    ],
+  },
+  {
+    url_id: 1933,
+    url: "https://garx.bandcamp.com/album/content-with-the-form",
+    title: "Content With The Form | GARX",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2947680225,
+    tags: [1, 5, 108, 338, 292, 1731],
+  },
+  {
+    url_id: 1934,
+    url: "https://mortvillenoise.bandcamp.com/album/warsore-nee",
+    title: "Warsore / Nee! | Warsore / Nee! | Mortville Noise HQ",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 1332699841,
+    tags: [190, 371, 301, 3634],
+  },
+  {
+    url_id: 1935,
+    url: "https://mortvillenoise.bandcamp.com/album/2005-promo",
+    title: "2005 Promo | Billy Crystal Meth | Mortville Noise HQ",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 957294701,
+    tags: [190, 367, 371, 301, 372, 3634],
+  },
+  {
+    url_id: 1936,
+    url: "https://mortvillenoise.bandcamp.com/album/its-causes-and-cure",
+    title: "Its Causes and Cure | Ear Bleeding Disorder | Mortville Noise HQ",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2186148141,
+    tags: [190, 371, 301, 3634],
+  },
+  {
+    url_id: 1937,
+    url: "https://mortvillenoise.bandcamp.com/album/everything-else-plus-those-that-never-happened",
+    title:
+      "Everything Else, Plus Those That Never Happened | Ventilator | Mortville Noise HQ",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 2849802428,
+    tags: [190, 371, 301, 1402, 3634],
+  },
+  {
+    url_id: 1938,
+    url: "https://misahisterica.bandcamp.com/album/arquitectos-del-desastre",
+    title: "Arquitectos del Desastre | Misa Histerica",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2837290410,
+    tags: [202, 137, 301, 105],
+  },
+  {
+    url_id: 1939,
+    url: "https://misahisterica.bandcamp.com/album/divina-aberraci-n",
+    title: "Divina Aberración | Misa Histerica",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2832519951,
+    tags: [202, 137, 1018, 301, 105],
+  },
+  {
+    url_id: 1940,
+    url: "https://misahisterica.bandcamp.com/album/cr-nicas-de-una-enajenaci-n",
+    title: "Crónicas de una Enajenación | Misa Histerica",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2804527706,
+    tags: [202, 137, 301, 105],
+  },
+  {
+    url_id: 1941,
+    url: "https://misahisterica.bandcamp.com/album/maldici-n-humana",
+    title: "Maldición Humana | Misa Histerica",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2097675561,
+    tags: [202, 137, 301, 105],
+  },
+  {
+    url_id: 1942,
+    url: "https://misahisterica.bandcamp.com/album/eufemismos-de-esclavitud",
+    title: "Eufemismos de Esclavitud | Misa Histerica",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1817245192,
+    tags: [202, 137, 301, 105],
+  },
+  {
+    url_id: 1943,
+    url: "https://misahisterica.bandcamp.com/album/cargando-la-cruz-de-los-arrogantes",
+    title: "Cargando La Cruz de los Arrogantes | Misa Histerica",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 775593913,
+    tags: [202, 137, 301, 105],
+  },
+  {
+    url_id: 1944,
+    url: "https://kristianday.bandcamp.com/album/ambient-martyr-selected-works",
+    title: "Ambient Martyr: Selected Works | Kristian Day",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 125389278,
+    tags: [2, 166, 3635, 3636, 3637, 3638, 127, 3639, 1093, 3640, 3641],
+  },
+  {
+    url_id: 1945,
+    url: "https://armageddonspeaking.bandcamp.com/album/clouded-memory",
+    title: "Clouded Memory | armageddon speaking",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3429338657,
+    tags: [2, 1, 54, 5, 3642, 3643, 3644],
+  },
+  {
+    url_id: 1946,
+    url: "https://armageddonspeaking.bandcamp.com/album/the-hot-and-cold-of-june",
+    title: "The Hot and Cold Of June | armageddon speaking",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2197363606,
+    tags: [2, 1, 54, 5, 3642, 3643, 3644],
+  },
+  {
+    url_id: 1947,
+    url: "https://armageddonspeaking.bandcamp.com/album/may-day",
+    title: "May Day | armageddon speaking",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3758840307,
+    tags: [2, 1, 54, 5, 3642, 3643, 3644],
+  },
+  {
+    url_id: 1948,
+    url: "https://armageddonspeaking.bandcamp.com/album/that-festive-spirit",
+    title: "that festive spirit | armageddon speaking",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3565501172,
+    tags: [2, 396, 3645, 1, 54, 5, 2760, 3642, 3643, 3644],
+  },
+  {
+    url_id: 1949,
+    url: "https://armageddonspeaking.bandcamp.com/album/juniper-and-julia",
+    title: "Juniper and Julia | armageddon speaking",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2187727476,
+    tags: [
+      2, 3646, 1, 54, 5, 115, 3642, 109, 1212, 3647, 2346, 3648, 160, 3643,
+      3644,
+    ],
+  },
+  {
+    url_id: 1950,
+    url: "https://armageddonspeaking.bandcamp.com/album/loop-theory",
+    title: "[Loop Theory] | armageddon speaking",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2203417563,
+    tags: [
+      2, 1, 54, 5, 2690, 3642, 3649, 3650, 3651, 1146, 160, 482, 3652, 3643,
+      3644,
+    ],
+  },
+  {
+    url_id: 1951,
+    url: "https://armageddonspeaking.bandcamp.com/album/meditations-on-microtech",
+    title: "Meditations on MicroTech | armageddon speaking",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2068679428,
+    tags: [
+      2, 1, 54, 5, 3653, 115, 3646, 470, 3642, 42, 1125, 3654, 400, 3643, 3644,
+    ],
+  },
+  {
+    url_id: 1952,
+    url: "https://wakapedia.bandcamp.com/album/pyro",
+    title: "PYRO | FLERO & Wakapedia | Wakapedia",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 4141247997,
+    tags: [1, 54, 29, 1209, 571, 315, 257, 2, 148, 241, 3655, 571, 315, 197],
+  },
+  {
+    url_id: 1953,
+    url: "https://migueljohnson.bandcamp.com/album/expedition-artemis",
+    title: "Expedition Artemis | Miguel Johnson",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2314943380,
+    tags: [202, 1786, 838, 207, 159, 223, 32],
+  },
+  {
+    url_id: 1954,
+    url: "https://systemst91.bandcamp.com/album/mind-station-98-vol-one",
+    title: "Mind-Station 98 Vol. One | System ST91",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 679775620,
+    tags: [290, 338, 1, 54, 3656, 108, 292, 3657, 178, 92, 1591, 3658, 3659],
+  },
+  {
+    url_id: 1955,
+    url: "https://thegrowtheternal.bandcamp.com/album/bass-tone-paintings",
+    title: "Bass Tone Paintings | The Growth Eternal",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2187833078,
+    tags: [54, 55, 56, 54, 21, 32],
+  },
+  {
+    url_id: 1956,
+    url: "https://thegrowtheternal.bandcamp.com/album/kensho-ep",
+    title: "Kensho ! EP | The Growth Eternal",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2973848278,
+    tags: [54, 55, 56, 54, 21, 32],
+  },
+  {
+    url_id: 1957,
+    url: "https://ritchrd.bandcamp.com/album/freaked-it",
+    title: "FREAKED IT | RITCHRD",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2183977839,
+    tags: [1, 29, 290, 564, 29, 292, 516, 339],
+  },
+  {
+    url_id: 1958,
+    url: "https://soustraitance-sstr.bandcamp.com/album/masterbep",
+    title: "Masterbep | Various Artist | SousTraitance",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 366455757,
+    tags: [1, 5, 291, 248, 509, 516, 3660],
+  },
+  {
+    url_id: 1959,
+    url: "https://rithmus.bandcamp.com/album/jash-volume-1",
+    title:
+      "JASH (Volume 1) | Saúl Plaza, Helder Barroso, ACM, Atom Trigger | rithmus",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3775436038,
+    tags: [1069, 28, 1, 5, 1803, 3661, 315, 1521, 516, 107, 466, 3662],
+  },
+  {
+    url_id: 1960,
+    url: "https://fuselab.bandcamp.com/album/code-915913",
+    title: "CODE-915913 | AL-90 | Fuselab",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1979165390,
+    tags: [1, 54, 29, 5, 1136, 1907, 1702, 3663],
+  },
+  {
+    url_id: 1961,
+    url: "https://nacho80.bandcamp.com/album/selected-tracks-from-synthesizers-demos-vol-5",
+    title: "Selected Tracks From Synthesizers Demos Vol.5 | Nacho Marty Meyer",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4285805994,
+    tags: [1, 5, 2, 1861, 3664, 28, 91, 3665, 3666],
+  },
+  {
+    url_id: 1962,
+    url: "https://chriszabriskie.bandcamp.com/album/abandon-babylon",
+    title: "Abandon Babylon | Chris Zabriskie",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2592318469,
+    tags: [2, 228, 1, 54, 21, 230],
+  },
+  {
+    url_id: 1963,
+    url: "https://lostfrog.bandcamp.com/album/cute-neets-doing-cute-things",
+    title: "cute NEETs doing cute things | CYBERGOTH | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 468305222,
+    tags: [280, 1, 709, 301, 768, 724],
+  },
+  {
+    url_id: 1964,
+    url: "https://lostfrog.bandcamp.com/album/shut-in-core",
+    title: "shut in core | dev | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3346917592,
+    tags: [273, 1, 730, 729, 3667, 724],
+  },
+  {
+    url_id: 1965,
+    url: "https://lostfrog.bandcamp.com/album/vienuolika-japan-edition",
+    title:
+      "vienuolika (japan edition) | futureisfailed | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2729609062,
+    tags: [273, 1, 730, 54, 3667, 724],
+  },
+  {
+    url_id: 1966,
+    url: "https://lostfrog.bandcamp.com/album/abate-breakdown",
+    title: "abate breakdown | Getuss | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3231283781,
+    tags: [273, 1, 54, 729, 3667, 724],
+  },
+  {
+    url_id: 1967,
+    url: "https://lostfrog.bandcamp.com/album/sampler-vol-3",
+    title: "深淵sampler vol.3 | Various Artists | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1163038275,
+    tags: [797, 273, 725, 338, 1, 799, 726, 795, 729, 727, 343, 724],
+  },
+  {
+    url_id: 1968,
+    url: "https://lostfrog.bandcamp.com/album/afterschool-routine",
+    title: "Afterschool Routine | xkvzxrv | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4066739946,
+    tags: [273, 1, 3668, 113, 301, 729, 727, 127, 724],
+  },
+  {
+    url_id: 1969,
+    url: "https://lostfrog.bandcamp.com/album/the-spectacular-dazzling-dance-emotion-collection",
+    title:
+      "the spectacular dazzling dance emotion collection | travongle | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1157683869,
+    tags: [273, 1, 301, 729, 727, 724],
+  },
+  {
+    url_id: 1970,
+    url: "https://lostfrog.bandcamp.com/album/ten-nights-dreams",
+    title: "Ten Nights' Dreams | takahiro(FKS) | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3599216035,
+    tags: [725, 106, 1, 3669, 54, 726, 727, 90, 724],
+  },
+  {
+    url_id: 1971,
+    url: "https://lontanoseries.bandcamp.com/album/harvest-of-thought",
+    title: "Harvest of Thought | Genfukei | Lᴏɴᴛᴀɴᴏ Series",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 482720170,
+    tags: [2, 1, 54, 3670, 167, 149, 150, 755, 1162],
+  },
+  {
+    url_id: 1972,
+    url: "https://etherealephemera.bandcamp.com/album/in-the-glittering-blue",
+    title: "In The Glittering Blue | Ethereal Ephemera",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3559249072,
+    tags: [2, 375, 99, 228, 167, 415, 41, 42, 353, 418, 169, 2489, 413],
+  },
+  {
+    url_id: 1973,
+    url: "https://richardpjohn.bandcamp.com/album/endless-song-xxxv",
+    title: "Endless Song XXXV | Richard P John",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4294494258,
+    tags: [
+      2, 241, 167, 54, 1278, 375, 3671, 35, 377, 241, 3672, 3673, 381, 141,
+    ],
+  },
+  {
+    url_id: 1974,
+    url: "https://cousinsilas1.bandcamp.com/album/the-silas-festive-sampler-3",
+    title: "The Silas Festive Sampler 3 | Cousin Silas",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1570456022,
+    tags: [2, 148, 1, 54, 150, 3674, 168, 169, 167, 141],
+  },
+  {
+    url_id: 1975,
+    url: "https://itemcaligo.bandcamp.com/album/touch-of-rotten-sunrise",
+    title: "Touch of rotten sunrise | Item Caligo",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3770685745,
+    tags: [2, 241, 135, 1432, 1926, 229, 1231, 2295],
+  },
+  {
+    url_id: 1976,
+    url: "https://hypnoticdirgerecords.bandcamp.com/album/inevitable",
+    title: "Inevitable | NONE | Hypnotic Dirge Records",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2453675481,
+    tags: [575, 193, 572, 573, 190, 3675, 574, 575, 576, 194, 152, 578],
+  },
+  {
+    url_id: 1977,
+    url: "https://hypnoticdirgerecords.bandcamp.com/album/a-break-in-the-day",
+    title: "a break in the day | stroszek | Hypnotic Dirge Records",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 670742630,
+    tags: [193, 190, 3676, 575, 576, 194, 152, 578],
+  },
+  {
+    url_id: 1978,
+    url: "https://ndrrk.bandcamp.com/album/0x4d61646e657373",
+    title: "0x4d61646e657373 | INM.IN | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3352677600,
+    tags: [54, 2, 419, 1103, 1086],
+  },
+  {
+    url_id: 1979,
+    url: "https://ndrrk.bandcamp.com/album/apologia-of-war",
+    title: "Apologia of War | INM.IN | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3325172751,
+    tags: [193, 3677, 54, 167, 127, 1086],
+  },
+  {
+    url_id: 1980,
+    url: "https://ndrrk.bandcamp.com/album/deux-th-ories-sur-lacceptation",
+    title: "Deux Théories sur l'Acceptation | NekRock / Ekvsvpvloshion | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3205332089,
+    tags: [54, 1086],
+  },
+  {
+    url_id: 1981,
+    url: "https://ndrrk.bandcamp.com/album/krgo-noo-tronm",
+    title: "Krgo Noo Tronm | INM.IN | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3120883047,
+    tags: [54, 1086],
+  },
+  {
+    url_id: 1982,
+    url: "https://ndrrk.bandcamp.com/album/ritual-starts-here-a-pok-mon-noise-tribute",
+    title: "Ritual Starts Here (A Pokémon Noise Tribute) | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2946842792,
+    tags: [54, 3678, 1086],
+  },
+  {
+    url_id: 1983,
+    url: "https://ndrrk.bandcamp.com/album/r-t-4l-c0mp1lat-0n",
+    title: "R:T//4L+C0MP1LAT|0N | CORR//PT|0N_UN1T | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2911462026,
+    tags: [54, 1854, 1086],
+  },
+  {
+    url_id: 1984,
+    url: "https://ndrrk.bandcamp.com/album/s0n-c-p4y-04d",
+    title: "S0N!C+P4Y|_04D | CORR//PT|0N_UN1T | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2330943925,
+    tags: [54, 1854, 1086],
+  },
+  {
+    url_id: 1985,
+    url: "https://ndrrk.bandcamp.com/album/demo",
+    title: "demo | Anadrarkifèdubrüiit | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2107120083,
+    tags: [193, 54, 3679, 1086],
+  },
+  {
+    url_id: 1986,
+    url: "https://ndrrk.bandcamp.com/album/calgary-ab-2023-10-05",
+    title: "Calgary, AB / 2023-10-05 | DR-05 & 4GB SD Card | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 867601534,
+    tags: [54, 1697, 1384, 1086],
+  },
+  {
+    url_id: 1987,
+    url: "https://ndrrk.bandcamp.com/album/music-ritual-i",
+    title: "Music Ritual I | INM.IN | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 737893636,
+    tags: [54, 1086],
+  },
+  {
+    url_id: 1988,
+    url: "https://ndrrk.bandcamp.com/album/i-val-d-s-mon-pa7h",
+    title: "I|\\|VAL|D+S//_MON+PA7H | CORR//PT|0N_UN1T | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 400013245,
+    tags: [54, 1854, 1086],
+  },
+  {
+    url_id: 1989,
+    url: "https://ndrrk.bandcamp.com/album/ext-act-fa1l-re",
+    title: "EXT_ACT+FA1L//RE | CORR//PT|0N_UN1T | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 228621389,
+    tags: [54, 1854, 1086],
+  },
+  {
+    url_id: 1990,
+    url: "https://ndrrk.bandcamp.com/album/201611ddhhmmss-0100",
+    title: "201611ddhhmmss+0100 | INM.IN | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 197748496,
+    tags: [54, 1854, 3680, 1086],
+  },
+  {
+    url_id: 1991,
+    url: "https://ndrrk.bandcamp.com/album/common-harsh-noise-wall-album",
+    title: "Common Harsh Noise Wall Album | Ordinary | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 66296374,
+    tags: [54, 1854, 1855, 1086],
+  },
+  {
+    url_id: 1992,
+    url: "https://ndrrk.bandcamp.com/album/untitled",
+    title: "untitled | ndrrk",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 32054493,
+    tags: [54, 1854, 1086],
+  },
+  {
+    url_id: 1993,
+    url: "https://iiinoise.bandcamp.com/album/076",
+    title: ".076 | III",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 718436420,
+    tags: [54, 1854, 1086],
+  },
+  {
+    url_id: 1994,
+    url: "https://iiinoise.bandcamp.com/album/001",
+    title: ".001 | III",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1650009342,
+    tags: [54, 1854, 1086],
+  },
+  {
+    url_id: 1995,
+    url: "https://pisse.bandcamp.com/album/dubai",
+    title: "Dubai | pisse",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 210144252,
+    tags: [117, 2396, 2397],
+  },
+  {
+    url_id: 1996,
+    url: "https://dierotennoten.bandcamp.com/album/auf-der-suche",
+    title: "Auf der Suche | Die Roten Noten",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 1750757927,
+    tags: [374, 117, 2846, 3681, 3682],
+  },
+  {
+    url_id: 1997,
+    url: "https://dierotennoten.bandcamp.com/album/sgeig-pank",
+    title: "Sgeig' Pank | Die Roten Noten",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3601951459,
+    tags: [374, 117, 2846, 3681, 3682],
+  },
+  {
+    url_id: 1998,
+    url: "https://craftingroomrecordings.bandcamp.com/album/loving-still",
+    title: "Loving & Still | Ideal Living | Crafting Room Recordings",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2717711199,
+    tags: [8, 615, 1010, 3524, 1213, 120, 152, 2347],
+  },
+  {
+    url_id: 1999,
+    url: "https://craftingroomrecordings.bandcamp.com/album/baltimore-at-an-angle",
+    title:
+      "Baltimore at an Angle | Baltimore at an Angle | Crafting Room Recordings",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 754497184,
+    tags: [547, 8, 133, 45, 1090, 134, 3683, 128, 12, 3234, 2347],
+  },
+  {
+    url_id: 2000,
+    url: "https://notnotice.bandcamp.com/album/-",
+    title: "सगरमाथा | Notnotice",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4040352894,
+    tags: [2, 2, 244, 241, 167, 414, 42, 127, 820],
+  },
+  {
+    url_id: 2001,
+    url: "https://aatma.bandcamp.com/album/foreldrel-se",
+    title: "foreldreløse | åpne sinn | aatma",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3766261338,
+    tags: [2, 35, 666],
+  },
+  {
+    url_id: 2002,
+    url: "https://globular.bandcamp.com/album/lifts-the-curse-of-the-grey-goo-assimilators",
+    title: "Lifts The Curse Of The Grey Goo Assimilators | Globular",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3270503594,
+    tags: [248, 1, 109, 500, 50, 490, 558, 470, 331, 16, 141],
+  },
+  {
+    url_id: 2003,
+    url: "https://barbarbar-rec.bandcamp.com/album/my-cocai-wars",
+    title: "My / Cocai Wars | Dj Panini | BARBARBAR",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3183292908,
+    tags: [2, 1, 109, 54, 107, 3, 16, 50, 2757],
+  },
+  {
+    url_id: 2004,
+    url: "https://insectorama.bandcamp.com/album/one-hundred-thirty-episode-2",
+    title: 'one hundred thirty "episode 2" | Various Artists | insectorama',
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2241847646,
+    tags: [
+      1069, 1, 29, 2, 331, 37, 511, 2745, 512, 248, 513, 514, 109, 515, 516,
+      517,
+    ],
+  },
+  {
+    url_id: 2005,
+    url: "https://insectorama.bandcamp.com/album/learning-curve",
+    title: "Learning Curve | Not Toto | insectorama",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 212277521,
+    tags: [1, 3684, 2, 331, 37, 512, 248, 513, 514, 414, 515, 169, 516, 517],
+  },
+  {
+    url_id: 2006,
+    url: "https://sutekh.bandcamp.com/album/periods-make-sense",
+    title: "Periods Make Sense | Sutekh",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 4215670924,
+    tags: [1, 54, 3685, 3686, 3687, 516, 146],
+  },
+  {
+    url_id: 2007,
+    url: "https://home96.bandcamp.com/album/resting-state",
+    title: "Resting State | HOME",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2381087611,
+    tags: [1, 174, 571, 315, 112],
+  },
+  {
+    url_id: 2008,
+    url: "https://mothequals.bandcamp.com/album/out-of-darkness-by-magic",
+    title: "Out of darkness, by magic | Moth Equals",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 362847194,
+    tags: [249, 1, 5, 145, 608, 2, 108, 174, 16, 109, 128, 90, 2920, 3630, 141],
+  },
+  {
+    url_id: 2009,
+    url: "https://chromesparks.bandcamp.com/album/sparks-ep",
+    title: "Sparks EP | Chrome Sparks",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1546934218,
+    tags: [1, 56, 1, 132, 230],
+  },
+  {
+    url_id: 2010,
+    url: "https://pinegrove.bandcamp.com/album/cardinal",
+    title: "Cardinal | Pinegrove",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1460295664,
+    tags: [8, 9, 615, 132, 1501, 1503, 1504],
+  },
+  {
+    url_id: 2011,
+    url: "https://twwalsh.bandcamp.com/album/fruitless-research",
+    title: "Fruitless Research | TW Walsh",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1717775646,
+    tags: [8, 1212, 54, 132, 3334, 666],
+  },
+  {
+    url_id: 2012,
+    url: "https://twwalsh.bandcamp.com/album/the-soft-drugs",
+    title: "The Soft Drugs | TW Walsh",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2624127223,
+    tags: [8, 54, 132, 666],
+  },
+  {
+    url_id: 2013,
+    url: "https://lavidaesunmus.bandcamp.com/album/juegos-prohibidos",
+    title: "Juegos Prohibidos | Fuera De Sektor | LA VIDA ES UN MUS DISCOS",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2928435997,
+    tags: [3688, 117, 3689, 118, 121, 3690, 3691, 122],
+  },
+  {
+    url_id: 2014,
+    url: "https://laculpa.bandcamp.com/album/la-culpa",
+    title: "La Culpa | La Culpa",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 3475041656,
+    tags: [96, 120, 117, 311, 3692, 134, 403, 2002],
+  },
+  {
+    url_id: 2015,
+    url: "https://sonidomuchacho.bandcamp.com/album/sm076-siento-muerte",
+    title: "SM076 - Siento Muerte | Mujeres | Sonido Muchacho",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 46352294,
+    tags: [1021, 1, 3693, 96, 117, 192, 1141, 96, 1054],
+  },
+  {
+    url_id: 2016,
+    url: "https://shivagrupo.bandcamp.com/album/la-cima-del-mundo",
+    title: "La Cima del Mundo | Shiva",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2861476970,
+    tags: [8, 3694, 192, 1141, 502, 2029, 3695],
+  },
+  {
+    url_id: 2017,
+    url: "https://maneskjold.bandcamp.com/album/s-lvhjerneskaller",
+    title: "Sølvhjerneskaller | Måneskjold",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2225341414,
+    tags: [3696, 51, 117, 192, 3697, 3698, 318, 2029, 1367],
+  },
+  {
+    url_id: 2018,
+    url: "https://seasonalmenswear.bandcamp.com/album/jurassic-park",
+    title: "Jurassic Park | Primal Beast/Park Ranger | Brown Bear Records",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3051691888,
+    tags: [237, 54, 3699, 3700, 2879, 1624, 3701, 1231, 2547],
+  },
+  {
+    url_id: 2019,
+    url: "https://mctiee.bandcamp.com/album/the-tower",
+    title: "the tower | M.C Tie",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3633582615,
+    tags: [95, 9, 1851, 3702, 48, 135, 12, 1153, 3703],
+  },
+  {
+    url_id: 2020,
+    url: "https://otoriistation.bandcamp.com/album/city-pop-sonic-the-hedgehog-1-2",
+    title: "City Pop 🎷 Sonic The Hedgehog 1 & 2 🌌 | Otorii Station",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 831437949,
+    tags: [1, 1181, 2978, 331, 466, 1182, 128, 1295, 92, 1185, 97, 1186],
+  },
+  {
+    url_id: 2021,
+    url: "https://abstractvoid.bandcamp.com/album/into-the-blue",
+    title: "Into the Blue | Abstract Void",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 223527236,
+    tags: [627, 190, 575, 628, 629, 457, 54, 630, 631, 632, 616, 571, 315],
+  },
+  {
+    url_id: 2022,
+    url: "https://erothyme.bandcamp.com/album/circadia",
+    title: "Circadia | Erothyme",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 717469805,
+    tags: [3704, 1, 2, 148, 16, 1775, 350],
+  },
+  {
+    url_id: 2023,
+    url: "https://modestbydefault.bandcamp.com/album/permaculture",
+    title: "Permaculture (组织胜过时间) | modest by default",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2420154101,
+    tags: [1, 99, 172, 21, 92, 1891],
+  },
+  {
+    url_id: 2024,
+    url: "https://slowerpace.bandcamp.com/album/pyromaniacs",
+    title: "PYROMANIACS | slowerpace 音楽",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 776747741,
+    tags: [1, 174, 100, 3705, 3706, 571, 25, 315, 92, 223, 818],
+  },
+  {
+    url_id: 2025,
+    url: "https://boguscollective.bandcamp.com/album/vice",
+    title: "Vice | Giovanni Scorpio & Neosir | B O G U S // COLLECTIVE",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 260681689,
+    tags: [
+      627, 180, 54, 3707, 3708, 1182, 181, 182, 113, 185, 2008, 2015, 92, 189,
+    ],
+  },
+  {
+    url_id: 2026,
+    url: "https://kenmoreclassic.bandcamp.com/album/--10",
+    title: "そこにいる？ | KENMORE Classic",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1133023267,
+    tags: [1, 172, 290, 360, 16, 3709, 1734, 183, 186, 187, 92, 720],
+  },
+  {
+    url_id: 2027,
+    url: "https://lostfrog.bandcamp.com/album/ghc-good-hyperflip-collection-vol-1",
+    title:
+      "ghc: good hyperflip collection vol. 1 | flipEMoff!! | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 1753428198,
+    tags: [725, 106, 1, 726, 727, 90, 3710, 724],
+  },
+  {
+    url_id: 2028,
+    url: "https://lostfrog.bandcamp.com/album/sampler-vol-4",
+    title: "深淵sampler vol.4 | Various Artists | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 240967859,
+    tags: [273, 725, 338, 1, 131, 726, 795, 729, 727, 282, 724],
+  },
+  {
+    url_id: 2029,
+    url: "https://lostfrog.bandcamp.com/album/artificial-heaven",
+    title: "Artificial Heaven | Fairy shoes | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2574263899,
+    tags: [273, 1, 109, 54, 3711, 3667, 724],
+  },
+  {
+    url_id: 2030,
+    url: "https://lostfrog.bandcamp.com/album/night-from-the-core",
+    title: "NIGHT FROM THE CORE | Various Artists | Lost Frog Productions",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2501285617,
+    tags: [171, 932, 273, 1, 644, 795, 288, 729, 343, 257, 724],
+  },
+  {
+    url_id: 2031,
+    url: "https://neul.bandcamp.com/album/run",
+    title: "run | null",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2733446775,
+    tags: [1, 755, 343, 1410, 90, 345],
+  },
+  {
+    url_id: 2032,
+    url: "https://kanpeki.bandcamp.com/album/hi-score-hunter",
+    title: "Hi-Score Hunter! | KANPEKI",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 4159570046,
+    tags: [273, 338, 746, 1, 957, 292, 3712, 723, 606, 957, 277, 959],
+  },
+  {
+    url_id: 2033,
+    url: "https://808sndmindbreak.bandcamp.com/album/hiiii-music",
+    title: "Hiiii Music | dev",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 3210048091,
+    tags: [1, 273, 257, 356],
+  },
+  {
+    url_id: 2034,
+    url: "https://traxhaven.bandcamp.com/album/council-trax-4",
+    title: "Council Trax 4 | Trax Haven",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3813321874,
+    tags: [1579, 1, 1580, 1581, 644, 288, 141],
+  },
+  {
+    url_id: 2035,
+    url: "https://suckpuckcompillations.bandcamp.com/album/fuk-the-borders-11",
+    title: "Fuk The Borders 11 | Suck Puck Compilations",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1112991419,
+    tags: [
+      1, 107, 469, 3, 273, 2104, 644, 793, 4, 301, 1414, 5, 292, 766, 2882,
+      2883,
+    ],
+  },
+  {
+    url_id: 2036,
+    url: "https://vanfleet.bandcamp.com/album/vanfleet-pad-pack-01",
+    title: "Vanfleet Pad Pack 01 | Vanfleet",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 144814653,
+    tags: [1, 2, 35, 224, 249, 841, 2729, 3713, 3714, 91, 153, 3715],
+  },
+  {
+    url_id: 2037,
+    url: "https://kavarimusic.bandcamp.com/album/healing-spring-ep",
+    title: "Healing Spring [EP] | KAVARI",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 2177040285,
+    tags: [8, 1, 785, 2, 787, 127, 789],
+  },
+  {
+    url_id: 2038,
+    url: "https://puurvuur.bandcamp.com/album/sphere-funk-ep",
+    title: "sphere funk EP | puurvuur",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 3634044070,
+    tags: [1, 539, 469, 284, 56, 802, 16, 248, 249, 276, 2333],
+  },
+  {
+    url_id: 2039,
+    url: "https://puurvuur.bandcamp.com/album/puurvuur-edits-1",
+    title: "puurvuur edits 1 | puurvuur",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2204826942,
+    tags: [1, 94, 139, 435, 469, 56, 16, 481, 276, 245, 175, 2333],
+  },
+  {
+    url_id: 2040,
+    url: "https://cloudwarmer.bandcamp.com/album/rellik",
+    title: "Rellik | CLOUDWARMER",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1263923155,
+    tags: [1, 54, 131, 3716, 16, 3380, 1440, 3717, 1200, 3096, 1892, 608, 69],
+  },
+  {
+    url_id: 2041,
+    url: "https://moncul.bandcamp.com/album/dispossessed",
+    title: "Dispossessed | LITOVSK | ET MON CUL C'EST DU TOFU ?",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 843016344,
+    tags: [126, 3718, 127, 117, 3529, 3719, 3720, 128, 120, 129, 130],
+  },
+  {
+    url_id: 2042,
+    url: "https://omoidelabel.bandcamp.com/album/room2017",
+    title: "room2017 | haruru犬love dog天使×Dubb Parade | OMOIDE LABEL",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 682772008,
+    tags: [94, 96, 139, 3721, 804, 724],
+  },
+  {
+    url_id: 2043,
+    url: "https://omoidelabel.bandcamp.com/album/act-of-noise",
+    title: "act of noise | soejima takuma koji itoyama | OMOIDE LABEL",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 185146818,
+    tags: [1, 96, 3722, 109, 1319, 127, 229, 724],
+  },
+  {
+    url_id: 2044,
+    url: "https://themurers.bandcamp.com/album/dance-inm-compilation-vol-1",
+    title: "Dance & INM Compilation vol.1 | Various Artists | MUR軍団",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1901925816,
+    tags: [1, 389, 310, 3723, 3724, 106, 3725, 3726, 3727, 3728, 724],
+  },
+  {
+    url_id: 2045,
+    url: "https://madbreaks.bandcamp.com/album/mad-otaku-breaks",
+    title: "MAD OTAKU BREAKS | MO | MAD BREAKS",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 641804306,
+    tags: [1, 108, 273, 292, 945],
+  },
+  {
+    url_id: 2046,
+    url: "https://madbreaks.bandcamp.com/album/utada-dancing-on-the-footcore",
+    title: "UTADA dancing on the FOOTCORE | pencil | MAD BREAKS",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1767540786,
+    tags: [1, 108, 273, 3729, 644, 288, 292, 343, 945],
+  },
+  {
+    url_id: 2047,
+    url: "https://stalkerfm.bandcamp.com/album/everything-because-anything-less-is-suicide-2023-2024",
+    title:
+      "EVERYTHING!(because anything less is suicide.) [2023-2024] | stalker.",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2059071895,
+    tags: [54, 2, 414, 357, 3730],
+  },
+  {
+    url_id: 2048,
+    url: "https://taxpayers.bandcamp.com/album/god-forgive-these-bastards-songs-from-the-forgotten-life-of-henry-turner-2012",
+    title:
+      '"God, Forgive These Bastards" Songs From The Forgotten Life Of Henry Turner (2012) | The Taxpayers',
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2199809710,
+    tags: [1968, 3731, 117, 54, 1003, 1969, 1970, 356],
+  },
+  {
+    url_id: 2049,
+    url: "https://xdirtyfingers.bandcamp.com/album/the-guillotine-me",
+    title: "The Guillotine & Me | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 246898990,
+    tags: [547, 1668, 374, 3338, 3732, 1003, 47, 976, 52, 53, 784],
+  },
+  {
+    url_id: 2050,
+    url: "https://xdirtyfingers.bandcamp.com/album/cbr-troglobyte-are-the-new-age-cave-dwellers",
+    title:
+      "CBR & Troglobyte Are The New Age Cave Dwellers | CBR & Troglobyte | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 775700803,
+    tags: [547, 374, 29, 2, 466, 109, 1003, 47, 976, 52, 784],
+  },
+  {
+    url_id: 2051,
+    url: "https://xdirtyfingers.bandcamp.com/album/tessellations",
+    title: "tessellations | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 3218940493,
+    tags: [547, 3733, 1, 374, 1003, 47, 1972, 976, 52, 784],
+  },
+  {
+    url_id: 2052,
+    url: "https://xdirtyfingers.bandcamp.com/album/xenogenesis",
+    title: "xenogenesis | Taryn Kody | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 704313869,
+    tags: [547, 374, 2, 35, 1003, 1822, 47, 976, 52, 1231, 784],
+  },
+  {
+    url_id: 2053,
+    url: "https://xdirtyfingers.bandcamp.com/album/sox-and-shoes-and-my-attitude",
+    title: "sox and shoes and my attitude | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1912999270,
+    tags: [547, 374, 1003, 47, 976, 52, 784],
+  },
+  {
+    url_id: 2054,
+    url: "https://xdirtyfingers.bandcamp.com/album/some-more-demos",
+    title: "some more demos! | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 845554328,
+    tags: [547, 374, 1003, 47, 976, 52, 784],
+  },
+  {
+    url_id: 2055,
+    url: "https://xdirtyfingers.bandcamp.com/album/really-dirty-horses",
+    title:
+      "Really Dirty Horses | Really Fast Horses and X Dirty Fingers | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3966617255,
+    tags: [547, 374, 1003, 47, 976, 52, 784],
+  },
+  {
+    url_id: 2056,
+    url: "https://xdirtyfingers.bandcamp.com/album/xdf-plays-the-boss",
+    title: "xdf plays the boss | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 241833313,
+    tags: [547, 374, 1003, 47, 976, 52, 784],
+  },
+  {
+    url_id: 2057,
+    url: "https://xdirtyfingers.bandcamp.com/album/live-wild-electric-free",
+    title: "Live, Wild, Electric, & Free | X Dirty Fingers",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1130853598,
+    tags: [547, 374, 1003, 47, 976, 52, 784],
+  },
+  {
+    url_id: 2058,
+    url: "https://uselessstate.bandcamp.com/album/modest-proposals-2",
+    title: "Modest Proposals 2 | The Taxpayers | Useless State",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 377993782,
+    tags: [1968, 374, 1003, 1970, 3731, 3526, 117, 599, 3734, 542],
+  },
+  {
+    url_id: 2059,
+    url: "https://turbodiscos.bandcamp.com/album/tourtape",
+    title: "TOURTAPE | Twisted Teens | Turbo Discos",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 204633652,
+    tags: [117, 1003, 564, 120, 1026, 89],
+  },
+  {
+    url_id: 2060,
+    url: "https://alkslk.bandcamp.com/album/kikyu",
+    title: "KIKYU | ALKASILKA",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 2177673707,
+    tags: [117, 1006, 3735, 1003, 3736, 118, 1004, 724],
+  },
+  {
+    url_id: 2061,
+    url: "https://teenagekreepshowofficial.bandcamp.com/album/fast-songs-and-fast-times",
+    title: "Fast Songs And Fast Times | Teenage Kreepshow",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 1523961127,
+    tags: [314, 117, 3737, 1012, 3738, 3072],
+  },
+  {
+    url_id: 2062,
+    url: "https://slice1.bandcamp.com/album/catalyst",
+    title: "Catalyst | Catalyst",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1360908366,
+    tags: [3739, 3740, 3741, 190, 2, 660, 150, 206, 21, 199, 190, 502, 3742],
+  },
+  {
+    url_id: 2063,
+    url: "https://tlwmetal.bandcamp.com/album/seasons",
+    title: "Seasons | The Last Weapon",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 2315945953,
+    tags: [193, 241, 167, 1370, 1624, 190, 1369, 609, 3743, 1372],
+  },
+  {
+    url_id: 2064,
+    url: "https://themuseumofviralmemory.bandcamp.com/album/crash-bang",
+    title: "Crash/Bang | Carnival De Carnitas | The Museum of Viral Memory",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 39955863,
+    tags: [202, 203, 54, 3744, 3745, 3746, 1341],
+  },
+  {
+    url_id: 2065,
+    url: "https://themuseumofviralmemory.bandcamp.com/album/fire-walk-with-me",
+    title:
+      "Fire Walk With Me | My Special Porpoise + C | The Museum of Viral Memory",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 880648901,
+    tags: [202, 203, 54, 3744, 3745, 3746, 1341],
+  },
+  {
+    url_id: 2066,
+    url: "https://themuseumofviralmemory.bandcamp.com/album/aufgeboht",
+    title: "Aufgeboht | Aufgeboht In Its Cage | The Museum of Viral Memory",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 514921584,
+    tags: [202, 203, 54, 3744, 3745, 3746, 1341],
+  },
+  {
+    url_id: 2067,
+    url: "https://mahorka.bandcamp.com/album/meditations-on-forgetting",
+    title: "Meditations on Forgetting | Dayin | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 1880165829,
+    tags: [1, 54, 2, 375, 167, 162, 1, 54, 3747, 57, 165],
+  },
+  {
+    url_id: 2068,
+    url: "https://mahorka.bandcamp.com/album/groove-command",
+    title: "Groove Command | DaoLogic | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 437423545,
+    tags: [1, 54, 2, 470, 331, 16, 162, 109, 1346, 3748, 1649, 165],
+  },
+  {
+    url_id: 2069,
+    url: "https://mahorka.bandcamp.com/album/having-a-vhs-for-a-leg",
+    title: "Having A VHS For A Leg | Captive Portal | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    bc_id: 23980929,
+    tags: [1, 54, 2, 3288, 1739, 162, 1, 54, 3749, 5, 48, 127, 1231, 3750, 165],
+  },
+  {
+    url_id: 2070,
+    url: "https://mahorka.bandcamp.com/album/picture-in-picture",
+    title: "Picture in Picture | Autonomaton | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 2947171289,
+    tags: [1, 54, 2, 241, 167, 170, 162, 1, 54, 276, 165],
+  },
+  {
+    url_id: 2071,
+    url: "https://mahorka.bandcamp.com/album/the-reinterpretation-of-dreams-remixed",
+    title:
+      "The Reinterpretation of Dreams (小さな夢達 remixed) | Tomoroh Hidari | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4124924483,
+    tags: [1, 54, 2, 389, 162, 1, 109, 5, 3751, 3752, 792, 165],
+  },
+  {
+    url_id: 2072,
+    url: "https://mahorka.bandcamp.com/album/s-t",
+    title: "s/t | Jawhinge | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 462066477,
+    tags: [1, 54, 2, 273, 162, 1, 109, 276, 5, 57, 292, 516, 165],
+  },
+  {
+    url_id: 2073,
+    url: "https://mahorka.bandcamp.com/album/sooo-spring",
+    title: "Sooo spring | Antonella Eye Porcelluzzi + Philippe Neau | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 4258044114,
+    tags: [1, 54, 687, 2, 162, 1, 54, 127, 165],
+  },
+  {
+    url_id: 2074,
+    url: "https://mahorka.bandcamp.com/album/dark-meters-1-djane-ki-calls",
+    title: "DARK METERS #1 (Djane Ki calls) | Djane Ki | Mahorka",
+    license_url: "http://creativecommons.org/licenses/by-nc/3.0/",
+    bc_id: 3669133730,
+    tags: [1, 54, 2, 162, 1, 109, 54, 5, 57, 516, 165],
+  },
+  {
+    url_id: 2075,
+    url: "https://superapeslabel.bandcamp.com/album/ten-hundred-light-years-from-home",
+    title: "Ten Hundred Light-Years From Home | Offworlds | Super Apes Label",
+    license_url: "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    bc_id: 1895186156,
+    tags: [3753, 8, 3754, 3755, 3756, 3757, 3758, 3759, 3760, 3761, 3762, 3763],
+  },
+  {
+    url_id: 2076,
+    url: "https://chezmonplaisir.bandcamp.com/album/pppppink-qwerty-est-un-e-skateureuse-de-guitare",
+    title:
+      "PPPPPINK QWERTY est un·e skateureuse de guitare | Rrrrrose Azerty | Rrrrrose - Loyalty Freak Music",
+    license_url: "http://creativecommons.org/licenses/by/3.0/",
+    bc_id: 4025557779,
+    tags: [8, 650, 228, 3764, 3765, 3766, 3767, 3768, 3769, 3770, 215, 930],
+  },
+  {
+    url_id: 2077,
+    url: "https://kavarimusic.bandcamp.com/album/unreleased-archive-2018-2021",
+    title: "Unreleased Archive (2018-2021) | KAVARI",
+    license_url: "http://creativecommons.org/licenses/by-nd/3.0/",
+    bc_id: 3079657923,
+    tags: [8, 1, 785, 2, 787, 3771, 127, 789],
+  },
+  {
+    url_id: 2078,
+    url: "https://nukvlture.bandcamp.com/album/booty-traxx-4-your-bootleggers-ball",
+    title: "Booty Traxx 4 your bootleggers ball | Yerba Terps | Nü Kvlture",
+    license_url: "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    bc_id: 2219285479,
+    tags: [1, 469, 249, 1774, 288, 292, 516, 257, 3772],
   },
 ];
 export default urls;

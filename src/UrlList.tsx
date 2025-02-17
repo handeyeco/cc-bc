@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
 
-import { UrlListing } from "./types";
+import { PlayerData, UrlListing } from "./types";
 import tagData from "./data/tags";
 
 import "./UrlList.css";
@@ -14,6 +14,7 @@ import {
 
 type Props = {
   urls: ReadonlyArray<UrlListing>;
+  loadPlayer: (data: PlayerData) => void;
 };
 
 function shuffle(array: UrlListing[]) {
@@ -34,18 +35,19 @@ function shuffle(array: UrlListing[]) {
 }
 
 export default function UrlList(props: Props) {
-  const { urls } = props;
+  const { urls, loadPlayer } = props;
   const query = useQuery();
 
   const selectedLicense = query.get("license");
   const selectedTag = query.get("tag");
   const showingFaves = !!query.get("faves");
 
+  const stringJSON = JSON.stringify(urls);
   const shuffledUrls = useMemo<UrlListing[]>(() => {
-    const urlCopy = JSON.parse(JSON.stringify(urls));
+    const urlCopy = JSON.parse(stringJSON);
     shuffle(urlCopy);
     return urlCopy;
-  }, [urls]);
+  }, [stringJSON]);
 
   const hasResults = urls.length !== 0;
 
@@ -132,6 +134,22 @@ export default function UrlList(props: Props) {
               {licenseUrlToText(u.license_url)}
             </Link>
           </div>
+          <button
+            className={`url-list__listen ${
+              u.favorite ? "url-list__listen--fave" : ""
+            }`}
+            onClick={() => {
+              const data = {
+                title: u.title,
+                url: u.url,
+                bc_id: u.bc_id,
+              };
+
+              loadPlayer(data);
+            }}
+          >
+            Listen
+          </button>
         </div>
       ))}
     </div>

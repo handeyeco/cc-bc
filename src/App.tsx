@@ -12,10 +12,11 @@ import {
   filterUrlsByLicense,
   filterUrlsByTag,
 } from "./util/url-filters";
-import { UrlListing } from "./types";
-import { useEffect } from "react";
+import { PlayerData, UrlListing } from "./types";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [playerData, setPlayerData] = useState<PlayerData>();
   const query = useQuery();
   const { search } = useLocation();
 
@@ -83,9 +84,21 @@ function App() {
           <TagList />
         </Route>
         <Route path="/list">
-          <UrlList urls={filteredUrls} />
+          <UrlList urls={filteredUrls} loadPlayer={setPlayerData} />
         </Route>
       </Switch>
+
+      {playerData?.bc_id && (
+        <div className="sticky-player">
+          <iframe
+            src={`https://bandcamp.com/EmbeddedPlayer/album=${playerData.bc_id}/size=small/bgcol=ffffff/linkcol=ffb300/transparent=true/`}
+            seamless
+          >
+            <a href={playerData.url}>{playerData.title}</a>
+          </iframe>
+        </div>
+      )}
+
       <footer>
         🍹{" "}
         <a href="https://github.com/handeyeco/cc-bc" target="_blank">
