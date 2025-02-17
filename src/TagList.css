@@ -40,4 +40,5 @@
   color: white;
   border: 1px solid var(--orange);
   border-radius: 8px;
+  font-size: 1rem;
 }
