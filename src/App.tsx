@@ -24,7 +24,8 @@ function App() {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   }, [search]);
 
-  const selectedLicense = query.get("license");
+  const licenseQuery = query.get("license");
+  const selectedLicense = licenseQuery ? +licenseQuery : null;
   const selectedTag = query.get("tag");
   const showingFaves = !!query.get("faves");
 

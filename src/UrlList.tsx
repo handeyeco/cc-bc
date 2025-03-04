@@ -7,9 +7,9 @@ import tagData from "./data/tags";
 import "./UrlList.css";
 import useQuery from "./hooks/useQuery";
 import {
-  getLicenseDescription,
-  licenseTextToUrl,
-  licenseUrlToText,
+  getLicenseDescriptionByBcId,
+  getLicenseUrlByBcId,
+  getLicenseNameByBcId,
 } from "./util/licenses";
 
 type Props = {
@@ -38,7 +38,8 @@ export default function UrlList(props: Props) {
   const { urls, loadPlayer } = props;
   const query = useQuery();
 
-  const selectedLicense = query.get("license");
+  const licenseQuery = query.get("license");
+  const selectedLicense = licenseQuery ? +licenseQuery : null;
   const selectedTag = query.get("tag");
   const showingFaves = !!query.get("faves");
 
@@ -66,10 +67,10 @@ export default function UrlList(props: Props) {
       {hasResults && selectedLicense && (
         <div className="url-list__license-details">
           License details
-          {getLicenseDescription(selectedLicense).map((e) => (
+          {getLicenseDescriptionByBcId(selectedLicense).map((e) => (
             <p key={e}>{e}</p>
           ))}
-          <a href={licenseTextToUrl(selectedLicense)} target="_blank">
+          <a href={getLicenseUrlByBcId(selectedLicense)} target="_blank">
             Link to license
           </a>
         </div>
@@ -122,16 +123,16 @@ export default function UrlList(props: Props) {
           </div>
           <div>
             <Link
-              key={u.title + "_" + u.license_url}
-              to={`/list?license=${licenseUrlToText(u.license_url)}`}
+              key={u.title + "_" + u.license}
+              to={`/list?license=${u.license}`}
               className={
                 "link-button url-list__license" +
-                (licenseUrlToText(u.license_url) === selectedLicense
+                (u.license === selectedLicense
                   ? " url-list__license--active"
                   : "")
               }
             >
-              {licenseUrlToText(u.license_url)}
+              {getLicenseNameByBcId(u.license)}
             </Link>
           </div>
           <button

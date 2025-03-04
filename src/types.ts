@@ -2,7 +2,7 @@ export type UrlListing = {
   url_id: number;
   url: string;
   title: string;
-  license_url: string;
+  license: number;
   tags: ReadonlyArray<number>;
   favorite?: boolean;
   bc_id: number;

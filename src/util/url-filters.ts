@@ -1,5 +1,4 @@
 import { UrlListing } from "../types";
-import { licenseUrlToText } from "./licenses";
 
 export function filterUrlsByTag(
   tag: number,
@@ -9,10 +8,10 @@ export function filterUrlsByTag(
 }
 
 export function filterUrlsByLicense(
-  license: string,
+  license: number,
   urls: ReadonlyArray<UrlListing>
 ): ReadonlyArray<UrlListing> {
-  return urls.filter((u) => licenseUrlToText(u.license_url) === license);
+  return urls.filter((u) => u.license === license);
 }
 
 export function filterUrlsByFaves(

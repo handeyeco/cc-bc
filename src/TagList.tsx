@@ -52,7 +52,7 @@ export default function TagList() {
         {licenses.map((l) => (
           <Link
             key={l.text}
-            to={`/list?license=${l.text}`}
+            to={`/list?license=${l.license}`}
             className="link-button tag-list__license"
           >
             {l.text} <span className="tag-list__count">{l.count}</span>
