@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { PlayerData, UrlListing } from "./types";
@@ -11,6 +11,8 @@ import {
   getLicenseUrlByBcId,
   getLicenseNameByBcId,
 } from "./util/licenses";
+
+const LANDING_COUNT = 10;
 
 type Props = {
   urls: ReadonlyArray<UrlListing>;
@@ -37,6 +39,7 @@ function shuffle(array: UrlListing[]) {
 export default function UrlList(props: Props) {
   const { urls, loadPlayer } = props;
   const query = useQuery();
+  const [showAll, setShowAll] = useState<boolean>(false);
 
   const licenseQuery = query.get("license");
   const selectedLicense = licenseQuery ? +licenseQuery : null;
@@ -45,10 +48,22 @@ export default function UrlList(props: Props) {
 
   const stringJSON = JSON.stringify(urls);
   const shuffledUrls = useMemo<UrlListing[]>(() => {
+    setShowAll(false);
     const urlCopy = JSON.parse(stringJSON);
     shuffle(urlCopy);
+
     return urlCopy;
   }, [stringJSON]);
+
+  const filteredUrls = useMemo<UrlListing[]>(() => {
+    let nextUrls = shuffledUrls;
+
+    if (!showAll) {
+      nextUrls = nextUrls.slice(0, LANDING_COUNT);
+    }
+
+    return nextUrls;
+  }, [shuffledUrls, showAll]);
 
   const hasResults = urls.length !== 0;
 
@@ -88,7 +103,7 @@ export default function UrlList(props: Props) {
           </p>
         </div>
       )}
-      {shuffledUrls.map((u) => (
+      {filteredUrls.map((u) => (
         <div
           key={u.url}
           className={`url-list__listing ${
@@ -153,6 +168,14 @@ export default function UrlList(props: Props) {
           </button>
         </div>
       ))}
+
+      <div>
+        {!showAll && urls.length > LANDING_COUNT && (
+          <button onClick={() => setShowAll(true)} className="show-more-button">
+            Show all albums
+          </button>
+        )}
+      </div>
     </div>
   );
 }

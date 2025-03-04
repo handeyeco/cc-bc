@@ -123,3 +123,15 @@ footer > a:active {
   height: 42px;
   display: block;
 }
+
+.show-more-button {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  background: none;
+  background: var(--orange);
+  color: white;
+  border: 1px solid var(--orange);
+  border-radius: 8px;
+  font-size: 1rem;
+}

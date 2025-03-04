@@ -5,7 +5,7 @@ import tagData from "./data/tags";
 import "./TagList.css";
 import { licenses } from "./util/licenses";
 
-const LOW_COUNT = 5;
+const LOW_COUNT = 50;
 
 export default function TagList() {
   const [search, setSearch] = useState<string>("");
@@ -76,9 +76,9 @@ export default function TagList() {
         {filterLowCount && (
           <button
             onClick={() => setFilterLowCount(false)}
-            className="tag-list__show-more"
+            className="show-more-button"
           >
-            Show more tags
+            Show all tags
           </button>
         )}
       </div>
