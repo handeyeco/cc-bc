@@ -2,336 +2,361 @@ const tags = [
   {
     tag_id: 1,
     name: "electronic",
-    count: 4387,
+    count: 4796,
   },
   {
     tag_id: 54,
     name: "experimental",
-    count: 2827,
+    count: 3199,
   },
   {
     tag_id: 2,
     name: "ambient",
-    count: 2375,
+    count: 2592,
   },
   {
     tag_id: 167,
     name: "drone",
-    count: 904,
+    count: 955,
   },
   {
     tag_id: 92,
     name: "vaporwave",
-    count: 892,
+    count: 906,
   },
   {
     tag_id: 117,
     name: "punk",
-    count: 772,
-  },
-  {
-    tag_id: 8,
-    name: "alternative",
-    count: 702,
-  },
-  {
-    tag_id: 127,
-    name: "noise",
-    count: 657,
+    count: 856,
   },
   {
     tag_id: 95,
     name: "hip-hop/rap",
-    count: 626,
+    count: 798,
+  },
+  {
+    tag_id: 8,
+    name: "alternative",
+    count: 749,
+  },
+  {
+    tag_id: 127,
+    name: "noise",
+    count: 723,
   },
   {
     tag_id: 29,
     name: "house",
-    count: 557,
-  },
-  {
-    tag_id: 241,
-    name: "dark ambient",
-    count: 523,
+    count: 623,
   },
   {
     tag_id: 374,
     name: "folk",
-    count: 481,
+    count: 553,
   },
   {
-    tag_id: 5,
-    name: "idm",
-    count: 480,
+    tag_id: 241,
+    name: "dark ambient",
+    count: 536,
   },
   {
     tag_id: 25,
     name: "soundtrack",
-    count: 456,
+    count: 530,
+  },
+  {
+    tag_id: 5,
+    name: "idm",
+    count: 515,
   },
   {
     tag_id: 141,
     name: "United Kingdom",
-    count: 426,
+    count: 493,
   },
   {
     tag_id: 21,
     name: "instrumental",
-    count: 411,
-  },
-  {
-    tag_id: 90,
-    name: "plunderphonics",
-    count: 392,
-  },
-  {
-    tag_id: 192,
-    name: "rock",
-    count: 384,
+    count: 478,
   },
   {
     tag_id: 135,
     name: "lo-fi",
-    count: 380,
-  },
-  {
-    tag_id: 109,
-    name: "electronica",
-    count: 370,
-  },
-  {
-    tag_id: 516,
-    name: "techno",
-    count: 363,
-  },
-  {
-    tag_id: 96,
-    name: "pop",
-    count: 363,
-  },
-  {
-    tag_id: 132,
-    name: "indie",
-    count: 354,
+    count: 458,
   },
   {
     tag_id: 301,
     name: "hardcore",
-    count: 353,
+    count: 433,
   },
   {
-    tag_id: 131,
-    name: "hip hop",
-    count: 324,
+    tag_id: 192,
+    name: "rock",
+    count: 426,
   },
   {
-    tag_id: 56,
-    name: "beats",
-    count: 321,
-  },
-  {
-    tag_id: 190,
-    name: "metal",
-    count: 317,
-  },
-  {
-    tag_id: 16,
-    name: "downtempo",
-    count: 314,
-  },
-  {
-    tag_id: 32,
-    name: "Los Angeles",
-    count: 303,
-  },
-  {
-    tag_id: 273,
-    name: "breakcore",
-    count: 299,
-  },
-  {
-    tag_id: 139,
-    name: "rap",
-    count: 276,
-  },
-  {
-    tag_id: 466,
-    name: "chiptune",
-    count: 275,
+    tag_id: 109,
+    name: "electronica",
+    count: 423,
   },
   {
     tag_id: 94,
     name: "hip-hop",
-    count: 265,
+    count: 413,
   },
   {
-    tag_id: 353,
-    name: "new age",
-    count: 264,
+    tag_id: 516,
+    name: "techno",
+    count: 396,
   },
   {
-    tag_id: 310,
-    name: "dance",
-    count: 258,
+    tag_id: 139,
+    name: "rap",
+    count: 393,
   },
   {
-    tag_id: 292,
-    name: "jungle",
-    count: 252,
+    tag_id: 90,
+    name: "plunderphonics",
+    count: 393,
   },
   {
-    tag_id: 50,
-    name: "psychedelic",
-    count: 243,
+    tag_id: 96,
+    name: "pop",
+    count: 390,
   },
   {
-    tag_id: 99,
-    name: "atmospheric",
-    count: 238,
+    tag_id: 131,
+    name: "hip hop",
+    count: 380,
   },
   {
-    tag_id: 414,
-    name: "field recordings",
-    count: 236,
+    tag_id: 56,
+    name: "beats",
+    count: 379,
   },
   {
-    tag_id: 187,
-    name: "slushwave",
-    count: 236,
+    tag_id: 32,
+    name: "Los Angeles",
+    count: 375,
   },
   {
-    tag_id: 276,
-    name: "experimental electronic",
-    count: 233,
+    tag_id: 190,
+    name: "metal",
+    count: 368,
   },
   {
-    tag_id: 169,
-    name: "soundscapes",
-    count: 233,
+    tag_id: 132,
+    name: "indie",
+    count: 362,
   },
   {
-    tag_id: 42,
-    name: "meditation",
-    count: 231,
+    tag_id: 16,
+    name: "downtempo",
+    count: 357,
+  },
+  {
+    tag_id: 273,
+    name: "breakcore",
+    count: 306,
+  },
+  {
+    tag_id: 479,
+    name: "soul",
+    count: 305,
+  },
+  {
+    tag_id: 245,
+    name: "jazz",
+    count: 304,
   },
   {
     tag_id: 558,
     name: "world",
-    count: 225,
+    count: 298,
+  },
+  {
+    tag_id: 276,
+    name: "experimental electronic",
+    count: 292,
+  },
+  {
+    tag_id: 310,
+    name: "dance",
+    count: 288,
+  },
+  {
+    tag_id: 292,
+    name: "jungle",
+    count: 284,
+  },
+  {
+    tag_id: 466,
+    name: "chiptune",
+    count: 279,
+  },
+  {
+    tag_id: 353,
+    name: "new age",
+    count: 273,
+  },
+  {
+    tag_id: 414,
+    name: "field recordings",
+    count: 272,
+  },
+  {
+    tag_id: 50,
+    name: "psychedelic",
+    count: 267,
+  },
+  {
+    tag_id: 248,
+    name: "dub",
+    count: 259,
+  },
+  {
+    tag_id: 42,
+    name: "meditation",
+    count: 254,
+  },
+  {
+    tag_id: 169,
+    name: "soundscapes",
+    count: 252,
+  },
+  {
+    tag_id: 187,
+    name: "slushwave",
+    count: 246,
+  },
+  {
+    tag_id: 99,
+    name: "atmospheric",
+    count: 244,
+  },
+  {
+    tag_id: 128,
+    name: "lofi",
+    count: 240,
+  },
+  {
+    tag_id: 57,
+    name: "industrial",
+    count: 235,
+  },
+  {
+    tag_id: 30,
+    name: "minimal",
+    count: 233,
+  },
+  {
+    tag_id: 792,
+    name: "remix",
+    count: 226,
   },
   {
     tag_id: 174,
     name: "chillwave",
+    count: 226,
+  },
+  {
+    tag_id: 331,
+    name: "chillout",
     count: 222,
   },
   {
     tag_id: 153,
     name: "soundscape",
-    count: 220,
+    count: 222,
   },
   {
-    tag_id: 57,
-    name: "industrial",
-    count: 220,
-  },
-  {
-    tag_id: 792,
-    name: "remix",
+    tag_id: 1069,
+    name: "deep house",
     count: 218,
-  },
-  {
-    tag_id: 248,
-    name: "dub",
-    count: 217,
-  },
-  {
-    tag_id: 245,
-    name: "jazz",
-    count: 212,
-  },
-  {
-    tag_id: 331,
-    name: "chillout",
-    count: 211,
   },
   {
     tag_id: 1168,
     name: "disco",
-    count: 207,
-  },
-  {
-    tag_id: 146,
-    name: "San Francisco",
-    count: 200,
-  },
-  {
-    tag_id: 239,
-    name: "improvisation",
-    count: 199,
-  },
-  {
-    tag_id: 12,
-    name: "shoegaze",
-    count: 198,
-  },
-  {
-    tag_id: 315,
-    name: "synthwave",
-    count: 197,
-  },
-  {
-    tag_id: 128,
-    name: "lofi",
-    count: 195,
-  },
-  {
-    tag_id: 97,
-    name: "video game music",
-    count: 195,
-  },
-  {
-    tag_id: 244,
-    name: "avant-garde",
-    count: 194,
-  },
-  {
-    tag_id: 1697,
-    name: "field recording",
-    count: 190,
+    count: 212,
   },
   {
     tag_id: 724,
     name: "Japan",
-    count: 187,
+    count: 212,
+  },
+  {
+    tag_id: 239,
+    name: "improvisation",
+    count: 211,
+  },
+  {
+    tag_id: 146,
+    name: "San Francisco",
+    count: 210,
+  },
+  {
+    tag_id: 429,
+    name: "funk",
+    count: 209,
+  },
+  {
+    tag_id: 315,
+    name: "synthwave",
+    count: 207,
+  },
+  {
+    tag_id: 12,
+    name: "shoegaze",
+    count: 202,
+  },
+  {
+    tag_id: 208,
+    name: "reggae",
+    count: 200,
+  },
+  {
+    tag_id: 1697,
+    name: "field recording",
+    count: 197,
+  },
+  {
+    tag_id: 244,
+    name: "avant-garde",
+    count: 197,
+  },
+  {
+    tag_id: 97,
+    name: "video game music",
+    count: 197,
   },
   {
     tag_id: 591,
     name: "mashup",
+    count: 192,
+  },
+  {
+    tag_id: 145,
+    name: "instrumental hip-hop",
     count: 185,
   },
   {
     tag_id: 356,
     name: "United States",
-    count: 179,
+    count: 183,
   },
   {
-    tag_id: 208,
-    name: "reggae",
+    tag_id: 237,
+    name: "diy",
     count: 178,
   },
   {
-    tag_id: 429,
-    name: "funk",
+    tag_id: 338,
+    name: "drum & bass",
     count: 175,
   },
   {
-    tag_id: 30,
-    name: "minimal",
-    count: 174,
-  },
-  {
-    tag_id: 479,
-    name: "soul",
+    tag_id: 48,
+    name: "indie rock",
     count: 173,
   },
   {
@@ -340,24 +365,34 @@ const tags = [
     count: 172,
   },
   {
-    tag_id: 1069,
-    name: "deep house",
+    tag_id: 379,
+    name: "outsider music",
+    count: 171,
+  },
+  {
+    tag_id: 228,
+    name: "creative commons",
+    count: 171,
+  },
+  {
+    tag_id: 470,
+    name: "chill",
     count: 170,
   },
   {
-    tag_id: 338,
-    name: "drum & bass",
-    count: 167,
+    tag_id: 1278,
+    name: "sound art",
+    count: 169,
   },
   {
-    tag_id: 237,
-    name: "diy",
+    tag_id: 106,
+    name: "edm",
     count: 166,
   },
   {
-    tag_id: 48,
-    name: "indie rock",
-    count: 166,
+    tag_id: 386,
+    name: "improvised music",
+    count: 165,
   },
   {
     tag_id: 172,
@@ -365,14 +400,19 @@ const tags = [
     count: 165,
   },
   {
-    tag_id: 1278,
-    name: "sound art",
-    count: 164,
+    tag_id: 69,
+    name: "New York",
+    count: 163,
   },
   {
-    tag_id: 106,
-    name: "edm",
-    count: 164,
+    tag_id: 108,
+    name: "breakbeat",
+    count: 161,
+  },
+  {
+    tag_id: 320,
+    name: "weird",
+    count: 158,
   },
   {
     tag_id: 2058,
@@ -380,14 +420,39 @@ const tags = [
     count: 156,
   },
   {
-    tag_id: 108,
-    name: "breakbeat",
-    count: 152,
+    tag_id: 547,
+    name: "acoustic",
+    count: 156,
+  },
+  {
+    tag_id: 4,
+    name: "glitch",
+    count: 156,
   },
   {
     tag_id: 152,
     name: "post-rock",
-    count: 150,
+    count: 155,
+  },
+  {
+    tag_id: 804,
+    name: "hiphop",
+    count: 154,
+  },
+  {
+    tag_id: 130,
+    name: "France",
+    count: 154,
+  },
+  {
+    tag_id: 1012,
+    name: "punk rock",
+    count: 153,
+  },
+  {
+    tag_id: 1624,
+    name: "dungeon synth",
+    count: 152,
   },
   {
     tag_id: 2052,
@@ -395,34 +460,19 @@ const tags = [
     count: 148,
   },
   {
-    tag_id: 4,
-    name: "glitch",
+    tag_id: 35,
+    name: "ambient electronic",
+    count: 147,
+  },
+  {
+    tag_id: 249,
+    name: "dubstep",
     count: 145,
-  },
-  {
-    tag_id: 228,
-    name: "creative commons",
-    count: 144,
-  },
-  {
-    tag_id: 804,
-    name: "hiphop",
-    count: 143,
-  },
-  {
-    tag_id: 130,
-    name: "France",
-    count: 143,
   },
   {
     tag_id: 89,
     name: "Germany",
-    count: 143,
-  },
-  {
-    tag_id: 35,
-    name: "ambient electronic",
-    count: 143,
+    count: 144,
   },
   {
     tag_id: 2061,
@@ -430,38 +480,58 @@ const tags = [
     count: 142,
   },
   {
-    tag_id: 470,
-    name: "chill",
-    count: 141,
-  },
-  {
-    tag_id: 249,
-    name: "dubstep",
-    count: 139,
-  },
-  {
-    tag_id: 1624,
-    name: "dungeon synth",
-    count: 137,
+    tag_id: 202,
+    name: "classical",
+    count: 142,
   },
   {
     tag_id: 160,
     name: "synthpop",
-    count: 134,
+    count: 142,
   },
   {
     tag_id: 112,
     name: "Chicago",
-    count: 133,
-  },
-  {
-    tag_id: 170,
-    name: "drone ambient",
-    count: 130,
+    count: 142,
   },
   {
     tag_id: 28,
     name: "electro",
+    count: 140,
+  },
+  {
+    tag_id: 478,
+    name: "r&b",
+    count: 137,
+  },
+  {
+    tag_id: 367,
+    name: "doom",
+    count: 136,
+  },
+  {
+    tag_id: 118,
+    name: "hardcore punk",
+    count: 136,
+  },
+  {
+    tag_id: 170,
+    name: "drone ambient",
+    count: 133,
+  },
+  {
+    tag_id: 148,
+    name: "cinematic",
+    count: 132,
+  },
+  {
+    tag_id: 122,
+    name: "London",
+    count: 132,
+  },
+  {
+    tag_id: 229,
+    name: "piano",
     count: 130,
   },
   {
@@ -470,69 +540,99 @@ const tags = [
     count: 129,
   },
   {
-    tag_id: 148,
-    name: "cinematic",
+    tag_id: 306,
+    name: "noise rock",
     count: 129,
-  },
-  {
-    tag_id: 367,
-    name: "doom",
-    count: 128,
-  },
-  {
-    tag_id: 118,
-    name: "hardcore punk",
-    count: 124,
   },
   {
     tag_id: 9,
     name: "alternative rock",
-    count: 124,
+    count: 128,
   },
   {
-    tag_id: 306,
-    name: "noise rock",
+    tag_id: 382,
+    name: "Israel",
+    count: 127,
+  },
+  {
+    tag_id: 376,
+    name: "cinematic music",
+    count: 126,
+  },
+  {
+    tag_id: 1257,
+    name: "Toronto",
+    count: 125,
+  },
+  {
+    tag_id: 526,
+    name: "knxwledge",
+    count: 125,
+  },
+  {
+    tag_id: 435,
+    name: "trap",
     count: 122,
   },
   {
     tag_id: 291,
     name: "dnb",
-    count: 121,
+    count: 122,
   },
   {
-    tag_id: 69,
-    name: "New York",
-    count: 121,
+    tag_id: 193,
+    name: "black metal",
+    count: 122,
   },
   {
-    tag_id: 379,
-    name: "outsider music",
-    count: 118,
+    tag_id: 150,
+    name: "guitar",
+    count: 122,
   },
   {
-    tag_id: 122,
-    name: "London",
-    count: 117,
-  },
-  {
-    tag_id: 945,
-    name: "Mexico",
-    count: 116,
-  },
-  {
-    tag_id: 1012,
-    name: "punk rock",
-    count: 115,
-  },
-  {
-    tag_id: 386,
-    name: "improvised music",
-    count: 115,
+    tag_id: 120,
+    name: "post-punk",
+    count: 122,
   },
   {
     tag_id: 162,
     name: "electroacoustic",
-    count: 113,
+    count: 121,
+  },
+  {
+    tag_id: 945,
+    name: "Mexico",
+    count: 118,
+  },
+  {
+    tag_id: 107,
+    name: "acid",
+    count: 117,
+  },
+  {
+    tag_id: 469,
+    name: "bass",
+    count: 115,
+  },
+  {
+    tag_id: 134,
+    name: "indie pop",
+    count: 115,
+  },
+  {
+    tag_id: 531,
+    name: "remixes",
+    count: 114,
+  },
+  {
+    tag_id: 525,
+    name: "knx",
+    count: 114,
+  },
+  {
+    tag_id: 1231,
+    name: "synth",
+    count: 112,
   },
   {
     tag_id: 768,
@@ -540,38 +640,13 @@ const tags = [
     count: 112,
   },
   {
-    tag_id: 547,
-    name: "acoustic",
-    count: 112,
-  },
-  {
-    tag_id: 145,
-    name: "instrumental hip-hop",
-    count: 111,
-  },
-  {
-    tag_id: 107,
-    name: "acid",
-    count: 110,
-  },
-  {
-    tag_id: 150,
-    name: "guitar",
-    count: 109,
-  },
-  {
-    tag_id: 435,
-    name: "trap",
-    count: 108,
-  },
-  {
     tag_id: 220,
     name: "Belgium",
     count: 108,
   },
   {
-    tag_id: 134,
-    name: "indie pop",
+    tag_id: 247,
+    name: "Philadelphia",
     count: 107,
   },
   {
@@ -580,63 +655,33 @@ const tags = [
     count: 106,
   },
   {
-    tag_id: 202,
-    name: "classical",
-    count: 105,
-  },
-  {
-    tag_id: 247,
-    name: "Philadelphia",
-    count: 104,
-  },
-  {
-    tag_id: 120,
-    name: "post-punk",
-    count: 104,
-  },
-  {
-    tag_id: 1257,
-    name: "Toronto",
+    tag_id: 413,
+    name: "Manchester",
     count: 103,
   },
   {
-    tag_id: 531,
-    name: "remixes",
-    count: 101,
-  },
-  {
-    tag_id: 469,
-    name: "bass",
-    count: 101,
-  },
-  {
-    tag_id: 478,
-    name: "r&b",
-    count: 100,
-  },
-  {
-    tag_id: 413,
-    name: "Manchester",
-    count: 99,
-  },
-  {
-    tag_id: 320,
-    name: "weird",
-    count: 99,
-  },
-  {
-    tag_id: 311,
-    name: "emo",
-    count: 99,
-  },
-  {
-    tag_id: 1231,
-    name: "synth",
-    count: 98,
+    tag_id: 257,
+    name: "trance",
+    count: 103,
   },
   {
     tag_id: 101,
     name: "dreampunk",
+    count: 101,
+  },
+  {
+    tag_id: 311,
+    name: "emo",
+    count: 100,
+  },
+  {
+    tag_id: 709,
+    name: "gabber",
+    count: 99,
+  },
+  {
+    tag_id: 194,
+    name: "doom metal",
     count: 98,
   },
   {
@@ -645,29 +690,34 @@ const tags = [
     count: 96,
   },
   {
-    tag_id: 709,
-    name: "gabber",
-    count: 95,
+    tag_id: 481,
+    name: "edits",
+    count: 96,
   },
   {
-    tag_id: 193,
-    name: "black metal",
-    count: 95,
-  },
-  {
-    tag_id: 257,
-    name: "trance",
-    count: 93,
-  },
-  {
-    tag_id: 229,
-    name: "piano",
-    count: 93,
+    tag_id: 258,
+    name: "Berlin",
+    count: 94,
   },
   {
     tag_id: 3,
     name: "braindance",
-    count: 93,
+    count: 94,
+  },
+  {
+    tag_id: 1270,
+    name: "darkwave",
+    count: 92,
+  },
+  {
+    tag_id: 608,
+    name: "trip hop",
+    count: 92,
+  },
+  {
+    tag_id: 1003,
+    name: "folk punk",
+    count: 91,
   },
   {
     tag_id: 589,
@@ -675,33 +725,33 @@ const tags = [
     count: 91,
   },
   {
-    tag_id: 1003,
-    name: "folk punk",
-    count: 90,
-  },
-  {
-    tag_id: 526,
-    name: "knxwledge",
-    count: 90,
-  },
-  {
-    tag_id: 525,
-    name: "knx",
-    count: 90,
-  },
-  {
-    tag_id: 194,
-    name: "doom metal",
-    count: 90,
+    tag_id: 564,
+    name: "garage",
+    count: 91,
   },
   {
     tag_id: 527,
     name: "wraptaypes",
-    count: 89,
+    count: 91,
   },
   {
     tag_id: 524,
     name: "hexualsealings",
+    count: 91,
+  },
+  {
+    tag_id: 166,
+    name: "avant garde",
+    count: 91,
+  },
+  {
+    tag_id: 1101,
+    name: "collage",
+    count: 90,
+  },
+  {
+    tag_id: 280,
+    name: "drum and bass",
     count: 89,
   },
   {
@@ -710,49 +760,89 @@ const tags = [
     count: 88,
   },
   {
-    tag_id: 1101,
-    name: "collage",
+    tag_id: 1162,
+    name: "Italy",
     count: 88,
   },
   {
-    tag_id: 166,
-    name: "avant garde",
+    tag_id: 198,
+    name: "dark",
     count: 88,
   },
   {
     tag_id: 133,
     name: "bedroom pop",
-    count: 87,
+    count: 88,
   },
   {
     tag_id: 1103,
     name: "harsh noise",
-    count: 86,
+    count: 87,
+  },
+  {
+    tag_id: 673,
+    name: "underground",
+    count: 87,
   },
   {
     tag_id: 129,
     name: "psych",
+    count: 87,
+  },
+  {
+    tag_id: 2930,
+    name: "Brazil",
     count: 86,
   },
   {
     tag_id: 1053,
     name: "Spain",
+    count: 86,
+  },
+  {
+    tag_id: 513,
+    name: "dub techno",
+    count: 86,
+  },
+  {
+    tag_id: 37,
+    name: "deep",
+    count: 86,
+  },
+  {
+    tag_id: 1207,
+    name: "electronic music",
     count: 85,
   },
   {
-    tag_id: 1270,
-    name: "darkwave",
+    tag_id: 571,
+    name: "retrowave",
+    count: 85,
+  },
+  {
+    tag_id: 290,
+    name: "breaks",
+    count: 85,
+  },
+  {
+    tag_id: 175,
+    name: "lounge",
+    count: 85,
+  },
+  {
+    tag_id: 3167,
+    name: "improv",
     count: 84,
   },
   {
-    tag_id: 481,
-    name: "edits",
+    tag_id: 147,
+    name: "chill-out",
     count: 84,
   },
   {
-    tag_id: 198,
-    name: "dark",
-    count: 84,
+    tag_id: 1714,
+    name: "meditation music",
+    count: 83,
   },
   {
     tag_id: 756,
@@ -770,68 +860,53 @@ const tags = [
     count: 83,
   },
   {
-    tag_id: 290,
-    name: "breaks",
-    count: 83,
-  },
-  {
-    tag_id: 175,
-    name: "lounge",
-    count: 83,
-  },
-  {
-    tag_id: 2930,
-    name: "Brazil",
-    count: 82,
-  },
-  {
-    tag_id: 1162,
-    name: "Italy",
-    count: 82,
-  },
-  {
-    tag_id: 513,
-    name: "dub techno",
-    count: 82,
-  },
-  {
-    tag_id: 571,
-    name: "retrowave",
-    count: 81,
-  },
-  {
-    tag_id: 1714,
-    name: "meditation music",
-    count: 80,
-  },
-  {
-    tag_id: 258,
-    name: "Berlin",
-    count: 80,
-  },
-  {
-    tag_id: 147,
-    name: "chill-out",
-    count: 80,
-  },
-  {
     tag_id: 53,
     name: "singer-songwriter",
-    count: 80,
+    count: 83,
   },
   {
     tag_id: 44,
     name: "Seattle",
+    count: 83,
+  },
+  {
+    tag_id: 3673,
+    name: "minimalist",
+    count: 82,
+  },
+  {
+    tag_id: 506,
+    name: "Paris",
+    count: 82,
+  },
+  {
+    tag_id: 91,
+    name: "samples",
+    count: 82,
+  },
+  {
+    tag_id: 1070,
+    name: "soulful house",
+    count: 81,
+  },
+  {
+    tag_id: 114,
+    name: "Canada",
+    count: 81,
+  },
+  {
+    tag_id: 1094,
+    name: "San Diego",
     count: 80,
   },
   {
-    tag_id: 1207,
-    name: "electronic music",
-    count: 79,
+    tag_id: 357,
+    name: "sound collage",
+    count: 80,
   },
   {
-    tag_id: 673,
-    name: "underground",
+    tag_id: 1500,
+    name: "Australia",
     count: 79,
   },
   {
@@ -840,53 +915,58 @@ const tags = [
     count: 79,
   },
   {
-    tag_id: 357,
-    name: "sound collage",
-    count: 79,
-  },
-  {
     tag_id: 183,
     name: "mallsoft",
     count: 79,
   },
   {
-    tag_id: 506,
-    name: "Paris",
-    count: 78,
-  },
-  {
-    tag_id: 37,
-    name: "deep",
-    count: 78,
-  },
-  {
-    tag_id: 1094,
-    name: "San Diego",
-    count: 77,
-  },
-  {
     tag_id: 644,
     name: "footwork",
-    count: 77,
+    count: 78,
   },
   {
-    tag_id: 1500,
-    name: "Australia",
+    tag_id: 51,
+    name: "psychedelic rock",
     count: 76,
   },
   {
-    tag_id: 382,
-    name: "Israel",
+    tag_id: 1043,
+    name: "homemade",
+    count: 75,
+  },
+  {
+    tag_id: 1907,
+    name: "tape",
     count: 74,
   },
   {
-    tag_id: 91,
-    name: "samples",
+    tag_id: 843,
+    name: "improvised",
     count: 74,
   },
   {
-    tag_id: 376,
-    name: "cinematic music",
+    tag_id: 514,
+    name: "dubtechno",
+    count: 74,
+  },
+  {
+    tag_id: 422,
+    name: "love",
+    count: 73,
+  },
+  {
+    tag_id: 389,
+    name: "compilation",
+    count: 73,
+  },
+  {
+    tag_id: 336,
+    name: "Sweden",
+    count: 73,
+  },
+  {
+    tag_id: 159,
+    name: "space music",
     count: 73,
   },
   {
@@ -895,13 +975,18 @@ const tags = [
     count: 72,
   },
   {
-    tag_id: 843,
-    name: "improvised",
+    tag_id: 787,
+    name: "club",
     count: 72,
   },
   {
     tag_id: 400,
     name: "space",
+    count: 72,
+  },
+  {
+    tag_id: 207,
+    name: "orchestral",
     count: 72,
   },
   {
@@ -915,13 +1000,13 @@ const tags = [
     count: 71,
   },
   {
-    tag_id: 517,
-    name: "Leipzig",
+    tag_id: 542,
+    name: "Portland",
     count: 71,
   },
   {
-    tag_id: 389,
-    name: "compilation",
+    tag_id: 517,
+    name: "Leipzig",
     count: 71,
   },
   {
@@ -930,8 +1015,13 @@ const tags = [
     count: 70,
   },
   {
-    tag_id: 787,
-    name: "club",
+    tag_id: 2006,
+    name: "retro",
+    count: 70,
+  },
+  {
+    tag_id: 1629,
+    name: "loops",
     count: 70,
   },
   {
@@ -940,14 +1030,9 @@ const tags = [
     count: 69,
   },
   {
-    tag_id: 159,
-    name: "space music",
+    tag_id: 375,
+    name: "ambient drone",
     count: 69,
-  },
-  {
-    tag_id: 2006,
-    name: "retro",
-    count: 68,
   },
   {
     tag_id: 185,
@@ -955,13 +1040,8 @@ const tags = [
     count: 68,
   },
   {
-    tag_id: 542,
-    name: "Portland",
-    count: 67,
-  },
-  {
-    tag_id: 514,
-    name: "dubtechno",
+    tag_id: 1124,
+    name: "beat tape",
     count: 67,
   },
   {
@@ -970,19 +1050,24 @@ const tags = [
     count: 67,
   },
   {
-    tag_id: 1629,
-    name: "loops",
-    count: 66,
-  },
-  {
     tag_id: 1550,
     name: "terrorcore",
     count: 66,
   },
   {
-    tag_id: 564,
-    name: "garage",
+    tag_id: 833,
+    name: "Morgantown",
     count: 66,
+  },
+  {
+    tag_id: 832,
+    name: "west virginia",
+    count: 66,
+  },
+  {
+    tag_id: 5973,
+    name: "underground hip-hop",
+    count: 65,
   },
   {
     tag_id: 539,
@@ -990,8 +1075,13 @@ const tags = [
     count: 65,
   },
   {
-    tag_id: 375,
-    name: "ambient drone",
+    tag_id: 314,
+    name: "pop punk",
+    count: 65,
+  },
+  {
+    tag_id: 223,
+    name: "video game",
     count: 65,
   },
   {
@@ -1000,9 +1090,9 @@ const tags = [
     count: 64,
   },
   {
-    tag_id: 608,
-    name: "trip hop",
-    count: 64,
+    tag_id: 1923,
+    name: "contemporary",
+    count: 63,
   },
   {
     tag_id: 515,
@@ -1010,9 +1100,14 @@ const tags = [
     count: 63,
   },
   {
-    tag_id: 314,
-    name: "pop punk",
+    tag_id: 284,
+    name: "bass music",
     count: 63,
+  },
+  {
+    tag_id: 2772,
+    name: "Ottawa",
+    count: 62,
   },
   {
     tag_id: 1546,
@@ -1020,28 +1115,28 @@ const tags = [
     count: 62,
   },
   {
-    tag_id: 280,
-    name: "drum and bass",
-    count: 62,
-  },
-  {
-    tag_id: 207,
-    name: "orchestral",
+    tag_id: 1360,
+    name: "stoner",
     count: 62,
   },
   {
     tag_id: 1355,
     name: "neoclassical",
-    count: 61,
-  },
-  {
-    tag_id: 1269,
-    name: "Ohio",
-    count: 61,
+    count: 62,
   },
   {
     tag_id: 648,
     name: "ebm",
+    count: 62,
+  },
+  {
+    tag_id: 93,
+    name: "Pittsburgh",
+    count: 62,
+  },
+  {
+    tag_id: 1269,
+    name: "Ohio",
     count: 61,
   },
   {
@@ -1050,28 +1145,23 @@ const tags = [
     count: 61,
   },
   {
-    tag_id: 93,
-    name: "Pittsburgh",
-    count: 61,
-  },
-  {
-    tag_id: 1923,
-    name: "contemporary",
-    count: 60,
-  },
-  {
-    tag_id: 1360,
-    name: "stoner",
-    count: 60,
-  },
-  {
-    tag_id: 1124,
-    name: "beat tape",
+    tag_id: 1139,
+    name: "experiemental",
     count: 60,
   },
   {
     tag_id: 562,
     name: "Antarctica",
+    count: 60,
+  },
+  {
+    tag_id: 537,
+    name: "future beats",
+    count: 60,
+  },
+  {
+    tag_id: 371,
+    name: "grindcore",
     count: 60,
   },
   {
@@ -1085,6 +1175,16 @@ const tags = [
     count: 60,
   },
   {
+    tag_id: 2598,
+    name: "Toulouse",
+    count: 59,
+  },
+  {
+    tag_id: 940,
+    name: "afro house",
+    count: 59,
+  },
+  {
     tag_id: 794,
     name: "hardtek",
     count: 59,
@@ -1095,24 +1195,9 @@ const tags = [
     count: 59,
   },
   {
-    tag_id: 2598,
-    name: "Toulouse",
-    count: 58,
-  },
-  {
-    tag_id: 1139,
-    name: "experiemental",
-    count: 58,
-  },
-  {
-    tag_id: 833,
-    name: "Morgantown",
-    count: 58,
-  },
-  {
-    tag_id: 832,
-    name: "west virginia",
-    count: 58,
+    tag_id: 366,
+    name: "devotional",
+    count: 59,
   },
   {
     tag_id: 778,
@@ -1120,8 +1205,28 @@ const tags = [
     count: 58,
   },
   {
+    tag_id: 2536,
+    name: "Richmond",
+    count: 57,
+  },
+  {
     tag_id: 2001,
     name: "nu-disco",
+    count: 57,
+  },
+  {
+    tag_id: 1213,
+    name: "new wave",
+    count: 57,
+  },
+  {
+    tag_id: 1146,
+    name: "krautrock",
+    count: 57,
+  },
+  {
+    tag_id: 622,
+    name: "death metal",
     count: 57,
   },
   {
@@ -1130,13 +1235,13 @@ const tags = [
     count: 57,
   },
   {
-    tag_id: 223,
-    name: "video game",
-    count: 57,
+    tag_id: 2822,
+    name: "poetry",
+    count: 56,
   },
   {
-    tag_id: 2772,
-    name: "Ottawa",
+    tag_id: 2551,
+    name: "Athens",
     count: 56,
   },
   {
@@ -1145,8 +1250,18 @@ const tags = [
     count: 56,
   },
   {
+    tag_id: 684,
+    name: "hip hop instrumentals",
+    count: 56,
+  },
+  {
     tag_id: 544,
     name: "game",
+    count: 56,
+  },
+  {
+    tag_id: 203,
+    name: "contemporary classical",
     count: 56,
   },
   {
@@ -1155,8 +1270,18 @@ const tags = [
     count: 56,
   },
   {
+    tag_id: 2916,
+    name: "jazz fusion",
+    count: 55,
+  },
+  {
     tag_id: 2000,
     name: "garage house",
+    count: 55,
+  },
+  {
+    tag_id: 1702,
+    name: "lo-fi house",
     count: 55,
   },
   {
@@ -1170,18 +1295,18 @@ const tags = [
     count: 55,
   },
   {
+    tag_id: 627,
+    name: "80s",
+    count: 55,
+  },
+  {
+    tag_id: 623,
+    name: "hard rock",
+    count: 55,
+  },
+  {
     tag_id: 592,
     name: "mashups",
-    count: 55,
-  },
-  {
-    tag_id: 537,
-    name: "future beats",
-    count: 55,
-  },
-  {
-    tag_id: 114,
-    name: "Canada",
     count: 55,
   },
   {
@@ -1190,8 +1315,13 @@ const tags = [
     count: 54,
   },
   {
-    tag_id: 2536,
-    name: "Richmond",
+    tag_id: 5696,
+    name: "Georgia",
+    count: 54,
+  },
+  {
+    tag_id: 2684,
+    name: "free jazz",
     count: 54,
   },
   {
@@ -1200,13 +1330,8 @@ const tags = [
     count: 54,
   },
   {
-    tag_id: 1702,
-    name: "lo-fi house",
-    count: 54,
-  },
-  {
-    tag_id: 684,
-    name: "hip hop instrumentals",
+    tag_id: 959,
+    name: "Atlanta",
     count: 54,
   },
   {
@@ -1215,24 +1340,29 @@ const tags = [
     count: 54,
   },
   {
-    tag_id: 623,
-    name: "hard rock",
+    tag_id: 615,
+    name: "experimental rock",
     count: 54,
   },
   {
-    tag_id: 284,
-    name: "bass music",
+    tag_id: 416,
+    name: "relaxation",
     count: 54,
   },
   {
-    tag_id: 51,
-    name: "psychedelic rock",
+    tag_id: 381,
+    name: "warm drone",
     count: 54,
   },
   {
-    tag_id: 5696,
-    name: "Georgia",
-    count: 53,
+    tag_id: 377,
+    name: "cold drone",
+    count: 54,
+  },
+  {
+    tag_id: 45,
+    name: "dream pop",
+    count: 54,
   },
   {
     tag_id: 3955,
@@ -1240,28 +1370,13 @@ const tags = [
     count: 53,
   },
   {
+    tag_id: 2899,
+    name: "beach",
+    count: 53,
+  },
+  {
     tag_id: 2028,
     name: "heavy rock",
-    count: 53,
-  },
-  {
-    tag_id: 1213,
-    name: "new wave",
-    count: 53,
-  },
-  {
-    tag_id: 959,
-    name: "Atlanta",
-    count: 53,
-  },
-  {
-    tag_id: 627,
-    name: "80s",
-    count: 53,
-  },
-  {
-    tag_id: 615,
-    name: "experimental rock",
     count: 53,
   },
   {
@@ -1275,6 +1390,11 @@ const tags = [
     count: 52,
   },
   {
+    tag_id: 6744,
+    name: "sonic journal",
+    count: 52,
+  },
+  {
     tag_id: 5450,
     name: "aggrotech",
     count: 52,
@@ -1285,8 +1405,13 @@ const tags = [
     count: 52,
   },
   {
-    tag_id: 1146,
-    name: "krautrock",
+    tag_id: 1153,
+    name: "underground hip hop",
+    count: 52,
+  },
+  {
+    tag_id: 1089,
+    name: "fantasy",
     count: 52,
   },
   {
@@ -1300,6 +1425,16 @@ const tags = [
     count: 51,
   },
   {
+    tag_id: 4059,
+    name: "småland",
+    count: 51,
+  },
+  {
+    tag_id: 1145,
+    name: "space rock",
+    count: 51,
+  },
+  {
     tag_id: 845,
     name: "jazz and improvised music",
     count: 51,
@@ -1310,9 +1445,24 @@ const tags = [
     count: 51,
   },
   {
-    tag_id: 416,
-    name: "relaxation",
+    tag_id: 672,
+    name: "boom bap",
     count: 51,
+  },
+  {
+    tag_id: 335,
+    name: "synth pop",
+    count: 51,
+  },
+  {
+    tag_id: 8523,
+    name: "Fisk",
+    count: 50,
+  },
+  {
+    tag_id: 8522,
+    name: "retrofuturism",
+    count: 50,
   },
   {
     tag_id: 6911,
@@ -1325,13 +1475,18 @@ const tags = [
     count: 50,
   },
   {
+    tag_id: 3102,
+    name: "oriental",
+    count: 50,
+  },
+  {
     tag_id: 3079,
     name: "experimental electronic music",
     count: 50,
   },
   {
-    tag_id: 1145,
-    name: "space rock",
+    tag_id: 1403,
+    name: "Finland",
     count: 50,
   },
   {
@@ -1345,8 +1500,8 @@ const tags = [
     count: 50,
   },
   {
-    tag_id: 6744,
-    name: "sonic journal",
+    tag_id: 3071,
+    name: "Novosibirsk",
     count: 49,
   },
   {
@@ -1355,9 +1510,39 @@ const tags = [
     count: 49,
   },
   {
+    tag_id: 755,
+    name: "japan",
+    count: 49,
+  },
+  {
     tag_id: 685,
     name: "Poland",
     count: 49,
+  },
+  {
+    tag_id: 575,
+    name: "atmospheric black metal",
+    count: 49,
+  },
+  {
+    tag_id: 522,
+    name: "rnb",
+    count: 49,
+  },
+  {
+    tag_id: 420,
+    name: "musique concrete",
+    count: 49,
+  },
+  {
+    tag_id: 2328,
+    name: "Houston",
+    count: 48,
+  },
+  {
+    tag_id: 1705,
+    name: "beat-tape",
+    count: 48,
   },
   {
     tag_id: 1210,
@@ -1365,38 +1550,28 @@ const tags = [
     count: 48,
   },
   {
-    tag_id: 1089,
-    name: "fantasy",
+    tag_id: 502,
+    name: "progressive",
     count: 48,
   },
   {
-    tag_id: 575,
-    name: "atmospheric black metal",
+    tag_id: 443,
+    name: "hyperpop",
     count: 48,
   },
   {
-    tag_id: 420,
-    name: "musique concrete",
-    count: 48,
-  },
-  {
-    tag_id: 2684,
-    name: "free jazz",
+    tag_id: 1480,
+    name: "cassette",
     count: 47,
   },
   {
-    tag_id: 1403,
-    name: "Finland",
+    tag_id: 1215,
+    name: "royalty free",
     count: 47,
   },
   {
     tag_id: 1161,
     name: "french house",
-    count: 47,
-  },
-  {
-    tag_id: 755,
-    name: "japan",
     count: 47,
   },
   {
@@ -1412,6 +1587,11 @@ const tags = [
   {
     tag_id: 425,
     name: "post-whatever",
+    count: 47,
+  },
+  {
+    tag_id: 421,
+    name: "dream",
     count: 47,
   },
   {
@@ -1445,8 +1625,18 @@ const tags = [
     count: 46,
   },
   {
-    tag_id: 377,
-    name: "cold drone",
+    tag_id: 836,
+    name: "Vancouver",
+    count: 46,
+  },
+  {
+    tag_id: 766,
+    name: "rave",
+    count: 46,
+  },
+  {
+    tag_id: 47,
+    name: "indie folk",
     count: 46,
   },
   {
@@ -1470,28 +1660,28 @@ const tags = [
     count: 45,
   },
   {
+    tag_id: 1521,
+    name: "tech house",
+    count: 45,
+  },
+  {
+    tag_id: 1489,
+    name: "experimental pop",
+    count: 45,
+  },
+  {
+    tag_id: 1432,
+    name: "minimalism",
+    count: 45,
+  },
+  {
+    tag_id: 1216,
+    name: "Costa Rica",
+    count: 45,
+  },
+  {
     tag_id: 583,
     name: "bedroom",
-    count: 45,
-  },
-  {
-    tag_id: 443,
-    name: "hyperpop",
-    count: 45,
-  },
-  {
-    tag_id: 381,
-    name: "warm drone",
-    count: 45,
-  },
-  {
-    tag_id: 47,
-    name: "indie folk",
-    count: 45,
-  },
-  {
-    tag_id: 45,
-    name: "dream pop",
     count: 45,
   },
   {
@@ -1515,8 +1705,8 @@ const tags = [
     count: 44,
   },
   {
-    tag_id: 836,
-    name: "Vancouver",
+    tag_id: 941,
+    name: "afrobeat",
     count: 44,
   },
   {
@@ -1525,8 +1715,13 @@ const tags = [
     count: 44,
   },
   {
-    tag_id: 502,
-    name: "progressive",
+    tag_id: 687,
+    name: "abstract",
+    count: 44,
+  },
+  {
+    tag_id: 612,
+    name: "progressive rock",
     count: 44,
   },
   {
@@ -1535,8 +1730,8 @@ const tags = [
     count: 44,
   },
   {
-    tag_id: 335,
-    name: "synth pop",
+    tag_id: 186,
+    name: "signalwave",
     count: 44,
   },
   {
@@ -1545,13 +1740,8 @@ const tags = [
     count: 43,
   },
   {
-    tag_id: 1489,
-    name: "experimental pop",
-    count: 43,
-  },
-  {
-    tag_id: 1432,
-    name: "minimalism",
+    tag_id: 2781,
+    name: "surf",
     count: 43,
   },
   {
@@ -1560,28 +1750,8 @@ const tags = [
     count: 43,
   },
   {
-    tag_id: 612,
-    name: "progressive rock",
-    count: 43,
-  },
-  {
-    tag_id: 186,
-    name: "signalwave",
-    count: 43,
-  },
-  {
     tag_id: 3358,
     name: "relaxing music",
-    count: 42,
-  },
-  {
-    tag_id: 2328,
-    name: "Houston",
-    count: 42,
-  },
-  {
-    tag_id: 1480,
-    name: "cassette",
     count: 42,
   },
   {
@@ -1590,18 +1760,38 @@ const tags = [
     count: 42,
   },
   {
+    tag_id: 679,
+    name: "rap & hip-hop",
+    count: 42,
+  },
+  {
+    tag_id: 624,
+    name: "heavy metal",
+    count: 42,
+  },
+  {
     tag_id: 511,
     name: "deep techno",
     count: 42,
   },
   {
-    tag_id: 711,
-    name: "New Zealand",
+    tag_id: 199,
+    name: "melodic",
+    count: 42,
+  },
+  {
+    tag_id: 121,
+    name: "primative",
+    count: 42,
+  },
+  {
+    tag_id: 8532,
+    name: "Clermont Ferrand",
     count: 41,
   },
   {
-    tag_id: 624,
-    name: "heavy metal",
+    tag_id: 711,
+    name: "New Zealand",
     count: 41,
   },
   {
@@ -1615,8 +1805,23 @@ const tags = [
     count: 41,
   },
   {
+    tag_id: 3679,
+    name: "raw black metal",
+    count: 40,
+  },
+  {
+    tag_id: 3605,
+    name: "4-track",
+    count: 40,
+  },
+  {
     tag_id: 3324,
     name: "Cyprus",
+    count: 40,
+  },
+  {
+    tag_id: 2779,
+    name: "independent",
     count: 40,
   },
   {
@@ -1625,8 +1830,8 @@ const tags = [
     count: 40,
   },
   {
-    tag_id: 766,
-    name: "rave",
+    tag_id: 480,
+    name: "dancehall",
     count: 40,
   },
   {
@@ -1640,18 +1845,18 @@ const tags = [
     count: 40,
   },
   {
+    tag_id: 3606,
+    name: "messing around",
+    count: 39,
+  },
+  {
     tag_id: 1440,
     name: "hauntology",
     count: 39,
   },
   {
-    tag_id: 1043,
-    name: "homemade",
-    count: 39,
-  },
-  {
-    tag_id: 941,
-    name: "afrobeat",
+    tag_id: 1341,
+    name: "Eugene",
     count: 39,
   },
   {
@@ -1660,13 +1865,13 @@ const tags = [
     count: 39,
   },
   {
-    tag_id: 7559,
-    name: "shitcore",
-    count: 38,
+    tag_id: 476,
+    name: "flips",
+    count: 39,
   },
   {
-    tag_id: 2779,
-    name: "independent",
+    tag_id: 7559,
+    name: "shitcore",
     count: 38,
   },
   {
@@ -1675,14 +1880,34 @@ const tags = [
     count: 38,
   },
   {
+    tag_id: 1143,
+    name: "jazz rock",
+    count: 38,
+  },
+  {
     tag_id: 853,
     name: "Washington",
     count: 38,
   },
   {
-    tag_id: 422,
-    name: "love",
+    tag_id: 372,
+    name: "sludge",
     count: 38,
+  },
+  {
+    tag_id: 3746,
+    name: "post genre",
+    count: 37,
+  },
+  {
+    tag_id: 3745,
+    name: "noizak",
+    count: 37,
+  },
+  {
+    tag_id: 3744,
+    name: "extreme classical",
+    count: 37,
   },
   {
     tag_id: 3357,
@@ -1705,11 +1930,6 @@ const tags = [
     count: 37,
   },
   {
-    tag_id: 1070,
-    name: "soulful house",
-    count: 37,
-  },
-  {
     tag_id: 838,
     name: "game soundtrack",
     count: 37,
@@ -1725,8 +1945,33 @@ const tags = [
     count: 37,
   },
   {
+    tag_id: 196,
+    name: "screamo",
+    count: 37,
+  },
+  {
+    tag_id: 195,
+    name: "post-hardcore",
+    count: 37,
+  },
+  {
+    tag_id: 98,
+    name: "Melbourne",
+    count: 37,
+  },
+  {
     tag_id: 1926,
     name: "modern classical",
+    count: 36,
+  },
+  {
+    tag_id: 1843,
+    name: "Reykjavík",
+    count: 36,
+  },
+  {
+    tag_id: 1422,
+    name: "chicago",
     count: 36,
   },
   {
@@ -1735,23 +1980,23 @@ const tags = [
     count: 36,
   },
   {
-    tag_id: 940,
-    name: "afro house",
-    count: 36,
-  },
-  {
-    tag_id: 679,
-    name: "rap & hip-hop",
-    count: 36,
-  },
-  {
     tag_id: 616,
     name: "post-metal",
     count: 36,
   },
   {
+    tag_id: 360,
+    name: "chillhop",
+    count: 36,
+  },
+  {
     tag_id: 182,
     name: "classic vaporwave",
+    count: 36,
+  },
+  {
+    tag_id: 165,
+    name: "Bulgaria",
     count: 36,
   },
   {
@@ -1762,6 +2007,11 @@ const tags = [
   {
     tag_id: 5773,
     name: "outsider punk",
+    count: 35,
+  },
+  {
+    tag_id: 4641,
+    name: "Orléans",
     count: 35,
   },
   {
@@ -1780,18 +2030,38 @@ const tags = [
     count: 35,
   },
   {
-    tag_id: 3679,
-    name: "raw black metal",
+    tag_id: 1857,
+    name: "ritual",
     count: 35,
   },
   {
-    tag_id: 1422,
-    name: "chicago",
+    tag_id: 1209,
+    name: "progressive house",
+    count: 35,
+  },
+  {
+    tag_id: 1042,
+    name: "home recording",
+    count: 35,
+  },
+  {
+    tag_id: 786,
+    name: "spoken word",
     count: 35,
   },
   {
     tag_id: 640,
     name: "Santa Cruz",
+    count: 35,
+  },
+  {
+    tag_id: 585,
+    name: "healing",
+    count: 35,
+  },
+  {
+    tag_id: 430,
+    name: "internet",
     count: 35,
   },
   {
@@ -1810,38 +2080,48 @@ const tags = [
     count: 35,
   },
   {
-    tag_id: 360,
-    name: "chillhop",
-    count: 35,
-  },
-  {
-    tag_id: 196,
-    name: "screamo",
-    count: 35,
-  },
-  {
-    tag_id: 121,
-    name: "primative",
-    count: 35,
-  },
-  {
     tag_id: 4861,
     name: "Luanda",
     count: 34,
   },
   {
-    tag_id: 3167,
-    name: "improv",
+    tag_id: 4615,
+    name: "mix",
     count: 34,
   },
   {
-    tag_id: 1209,
-    name: "progressive house",
+    tag_id: 4079,
+    name: "roots reggae",
     count: 34,
   },
   {
-    tag_id: 421,
-    name: "dream",
+    tag_id: 1384,
+    name: "fieldrecording",
+    count: 34,
+  },
+  {
+    tag_id: 680,
+    name: "rap alternative",
+    count: 34,
+  },
+  {
+    tag_id: 578,
+    name: "Amadora",
+    count: 34,
+  },
+  {
+    tag_id: 576,
+    name: "death-doom",
+    count: 34,
+  },
+  {
+    tag_id: 418,
+    name: "peaceful",
+    count: 34,
+  },
+  {
+    tag_id: 243,
+    name: "Albuquerque",
     count: 34,
   },
   {
@@ -1855,26 +2135,6 @@ const tags = [
     count: 33,
   },
   {
-    tag_id: 4615,
-    name: "mix",
-    count: 33,
-  },
-  {
-    tag_id: 4079,
-    name: "roots reggae",
-    count: 33,
-  },
-  {
-    tag_id: 3673,
-    name: "minimalist",
-    count: 33,
-  },
-  {
-    tag_id: 1857,
-    name: "ritual",
-    count: 33,
-  },
-  {
     tag_id: 1549,
     name: "swan",
     count: 33,
@@ -1882,16 +2142,6 @@ const tags = [
   {
     tag_id: 1547,
     name: "scww",
-    count: 33,
-  },
-  {
-    tag_id: 1384,
-    name: "fieldrecording",
-    count: 33,
-  },
-  {
-    tag_id: 1042,
-    name: "home recording",
     count: 33,
   },
   {
@@ -1905,33 +2155,28 @@ const tags = [
     count: 33,
   },
   {
-    tag_id: 687,
-    name: "abstract",
+    tag_id: 823,
+    name: "vocal",
     count: 33,
   },
   {
-    tag_id: 578,
-    name: "Amadora",
+    tag_id: 752,
+    name: "Sydney",
     count: 33,
   },
   {
-    tag_id: 576,
-    name: "death-doom",
+    tag_id: 427,
+    name: "80's",
     count: 33,
   },
   {
-    tag_id: 199,
-    name: "melodic",
+    tag_id: 405,
+    name: "synthesizer",
     count: 33,
   },
   {
-    tag_id: 195,
-    name: "post-hardcore",
-    count: 33,
-  },
-  {
-    tag_id: 165,
-    name: "Bulgaria",
+    tag_id: 253,
+    name: "psytrance",
     count: 33,
   },
   {
@@ -1955,13 +2200,18 @@ const tags = [
     count: 32,
   },
   {
-    tag_id: 2722,
-    name: "chiptunes",
+    tag_id: 3070,
+    name: "ohwshe",
     count: 32,
   },
   {
-    tag_id: 1907,
-    name: "tape",
+    tag_id: 2846,
+    name: "ska",
+    count: 32,
+  },
+  {
+    tag_id: 2722,
+    name: "chiptunes",
     count: 32,
   },
   {
@@ -1970,8 +2220,18 @@ const tags = [
     count: 32,
   },
   {
+    tag_id: 1260,
+    name: "Nashville",
+    count: 32,
+  },
+  {
     tag_id: 1046,
     name: "South Portland",
+    count: 32,
+  },
+  {
+    tag_id: 1021,
+    name: "barcelona",
     count: 32,
   },
   {
@@ -1990,13 +2250,23 @@ const tags = [
     count: 32,
   },
   {
+    tag_id: 693,
+    name: "grime",
+    count: 32,
+  },
+  {
+    tag_id: 678,
+    name: "hip hop remix",
+    count: 32,
+  },
+  {
     tag_id: 661,
     name: "metalcore",
     count: 32,
   },
   {
-    tag_id: 372,
-    name: "sludge",
+    tag_id: 633,
+    name: "8bit",
     count: 32,
   },
   {
@@ -2005,18 +2275,38 @@ const tags = [
     count: 32,
   },
   {
-    tag_id: 786,
-    name: "spoken word",
+    tag_id: 197,
+    name: "Austin",
+    count: 32,
+  },
+  {
+    tag_id: 149,
+    name: "ethereal",
+    count: 32,
+  },
+  {
+    tag_id: 9085,
+    name: "linear obsessional",
     count: 31,
   },
   {
-    tag_id: 752,
-    name: "Sydney",
+    tag_id: 1995,
+    name: "instrumentals",
     count: 31,
   },
   {
-    tag_id: 633,
-    name: "8bit",
+    tag_id: 1767,
+    name: "Tokyo",
+    count: 31,
+  },
+  {
+    tag_id: 1229,
+    name: "ost",
+    count: 31,
+  },
+  {
+    tag_id: 1036,
+    name: "math rock",
     count: 31,
   },
   {
@@ -2025,18 +2315,23 @@ const tags = [
     count: 31,
   },
   {
-    tag_id: 405,
-    name: "synthesizer",
+    tag_id: 380,
+    name: "sleep",
     count: 31,
   },
   {
-    tag_id: 243,
-    name: "Albuquerque",
+    tag_id: 378,
+    name: "drones",
     count: 31,
   },
   {
-    tag_id: 98,
-    name: "Melbourne",
+    tag_id: 282,
+    name: "vocaloid",
+    count: 31,
+  },
+  {
+    tag_id: 6,
+    name: "leftfield",
     count: 31,
   },
   {
@@ -2055,13 +2350,23 @@ const tags = [
     count: 30,
   },
   {
+    tag_id: 4963,
+    name: "african",
+    count: 30,
+  },
+  {
     tag_id: 2913,
     name: "toronto",
     count: 30,
   },
   {
-    tag_id: 1843,
-    name: "Reykjavík",
+    tag_id: 1739,
+    name: "drums",
+    count: 30,
+  },
+  {
+    tag_id: 1233,
+    name: "rock & roll",
     count: 30,
   },
   {
@@ -2070,38 +2375,23 @@ const tags = [
     count: 30,
   },
   {
-    tag_id: 1153,
-    name: "underground hip hop",
-    count: 30,
-  },
-  {
     tag_id: 1038,
     name: "big blood",
     count: 30,
   },
   {
-    tag_id: 823,
-    name: "vocal",
+    tag_id: 969,
+    name: "grunge",
     count: 30,
   },
   {
-    tag_id: 693,
-    name: "grime",
+    tag_id: 361,
+    name: "Michigan",
     count: 30,
   },
   {
-    tag_id: 430,
-    name: "internet",
-    count: 30,
-  },
-  {
-    tag_id: 418,
-    name: "peaceful",
-    count: 30,
-  },
-  {
-    tag_id: 197,
-    name: "Austin",
+    tag_id: 246,
+    name: "live",
     count: 30,
   },
   {
@@ -2110,9 +2400,24 @@ const tags = [
     count: 30,
   },
   {
-    tag_id: 6,
-    name: "leftfield",
-    count: 30,
+    tag_id: 3388,
+    name: "Durham",
+    count: 29,
+  },
+  {
+    tag_id: 3095,
+    name: "Berkeley",
+    count: 29,
+  },
+  {
+    tag_id: 2844,
+    name: "country",
+    count: 29,
+  },
+  {
+    tag_id: 2136,
+    name: "indonesia",
+    count: 29,
   },
   {
     tag_id: 1155,
@@ -2130,8 +2435,8 @@ const tags = [
     count: 29,
   },
   {
-    tag_id: 1021,
-    name: "barcelona",
+    tag_id: 849,
+    name: "glitch hop",
     count: 29,
   },
   {
@@ -2140,48 +2445,38 @@ const tags = [
     count: 29,
   },
   {
-    tag_id: 680,
-    name: "rap alternative",
-    count: 29,
-  },
-  {
     tag_id: 496,
     name: "sound design",
     count: 29,
   },
   {
-    tag_id: 380,
-    name: "sleep",
+    tag_id: 396,
+    name: "christmas",
     count: 29,
   },
   {
-    tag_id: 246,
-    name: "live",
+    tag_id: 7,
+    name: "Amsterdam",
     count: 29,
   },
   {
-    tag_id: 3388,
-    name: "Durham",
-    count: 28,
-  },
-  {
-    tag_id: 3095,
-    name: "Berkeley",
-    count: 28,
-  },
-  {
-    tag_id: 2844,
-    name: "country",
-    count: 28,
-  },
-  {
-    tag_id: 2136,
-    name: "indonesia",
+    tag_id: 4011,
+    name: "roots",
     count: 28,
   },
   {
     tag_id: 1696,
     name: "nature sounds",
+    count: 28,
+  },
+  {
+    tag_id: 1192,
+    name: "horror",
+    count: 28,
+  },
+  {
+    tag_id: 1073,
+    name: "house music",
     count: 28,
   },
   {
@@ -2205,28 +2500,28 @@ const tags = [
     count: 28,
   },
   {
-    tag_id: 678,
-    name: "hip hop remix",
+    tag_id: 559,
+    name: "fusion",
     count: 28,
   },
   {
-    tag_id: 672,
-    name: "boom bap",
-    count: 28,
-  },
-  {
-    tag_id: 396,
-    name: "christmas",
-    count: 28,
-  },
-  {
-    tag_id: 282,
-    name: "vocaloid",
+    tag_id: 289,
+    name: "modular",
     count: 28,
   },
   {
     tag_id: 2968,
     name: "Ypsilanti",
+    count: 27,
+  },
+  {
+    tag_id: 2825,
+    name: "Montréal",
+    count: 27,
+  },
+  {
+    tag_id: 2379,
+    name: "garage rock",
     count: 27,
   },
   {
@@ -2245,13 +2540,38 @@ const tags = [
     count: 27,
   },
   {
-    tag_id: 522,
-    name: "rnb",
+    tag_id: 891,
+    name: "flip",
+    count: 27,
+  },
+  {
+    tag_id: 808,
+    name: "uk",
+    count: 27,
+  },
+  {
+    tag_id: 523,
+    name: "uk garage",
+    count: 27,
+  },
+  {
+    tag_id: 497,
+    name: "spiritual",
+    count: 27,
+  },
+  {
+    tag_id: 295,
+    name: "jungle dnb",
     count: 27,
   },
   {
     tag_id: 140,
     name: "uk hip hop",
+    count: 27,
+  },
+  {
+    tag_id: 137,
+    name: "crust",
     count: 27,
   },
   {
@@ -2265,13 +2585,23 @@ const tags = [
     count: 26,
   },
   {
-    tag_id: 1229,
-    name: "ost",
+    tag_id: 3218,
+    name: "japanese",
     count: 26,
   },
   {
-    tag_id: 1192,
-    name: "horror",
+    tag_id: 1652,
+    name: "drum&bass",
+    count: 26,
+  },
+  {
+    tag_id: 1589,
+    name: "cumbia",
+    count: 26,
+  },
+  {
+    tag_id: 1435,
+    name: "Bordeaux",
     count: 26,
   },
   {
@@ -2280,23 +2610,18 @@ const tags = [
     count: 26,
   },
   {
-    tag_id: 1073,
-    name: "house music",
-    count: 26,
-  },
-  {
     tag_id: 1044,
     name: "maine",
     count: 26,
   },
   {
-    tag_id: 969,
-    name: "grunge",
+    tag_id: 1027,
+    name: "garage punk",
     count: 26,
   },
   {
-    tag_id: 808,
-    name: "uk",
+    tag_id: 890,
+    name: "edit",
     count: 26,
   },
   {
@@ -2310,38 +2635,33 @@ const tags = [
     count: 26,
   },
   {
-    tag_id: 523,
-    name: "uk garage",
-    count: 26,
-  },
-  {
-    tag_id: 497,
-    name: "spiritual",
-    count: 26,
-  },
-  {
     tag_id: 390,
     name: "slowcore",
     count: 26,
   },
   {
-    tag_id: 378,
-    name: "drones",
+    tag_id: 358,
+    name: "hypnagogic",
     count: 26,
   },
   {
-    tag_id: 7,
-    name: "Amsterdam",
-    count: 26,
+    tag_id: 9020,
+    name: "stock music",
+    count: 25,
+  },
+  {
+    tag_id: 9018,
+    name: "no copyright music",
+    count: 25,
+  },
+  {
+    tag_id: 8801,
+    name: "Lebanon",
+    count: 25,
   },
   {
     tag_id: 7151,
     name: "Saint Étienne",
-    count: 25,
-  },
-  {
-    tag_id: 3218,
-    name: "japanese",
     count: 25,
   },
   {
@@ -2355,8 +2675,18 @@ const tags = [
     count: 25,
   },
   {
-    tag_id: 1435,
-    name: "Bordeaux",
+    tag_id: 2029,
+    name: "stoner rock",
+    count: 25,
+  },
+  {
+    tag_id: 1798,
+    name: "electro pop",
+    count: 25,
+  },
+  {
+    tag_id: 1222,
+    name: "art rock",
     count: 25,
   },
   {
@@ -2365,23 +2695,38 @@ const tags = [
     count: 25,
   },
   {
+    tag_id: 671,
+    name: "anarchist",
+    count: 25,
+  },
+  {
+    tag_id: 638,
+    name: "Barcelona",
+    count: 25,
+  },
+  {
     tag_id: 602,
     name: "industrial metal",
     count: 25,
   },
   {
-    tag_id: 371,
-    name: "grindcore",
+    tag_id: 568,
+    name: "latin",
     count: 25,
   },
   {
-    tag_id: 361,
-    name: "Michigan",
+    tag_id: 545,
+    name: "sample-based",
     count: 25,
   },
   {
-    tag_id: 289,
-    name: "modular",
+    tag_id: 503,
+    name: "psybient",
+    count: 25,
+  },
+  {
+    tag_id: 143,
+    name: "mixtape",
     count: 25,
   },
   {
@@ -2400,8 +2745,23 @@ const tags = [
     count: 24,
   },
   {
+    tag_id: 4054,
+    name: "tape label",
+    count: 24,
+  },
+  {
+    tag_id: 4050,
+    name: "catalunya",
+    count: 24,
+  },
+  {
     tag_id: 3169,
     name: "24bit",
+    count: 24,
+  },
+  {
+    tag_id: 3104,
+    name: "world music",
     count: 24,
   },
   {
@@ -2410,43 +2770,38 @@ const tags = [
     count: 24,
   },
   {
-    tag_id: 1739,
-    name: "drums",
+    tag_id: 1822,
+    name: "free improvisation",
     count: 24,
   },
   {
-    tag_id: 1222,
-    name: "art rock",
+    tag_id: 1655,
+    name: "Ipswich",
     count: 24,
   },
   {
-    tag_id: 1036,
-    name: "math rock",
+    tag_id: 1653,
+    name: "d'n'b",
     count: 24,
   },
   {
-    tag_id: 545,
-    name: "sample-based",
-    count: 24,
-  },
-  {
-    tag_id: 480,
-    name: "dancehall",
-    count: 24,
-  },
-  {
-    tag_id: 358,
-    name: "hypnagogic",
-    count: 24,
-  },
-  {
-    tag_id: 253,
-    name: "psytrance",
+    tag_id: 428,
+    name: "eccojams",
     count: 24,
   },
   {
     tag_id: 181,
     name: "classic vapor",
+    count: 24,
+  },
+  {
+    tag_id: 179,
+    name: "Miami",
+    count: 24,
+  },
+  {
+    tag_id: 46,
+    name: "folk rock",
     count: 24,
   },
   {
@@ -2470,13 +2825,18 @@ const tags = [
     count: 23,
   },
   {
-    tag_id: 3610,
-    name: "poems",
+    tag_id: 4056,
+    name: "Sant Pere De Ribes",
     count: 23,
   },
   {
-    tag_id: 3102,
-    name: "oriental",
+    tag_id: 4055,
+    name: "very serious",
+    count: 23,
+  },
+  {
+    tag_id: 3610,
+    name: "poems",
     count: 23,
   },
   {
@@ -2485,13 +2845,13 @@ const tags = [
     count: 23,
   },
   {
-    tag_id: 2041,
-    name: "plunderphonic pop",
+    tag_id: 2541,
+    name: "gay shit",
     count: 23,
   },
   {
-    tag_id: 2029,
-    name: "stoner rock",
+    tag_id: 2041,
+    name: "plunderphonic pop",
     count: 23,
   },
   {
@@ -2510,8 +2870,23 @@ const tags = [
     count: 23,
   },
   {
+    tag_id: 1622,
+    name: "power pop",
+    count: 23,
+  },
+  {
+    tag_id: 1319,
+    name: "folktronica",
+    count: 23,
+  },
+  {
     tag_id: 1208,
     name: "Lille",
+    count: 23,
+  },
+  {
+    tag_id: 1201,
+    name: "lofi hip hop",
     count: 23,
   },
   {
@@ -2520,28 +2895,23 @@ const tags = [
     count: 23,
   },
   {
-    tag_id: 890,
-    name: "edit",
-    count: 23,
-  },
-  {
     tag_id: 789,
     name: "Glasgow",
     count: 23,
   },
   {
-    tag_id: 428,
-    name: "eccojams",
+    tag_id: 494,
+    name: "nature",
     count: 23,
   },
   {
-    tag_id: 366,
-    name: "devotional",
+    tag_id: 457,
+    name: "dreamwave",
     count: 23,
   },
   {
-    tag_id: 336,
-    name: "Sweden",
+    tag_id: 318,
+    name: "sci-fi",
     count: 23,
   },
   {
@@ -2550,14 +2920,9 @@ const tags = [
     count: 23,
   },
   {
-    tag_id: 137,
-    name: "crust",
-    count: 23,
-  },
-  {
-    tag_id: 46,
-    name: "folk rock",
-    count: 23,
+    tag_id: 8851,
+    name: "Pisa",
+    count: 22,
   },
   {
     tag_id: 5909,
@@ -2572,21 +2937,6 @@ const tags = [
   {
     tag_id: 5885,
     name: "Norfolk",
-    count: 22,
-  },
-  {
-    tag_id: 4054,
-    name: "tape label",
-    count: 22,
-  },
-  {
-    tag_id: 4050,
-    name: "catalunya",
-    count: 22,
-  },
-  {
-    tag_id: 4011,
-    name: "roots",
     count: 22,
   },
   {
@@ -2610,18 +2960,8 @@ const tags = [
     count: 22,
   },
   {
-    tag_id: 1622,
-    name: "power pop",
-    count: 22,
-  },
-  {
-    tag_id: 1589,
-    name: "cumbia",
-    count: 22,
-  },
-  {
-    tag_id: 1215,
-    name: "royalty free",
+    tag_id: 1304,
+    name: "future",
     count: 22,
   },
   {
@@ -2635,33 +2975,33 @@ const tags = [
     count: 22,
   },
   {
-    tag_id: 671,
-    name: "anarchist",
+    tag_id: 606,
+    name: "digital hardcore",
     count: 22,
   },
   {
-    tag_id: 622,
-    name: "death metal",
+    tag_id: 532,
+    name: "soulection",
     count: 22,
   },
   {
-    tag_id: 568,
-    name: "latin",
+    tag_id: 439,
+    name: "halloween",
     count: 22,
   },
   {
-    tag_id: 559,
-    name: "fusion",
+    tag_id: 415,
+    name: "generative",
     count: 22,
   },
   {
-    tag_id: 457,
-    name: "dreamwave",
+    tag_id: 339,
+    name: "Oakland",
     count: 22,
   },
   {
-    tag_id: 318,
-    name: "sci-fi",
+    tag_id: 305,
+    name: "no wave",
     count: 22,
   },
   {
@@ -2670,13 +3010,8 @@ const tags = [
     count: 22,
   },
   {
-    tag_id: 179,
-    name: "Miami",
-    count: 22,
-  },
-  {
-    tag_id: 143,
-    name: "mixtape",
+    tag_id: 126,
+    name: "france",
     count: 22,
   },
   {
@@ -2692,16 +3027,6 @@ const tags = [
   {
     tag_id: 4483,
     name: "german",
-    count: 21,
-  },
-  {
-    tag_id: 4056,
-    name: "Sant Pere De Ribes",
-    count: 21,
-  },
-  {
-    tag_id: 4055,
-    name: "very serious",
     count: 21,
   },
   {
@@ -2730,6 +3055,16 @@ const tags = [
     count: 21,
   },
   {
+    tag_id: 3346,
+    name: "collection",
+    count: 21,
+  },
+  {
+    tag_id: 2938,
+    name: "novelty",
+    count: 21,
+  },
+  {
     tag_id: 1860,
     name: "analog synthesizer",
     count: 21,
@@ -2750,6 +3085,11 @@ const tags = [
     count: 21,
   },
   {
+    tag_id: 1085,
+    name: "Fort Wayne",
+    count: 21,
+  },
+  {
     tag_id: 1054,
     name: "Madrid",
     count: 21,
@@ -2765,38 +3105,18 @@ const tags = [
     count: 21,
   },
   {
-    tag_id: 638,
-    name: "Barcelona",
+    tag_id: 785,
+    name: "hard dance",
     count: 21,
   },
   {
-    tag_id: 606,
-    name: "digital hardcore",
+    tag_id: 695,
+    name: "experimental hip-hop",
     count: 21,
   },
   {
     tag_id: 538,
     name: "ukg",
-    count: 21,
-  },
-  {
-    tag_id: 439,
-    name: "halloween",
-    count: 21,
-  },
-  {
-    tag_id: 427,
-    name: "80's",
-    count: 21,
-  },
-  {
-    tag_id: 339,
-    name: "Oakland",
-    count: 21,
-  },
-  {
-    tag_id: 149,
-    name: "ethereal",
     count: 21,
   },
   {
@@ -2825,11 +3145,6 @@ const tags = [
     count: 20,
   },
   {
-    tag_id: 5973,
-    name: "underground hip-hop",
-    count: 20,
-  },
-  {
     tag_id: 5378,
     name: "ambient guitar",
     count: 20,
@@ -2840,18 +3155,13 @@ const tags = [
     count: 20,
   },
   {
+    tag_id: 4686,
+    name: "art punk",
+    count: 20,
+  },
+  {
     tag_id: 3805,
     name: "gabba",
-    count: 20,
-  },
-  {
-    tag_id: 3346,
-    name: "collection",
-    count: 20,
-  },
-  {
-    tag_id: 2916,
-    name: "jazz fusion",
     count: 20,
   },
   {
@@ -2860,8 +3170,18 @@ const tags = [
     count: 20,
   },
   {
+    tag_id: 1430,
+    name: "antifa",
+    count: 20,
+  },
+  {
     tag_id: 860,
     name: "Málaga",
+    count: 20,
+  },
+  {
+    tag_id: 807,
+    name: "london",
     count: 20,
   },
   {
@@ -2875,8 +3195,18 @@ const tags = [
     count: 20,
   },
   {
-    tag_id: 203,
-    name: "contemporary classical",
+    tag_id: 530,
+    name: "bootlegs",
+    count: 20,
+  },
+  {
+    tag_id: 490,
+    name: "psydub",
+    count: 20,
+  },
+  {
+    tag_id: 115,
+    name: "canada",
     count: 20,
   },
   {
@@ -2885,8 +3215,18 @@ const tags = [
     count: 19,
   },
   {
+    tag_id: 6538,
+    name: "rocksteady",
+    count: 19,
+  },
+  {
     tag_id: 6213,
     name: "maximalism",
+    count: 19,
+  },
+  {
+    tag_id: 5152,
+    name: "steppa",
     count: 19,
   },
   {
@@ -2895,18 +3235,13 @@ const tags = [
     count: 19,
   },
   {
-    tag_id: 3104,
-    name: "world music",
+    tag_id: 3146,
+    name: "surf rock",
     count: 19,
   },
   {
-    tag_id: 2938,
-    name: "novelty",
-    count: 19,
-  },
-  {
-    tag_id: 2822,
-    name: "poetry",
+    tag_id: 2904,
+    name: "raw",
     count: 19,
   },
   {
@@ -2915,18 +3250,23 @@ const tags = [
     count: 19,
   },
   {
+    tag_id: 2350,
+    name: "90s",
+    count: 19,
+  },
+  {
     tag_id: 2345,
     name: "italo",
     count: 19,
   },
   {
-    tag_id: 1798,
-    name: "electro pop",
+    tag_id: 1548,
+    name: "speedcore worldwide",
     count: 19,
   },
   {
-    tag_id: 1548,
-    name: "speedcore worldwide",
+    tag_id: 1462,
+    name: "dj",
     count: 19,
   },
   {
@@ -2945,13 +3285,18 @@ const tags = [
     count: 19,
   },
   {
+    tag_id: 1196,
+    name: "videogame",
+    count: 19,
+  },
+  {
     tag_id: 1045,
     name: "south portland",
     count: 19,
   },
   {
-    tag_id: 1027,
-    name: "garage punk",
+    tag_id: 970,
+    name: "blues",
     count: 19,
   },
   {
@@ -2960,28 +3305,28 @@ const tags = [
     count: 19,
   },
   {
-    tag_id: 785,
-    name: "hard dance",
-    count: 19,
-  },
-  {
     tag_id: 641,
     name: "future bass",
     count: 19,
   },
   {
-    tag_id: 494,
-    name: "nature",
+    tag_id: 504,
+    name: "psychill",
     count: 19,
   },
   {
-    tag_id: 490,
-    name: "psydub",
+    tag_id: 240,
+    name: "Nottingham",
     count: 19,
   },
   {
-    tag_id: 415,
-    name: "generative",
+    tag_id: 233,
+    name: "modular synth",
+    count: 19,
+  },
+  {
+    tag_id: 11,
+    name: "post punk",
     count: 19,
   },
   {
@@ -2990,8 +3335,8 @@ const tags = [
     count: 18,
   },
   {
-    tag_id: 5152,
-    name: "steppa",
+    tag_id: 5167,
+    name: "boom-bap",
     count: 18,
   },
   {
@@ -3010,8 +3355,23 @@ const tags = [
     count: 18,
   },
   {
+    tag_id: 3187,
+    name: "berlin",
+    count: 18,
+  },
+  {
     tag_id: 2936,
     name: "hair metal",
+    count: 18,
+  },
+  {
+    tag_id: 2689,
+    name: "Orlando",
+    count: 18,
+  },
+  {
+    tag_id: 2197,
+    name: "relaxing",
     count: 18,
   },
   {
@@ -3022,11 +3382,6 @@ const tags = [
   {
     tag_id: 1835,
     name: "Maine",
-    count: 18,
-  },
-  {
-    tag_id: 1822,
-    name: "free improvisation",
     count: 18,
   },
   {
@@ -3045,6 +3400,16 @@ const tags = [
     count: 18,
   },
   {
+    tag_id: 1332,
+    name: "bounce",
+    count: 18,
+  },
+  {
+    tag_id: 1329,
+    name: "new york",
+    count: 18,
+  },
+  {
     tag_id: 1223,
     name: "brony",
     count: 18,
@@ -3055,8 +3420,18 @@ const tags = [
     count: 18,
   },
   {
+    tag_id: 1126,
+    name: "soulful",
+    count: 18,
+  },
+  {
     tag_id: 1084,
     name: "nes",
+    count: 18,
+  },
+  {
+    tag_id: 488,
+    name: "tribal",
     count: 18,
   },
   {
@@ -3065,8 +3440,8 @@ const tags = [
     count: 18,
   },
   {
-    tag_id: 233,
-    name: "modular synth",
+    tag_id: 350,
+    name: "Colorado",
     count: 18,
   },
   {
@@ -3080,19 +3455,19 @@ const tags = [
     count: 18,
   },
   {
-    tag_id: 126,
-    name: "france",
-    count: 18,
-  },
-  {
-    tag_id: 115,
-    name: "canada",
-    count: 18,
-  },
-  {
     tag_id: 38,
     name: "dubwise",
     count: 18,
+  },
+  {
+    tag_id: 9145,
+    name: "medicine music",
+    count: 17,
+  },
+  {
+    tag_id: 9144,
+    name: "chakra",
+    count: 17,
   },
   {
     tag_id: 4904,
@@ -3115,18 +3490,18 @@ const tags = [
     count: 17,
   },
   {
-    tag_id: 2689,
-    name: "Orlando",
+    tag_id: 3108,
+    name: "Rotterdam",
+    count: 17,
+  },
+  {
+    tag_id: 2921,
+    name: "sample pack",
     count: 17,
   },
   {
     tag_id: 2552,
     name: "art pop",
-    count: 17,
-  },
-  {
-    tag_id: 2541,
-    name: "gay shit",
     count: 17,
   },
   {
@@ -3140,43 +3515,33 @@ const tags = [
     count: 17,
   },
   {
-    tag_id: 1462,
-    name: "dj",
+    tag_id: 1905,
+    name: "easy listening",
     count: 17,
   },
   {
-    tag_id: 1430,
-    name: "antifa",
+    tag_id: 1760,
+    name: "transgender",
     count: 17,
   },
   {
-    tag_id: 1319,
-    name: "folktronica",
+    tag_id: 1375,
+    name: "meditative",
     count: 17,
   },
   {
-    tag_id: 1304,
-    name: "future",
+    tag_id: 1127,
+    name: "phonk",
     count: 17,
   },
   {
-    tag_id: 1196,
-    name: "videogame",
-    count: 17,
-  },
-  {
-    tag_id: 970,
-    name: "blues",
+    tag_id: 888,
+    name: "Baltimore",
     count: 17,
   },
   {
     tag_id: 635,
     name: "gameboy",
-    count: 17,
-  },
-  {
-    tag_id: 585,
-    name: "healing",
     count: 17,
   },
   {
@@ -3190,8 +3555,8 @@ const tags = [
     count: 17,
   },
   {
-    tag_id: 476,
-    name: "flips",
+    tag_id: 410,
+    name: "kosmische",
     count: 17,
   },
   {
@@ -3205,8 +3570,8 @@ const tags = [
     count: 17,
   },
   {
-    tag_id: 305,
-    name: "no wave",
+    tag_id: 316,
+    name: "trans",
     count: 17,
   },
   {
@@ -3215,8 +3580,8 @@ const tags = [
     count: 17,
   },
   {
-    tag_id: 11,
-    name: "post punk",
+    tag_id: 242,
+    name: "immersive",
     count: 17,
   },
   {
@@ -3230,11 +3595,6 @@ const tags = [
     count: 16,
   },
   {
-    tag_id: 5167,
-    name: "boom-bap",
-    count: 16,
-  },
-  {
     tag_id: 4771,
     name: "Buxton",
     count: 16,
@@ -3245,13 +3605,18 @@ const tags = [
     count: 16,
   },
   {
-    tag_id: 3288,
-    name: "banjo",
+    tag_id: 4371,
+    name: "slow",
     count: 16,
   },
   {
-    tag_id: 3187,
-    name: "berlin",
+    tag_id: 4245,
+    name: "motivational",
+    count: 16,
+  },
+  {
+    tag_id: 3288,
+    name: "banjo",
     count: 16,
   },
   {
@@ -3260,23 +3625,18 @@ const tags = [
     count: 16,
   },
   {
-    tag_id: 2846,
-    name: "ska",
+    tag_id: 2969,
+    name: "finland",
     count: 16,
   },
   {
-    tag_id: 2825,
-    name: "Montréal",
+    tag_id: 2837,
+    name: "ambient techno",
     count: 16,
   },
   {
     tag_id: 2333,
     name: "Utrecht",
-    count: 16,
-  },
-  {
-    tag_id: 2197,
-    name: "relaxing",
     count: 16,
   },
   {
@@ -3290,28 +3650,8 @@ const tags = [
     count: 16,
   },
   {
-    tag_id: 1521,
-    name: "tech house",
-    count: 16,
-  },
-  {
     tag_id: 1470,
     name: "sludge metal",
-    count: 16,
-  },
-  {
-    tag_id: 1375,
-    name: "meditative",
-    count: 16,
-  },
-  {
-    tag_id: 1332,
-    name: "bounce",
-    count: 16,
-  },
-  {
-    tag_id: 1329,
-    name: "new york",
     count: 16,
   },
   {
@@ -3335,11 +3675,6 @@ const tags = [
     count: 16,
   },
   {
-    tag_id: 1127,
-    name: "phonk",
-    count: 16,
-  },
-  {
     tag_id: 1023,
     name: "postpunk",
     count: 16,
@@ -3355,8 +3690,8 @@ const tags = [
     count: 16,
   },
   {
-    tag_id: 888,
-    name: "Baltimore",
+    tag_id: 866,
+    name: "global bass",
     count: 16,
   },
   {
@@ -3370,23 +3705,38 @@ const tags = [
     count: 16,
   },
   {
-    tag_id: 695,
-    name: "experimental hip-hop",
+    tag_id: 499,
+    name: "big beat",
     count: 16,
   },
   {
-    tag_id: 488,
-    name: "tribal",
+    tag_id: 308,
+    name: "Rio De Janeiro",
     count: 16,
   },
   {
-    tag_id: 242,
-    name: "immersive",
-    count: 16,
+    tag_id: 5995,
+    name: "united kingdom",
+    count: 15,
   },
   {
     tag_id: 5291,
     name: " jazz ",
+    count: 15,
+  },
+  {
+    tag_id: 5143,
+    name: "dreampop",
+    count: 15,
+  },
+  {
+    tag_id: 4758,
+    name: "neo-classical",
+    count: 15,
+  },
+  {
+    tag_id: 4436,
+    name: "atlanta",
     count: 15,
   },
   {
@@ -3395,8 +3745,8 @@ const tags = [
     count: 15,
   },
   {
-    tag_id: 2904,
-    name: "raw",
+    tag_id: 3086,
+    name: "contemplative",
     count: 15,
   },
   {
@@ -3430,8 +3780,28 @@ const tags = [
     count: 15,
   },
   {
+    tag_id: 1737,
+    name: "chamber pop",
+    count: 15,
+  },
+  {
     tag_id: 1639,
     name: "bristol",
+    count: 15,
+  },
+  {
+    tag_id: 1593,
+    name: "coldwave",
+    count: 15,
+  },
+  {
+    tag_id: 1590,
+    name: "nostalgia",
+    count: 15,
+  },
+  {
+    tag_id: 1537,
+    name: "funeral doom",
     count: 15,
   },
   {
@@ -3445,6 +3815,11 @@ const tags = [
     count: 15,
   },
   {
+    tag_id: 1096,
+    name: "vhs",
+    count: 15,
+  },
+  {
     tag_id: 1031,
     name: "symphonic metal",
     count: 15,
@@ -3455,8 +3830,8 @@ const tags = [
     count: 15,
   },
   {
-    tag_id: 849,
-    name: "glitch hop",
+    tag_id: 871,
+    name: "melbourne",
     count: 15,
   },
   {
@@ -3470,33 +3845,18 @@ const tags = [
     count: 15,
   },
   {
-    tag_id: 532,
-    name: "soulection",
+    tag_id: 534,
+    name: "Long Beach",
     count: 15,
   },
   {
-    tag_id: 530,
-    name: "bootlegs",
+    tag_id: 529,
+    name: "blends",
     count: 15,
   },
   {
     tag_id: 510,
     name: "detroit techno",
-    count: 15,
-  },
-  {
-    tag_id: 499,
-    name: "big beat",
-    count: 15,
-  },
-  {
-    tag_id: 410,
-    name: "kosmische",
-    count: 15,
-  },
-  {
-    tag_id: 308,
-    name: "Rio De Janeiro",
     count: 15,
   },
   {
@@ -3515,11 +3875,6 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 5995,
-    name: "united kingdom",
-    count: 14,
-  },
-  {
     tag_id: 5934,
     name: "amsterdam",
     count: 14,
@@ -3535,23 +3890,18 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 4686,
-    name: "art punk",
-    count: 14,
-  },
-  {
     tag_id: 4484,
     name: "Hannover",
     count: 14,
   },
   {
-    tag_id: 4436,
-    name: "atlanta",
+    tag_id: 4117,
+    name: "synths",
     count: 14,
   },
   {
-    tag_id: 4117,
-    name: "synths",
+    tag_id: 3683,
+    name: "jangle pop",
     count: 14,
   },
   {
@@ -3565,8 +3915,8 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 2837,
-    name: "ambient techno",
+    tag_id: 3045,
+    name: "jackin house",
     count: 14,
   },
   {
@@ -3575,8 +3925,18 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 1905,
-    name: "easy listening",
+    tag_id: 2690,
+    name: "chillstep",
+    count: 14,
+  },
+  {
+    tag_id: 2503,
+    name: "16-bit",
+    count: 14,
+  },
+  {
+    tag_id: 2039,
+    name: "stoner metal",
     count: 14,
   },
   {
@@ -3590,23 +3950,13 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 1760,
-    name: "transgender",
-    count: 14,
-  },
-  {
     tag_id: 1640,
     name: "uk bass",
     count: 14,
   },
   {
-    tag_id: 1593,
-    name: "coldwave",
-    count: 14,
-  },
-  {
-    tag_id: 1590,
-    name: "nostalgia",
+    tag_id: 1585,
+    name: "music",
     count: 14,
   },
   {
@@ -3615,23 +3965,33 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 1537,
-    name: "funeral doom",
-    count: 14,
-  },
-  {
     tag_id: 1414,
     name: "hardstyle",
     count: 14,
   },
   {
-    tag_id: 1201,
-    name: "lofi hip hop",
+    tag_id: 1399,
+    name: "d-beat",
     count: 14,
   },
   {
-    tag_id: 1126,
-    name: "soulful",
+    tag_id: 1346,
+    name: "groove",
+    count: 14,
+  },
+  {
+    tag_id: 1253,
+    name: "underground rap",
+    count: 14,
+  },
+  {
+    tag_id: 1098,
+    name: "water",
+    count: 14,
+  },
+  {
+    tag_id: 1067,
+    name: "broken beat",
     count: 14,
   },
   {
@@ -3645,11 +4005,6 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 871,
-    name: "melbourne",
-    count: 14,
-  },
-  {
     tag_id: 681,
     name: "boombap",
     count: 14,
@@ -3660,19 +4015,34 @@ const tags = [
     count: 14,
   },
   {
-    tag_id: 503,
-    name: "psybient",
+    tag_id: 324,
+    name: "covers",
     count: 14,
   },
   {
-    tag_id: 316,
-    name: "trans",
+    tag_id: 238,
+    name: "electronics",
+    count: 14,
+  },
+  {
+    tag_id: 124,
+    name: "paris",
+    count: 14,
+  },
+  {
+    tag_id: 58,
+    name: "deconstructed club",
     count: 14,
   },
   {
     tag_id: 52,
     name: "singer songwriter",
     count: 14,
+  },
+  {
+    tag_id: 9017,
+    name: "inspirational",
+    count: 13,
   },
   {
     tag_id: 7712,
@@ -3705,8 +4075,8 @@ const tags = [
     count: 13,
   },
   {
-    tag_id: 4758,
-    name: "neo-classical",
+    tag_id: 4287,
+    name: "Zagreb",
     count: 13,
   },
   {
@@ -3725,13 +4095,8 @@ const tags = [
     count: 13,
   },
   {
-    tag_id: 3045,
-    name: "jackin house",
-    count: 13,
-  },
-  {
-    tag_id: 2921,
-    name: "sample pack",
+    tag_id: 3115,
+    name: "summer",
     count: 13,
   },
   {
@@ -3745,13 +4110,8 @@ const tags = [
     count: 13,
   },
   {
-    tag_id: 2379,
-    name: "garage rock",
-    count: 13,
-  },
-  {
-    tag_id: 2350,
-    name: "90s",
+    tag_id: 2841,
+    name: "feminist",
     count: 13,
   },
   {
@@ -3765,8 +4125,23 @@ const tags = [
     count: 13,
   },
   {
-    tag_id: 1995,
-    name: "instrumentals",
+    tag_id: 2045,
+    name: "glo-fi",
+    count: 13,
+  },
+  {
+    tag_id: 2033,
+    name: "mexico",
+    count: 13,
+  },
+  {
+    tag_id: 2026,
+    name: "dreamy",
+    count: 13,
+  },
+  {
+    tag_id: 1916,
+    name: "solo piano",
     count: 13,
   },
   {
@@ -3775,8 +4150,8 @@ const tags = [
     count: 13,
   },
   {
-    tag_id: 1737,
-    name: "chamber pop",
+    tag_id: 1734,
+    name: "lofi hiphop",
     count: 13,
   },
   {
@@ -3787,6 +4162,11 @@ const tags = [
   {
     tag_id: 1661,
     name: "nudisco",
+    count: 13,
+  },
+  {
+    tag_id: 1613,
+    name: "mathcore",
     count: 13,
   },
   {
@@ -3805,8 +4185,18 @@ const tags = [
     count: 13,
   },
   {
+    tag_id: 1226,
+    name: "calm",
+    count: 13,
+  },
+  {
     tag_id: 1137,
     name: "postrock",
+    count: 13,
+  },
+  {
+    tag_id: 1115,
+    name: "bossa nova",
     count: 13,
   },
   {
@@ -3815,8 +4205,8 @@ const tags = [
     count: 13,
   },
   {
-    tag_id: 1067,
-    name: "broken beat",
+    tag_id: 1007,
+    name: "antifascist",
     count: 13,
   },
   {
@@ -3825,8 +4215,8 @@ const tags = [
     count: 13,
   },
   {
-    tag_id: 866,
-    name: "global bass",
+    tag_id: 670,
+    name: "sampling",
     count: 13,
   },
   {
@@ -3835,8 +4225,23 @@ const tags = [
     count: 13,
   },
   {
+    tag_id: 618,
+    name: "Jakarta",
+    count: 13,
+  },
+  {
+    tag_id: 599,
+    name: "spooky",
+    count: 13,
+  },
+  {
     tag_id: 581,
     name: "skramz",
+    count: 13,
+  },
+  {
+    tag_id: 432,
+    name: "vaporsex",
     count: 13,
   },
   {
@@ -3845,9 +4250,19 @@ const tags = [
     count: 13,
   },
   {
+    tag_id: 385,
+    name: "gothic",
+    count: 13,
+  },
+  {
     tag_id: 200,
     name: "Olympia",
     count: 13,
+  },
+  {
+    tag_id: 8743,
+    name: "beatstrumentals",
+    count: 12,
   },
   {
     tag_id: 7991,
@@ -3857,6 +4272,11 @@ const tags = [
   {
     tag_id: 7988,
     name: "bubblegum pop",
+    count: 12,
+  },
+  {
+    tag_id: 7714,
+    name: "folk ambient",
     count: 12,
   },
   {
@@ -3905,16 +4325,6 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 4287,
-    name: "Zagreb",
-    count: 12,
-  },
-  {
-    tag_id: 3683,
-    name: "jangle pop",
-    count: 12,
-  },
-  {
     tag_id: 3627,
     name: "power metal",
     count: 12,
@@ -3925,18 +4335,23 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 2969,
-    name: "finland",
+    tag_id: 3406,
+    name: "female vocals",
     count: 12,
   },
   {
-    tag_id: 2841,
-    name: "feminist",
+    tag_id: 3105,
+    name: "organic",
     count: 12,
   },
   {
-    tag_id: 2690,
-    name: "chillstep",
+    tag_id: 3053,
+    name: "deep tech",
+    count: 12,
+  },
+  {
+    tag_id: 2769,
+    name: "boogie",
     count: 12,
   },
   {
@@ -3945,13 +4360,13 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 2045,
-    name: "glo-fi",
+    tag_id: 2314,
+    name: "The Bronx",
     count: 12,
   },
   {
-    tag_id: 2033,
-    name: "mexico",
+    tag_id: 1990,
+    name: "new zealand",
     count: 12,
   },
   {
@@ -3960,13 +4375,23 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 1767,
-    name: "Tokyo",
+    tag_id: 1828,
+    name: "dance music",
     count: 12,
   },
   {
-    tag_id: 1734,
-    name: "lofi hiphop",
+    tag_id: 1808,
+    name: "dungeons & dragons",
+    count: 12,
+  },
+  {
+    tag_id: 1764,
+    name: "fourth world",
+    count: 12,
+  },
+  {
+    tag_id: 1725,
+    name: "philadelphia",
     count: 12,
   },
   {
@@ -3985,8 +4410,8 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 1216,
-    name: "Costa Rica",
+    tag_id: 1327,
+    name: "los angeles",
     count: 12,
   },
   {
@@ -4000,16 +4425,6 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 1096,
-    name: "vhs",
-    count: 12,
-  },
-  {
-    tag_id: 1007,
-    name: "antifascist",
-    count: 12,
-  },
-  {
     tag_id: 976,
     name: "protest",
     count: 12,
@@ -4020,8 +4435,13 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 807,
-    name: "london",
+    tag_id: 865,
+    name: "global",
+    count: 12,
+  },
+  {
+    tag_id: 841,
+    name: "halftime",
     count: 12,
   },
   {
@@ -4030,18 +4450,8 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 670,
-    name: "sampling",
-    count: 12,
-  },
-  {
-    tag_id: 599,
-    name: "spooky",
-    count: 12,
-  },
-  {
-    tag_id: 504,
-    name: "psychill",
+    tag_id: 500,
+    name: "psy-dub",
     count: 12,
   },
   {
@@ -4050,23 +4460,18 @@ const tags = [
     count: 12,
   },
   {
-    tag_id: 385,
-    name: "gothic",
+    tag_id: 403,
+    name: "pop rock",
     count: 12,
   },
   {
-    tag_id: 324,
-    name: "covers",
+    tag_id: 401,
+    name: "concept album",
     count: 12,
   },
   {
-    tag_id: 240,
-    name: "Nottingham",
-    count: 12,
-  },
-  {
-    tag_id: 58,
-    name: "deconstructed club",
+    tag_id: 164,
+    name: "turntablism",
     count: 12,
   },
   {
@@ -4078,6 +4483,16 @@ const tags = [
     tag_id: 13,
     name: "Cologne",
     count: 12,
+  },
+  {
+    tag_id: 9024,
+    name: "confident",
+    count: 11,
+  },
+  {
+    tag_id: 9016,
+    name: "determined",
+    count: 11,
   },
   {
     tag_id: 8134,
@@ -4092,11 +4507,6 @@ const tags = [
   {
     tag_id: 7715,
     name: "folklore",
-    count: 11,
-  },
-  {
-    tag_id: 7714,
-    name: "folk ambient",
     count: 11,
   },
   {
@@ -4117,6 +4527,11 @@ const tags = [
   {
     tag_id: 6274,
     name: "dark fantasy",
+    count: 11,
+  },
+  {
+    tag_id: 5662,
+    name: "hard trance",
     count: 11,
   },
   {
@@ -4150,13 +4565,28 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 3406,
-    name: "female vocals",
+    tag_id: 3573,
+    name: "electro-acoustic",
     count: 11,
   },
   {
     tag_id: 3339,
     name: "Springfield",
+    count: 11,
+  },
+  {
+    tag_id: 2920,
+    name: "sample",
+    count: 11,
+  },
+  {
+    tag_id: 2876,
+    name: "d&d",
+    count: 11,
+  },
+  {
+    tag_id: 2828,
+    name: "eclectic",
     count: 11,
   },
   {
@@ -4170,18 +4600,8 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 2503,
-    name: "16-bit",
-    count: 11,
-  },
-  {
     tag_id: 2418,
     name: "synthpunk",
-    count: 11,
-  },
-  {
-    tag_id: 2314,
-    name: "The Bronx",
     count: 11,
   },
   {
@@ -4190,8 +4610,13 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 1990,
-    name: "new zealand",
+    tag_id: 1984,
+    name: "melancholy",
+    count: 11,
+  },
+  {
+    tag_id: 1885,
+    name: "relax",
     count: 11,
   },
   {
@@ -4205,18 +4630,8 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 1828,
-    name: "dance music",
-    count: 11,
-  },
-  {
     tag_id: 1731,
     name: "Moscow",
-    count: 11,
-  },
-  {
-    tag_id: 1705,
-    name: "beat-tape",
     count: 11,
   },
   {
@@ -4225,13 +4640,13 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 1602,
-    name: "baile-funk",
+    tag_id: 1633,
+    name: "alternative hip-hop",
     count: 11,
   },
   {
-    tag_id: 1585,
-    name: "music",
+    tag_id: 1602,
+    name: "baile-funk",
     count: 11,
   },
   {
@@ -4255,6 +4670,11 @@ const tags = [
     count: 11,
   },
   {
+    tag_id: 1437,
+    name: "liminal",
+    count: 11,
+  },
+  {
     tag_id: 1433,
     name: "sleep music",
     count: 11,
@@ -4265,13 +4685,13 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 1327,
-    name: "los angeles",
+    tag_id: 1214,
+    name: "Fort Myers",
     count: 11,
   },
   {
-    tag_id: 1214,
-    name: "Fort Myers",
+    tag_id: 1106,
+    name: "plan-it-x",
     count: 11,
   },
   {
@@ -4290,23 +4710,28 @@ const tags = [
     count: 11,
   },
   {
+    tag_id: 1026,
+    name: "powerpop",
+    count: 11,
+  },
+  {
     tag_id: 932,
     name: "bassline",
     count: 11,
   },
   {
-    tag_id: 865,
-    name: "global",
-    count: 11,
-  },
-  {
-    tag_id: 841,
-    name: "halftime",
-    count: 11,
-  },
-  {
     tag_id: 805,
     name: "dancecore",
+    count: 11,
+  },
+  {
+    tag_id: 802,
+    name: "breakbeats",
+    count: 11,
+  },
+  {
+    tag_id: 801,
+    name: "bootleg",
     count: 11,
   },
   {
@@ -4320,38 +4745,43 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 529,
-    name: "blends",
+    tag_id: 605,
+    name: "cybergrind",
     count: 11,
   },
   {
-    tag_id: 500,
-    name: "psy-dub",
+    tag_id: 573,
+    name: "depressive black metal",
     count: 11,
   },
   {
-    tag_id: 403,
-    name: "pop rock",
+    tag_id: 552,
+    name: "voice",
     count: 11,
   },
   {
-    tag_id: 401,
-    name: "concept album",
+    tag_id: 533,
+    name: "tufcat sound",
+    count: 11,
+  },
+  {
+    tag_id: 528,
+    name: "2-step garage",
+    count: 11,
+  },
+  {
+    tag_id: 487,
+    name: "storytelling",
+    count: 11,
+  },
+  {
+    tag_id: 411,
+    name: "Leeds",
     count: 11,
   },
   {
     tag_id: 394,
     name: "lo-fi pop",
-    count: 11,
-  },
-  {
-    tag_id: 238,
-    name: "electronics",
-    count: 11,
-  },
-  {
-    tag_id: 164,
-    name: "turntablism",
     count: 11,
   },
   {
@@ -4365,9 +4795,9 @@ const tags = [
     count: 11,
   },
   {
-    tag_id: 124,
-    name: "paris",
-    count: 11,
+    tag_id: 8785,
+    name: "extreme metal",
+    count: 10,
   },
   {
     tag_id: 7986,
@@ -4400,8 +4830,23 @@ const tags = [
     count: 10,
   },
   {
+    tag_id: 6564,
+    name: "concentration",
+    count: 10,
+  },
+  {
     tag_id: 6468,
     name: "Lewiston",
+    count: 10,
+  },
+  {
+    tag_id: 6030,
+    name: "chaotic hardcore",
+    count: 10,
+  },
+  {
+    tag_id: 5994,
+    name: "reflective",
     count: 10,
   },
   {
@@ -4415,6 +4860,11 @@ const tags = [
     count: 10,
   },
   {
+    tag_id: 5130,
+    name: "nyc",
+    count: 10,
+  },
+  {
     tag_id: 4951,
     name: "dark synth",
     count: 10,
@@ -4425,13 +4875,18 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 4441,
-    name: "television",
+    tag_id: 4601,
+    name: "austin",
     count: 10,
   },
   {
-    tag_id: 4371,
-    name: "slow",
+    tag_id: 4481,
+    name: "retro-pop",
+    count: 10,
+  },
+  {
+    tag_id: 4441,
+    name: "television",
     count: 10,
   },
   {
@@ -4440,8 +4895,33 @@ const tags = [
     count: 10,
   },
   {
+    tag_id: 4298,
+    name: "spiritual jazz",
+    count: 10,
+  },
+  {
+    tag_id: 4057,
+    name: "greece",
+    count: 10,
+  },
+  {
+    tag_id: 3634,
+    name: "Iowa",
+    count: 10,
+  },
+  {
     tag_id: 3546,
     name: "germany",
+    count: 10,
+  },
+  {
+    tag_id: 3463,
+    name: "São Paulo",
+    count: 10,
+  },
+  {
+    tag_id: 3351,
+    name: "vocals",
     count: 10,
   },
   {
@@ -4450,43 +4930,33 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 3146,
-    name: "surf rock",
-    count: 10,
-  },
-  {
     tag_id: 3116,
     name: "Del Mar",
     count: 10,
   },
   {
-    tag_id: 3115,
-    name: "summer",
+    tag_id: 2819,
+    name: "blues rock",
     count: 10,
   },
   {
-    tag_id: 3053,
-    name: "deep tech",
+    tag_id: 2817,
+    name: "Worcester",
     count: 10,
   },
   {
-    tag_id: 2828,
-    name: "eclectic",
-    count: 10,
-  },
-  {
-    tag_id: 2769,
-    name: "boogie",
-    count: 10,
-  },
-  {
-    tag_id: 2551,
-    name: "Athens",
+    tag_id: 2521,
+    name: "holiday",
     count: 10,
   },
   {
     tag_id: 2516,
     name: "Bath",
+    count: 10,
+  },
+  {
+    tag_id: 2458,
+    name: "ep",
     count: 10,
   },
   {
@@ -4520,18 +4990,13 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 1916,
-    name: "solo piano",
-    count: 10,
-  },
-  {
-    tag_id: 1885,
-    name: "relax",
-    count: 10,
-  },
-  {
     tag_id: 1832,
     name: "Lisbon",
+    count: 10,
+  },
+  {
+    tag_id: 1762,
+    name: "exotica",
     count: 10,
   },
   {
@@ -4540,13 +5005,8 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 1725,
-    name: "philadelphia",
-    count: 10,
-  },
-  {
-    tag_id: 1613,
-    name: "mathcore",
+    tag_id: 1614,
+    name: "technical death metal",
     count: 10,
   },
   {
@@ -4565,13 +5025,13 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 1437,
-    name: "liminal",
+    tag_id: 1452,
+    name: "dark folk",
     count: 10,
   },
   {
-    tag_id: 1399,
-    name: "d-beat",
+    tag_id: 1418,
+    name: "sp404",
     count: 10,
   },
   {
@@ -4610,13 +5070,23 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 1106,
-    name: "plan-it-x",
+    tag_id: 1078,
+    name: "Sacramento",
     count: 10,
   },
   {
-    tag_id: 1098,
-    name: "water",
+    tag_id: 935,
+    name: "beat",
+    count: 10,
+  },
+  {
+    tag_id: 915,
+    name: "trance.",
+    count: 10,
+  },
+  {
+    tag_id: 902,
+    name: "r&b hip hop soul",
     count: 10,
   },
   {
@@ -4630,18 +5100,13 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 802,
-    name: "breakbeats",
-    count: 10,
-  },
-  {
-    tag_id: 801,
-    name: "bootleg",
-    count: 10,
-  },
-  {
     tag_id: 793,
     name: "frenchcore",
+    count: 10,
+  },
+  {
+    tag_id: 686,
+    name: "lo-fi hip-hop",
     count: 10,
   },
   {
@@ -4655,18 +5120,8 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 605,
-    name: "cybergrind",
-    count: 10,
-  },
-  {
-    tag_id: 573,
-    name: "depressive black metal",
-    count: 10,
-  },
-  {
-    tag_id: 534,
-    name: "Long Beach",
+    tag_id: 555,
+    name: "baroque",
     count: 10,
   },
   {
@@ -4675,8 +5130,8 @@ const tags = [
     count: 10,
   },
   {
-    tag_id: 411,
-    name: "Leeds",
+    tag_id: 397,
+    name: "australia",
     count: 10,
   },
   {
@@ -4695,23 +5150,38 @@ const tags = [
     count: 10,
   },
   {
+    tag_id: 323,
+    name: "cover",
+    count: 10,
+  },
+  {
     tag_id: 294,
     name: "North Carolina",
     count: 10,
   },
   {
-    tag_id: 6564,
-    name: "concentration",
+    tag_id: 217,
+    name: "acoustic guitar",
+    count: 10,
+  },
+  {
+    tag_id: 205,
+    name: "epic",
+    count: 10,
+  },
+  {
+    tag_id: 8831,
+    name: "sixties",
+    count: 9,
+  },
+  {
+    tag_id: 6734,
+    name: "psychedelic pop",
     count: 9,
   },
   {
     tag_id: 6032,
     name: "Hachioji",
-    count: 9,
-  },
-  {
-    tag_id: 6030,
-    name: "chaotic hardcore",
     count: 9,
   },
   {
@@ -4735,11 +5205,6 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 5143,
-    name: "dreampop",
-    count: 9,
-  },
-  {
     tag_id: 5118,
     name: "Gladbeck",
     count: 9,
@@ -4755,13 +5220,13 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 4601,
-    name: "austin",
+    tag_id: 4044,
+    name: "prog",
     count: 9,
   },
   {
-    tag_id: 4057,
-    name: "greece",
+    tag_id: 3783,
+    name: "k-pop",
     count: 9,
   },
   {
@@ -4770,13 +5235,28 @@ const tags = [
     count: 9,
   },
   {
+    tag_id: 3662,
+    name: "minimal techno",
+    count: 9,
+  },
+  {
     tag_id: 3660,
     name: "Lyon",
     count: 9,
   },
   {
-    tag_id: 3573,
-    name: "electro-acoustic",
+    tag_id: 3501,
+    name: "detroit",
+    count: 9,
+  },
+  {
+    tag_id: 3485,
+    name: "synth punk",
+    count: 9,
+  },
+  {
+    tag_id: 3064,
+    name: "Bogotá",
     count: 9,
   },
   {
@@ -4785,18 +5265,13 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 2819,
-    name: "blues rock",
-    count: 9,
-  },
-  {
-    tag_id: 2781,
-    name: "surf",
-    count: 9,
-  },
-  {
     tag_id: 2745,
     name: "deephouse",
+    count: 9,
+  },
+  {
+    tag_id: 2730,
+    name: "freak folk",
     count: 9,
   },
   {
@@ -4810,13 +5285,13 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 2521,
-    name: "holiday",
+    tag_id: 2496,
+    name: "fantasy synth",
     count: 9,
   },
   {
-    tag_id: 2496,
-    name: "fantasy synth",
+    tag_id: 2492,
+    name: "medieval",
     count: 9,
   },
   {
@@ -4827,6 +5302,16 @@ const tags = [
   {
     tag_id: 2371,
     name: "r-b",
+    count: 9,
+  },
+  {
+    tag_id: 2347,
+    name: "Brighton",
+    count: 9,
+  },
+  {
+    tag_id: 2312,
+    name: "freestyle",
     count: 9,
   },
   {
@@ -4855,8 +5340,13 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 2039,
-    name: "stoner metal",
+    tag_id: 2038,
+    name: "classic rock",
+    count: 9,
+  },
+  {
+    tag_id: 1963,
+    name: "queercore",
     count: 9,
   },
   {
@@ -4865,23 +5355,38 @@ const tags = [
     count: 9,
   },
   {
+    tag_id: 1671,
+    name: "desert rock",
+    count: 9,
+  },
+  {
     tag_id: 1600,
     name: "baile",
     count: 9,
   },
   {
-    tag_id: 1452,
-    name: "dark folk",
+    tag_id: 1331,
+    name: "Chișinău",
     count: 9,
   },
   {
-    tag_id: 1346,
-    name: "groove",
+    tag_id: 1328,
+    name: "magic flowers",
+    count: 9,
+  },
+  {
+    tag_id: 1326,
+    name: "club tools",
     count: 9,
   },
   {
     tag_id: 1217,
     name: "Guatemala",
+    count: 9,
+  },
+  {
+    tag_id: 1199,
+    name: "chill out",
     count: 9,
   },
   {
@@ -4895,13 +5400,18 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 1132,
-    name: "808",
+    tag_id: 1152,
+    name: "beattape",
     count: 9,
   },
   {
-    tag_id: 1115,
-    name: "bossa nova",
+    tag_id: 1150,
+    name: "jazzy",
+    count: 9,
+  },
+  {
+    tag_id: 1132,
+    name: "808",
     count: 9,
   },
   {
@@ -4915,18 +5425,8 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 1078,
-    name: "Sacramento",
-    count: 9,
-  },
-  {
     tag_id: 1060,
     name: "dembow",
-    count: 9,
-  },
-  {
-    tag_id: 1026,
-    name: "powerpop",
     count: 9,
   },
   {
@@ -4945,11 +5445,6 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 902,
-    name: "r&b hip hop soul",
-    count: 9,
-  },
-  {
     tag_id: 900,
     name: "dj sliink",
     count: 9,
@@ -4957,11 +5452,6 @@ const tags = [
   {
     tag_id: 882,
     name: "baltimore club",
-    count: 9,
-  },
-  {
-    tag_id: 686,
-    name: "lo-fi hip-hop",
     count: 9,
   },
   {
@@ -4985,13 +5475,13 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 555,
-    name: "baroque",
+    tag_id: 620,
+    name: "powerviolence",
     count: 9,
   },
   {
-    tag_id: 552,
-    name: "voice",
+    tag_id: 572,
+    name: "dsbm",
     count: 9,
   },
   {
@@ -5000,13 +5490,13 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 456,
-    name: "utopian virtual",
+    tag_id: 482,
+    name: "vibes",
     count: 9,
   },
   {
-    tag_id: 397,
-    name: "australia",
+    tag_id: 456,
+    name: "utopian virtual",
     count: 9,
   },
   {
@@ -5030,16 +5520,6 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 323,
-    name: "cover",
-    count: 9,
-  },
-  {
-    tag_id: 295,
-    name: "jungle dnb",
-    count: 9,
-  },
-  {
     tag_id: 263,
     name: "psycore",
     count: 9,
@@ -5050,9 +5530,29 @@ const tags = [
     count: 9,
   },
   {
-    tag_id: 205,
-    name: "epic",
+    tag_id: 210,
+    name: "soundtrack music",
     count: 9,
+  },
+  {
+    tag_id: 8962,
+    name: "psy trance",
+    count: 8,
+  },
+  {
+    tag_id: 8961,
+    name: "neotrance",
+    count: 8,
+  },
+  {
+    tag_id: 8711,
+    name: "Yatsushiro",
+    count: 8,
+  },
+  {
+    tag_id: 8710,
+    name: "genreless",
+    count: 8,
   },
   {
     tag_id: 8418,
@@ -5105,13 +5605,13 @@ const tags = [
     count: 8,
   },
   {
-    tag_id: 5130,
-    name: "nyc",
+    tag_id: 5126,
+    name: "folk pop",
     count: 8,
   },
   {
-    tag_id: 5126,
-    name: "folk pop",
+    tag_id: 5039,
+    name: "california",
     count: 8,
   },
   {
@@ -5125,8 +5625,13 @@ const tags = [
     count: 8,
   },
   {
-    tag_id: 4044,
-    name: "prog",
+    tag_id: 4343,
+    name: "estonia",
+    count: 8,
+  },
+  {
+    tag_id: 4067,
+    name: "art",
     count: 8,
   },
   {
@@ -5145,11 +5650,6 @@ const tags = [
     count: 8,
   },
   {
-    tag_id: 3501,
-    name: "detroit",
-    count: 8,
-  },
-  {
     tag_id: 3350,
     name: "bitpop",
     count: 8,
@@ -5165,18 +5665,18 @@ const tags = [
     count: 8,
   },
   {
-    tag_id: 3108,
-    name: "Rotterdam",
-    count: 8,
-  },
-  {
     tag_id: 3075,
     name: "lo fi",
     count: 8,
   },
   {
-    tag_id: 2876,
-    name: "d&d",
+    tag_id: 2883,
+    name: "Odesa",
+    count: 8,
+  },
+  {
+    tag_id: 2882,
+    name: "ravecore",
     count: 8,
   },
   {
@@ -5185,8 +5685,8 @@ const tags = [
     count: 8,
   },
   {
-    tag_id: 2730,
-    name: "freak folk",
+    tag_id: 2812,
+    name: "lyrical hip-hop",
     count: 8,
   },
   {
@@ -5195,18 +5695,33 @@ const tags = [
     count: 8,
   },
   {
+    tag_id: 2547,
+    name: "Palatine",
+    count: 8,
+  },
+  {
+    tag_id: 2491,
+    name: "ambient music",
+    count: 8,
+  },
+  {
+    tag_id: 2459,
+    name: "hip_hop",
+    count: 8,
+  },
+  {
+    tag_id: 2380,
+    name: "korean",
+    count: 8,
+  },
+  {
     tag_id: 2370,
     name: "global-club-music",
     count: 8,
   },
   {
-    tag_id: 2347,
-    name: "Brighton",
-    count: 8,
-  },
-  {
-    tag_id: 2312,
-    name: "freestyle",
+    tag_id: 2300,
+    name: "neo-soul",
     count: 8,
   },
   {
@@ -5225,18 +5740,28 @@ const tags = [
     count: 8,
   },
   {
+    tag_id: 2087,
+    name: "dark drones",
+    count: 8,
+  },
+  {
     tag_id: 2054,
     name: "iceland",
     count: 8,
   },
   {
-    tag_id: 2038,
-    name: "classic rock",
+    tag_id: 1996,
+    name: "producer",
     count: 8,
   },
   {
     tag_id: 1993,
     name: "funk carioca",
+    count: 8,
+  },
+  {
+    tag_id: 1917,
+    name: "chamber music",
     count: 8,
   },
   {
@@ -5247,6 +5772,31 @@ const tags = [
   {
     tag_id: 1799,
     name: "twee",
+    count: 8,
+  },
+  {
+    tag_id: 1765,
+    name: "psychedelia",
+    count: 8,
+  },
+  {
+    tag_id: 1736,
+    name: "cello",
+    count: 8,
+  },
+  {
+    tag_id: 1726,
+    name: "world garage",
+    count: 8,
+  },
+  {
+    tag_id: 1724,
+    name: "anacortes",
+    count: 8,
+  },
+  {
+    tag_id: 1723,
+    name: "alternative world",
     count: 8,
   },
   {
@@ -5305,23 +5855,18 @@ const tags = [
     count: 8,
   },
   {
-    tag_id: 1150,
-    name: "jazzy",
-    count: 8,
-  },
-  {
     tag_id: 1097,
     name: "sunvox",
     count: 8,
   },
   {
-    tag_id: 1004,
-    name: "punk hardcore",
+    tag_id: 1062,
+    name: "abstract hip-hop",
     count: 8,
   },
   {
-    tag_id: 935,
-    name: "beat",
+    tag_id: 1004,
+    name: "punk hardcore",
     count: 8,
   },
   {
@@ -5355,23 +5900,8 @@ const tags = [
     count: 8,
   },
   {
-    tag_id: 620,
-    name: "powerviolence",
-    count: 8,
-  },
-  {
     tag_id: 586,
     name: "newfoundland and labrador",
-    count: 8,
-  },
-  {
-    tag_id: 572,
-    name: "dsbm",
-    count: 8,
-  },
-  {
-    tag_id: 482,
-    name: "vibes",
     count: 8,
   },
   {
@@ -5380,13 +5910,48 @@ const tags = [
     count: 8,
   },
   {
+    tag_id: 359,
+    name: "smooth",
+    count: 8,
+  },
+  {
+    tag_id: 330,
+    name: "riot grrrl",
+    count: 8,
+  },
+  {
+    tag_id: 252,
+    name: "forest",
+    count: 8,
+  },
+  {
     tag_id: 188,
     name: "vhswave",
     count: 8,
   },
   {
+    tag_id: 8950,
+    name: "De Kalb",
+    count: 7,
+  },
+  {
+    tag_id: 8947,
+    name: "hyphy",
+    count: 7,
+  },
+  {
+    tag_id: 8216,
+    name: "brooklyn",
+    count: 7,
+  },
+  {
     tag_id: 8205,
     name: "americana lofi modern",
+    count: 7,
+  },
+  {
+    tag_id: 8005,
+    name: "post-ambient",
     count: 7,
   },
   {
@@ -5425,8 +5990,18 @@ const tags = [
     count: 7,
   },
   {
+    tag_id: 6370,
+    name: "brutal death metal",
+    count: 7,
+  },
+  {
     tag_id: 6291,
     name: "senyawa",
+    count: 7,
+  },
+  {
+    tag_id: 6112,
+    name: "kosmiche musik",
     count: 7,
   },
   {
@@ -5465,8 +6040,8 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 5039,
-    name: "california",
+    tag_id: 5022,
+    name: "yoga",
     count: 7,
   },
   {
@@ -5475,8 +6050,23 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 4343,
-    name: "estonia",
+    tag_id: 4619,
+    name: "classic",
+    count: 7,
+  },
+  {
+    tag_id: 4176,
+    name: "old school hip hop",
+    count: 7,
+  },
+  {
+    tag_id: 4106,
+    name: "free improv",
+    count: 7,
+  },
+  {
+    tag_id: 4089,
+    name: "deathgrind",
     count: 7,
   },
   {
@@ -5510,8 +6100,8 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 3662,
-    name: "minimal techno",
+    tag_id: 3630,
+    name: "triphop",
     count: 7,
   },
   {
@@ -5520,13 +6110,18 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 3485,
-    name: "synth punk",
+    tag_id: 3482,
+    name: "gay",
     count: 7,
   },
   {
-    tag_id: 3482,
-    name: "gay",
+    tag_id: 3283,
+    name: "shoegazer",
+    count: 7,
+  },
+  {
+    tag_id: 3254,
+    name: "poetry and music",
     count: 7,
   },
   {
@@ -5540,13 +6135,23 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 2991,
-    name: "electronic pop",
+    tag_id: 3107,
+    name: "world bass",
     count: 7,
   },
   {
-    tag_id: 2920,
-    name: "sample",
+    tag_id: 3103,
+    name: "world fusion",
+    count: 7,
+  },
+  {
+    tag_id: 3072,
+    name: "Honolulu",
+    count: 7,
+  },
+  {
+    tag_id: 2991,
+    name: "electronic pop",
     count: 7,
   },
   {
@@ -5565,8 +6170,23 @@ const tags = [
     count: 7,
   },
   {
+    tag_id: 2824,
+    name: "montreal",
+    count: 7,
+  },
+  {
+    tag_id: 2729,
+    name: "riddim",
+    count: 7,
+  },
+  {
     tag_id: 2698,
     name: "instrumental hip hop",
+    count: 7,
+  },
+  {
+    tag_id: 2596,
+    name: "andino",
     count: 7,
   },
   {
@@ -5580,13 +6200,18 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 2492,
-    name: "medieval",
+    tag_id: 2410,
+    name: "leipzig",
     count: 7,
   },
   {
-    tag_id: 2410,
-    name: "leipzig",
+    tag_id: 2385,
+    name: "album",
+    count: 7,
+  },
+  {
+    tag_id: 2376,
+    name: "mod",
     count: 7,
   },
   {
@@ -5610,6 +6235,11 @@ const tags = [
     count: 7,
   },
   {
+    tag_id: 2134,
+    name: "bells",
+    count: 7,
+  },
+  {
     tag_id: 2099,
     name: "rain sounds",
     count: 7,
@@ -5630,18 +6260,13 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 1963,
-    name: "queercore",
-    count: 7,
-  },
-  {
     tag_id: 1932,
     name: "various",
     count: 7,
   },
   {
-    tag_id: 1917,
-    name: "chamber music",
+    tag_id: 1921,
+    name: "percussion",
     count: 7,
   },
   {
@@ -5675,18 +6300,18 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 1808,
-    name: "dungeons & dragons",
+    tag_id: 1818,
+    name: "production",
     count: 7,
   },
   {
-    tag_id: 1765,
-    name: "psychedelia",
+    tag_id: 1805,
+    name: "happy",
     count: 7,
   },
   {
-    tag_id: 1762,
-    name: "exotica",
+    tag_id: 1699,
+    name: "found sound",
     count: 7,
   },
   {
@@ -5695,8 +6320,8 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 1671,
-    name: "desert rock",
+    tag_id: 1635,
+    name: "Connecticut",
     count: 7,
   },
   {
@@ -5715,8 +6340,8 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 1418,
-    name: "sp404",
+    tag_id: 1514,
+    name: "alternative pop",
     count: 7,
   },
   {
@@ -5725,23 +6350,13 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 1260,
-    name: "Nashville",
-    count: 7,
-  },
-  {
-    tag_id: 1226,
-    name: "calm",
-    count: 7,
-  },
-  {
     tag_id: 1203,
     name: "zelda",
     count: 7,
   },
   {
-    tag_id: 1199,
-    name: "chill out",
+    tag_id: 1202,
+    name: "oldschool",
     count: 7,
   },
   {
@@ -5760,6 +6375,11 @@ const tags = [
     count: 7,
   },
   {
+    tag_id: 1117,
+    name: "hiphop rap",
+    count: 7,
+  },
+  {
     tag_id: 1091,
     name: "muzak",
     count: 7,
@@ -5775,11 +6395,6 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 1062,
-    name: "abstract hip-hop",
-    count: 7,
-  },
-  {
     tag_id: 948,
     name: "South Korea",
     count: 7,
@@ -5790,38 +6405,23 @@ const tags = [
     count: 7,
   },
   {
+    tag_id: 739,
+    name: "nu-jazz",
+    count: 7,
+  },
+  {
     tag_id: 706,
     name: "aotearoa",
     count: 7,
   },
   {
-    tag_id: 533,
-    name: "tufcat sound",
-    count: 7,
-  },
-  {
-    tag_id: 528,
-    name: "2-step garage",
-    count: 7,
-  },
-  {
-    tag_id: 487,
-    name: "storytelling",
-    count: 7,
-  },
-  {
-    tag_id: 432,
-    name: "vaporsex",
+    tag_id: 489,
+    name: "psybass",
     count: 7,
   },
   {
     tag_id: 424,
     name: "winter",
-    count: 7,
-  },
-  {
-    tag_id: 359,
-    name: "smooth",
     count: 7,
   },
   {
@@ -5840,23 +6440,8 @@ const tags = [
     count: 7,
   },
   {
-    tag_id: 330,
-    name: "riot grrrl",
-    count: 7,
-  },
-  {
     tag_id: 277,
     name: "glitchcore",
-    count: 7,
-  },
-  {
-    tag_id: 217,
-    name: "acoustic guitar",
-    count: 7,
-  },
-  {
-    tag_id: 210,
-    name: "soundtrack music",
     count: 7,
   },
   {
@@ -5865,18 +6450,78 @@ const tags = [
     count: 7,
   },
   {
+    tag_id: 9025,
+    name: "optimistic",
+    count: 6,
+  },
+  {
+    tag_id: 9023,
+    name: "lover's day",
+    count: 6,
+  },
+  {
+    tag_id: 9022,
+    name: "copyright free music",
+    count: 6,
+  },
+  {
+    tag_id: 9021,
+    name: "valentine's day themed",
+    count: 6,
+  },
+  {
+    tag_id: 8784,
+    name: "rotzfreche asphaltkultur",
+    count: 6,
+  },
+  {
+    tag_id: 8783,
+    name: "liedermacher",
+    count: 6,
+  },
+  {
+    tag_id: 8782,
+    name: "akkordeon. kleinkunstpunk",
+    count: 6,
+  },
+  {
+    tag_id: 8728,
+    name: "Lafayette",
+    count: 6,
+  },
+  {
+    tag_id: 8727,
+    name: "southern rap",
+    count: 6,
+  },
+  {
+    tag_id: 8639,
+    name: "all genres",
+    count: 6,
+  },
+  {
     tag_id: 8318,
     name: "ridley township",
     count: 6,
   },
   {
-    tag_id: 8006,
-    name: "Eastern Passage",
+    tag_id: 8277,
+    name: "tallinn",
     count: 6,
   },
   {
-    tag_id: 8005,
-    name: "post-ambient",
+    tag_id: 8270,
+    name: "guided meditation",
+    count: 6,
+  },
+  {
+    tag_id: 8083,
+    name: "brazilian music",
+    count: 6,
+  },
+  {
+    tag_id: 8006,
+    name: "Eastern Passage",
     count: 6,
   },
   {
@@ -5915,11 +6560,6 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 6734,
-    name: "psychedelic pop",
-    count: 6,
-  },
-  {
     tag_id: 6514,
     name: "stepper",
     count: 6,
@@ -5930,18 +6570,23 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 6112,
-    name: "kosmiche musik",
-    count: 6,
-  },
-  {
     tag_id: 6084,
     name: "thrash",
     count: 6,
   },
   {
+    tag_id: 5981,
+    name: "soul hip hop",
+    count: 6,
+  },
+  {
     tag_id: 5780,
     name: "mr sterile",
+    count: 6,
+  },
+  {
+    tag_id: 5663,
+    name: "skweee",
     count: 6,
   },
   {
@@ -5965,6 +6610,11 @@ const tags = [
     count: 6,
   },
   {
+    tag_id: 5436,
+    name: "playful",
+    count: 6,
+  },
+  {
     tag_id: 5264,
     name: "g chunk",
     count: 6,
@@ -5980,8 +6630,8 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 5022,
-    name: "yoga",
+    tag_id: 5050,
+    name: "70s",
     count: 6,
   },
   {
@@ -5990,8 +6640,18 @@ const tags = [
     count: 6,
   },
   {
+    tag_id: 4729,
+    name: "library",
+    count: 6,
+  },
+  {
     tag_id: 4684,
     name: "post hardcore",
+    count: 6,
+  },
+  {
+    tag_id: 4637,
+    name: "house remix",
     count: 6,
   },
   {
@@ -6005,13 +6665,38 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 4106,
-    name: "free improv",
+    tag_id: 4456,
+    name: "anarchopunk",
+    count: 6,
+  },
+  {
+    tag_id: 4399,
+    name: "rework",
     count: 6,
   },
   {
     tag_id: 4042,
     name: "prog house",
+    count: 6,
+  },
+  {
+    tag_id: 3860,
+    name: "dystopian",
+    count: 6,
+  },
+  {
+    tag_id: 3782,
+    name: "pansori",
+    count: 6,
+  },
+  {
+    tag_id: 3781,
+    name: "opera",
+    count: 6,
+  },
+  {
+    tag_id: 3737,
+    name: "party",
     count: 6,
   },
   {
@@ -6025,8 +6710,13 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 3630,
-    name: "triphop",
+    tag_id: 3526,
+    name: "portland",
+    count: 6,
+  },
+  {
+    tag_id: 3523,
+    name: "dark wave",
     count: 6,
   },
   {
@@ -6040,11 +6730,6 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 3351,
-    name: "vocals",
-    count: 6,
-  },
-  {
     tag_id: 3303,
     name: "5th wave emo",
     count: 6,
@@ -6055,8 +6740,8 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 3254,
-    name: "poetry and music",
+    tag_id: 3263,
+    name: "saxophone",
     count: 6,
   },
   {
@@ -6075,13 +6760,8 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 3086,
-    name: "contemplative",
-    count: 6,
-  },
-  {
-    tag_id: 3072,
-    name: "Honolulu",
+    tag_id: 3037,
+    name: "sex",
     count: 6,
   },
   {
@@ -6130,23 +6810,38 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 2729,
-    name: "riddim",
+    tag_id: 2691,
+    name: "study",
     count: 6,
   },
   {
-    tag_id: 2596,
-    name: "andino",
+    tag_id: 2687,
+    name: "coronavirus",
+    count: 6,
+  },
+  {
+    tag_id: 2682,
+    name: "covid19",
+    count: 6,
+  },
+  {
+    tag_id: 2621,
+    name: "sample packs",
+    count: 6,
+  },
+  {
+    tag_id: 2597,
+    name: "owlbass",
+    count: 6,
+  },
+  {
+    tag_id: 2550,
+    name: "athens",
     count: 6,
   },
   {
     tag_id: 2549,
     name: "glitch pop",
-    count: 6,
-  },
-  {
-    tag_id: 2547,
-    name: "Palatine",
     count: 6,
   },
   {
@@ -6160,23 +6855,23 @@ const tags = [
     count: 6,
   },
   {
+    tag_id: 2462,
+    name: "Willenhall",
+    count: 6,
+  },
+  {
     tag_id: 2436,
     name: "oi!",
     count: 6,
   },
   {
-    tag_id: 2376,
-    name: "mod",
+    tag_id: 2383,
+    name: "e.b.m",
     count: 6,
   },
   {
     tag_id: 2357,
     name: "Antwerp",
-    count: 6,
-  },
-  {
-    tag_id: 2134,
-    name: "bells",
     count: 6,
   },
   {
@@ -6195,13 +6890,18 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 1984,
-    name: "melancholy",
+    tag_id: 1970,
+    name: "jazz punk",
     count: 6,
   },
   {
-    tag_id: 1970,
-    name: "jazz punk",
+    tag_id: 1959,
+    name: "textures",
+    count: 6,
+  },
+  {
+    tag_id: 1856,
+    name: "industrial drone",
     count: 6,
   },
   {
@@ -6215,18 +6915,18 @@ const tags = [
     count: 6,
   },
   {
+    tag_id: 1780,
+    name: "traditional",
+    count: 6,
+  },
+  {
     tag_id: 1776,
     name: "midtempo",
     count: 6,
   },
   {
-    tag_id: 1764,
-    name: "fourth world",
-    count: 6,
-  },
-  {
-    tag_id: 1736,
-    name: "cello",
+    tag_id: 1744,
+    name: "violin",
     count: 6,
   },
   {
@@ -6237,21 +6937,6 @@ const tags = [
   {
     tag_id: 1730,
     name: "thelema",
-    count: 6,
-  },
-  {
-    tag_id: 1726,
-    name: "world garage",
-    count: 6,
-  },
-  {
-    tag_id: 1724,
-    name: "anacortes",
-    count: 6,
-  },
-  {
-    tag_id: 1723,
-    name: "alternative world",
     count: 6,
   },
   {
@@ -6275,18 +6960,13 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 1699,
-    name: "found sound",
-    count: 6,
-  },
-  {
     tag_id: 1668,
     name: "americana",
     count: 6,
   },
   {
-    tag_id: 1635,
-    name: "Connecticut",
+    tag_id: 1611,
+    name: "atonal",
     count: 6,
   },
   {
@@ -6315,8 +6995,13 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 1514,
-    name: "alternative pop",
+    tag_id: 1522,
+    name: "balearic",
+    count: 6,
+  },
+  {
+    tag_id: 1481,
+    name: "computer music",
     count: 6,
   },
   {
@@ -6335,28 +7020,28 @@ const tags = [
     count: 6,
   },
   {
+    tag_id: 1347,
+    name: "instrumental rock",
+    count: 6,
+  },
+  {
     tag_id: 1271,
     name: "ambient pop",
     count: 6,
   },
   {
-    tag_id: 1233,
-    name: "rock & roll",
-    count: 6,
-  },
-  {
-    tag_id: 1202,
-    name: "oldschool",
-    count: 6,
-  },
-  {
-    tag_id: 1152,
-    name: "beattape",
+    tag_id: 1221,
+    name: "Adelaide",
     count: 6,
   },
   {
     tag_id: 1125,
     name: "mellow",
+    count: 6,
+  },
+  {
+    tag_id: 1109,
+    name: "solo",
     count: 6,
   },
   {
@@ -6377,6 +7062,21 @@ const tags = [
   {
     tag_id: 889,
     name: "batida",
+    count: 6,
+  },
+  {
+    tag_id: 886,
+    name: "dj tools",
+    count: 6,
+  },
+  {
+    tag_id: 864,
+    name: "arabic",
+    count: 6,
+  },
+  {
+    tag_id: 814,
+    name: "Stockholm",
     count: 6,
   },
   {
@@ -6410,11 +7110,6 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 739,
-    name: "nu-jazz",
-    count: 6,
-  },
-  {
     tag_id: 692,
     name: "140bpm",
     count: 6,
@@ -6430,8 +7125,18 @@ const tags = [
     count: 6,
   },
   {
+    tag_id: 607,
+    name: "trap metal",
+    count: 6,
+  },
+  {
     tag_id: 597,
     name: "memes",
+    count: 6,
+  },
+  {
+    tag_id: 590,
+    name: "french",
     count: 6,
   },
   {
@@ -6450,11 +7155,6 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 350,
-    name: "Colorado",
-    count: 6,
-  },
-  {
     tag_id: 317,
     name: "nerd",
     count: 6,
@@ -6470,11 +7170,6 @@ const tags = [
     count: 6,
   },
   {
-    tag_id: 252,
-    name: "forest",
-    count: 6,
-  },
-  {
     tag_id: 191,
     name: "other",
     count: 6,
@@ -6485,23 +7180,28 @@ const tags = [
     count: 6,
   },
   {
+    tag_id: 49,
+    name: "psych pop",
+    count: 6,
+  },
+  {
+    tag_id: 19,
+    name: "elevator music",
+    count: 6,
+  },
+  {
     tag_id: 10,
     name: "kraut wave",
     count: 6,
   },
   {
-    tag_id: 8277,
-    name: "tallinn",
+    tag_id: 8982,
+    name: "deformatory",
     count: 5,
   },
   {
-    tag_id: 8270,
-    name: "guided meditation",
-    count: 5,
-  },
-  {
-    tag_id: 8216,
-    name: "brooklyn",
+    tag_id: 8952,
+    name: "Merida",
     count: 5,
   },
   {
@@ -6527,6 +7227,16 @@ const tags = [
   {
     tag_id: 7630,
     name: "monte maíz",
+    count: 5,
+  },
+  {
+    tag_id: 7501,
+    name: "chanson",
+    count: 5,
+  },
+  {
+    tag_id: 7456,
+    name: "psychedlic",
     count: 5,
   },
   {
@@ -6575,6 +7285,11 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 6156,
+    name: "scary",
+    count: 5,
+  },
+  {
     tag_id: 6139,
     name: "space quest",
     count: 5,
@@ -6582,6 +7297,16 @@ const tags = [
   {
     tag_id: 6081,
     name: "yogyakarta",
+    count: 5,
+  },
+  {
+    tag_id: 6061,
+    name: "dark drone",
+    count: 5,
+  },
+  {
+    tag_id: 6060,
+    name: "dark ambient drone",
     count: 5,
   },
   {
@@ -6600,8 +7325,13 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 5663,
-    name: "skweee",
+    tag_id: 5715,
+    name: "60s",
+    count: 5,
+  },
+  {
+    tag_id: 5664,
+    name: "Breda",
     count: 5,
   },
   {
@@ -6665,6 +7395,11 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 4770,
+    name: "black-metal",
+    count: 5,
+  },
+  {
     tag_id: 4738,
     name: "experimental ambient",
     count: 5,
@@ -6675,18 +7410,13 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 4637,
-    name: "house remix",
-    count: 5,
-  },
-  {
-    tag_id: 4456,
-    name: "anarchopunk",
-    count: 5,
-  },
-  {
     tag_id: 4434,
     name: "1980s",
+    count: 5,
+  },
+  {
+    tag_id: 4316,
+    name: "philly",
     count: 5,
   },
   {
@@ -6715,13 +7445,13 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 4089,
-    name: "deathgrind",
+    tag_id: 4066,
+    name: "computergaze",
     count: 5,
   },
   {
-    tag_id: 4066,
-    name: "computergaze",
+    tag_id: 3949,
+    name: "accordion",
     count: 5,
   },
   {
@@ -6730,8 +7460,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 3860,
-    name: "dystopian",
+    tag_id: 3899,
+    name: "reverb",
     count: 5,
   },
   {
@@ -6740,23 +7470,28 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 3839,
+    name: "love songs",
+    count: 5,
+  },
+  {
+    tag_id: 3818,
+    name: "light",
+    count: 5,
+  },
+  {
     tag_id: 3814,
     name: "depressive",
     count: 5,
   },
   {
-    tag_id: 3783,
-    name: "k-pop",
+    tag_id: 3797,
+    name: "funky house",
     count: 5,
   },
   {
     tag_id: 3738,
     name: "ramonescore",
-    count: 5,
-  },
-  {
-    tag_id: 3737,
-    name: "party",
     count: 5,
   },
   {
@@ -6780,18 +7515,13 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 3588,
+    name: "Cleveland",
+    count: 5,
+  },
+  {
     tag_id: 3560,
     name: "eletronic",
-    count: 5,
-  },
-  {
-    tag_id: 3526,
-    name: "portland",
-    count: 5,
-  },
-  {
-    tag_id: 3523,
-    name: "dark wave",
     count: 5,
   },
   {
@@ -6807,6 +7537,11 @@ const tags = [
   {
     tag_id: 3479,
     name: "Switzerland",
+    count: 5,
+  },
+  {
+    tag_id: 3365,
+    name: "single",
     count: 5,
   },
   {
@@ -6860,13 +7595,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 3107,
-    name: "world bass",
-    count: 5,
-  },
-  {
-    tag_id: 3105,
-    name: "organic",
+    tag_id: 3154,
+    name: "samba",
     count: 5,
   },
   {
@@ -6885,13 +7615,23 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 3056,
-    name: "dj-tools",
+    tag_id: 3082,
+    name: "solo piano music",
     count: 5,
   },
   {
-    tag_id: 3037,
-    name: "sex",
+    tag_id: 3077,
+    name: "new music",
+    count: 5,
+  },
+  {
+    tag_id: 3068,
+    name: "salsa",
+    count: 5,
+  },
+  {
+    tag_id: 3056,
+    name: "dj-tools",
     count: 5,
   },
   {
@@ -6905,13 +7645,13 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 2883,
-    name: "Odesa",
+    tag_id: 2959,
+    name: "sentimental",
     count: 5,
   },
   {
-    tag_id: 2882,
-    name: "ravecore",
+    tag_id: 2891,
+    name: "dark techno",
     count: 5,
   },
   {
@@ -6920,13 +7660,23 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 2859,
+    name: "horror soundtrack",
+    count: 5,
+  },
+  {
     tag_id: 2832,
     name: "modular synthesizer",
     count: 5,
   },
   {
-    tag_id: 2824,
-    name: "montreal",
+    tag_id: 2768,
+    name: "ethno",
+    count: 5,
+  },
+  {
+    tag_id: 2761,
+    name: "indiepop",
     count: 5,
   },
   {
@@ -6945,13 +7695,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 2682,
-    name: "covid19",
-    count: 5,
-  },
-  {
-    tag_id: 2597,
-    name: "owlbass",
+    tag_id: 2685,
+    name: "musique concrète",
     count: 5,
   },
   {
@@ -6965,8 +7710,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 2550,
-    name: "athens",
+    tag_id: 2580,
+    name: "podcast",
     count: 5,
   },
   {
@@ -6980,8 +7725,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 2458,
-    name: "ep",
+    tag_id: 2463,
+    name: "gospel",
     count: 5,
   },
   {
@@ -6995,8 +7740,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 2383,
-    name: "e.b.m",
+    tag_id: 2406,
+    name: "split",
     count: 5,
   },
   {
@@ -7020,18 +7765,23 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 2335,
+    name: "blend",
+    count: 5,
+  },
+  {
     tag_id: 2309,
     name: "global club music",
     count: 5,
   },
   {
-    tag_id: 2300,
-    name: "neo-soul",
+    tag_id: 2297,
+    name: "silent hill",
     count: 5,
   },
   {
-    tag_id: 2297,
-    name: "silent hill",
+    tag_id: 2296,
+    name: "melancholic",
     count: 5,
   },
   {
@@ -7050,23 +7800,13 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 2087,
-    name: "dark drones",
-    count: 5,
-  },
-  {
     tag_id: 2059,
     name: "water sounds",
     count: 5,
   },
   {
-    tag_id: 2026,
-    name: "dreamy",
-    count: 5,
-  },
-  {
-    tag_id: 1959,
-    name: "textures",
+    tag_id: 2031,
+    name: "heavy psych",
     count: 5,
   },
   {
@@ -7077,11 +7817,6 @@ const tags = [
   {
     tag_id: 1878,
     name: "vapordrone",
-    count: 5,
-  },
-  {
-    tag_id: 1856,
-    name: "industrial drone",
     count: 5,
   },
   {
@@ -7120,8 +7855,13 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 1780,
-    name: "traditional",
+    tag_id: 1792,
+    name: "r'n'b",
+    count: 5,
+  },
+  {
+    tag_id: 1777,
+    name: "ethnic",
     count: 5,
   },
   {
@@ -7165,6 +7905,11 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 1619,
+    name: "diy pop",
+    count: 5,
+  },
+  {
     tag_id: 1571,
     name: "gutter cvnt",
     count: 5,
@@ -7177,6 +7922,11 @@ const tags = [
   {
     tag_id: 1542,
     name: "cousin silas",
+    count: 5,
+  },
+  {
+    tag_id: 1526,
+    name: "dreams",
     count: 5,
   },
   {
@@ -7200,8 +7950,18 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 1481,
-    name: "computer music",
+    tag_id: 1499,
+    name: "goatrance",
+    count: 5,
+  },
+  {
+    tag_id: 1498,
+    name: "psychedelic trance",
+    count: 5,
+  },
+  {
+    tag_id: 1467,
+    name: "death doom",
     count: 5,
   },
   {
@@ -7250,31 +8010,6 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 1347,
-    name: "instrumental rock",
-    count: 5,
-  },
-  {
-    tag_id: 1341,
-    name: "Eugene",
-    count: 5,
-  },
-  {
-    tag_id: 1331,
-    name: "Chișinău",
-    count: 5,
-  },
-  {
-    tag_id: 1328,
-    name: "magic flowers",
-    count: 5,
-  },
-  {
-    tag_id: 1326,
-    name: "club tools",
-    count: 5,
-  },
-  {
     tag_id: 1285,
     name: "ghettotech",
     count: 5,
@@ -7282,6 +8017,21 @@ const tags = [
   {
     tag_id: 1280,
     name: "breakbeat hardcore",
+    count: 5,
+  },
+  {
+    tag_id: 1258,
+    name: "art rap",
+    count: 5,
+  },
+  {
+    tag_id: 1252,
+    name: "lyrical",
+    count: 5,
+  },
+  {
+    tag_id: 1248,
+    name: "collab",
     count: 5,
   },
   {
@@ -7295,8 +8045,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 1221,
-    name: "Adelaide",
+    tag_id: 1193,
+    name: "orchestra",
     count: 5,
   },
   {
@@ -7305,23 +8055,13 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 1143,
-    name: "jazz rock",
-    count: 5,
-  },
-  {
-    tag_id: 1117,
-    name: "hiphop rap",
-    count: 5,
-  },
-  {
     tag_id: 1116,
     name: "experimental hiphop",
     count: 5,
   },
   {
-    tag_id: 1109,
-    name: "solo",
+    tag_id: 1055,
+    name: "introspective",
     count: 5,
   },
   {
@@ -7345,6 +8085,11 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 1018,
+    name: "fastcore",
+    count: 5,
+  },
+  {
     tag_id: 962,
     name: "liminal wave",
     count: 5,
@@ -7357,11 +8102,6 @@ const tags = [
   {
     tag_id: 907,
     name: "ukfunky",
-    count: 5,
-  },
-  {
-    tag_id: 886,
-    name: "dj tools",
     count: 5,
   },
   {
@@ -7380,6 +8120,11 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 859,
+    name: "electonic",
+    count: 5,
+  },
+  {
     tag_id: 844,
     name: "jam",
     count: 5,
@@ -7392,11 +8137,6 @@ const tags = [
   {
     tag_id: 815,
     name: "commodore 64",
-    count: 5,
-  },
-  {
-    tag_id: 814,
-    name: "Stockholm",
     count: 5,
   },
   {
@@ -7455,18 +8195,8 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 618,
-    name: "Jakarta",
-    count: 5,
-  },
-  {
-    tag_id: 607,
-    name: "trap metal",
-    count: 5,
-  },
-  {
-    tag_id: 590,
-    name: "french",
+    tag_id: 603,
+    name: "rabm",
     count: 5,
   },
   {
@@ -7520,6 +8250,11 @@ const tags = [
     count: 5,
   },
   {
+    tag_id: 110,
+    name: "industrial techno",
+    count: 5,
+  },
+  {
     tag_id: 67,
     name: "timeless indie dance music",
     count: 5,
@@ -7545,19 +8280,69 @@ const tags = [
     count: 5,
   },
   {
-    tag_id: 49,
-    name: "psych pop",
-    count: 5,
-  },
-  {
     tag_id: 40,
     name: "film score",
     count: 5,
   },
   {
-    tag_id: 19,
-    name: "elevator music",
-    count: 5,
+    tag_id: 9170,
+    name: "zeon light",
+    count: 4,
+  },
+  {
+    tag_id: 9106,
+    name: "songs",
+    count: 4,
+  },
+  {
+    tag_id: 9041,
+    name: "cheerful",
+    count: 4,
+  },
+  {
+    tag_id: 9028,
+    name: "corporate",
+    count: 4,
+  },
+  {
+    tag_id: 8980,
+    name: "canadian death metal",
+    count: 4,
+  },
+  {
+    tag_id: 8820,
+    name: "arbee",
+    count: 4,
+  },
+  {
+    tag_id: 8780,
+    name: "straßenmusik",
+    count: 4,
+  },
+  {
+    tag_id: 8747,
+    name: "bars",
+    count: 4,
+  },
+  {
+    tag_id: 8744,
+    name: "latin lofi",
+    count: 4,
+  },
+  {
+    tag_id: 8640,
+    name: "space bass",
+    count: 4,
+  },
+  {
+    tag_id: 8531,
+    name: "sibling",
+    count: 4,
+  },
+  {
+    tag_id: 8529,
+    name: "croon rock",
+    count: 4,
   },
   {
     tag_id: 8445,
@@ -7580,6 +8365,11 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 8084,
+    name: "fuzz pop",
+    count: 4,
+  },
+  {
     tag_id: 8065,
     name: "weirdo diy",
     count: 4,
@@ -7590,18 +8380,28 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 8032,
+    name: "the polish ambassador",
+    count: 4,
+  },
+  {
+    tag_id: 7641,
+    name: "soundcollage",
+    count: 4,
+  },
+  {
     tag_id: 7565,
     name: "sillycore",
     count: 4,
   },
   {
-    tag_id: 7471,
-    name: "fingerstyle",
+    tag_id: 7522,
+    name: "electric guitar",
     count: 4,
   },
   {
-    tag_id: 7456,
-    name: "psychedlic",
+    tag_id: 7471,
+    name: "fingerstyle",
     count: 4,
   },
   {
@@ -7612,6 +8412,11 @@ const tags = [
   {
     tag_id: 7319,
     name: "whitenoise",
+    count: 4,
+  },
+  {
+    tag_id: 7219,
+    name: "covid 19",
     count: 4,
   },
   {
@@ -7685,6 +8490,11 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 6447,
+    name: "kaytranada",
+    count: 4,
+  },
+  {
     tag_id: 6434,
     name: "stlndrms",
     count: 4,
@@ -7700,8 +8510,18 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 6156,
-    name: "scary",
+    tag_id: 6265,
+    name: "middle eastern",
+    count: 4,
+  },
+  {
+    tag_id: 6180,
+    name: "sexy",
+    count: 4,
+  },
+  {
+    tag_id: 6104,
+    name: "psychedelic black metal",
     count: 4,
   },
   {
@@ -7710,13 +8530,38 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 6060,
-    name: "dark ambient drone",
+    tag_id: 6083,
+    name: "power violence",
+    count: 4,
+  },
+  {
+    tag_id: 6067,
+    name: "occult",
+    count: 4,
+  },
+  {
+    tag_id: 6058,
+    name: "dark drone ambient",
+    count: 4,
+  },
+  {
+    tag_id: 6051,
+    name: "acoustic ambient",
     count: 4,
   },
   {
     tag_id: 6015,
     name: "copyright free",
+    count: 4,
+  },
+  {
+    tag_id: 5882,
+    name: "nerdcore hip-hop",
+    count: 4,
+  },
+  {
+    tag_id: 5881,
+    name: "cringecore",
     count: 4,
   },
   {
@@ -7742,11 +8587,6 @@ const tags = [
   {
     tag_id: 5704,
     name: "surrealism",
-    count: 4,
-  },
-  {
-    tag_id: 5664,
-    name: "Breda",
     count: 4,
   },
   {
@@ -7785,6 +8625,11 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 5330,
+    name: "horror synth",
+    count: 4,
+  },
+  {
     tag_id: 5286,
     name: "bay area",
     count: 4,
@@ -7805,13 +8650,13 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 5050,
-    name: "70s",
+    tag_id: 5031,
+    name: "casio",
     count: 4,
   },
   {
-    tag_id: 5031,
-    name: "casio",
+    tag_id: 5025,
+    name: "ritual ambient",
     count: 4,
   },
   {
@@ -7825,8 +8670,18 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 5007,
+    name: "romantic",
+    count: 4,
+  },
+  {
     tag_id: 5004,
     name: "autumn",
+    count: 4,
+  },
+  {
+    tag_id: 4999,
+    name: "jangle",
     count: 4,
   },
   {
@@ -7835,8 +8690,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 4963,
-    name: "african",
+    tag_id: 4966,
+    name: "prince",
     count: 4,
   },
   {
@@ -7847,6 +8702,11 @@ const tags = [
   {
     tag_id: 4936,
     name: "naafi",
+    count: 4,
+  },
+  {
+    tag_id: 4895,
+    name: "wonky",
     count: 4,
   },
   {
@@ -7885,6 +8745,11 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 4708,
+    name: "mlp",
+    count: 4,
+  },
+  {
     tag_id: 4704,
     name: "raggacore",
     count: 4,
@@ -7905,8 +8770,23 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 4551,
+    name: "appalachian",
+    count: 4,
+  },
+  {
     tag_id: 4522,
     name: "radio",
+    count: 4,
+  },
+  {
+    tag_id: 4520,
+    name: "lveum",
+    count: 4,
+  },
+  {
+    tag_id: 4511,
+    name: "90's",
     count: 4,
   },
   {
@@ -7930,8 +8810,18 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 4244,
+    name: "hope",
+    count: 4,
+  },
+  {
     tag_id: 4203,
     name: "soulhop",
+    count: 4,
+  },
+  {
+    tag_id: 4187,
+    name: "math",
     count: 4,
   },
   {
@@ -7980,11 +8870,6 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 3949,
-    name: "accordion",
-    count: 4,
-  },
-  {
     tag_id: 3947,
     name: "blackened screamo",
     count: 4,
@@ -7992,6 +8877,11 @@ const tags = [
   {
     tag_id: 3934,
     name: "Perugia",
+    count: 4,
+  },
+  {
+    tag_id: 3914,
+    name: "instrumental metal",
     count: 4,
   },
   {
@@ -8010,23 +8900,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 3899,
-    name: "reverb",
-    count: 4,
-  },
-  {
     tag_id: 3854,
     name: "psych folk",
-    count: 4,
-  },
-  {
-    tag_id: 3839,
-    name: "love songs",
-    count: 4,
-  },
-  {
-    tag_id: 3818,
-    name: "light",
     count: 4,
   },
   {
@@ -8035,8 +8910,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 3797,
-    name: "funky house",
+    tag_id: 3788,
+    name: "indie hip hop",
     count: 4,
   },
   {
@@ -8055,11 +8930,6 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 3634,
-    name: "Iowa",
-    count: 4,
-  },
-  {
     tag_id: 3631,
     name: "officewave",
     count: 4,
@@ -8070,28 +8940,18 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 3605,
-    name: "4-track",
-    count: 4,
-  },
-  {
-    tag_id: 3588,
-    name: "Cleveland",
-    count: 4,
-  },
-  {
     tag_id: 3579,
     name: "emotional",
     count: 4,
   },
   {
-    tag_id: 3475,
-    name: "stratford ct.",
+    tag_id: 3575,
+    name: "sound poetry",
     count: 4,
   },
   {
-    tag_id: 3463,
-    name: "São Paulo",
+    tag_id: 3475,
+    name: "stratford ct.",
     count: 4,
   },
   {
@@ -8102,6 +8962,11 @@ const tags = [
   {
     tag_id: 3424,
     name: "zx spectrum",
+    count: 4,
+  },
+  {
+    tag_id: 3402,
+    name: "prepared piano",
     count: 4,
   },
   {
@@ -8140,6 +9005,11 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 3280,
+    name: "drum n' bass",
+    count: 4,
+  },
+  {
     tag_id: 3275,
     name: "monofonicos",
     count: 4,
@@ -8150,13 +9020,13 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 3263,
-    name: "saxophone",
+    tag_id: 3242,
+    name: "late night",
     count: 4,
   },
   {
-    tag_id: 3242,
-    name: "late night",
+    tag_id: 3163,
+    name: "dbeat",
     count: 4,
   },
   {
@@ -8165,13 +9035,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 3077,
-    name: "new music",
-    count: 4,
-  },
-  {
-    tag_id: 3068,
-    name: "salsa",
+    tag_id: 3069,
+    name: "drumless",
     count: 4,
   },
   {
@@ -8190,11 +9055,6 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 2891,
-    name: "dark techno",
-    count: 4,
-  },
-  {
     tag_id: 2874,
     name: "giallo",
     count: 4,
@@ -8210,8 +9070,13 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 2761,
-    name: "indiepop",
+    tag_id: 2783,
+    name: "dark pop",
+    count: 4,
+  },
+  {
+    tag_id: 2777,
+    name: "conscious rap",
     count: 4,
   },
   {
@@ -8230,23 +9095,18 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 2691,
-    name: "study",
-    count: 4,
-  },
-  {
-    tag_id: 2687,
-    name: "coronavirus",
-    count: 4,
-  },
-  {
-    tag_id: 2685,
-    name: "musique concrète",
+    tag_id: 2703,
+    name: "fear",
     count: 4,
   },
   {
     tag_id: 2643,
     name: "vietnam",
+    count: 4,
+  },
+  {
+    tag_id: 2640,
+    name: "library music",
     count: 4,
   },
   {
@@ -8257,11 +9117,6 @@ const tags = [
   {
     tag_id: 2585,
     name: "j-pop",
-    count: 4,
-  },
-  {
-    tag_id: 2580,
-    name: "podcast",
     count: 4,
   },
   {
@@ -8280,28 +9135,28 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 2524,
+    name: "minimal wave",
+    count: 4,
+  },
+  {
+    tag_id: 2511,
+    name: "avant-garde rock",
+    count: 4,
+  },
+  {
     tag_id: 2506,
     name: "earthbound",
     count: 4,
   },
   {
+    tag_id: 2502,
+    name: "Dallas",
+    count: 4,
+  },
+  {
     tag_id: 2498,
     name: "quiet",
-    count: 4,
-  },
-  {
-    tag_id: 2491,
-    name: "ambient music",
-    count: 4,
-  },
-  {
-    tag_id: 2463,
-    name: "gospel",
-    count: 4,
-  },
-  {
-    tag_id: 2459,
-    name: "hip_hop",
     count: 4,
   },
   {
@@ -8320,28 +9175,13 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 2385,
-    name: "album",
-    count: 4,
-  },
-  {
-    tag_id: 2380,
-    name: "korean",
-    count: 4,
-  },
-  {
     tag_id: 2343,
     name: "re-work",
     count: 4,
   },
   {
-    tag_id: 2335,
-    name: "blend",
-    count: 4,
-  },
-  {
-    tag_id: 2296,
-    name: "melancholic",
+    tag_id: 2315,
+    name: "kendrick lamar",
     count: 4,
   },
   {
@@ -8435,18 +9275,13 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 2031,
-    name: "heavy psych",
+    tag_id: 2020,
+    name: "minimal synth",
     count: 4,
   },
   {
     tag_id: 2007,
     name: "japanese disco",
-    count: 4,
-  },
-  {
-    tag_id: 1996,
-    name: "producer",
     count: 4,
   },
   {
@@ -8457,11 +9292,6 @@ const tags = [
   {
     tag_id: 1937,
     name: "modern classic",
-    count: 4,
-  },
-  {
-    tag_id: 1921,
-    name: "percussion",
     count: 4,
   },
   {
@@ -8500,13 +9330,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 1818,
-    name: "production",
-    count: 4,
-  },
-  {
-    tag_id: 1805,
-    name: "happy",
+    tag_id: 1871,
+    name: "organ",
     count: 4,
   },
   {
@@ -8520,8 +9345,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 1777,
-    name: "ethnic",
+    tag_id: 1775,
+    name: "lush",
     count: 4,
   },
   {
@@ -8540,33 +9365,18 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 1744,
-    name: "violin",
-    count: 4,
-  },
-  {
     tag_id: 1703,
     name: "aphex twin",
     count: 4,
   },
   {
+    tag_id: 1649,
+    name: "percussive",
+    count: 4,
+  },
+  {
     tag_id: 1631,
     name: "yuri",
-    count: 4,
-  },
-  {
-    tag_id: 1619,
-    name: "diy pop",
-    count: 4,
-  },
-  {
-    tag_id: 1614,
-    name: "technical death metal",
-    count: 4,
-  },
-  {
-    tag_id: 1611,
-    name: "atonal",
     count: 4,
   },
   {
@@ -8585,23 +9395,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 1526,
-    name: "dreams",
-    count: 4,
-  },
-  {
     tag_id: 1517,
     name: "top40",
-    count: 4,
-  },
-  {
-    tag_id: 1499,
-    name: "goatrance",
-    count: 4,
-  },
-  {
-    tag_id: 1467,
-    name: "death doom",
     count: 4,
   },
   {
@@ -8645,6 +9440,11 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 1370,
+    name: "drone doom",
+    count: 4,
+  },
+  {
     tag_id: 1336,
     name: "pittsburgh",
     count: 4,
@@ -8660,13 +9460,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 1258,
-    name: "art rap",
-    count: 4,
-  },
-  {
-    tag_id: 1253,
-    name: "underground rap",
+    tag_id: 1259,
+    name: "otherground",
     count: 4,
   },
   {
@@ -8675,18 +9470,13 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 1248,
-    name: "collab",
+    tag_id: 1230,
+    name: "pony music",
     count: 4,
   },
   {
     tag_id: 1204,
     name: "Chiang Mai",
-    count: 4,
-  },
-  {
-    tag_id: 1193,
-    name: "orchestra",
     count: 4,
   },
   {
@@ -8745,11 +9535,6 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 1055,
-    name: "introspective",
-    count: 4,
-  },
-  {
     tag_id: 1052,
     name: "Gijón",
     count: 4,
@@ -8757,11 +9542,6 @@ const tags = [
   {
     tag_id: 1028,
     name: "harcore punk",
-    count: 4,
-  },
-  {
-    tag_id: 1018,
-    name: "fastcore",
     count: 4,
   },
   {
@@ -8800,18 +9580,8 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 864,
-    name: "arabic",
-    count: 4,
-  },
-  {
     tag_id: 863,
     name: "arab",
-    count: 4,
-  },
-  {
-    tag_id: 859,
-    name: "electonic",
     count: 4,
   },
   {
@@ -8822,6 +9592,16 @@ const tags = [
   {
     tag_id: 850,
     name: "glitch-hop",
+    count: 4,
+  },
+  {
+    tag_id: 810,
+    name: "microtonal",
+    count: 4,
+  },
+  {
+    tag_id: 803,
+    name: "donk",
     count: 4,
   },
   {
@@ -8875,11 +9655,6 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 603,
-    name: "rabm",
-    count: 4,
-  },
-  {
     tag_id: 587,
     name: "st john's",
     count: 4,
@@ -8902,6 +9677,16 @@ const tags = [
   {
     tag_id: 519,
     name: "the open circle",
+    count: 4,
+  },
+  {
+    tag_id: 509,
+    name: "psy",
+    count: 4,
+  },
+  {
+    tag_id: 508,
+    name: "goa trance",
     count: 4,
   },
   {
@@ -8960,6 +9745,11 @@ const tags = [
     count: 4,
   },
   {
+    tag_id: 218,
+    name: "guitar solo",
+    count: 4,
+  },
+  {
     tag_id: 206,
     name: "heavy",
     count: 4,
@@ -8970,9 +9760,99 @@ const tags = [
     count: 4,
   },
   {
-    tag_id: 110,
-    name: "industrial techno",
+    tag_id: 157,
+    name: "ballad",
     count: 4,
+  },
+  {
+    tag_id: 15,
+    name: "boards of canada",
+    count: 4,
+  },
+  {
+    tag_id: 9167,
+    name: "most valuable players",
+    count: 3,
+  },
+  {
+    tag_id: 9094,
+    name: "teesside",
+    count: 3,
+  },
+  {
+    tag_id: 8977,
+    name: "old school death metal",
+    count: 3,
+  },
+  {
+    tag_id: 8880,
+    name: "Sligo",
+    count: 3,
+  },
+  {
+    tag_id: 8836,
+    name: "world beat",
+    count: 3,
+  },
+  {
+    tag_id: 8835,
+    name: "ethiopian jazz",
+    count: 3,
+  },
+  {
+    tag_id: 8781,
+    name: "kleinkunstpunk",
+    count: 3,
+  },
+  {
+    tag_id: 8779,
+    name: "rak",
+    count: 3,
+  },
+  {
+    tag_id: 8764,
+    name: "new york hip hop",
+    count: 3,
+  },
+  {
+    tag_id: 8763,
+    name: "jazzrap",
+    count: 3,
+  },
+  {
+    tag_id: 8759,
+    name: "independent hip-hop",
+    count: 3,
+  },
+  {
+    tag_id: 8748,
+    name: "dope",
+    count: 3,
+  },
+  {
+    tag_id: 8737,
+    name: "Brasília",
+    count: 3,
+  },
+  {
+    tag_id: 8612,
+    name: "Saint John",
+    count: 3,
+  },
+  {
+    tag_id: 8581,
+    name: "street soul",
+    count: 3,
+  },
+  {
+    tag_id: 8539,
+    name: "bruxelles",
+    count: 3,
+  },
+  {
+    tag_id: 8525,
+    name: "metall",
+    count: 3,
   },
   {
     tag_id: 8514,
@@ -8995,6 +9875,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 8396,
+    name: "keyboards",
+    count: 3,
+  },
+  {
     tag_id: 8392,
     name: "niagara",
     count: 3,
@@ -9010,6 +9895,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 8351,
+    name: "cleveland",
+    count: 3,
+  },
+  {
     tag_id: 8333,
     name: "lisergic",
     count: 3,
@@ -9017,6 +9907,11 @@ const tags = [
   {
     tag_id: 8312,
     name: "Grand Rapids",
+    count: 3,
+  },
+  {
+    tag_id: 8279,
+    name: "são paulo",
     count: 3,
   },
   {
@@ -9040,23 +9935,18 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 8162,
+    name: "india",
+    count: 3,
+  },
+  {
     tag_id: 8124,
     name: "arabic punk",
     count: 3,
   },
   {
-    tag_id: 8084,
-    name: "fuzz pop",
-    count: 3,
-  },
-  {
     tag_id: 8054,
     name: "dont trust the ruin",
-    count: 3,
-  },
-  {
-    tag_id: 8032,
-    name: "the polish ambassador",
     count: 3,
   },
   {
@@ -9160,11 +10050,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 7641,
-    name: "soundcollage",
-    count: 3,
-  },
-  {
     tag_id: 7631,
     name: "imaginary soundtrack",
     count: 3,
@@ -9175,8 +10060,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 7522,
-    name: "electric guitar",
+    tag_id: 7585,
+    name: "kraut",
     count: 3,
   },
   {
@@ -9185,8 +10070,18 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 7499,
+    name: "mallorca",
+    count: 3,
+  },
+  {
     tag_id: 7447,
     name: "akeedro",
+    count: 3,
+  },
+  {
+    tag_id: 7398,
+    name: "night",
     count: 3,
   },
   {
@@ -9222,6 +10117,11 @@ const tags = [
   {
     tag_id: 7187,
     name: "voicemail",
+    count: 3,
+  },
+  {
+    tag_id: 7084,
+    name: "nu soul",
     count: 3,
   },
   {
@@ -9277,6 +10177,11 @@ const tags = [
   {
     tag_id: 6968,
     name: "norwich, england",
+    count: 3,
+  },
+  {
+    tag_id: 6859,
+    name: "ambient folk",
     count: 3,
   },
   {
@@ -9345,11 +10250,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 6447,
-    name: "kaytranada",
-    count: 3,
-  },
-  {
     tag_id: 6435,
     name: "lo.fi",
     count: 3,
@@ -9380,8 +10280,18 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 6405,
+    name: "moog",
+    count: 3,
+  },
+  {
     tag_id: 6389,
     name: "dubtech",
+    count: 3,
+  },
+  {
+    tag_id: 6367,
+    name: "demo",
     count: 3,
   },
   {
@@ -9400,13 +10310,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 6265,
-    name: "middle eastern",
-    count: 3,
-  },
-  {
-    tag_id: 6180,
-    name: "sexy",
+    tag_id: 6276,
+    name: "winter synth",
     count: 3,
   },
   {
@@ -9430,16 +10335,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 6104,
-    name: "psychedelic black metal",
-    count: 3,
-  },
-  {
-    tag_id: 6083,
-    name: "power violence",
-    count: 3,
-  },
-  {
     tag_id: 6078,
     name: "Poway",
     count: 3,
@@ -9450,18 +10345,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 6067,
-    name: "occult",
-    count: 3,
-  },
-  {
-    tag_id: 6061,
-    name: "dark drone",
-    count: 3,
-  },
-  {
     tag_id: 6059,
     name: "dark ambience",
+    count: 3,
+  },
+  {
+    tag_id: 6049,
+    name: "transcendent",
     count: 3,
   },
   {
@@ -9485,6 +10375,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 5993,
+    name: "headphone music",
+    count: 3,
+  },
+  {
     tag_id: 5963,
     name: "zona",
     count: 3,
@@ -9505,13 +10400,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 5882,
-    name: "nerdcore hip-hop",
-    count: 3,
-  },
-  {
-    tag_id: 5881,
-    name: "cringecore",
+    tag_id: 5894,
+    name: "narrative",
     count: 3,
   },
   {
@@ -9520,8 +10410,18 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 5856,
+    name: "sp1200",
+    count: 3,
+  },
+  {
     tag_id: 5817,
     name: "stephen cole",
+    count: 3,
+  },
+  {
+    tag_id: 5814,
+    name: "the residents",
     count: 3,
   },
   {
@@ -9547,11 +10447,6 @@ const tags = [
   {
     tag_id: 5728,
     name: "chill beats",
-    count: 3,
-  },
-  {
-    tag_id: 5715,
-    name: "60s",
     count: 3,
   },
   {
@@ -9582,11 +10477,6 @@ const tags = [
   {
     tag_id: 5688,
     name: "kotichardcore",
-    count: 3,
-  },
-  {
-    tag_id: 5662,
-    name: "hard trance",
     count: 3,
   },
   {
@@ -9640,6 +10530,16 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 5402,
+    name: "mellotron",
+    count: 3,
+  },
+  {
+    tag_id: 5367,
+    name: "sound",
+    count: 3,
+  },
+  {
     tag_id: 5333,
     name: "vintage synths",
     count: 3,
@@ -9650,6 +10550,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 5303,
+    name: "oakland",
+    count: 3,
+  },
+  {
     tag_id: 5288,
     name: "mpc live",
     count: 3,
@@ -9657,6 +10562,11 @@ const tags = [
   {
     tag_id: 5287,
     name: "ddust",
+    count: 3,
+  },
+  {
+    tag_id: 5249,
+    name: "dungeonwave",
     count: 3,
   },
   {
@@ -9735,23 +10645,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 5025,
-    name: "ritual ambient",
-    count: 3,
-  },
-  {
     tag_id: 5021,
     name: "night music",
     count: 3,
   },
   {
-    tag_id: 4999,
-    name: "jangle",
-    count: 3,
-  },
-  {
-    tag_id: 4966,
-    name: "prince",
+    tag_id: 4979,
+    name: "trippy",
     count: 3,
   },
   {
@@ -9765,18 +10665,28 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 4912,
+    name: "texas",
+    count: 3,
+  },
+  {
     tag_id: 4908,
     name: "rawstyle",
     count: 3,
   },
   {
-    tag_id: 4895,
-    name: "wonky",
+    tag_id: 4880,
+    name: "distortion",
     count: 3,
   },
   {
-    tag_id: 4880,
-    name: "distortion",
+    tag_id: 4873,
+    name: "poland",
+    count: 3,
+  },
+  {
+    tag_id: 4871,
+    name: "distort",
     count: 3,
   },
   {
@@ -9800,6 +10710,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 4757,
+    name: "vaporwave 2",
+    count: 3,
+  },
+  {
     tag_id: 4732,
     name: "lsd",
     count: 3,
@@ -9810,18 +10725,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 4729,
-    name: "library",
-    count: 3,
-  },
-  {
     tag_id: 4719,
     name: "new jersey",
     count: 3,
   },
   {
-    tag_id: 4708,
-    name: "mlp",
+    tag_id: 4709,
+    name: "nerdcore rap",
     count: 3,
   },
   {
@@ -9840,8 +10750,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 4619,
-    name: "classic",
+    tag_id: 4623,
+    name: "african music",
+    count: 3,
+  },
+  {
+    tag_id: 4614,
+    name: "post-pop",
     count: 3,
   },
   {
@@ -9855,23 +10770,18 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 4551,
-    name: "appalachian",
-    count: 3,
-  },
-  {
     tag_id: 4535,
     name: "officesoft",
     count: 3,
   },
   {
-    tag_id: 4511,
-    name: "90's",
+    tag_id: 4508,
+    name: "seoul",
     count: 3,
   },
   {
-    tag_id: 4508,
-    name: "seoul",
+    tag_id: 4487,
+    name: "hiphop instrumental",
     count: 3,
   },
   {
@@ -9915,8 +10825,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 4399,
-    name: "rework",
+    tag_id: 4403,
+    name: "organic electronic",
     count: 3,
   },
   {
@@ -9935,18 +10845,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 4316,
-    name: "philly",
+    tag_id: 4293,
+    name: "dirty south",
     count: 3,
   },
   {
     tag_id: 4291,
     name: "citypop",
-    count: 3,
-  },
-  {
-    tag_id: 4244,
-    name: "hope",
     count: 3,
   },
   {
@@ -9957,11 +10862,6 @@ const tags = [
   {
     tag_id: 4215,
     name: "experimental black metal",
-    count: 3,
-  },
-  {
-    tag_id: 4187,
-    name: "math",
     count: 3,
   },
   {
@@ -10040,6 +10940,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 3886,
+    name: "harp",
+    count: 3,
+  },
+  {
     tag_id: 3884,
     name: "effect pedals",
     count: 3,
@@ -10065,23 +10970,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 3746,
-    name: "post genre",
-    count: 3,
-  },
-  {
-    tag_id: 3745,
-    name: "noizak",
-    count: 3,
-  },
-  {
-    tag_id: 3744,
-    name: "extreme classical",
-    count: 3,
-  },
-  {
     tag_id: 3731,
     name: "new orleans",
+    count: 3,
+  },
+  {
+    tag_id: 3700,
+    name: "comfy synth",
     count: 3,
   },
   {
@@ -10105,13 +11000,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 3606,
-    name: "messing around",
-    count: 3,
-  },
-  {
-    tag_id: 3575,
-    name: "sound poetry",
+    tag_id: 3613,
+    name: "afropunk",
     count: 3,
   },
   {
@@ -10125,8 +11015,18 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 3535,
+    name: "hypnotic",
+    count: 3,
+  },
+  {
     tag_id: 3529,
     name: "band",
+    count: 3,
+  },
+  {
+    tag_id: 3494,
+    name: "electronic ambient",
     count: 3,
   },
   {
@@ -10160,8 +11060,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 3402,
-    name: "prepared piano",
+    tag_id: 3405,
+    name: "mork borg",
     count: 3,
   },
   {
@@ -10190,11 +11090,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 3365,
-    name: "single",
-    count: 3,
-  },
-  {
     tag_id: 3344,
     name: "octatrack",
     count: 3,
@@ -10210,8 +11105,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 3280,
-    name: "drum n' bass",
+    tag_id: 3282,
+    name: "holiday music",
     count: 3,
   },
   {
@@ -10220,8 +11115,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 3163,
-    name: "dbeat",
+    tag_id: 3171,
+    name: "gumi",
     count: 3,
   },
   {
@@ -10235,8 +11130,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 3082,
-    name: "solo piano music",
+    tag_id: 3106,
+    name: "tribal bass",
+    count: 3,
+  },
+  {
+    tag_id: 3081,
+    name: "piano improvisation",
     count: 3,
   },
   {
@@ -10280,6 +11180,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 2995,
+    name: "glam",
+    count: 3,
+  },
+  {
     tag_id: 2982,
     name: "shitpost",
     count: 3,
@@ -10292,11 +11197,6 @@ const tags = [
   {
     tag_id: 2960,
     name: "shmup",
-    count: 3,
-  },
-  {
-    tag_id: 2959,
-    name: "sentimental",
     count: 3,
   },
   {
@@ -10335,18 +11235,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 2899,
-    name: "beach",
+    tag_id: 2888,
+    name: "science fiction",
     count: 3,
   },
   {
     tag_id: 2877,
     name: "old school rpg",
-    count: 3,
-  },
-  {
-    tag_id: 2859,
-    name: "horror soundtrack",
     count: 3,
   },
   {
@@ -10390,16 +11285,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 2783,
-    name: "dark pop",
-    count: 3,
-  },
-  {
-    tag_id: 2768,
-    name: "ethno",
-    count: 3,
-  },
-  {
     tag_id: 2757,
     name: "Venice",
     count: 3,
@@ -10425,11 +11310,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 2703,
-    name: "fear",
-    count: 3,
-  },
-  {
     tag_id: 2697,
     name: "barber breaks",
     count: 3,
@@ -10450,11 +11330,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 2640,
-    name: "library music",
-    count: 3,
-  },
-  {
     tag_id: 2635,
     name: "whooshes",
     count: 3,
@@ -10462,11 +11337,6 @@ const tags = [
   {
     tag_id: 2634,
     name: "whoosh",
-    count: 3,
-  },
-  {
-    tag_id: 2621,
-    name: "sample packs",
     count: 3,
   },
   {
@@ -10490,6 +11360,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 2546,
+    name: "synthgaze",
+    count: 3,
+  },
+  {
     tag_id: 2540,
     name: "undertale",
     count: 3,
@@ -10510,11 +11385,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 2524,
-    name: "minimal wave",
-    count: 3,
-  },
-  {
     tag_id: 2513,
     name: "imrpovised",
     count: 3,
@@ -10525,18 +11395,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 2511,
-    name: "avant-garde rock",
-    count: 3,
-  },
-  {
     tag_id: 2504,
     name: "ohio",
-    count: 3,
-  },
-  {
-    tag_id: 2502,
-    name: "Dallas",
     count: 3,
   },
   {
@@ -10575,6 +11435,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 2416,
+    name: "deathrock",
+    count: 3,
+  },
+  {
     tag_id: 2411,
     name: "queer punk",
     count: 3,
@@ -10595,11 +11460,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 2315,
-    name: "kendrick lamar",
-    count: 3,
-  },
-  {
     tag_id: 2295,
     name: "Volgograd",
     count: 3,
@@ -10612,6 +11472,11 @@ const tags = [
   {
     tag_id: 2242,
     name: "royalty-free sound effects",
+    count: 3,
+  },
+  {
+    tag_id: 2235,
+    name: "denver",
     count: 3,
   },
   {
@@ -10735,6 +11600,11 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 2017,
+    name: "illinois",
+    count: 3,
+  },
+  {
     tag_id: 2013,
     name: "vapor funk",
     count: 3,
@@ -10747,6 +11617,26 @@ const tags = [
   {
     tag_id: 1991,
     name: "Christchurch",
+    count: 3,
+  },
+  {
+    tag_id: 1983,
+    name: "indie rap",
+    count: 3,
+  },
+  {
+    tag_id: 1981,
+    name: "independent hip hop",
+    count: 3,
+  },
+  {
+    tag_id: 1980,
+    name: "experimentalhip-hop",
+    count: 3,
+  },
+  {
+    tag_id: 1978,
+    name: "bedroom rap",
     count: 3,
   },
   {
@@ -10790,11 +11680,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 1871,
-    name: "organ",
-    count: 3,
-  },
-  {
     tag_id: 1870,
     name: "neural synthesys",
     count: 3,
@@ -10802,6 +11687,11 @@ const tags = [
   {
     tag_id: 1865,
     name: "anthropocene",
+    count: 3,
+  },
+  {
+    tag_id: 1837,
+    name: "computer",
     count: 3,
   },
   {
@@ -10820,8 +11710,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 1792,
-    name: "r'n'b",
+    tag_id: 1797,
+    name: "commercial",
     count: 3,
   },
   {
@@ -10835,13 +11725,23 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 1775,
-    name: "lush",
+    tag_id: 1753,
+    name: "kawaii",
     count: 3,
   },
   {
     tag_id: 1748,
     name: "dreamcore",
+    count: 3,
+  },
+  {
+    tag_id: 1743,
+    name: "strings",
+    count: 3,
+  },
+  {
+    tag_id: 1738,
+    name: "double bass",
     count: 3,
   },
   {
@@ -10855,8 +11755,18 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 1711,
+    name: "strange",
+    count: 3,
+  },
+  {
     tag_id: 1688,
     name: "montage",
+    count: 3,
+  },
+  {
+    tag_id: 1683,
+    name: "psychadelic",
     count: 3,
   },
   {
@@ -10867,16 +11777,6 @@ const tags = [
   {
     tag_id: 1656,
     name: "minimal house",
-    count: 3,
-  },
-  {
-    tag_id: 1652,
-    name: "drum&bass",
-    count: 3,
-  },
-  {
-    tag_id: 1649,
-    name: "percussive",
     count: 3,
   },
   {
@@ -10905,13 +11805,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 1522,
-    name: "balearic",
+    tag_id: 1512,
+    name: "dj mashups",
     count: 3,
   },
   {
-    tag_id: 1512,
-    name: "dj mashups",
+    tag_id: 1510,
+    name: "Queens",
     count: 3,
   },
   {
@@ -10925,13 +11825,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 1498,
-    name: "psychedelic trance",
+    tag_id: 1490,
+    name: "toki-pona",
     count: 3,
   },
   {
-    tag_id: 1490,
-    name: "toki-pona",
+    tag_id: 1474,
+    name: "french pop",
     count: 3,
   },
   {
@@ -10950,13 +11850,13 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 1370,
-    name: "drone doom",
+    tag_id: 1343,
+    name: "freeform",
     count: 3,
   },
   {
-    tag_id: 1343,
-    name: "freeform",
+    tag_id: 1342,
+    name: "festival",
     count: 3,
   },
   {
@@ -11010,11 +11910,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 1259,
-    name: "otherground",
-    count: 3,
-  },
-  {
     tag_id: 1237,
     name: "mega man",
     count: 3,
@@ -11022,11 +11917,6 @@ const tags = [
   {
     tag_id: 1232,
     name: "parody",
-    count: 3,
-  },
-  {
-    tag_id: 1230,
-    name: "pony music",
     count: 3,
   },
   {
@@ -11165,8 +12055,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 810,
-    name: "microtonal",
+    tag_id: 811,
+    name: "xenharmonic",
     count: 3,
   },
   {
@@ -11175,8 +12065,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 803,
-    name: "donk",
+    tag_id: 776,
+    name: "black ambient",
     count: 3,
   },
   {
@@ -11235,8 +12125,18 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 604,
+    name: "anarchist black metal",
+    count: 3,
+  },
+  {
     tag_id: 600,
     name: "Tampere",
+    count: 3,
+  },
+  {
+    tag_id: 577,
+    name: "suicidal black metal",
     count: 3,
   },
   {
@@ -11260,8 +12160,8 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 509,
-    name: "psy",
+    tag_id: 505,
+    name: "psychillout",
     count: 3,
   },
   {
@@ -11320,11 +12220,6 @@ const tags = [
     count: 3,
   },
   {
-    tag_id: 218,
-    name: "guitar solo",
-    count: 3,
-  },
-  {
     tag_id: 204,
     name: "celtic",
     count: 3,
@@ -11332,11 +12227,6 @@ const tags = [
   {
     tag_id: 176,
     name: "cloud rap",
-    count: 3,
-  },
-  {
-    tag_id: 157,
-    name: "ballad",
     count: 3,
   },
   {
@@ -11350,9 +12240,304 @@ const tags = [
     count: 3,
   },
   {
+    tag_id: 74,
+    name: "dark ambient noise",
+    count: 3,
+  },
+  {
     tag_id: 55,
     name: "altr&b",
     count: 3,
+  },
+  {
+    tag_id: 9197,
+    name: "eluna",
+    count: 2,
+  },
+  {
+    tag_id: 9186,
+    name: "elin franzén",
+    count: 2,
+  },
+  {
+    tag_id: 9185,
+    name: "andreas tilliander",
+    count: 2,
+  },
+  {
+    tag_id: 9181,
+    name: "differnet",
+    count: 2,
+  },
+  {
+    tag_id: 9169,
+    name: "jens lekman",
+    count: 2,
+  },
+  {
+    tag_id: 9121,
+    name: "dave clarkson",
+    count: 2,
+  },
+  {
+    tag_id: 9113,
+    name: "richard sanderson",
+    count: 2,
+  },
+  {
+    tag_id: 9111,
+    name: "melodeon",
+    count: 2,
+  },
+  {
+    tag_id: 9103,
+    name: "steven ball",
+    count: 2,
+  },
+  {
+    tag_id: 9091,
+    name: "duncan chapman",
+    count: 2,
+  },
+  {
+    tag_id: 9078,
+    name: "dark ambient music",
+    count: 2,
+  },
+  {
+    tag_id: 9051,
+    name: "Derbyshire Dales District",
+    count: 2,
+  },
+  {
+    tag_id: 9047,
+    name: "female singer",
+    count: 2,
+  },
+  {
+    tag_id: 9046,
+    name: "derbyshire",
+    count: 2,
+  },
+  {
+    tag_id: 9045,
+    name: "contemporary art-folk",
+    count: 2,
+  },
+  {
+    tag_id: 9042,
+    name: "achievement",
+    count: 2,
+  },
+  {
+    tag_id: 9038,
+    name: "passionate",
+    count: 2,
+  },
+  {
+    tag_id: 9032,
+    name: "repetitive",
+    count: 2,
+  },
+  {
+    tag_id: 9031,
+    name: "mystical",
+    count: 2,
+  },
+  {
+    tag_id: 9029,
+    name: "easy",
+    count: 2,
+  },
+  {
+    tag_id: 9027,
+    name: "cheerful happy",
+    count: 2,
+  },
+  {
+    tag_id: 9026,
+    name: "searching",
+    count: 2,
+  },
+  {
+    tag_id: 8990,
+    name: "instrumental death metal",
+    count: 2,
+  },
+  {
+    tag_id: 8979,
+    name: "brutal technical death metal",
+    count: 2,
+  },
+  {
+    tag_id: 8976,
+    name: "neorave",
+    count: 2,
+  },
+  {
+    tag_id: 8965,
+    name: "stonerdoom",
+    count: 2,
+  },
+  {
+    tag_id: 8964,
+    name: "dungeons and dragons",
+    count: 2,
+  },
+  {
+    tag_id: 8960,
+    name: "neo trance",
+    count: 2,
+  },
+  {
+    tag_id: 8959,
+    name: "hardtrance",
+    count: 2,
+  },
+  {
+    tag_id: 8931,
+    name: "dark neoclassical",
+    count: 2,
+  },
+  {
+    tag_id: 8927,
+    name: "mystic ambient",
+    count: 2,
+  },
+  {
+    tag_id: 8899,
+    name: "teenage menopause",
+    count: 2,
+  },
+  {
+    tag_id: 8875,
+    name: "lowtide",
+    count: 2,
+  },
+  {
+    tag_id: 8866,
+    name: "old school house",
+    count: 2,
+  },
+  {
+    tag_id: 8837,
+    name: "instro",
+    count: 2,
+  },
+  {
+    tag_id: 8833,
+    name: "instrumental surf",
+    count: 2,
+  },
+  {
+    tag_id: 8821,
+    name: "helsinki",
+    count: 2,
+  },
+  {
+    tag_id: 8812,
+    name: "mantra",
+    count: 2,
+  },
+  {
+    tag_id: 8809,
+    name: "highlife",
+    count: 2,
+  },
+  {
+    tag_id: 8807,
+    name: "motorik",
+    count: 2,
+  },
+  {
+    tag_id: 8806,
+    name: "sixties pop",
+    count: 2,
+  },
+  {
+    tag_id: 8758,
+    name: "concious hip hop",
+    count: 2,
+  },
+  {
+    tag_id: 8757,
+    name: "lyricism",
+    count: 2,
+  },
+  {
+    tag_id: 8752,
+    name: "rav",
+    count: 2,
+  },
+  {
+    tag_id: 8746,
+    name: "boombaptist",
+    count: 2,
+  },
+  {
+    tag_id: 8702,
+    name: "filipino",
+    count: 2,
+  },
+  {
+    tag_id: 8701,
+    name: "Niagara Falls",
+    count: 2,
+  },
+  {
+    tag_id: 8666,
+    name: "lyrics",
+    count: 2,
+  },
+  {
+    tag_id: 8649,
+    name: "shift register",
+    count: 2,
+  },
+  {
+    tag_id: 8648,
+    name: "euclidean",
+    count: 2,
+  },
+  {
+    tag_id: 8629,
+    name: "ohwblend",
+    count: 2,
+  },
+  {
+    tag_id: 8624,
+    name: "earl sweatshirt",
+    count: 2,
+  },
+  {
+    tag_id: 8605,
+    name: "modern",
+    count: 2,
+  },
+  {
+    tag_id: 8595,
+    name: "jakarta",
+    count: 2,
+  },
+  {
+    tag_id: 8593,
+    name: "gamelan",
+    count: 2,
+  },
+  {
+    tag_id: 8587,
+    name: "conscious hip hop",
+    count: 2,
+  },
+  {
+    tag_id: 8546,
+    name: "indian redhead",
+    count: 2,
+  },
+  {
+    tag_id: 8535,
+    name: "accou",
+    count: 2,
   },
   {
     tag_id: 8520,
@@ -11362,6 +12547,11 @@ const tags = [
   {
     tag_id: 8519,
     name: "folk-rock",
+    count: 2,
+  },
+  {
+    tag_id: 8517,
+    name: "stoner doom",
     count: 2,
   },
   {
@@ -11377,6 +12567,11 @@ const tags = [
   {
     tag_id: 8482,
     name: "underlapper",
+    count: 2,
+  },
+  {
+    tag_id: 8481,
+    name: "black",
     count: 2,
   },
   {
@@ -11430,18 +12625,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 8396,
-    name: "keyboards",
-    count: 2,
-  },
-  {
     tag_id: 8379,
     name: "brisbane",
     count: 2,
   },
   {
-    tag_id: 8351,
-    name: "cleveland",
+    tag_id: 8354,
+    name: "dream punk",
     count: 2,
   },
   {
@@ -11457,6 +12647,11 @@ const tags = [
   {
     tag_id: 8242,
     name: "tapes",
+    count: 2,
+  },
+  {
+    tag_id: 8223,
+    name: "c86",
     count: 2,
   },
   {
@@ -11477,6 +12672,16 @@ const tags = [
   {
     tag_id: 8148,
     name: "advanced",
+    count: 2,
+  },
+  {
+    tag_id: 8145,
+    name: "trillwave",
+    count: 2,
+  },
+  {
+    tag_id: 8141,
+    name: "cyprus",
     count: 2,
   },
   {
@@ -11505,13 +12710,28 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 8120,
+    name: "space-rock",
+    count: 2,
+  },
+  {
     tag_id: 8109,
     name: "panda dub",
     count: 2,
   },
   {
-    tag_id: 8083,
-    name: "brazilian music",
+    tag_id: 8080,
+    name: "independent music",
+    count: 2,
+  },
+  {
+    tag_id: 8068,
+    name: "manchester",
+    count: 2,
+  },
+  {
+    tag_id: 8049,
+    name: "cheesy",
     count: 2,
   },
   {
@@ -11535,6 +12755,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 8036,
+    name: "worldbeat",
+    count: 2,
+  },
+  {
     tag_id: 8034,
     name: "jumpsuit records",
     count: 2,
@@ -11542,6 +12767,11 @@ const tags = [
   {
     tag_id: 8033,
     name: "saqi",
+    count: 2,
+  },
+  {
+    tag_id: 8026,
+    name: "acid jazz",
     count: 2,
   },
   {
@@ -11557,6 +12787,11 @@ const tags = [
   {
     tag_id: 8010,
     name: "halifax",
+    count: 2,
+  },
+  {
+    tag_id: 7981,
+    name: "moody",
     count: 2,
   },
   {
@@ -11582,6 +12817,11 @@ const tags = [
   {
     tag_id: 7936,
     name: "eno",
+    count: 2,
+  },
+  {
+    tag_id: 7930,
+    name: "jazz piano",
     count: 2,
   },
   {
@@ -11637,6 +12877,11 @@ const tags = [
   {
     tag_id: 7788,
     name: "spring",
+    count: 2,
+  },
+  {
+    tag_id: 7772,
+    name: "dark jazz",
     count: 2,
   },
   {
@@ -11705,13 +12950,18 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 7585,
-    name: "kraut",
+    tag_id: 7574,
+    name: "ghetto",
     count: 2,
   },
   {
     tag_id: 7567,
     name: "real trap music",
+    count: 2,
+  },
+  {
+    tag_id: 7556,
+    name: "haunting",
     count: 2,
   },
   {
@@ -11725,13 +12975,23 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 7499,
-    name: "mallorca",
+    tag_id: 7502,
+    name: "chansons",
+    count: 2,
+  },
+  {
+    tag_id: 7494,
+    name: "dark cabaret",
     count: 2,
   },
   {
     tag_id: 7479,
     name: "polyphony",
+    count: 2,
+  },
+  {
+    tag_id: 7463,
+    name: "positive",
     count: 2,
   },
   {
@@ -11742,6 +13002,11 @@ const tags = [
   {
     tag_id: 7440,
     name: "rca",
+    count: 2,
+  },
+  {
+    tag_id: 7439,
+    name: "dilla",
     count: 2,
   },
   {
@@ -11760,13 +13025,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 7398,
-    name: "night",
+    tag_id: 7397,
+    name: "00s",
     count: 2,
   },
   {
-    tag_id: 7397,
-    name: "00s",
+    tag_id: 7382,
+    name: "monteverdi",
     count: 2,
   },
   {
@@ -11785,8 +13050,18 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 7350,
+    name: "Buffalo",
+    count: 2,
+  },
+  {
     tag_id: 7347,
     name: "gaming",
+    count: 2,
+  },
+  {
+    tag_id: 7346,
+    name: "desert",
     count: 2,
   },
   {
@@ -11825,6 +13100,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 7291,
+    name: "mash-ups",
+    count: 2,
+  },
+  {
     tag_id: 7272,
     name: "voicemail community",
     count: 2,
@@ -11837,6 +13117,11 @@ const tags = [
   {
     tag_id: 7263,
     name: "different",
+    count: 2,
+  },
+  {
+    tag_id: 7258,
+    name: "batman",
     count: 2,
   },
   {
@@ -11857,11 +13142,6 @@ const tags = [
   {
     tag_id: 7220,
     name: "covid music",
-    count: 2,
-  },
-  {
-    tag_id: 7219,
-    name: "covid 19",
     count: 2,
   },
   {
@@ -11925,6 +13205,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 7135,
+    name: "dark hardcore",
+    count: 2,
+  },
+  {
     tag_id: 7134,
     name: "bandcampfriday",
     count: 2,
@@ -11940,8 +13225,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 7084,
-    name: "nu soul",
+    tag_id: 7103,
+    name: "records",
     count: 2,
   },
   {
@@ -11990,6 +13275,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 7021,
+    name: "version",
+    count: 2,
+  },
+  {
     tag_id: 7019,
     name: "austria",
     count: 2,
@@ -12035,6 +13325,16 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 6888,
+    name: "futurebeats",
+    count: 2,
+  },
+  {
+    tag_id: 6863,
+    name: "crooner",
+    count: 2,
+  },
+  {
     tag_id: 6862,
     name: "impro",
     count: 2,
@@ -12042,11 +13342,6 @@ const tags = [
   {
     tag_id: 6861,
     name: "post-minimalism",
-    count: 2,
-  },
-  {
-    tag_id: 6859,
-    name: "ambient folk",
     count: 2,
   },
   {
@@ -12220,11 +13515,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 6538,
-    name: "rocksteady",
-    count: 2,
-  },
-  {
     tag_id: 6521,
     name: "cannabis",
     count: 2,
@@ -12280,6 +13570,16 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 6469,
+    name: "podcasts",
+    count: 2,
+  },
+  {
+    tag_id: 6465,
+    name: "cheap",
+    count: 2,
+  },
+  {
     tag_id: 6463,
     name: "no copyright",
     count: 2,
@@ -12297,11 +13597,6 @@ const tags = [
   {
     tag_id: 6442,
     name: "rockandroll",
-    count: 2,
-  },
-  {
-    tag_id: 6405,
-    name: "moog",
     count: 2,
   },
   {
@@ -12375,11 +13670,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 6276,
-    name: "winter synth",
-    count: 2,
-  },
-  {
     tag_id: 6275,
     name: "ndsb",
     count: 2,
@@ -12390,8 +13680,18 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 6249,
+    name: "uk rap",
+    count: 2,
+  },
+  {
     tag_id: 6220,
     name: "elektron",
+    count: 2,
+  },
+  {
+    tag_id: 6218,
+    name: "marco polo",
     count: 2,
   },
   {
@@ -12402,6 +13702,11 @@ const tags = [
   {
     tag_id: 6199,
     name: "progressive chillout",
+    count: 2,
+  },
+  {
+    tag_id: 6184,
+    name: "upbeat",
     count: 2,
   },
   {
@@ -12450,6 +13755,21 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 6131,
+    name: "dirge punk",
+    count: 2,
+  },
+  {
+    tag_id: 6130,
+    name: "blackened hardcore",
+    count: 2,
+  },
+  {
+    tag_id: 6128,
+    name: "lo-fi black metal",
+    count: 2,
+  },
+  {
     tag_id: 6127,
     name: "improvised thrash",
     count: 2,
@@ -12495,8 +13815,18 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 6098,
+    name: "retarded",
+    count: 2,
+  },
+  {
     tag_id: 6088,
     name: "oi! streetpunk",
+    count: 2,
+  },
+  {
+    tag_id: 6079,
+    name: "skate punk",
     count: 2,
   },
   {
@@ -12510,8 +13840,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 6058,
-    name: "dark drone ambient",
+    tag_id: 6057,
+    name: "deep drone",
+    count: 2,
+  },
+  {
+    tag_id: 6055,
+    name: "industrial ambient",
     count: 2,
   },
   {
@@ -12522,11 +13857,6 @@ const tags = [
   {
     tag_id: 6052,
     name: "instrumental ambient",
-    count: 2,
-  },
-  {
-    tag_id: 6051,
-    name: "acoustic ambient",
     count: 2,
   },
   {
@@ -12547,6 +13877,16 @@ const tags = [
   {
     tag_id: 6031,
     name: "folk metal",
+    count: 2,
+  },
+  {
+    tag_id: 6026,
+    name: "english",
+    count: 2,
+  },
+  {
+    tag_id: 6025,
+    name: "ragtime",
     count: 2,
   },
   {
@@ -12575,23 +13915,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 5994,
-    name: "reflective",
-    count: 2,
-  },
-  {
-    tag_id: 5993,
-    name: "headphone music",
-    count: 2,
-  },
-  {
     tag_id: 5982,
     name: "afrofuturism",
-    count: 2,
-  },
-  {
-    tag_id: 5981,
-    name: "soul hip hop",
     count: 2,
   },
   {
@@ -12660,11 +13985,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 5894,
-    name: "narrative",
-    count: 2,
-  },
-  {
     tag_id: 5893,
     name: "acapella",
     count: 2,
@@ -12695,11 +14015,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 5856,
-    name: "sp1200",
-    count: 2,
-  },
-  {
     tag_id: 5855,
     name: "boom bapadelic",
     count: 2,
@@ -12717,11 +14032,6 @@ const tags = [
   {
     tag_id: 5815,
     name: "vorn",
-    count: 2,
-  },
-  {
-    tag_id: 5814,
-    name: "the residents",
     count: 2,
   },
   {
@@ -12820,6 +14130,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 5671,
+    name: "berkeley",
+    count: 2,
+  },
+  {
     tag_id: 5647,
     name: "chrono trigger",
     count: 2,
@@ -12835,6 +14150,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 5621,
+    name: "madlib",
+    count: 2,
+  },
+  {
     tag_id: 5620,
     name: "Little Rock",
     count: 2,
@@ -12842,6 +14162,11 @@ const tags = [
   {
     tag_id: 5616,
     name: "dance-punk",
+    count: 2,
+  },
+  {
+    tag_id: 5610,
+    name: "free punk",
     count: 2,
   },
   {
@@ -12895,6 +14220,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 5558,
+    name: "chernobyl",
+    count: 2,
+  },
+  {
     tag_id: 5552,
     name: "deep minimal",
     count: 2,
@@ -12917,6 +14247,11 @@ const tags = [
   {
     tag_id: 5541,
     name: "lofi house music",
+    count: 2,
+  },
+  {
+    tag_id: 5534,
+    name: "variété",
     count: 2,
   },
   {
@@ -12947,6 +14282,11 @@ const tags = [
   {
     tag_id: 5501,
     name: "La Plata",
+    count: 2,
+  },
+  {
+    tag_id: 5491,
+    name: "suspense",
     count: 2,
   },
   {
@@ -12985,11 +14325,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 5436,
-    name: "playful",
-    count: 2,
-  },
-  {
     tag_id: 5435,
     name: "game ost",
     count: 2,
@@ -13015,8 +14350,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 5402,
-    name: "mellotron",
+    tag_id: 5404,
+    name: "harmonium",
     count: 2,
   },
   {
@@ -13037,11 +14372,6 @@ const tags = [
   {
     tag_id: 5376,
     name: "hauntological",
-    count: 2,
-  },
-  {
-    tag_id: 5367,
-    name: "sound",
     count: 2,
   },
   {
@@ -13082,11 +14412,6 @@ const tags = [
   {
     tag_id: 5310,
     name: "drum",
-    count: 2,
-  },
-  {
-    tag_id: 5303,
-    name: "oakland",
     count: 2,
   },
   {
@@ -13132,6 +14457,11 @@ const tags = [
   {
     tag_id: 5263,
     name: "purple vibe",
+    count: 2,
+  },
+  {
+    tag_id: 5223,
+    name: "old",
     count: 2,
   },
   {
@@ -13210,6 +14540,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 5081,
+    name: "toys",
+    count: 2,
+  },
+  {
     tag_id: 5074,
     name: "disasterpeace",
     count: 2,
@@ -13255,6 +14590,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 5032,
+    name: "sp404sx",
+    count: 2,
+  },
+  {
     tag_id: 5026,
     name: "ghosts",
     count: 2,
@@ -13270,11 +14610,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 5007,
-    name: "romantic",
-    count: 2,
-  },
-  {
     tag_id: 5006,
     name: "seasonal",
     count: 2,
@@ -13287,11 +14622,6 @@ const tags = [
   {
     tag_id: 4985,
     name: "inside",
-    count: 2,
-  },
-  {
-    tag_id: 4979,
-    name: "trippy",
     count: 2,
   },
   {
@@ -13330,13 +14660,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4912,
-    name: "texas",
+    tag_id: 4902,
+    name: "yacht rock",
     count: 2,
   },
   {
-    tag_id: 4902,
-    name: "yacht rock",
+    tag_id: 4900,
+    name: "jazz funk",
     count: 2,
   },
   {
@@ -13355,13 +14685,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4873,
-    name: "poland",
-    count: 2,
-  },
-  {
-    tag_id: 4871,
-    name: "distort",
+    tag_id: 4864,
+    name: "rhythm & blues",
     count: 2,
   },
   {
@@ -13390,13 +14715,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4760,
-    name: "walkman",
+    tag_id: 4767,
+    name: "beat music",
     count: 2,
   },
   {
-    tag_id: 4757,
-    name: "vaporwave 2",
+    tag_id: 4760,
+    name: "walkman",
     count: 2,
   },
   {
@@ -13425,8 +14750,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4709,
-    name: "nerdcore rap",
+    tag_id: 4710,
+    name: "brony music",
     count: 2,
   },
   {
@@ -13457,6 +14782,11 @@ const tags = [
   {
     tag_id: 4678,
     name: "reading",
+    count: 2,
+  },
+  {
+    tag_id: 4672,
+    name: "nijmegen",
     count: 2,
   },
   {
@@ -13495,23 +14825,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4641,
-    name: "Orléans",
-    count: 2,
-  },
-  {
     tag_id: 4629,
     name: "scum",
-    count: 2,
-  },
-  {
-    tag_id: 4623,
-    name: "african music",
-    count: 2,
-  },
-  {
-    tag_id: 4614,
-    name: "post-pop",
     count: 2,
   },
   {
@@ -13527,6 +14842,11 @@ const tags = [
   {
     tag_id: 4581,
     name: "exploratory",
+    count: 2,
+  },
+  {
+    tag_id: 4576,
+    name: "blackened punk",
     count: 2,
   },
   {
@@ -13560,11 +14880,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4520,
-    name: "lveum",
-    count: 2,
-  },
-  {
     tag_id: 4507,
     name: "nightlife",
     count: 2,
@@ -13575,8 +14890,18 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4487,
-    name: "hiphop instrumental",
+    tag_id: 4479,
+    name: "Sheffield",
+    count: 2,
+  },
+  {
+    tag_id: 4476,
+    name: "riot folk",
+    count: 2,
+  },
+  {
+    tag_id: 4461,
+    name: "emotional hardcore",
     count: 2,
   },
   {
@@ -13635,11 +14960,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4403,
-    name: "organic electronic",
-    count: 2,
-  },
-  {
     tag_id: 4394,
     name: "suomisoundi",
     count: 2,
@@ -13670,6 +14990,16 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 4317,
+    name: "sapppp",
+    count: 2,
+  },
+  {
+    tag_id: 4315,
+    name: "fuzzzzz",
+    count: 2,
+  },
+  {
     tag_id: 4313,
     name: "viola",
     count: 2,
@@ -13690,8 +15020,18 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 4279,
+    name: "urban dungeon",
+    count: 2,
+  },
+  {
     tag_id: 4274,
     name: "greek punk",
+    count: 2,
+  },
+  {
+    tag_id: 4272,
+    name: "uk82",
     count: 2,
   },
   {
@@ -13720,6 +15060,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 4189,
+    name: "song",
+    count: 2,
+  },
+  {
     tag_id: 4185,
     name: "Den Haag",
     count: 2,
@@ -13742,6 +15087,11 @@ const tags = [
   {
     tag_id: 4161,
     name: "urban ambience",
+    count: 2,
+  },
+  {
+    tag_id: 4157,
+    name: "tranquil",
     count: 2,
   },
   {
@@ -13780,6 +15130,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 4110,
+    name: "teenage engineering",
+    count: 2,
+  },
+  {
     tag_id: 4090,
     name: "dissonant",
     count: 2,
@@ -13805,13 +15160,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 4068,
-    name: "vaporlounge",
+    tag_id: 4069,
+    name: "synthwave & darksynth",
     count: 2,
   },
   {
-    tag_id: 4067,
-    name: "art",
+    tag_id: 4068,
+    name: "vaporlounge",
     count: 2,
   },
   {
@@ -13930,13 +15285,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 3892,
-    name: "religion",
+    tag_id: 3894,
+    name: "metallic hardcore",
     count: 2,
   },
   {
-    tag_id: 3886,
-    name: "harp",
+    tag_id: 3892,
+    name: "religion",
     count: 2,
   },
   {
@@ -14005,23 +15360,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 3788,
-    name: "indie hip hop",
-    count: 2,
-  },
-  {
     tag_id: 3786,
     name: "the barbershop chronicles",
-    count: 2,
-  },
-  {
-    tag_id: 3782,
-    name: "pansori",
-    count: 2,
-  },
-  {
-    tag_id: 3781,
-    name: "opera",
     count: 2,
   },
   {
@@ -14050,6 +15390,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 3743,
+    name: "dungeon drone",
+    count: 2,
+  },
+  {
     tag_id: 3723,
     name: "dance & edm",
     count: 2,
@@ -14057,6 +15402,11 @@ const tags = [
   {
     tag_id: 3721,
     name: "female rap",
+    count: 2,
+  },
+  {
+    tag_id: 3713,
+    name: "samplepack",
     count: 2,
   },
   {
@@ -14072,11 +15422,6 @@ const tags = [
   {
     tag_id: 3701,
     name: "nature synth",
-    count: 2,
-  },
-  {
-    tag_id: 3700,
-    name: "comfy synth",
     count: 2,
   },
   {
@@ -14170,18 +15515,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 3535,
-    name: "hypnotic",
-    count: 2,
-  },
-  {
     tag_id: 3533,
     name: "anachronism",
-    count: 2,
-  },
-  {
-    tag_id: 3494,
-    name: "electronic ambient",
     count: 2,
   },
   {
@@ -14215,6 +15550,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 3458,
+    name: "Tampa",
+    count: 2,
+  },
+  {
     tag_id: 3457,
     name: "trash rock",
     count: 2,
@@ -14227,6 +15567,11 @@ const tags = [
   {
     tag_id: 3443,
     name: "broworkk",
+    count: 2,
+  },
+  {
+    tag_id: 3440,
+    name: "stems",
     count: 2,
   },
   {
@@ -14330,16 +15675,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 3283,
-    name: "shoegazer",
-    count: 2,
-  },
-  {
-    tag_id: 3282,
-    name: "holiday music",
-    count: 2,
-  },
-  {
     tag_id: 3270,
     name: "dsum",
     count: 2,
@@ -14420,11 +15755,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 3171,
-    name: "gumi",
-    count: 2,
-  },
-  {
     tag_id: 3166,
     name: "free folk",
     count: 2,
@@ -14432,11 +15762,6 @@ const tags = [
   {
     tag_id: 3160,
     name: "a coruña",
-    count: 2,
-  },
-  {
-    tag_id: 3154,
-    name: "samba",
     count: 2,
   },
   {
@@ -14480,11 +15805,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 3103,
-    name: "world fusion",
-    count: 2,
-  },
-  {
     tag_id: 3090,
     name: "d&b",
     count: 2,
@@ -14500,13 +15820,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 3081,
-    name: "piano improvisation",
+    tag_id: 3059,
+    name: "bogota",
     count: 2,
   },
   {
-    tag_id: 3059,
-    name: "bogota",
+    tag_id: 3052,
+    name: "club remixes",
     count: 2,
   },
   {
@@ -14542,11 +15862,6 @@ const tags = [
   {
     tag_id: 2996,
     name: "traditonal",
-    count: 2,
-  },
-  {
-    tag_id: 2995,
-    name: "glam",
     count: 2,
   },
   {
@@ -14605,13 +15920,23 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 2890,
-    name: "Oslo",
+    tag_id: 2895,
+    name: "Detroit",
     count: 2,
   },
   {
-    tag_id: 2888,
-    name: "science fiction",
+    tag_id: 2893,
+    name: "melodic synth",
+    count: 2,
+  },
+  {
+    tag_id: 2892,
+    name: "eurorack modular",
+    count: 2,
+  },
+  {
+    tag_id: 2890,
+    name: "Oslo",
     count: 2,
   },
   {
@@ -14730,6 +16055,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 2726,
+    name: "ost music",
+    count: 2,
+  },
+  {
     tag_id: 2717,
     name: "hi-energy",
     count: 2,
@@ -14820,13 +16150,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 2546,
-    name: "synthgaze",
+    tag_id: 2542,
+    name: "miku",
     count: 2,
   },
   {
-    tag_id: 2542,
-    name: "miku",
+    tag_id: 2537,
+    name: "Fresno",
     count: 2,
   },
   {
@@ -14837,6 +16167,11 @@ const tags = [
   {
     tag_id: 2530,
     name: "ecology",
+    count: 2,
+  },
+  {
+    tag_id: 2526,
+    name: "pos-punk",
     count: 2,
   },
   {
@@ -14865,13 +16200,18 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 2462,
-    name: "Willenhall",
+    tag_id: 2457,
+    name: "caycaleb",
     count: 2,
   },
   {
     tag_id: 2453,
     name: "kusoikore",
+    count: 2,
+  },
+  {
+    tag_id: 2447,
+    name: "indietronica",
     count: 2,
   },
   {
@@ -14915,11 +16255,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 2406,
-    name: "split",
-    count: 2,
-  },
-  {
     tag_id: 2399,
     name: "deutschpunk",
     count: 2,
@@ -14932,6 +16267,11 @@ const tags = [
   {
     tag_id: 2388,
     name: "madvillain",
+    count: 2,
+  },
+  {
+    tag_id: 2387,
+    name: "mf doom",
     count: 2,
   },
   {
@@ -15065,8 +16405,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 2235,
-    name: "denver",
+    tag_id: 2234,
+    name: "colorado",
     count: 2,
   },
   {
@@ -15200,6 +16540,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 2111,
+    name: "woman",
+    count: 2,
+  },
+  {
     tag_id: 2081,
     name: "people sounds",
     count: 2,
@@ -15230,18 +16575,13 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 2020,
-    name: "minimal synth",
+    tag_id: 2037,
+    name: "70s rock",
     count: 2,
   },
   {
     tag_id: 2019,
     name: "11th dimension pop",
-    count: 2,
-  },
-  {
-    tag_id: 2017,
-    name: "illinois",
     count: 2,
   },
   {
@@ -15350,11 +16690,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 1837,
-    name: "computer",
-    count: 2,
-  },
-  {
     tag_id: 1836,
     name: "code",
     count: 2,
@@ -15410,23 +16745,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 1753,
-    name: "kawaii",
-    count: 2,
-  },
-  {
     tag_id: 1747,
     name: "dream-pop",
-    count: 2,
-  },
-  {
-    tag_id: 1743,
-    name: "strings",
-    count: 2,
-  },
-  {
-    tag_id: 1738,
-    name: "double bass",
     count: 2,
   },
   {
@@ -15445,23 +16765,23 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 1711,
-    name: "strange",
-    count: 2,
-  },
-  {
     tag_id: 1704,
     name: "aphextwin",
     count: 2,
   },
   {
-    tag_id: 1683,
-    name: "psychadelic",
+    tag_id: 1682,
+    name: "gypsy",
     count: 2,
   },
   {
     tag_id: 1679,
     name: "spacey",
+    count: 2,
+  },
+  {
+    tag_id: 1672,
+    name: "western",
     count: 2,
   },
   {
@@ -15472,11 +16792,6 @@ const tags = [
   {
     tag_id: 1638,
     name: "Cardiff",
-    count: 2,
-  },
-  {
-    tag_id: 1633,
-    name: "alternative hip-hop",
     count: 2,
   },
   {
@@ -15520,11 +16835,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 1510,
-    name: "Queens",
-    count: 2,
-  },
-  {
     tag_id: 1491,
     name: "jazztronic",
     count: 2,
@@ -15535,11 +16845,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 1474,
-    name: "french pop",
-    count: 2,
-  },
-  {
     tag_id: 1469,
     name: "sludge doom",
     count: 2,
@@ -15547,6 +16852,11 @@ const tags = [
   {
     tag_id: 1457,
     name: "amateur",
+    count: 2,
+  },
+  {
+    tag_id: 1451,
+    name: "retro rock",
     count: 2,
   },
   {
@@ -15630,6 +16940,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 1362,
+    name: "texture",
+    count: 2,
+  },
+  {
     tag_id: 1359,
     name: "postmetal",
     count: 2,
@@ -15637,11 +16952,6 @@ const tags = [
   {
     tag_id: 1352,
     name: "bruitiste",
-    count: 2,
-  },
-  {
-    tag_id: 1342,
-    name: "festival",
     count: 2,
   },
   {
@@ -15855,6 +17165,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 944,
+    name: "hatsune miku",
+    count: 2,
+  },
+  {
     tag_id: 937,
     name: "drill",
     count: 2,
@@ -15877,16 +17192,6 @@ const tags = [
   {
     tag_id: 919,
     name: "tinashe",
-    count: 2,
-  },
-  {
-    tag_id: 915,
-    name: "trance.",
-    count: 2,
-  },
-  {
-    tag_id: 891,
-    name: "flip",
     count: 2,
   },
   {
@@ -15915,11 +17220,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 811,
-    name: "xenharmonic",
-    count: 2,
-  },
-  {
     tag_id: 806,
     name: "Greece",
     count: 2,
@@ -15932,11 +17232,6 @@ const tags = [
   {
     tag_id: 777,
     name: "deathdream",
-    count: 2,
-  },
-  {
-    tag_id: 776,
-    name: "black ambient",
     count: 2,
   },
   {
@@ -16000,11 +17295,6 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 604,
-    name: "anarchist black metal",
-    count: 2,
-  },
-  {
     tag_id: 596,
     name: "bastard pop",
     count: 2,
@@ -16017,11 +17307,6 @@ const tags = [
   {
     tag_id: 594,
     name: "soundclown",
-    count: 2,
-  },
-  {
-    tag_id: 577,
-    name: "suicidal black metal",
     count: 2,
   },
   {
@@ -16040,6 +17325,16 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 554,
+    name: "bach",
+    count: 2,
+  },
+  {
+    tag_id: 549,
+    name: "oboe",
+    count: 2,
+  },
+  {
     tag_id: 548,
     name: "animation",
     count: 2,
@@ -16050,18 +17345,8 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 508,
-    name: "goa trance",
-    count: 2,
-  },
-  {
     tag_id: 507,
     name: "goa",
-    count: 2,
-  },
-  {
-    tag_id: 489,
-    name: "psybass",
     count: 2,
   },
   {
@@ -16180,6 +17465,11 @@ const tags = [
     count: 2,
   },
   {
+    tag_id: 211,
+    name: "adventure",
+    count: 2,
+  },
+  {
     tag_id: 177,
     name: "drums and bass",
     count: 2,
@@ -16212,11 +17502,6 @@ const tags = [
   {
     tag_id: 79,
     name: "darksynthwave",
-    count: 2,
-  },
-  {
-    tag_id: 74,
-    name: "dark ambient noise",
     count: 2,
   },
   {
@@ -16255,14 +17540,2904 @@ const tags = [
     count: 2,
   },
   {
-    tag_id: 15,
-    name: "boards of canada",
-    count: 2,
-  },
-  {
     tag_id: 14,
     name: "lithuania",
     count: 2,
+  },
+  {
+    tag_id: 9221,
+    name: "sufi dub",
+    count: 1,
+  },
+  {
+    tag_id: 9220,
+    name: "arabxo",
+    count: 1,
+  },
+  {
+    tag_id: 9219,
+    name: "electroacoustic.",
+    count: 1,
+  },
+  {
+    tag_id: 9218,
+    name: "creole",
+    count: 1,
+  },
+  {
+    tag_id: 9217,
+    name: "indus",
+    count: 1,
+  },
+  {
+    tag_id: 9216,
+    name: "och",
+    count: 1,
+  },
+  {
+    tag_id: 9215,
+    name: "vardagstragedier",
+    count: 1,
+  },
+  {
+    tag_id: 9214,
+    name: "fantasier",
+    count: 1,
+  },
+  {
+    tag_id: 9213,
+    name: "sagor & swing",
+    count: 1,
+  },
+  {
+    tag_id: 9212,
+    name: "eric malmberg",
+    count: 1,
+  },
+  {
+    tag_id: 9211,
+    name: "pär thörn",
+    count: 1,
+  },
+  {
+    tag_id: 9210,
+    name: "martin küchen",
+    count: 1,
+  },
+  {
+    tag_id: 9209,
+    name: "pelle sten",
+    count: 1,
+  },
+  {
+    tag_id: 9208,
+    name: "henrik kihlberg",
+    count: 1,
+  },
+  {
+    tag_id: 9207,
+    name: "kurdish electronic meditation",
+    count: 1,
+  },
+  {
+    tag_id: 9206,
+    name: "marocko",
+    count: 1,
+  },
+  {
+    tag_id: 9205,
+    name: "sara johansson",
+    count: 1,
+  },
+  {
+    tag_id: 9204,
+    name: "trumma",
+    count: 1,
+  },
+  {
+    tag_id: 9203,
+    name: "skellefteå",
+    count: 1,
+  },
+  {
+    tag_id: 9202,
+    name: "saxofon",
+    count: 1,
+  },
+  {
+    tag_id: 9201,
+    name: "chicagojazzen",
+    count: 1,
+  },
+  {
+    tag_id: 9200,
+    name: "psykonautdisco",
+    count: 1,
+  },
+  {
+    tag_id: 9199,
+    name: "natten",
+    count: 1,
+  },
+  {
+    tag_id: 9198,
+    name: "sum comfort",
+    count: 1,
+  },
+  {
+    tag_id: 9196,
+    name: "zeon light kassett",
+    count: 1,
+  },
+  {
+    tag_id: 9195,
+    name: "testbild!",
+    count: 1,
+  },
+  {
+    tag_id: 9194,
+    name: "henrik möller",
+    count: 1,
+  },
+  {
+    tag_id: 9193,
+    name: "brooklyn, new york, usa",
+    count: 1,
+  },
+  {
+    tag_id: 9192,
+    name: "malmö",
+    count: 1,
+  },
+  {
+    tag_id: 9191,
+    name: "swedenborg",
+    count: 1,
+  },
+  {
+    tag_id: 9190,
+    name: "drömjournalen",
+    count: 1,
+  },
+  {
+    tag_id: 9189,
+    name: "jin botani",
+    count: 1,
+  },
+  {
+    tag_id: 9188,
+    name: "coldnose",
+    count: 1,
+  },
+  {
+    tag_id: 9187,
+    name: "slagg",
+    count: 1,
+  },
+  {
+    tag_id: 9184,
+    name: "ryd",
+    count: 1,
+  },
+  {
+    tag_id: 9183,
+    name: "blod",
+    count: 1,
+  },
+  {
+    tag_id: 9182,
+    name: "liminals",
+    count: 1,
+  },
+  {
+    tag_id: 9180,
+    name: "blandband",
+    count: 1,
+  },
+  {
+    tag_id: 9179,
+    name: "skymningslandet",
+    count: 1,
+  },
+  {
+    tag_id: 9178,
+    name: "skogar",
+    count: 1,
+  },
+  {
+    tag_id: 9177,
+    name: "gbg",
+    count: 1,
+  },
+  {
+    tag_id: 9176,
+    name: "alternative healing music",
+    count: 1,
+  },
+  {
+    tag_id: 9175,
+    name: "tentakel",
+    count: 1,
+  },
+  {
+    tag_id: 9174,
+    name: "göteborg",
+    count: 1,
+  },
+  {
+    tag_id: 9173,
+    name: "horrible houses",
+    count: 1,
+  },
+  {
+    tag_id: 9172,
+    name: "daniel johnsson",
+    count: 1,
+  },
+  {
+    tag_id: 9171,
+    name: "flowers must die",
+    count: 1,
+  },
+  {
+    tag_id: 9168,
+    name: "solo archivist",
+    count: 1,
+  },
+  {
+    tag_id: 9166,
+    name: "ekolali",
+    count: 1,
+  },
+  {
+    tag_id: 9165,
+    name: "kill bill: the rapper",
+    count: 1,
+  },
+  {
+    tag_id: 9164,
+    name: "ma",
+    count: 1,
+  },
+  {
+    tag_id: 9163,
+    name: "d.o.s.",
+    count: 1,
+  },
+  {
+    tag_id: 9162,
+    name: "crose",
+    count: 1,
+  },
+  {
+    tag_id: 9161,
+    name: "chops",
+    count: 1,
+  },
+  {
+    tag_id: 9160,
+    name: "rhymes",
+    count: 1,
+  },
+  {
+    tag_id: 9159,
+    name: "robin",
+    count: 1,
+  },
+  {
+    tag_id: 9158,
+    name: "maschine mikro",
+    count: 1,
+  },
+  {
+    tag_id: 9157,
+    name: "maschine",
+    count: 1,
+  },
+  {
+    tag_id: 9156,
+    name: "wu-tang",
+    count: 1,
+  },
+  {
+    tag_id: 9155,
+    name: "summer camp",
+    count: 1,
+  },
+  {
+    tag_id: 9154,
+    name: "jon?doe",
+    count: 1,
+  },
+  {
+    tag_id: 9153,
+    name: "chumzilla",
+    count: 1,
+  },
+  {
+    tag_id: 9152,
+    name: "memphis reigns",
+    count: 1,
+  },
+  {
+    tag_id: 9151,
+    name: "fort wayne",
+    count: 1,
+  },
+  {
+    tag_id: 9150,
+    name: "act 1",
+    count: 1,
+  },
+  {
+    tag_id: 9149,
+    name: "chakras",
+    count: 1,
+  },
+  {
+    tag_id: 9148,
+    name: "medicine",
+    count: 1,
+  },
+  {
+    tag_id: 9147,
+    name: "healing music",
+    count: 1,
+  },
+  {
+    tag_id: 9146,
+    name: "808s",
+    count: 1,
+  },
+  {
+    tag_id: 9143,
+    name: "st.petersburg",
+    count: 1,
+  },
+  {
+    tag_id: 9142,
+    name: "pure data",
+    count: 1,
+  },
+  {
+    tag_id: 9141,
+    name: "coastal",
+    count: 1,
+  },
+  {
+    tag_id: 9140,
+    name: "raxil4",
+    count: 1,
+  },
+  {
+    tag_id: 9139,
+    name: "andrew page",
+    count: 1,
+  },
+  {
+    tag_id: 9138,
+    name: "far rainbow",
+    count: 1,
+  },
+  {
+    tag_id: 9137,
+    name: "kamura obscura",
+    count: 1,
+  },
+  {
+    tag_id: 9136,
+    name: "sam fendrich",
+    count: 1,
+  },
+  {
+    tag_id: 9135,
+    name: "ben glas",
+    count: 1,
+  },
+  {
+    tag_id: 9134,
+    name: "hammond",
+    count: 1,
+  },
+  {
+    tag_id: 9133,
+    name: "jude cowan montague",
+    count: 1,
+  },
+  {
+    tag_id: 9132,
+    name: "stuart estell",
+    count: 1,
+  },
+  {
+    tag_id: 9131,
+    name: "grundik kasyansky",
+    count: 1,
+  },
+  {
+    tag_id: 9130,
+    name: "audiomulch",
+    count: 1,
+  },
+  {
+    tag_id: 9129,
+    name: "paula garcia stone",
+    count: 1,
+  },
+  {
+    tag_id: 9128,
+    name: "anthony osborne",
+    count: 1,
+  },
+  {
+    tag_id: 9127,
+    name: "sonic miniatures",
+    count: 1,
+  },
+  {
+    tag_id: 9126,
+    name: "pop tunes",
+    count: 1,
+  },
+  {
+    tag_id: 9125,
+    name: "lynchian",
+    count: 1,
+  },
+  {
+    tag_id: 9124,
+    name: "kassia flux",
+    count: 1,
+  },
+  {
+    tag_id: 9123,
+    name: "subterranea",
+    count: 1,
+  },
+  {
+    tag_id: 9122,
+    name: "caves",
+    count: 1,
+  },
+  {
+    tag_id: 9120,
+    name: "phil durrant",
+    count: 1,
+  },
+  {
+    tag_id: 9119,
+    name: "canary islands",
+    count: 1,
+  },
+  {
+    tag_id: 9118,
+    name: "viv corringham",
+    count: 1,
+  },
+  {
+    tag_id: 9117,
+    name: "komungo",
+    count: 1,
+  },
+  {
+    tag_id: 9116,
+    name: "guitar. multitrack",
+    count: 1,
+  },
+  {
+    tag_id: 9115,
+    name: "mark spybey",
+    count: 1,
+  },
+  {
+    tag_id: 9114,
+    name: "mark sanderson",
+    count: 1,
+  },
+  {
+    tag_id: 9112,
+    name: "non-idiomatic improvisation",
+    count: 1,
+  },
+  {
+    tag_id: 9110,
+    name: "acostic",
+    count: 1,
+  },
+  {
+    tag_id: 9109,
+    name: "psychoacoustics",
+    count: 1,
+  },
+  {
+    tag_id: 9108,
+    name: "field recrodings",
+    count: 1,
+  },
+  {
+    tag_id: 9107,
+    name: "eco-acoustics",
+    count: 1,
+  },
+  {
+    tag_id: 9105,
+    name: "lockdown",
+    count: 1,
+  },
+  {
+    tag_id: 9104,
+    name: "storm bugs",
+    count: 1,
+  },
+  {
+    tag_id: 9102,
+    name: "prepared guitar",
+    count: 1,
+  },
+  {
+    tag_id: 9101,
+    name: "charlotte law",
+    count: 1,
+  },
+  {
+    tag_id: 9100,
+    name: "remixing",
+    count: 1,
+  },
+  {
+    tag_id: 9099,
+    name: "matt atkins",
+    count: 1,
+  },
+  {
+    tag_id: 9098,
+    name: "ventilators",
+    count: 1,
+  },
+  {
+    tag_id: 9097,
+    name: "single series",
+    count: 1,
+  },
+  {
+    tag_id: 9096,
+    name: "chris whitehead",
+    count: 1,
+  },
+  {
+    tag_id: 9095,
+    name: "lou barnell",
+    count: 1,
+  },
+  {
+    tag_id: 9093,
+    name: "middlesbrough",
+    count: 1,
+  },
+  {
+    tag_id: 9092,
+    name: "machinery",
+    count: 1,
+  },
+  {
+    tag_id: 9090,
+    name: "analogue synthesis",
+    count: 1,
+  },
+  {
+    tag_id: 9089,
+    name: "m.a.k.t sono",
+    count: 1,
+  },
+  {
+    tag_id: 9088,
+    name: "steel",
+    count: 1,
+  },
+  {
+    tag_id: 9087,
+    name: "hackney",
+    count: 1,
+  },
+  {
+    tag_id: 9086,
+    name: "sound-poetry",
+    count: 1,
+  },
+  {
+    tag_id: 9084,
+    name: "dirch blewn",
+    count: 1,
+  },
+  {
+    tag_id: 9083,
+    name: "david bloor",
+    count: 1,
+  },
+  {
+    tag_id: 9082,
+    name: "weird folk",
+    count: 1,
+  },
+  {
+    tag_id: 9081,
+    name: "ambient film score",
+    count: 1,
+  },
+  {
+    tag_id: 9080,
+    name: "dronescape",
+    count: 1,
+  },
+  {
+    tag_id: 9079,
+    name: "ambient darkwave",
+    count: 1,
+  },
+  {
+    tag_id: 9077,
+    name: "standwithisrael",
+    count: 1,
+  },
+  {
+    tag_id: 9076,
+    name: "solo piano improvisation",
+    count: 1,
+  },
+  {
+    tag_id: 9075,
+    name: "piano music",
+    count: 1,
+  },
+  {
+    tag_id: 9074,
+    name: "jazz ambient",
+    count: 1,
+  },
+  {
+    tag_id: 9073,
+    name: "funeral jazz",
+    count: 1,
+  },
+  {
+    tag_id: 9072,
+    name: "ambient jazz",
+    count: 1,
+  },
+  {
+    tag_id: 9071,
+    name: "jazz ambience",
+    count: 1,
+  },
+  {
+    tag_id: 9070,
+    name: "new age music",
+    count: 1,
+  },
+  {
+    tag_id: 9069,
+    name: "intelligent electronic music",
+    count: 1,
+  },
+  {
+    tag_id: 9068,
+    name: "drum and bass (musical genre)",
+    count: 1,
+  },
+  {
+    tag_id: 9067,
+    name: "dnbmusic",
+    count: 1,
+  },
+  {
+    tag_id: 9066,
+    name: "jazz-folk",
+    count: 1,
+  },
+  {
+    tag_id: 9065,
+    name: "meditaton",
+    count: 1,
+  },
+  {
+    tag_id: 9064,
+    name: "poetry reading",
+    count: 1,
+  },
+  {
+    tag_id: 9063,
+    name: "dark folk metal",
+    count: 1,
+  },
+  {
+    tag_id: 9062,
+    name: "psycedelic",
+    count: 1,
+  },
+  {
+    tag_id: 9061,
+    name: "goabient",
+    count: 1,
+  },
+  {
+    tag_id: 9060,
+    name: "full-on psytrance",
+    count: 1,
+  },
+  {
+    tag_id: 9059,
+    name: "psytrance hi-tech",
+    count: 1,
+  },
+  {
+    tag_id: 9058,
+    name: "fullon trance",
+    count: 1,
+  },
+  {
+    tag_id: 9057,
+    name: "mr. nylson",
+    count: 1,
+  },
+  {
+    tag_id: 9056,
+    name: "achim funk",
+    count: 1,
+  },
+  {
+    tag_id: 9055,
+    name: "liberating",
+    count: 1,
+  },
+  {
+    tag_id: 9054,
+    name: "edgy",
+    count: 1,
+  },
+  {
+    tag_id: 9053,
+    name: "contemporary folk",
+    count: 1,
+  },
+  {
+    tag_id: 9052,
+    name: "art folk",
+    count: 1,
+  },
+  {
+    tag_id: 9050,
+    name: "women",
+    count: 1,
+  },
+  {
+    tag_id: 9049,
+    name: "tender",
+    count: 1,
+  },
+  {
+    tag_id: 9048,
+    name: "psyche folk",
+    count: 1,
+  },
+  {
+    tag_id: 9044,
+    name: "art-folk",
+    count: 1,
+  },
+  {
+    tag_id: 9043,
+    name: "joyful",
+    count: 1,
+  },
+  {
+    tag_id: 9040,
+    name: "synthesiser",
+    count: 1,
+  },
+  {
+    tag_id: 9039,
+    name: "powerful",
+    count: 1,
+  },
+  {
+    tag_id: 9037,
+    name: "magical",
+    count: 1,
+  },
+  {
+    tag_id: 9036,
+    name: "down",
+    count: 1,
+  },
+  {
+    tag_id: 9035,
+    name: "disturbing",
+    count: 1,
+  },
+  {
+    tag_id: 9034,
+    name: "chaotic",
+    count: 1,
+  },
+  {
+    tag_id: 9033,
+    name: "anxious",
+    count: 1,
+  },
+  {
+    tag_id: 9030,
+    name: "foreboding",
+    count: 1,
+  },
+  {
+    tag_id: 9019,
+    name: "proud",
+    count: 1,
+  },
+  {
+    tag_id: 9015,
+    name: "Quebec City",
+    count: 1,
+  },
+  {
+    tag_id: 9014,
+    name: "slyfh",
+    count: 1,
+  },
+  {
+    tag_id: 9013,
+    name: "rap quebecois",
+    count: 1,
+  },
+  {
+    tag_id: 9012,
+    name: "quebec",
+    count: 1,
+  },
+  {
+    tag_id: 9011,
+    name: "phylis homicid",
+    count: 1,
+  },
+  {
+    tag_id: 9010,
+    name: "hhqc",
+    count: 1,
+  },
+  {
+    tag_id: 9009,
+    name: "dj phak",
+    count: 1,
+  },
+  {
+    tag_id: 9008,
+    name: "beeyoudee",
+    count: 1,
+  },
+  {
+    tag_id: 9007,
+    name: "thallus",
+    count: 1,
+  },
+  {
+    tag_id: 9006,
+    name: "sp",
+    count: 1,
+  },
+  {
+    tag_id: 9005,
+    name: "roland",
+    count: 1,
+  },
+  {
+    tag_id: 9004,
+    name: "404",
+    count: 1,
+  },
+  {
+    tag_id: 9003,
+    name: "xenakis",
+    count: 1,
+  },
+  {
+    tag_id: 9002,
+    name: "stockahuzen",
+    count: 1,
+  },
+  {
+    tag_id: 9001,
+    name: "life",
+    count: 1,
+  },
+  {
+    tag_id: 9000,
+    name: "khaosist",
+    count: 1,
+  },
+  {
+    tag_id: 8999,
+    name: "life music",
+    count: 1,
+  },
+  {
+    tag_id: 8998,
+    name: "90th",
+    count: 1,
+  },
+  {
+    tag_id: 8997,
+    name: "2022",
+    count: 1,
+  },
+  {
+    tag_id: 8996,
+    name: "left field hip-hop",
+    count: 1,
+  },
+  {
+    tag_id: 8995,
+    name: "khartoum",
+    count: 1,
+  },
+  {
+    tag_id: 8994,
+    name: "christchurch",
+    count: 1,
+  },
+  {
+    tag_id: 8993,
+    name: "harbinger",
+    count: 1,
+  },
+  {
+    tag_id: 8992,
+    name: "deformatory instrumental",
+    count: 1,
+  },
+  {
+    tag_id: 8991,
+    name: "instrumental tech death",
+    count: 1,
+  },
+  {
+    tag_id: 8989,
+    name: "technical brutal death metal",
+    count: 1,
+  },
+  {
+    tag_id: 8988,
+    name: "metal releases 2021",
+    count: 1,
+  },
+  {
+    tag_id: 8987,
+    name: "inversion of the unseen horizon",
+    count: 1,
+  },
+  {
+    tag_id: 8986,
+    name: "geocache",
+    count: 1,
+  },
+  {
+    tag_id: 8985,
+    name: "blastcore",
+    count: 1,
+  },
+  {
+    tag_id: 8984,
+    name: "ottawa metal",
+    count: 1,
+  },
+  {
+    tag_id: 8983,
+    name: "deformatory harbinger",
+    count: 1,
+  },
+  {
+    tag_id: 8981,
+    name: "death metal 2022",
+    count: 1,
+  },
+  {
+    tag_id: 8978,
+    name: "brutal death",
+    count: 1,
+  },
+  {
+    tag_id: 8975,
+    name: "metalheadz",
+    count: 1,
+  },
+  {
+    tag_id: 8974,
+    name: "jungle music",
+    count: 1,
+  },
+  {
+    tag_id: 8973,
+    name: "swamp metal",
+    count: 1,
+  },
+  {
+    tag_id: 8972,
+    name: "split album",
+    count: 1,
+  },
+  {
+    tag_id: 8971,
+    name: "ttrpg",
+    count: 1,
+  },
+  {
+    tag_id: 8970,
+    name: "table top rpg background music",
+    count: 1,
+  },
+  {
+    tag_id: 8969,
+    name: "7 aboard the schackel",
+    count: 1,
+  },
+  {
+    tag_id: 8968,
+    name: "ttrpg soundtrack",
+    count: 1,
+  },
+  {
+    tag_id: 8967,
+    name: "trap pop",
+    count: 1,
+  },
+  {
+    tag_id: 8966,
+    name: "alt r&b",
+    count: 1,
+  },
+  {
+    tag_id: 8963,
+    name: "Rio",
+    count: 1,
+  },
+  {
+    tag_id: 8958,
+    name: "plaisance food",
+    count: 1,
+  },
+  {
+    tag_id: 8957,
+    name: "paul cut",
+    count: 1,
+  },
+  {
+    tag_id: 8956,
+    name: "kx9000",
+    count: 1,
+  },
+  {
+    tag_id: 8955,
+    name: "ground plane aerial",
+    count: 1,
+  },
+  {
+    tag_id: 8954,
+    name: "apparel music",
+    count: 1,
+  },
+  {
+    tag_id: 8953,
+    name: "Alice Springs",
+    count: 1,
+  },
+  {
+    tag_id: 8951,
+    name: " indie",
+    count: 1,
+  },
+  {
+    tag_id: 8949,
+    name: "math-rock",
+    count: 1,
+  },
+  {
+    tag_id: 8948,
+    name: "kinsella",
+    count: 1,
+  },
+  {
+    tag_id: 8946,
+    name: "industrial dark ambient",
+    count: 1,
+  },
+  {
+    tag_id: 8945,
+    name: "Thessaloniki",
+    count: 1,
+  },
+  {
+    tag_id: 8944,
+    name: "punk.",
+    count: 1,
+  },
+  {
+    tag_id: 8943,
+    name: "lucifer",
+    count: 1,
+  },
+  {
+    tag_id: 8942,
+    name: "synth noise",
+    count: 1,
+  },
+  {
+    tag_id: 8941,
+    name: "noise techno",
+    count: 1,
+  },
+  {
+    tag_id: 8940,
+    name: "spooky storytelling",
+    count: 1,
+  },
+  {
+    tag_id: 8939,
+    name: "wyrm lodge records",
+    count: 1,
+  },
+  {
+    tag_id: 8938,
+    name: "sewer synth",
+    count: 1,
+  },
+  {
+    tag_id: 8937,
+    name: "haunted melodies",
+    count: 1,
+  },
+  {
+    tag_id: 8936,
+    name: "the plague",
+    count: 1,
+  },
+  {
+    tag_id: 8935,
+    name: "space synth",
+    count: 1,
+  },
+  {
+    tag_id: 8934,
+    name: "bacchus",
+    count: 1,
+  },
+  {
+    tag_id: 8933,
+    name: "maze",
+    count: 1,
+  },
+  {
+    tag_id: 8932,
+    name: "gothic synth",
+    count: 1,
+  },
+  {
+    tag_id: 8930,
+    name: "ghastly",
+    count: 1,
+  },
+  {
+    tag_id: 8929,
+    name: "faerie",
+    count: 1,
+  },
+  {
+    tag_id: 8928,
+    name: "alchemical",
+    count: 1,
+  },
+  {
+    tag_id: 8926,
+    name: "witchcraft",
+    count: 1,
+  },
+  {
+    tag_id: 8925,
+    name: "hagwave",
+    count: 1,
+  },
+  {
+    tag_id: 8924,
+    name: "phormix",
+    count: 1,
+  },
+  {
+    tag_id: 8923,
+    name: "twee punk",
+    count: 1,
+  },
+  {
+    tag_id: 8922,
+    name: "cuddle core",
+    count: 1,
+  },
+  {
+    tag_id: 8921,
+    name: "Valparaiso",
+    count: 1,
+  },
+  {
+    tag_id: 8920,
+    name: "wilco",
+    count: 1,
+  },
+  {
+    tag_id: 8919,
+    name: "american",
+    count: 1,
+  },
+  {
+    tag_id: 8918,
+    name: "groningen",
+    count: 1,
+  },
+  {
+    tag_id: 8917,
+    name: "nederpunk",
+    count: 1,
+  },
+  {
+    tag_id: 8916,
+    name: "dutch",
+    count: 1,
+  },
+  {
+    tag_id: 8915,
+    name: "snotty",
+    count: 1,
+  },
+  {
+    tag_id: 8914,
+    name: "radge pop",
+    count: 1,
+  },
+  {
+    tag_id: 8913,
+    name: "oranges",
+    count: 1,
+  },
+  {
+    tag_id: 8912,
+    name: "hey zeus",
+    count: 1,
+  },
+  {
+    tag_id: 8911,
+    name: "dublin",
+    count: 1,
+  },
+  {
+    tag_id: 8910,
+    name: "art for blind",
+    count: 1,
+  },
+  {
+    tag_id: 8909,
+    name: "afro-samba",
+    count: 1,
+  },
+  {
+    tag_id: 8908,
+    name: "you are my good light",
+    count: 1,
+  },
+  {
+    tag_id: 8907,
+    name: "three month sunset",
+    count: 1,
+  },
+  {
+    tag_id: 8906,
+    name: "stars",
+    count: 1,
+  },
+  {
+    tag_id: 8905,
+    name: "guitarzz",
+    count: 1,
+  },
+  {
+    tag_id: 8904,
+    name: "2010",
+    count: 1,
+  },
+  {
+    tag_id: 8903,
+    name: "la brique",
+    count: 1,
+  },
+  {
+    tag_id: 8902,
+    name: "malditos",
+    count: 1,
+  },
+  {
+    tag_id: 8901,
+    name: "police des moeurs",
+    count: 1,
+  },
+  {
+    tag_id: 8900,
+    name: "atelier ciseaux",
+    count: 1,
+  },
+  {
+    tag_id: 8898,
+    name: "dfa",
+    count: 1,
+  },
+  {
+    tag_id: 8897,
+    name: "quebecois",
+    count: 1,
+  },
+  {
+    tag_id: 8896,
+    name: "cute bullshit",
+    count: 1,
+  },
+  {
+    tag_id: 8895,
+    name: "that gay shit",
+    count: 1,
+  },
+  {
+    tag_id: 8894,
+    name: "synth v",
+    count: 1,
+  },
+  {
+    tag_id: 8893,
+    name: "sacramento",
+    count: 1,
+  },
+  {
+    tag_id: 8892,
+    name: "nar",
+    count: 1,
+  },
+  {
+    tag_id: 8891,
+    name: "jankle pop",
+    count: 1,
+  },
+  {
+    tag_id: 8890,
+    name: "guitar pop",
+    count: 1,
+  },
+  {
+    tag_id: 8889,
+    name: "bright ideas",
+    count: 1,
+  },
+  {
+    tag_id: 8888,
+    name: "ashenden papers",
+    count: 1,
+  },
+  {
+    tag_id: 8887,
+    name: "secret center records",
+    count: 1,
+  },
+  {
+    tag_id: 8886,
+    name: "indiepop indie pop covers french",
+    count: 1,
+  },
+  {
+    tag_id: 8885,
+    name: "stereolab",
+    count: 1,
+  },
+  {
+    tag_id: 8884,
+    name: "felt",
+    count: 1,
+  },
+  {
+    tag_id: 8883,
+    name: "neu",
+    count: 1,
+  },
+  {
+    tag_id: 8882,
+    name: "flanger",
+    count: 1,
+  },
+  {
+    tag_id: 8881,
+    name: "dark car",
+    count: 1,
+  },
+  {
+    tag_id: 8879,
+    name: "pop punk radge uk",
+    count: 1,
+  },
+  {
+    tag_id: 8878,
+    name: "underneath tonight",
+    count: 1,
+  },
+  {
+    tag_id: 8877,
+    name: "moongaze",
+    count: 1,
+  },
+  {
+    tag_id: 8876,
+    name: "memory no. 7",
+    count: 1,
+  },
+  {
+    tag_id: 8874,
+    name: "garbage",
+    count: 1,
+  },
+  {
+    tag_id: 8873,
+    name: "late delivery",
+    count: 1,
+  },
+  {
+    tag_id: 8872,
+    name: "deep tech house",
+    count: 1,
+  },
+  {
+    tag_id: 8871,
+    name: "trap re-edits",
+    count: 1,
+  },
+  {
+    tag_id: 8870,
+    name: "reggaeton re-edit",
+    count: 1,
+  },
+  {
+    tag_id: 8869,
+    name: "house classics",
+    count: 1,
+  },
+  {
+    tag_id: 8868,
+    name: "dance classics",
+    count: 1,
+  },
+  {
+    tag_id: 8867,
+    name: "songwriter pop",
+    count: 1,
+  },
+  {
+    tag_id: 8865,
+    name: "cay caleb",
+    count: 1,
+  },
+  {
+    tag_id: 8864,
+    name: "selenium",
+    count: 1,
+  },
+  {
+    tag_id: 8863,
+    name: "new",
+    count: 1,
+  },
+  {
+    tag_id: 8862,
+    name: "2016",
+    count: 1,
+  },
+  {
+    tag_id: 8861,
+    name: "Campinas",
+    count: 1,
+  },
+  {
+    tag_id: 8860,
+    name: "barão geraldo",
+    count: 1,
+  },
+  {
+    tag_id: 8859,
+    name: "depressive suicidal black metal",
+    count: 1,
+  },
+  {
+    tag_id: 8858,
+    name: "wall of sound",
+    count: 1,
+  },
+  {
+    tag_id: 8857,
+    name: "bedroom recording",
+    count: 1,
+  },
+  {
+    tag_id: 8856,
+    name: "beach pop",
+    count: 1,
+  },
+  {
+    tag_id: 8855,
+    name: "shitgaze",
+    count: 1,
+  },
+  {
+    tag_id: 8854,
+    name: "mod rock",
+    count: 1,
+  },
+  {
+    tag_id: 8853,
+    name: "pscych",
+    count: 1,
+  },
+  {
+    tag_id: 8852,
+    name: "freakbeat",
+    count: 1,
+  },
+  {
+    tag_id: 8850,
+    name: "sys",
+    count: 1,
+  },
+  {
+    tag_id: 8849,
+    name: "malakian",
+    count: 1,
+  },
+  {
+    tag_id: 8848,
+    name: "Saginaw",
+    count: 1,
+  },
+  {
+    tag_id: 8847,
+    name: "took",
+    count: 1,
+  },
+  {
+    tag_id: 8846,
+    name: "stoled",
+    count: 1,
+  },
+  {
+    tag_id: 8845,
+    name: "jacked",
+    count: 1,
+  },
+  {
+    tag_id: 8844,
+    name: "grabbed",
+    count: 1,
+  },
+  {
+    tag_id: 8843,
+    name: "ganked",
+    count: 1,
+  },
+  {
+    tag_id: 8842,
+    name: "ennio morricone",
+    count: 1,
+  },
+  {
+    tag_id: 8841,
+    name: "twang",
+    count: 1,
+  },
+  {
+    tag_id: 8840,
+    name: "john barry",
+    count: 1,
+  },
+  {
+    tag_id: 8839,
+    name: "60's",
+    count: 1,
+  },
+  {
+    tag_id: 8838,
+    name: "sunshine pop",
+    count: 1,
+  },
+  {
+    tag_id: 8834,
+    name: "surf guitar",
+    count: 1,
+  },
+  {
+    tag_id: 8832,
+    name: "surf music",
+    count: 1,
+  },
+  {
+    tag_id: 8830,
+    name: "surf-instro",
+    count: 1,
+  },
+  {
+    tag_id: 8829,
+    name: "fever",
+    count: 1,
+  },
+  {
+    tag_id: 8828,
+    name: "walking",
+    count: 1,
+  },
+  {
+    tag_id: 8827,
+    name: "sunday morning",
+    count: 1,
+  },
+  {
+    tag_id: 8826,
+    name: "microsound",
+    count: 1,
+  },
+  {
+    tag_id: 8825,
+    name: "click",
+    count: 1,
+  },
+  {
+    tag_id: 8824,
+    name: "metz",
+    count: 1,
+  },
+  {
+    tag_id: 8823,
+    name: "5158",
+    count: 1,
+  },
+  {
+    tag_id: 8822,
+    name: "lévis",
+    count: 1,
+  },
+  {
+    tag_id: 8819,
+    name: "elk grove village",
+    count: 1,
+  },
+  {
+    tag_id: 8818,
+    name: "indietronic",
+    count: 1,
+  },
+  {
+    tag_id: 8817,
+    name: "Bad Homburg",
+    count: 1,
+  },
+  {
+    tag_id: 8816,
+    name: "beat to study and relax to",
+    count: 1,
+  },
+  {
+    tag_id: 8815,
+    name: "qtera",
+    count: 1,
+  },
+  {
+    tag_id: 8814,
+    name: "faith",
+    count: 1,
+  },
+  {
+    tag_id: 8813,
+    name: "white room",
+    count: 1,
+  },
+  {
+    tag_id: 8811,
+    name: "laserdisc",
+    count: 1,
+  },
+  {
+    tag_id: 8810,
+    name: "rare groove",
+    count: 1,
+  },
+  {
+    tag_id: 8808,
+    name: "bebop",
+    count: 1,
+  },
+  {
+    tag_id: 8805,
+    name: "french touch",
+    count: 1,
+  },
+  {
+    tag_id: 8804,
+    name: "indian",
+    count: 1,
+  },
+  {
+    tag_id: 8803,
+    name: "carnatic",
+    count: 1,
+  },
+  {
+    tag_id: 8802,
+    name: "west african",
+    count: 1,
+  },
+  {
+    tag_id: 8800,
+    name: "guerilla grimm",
+    count: 1,
+  },
+  {
+    tag_id: 8799,
+    name: "folkstod",
+    count: 1,
+  },
+  {
+    tag_id: 8798,
+    name: "kleinkunst",
+    count: 1,
+  },
+  {
+    tag_id: 8797,
+    name: "Columbia",
+    count: 1,
+  },
+  {
+    tag_id: 8796,
+    name: "hypnosis music",
+    count: 1,
+  },
+  {
+    tag_id: 8795,
+    name: "downer",
+    count: 1,
+  },
+  {
+    tag_id: 8794,
+    name: "hypnosis",
+    count: 1,
+  },
+  {
+    tag_id: 8793,
+    name: "ethno dub",
+    count: 1,
+  },
+  {
+    tag_id: 8792,
+    name: "yorkshire nothing music",
+    count: 1,
+  },
+  {
+    tag_id: 8791,
+    name: "fuzzy javelin",
+    count: 1,
+  },
+  {
+    tag_id: 8790,
+    name: "nails",
+    count: 1,
+  },
+  {
+    tag_id: 8789,
+    name: "converge",
+    count: 1,
+  },
+  {
+    tag_id: 8788,
+    name: "carcass",
+    count: 1,
+  },
+  {
+    tag_id: 8787,
+    name: "pupil slicer",
+    count: 1,
+  },
+  {
+    tag_id: 8786,
+    name: "death goals",
+    count: 1,
+  },
+  {
+    tag_id: 8778,
+    name: "beats hiphop",
+    count: 1,
+  },
+  {
+    tag_id: 8777,
+    name: "nyc hip hop",
+    count: 1,
+  },
+  {
+    tag_id: 8776,
+    name: "l",
+    count: 1,
+  },
+  {
+    tag_id: 8775,
+    name: "eastcoast hip hop",
+    count: 1,
+  },
+  {
+    tag_id: 8774,
+    name: "mpc3000",
+    count: 1,
+  },
+  {
+    tag_id: 8773,
+    name: "eastkoast",
+    count: 1,
+  },
+  {
+    tag_id: 8772,
+    name: "akai mpc3000",
+    count: 1,
+  },
+  {
+    tag_id: 8771,
+    name: "newmusic",
+    count: 1,
+  },
+  {
+    tag_id: 8770,
+    name: "reveal the secret",
+    count: 1,
+  },
+  {
+    tag_id: 8769,
+    name: "oddisee",
+    count: 1,
+  },
+  {
+    tag_id: 8768,
+    name: "jazzy jeff",
+    count: 1,
+  },
+  {
+    tag_id: 8767,
+    name: "j-live",
+    count: 1,
+  },
+  {
+    tag_id: 8766,
+    name: "dj spinna",
+    count: 1,
+  },
+  {
+    tag_id: 8765,
+    name: "beatminerz",
+    count: 1,
+  },
+  {
+    tag_id: 8762,
+    name: "r&b\\rap",
+    count: 1,
+  },
+  {
+    tag_id: 8761,
+    name: "lyricist",
+    count: 1,
+  },
+  {
+    tag_id: 8760,
+    name: "soulful hip hop",
+    count: 1,
+  },
+  {
+    tag_id: 8756,
+    name: "lil baby",
+    count: 1,
+  },
+  {
+    tag_id: 8755,
+    name: "trap(louisiana)",
+    count: 1,
+  },
+  {
+    tag_id: 8754,
+    name: "gunna",
+    count: 1,
+  },
+  {
+    tag_id: 8753,
+    name: "scuare",
+    count: 1,
+  },
+  {
+    tag_id: 8751,
+    name: "kill bill",
+    count: 1,
+  },
+  {
+    tag_id: 8750,
+    name: "exociety",
+    count: 1,
+  },
+  {
+    tag_id: 8749,
+    name: "exo",
+    count: 1,
+  },
+  {
+    tag_id: 8745,
+    name: "drumbreak",
+    count: 1,
+  },
+  {
+    tag_id: 8742,
+    name: "worldmusic",
+    count: 1,
+  },
+  {
+    tag_id: 8741,
+    name: "gaita",
+    count: 1,
+  },
+  {
+    tag_id: 8740,
+    name: "folklore latinoamericano",
+    count: 1,
+  },
+  {
+    tag_id: 8739,
+    name: "organic-electronic",
+    count: 1,
+  },
+  {
+    tag_id: 8738,
+    name: "chillrave",
+    count: 1,
+  },
+  {
+    tag_id: 8736,
+    name: "percussions",
+    count: 1,
+  },
+  {
+    tag_id: 8735,
+    name: "kurup",
+    count: 1,
+  },
+  {
+    tag_id: 8734,
+    name: "afrogame",
+    count: 1,
+  },
+  {
+    tag_id: 8733,
+    name: "nujazz",
+    count: 1,
+  },
+  {
+    tag_id: 8732,
+    name: "melbourne, aus",
+    count: 1,
+  },
+  {
+    tag_id: 8731,
+    name: "90s hip hop",
+    count: 1,
+  },
+  {
+    tag_id: 8730,
+    name: "dark hip-hop",
+    count: 1,
+  },
+  {
+    tag_id: 8729,
+    name: "real rap",
+    count: 1,
+  },
+  {
+    tag_id: 8726,
+    name: "sugar water fm",
+    count: 1,
+  },
+  {
+    tag_id: 8725,
+    name: "sugar water",
+    count: 1,
+  },
+  {
+    tag_id: 8724,
+    name: "tyler the creator",
+    count: 1,
+  },
+  {
+    tag_id: 8723,
+    name: "mndsgn",
+    count: 1,
+  },
+  {
+    tag_id: 8722,
+    name: "black sheep",
+    count: 1,
+  },
+  {
+    tag_id: 8721,
+    name: "klub des loosers",
+    count: 1,
+  },
+  {
+    tag_id: 8720,
+    name: "fuzati",
+    count: 1,
+  },
+  {
+    tag_id: 8719,
+    name: "flying lotus",
+    count: 1,
+  },
+  {
+    tag_id: 8718,
+    name: "ambiance",
+    count: 1,
+  },
+  {
+    tag_id: 8717,
+    name: "folk funk",
+    count: 1,
+  },
+  {
+    tag_id: 8716,
+    name: "folk-funk-soul",
+    count: 1,
+  },
+  {
+    tag_id: 8715,
+    name: "soul-jazz",
+    count: 1,
+  },
+  {
+    tag_id: 8714,
+    name: "snares",
+    count: 1,
+  },
+  {
+    tag_id: 8713,
+    name: "kicks",
+    count: 1,
+  },
+  {
+    tag_id: 8712,
+    name: "kick drums",
+    count: 1,
+  },
+  {
+    tag_id: 8709,
+    name: "vertical67",
+    count: 1,
+  },
+  {
+    tag_id: 8708,
+    name: "synthieausmarzahn",
+    count: 1,
+  },
+  {
+    tag_id: 8707,
+    name: "marzahn",
+    count: 1,
+  },
+  {
+    tag_id: 8706,
+    name: "New Delhi",
+    count: 1,
+  },
+  {
+    tag_id: 8705,
+    name: "deep bass",
+    count: 1,
+  },
+  {
+    tag_id: 8704,
+    name: "indian riddims",
+    count: 1,
+  },
+  {
+    tag_id: 8703,
+    name: "gong",
+    count: 1,
+  },
+  {
+    tag_id: 8700,
+    name: "crasher crust",
+    count: 1,
+  },
+  {
+    tag_id: 8699,
+    name: "speed",
+    count: 1,
+  },
+  {
+    tag_id: 8698,
+    name: "sheffield",
+    count: 1,
+  },
+  {
+    tag_id: 8697,
+    name: "mangel",
+    count: 1,
+  },
+  {
+    tag_id: 8696,
+    name: "industrial sludge",
+    count: 1,
+  },
+  {
+    tag_id: 8695,
+    name: "fast",
+    count: 1,
+  },
+  {
+    tag_id: 8694,
+    name: "clevo hardcore punk",
+    count: 1,
+  },
+  {
+    tag_id: 8693,
+    name: "punk macarra",
+    count: 1,
+  },
+  {
+    tag_id: 8692,
+    name: "punk iberico",
+    count: 1,
+  },
+  {
+    tag_id: 8691,
+    name: "harccore",
+    count: 1,
+  },
+  {
+    tag_id: 8690,
+    name: "glue",
+    count: 1,
+  },
+  {
+    tag_id: 8689,
+    name: "flicts",
+    count: 1,
+  },
+  {
+    tag_id: 8688,
+    name: "besta-fera",
+    count: 1,
+  },
+  {
+    tag_id: 8687,
+    name: "agrotóxico",
+    count: 1,
+  },
+  {
+    tag_id: 8686,
+    name: "80's hardcore",
+    count: 1,
+  },
+  {
+    tag_id: 8685,
+    name: "sao paulo",
+    count: 1,
+  },
+  {
+    tag_id: 8684,
+    name: "psych punk",
+    count: 1,
+  },
+  {
+    tag_id: 8683,
+    name: "brazilian punk",
+    count: 1,
+  },
+  {
+    tag_id: 8682,
+    name: "the pipes are calling",
+    count: 1,
+  },
+  {
+    tag_id: 8681,
+    name: "rape",
+    count: 1,
+  },
+  {
+    tag_id: 8680,
+    name: "raw punk",
+    count: 1,
+  },
+  {
+    tag_id: 8679,
+    name: "acid punk",
+    count: 1,
+  },
+  {
+    tag_id: 8678,
+    name: "poison idea",
+    count: 1,
+  },
+  {
+    tag_id: 8677,
+    name: "negative approach",
+    count: 1,
+  },
+  {
+    tag_id: 8676,
+    name: "government issue",
+    count: 1,
+  },
+  {
+    tag_id: 8675,
+    name: "rod",
+    count: 1,
+  },
+  {
+    tag_id: 8674,
+    name: "gun",
+    count: 1,
+  },
+  {
+    tag_id: 8673,
+    name: "12-string",
+    count: 1,
+  },
+  {
+    tag_id: 8672,
+    name: "old table",
+    count: 1,
+  },
+  {
+    tag_id: 8671,
+    name: "journey to the west",
+    count: 1,
+  },
+  {
+    tag_id: 8670,
+    name: "cool oh no cool",
+    count: 1,
+  },
+  {
+    tag_id: 8669,
+    name: "gong-kebyar",
+    count: 1,
+  },
+  {
+    tag_id: 8668,
+    name: "balinese",
+    count: 1,
+  },
+  {
+    tag_id: 8667,
+    name: "noise and movement",
+    count: 1,
+  },
+  {
+    tag_id: 8665,
+    name: "voodoohop",
+    count: 1,
+  },
+  {
+    tag_id: 8664,
+    name: "southafrica",
+    count: 1,
+  },
+  {
+    tag_id: 8663,
+    name: "neosoul",
+    count: 1,
+  },
+  {
+    tag_id: 8662,
+    name: "Nevada City",
+    count: 1,
+  },
+  {
+    tag_id: 8661,
+    name: "female singer songwriter",
+    count: 1,
+  },
+  {
+    tag_id: 8660,
+    name: "ayla nereo",
+    count: 1,
+  },
+  {
+    tag_id: 8659,
+    name: "and...",
+    count: 1,
+  },
+  {
+    tag_id: 8658,
+    name: "#rock",
+    count: 1,
+  },
+  {
+    tag_id: 8657,
+    name: "#psychedelic",
+    count: 1,
+  },
+  {
+    tag_id: 8656,
+    name: "#folkrock",
+    count: 1,
+  },
+  {
+    tag_id: 8655,
+    name: "#folkmusic",
+    count: 1,
+  },
+  {
+    tag_id: 8654,
+    name: "#darkfolk",
+    count: 1,
+  },
+  {
+    tag_id: 8653,
+    name: "#dark",
+    count: 1,
+  },
+  {
+    tag_id: 8652,
+    name: "#avantgarde",
+    count: 1,
+  },
+  {
+    tag_id: 8651,
+    name: "#alternative",
+    count: 1,
+  },
+  {
+    tag_id: 8650,
+    name: "ibiza house",
+    count: 1,
+  },
+  {
+    tag_id: 8647,
+    name: "Zürich",
+    count: 1,
+  },
+  {
+    tag_id: 8646,
+    name: "prepared double bass",
+    count: 1,
+  },
+  {
+    tag_id: 8645,
+    name: "hop",
+    count: 1,
+  },
+  {
+    tag_id: 8644,
+    name: "pocket operator",
+    count: 1,
+  },
+  {
+    tag_id: 8643,
+    name: "left-field electronic",
+    count: 1,
+  },
+  {
+    tag_id: 8642,
+    name: "Carrboro",
+    count: 1,
+  },
+  {
+    tag_id: 8641,
+    name: "space jazz",
+    count: 1,
+  },
+  {
+    tag_id: 8638,
+    name: "synthesizer music",
+    count: 1,
+  },
+  {
+    tag_id: 8637,
+    name: "space-age-pop",
+    count: 1,
+  },
+  {
+    tag_id: 8636,
+    name: "latin jazz",
+    count: 1,
+  },
+  {
+    tag_id: 8635,
+    name: "nipsey",
+    count: 1,
+  },
+  {
+    tag_id: 8634,
+    name: "frankocean",
+    count: 1,
+  },
+  {
+    tag_id: 8633,
+    name: "movie",
+    count: 1,
+  },
+  {
+    tag_id: 8632,
+    name: "villian",
+    count: 1,
+  },
+  {
+    tag_id: 8631,
+    name: "roc marciano",
+    count: 1,
+  },
+  {
+    tag_id: 8630,
+    name: "rnb soul",
+    count: 1,
+  },
+  {
+    tag_id: 8628,
+    name: "jdilla",
+    count: 1,
+  },
+  {
+    tag_id: 8627,
+    name: "por vida",
+    count: 1,
+  },
+  {
+    tag_id: 8626,
+    name: "manonnightmode",
+    count: 1,
+  },
+  {
+    tag_id: 8625,
+    name: "ghettotayps",
+    count: 1,
+  },
+  {
+    tag_id: 8623,
+    name: "odd future",
+    count: 1,
+  },
+  {
+    tag_id: 8622,
+    name: "gibbs",
+    count: 1,
+  },
+  {
+    tag_id: 8621,
+    name: "alchemist",
+    count: 1,
+  },
+  {
+    tag_id: 8620,
+    name: "larry june",
+    count: 1,
+  },
+  {
+    tag_id: 8619,
+    name: "boldy james",
+    count: 1,
+  },
+  {
+    tag_id: 8618,
+    name: "ghettotayps​",
+    count: 1,
+  },
+  {
+    tag_id: 8617,
+    name: "meekmill",
+    count: 1,
+  },
+  {
+    tag_id: 8616,
+    name: "loops 215",
+    count: 1,
+  },
+  {
+    tag_id: 8615,
+    name: "freemeek",
+    count: 1,
+  },
+  {
+    tag_id: 8614,
+    name: "requiem",
+    count: 1,
+  },
+  {
+    tag_id: 8613,
+    name: "beatus",
+    count: 1,
+  },
+  {
+    tag_id: 8611,
+    name: "walk",
+    count: 1,
+  },
+  {
+    tag_id: 8610,
+    name: "sunday",
+    count: 1,
+  },
+  {
+    tag_id: 8609,
+    name: "primitive",
+    count: 1,
+  },
+  {
+    tag_id: 8608,
+    name: "Eldoret",
+    count: 1,
+  },
+  {
+    tag_id: 8607,
+    name: "transgenre",
+    count: 1,
+  },
+  {
+    tag_id: 8606,
+    name: "soul rap",
+    count: 1,
+  },
+  {
+    tag_id: 8604,
+    name: "hip-hop-rap",
+    count: 1,
+  },
+  {
+    tag_id: 8603,
+    name: "Torrelavega",
+    count: 1,
+  },
+  {
+    tag_id: 8602,
+    name: "Mumbai",
+    count: 1,
+  },
+  {
+    tag_id: 8601,
+    name: "listening",
+    count: 1,
+  },
+  {
+    tag_id: 8600,
+    name: "vaporpunk",
+    count: 1,
+  },
+  {
+    tag_id: 8599,
+    name: "e-goth",
+    count: 1,
+  },
+  {
+    tag_id: 8598,
+    name: "pastiche",
+    count: 1,
+  },
+  {
+    tag_id: 8597,
+    name: "chamber doom",
+    count: 1,
+  },
+  {
+    tag_id: 8596,
+    name: "tennis",
+    count: 1,
+  },
+  {
+    tag_id: 8594,
+    name: "instructional",
+    count: 1,
+  },
+  {
+    tag_id: 8592,
+    name: "lee perry",
+    count: 1,
+  },
+  {
+    tag_id: 8591,
+    name: "king tubby",
+    count: 1,
+  },
+  {
+    tag_id: 8590,
+    name: "peckham",
+    count: 1,
+  },
+  {
+    tag_id: 8589,
+    name: "hand percussion",
+    count: 1,
+  },
+  {
+    tag_id: 8588,
+    name: "broken-beat",
+    count: 1,
+  },
+  {
+    tag_id: 8586,
+    name: "lofi hip-hop",
+    count: 1,
+  },
+  {
+    tag_id: 8585,
+    name: "manctalo",
+    count: 1,
+  },
+  {
+    tag_id: 8584,
+    name: "leftfield house",
+    count: 1,
+  },
+  {
+    tag_id: 8583,
+    name: "construction kit",
+    count: 1,
+  },
+  {
+    tag_id: 8582,
+    name: "slo-mo",
+    count: 1,
+  },
+  {
+    tag_id: 8580,
+    name: "4th world",
+    count: 1,
+  },
+  {
+    tag_id: 8579,
+    name: "conte musical",
+    count: 1,
+  },
+  {
+    tag_id: 8578,
+    name: "comptines",
+    count: 1,
+  },
+  {
+    tag_id: 8577,
+    name: "kidder",
+    count: 1,
+  },
+  {
+    tag_id: 8576,
+    name: "jib kidder",
+    count: 1,
+  },
+  {
+    tag_id: 8575,
+    name: "jib",
+    count: 1,
+  },
+  {
+    tag_id: 8574,
+    name: "glowmobile recording",
+    count: 1,
+  },
+  {
+    tag_id: 8573,
+    name: "dreams inside of dreams",
+    count: 1,
+  },
+  {
+    tag_id: 8572,
+    name: "Bamako",
+    count: 1,
+  },
+  {
+    tag_id: 8571,
+    name: "manding",
+    count: 1,
+  },
+  {
+    tag_id: 8570,
+    name: "mali",
+    count: 1,
+  },
+  {
+    tag_id: 8569,
+    name: "musique mandingue",
+    count: 1,
+  },
+  {
+    tag_id: 8568,
+    name: "cosmic country",
+    count: 1,
+  },
+  {
+    tag_id: 8567,
+    name: "Davis",
+    count: 1,
+  },
+  {
+    tag_id: 8566,
+    name: "whisper punk",
+    count: 1,
+  },
+  {
+    tag_id: 8565,
+    name: "audiobook",
+    count: 1,
+  },
+  {
+    tag_id: 8564,
+    name: "anderlecht",
+    count: 1,
+  },
+  {
+    tag_id: 8563,
+    name: "unii",
+    count: 1,
+  },
+  {
+    tag_id: 8562,
+    name: "blue stork",
+    count: 1,
+  },
+  {
+    tag_id: 8561,
+    name: "ann dunham",
+    count: 1,
+  },
+  {
+    tag_id: 8560,
+    name: "bricole",
+    count: 1,
+  },
+  {
+    tag_id: 8559,
+    name: "beauté",
+    count: 1,
+  },
+  {
+    tag_id: 8558,
+    name: "sleepy",
+    count: 1,
+  },
+  {
+    tag_id: 8557,
+    name: "cheese",
+    count: 1,
+  },
+  {
+    tag_id: 8556,
+    name: "post-hard rock",
+    count: 1,
+  },
+  {
+    tag_id: 8555,
+    name: "post-apocalypse",
+    count: 1,
+  },
+  {
+    tag_id: 8554,
+    name: "nunchaku",
+    count: 1,
+  },
+  {
+    tag_id: 8553,
+    name: "motard",
+    count: 1,
+  },
+  {
+    tag_id: 8552,
+    name: "indianredhead",
+    count: 1,
+  },
+  {
+    tag_id: 8551,
+    name: "clermont ferrand",
+    count: 1,
+  },
+  {
+    tag_id: 8550,
+    name: "annecy",
+    count: 1,
+  },
+  {
+    tag_id: 8549,
+    name: "abrecords",
+    count: 1,
+  },
+  {
+    tag_id: 8548,
+    name: "teuf",
+    count: 1,
+  },
+  {
+    tag_id: 8547,
+    name: "marrade",
+    count: 1,
+  },
+  {
+    tag_id: 8545,
+    name: "crado",
+    count: 1,
+  },
+  {
+    tag_id: 8544,
+    name: "compil",
+    count: 1,
+  },
+  {
+    tag_id: 8543,
+    name: "boobs",
+    count: 1,
+  },
+  {
+    tag_id: 8542,
+    name: "anonyme",
+    count: 1,
+  },
+  {
+    tag_id: 8541,
+    name: "roxane metayer",
+    count: 1,
+  },
+  {
+    tag_id: 8540,
+    name: "mega love",
+    count: 1,
+  },
+  {
+    tag_id: 8538,
+    name: "$$$¤$$$",
+    count: 1,
+  },
+  {
+    tag_id: 8537,
+    name: "l'aventure des plantes",
+    count: 1,
+  },
+  {
+    tag_id: 8536,
+    name: "ambiant",
+    count: 1,
+  },
+  {
+    tag_id: 8534,
+    name: "grub",
+    count: 1,
+  },
+  {
+    tag_id: 8533,
+    name: "regis turner",
+    count: 1,
+  },
+  {
+    tag_id: 8530,
+    name: "lost sound tapes",
+    count: 1,
+  },
+  {
+    tag_id: 8528,
+    name: "third coast",
+    count: 1,
+  },
+  {
+    tag_id: 8527,
+    name: "nightmare folk",
+    count: 1,
+  },
+  {
+    tag_id: 8526,
+    name: "industrial breakbeat",
+    count: 1,
+  },
+  {
+    tag_id: 8524,
+    name: "funstep",
+    count: 1,
   },
   {
     tag_id: 8521,
@@ -16272,11 +20447,6 @@ const tags = [
   {
     tag_id: 8518,
     name: "folk-metal",
-    count: 1,
-  },
-  {
-    tag_id: 8517,
-    name: "stoner doom",
     count: 1,
   },
   {
@@ -16432,11 +20602,6 @@ const tags = [
   {
     tag_id: 8484,
     name: "catnip",
-    count: 1,
-  },
-  {
-    tag_id: 8481,
-    name: "black",
     count: 1,
   },
   {
@@ -16955,11 +21120,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 8354,
-    name: "dream punk",
-    count: 1,
-  },
-  {
     tag_id: 8353,
     name: "indianapolis",
     count: 1,
@@ -17305,11 +21465,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 8279,
-    name: "são paulo",
-    count: 1,
-  },
-  {
     tag_id: 8278,
     name: "massachusetts",
     count: 1,
@@ -17557,11 +21712,6 @@ const tags = [
   {
     tag_id: 8224,
     name: "sarah records",
-    count: 1,
-  },
-  {
-    tag_id: 8223,
-    name: "c86",
     count: 1,
   },
   {
@@ -17825,11 +21975,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 8162,
-    name: "india",
-    count: 1,
-  },
-  {
     tag_id: 8161,
     name: "madlib type beat",
     count: 1,
@@ -17905,11 +22050,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 8145,
-    name: "trillwave",
-    count: 1,
-  },
-  {
     tag_id: 8144,
     name: "punk compilation",
     count: 1,
@@ -17922,11 +22062,6 @@ const tags = [
   {
     tag_id: 8142,
     name: "crustpunk",
-    count: 1,
-  },
-  {
-    tag_id: 8141,
-    name: "cyprus",
     count: 1,
   },
   {
@@ -17987,11 +22122,6 @@ const tags = [
   {
     tag_id: 8121,
     name: "gothrock",
-    count: 1,
-  },
-  {
-    tag_id: 8120,
-    name: "space-rock",
     count: 1,
   },
   {
@@ -18165,11 +22295,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 8080,
-    name: "independent music",
-    count: 1,
-  },
-  {
     tag_id: 8077,
     name: "sensitive punk",
     count: 1,
@@ -18202,11 +22327,6 @@ const tags = [
   {
     tag_id: 8069,
     name: "snake",
-    count: 1,
-  },
-  {
-    tag_id: 8068,
-    name: "manchester",
     count: 1,
   },
   {
@@ -18285,11 +22405,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 8049,
-    name: "cheesy",
-    count: 1,
-  },
-  {
     tag_id: 8048,
     name: "more batshit pretentious",
     count: 1,
@@ -18330,11 +22445,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 8036,
-    name: "worldbeat",
-    count: 1,
-  },
-  {
     tag_id: 8035,
     name: "ultimate fantastic",
     count: 1,
@@ -18362,11 +22472,6 @@ const tags = [
   {
     tag_id: 8027,
     name: "folk fusion",
-    count: 1,
-  },
-  {
-    tag_id: 8026,
-    name: "acid jazz",
     count: 1,
   },
   {
@@ -18517,11 +22622,6 @@ const tags = [
   {
     tag_id: 7982,
     name: "imaginary folklore",
-    count: 1,
-  },
-  {
-    tag_id: 7981,
-    name: "moody",
     count: 1,
   },
   {
@@ -18722,11 +22822,6 @@ const tags = [
   {
     tag_id: 7931,
     name: "peanuts",
-    count: 1,
-  },
-  {
-    tag_id: 7930,
-    name: "jazz piano",
     count: 1,
   },
   {
@@ -19402,11 +23497,6 @@ const tags = [
   {
     tag_id: 7773,
     name: "doomjazz",
-    count: 1,
-  },
-  {
-    tag_id: 7772,
-    name: "dark jazz",
     count: 1,
   },
   {
@@ -20220,11 +24310,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 7574,
-    name: "ghetto",
-    count: 1,
-  },
-  {
     tag_id: 7573,
     name: "speaker check",
     count: 1,
@@ -20292,11 +24377,6 @@ const tags = [
   {
     tag_id: 7557,
     name: "digital heaven",
-    count: 1,
-  },
-  {
-    tag_id: 7556,
-    name: "haunting",
     count: 1,
   },
   {
@@ -20535,16 +24615,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 7502,
-    name: "chansons",
-    count: 1,
-  },
-  {
-    tag_id: 7501,
-    name: "chanson",
-    count: 1,
-  },
-  {
     tag_id: 7500,
     name: "crasher",
     count: 1,
@@ -20567,11 +24637,6 @@ const tags = [
   {
     tag_id: 7495,
     name: "orquestra",
-    count: 1,
-  },
-  {
-    tag_id: 7494,
-    name: "dark cabaret",
     count: 1,
   },
   {
@@ -20705,11 +24770,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 7463,
-    name: "positive",
-    count: 1,
-  },
-  {
     tag_id: 7462,
     name: "ambient dub techno",
     count: 1,
@@ -20797,11 +24857,6 @@ const tags = [
   {
     tag_id: 7441,
     name: "rva",
-    count: 1,
-  },
-  {
-    tag_id: 7439,
-    name: "dilla",
     count: 1,
   },
   {
@@ -21050,11 +25105,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 7382,
-    name: "monteverdi",
-    count: 1,
-  },
-  {
     tag_id: 7381,
     name: "lucio dalla",
     count: 1,
@@ -21170,11 +25220,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 7350,
-    name: "Buffalo",
-    count: 1,
-  },
-  {
     tag_id: 7349,
     name: "stealth",
     count: 1,
@@ -21182,11 +25227,6 @@ const tags = [
   {
     tag_id: 7348,
     name: "scores",
-    count: 1,
-  },
-  {
-    tag_id: 7346,
-    name: "desert",
     count: 1,
   },
   {
@@ -21390,11 +25430,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 7291,
-    name: "mash-ups",
-    count: 1,
-  },
-  {
     tag_id: 7290,
     name: "men",
     count: 1,
@@ -21527,11 +25562,6 @@ const tags = [
   {
     tag_id: 7259,
     name: "fight club",
-    count: 1,
-  },
-  {
-    tag_id: 7258,
-    name: "batman",
     count: 1,
   },
   {
@@ -22015,11 +26045,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 7135,
-    name: "dark hardcore",
-    count: 1,
-  },
-  {
     tag_id: 7133,
     name: "bandcamp friday",
     count: 1,
@@ -22152,11 +26177,6 @@ const tags = [
   {
     tag_id: 7104,
     name: "solidarity",
-    count: 1,
-  },
-  {
-    tag_id: 7103,
-    name: "records",
     count: 1,
   },
   {
@@ -22492,11 +26512,6 @@ const tags = [
   {
     tag_id: 7022,
     name: "nyahbinghi",
-    count: 1,
-  },
-  {
-    tag_id: 7021,
-    name: "version",
     count: 1,
   },
   {
@@ -22985,11 +27000,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6888,
-    name: "futurebeats",
-    count: 1,
-  },
-  {
     tag_id: 6887,
     name: "craig david",
     count: 1,
@@ -23107,11 +27117,6 @@ const tags = [
   {
     tag_id: 6864,
     name: "mississippi",
-    count: 1,
-  },
-  {
-    tag_id: 6863,
-    name: "crooner",
     count: 1,
   },
   {
@@ -24640,11 +28645,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6469,
-    name: "podcasts",
-    count: 1,
-  },
-  {
     tag_id: 6467,
     name: "atmospheric breakcore",
     count: 1,
@@ -24652,11 +28652,6 @@ const tags = [
   {
     tag_id: 6466,
     name: "South Surrey",
-    count: 1,
-  },
-  {
-    tag_id: 6465,
-    name: "cheap",
     count: 1,
   },
   {
@@ -25045,11 +29040,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6370,
-    name: "brutal death metal",
-    count: 1,
-  },
-  {
     tag_id: 6369,
     name: "unreleased gems",
     count: 1,
@@ -25057,11 +29047,6 @@ const tags = [
   {
     tag_id: 6368,
     name: "demo session",
-    count: 1,
-  },
-  {
-    tag_id: 6367,
-    name: "demo",
     count: 1,
   },
   {
@@ -25535,11 +29520,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6249,
-    name: "uk rap",
-    count: 1,
-  },
-  {
     tag_id: 6248,
     name: "large professor",
     count: 1,
@@ -25682,11 +29662,6 @@ const tags = [
   {
     tag_id: 6219,
     name: "sample-based hip hop",
-    count: 1,
-  },
-  {
-    tag_id: 6218,
-    name: "marco polo",
     count: 1,
   },
   {
@@ -25837,11 +29812,6 @@ const tags = [
   {
     tag_id: 6185,
     name: "study music",
-    count: 1,
-  },
-  {
-    tag_id: 6184,
-    name: "upbeat",
     count: 1,
   },
   {
@@ -26040,23 +30010,8 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6131,
-    name: "dirge punk",
-    count: 1,
-  },
-  {
-    tag_id: 6130,
-    name: "blackened hardcore",
-    count: 1,
-  },
-  {
     tag_id: 6129,
     name: "blackened thrash metal",
-    count: 1,
-  },
-  {
-    tag_id: 6128,
-    name: "lo-fi black metal",
     count: 1,
   },
   {
@@ -26135,11 +30090,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6098,
-    name: "retarded",
-    count: 1,
-  },
-  {
     tag_id: 6097,
     name: "prescription drugs",
     count: 1,
@@ -26205,11 +30155,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6079,
-    name: "skate punk",
-    count: 1,
-  },
-  {
     tag_id: 6077,
     name: "oi!punk",
     count: 1,
@@ -26270,23 +30215,8 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 6057,
-    name: "deep drone",
-    count: 1,
-  },
-  {
-    tag_id: 6055,
-    name: "industrial ambient",
-    count: 1,
-  },
-  {
     tag_id: 6054,
     name: "progressive piano",
-    count: 1,
-  },
-  {
-    tag_id: 6049,
-    name: "transcendent",
     count: 1,
   },
   {
@@ -26367,16 +30297,6 @@ const tags = [
   {
     tag_id: 6027,
     name: "math metal",
-    count: 1,
-  },
-  {
-    tag_id: 6026,
-    name: "english",
-    count: 1,
-  },
-  {
-    tag_id: 6025,
-    name: "ragtime",
     count: 1,
   },
   {
@@ -27595,11 +31515,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 5671,
-    name: "berkeley",
-    count: 1,
-  },
-  {
     tag_id: 5670,
     name: "santa paula",
     count: 1,
@@ -27785,11 +31700,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 5621,
-    name: "madlib",
-    count: 1,
-  },
-  {
     tag_id: 5619,
     name: "breathe",
     count: 1,
@@ -27817,11 +31727,6 @@ const tags = [
   {
     tag_id: 5611,
     name: "home listening dance music",
-    count: 1,
-  },
-  {
-    tag_id: 5610,
-    name: "free punk",
     count: 1,
   },
   {
@@ -28020,11 +31925,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 5558,
-    name: "chernobyl",
-    count: 1,
-  },
-  {
     tag_id: 5557,
     name: "klaus schulze",
     count: 1,
@@ -28077,11 +31977,6 @@ const tags = [
   {
     tag_id: 5539,
     name: "minimal deep house",
-    count: 1,
-  },
-  {
-    tag_id: 5534,
-    name: "variété",
     count: 1,
   },
   {
@@ -28227,11 +32122,6 @@ const tags = [
   {
     tag_id: 5492,
     name: "tension",
-    count: 1,
-  },
-  {
-    tag_id: 5491,
-    name: "suspense",
     count: 1,
   },
   {
@@ -28540,11 +32430,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 5404,
-    name: "harmonium",
-    count: 1,
-  },
-  {
     tag_id: 5403,
     name: "minimoog",
     count: 1,
@@ -28807,11 +32692,6 @@ const tags = [
   {
     tag_id: 5331,
     name: "paleo synth",
-    count: 1,
-  },
-  {
-    tag_id: 5330,
-    name: "horror synth",
     count: 1,
   },
   {
@@ -29110,11 +32990,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 5249,
-    name: "dungeonwave",
-    count: 1,
-  },
-  {
     tag_id: 5248,
     name: "tropical drone",
     count: 1,
@@ -29232,11 +33107,6 @@ const tags = [
   {
     tag_id: 5225,
     name: "charlie kubal",
-    count: 1,
-  },
-  {
-    tag_id: 5223,
-    name: "old",
     count: 1,
   },
   {
@@ -29735,11 +33605,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 5081,
-    name: "toys",
-    count: 1,
-  },
-  {
     tag_id: 5080,
     name: "atari 2600",
     count: 1,
@@ -29887,11 +33752,6 @@ const tags = [
   {
     tag_id: 5034,
     name: "primitive music",
-    count: 1,
-  },
-  {
-    tag_id: 5032,
-    name: "sp404sx",
     count: 1,
   },
   {
@@ -30350,11 +34210,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4900,
-    name: "jazz funk",
-    count: 1,
-  },
-  {
     tag_id: 4899,
     name: "afrodisco",
     count: 1,
@@ -30492,11 +34347,6 @@ const tags = [
   {
     tag_id: 4865,
     name: "darkpunk",
-    count: 1,
-  },
-  {
-    tag_id: 4864,
-    name: "rhythm & blues",
     count: 1,
   },
   {
@@ -30870,18 +34720,8 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4770,
-    name: "black-metal",
-    count: 1,
-  },
-  {
     tag_id: 4769,
     name: "numetal",
-    count: 1,
-  },
-  {
-    tag_id: 4767,
-    name: "beat music",
     count: 1,
   },
   {
@@ -31085,11 +34925,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4710,
-    name: "brony music",
-    count: 1,
-  },
-  {
     tag_id: 4707,
     name: "brony rap",
     count: 1,
@@ -31187,11 +35022,6 @@ const tags = [
   {
     tag_id: 4673,
     name: "Eindhoven",
-    count: 1,
-  },
-  {
-    tag_id: 4672,
-    name: "nijmegen",
     count: 1,
   },
   {
@@ -31542,11 +35372,6 @@ const tags = [
   {
     tag_id: 4577,
     name: "diy-music",
-    count: 1,
-  },
-  {
-    tag_id: 4576,
-    name: "blackened punk",
     count: 1,
   },
   {
@@ -31915,28 +35740,13 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4481,
-    name: "retro-pop",
-    count: 1,
-  },
-  {
     tag_id: 4480,
     name: "post-cringe",
     count: 1,
   },
   {
-    tag_id: 4479,
-    name: "Sheffield",
-    count: 1,
-  },
-  {
     tag_id: 4478,
     name: "alt country",
-    count: 1,
-  },
-  {
-    tag_id: 4476,
-    name: "riot folk",
     count: 1,
   },
   {
@@ -31992,11 +35802,6 @@ const tags = [
   {
     tag_id: 4464,
     name: "baroque folk",
-    count: 1,
-  },
-  {
-    tag_id: 4461,
-    name: "emotional hardcore",
     count: 1,
   },
   {
@@ -32510,16 +36315,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4317,
-    name: "sapppp",
-    count: 1,
-  },
-  {
-    tag_id: 4315,
-    name: "fuzzzzz",
-    count: 1,
-  },
-  {
     tag_id: 4314,
     name: "aleatoric music",
     count: 1,
@@ -32555,11 +36350,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4298,
-    name: "spiritual jazz",
-    count: 1,
-  },
-  {
     tag_id: 4297,
     name: "vrtw",
     count: 1,
@@ -32577,11 +36367,6 @@ const tags = [
   {
     tag_id: 4294,
     name: "rare",
-    count: 1,
-  },
-  {
-    tag_id: 4293,
-    name: "dirty south",
     count: 1,
   },
   {
@@ -32635,11 +36420,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4279,
-    name: "urban dungeon",
-    count: 1,
-  },
-  {
     tag_id: 4278,
     name: "dungeon noise",
     count: 1,
@@ -32662,11 +36442,6 @@ const tags = [
   {
     tag_id: 4273,
     name: "dark punk",
-    count: 1,
-  },
-  {
-    tag_id: 4272,
-    name: "uk82",
     count: 1,
   },
   {
@@ -32792,11 +36567,6 @@ const tags = [
   {
     tag_id: 4246,
     name: "stadium",
-    count: 1,
-  },
-  {
-    tag_id: 4245,
-    name: "motivational",
     count: 1,
   },
   {
@@ -33030,11 +36800,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4189,
-    name: "song",
-    count: 1,
-  },
-  {
     tag_id: 4188,
     name: "bégayer",
     count: 1,
@@ -33057,11 +36822,6 @@ const tags = [
   {
     tag_id: 4178,
     name: "undergroud",
-    count: 1,
-  },
-  {
-    tag_id: 4176,
-    name: "old school hip hop",
     count: 1,
   },
   {
@@ -33142,11 +36902,6 @@ const tags = [
   {
     tag_id: 4158,
     name: "car cleaning sounds",
-    count: 1,
-  },
-  {
-    tag_id: 4157,
-    name: "tranquil",
     count: 1,
   },
   {
@@ -33330,11 +37085,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4110,
-    name: "teenage engineering",
-    count: 1,
-  },
-  {
     tag_id: 4109,
     name: "solo musician",
     count: 1,
@@ -33455,11 +37205,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 4069,
-    name: "synthwave & darksynth",
-    count: 1,
-  },
-  {
     tag_id: 4065,
     name: "brokentransmission",
     count: 1,
@@ -33477,11 +37222,6 @@ const tags = [
   {
     tag_id: 4062,
     name: "rainbow",
-    count: 1,
-  },
-  {
-    tag_id: 4059,
-    name: "småland",
     count: 1,
   },
   {
@@ -33970,11 +37710,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 3914,
-    name: "instrumental metal",
-    count: 1,
-  },
-  {
     tag_id: 3908,
     name: "piano composition",
     count: 1,
@@ -34022,11 +37757,6 @@ const tags = [
   {
     tag_id: 3895,
     name: "80s crime show",
-    count: 1,
-  },
-  {
-    tag_id: 3894,
-    name: "metallic hardcore",
     count: 1,
   },
   {
@@ -34525,11 +38255,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 3743,
-    name: "dungeon drone",
-    count: 1,
-  },
-  {
     tag_id: 3742,
     name: "Nakagami District",
     count: 1,
@@ -34642,11 +38367,6 @@ const tags = [
   {
     tag_id: 3714,
     name: "samplepacks",
-    count: 1,
-  },
-  {
-    tag_id: 3713,
-    name: "samplepack",
     count: 1,
   },
   {
@@ -34932,11 +38652,6 @@ const tags = [
   {
     tag_id: 3615,
     name: "i am tired as hell",
-    count: 1,
-  },
-  {
-    tag_id: 3613,
-    name: "afropunk",
     count: 1,
   },
   {
@@ -35440,11 +39155,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 3458,
-    name: "Tampa",
-    count: 1,
-  },
-  {
     tag_id: 3456,
     name: "shit rock",
     count: 1,
@@ -35507,11 +39217,6 @@ const tags = [
   {
     tag_id: 3441,
     name: "150",
-    count: 1,
-  },
-  {
-    tag_id: 3440,
-    name: "stems",
     count: 1,
   },
   {
@@ -35642,11 +39347,6 @@ const tags = [
   {
     tag_id: 3407,
     name: "heavy doom metal",
-    count: 1,
-  },
-  {
-    tag_id: 3405,
-    name: "mork borg",
     count: 1,
   },
   {
@@ -36540,11 +40240,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 3106,
-    name: "tribal bass",
-    count: 1,
-  },
-  {
     tag_id: 3101,
     name: "mongolian",
     count: 1,
@@ -36615,21 +40310,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 3071,
-    name: "Novosibirsk",
-    count: 1,
-  },
-  {
-    tag_id: 3070,
-    name: "ohwshe",
-    count: 1,
-  },
-  {
-    tag_id: 3069,
-    name: "drumless",
-    count: 1,
-  },
-  {
     tag_id: 3067,
     name: "latintrapbeats",
     count: 1,
@@ -36642,11 +40322,6 @@ const tags = [
   {
     tag_id: 3065,
     name: "future latin",
-    count: 1,
-  },
-  {
-    tag_id: 3064,
-    name: "Bogotá",
     count: 1,
   },
   {
@@ -36682,11 +40357,6 @@ const tags = [
   {
     tag_id: 3054,
     name: "house tech",
-    count: 1,
-  },
-  {
-    tag_id: 3052,
-    name: "club remixes",
     count: 1,
   },
   {
@@ -37175,23 +40845,8 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 2895,
-    name: "Detroit",
-    count: 1,
-  },
-  {
     tag_id: 2894,
     name: "progressive techno",
-    count: 1,
-  },
-  {
-    tag_id: 2893,
-    name: "melodic synth",
-    count: 1,
-  },
-  {
-    tag_id: 2892,
-    name: "eurorack modular",
     count: 1,
   },
   {
@@ -37320,18 +40975,8 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 2817,
-    name: "Worcester",
-    count: 1,
-  },
-  {
     tag_id: 2813,
     name: "Batman",
-    count: 1,
-  },
-  {
-    tag_id: 2812,
-    name: "lyrical hip-hop",
     count: 1,
   },
   {
@@ -37442,11 +41087,6 @@ const tags = [
   {
     tag_id: 2778,
     name: "slang",
-    count: 1,
-  },
-  {
-    tag_id: 2777,
-    name: "conscious rap",
     count: 1,
   },
   {
@@ -37592,11 +41232,6 @@ const tags = [
   {
     tag_id: 2732,
     name: "touching grass",
-    count: 1,
-  },
-  {
-    tag_id: 2726,
-    name: "ost music",
     count: 1,
   },
   {
@@ -38180,11 +41815,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 2537,
-    name: "Fresno",
-    count: 1,
-  },
-  {
     tag_id: 2534,
     name: "dream catalogue",
     count: 1,
@@ -38197,11 +41827,6 @@ const tags = [
   {
     tag_id: 2528,
     name: "Brunswick",
-    count: 1,
-  },
-  {
-    tag_id: 2526,
-    name: "pos-punk",
     count: 1,
   },
   {
@@ -38375,11 +42000,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 2457,
-    name: "caycaleb",
-    count: 1,
-  },
-  {
     tag_id: 2454,
     name: "soundcloud rap",
     count: 1,
@@ -38387,11 +42007,6 @@ const tags = [
   {
     tag_id: 2448,
     name: "satire pop",
-    count: 1,
-  },
-  {
-    tag_id: 2447,
-    name: "indietronica",
     count: 1,
   },
   {
@@ -38477,11 +42092,6 @@ const tags = [
   {
     tag_id: 2420,
     name: "hard breaks",
-    count: 1,
-  },
-  {
-    tag_id: 2416,
-    name: "deathrock",
     count: 1,
   },
   {
@@ -38572,11 +42182,6 @@ const tags = [
   {
     tag_id: 2389,
     name: "pinata",
-    count: 1,
-  },
-  {
-    tag_id: 2387,
-    name: "mf doom",
     count: 1,
   },
   {
@@ -39010,11 +42615,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 2234,
-    name: "colorado",
-    count: 1,
-  },
-  {
     tag_id: 2233,
     name: "vehicles sound design",
     count: 1,
@@ -39295,11 +42895,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 2111,
-    name: "woman",
-    count: 1,
-  },
-  {
     tag_id: 2110,
     name: "volleyball",
     count: 1,
@@ -39415,11 +43010,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 2037,
-    name: "70s rock",
-    count: 1,
-  },
-  {
     tag_id: 2036,
     name: "San Luis Potosi",
     count: 1,
@@ -39530,28 +43120,8 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 1983,
-    name: "indie rap",
-    count: 1,
-  },
-  {
     tag_id: 1982,
     name: "indie hip-hop",
-    count: 1,
-  },
-  {
-    tag_id: 1981,
-    name: "independent hip hop",
-    count: 1,
-  },
-  {
-    tag_id: 1980,
-    name: "experimentalhip-hop",
-    count: 1,
-  },
-  {
-    tag_id: 1978,
-    name: "bedroom rap",
     count: 1,
   },
   {
@@ -39915,11 +43485,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 1797,
-    name: "commercial",
-    count: 1,
-  },
-  {
     tag_id: 1795,
     name: "same same",
     count: 1,
@@ -40150,11 +43715,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 1682,
-    name: "gypsy",
-    count: 1,
-  },
-  {
     tag_id: 1680,
     name: "Sao Paulo",
     count: 1,
@@ -40172,11 +43732,6 @@ const tags = [
   {
     tag_id: 1675,
     name: "instrumental post rock",
-    count: 1,
-  },
-  {
-    tag_id: 1672,
-    name: "western",
     count: 1,
   },
   {
@@ -40200,18 +43755,8 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 1655,
-    name: "Ipswich",
-    count: 1,
-  },
-  {
     tag_id: 1654,
     name: "dnb drum and bass",
-    count: 1,
-  },
-  {
-    tag_id: 1653,
-    name: "d'n'b",
     count: 1,
   },
   {
@@ -40705,11 +44250,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 1451,
-    name: "retro rock",
-    count: 1,
-  },
-  {
     tag_id: 1449,
     name: " bedroom-pop",
     count: 1,
@@ -40832,11 +44372,6 @@ const tags = [
   {
     tag_id: 1363,
     name: "vienna",
-    count: 1,
-  },
-  {
-    tag_id: 1362,
-    name: "texture",
     count: 1,
   },
   {
@@ -41062,11 +44597,6 @@ const tags = [
   {
     tag_id: 1254,
     name: "New Haven",
-    count: 1,
-  },
-  {
-    tag_id: 1252,
-    name: "lyrical",
     count: 1,
   },
   {
@@ -41305,11 +44835,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 1085,
-    name: "Fort Wayne",
-    count: 1,
-  },
-  {
     tag_id: 1081,
     name: "vllhll",
     count: 1,
@@ -41532,11 +45057,6 @@ const tags = [
   {
     tag_id: 950,
     name: "j-pop 日本",
-    count: 1,
-  },
-  {
-    tag_id: 944,
-    name: "hatsune miku",
     count: 1,
   },
   {
@@ -42060,11 +45580,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 554,
-    name: "bach",
-    count: 1,
-  },
-  {
     tag_id: 551,
     name: "temptation",
     count: 1,
@@ -42075,11 +45590,6 @@ const tags = [
     count: 1,
   },
   {
-    tag_id: 549,
-    name: "oboe",
-    count: 1,
-  },
-  {
     tag_id: 543,
     name: "chiptunesque",
     count: 1,
@@ -42087,11 +45597,6 @@ const tags = [
   {
     tag_id: 518,
     name: "ilya kozhevnikov",
-    count: 1,
-  },
-  {
-    tag_id: 505,
-    name: "psychillout",
     count: 1,
   },
   {
@@ -42432,11 +45937,6 @@ const tags = [
   {
     tag_id: 212,
     name: "kevin macleod",
-    count: 1,
-  },
-  {
-    tag_id: 211,
-    name: "adventure",
     count: 1,
   },
   {
