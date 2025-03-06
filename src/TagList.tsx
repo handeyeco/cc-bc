@@ -41,7 +41,7 @@ export default function TagList(props: Props) {
   return (
     <div className="tag-list">
       <div>
-        <label className="tag-list_input-label">
+        <label className="input-label">
           Filter tags
           <input value={search} onChange={(e) => setSearch(e.target.value)} />
         </label>

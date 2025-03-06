@@ -145,3 +145,16 @@ footer > a:active {
   border-radius: 8px;
   font-size: 1rem;
 }
+
+.input-label {
+  display: block;
+  padding: 1rem 0.25rem;
+}
+
+.input-label > input {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 0.25rem;
+  margin: 0.25rem 0;
+}

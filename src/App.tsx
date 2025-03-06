@@ -13,6 +13,7 @@ import {
 import { LoadingState, PlayerData, TagListing, UrlListing } from "./types";
 import { useEffect, useState } from "react";
 import { getLicenseNameByBcId } from "./util/licenses";
+import Advanced from "./Advanced";
 
 function App() {
   const [playerData, setPlayerData] = useState<PlayerData>();
@@ -132,6 +133,15 @@ function App() {
               urls={filteredUrls}
               loadPlayer={setPlayerData}
             />
+          ) : loadingTags === "error" || loadingUrls === "error" ? (
+            <p>Error loading data (sorry)</p>
+          ) : (
+            <p>Loading too much stuff...</p>
+          )}
+        </Route>
+        <Route path="/advanced">
+          {loadingTags === "loaded" && loadingUrls === "loaded" ? (
+            <Advanced tags={tagData} urls={filteredUrls} />
           ) : loadingTags === "error" || loadingUrls === "error" ? (
             <p>Error loading data (sorry)</p>
           ) : (
