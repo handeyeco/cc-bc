@@ -10,6 +10,9 @@
   --tag-color: #00a8e1;
   --license-color: #d5006d;
   --fave-color: #ffb300;
+
+  --dark-grey: #999;
+  --light-grey: #eee;
 }
 
 .header-link {
@@ -85,7 +88,14 @@ button {
   transition: all 100ms;
 }
 
-.app__random-button:active {
+.app__random-button:disabled {
+  background: var(--dark-grey);
+  border: 1px solid var(--dark-grey);
+  box-shadow: 6px 6px var(--light-grey);
+  cursor: wait;
+}
+
+.app__random-button:active:enabled {
   box-shadow: 4px 4px var(--secondary-color);
   transform: translate(2px, 2px);
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "by-nc-nd",
+    "url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "bc_id": 2,
+    "count": 3750
+  },
+  {
+    "name": "by-nc-sa",
+    "url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "bc_id": 3,
+    "count": 3458
+  },
+  {
+    "name": "by-nc",
+    "url": "http://creativecommons.org/licenses/by-nc/3.0/",
+    "bc_id": 4,
+    "count": 1443
+  },
+  {
+    "name": "by-nd",
+    "url": "http://creativecommons.org/licenses/by-nd/3.0/",
+    "bc_id": 5,
+    "count": 328
+  },
+  {
+    "name": "by-sa",
+    "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "bc_id": 8,
+    "count": 799
+  },
+  {
+    "name": "by",
+    "url": "http://creativecommons.org/licenses/by/3.0/",
+    "bc_id": 6,
+    "count": 2259
+  }
+]

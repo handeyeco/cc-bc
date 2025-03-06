@@ -1,13 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import tagData from "./data/tags";
 
 import "./TagList.css";
-import { licenses } from "./util/licenses";
+import licenses from "./data/licenses.json";
+import { TagListing } from "./types";
 
 const LOW_COUNT = 50;
 
-export default function TagList() {
+type Props = {
+  tags: ReadonlyArray<TagListing>;
+};
+
+export default function TagList(props: Props) {
+  const { tags } = props;
   const [search, setSearch] = useState<string>("");
   const prevSearchRef = useRef<string>("");
   const [filterLowCount, setFilterLowCount] = useState<boolean>(true);
@@ -27,7 +32,7 @@ export default function TagList() {
     prevSearchRef.current = search;
   }, [search]);
 
-  const filteredTags = tagData.filter((t) => {
+  const filteredTags = tags.filter((t) => {
     if (filterLowCount && t.count <= LOW_COUNT) return false;
     if (!search) return true;
     return t.name.toLowerCase().includes(search.toLowerCase());
@@ -51,11 +56,11 @@ export default function TagList() {
       <div>
         {licenses.map((l) => (
           <Link
-            key={l.text}
-            to={`/list?license=${l.license}`}
+            key={l.name}
+            to={`/list?license=${l.bc_id}`}
             className="link-button tag-list__license"
           >
-            {l.text} <span className="tag-list__count">{l.count}</span>
+            {l.name} <span className="tag-list__count">{l.count}</span>
           </Link>
         ))}
       </div>

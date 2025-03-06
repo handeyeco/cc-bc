@@ -1,7 +1,5 @@
 import { Switch, Route, Link, useLocation } from "react-router-dom";
 
-import tagData from "./data/tags";
-import urlData from "./data/urls";
 import TagList from "./TagList";
 import UrlList from "./UrlList";
 
@@ -12,7 +10,7 @@ import {
   filterUrlsByLicense,
   filterUrlsByTag,
 } from "./util/url-filters";
-import { PlayerData, UrlListing } from "./types";
+import { LoadingState, PlayerData, TagListing, UrlListing } from "./types";
 import { useEffect, useState } from "react";
 import { getLicenseNameByBcId } from "./util/licenses";
 
@@ -20,6 +18,35 @@ function App() {
   const [playerData, setPlayerData] = useState<PlayerData>();
   const query = useQuery();
   const { search } = useLocation();
+
+  const [loadingTags, setLoadingTags] = useState<LoadingState>("not-started");
+  const [tagData, setTagData] = useState<ReadonlyArray<TagListing>>([]);
+  const [loadingUrls, setLoadingUrls] = useState<LoadingState>("not-started");
+  const [urlData, setUrlData] = useState<ReadonlyArray<UrlListing>>([]);
+
+  useEffect(() => {
+    console.log({ loadingTags });
+    if (loadingTags === "not-started") {
+      setLoadingTags("loading");
+      fetch("/cc-bc/tags.json")
+        .then((res) => res.json())
+        .then((data) => setTagData(data))
+        .then(() => setLoadingTags("loaded"))
+        .catch(() => setLoadingTags("error"));
+    }
+  }, [loadingTags]);
+
+  useEffect(() => {
+    console.log({ loadingUrls });
+    if (loadingUrls === "not-started") {
+      setLoadingUrls("loading");
+      fetch("/cc-bc/urls.json")
+        .then((res) => res.json())
+        .then((data) => setUrlData(data))
+        .then(() => setLoadingUrls("loaded"))
+        .catch(() => setLoadingUrls("error"));
+    }
+  }, [loadingUrls]);
 
   useEffect(() => {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
@@ -43,6 +70,9 @@ function App() {
 
   function randomPageText() {
     const defaultText = "Random cc-bc album";
+    if (loadingUrls !== "loaded") {
+      return "Loading stuff...";
+    }
     if (urlData.length === filteredUrls.length) return defaultText;
     if (selectedTag != null) {
       const tag = tagData.find((t) => t.tag_id === +selectedTag);
@@ -77,16 +107,36 @@ function App() {
           Bandcamp
         </a>
       </p>
-      <button onClick={randomPage} className="app__random-button">
+      <button
+        onClick={randomPage}
+        className="app__random-button"
+        disabled={loadingUrls !== "loaded"}
+      >
         {randomPageText()}
       </button>
 
       <Switch>
         <Route exact path="/">
-          <TagList />
+          {loadingTags === "loaded" ? (
+            <TagList tags={tagData} />
+          ) : loadingTags === "error" ? (
+            <p>Error loading tags (sorry)</p>
+          ) : (
+            <p>Loading tags...</p>
+          )}
         </Route>
         <Route path="/list">
-          <UrlList urls={filteredUrls} loadPlayer={setPlayerData} />
+          {loadingTags === "loaded" && loadingUrls === "loaded" ? (
+            <UrlList
+              tags={tagData}
+              urls={filteredUrls}
+              loadPlayer={setPlayerData}
+            />
+          ) : loadingTags === "error" || loadingUrls === "error" ? (
+            <p>Error loading data (sorry)</p>
+          ) : (
+            <p>Loading too much stuff...</p>
+          )}
         </Route>
       </Switch>
 
@@ -101,12 +151,14 @@ function App() {
         </div>
       )}
 
-      <footer>
-        🍹{" "}
-        <a href="https://github.com/handeyeco/cc-bc" target="_blank">
-          Source code and data
-        </a>
-      </footer>
+      {loadingTags === "loaded" && loadingUrls === "loaded" && (
+        <footer>
+          🍹{" "}
+          <a href="https://github.com/handeyeco/cc-bc" target="_blank">
+            Source code and data
+          </a>
+        </footer>
+      )}
     </div>
   );
 }

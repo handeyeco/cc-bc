@@ -1,8 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { PlayerData, UrlListing } from "./types";
-import tagData from "./data/tags";
+import { PlayerData, TagListing, UrlListing } from "./types";
 
 import "./UrlList.css";
 import useQuery from "./hooks/useQuery";
@@ -16,6 +15,7 @@ const LANDING_COUNT = 10;
 
 type Props = {
   urls: ReadonlyArray<UrlListing>;
+  tags: ReadonlyArray<TagListing>;
   loadPlayer: (data: PlayerData) => void;
 };
 
@@ -37,7 +37,7 @@ function shuffle(array: UrlListing[]) {
 }
 
 export default function UrlList(props: Props) {
-  const { urls, loadPlayer } = props;
+  const { urls, tags, loadPlayer } = props;
   const query = useQuery();
   const [showAll, setShowAll] = useState<boolean>(false);
 
@@ -118,7 +118,7 @@ export default function UrlList(props: Props) {
           </a>
           <div className="url-list__tag-container">
             {u.tags.map((t, i) => {
-              const tag = tagData.find((e) => e.tag_id === t);
+              const tag = tags.find((e) => e.tag_id === t);
               const name = tag?.name || "";
               return (
                 <Link

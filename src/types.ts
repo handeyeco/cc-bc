@@ -1,3 +1,11 @@
+export type LoadingState = "not-started" | "loading" | "loaded" | "error";
+
+export type TagListing = {
+  tag_id: number;
+  name: string;
+  count: number;
+};
+
 export type UrlListing = {
   url_id: number;
   url: string;
