@@ -14,6 +14,7 @@ import {
 } from "./util/url-filters";
 import { PlayerData, UrlListing } from "./types";
 import { useEffect, useState } from "react";
+import { getLicenseNameByBcId } from "./util/licenses";
 
 function App() {
   const [playerData, setPlayerData] = useState<PlayerData>();
@@ -48,7 +49,7 @@ function App() {
       return tag ? `Random "${tag.name}" album` : defaultText;
     }
     if (selectedLicense != null) {
-      return `Random "${selectedLicense}" album`;
+      return `Random "${getLicenseNameByBcId(selectedLicense)}" album`;
     }
     if (showingFaves) {
       return "Random favorite album";
