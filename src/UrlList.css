@@ -1,4 +1,5 @@
-.url-list__back {
+.url-list__back,
+.advanced__submit {
   margin: 1rem 0 0.25rem;
   padding: 0.5rem 0.75rem;
   background: var(--tag-color);

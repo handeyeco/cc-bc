@@ -3,7 +3,6 @@ import { Switch, Route, Link, useLocation } from "react-router-dom";
 import TagList from "./TagList";
 import UrlList from "./UrlList";
 
-import "./App.css";
 import useQuery from "./hooks/useQuery";
 import {
   filterUrlsByFaves,
@@ -14,6 +13,8 @@ import { LoadingState, PlayerData, TagListing, UrlListing } from "./types";
 import { useEffect, useState } from "react";
 import { getLicenseNameByBcId } from "./util/licenses";
 import Advanced from "./Advanced";
+
+import "./App.css";
 
 function App() {
   const [playerData, setPlayerData] = useState<PlayerData>();
@@ -26,7 +27,6 @@ function App() {
   const [urlData, setUrlData] = useState<ReadonlyArray<UrlListing>>([]);
 
   useEffect(() => {
-    console.log({ loadingTags });
     if (loadingTags === "not-started") {
       setLoadingTags("loading");
       fetch("/cc-bc/tags.json")
@@ -38,7 +38,6 @@ function App() {
   }, [loadingTags]);
 
   useEffect(() => {
-    console.log({ loadingUrls });
     if (loadingUrls === "not-started") {
       setLoadingUrls("loading");
       fetch("/cc-bc/urls.json")

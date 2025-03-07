@@ -151,10 +151,19 @@ footer > a:active {
   padding: 1rem 0.25rem;
 }
 
-.input-label > input {
+.input-label > input:not([type="checkbox"]) {
   width: 100%;
   border: 1px solid var(--primary-color);
   border-radius: 5px;
   padding: 0.25rem;
   margin: 0.25rem 0;
+}
+
+hr {
+  height: 1px;
+  color: var(--yellow);
+  background: var(--yellow);
+  font-size: 0;
+  border: 0;
+  margin: 2rem 0;
 }

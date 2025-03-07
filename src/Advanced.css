@@ -1,0 +1,24 @@
+.advanced__rules {
+  margin: 2rem 0;
+}
+
+.advanced-card {
+  border-bottom: 1px solid var(--primary-color);
+  padding: 1rem 0;
+}
+
+.advanced-card ul {
+  list-style-type: hiragana;
+}
+
+.advanced-card li {
+  margin: 0.5rem 0;
+}
+
+.advanced-card li::marker {
+  color: var(--blue);
+}
+
+.advanced-card__row-name {
+  color: var(--orange);
+}

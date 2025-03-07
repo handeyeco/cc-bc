@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import { SyntheticEvent, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./TagList.css";
 import licenses from "./data/licenses.json";
 import { TagListing } from "./types";
+import { useDebounce } from "./hooks/useDebounce";
 
 const LOW_COUNT = 50;
 
@@ -14,37 +15,45 @@ type Props = {
 export default function TagList(props: Props) {
   const { tags } = props;
   const [search, setSearch] = useState<string>("");
+  const debouncedSearch = useDebounce(search, 250);
   const prevSearchRef = useRef<string>("");
   const [filterLowCount, setFilterLowCount] = useState<boolean>(true);
 
   useEffect(() => {
-    if (search !== prevSearchRef.current) {
+    if (debouncedSearch !== prevSearchRef.current) {
       // go from search to no search
-      if (!search && prevSearchRef.current) {
+      if (!debouncedSearch && prevSearchRef.current) {
         setFilterLowCount(true);
       }
       // go from no search to search
-      else if (search && !prevSearchRef.current) {
+      else if (debouncedSearch && !prevSearchRef.current) {
         setFilterLowCount(false);
       }
     }
 
-    prevSearchRef.current = search;
-  }, [search]);
+    prevSearchRef.current = debouncedSearch;
+  }, [debouncedSearch]);
 
   const filteredTags = tags.filter((t) => {
     if (filterLowCount && t.count <= LOW_COUNT) return false;
-    if (!search) return true;
-    return t.name.toLowerCase().includes(search.toLowerCase());
+    if (!debouncedSearch) return true;
+    return t.name.toLowerCase().includes(debouncedSearch.toLowerCase());
   });
+
+  function handleSearchSubmit(e: SyntheticEvent) {
+    e.preventDefault();
+    (document.activeElement as HTMLElement).blur();
+  }
 
   return (
     <div className="tag-list">
       <div>
-        <label className="input-label">
-          Filter tags
-          <input value={search} onChange={(e) => setSearch(e.target.value)} />
-        </label>
+        <form onSubmit={handleSearchSubmit}>
+          <label className="input-label">
+            Filter tags
+            <input value={search} onChange={(e) => setSearch(e.target.value)} />
+          </label>
+        </form>
       </div>
 
       <div>

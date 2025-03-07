@@ -22,12 +22,14 @@ export function filterUrlsByFaves(
   return urls.filter((u) => !!u.favorite);
 }
 
+export const URL_CAP = 10;
 export function filterUrlsAdvanced(
   includeTags: string,
   excludeTags: string,
   includeString: string,
   excludeString: string,
   includeLicense: string,
+  capUrlsPerAccount: boolean,
   tags: ReadonlyArray<TagListing>,
   urls: ReadonlyArray<UrlListing>
 ): ReadonlyArray<UrlListing> {
@@ -36,39 +38,59 @@ export function filterUrlsAdvanced(
     !excludeTags &&
     !includeString &&
     !excludeString &&
-    !includeLicense
+    !includeLicense &&
+    !capUrlsPerAccount
   ) {
     return urls;
   }
 
-  return urls.filter((u) => {
+  let prefilteredUrls: ReadonlyArray<UrlListing> = urls;
+  if (capUrlsPerAccount) {
+    const cappedList: Record<string, UrlListing[]> = {};
+
+    urls.forEach((u) => {
+      const origin = new URL(u.url).origin;
+      if (!cappedList[origin]) {
+        cappedList[origin] = [];
+      }
+
+      if (cappedList[origin].length < URL_CAP) {
+        cappedList[origin].push(u);
+      }
+
+      prefilteredUrls = Object.values(cappedList).flat();
+    });
+  }
+
+  return prefilteredUrls.filter((u) => {
     if (includeLicense) {
       const terms = splitTerms(includeLicense);
-      for (const t of terms) {
-        const license = licenses.find(
-          (l) => l.name.toLowerCase() === t.toLowerCase()
-        );
-        if (license && u.license !== license.bc_id) {
-          return false;
-        }
+      // allowed IDs
+      const ids = terms.map((t) => licenses.find((l) => t === l.name)?.bc_id);
+      if (!ids.includes(u.license)) {
+        return false;
       }
     }
 
-    // TODO: include urls as part of string search
     if (includeString) {
       const terms = splitTerms(includeString);
       for (const t of terms) {
-        if (!u.title.toLowerCase().includes(t.toLowerCase())) {
+        if (
+          !u.title.toLowerCase().includes(t) &&
+          !u.url.toLowerCase().includes(t)
+        ) {
           return false;
         }
       }
     }
 
-    // TODO: include urls as part of string search
     if (excludeString) {
       const terms = splitTerms(excludeString);
       for (const t of terms) {
-        if (u.title.toLowerCase().includes(t.toLowerCase())) {
+        if (
+          u.title.toLowerCase().includes(t) ||
+          u.url.toLowerCase().includes(t)
+        ) {
           return false;
         }
       }
@@ -102,6 +124,6 @@ export function filterUrlsAdvanced(
 function splitTerms(input: string): ReadonlyArray<string> {
   return input
     .split(/\s*,\s*/)
-    .map((s) => s.replace(/(^"|"$)/g, ""))
+    .map((s) => s.replace(/(^"|"$)/g, "").toLowerCase())
     .filter(Boolean);
 }
