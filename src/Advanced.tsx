@@ -106,6 +106,12 @@ function Advanced(props: AdvancedProps) {
     displayedUrls = displayedUrls.slice(0, SAMPLE_COUNT);
   }
 
+  function randomPage() {
+    const listing =
+      filteredUrls[Math.floor(Math.random() * filteredUrls.length)];
+    open(listing.url, "_blank");
+  }
+
   return (
     <div className="advanced">
       <div className="advanced__rules">
@@ -179,6 +185,12 @@ function Advanced(props: AdvancedProps) {
           <button className="advanced__submit">Submit →</button>
         </p>
       </form>
+
+      <p>
+        <button className="advanced__random" onClick={randomPage}>
+          Random filtered page
+        </button>
+      </p>
 
       <hr />
 
