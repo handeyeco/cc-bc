@@ -3,36 +3,36 @@
     "name": "by-nc-nd",
     "url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
     "bc_id": 2,
-    "count": 4622
+    "count": 7904
   },
   {
     "name": "by-nc-sa",
     "url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
     "bc_id": 3,
-    "count": 4251
+    "count": 7093
   },
   {
     "name": "by-nc",
     "url": "http://creativecommons.org/licenses/by-nc/3.0/",
     "bc_id": 4,
-    "count": 1656
+    "count": 2783
   },
   {
     "name": "by-nd",
     "url": "http://creativecommons.org/licenses/by-nd/3.0/",
     "bc_id": 5,
-    "count": 417
+    "count": 610
   },
   {
     "name": "by-sa",
     "url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "bc_id": 8,
-    "count": 1132
+    "count": 1713
   },
   {
     "name": "by",
     "url": "http://creativecommons.org/licenses/by/3.0/",
     "bc_id": 6,
-    "count": 2662
+    "count": 4441
   }
 ]
