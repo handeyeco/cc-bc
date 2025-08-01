@@ -1,6 +1,6 @@
 import { SyntheticEvent, useMemo, useState } from "react";
 import { TagListing, UrlListing } from "./types";
-import { filterUrlsAdvanced, URL_CAP } from "./util/url-filters";
+import { collapseUrls, filterUrlsAdvanced, URL_CAP } from "./util/url-filters";
 import { getTagByIdMemo } from "./util/tags";
 import { getLicenseNameByBcId } from "./util/licenses";
 
@@ -101,6 +101,12 @@ function Advanced(props: AdvancedProps) {
     props.urls,
   ]);
 
+  // for the random button
+  const collapsedUrls: ReadonlyArray<UrlListing> = useMemo(
+    () => collapseUrls(filteredUrls),
+    [filteredUrls]
+  );
+
   let displayedUrls = filteredUrls;
   if (!showAllResults) {
     displayedUrls = displayedUrls.slice(0, SAMPLE_COUNT);
@@ -108,7 +114,7 @@ function Advanced(props: AdvancedProps) {
 
   function randomPage() {
     const listing =
-      filteredUrls[Math.floor(Math.random() * filteredUrls.length)];
+      collapsedUrls[Math.floor(Math.random() * collapsedUrls.length)];
     open(listing.url, "_blank");
   }
 

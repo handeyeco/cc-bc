@@ -2,6 +2,32 @@ import { TagListing, UrlListing } from "../types";
 import { getTagByNameMemo } from "./tags";
 import licenses from "../data/licenses.json";
 
+// this is an effort to highlight more artists,
+// rather than showing the same super-prolific artists
+// over and over again (cap listings by domain)
+const bandcampSubdomainRegex = /^https?:\/\/(.+)\.bandcamp\.com/;
+export function collapseUrls(
+  urls: ReadonlyArray<UrlListing>,
+  limit: number = 5
+): ReadonlyArray<UrlListing> {
+  const counts: Record<string, number> = {};
+  return urls.filter((u) => {
+    const match = u.url.match(bandcampSubdomainRegex);
+    if (!match) {
+      throw new Error(`malformed url: ${u.url}`);
+    }
+
+    const subdomain = match[1];
+    if (counts[subdomain] == null) {
+      counts[subdomain] = 1;
+    } else {
+      counts[subdomain]++;
+    }
+
+    return !(counts[subdomain] > limit);
+  });
+}
+
 export function filterUrlsByTag(
   tag: number,
   urls: ReadonlyArray<UrlListing>

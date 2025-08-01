@@ -5,12 +5,13 @@ import UrlList from "./UrlList";
 
 import useQuery from "./hooks/useQuery";
 import {
+  collapseUrls,
   filterUrlsByFaves,
   filterUrlsByLicense,
   filterUrlsByTag,
 } from "./util/url-filters";
 import { LoadingState, PlayerData, TagListing, UrlListing } from "./types";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { getLicenseNameByBcId } from "./util/licenses";
 import Advanced from "./Advanced";
 
@@ -57,16 +58,26 @@ function App() {
   const selectedTag = query.get("tag");
   const showingFaves = !!query.get("faves");
 
-  let filteredUrls: ReadonlyArray<UrlListing> = urlData;
-  if (selectedLicense) {
-    filteredUrls = filterUrlsByLicense(selectedLicense, filteredUrls);
-  }
-  if (selectedTag) {
-    filteredUrls = filterUrlsByTag(+selectedTag, filteredUrls);
-  }
-  if (showingFaves) {
-    filteredUrls = filterUrlsByFaves(filteredUrls);
-  }
+  // for the list
+  const filteredUrls: ReadonlyArray<UrlListing> = useMemo(() => {
+    let filtered: ReadonlyArray<UrlListing> = urlData;
+    if (selectedLicense) {
+      filtered = filterUrlsByLicense(selectedLicense, filtered);
+    }
+    if (selectedTag) {
+      filtered = filterUrlsByTag(+selectedTag, filtered);
+    }
+    if (showingFaves) {
+      filtered = filterUrlsByFaves(filtered);
+    }
+    return filtered;
+  }, [urlData, selectedLicense, selectedTag, showingFaves]);
+
+  // for the random button
+  const collapsedUrls: ReadonlyArray<UrlListing> = useMemo(
+    () => collapseUrls(filteredUrls),
+    [filteredUrls]
+  );
 
   function randomPageText() {
     const defaultText = "Random cc-bc album";
@@ -88,7 +99,7 @@ function App() {
 
   function randomPage() {
     const listing =
-      filteredUrls[Math.floor(Math.random() * filteredUrls.length)];
+      collapsedUrls[Math.floor(Math.random() * collapsedUrls.length)];
     open(listing.url, "_blank");
   }
 
