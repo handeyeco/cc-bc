@@ -6,28 +6,37 @@ import licenses from "./data/licenses.json";
 import { TagListing } from "./types";
 import { useDebounce } from "./hooks/useDebounce";
 
-const LOW_COUNT = 50;
+const LOW_COUNT = 200;
+const VERY_LOW_COUNT = 10;
 
 type Props = {
   tags: ReadonlyArray<TagListing>;
 };
 
+/**
+ * top = only show the top tags by count
+ * more = show more tags, but not the very low counts
+ * all = show all tags
+ */
+type FilterLowCountOptions = "top" | "more" | "all";
+
 export default function TagList(props: Props) {
   const { tags } = props;
   const [search, setSearch] = useState<string>("");
-  const debouncedSearch = useDebounce(search, 250);
+  const debouncedSearch = useDebounce(search, 500);
   const prevSearchRef = useRef<string>("");
-  const [filterLowCount, setFilterLowCount] = useState<boolean>(true);
+  const [filterLowCount, setFilterLowCount] =
+    useState<FilterLowCountOptions>("top");
 
   useEffect(() => {
     if (debouncedSearch !== prevSearchRef.current) {
       // go from search to no search
       if (!debouncedSearch && prevSearchRef.current) {
-        setFilterLowCount(true);
+        setFilterLowCount("top");
       }
       // go from no search to search
       else if (debouncedSearch && !prevSearchRef.current) {
-        setFilterLowCount(false);
+        setFilterLowCount("all");
       }
     }
 
@@ -35,7 +44,8 @@ export default function TagList(props: Props) {
   }, [debouncedSearch]);
 
   const filteredTags = tags.filter((t) => {
-    if (filterLowCount && t.count <= LOW_COUNT) return false;
+    if (filterLowCount === "top" && t.count < LOW_COUNT) return false;
+    if (filterLowCount === "more" && t.count < VERY_LOW_COUNT) return false;
     if (!debouncedSearch) return true;
     return t.name.toLowerCase().includes(debouncedSearch.toLowerCase());
   });
@@ -87,12 +97,14 @@ export default function TagList(props: Props) {
       </div>
 
       <div>
-        {filterLowCount && (
+        {filterLowCount !== "all" && (
           <button
-            onClick={() => setFilterLowCount(false)}
+            onClick={() =>
+              setFilterLowCount(filterLowCount === "more" ? "all" : "more")
+            }
             className="show-more-button"
           >
-            Show all tags
+            Show {filterLowCount === "more" ? "all" : "more"} tags
           </button>
         )}
       </div>
