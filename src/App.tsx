@@ -177,6 +177,10 @@ function App() {
           <a href="https://github.com/handeyeco/cc-bc" target="_blank">
             Source code and data
           </a>
+          .
+          {!!urlData?.length && (
+            <span> Now up to {urlData.length.toLocaleString()} albums!</span>
+          )}
         </footer>
       )}
     </div>
