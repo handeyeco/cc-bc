@@ -96,11 +96,11 @@ export default function UrlList(props: Props) {
 
           <p>Thanks for checking out the site!</p>
 
-          <p>
+          {/* <p>
             <a href="https://h-e.io/" target="_blank">
               h-e.io
             </a>
-          </p>
+          </p> */}
         </div>
       )}
       {filteredUrls.map((u) => (
