@@ -1,6 +1,5 @@
-import { TagListing, UrlListing } from "../types";
+import { License, TagListing, UrlListing } from "../types";
 import { getTagByNameMemo } from "./tags";
-import licenses from "../data/licenses.json";
 
 // this is an effort to highlight more artists,
 // rather than showing the same super-prolific artists
@@ -8,7 +7,7 @@ import licenses from "../data/licenses.json";
 const bandcampSubdomainRegex = /^https?:\/\/(.+)\.bandcamp\.com/;
 export function collapseUrls(
   urls: ReadonlyArray<UrlListing>,
-  limit: number = 5
+  limit: number = 5,
 ): ReadonlyArray<UrlListing> {
   const counts: Record<string, number> = {};
   return urls.filter((u) => {
@@ -30,20 +29,20 @@ export function collapseUrls(
 
 export function filterUrlsByTag(
   tag: number,
-  urls: ReadonlyArray<UrlListing>
+  urls: ReadonlyArray<UrlListing>,
 ): ReadonlyArray<UrlListing> {
   return urls.filter((u) => u.tags.includes(tag));
 }
 
 export function filterUrlsByLicense(
   license: number,
-  urls: ReadonlyArray<UrlListing>
+  urls: ReadonlyArray<UrlListing>,
 ): ReadonlyArray<UrlListing> {
   return urls.filter((u) => u.license === license);
 }
 
 export function filterUrlsByFaves(
-  urls: ReadonlyArray<UrlListing>
+  urls: ReadonlyArray<UrlListing>,
 ): ReadonlyArray<UrlListing> {
   return urls.filter((u) => !!u.favorite);
 }
@@ -57,7 +56,8 @@ export function filterUrlsAdvanced(
   includeLicense: string,
   capUrlsPerAccount: boolean,
   tags: ReadonlyArray<TagListing>,
-  urls: ReadonlyArray<UrlListing>
+  urls: ReadonlyArray<UrlListing>,
+  licenses: ReadonlyArray<License>,
 ): ReadonlyArray<UrlListing> {
   if (
     !includeTags &&

@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { PlayerData, TagListing, UrlListing } from "./types";
+import { License, PlayerData, TagListing, UrlListing } from "./types";
 
 import "./UrlList.css";
 import useQuery from "./hooks/useQuery";
@@ -16,6 +16,7 @@ const LANDING_COUNT = 10;
 type Props = {
   urls: ReadonlyArray<UrlListing>;
   tags: ReadonlyArray<TagListing>;
+  licenses: ReadonlyArray<License>;
   loadPlayer: (data: PlayerData) => void;
 };
 
@@ -82,10 +83,15 @@ export default function UrlList(props: Props) {
       {hasResults && selectedLicense && (
         <div className="url-list__license-details">
           License details
-          {getLicenseDescriptionByBcId(selectedLicense).map((e) => (
-            <p key={e}>{e}</p>
-          ))}
-          <a href={getLicenseUrlByBcId(selectedLicense)} target="_blank">
+          {getLicenseDescriptionByBcId(selectedLicense, props.licenses).map(
+            (e) => (
+              <p key={e}>{e}</p>
+            ),
+          )}
+          <a
+            href={getLicenseUrlByBcId(selectedLicense, props.licenses)}
+            target="_blank"
+          >
             Link to license
           </a>
         </div>
@@ -147,7 +153,7 @@ export default function UrlList(props: Props) {
                   : "")
               }
             >
-              {getLicenseNameByBcId(u.license)}
+              {getLicenseNameByBcId(u.license, props.licenses)}
             </Link>
           </div>
           <button

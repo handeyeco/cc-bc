@@ -18,8 +18,9 @@ export type UrlListing = {
 
 export type License = {
   url: string;
-  text: string;
+  name: string;
   count: number;
+  bc_id: number;
 };
 
 export type PlayerData = {

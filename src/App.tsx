@@ -10,7 +10,13 @@ import {
   filterUrlsByLicense,
   filterUrlsByTag,
 } from "./util/url-filters";
-import { LoadingState, PlayerData, TagListing, UrlListing } from "./types";
+import {
+  License,
+  LoadingState,
+  PlayerData,
+  TagListing,
+  UrlListing,
+} from "./types";
 import { useEffect, useMemo, useState } from "react";
 import { getLicenseNameByBcId } from "./util/licenses";
 import Advanced from "./Advanced";
@@ -26,6 +32,9 @@ function App() {
   const [tagData, setTagData] = useState<ReadonlyArray<TagListing>>([]);
   const [loadingUrls, setLoadingUrls] = useState<LoadingState>("not-started");
   const [urlData, setUrlData] = useState<ReadonlyArray<UrlListing>>([]);
+  const [loadingLicenses, setLoadingLicenses] =
+    useState<LoadingState>("not-started");
+  const [licenseData, setLicenseData] = useState<ReadonlyArray<License>>([]);
 
   useEffect(() => {
     if (loadingTags === "not-started") {
@@ -48,6 +57,17 @@ function App() {
         .catch(() => setLoadingUrls("error"));
     }
   }, [loadingUrls]);
+
+  useEffect(() => {
+    if (loadingLicenses === "not-started") {
+      setLoadingLicenses("loading");
+      fetch("/cc-bc/licenses.json")
+        .then((res) => res.json())
+        .then((data) => setLicenseData(data))
+        .then(() => setLoadingLicenses("loaded"))
+        .catch(() => setLoadingLicenses("error"));
+    }
+  }, [loadingLicenses]);
 
   useEffect(() => {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
@@ -76,7 +96,7 @@ function App() {
   // for the random button
   const collapsedUrls: ReadonlyArray<UrlListing> = useMemo(
     () => collapseUrls(filteredUrls),
-    [filteredUrls]
+    [filteredUrls],
   );
 
   function randomPageText() {
@@ -90,7 +110,7 @@ function App() {
       return tag ? `Random "${tag.name}" album` : defaultText;
     }
     if (selectedLicense != null) {
-      return `Random "${getLicenseNameByBcId(selectedLicense)}" album`;
+      return `Random "${getLicenseNameByBcId(selectedLicense, licenseData)}" album`;
     }
     if (showingFaves) {
       return "Random favorite album";
@@ -129,7 +149,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           {loadingTags === "loaded" ? (
-            <TagList tags={tagData} />
+            <TagList tags={tagData} licenses={licenseData} />
           ) : loadingTags === "error" ? (
             <p>Error loading tags (sorry)</p>
           ) : (
@@ -139,8 +159,9 @@ function App() {
         <Route path="/list">
           {loadingTags === "loaded" && loadingUrls === "loaded" ? (
             <UrlList
-              tags={tagData}
               urls={filteredUrls}
+              tags={tagData}
+              licenses={licenseData}
               loadPlayer={setPlayerData}
             />
           ) : loadingTags === "error" || loadingUrls === "error" ? (

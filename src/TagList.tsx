@@ -2,8 +2,7 @@ import { SyntheticEvent, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./TagList.css";
-import licenses from "./data/licenses.json";
-import { TagListing } from "./types";
+import { License, TagListing } from "./types";
 import { useDebounce } from "./hooks/useDebounce";
 
 const LOW_COUNT = 200;
@@ -11,6 +10,7 @@ const VERY_LOW_COUNT = 10;
 
 type Props = {
   tags: ReadonlyArray<TagListing>;
+  licenses: ReadonlyArray<License>;
 };
 
 /**
@@ -73,7 +73,7 @@ export default function TagList(props: Props) {
       </div>
 
       <div>
-        {licenses.map((l) => (
+        {props.licenses.map((l) => (
           <Link
             key={l.name}
             to={`/list?license=${l.bc_id}`}
