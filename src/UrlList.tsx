@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { License, PlayerData, TagListing, UrlListing } from "./types";
+import { PlayerData, UrlListing } from "./types";
 
 import "./UrlList.css";
 import useQueryString from "./hooks/useQueryString";
@@ -10,13 +10,13 @@ import {
   getLicenseUrlByBcId,
   getLicenseNameByBcId,
 } from "./util/licenses";
+import useUrls from "./hooks/useUrls";
+import useTags from "./hooks/useTags";
+import useLicenses from "./hooks/useLicenses";
 
 const LANDING_COUNT = 10;
 
 type Props = {
-  urls: ReadonlyArray<UrlListing>;
-  tags: ReadonlyArray<TagListing>;
-  licenses: ReadonlyArray<License>;
   loadPlayer: (data: PlayerData) => void;
 };
 
@@ -38,16 +38,14 @@ function shuffle(array: UrlListing[]) {
 }
 
 export default function UrlList(props: Props) {
-  const { urls, tags, loadPlayer } = props;
+  const { data: urlData } = useUrls();
+  const { data: tagData } = useTags();
+  const { data: licenseData } = useLicenses();
+  const { loadPlayer } = props;
   const query = useQueryString();
   const [showAll, setShowAll] = useState<boolean>(false);
 
-  const licenseQuery = query.get("license");
-  const selectedLicense = licenseQuery ? +licenseQuery : null;
-  const selectedTag = query.get("tag");
-  const showingFaves = !!query.get("faves");
-
-  const stringJSON = JSON.stringify(urls);
+  const stringJSON = JSON.stringify(urlData);
   const shuffledUrls = useMemo<UrlListing[]>(() => {
     setShowAll(false);
     const urlCopy = JSON.parse(stringJSON);
@@ -66,7 +64,13 @@ export default function UrlList(props: Props) {
     return nextUrls;
   }, [shuffledUrls, showAll]);
 
-  const hasResults = urls.length !== 0;
+  if (!urlData || !tagData || !licenseData) return null;
+
+  const licenseQuery = query.get("license");
+  const selectedLicense = licenseQuery ? +licenseQuery : null;
+  const selectedTag = query.get("tag");
+  const showingFaves = !!query.get("faves");
+  const hasResults = urlData.length !== 0;
 
   return (
     <div>
@@ -83,13 +87,13 @@ export default function UrlList(props: Props) {
       {hasResults && selectedLicense && (
         <div className="url-list__license-details">
           License details
-          {getLicenseDescriptionByBcId(selectedLicense, props.licenses).map(
+          {getLicenseDescriptionByBcId(selectedLicense, licenseData).map(
             (e) => (
               <p key={e}>{e}</p>
             ),
           )}
           <a
-            href={getLicenseUrlByBcId(selectedLicense, props.licenses)}
+            href={getLicenseUrlByBcId(selectedLicense, licenseData)}
             target="_blank"
           >
             Link to license
@@ -124,7 +128,7 @@ export default function UrlList(props: Props) {
           </a>
           <div className="url-list__tag-container">
             {u.tags.map((t, i) => {
-              const tag = tags.find((e) => e.tag_id === t);
+              const tag = tagData.find((e) => e.tag_id === t);
               const name = tag?.name || "";
               return (
                 <Link
@@ -153,7 +157,7 @@ export default function UrlList(props: Props) {
                   : "")
               }
             >
-              {getLicenseNameByBcId(u.license, props.licenses)}
+              {getLicenseNameByBcId(u.license, licenseData)}
             </Link>
           </div>
           <button
@@ -176,7 +180,7 @@ export default function UrlList(props: Props) {
       ))}
 
       <div>
-        {!showAll && urls.length > LANDING_COUNT && (
+        {!showAll && urlData.length > LANDING_COUNT && (
           <button onClick={() => setShowAll(true)} className="show-more-button">
             Show all albums
           </button>

@@ -2,16 +2,12 @@ import { SyntheticEvent, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./TagList.css";
-import { License, TagListing } from "./types";
 import { useDebounce } from "./hooks/useDebounce";
+import useTags from "./hooks/useTags";
+import useLicenses from "./hooks/useLicenses";
 
 const LOW_COUNT = 200;
 const VERY_LOW_COUNT = 10;
-
-type Props = {
-  tags: ReadonlyArray<TagListing>;
-  licenses: ReadonlyArray<License>;
-};
 
 /**
  * top = only show the top tags by count
@@ -20,8 +16,9 @@ type Props = {
  */
 type FilterLowCountOptions = "top" | "more" | "all";
 
-export default function TagList(props: Props) {
-  const { tags } = props;
+export default function TagList() {
+  const { data: tagData } = useTags();
+  const { data: licenseData } = useLicenses();
   const [search, setSearch] = useState<string>("");
   const debouncedSearch = useDebounce(search, 500);
   const prevSearchRef = useRef<string>("");
@@ -43,7 +40,9 @@ export default function TagList(props: Props) {
     prevSearchRef.current = debouncedSearch;
   }, [debouncedSearch]);
 
-  const filteredTags = tags.filter((t) => {
+  if (!tagData || !licenseData) return null;
+
+  const filteredTags = tagData.filter((t) => {
     if (filterLowCount === "top" && t.count < LOW_COUNT) return false;
     if (filterLowCount === "more" && t.count < VERY_LOW_COUNT) return false;
     if (!debouncedSearch) return true;
@@ -73,7 +72,7 @@ export default function TagList(props: Props) {
       </div>
 
       <div>
-        {props.licenses.map((l) => (
+        {licenseData.map((l) => (
           <Link
             key={l.name}
             to={`/list?license=${l.bc_id}`}

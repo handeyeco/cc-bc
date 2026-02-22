@@ -10,68 +10,38 @@ import {
   filterUrlsByLicense,
   filterUrlsByTag,
 } from "./util/url-filters";
-import {
-  License,
-  LoadingState,
-  PlayerData,
-  TagListing,
-  UrlListing,
-} from "./types";
+import { PlayerData, UrlListing } from "./types";
 import { useEffect, useMemo, useState } from "react";
 import { getLicenseNameByBcId } from "./util/licenses";
 import Advanced from "./Advanced";
 
 import "./App.css";
+import useUrls from "./hooks/useUrls";
+import useLicenses from "./hooks/useLicenses";
+import useTags from "./hooks/useTags";
 
 function App() {
   const [playerData, setPlayerData] = useState<PlayerData>();
   const query = useQueryString();
   const { search } = useLocation();
 
-  const [loadingTags, setLoadingTags] = useState<LoadingState>("not-started");
-  const [tagData, setTagData] = useState<ReadonlyArray<TagListing>>([]);
-  const [loadingUrls, setLoadingUrls] = useState<LoadingState>("not-started");
-  const [urlData, setUrlData] = useState<ReadonlyArray<UrlListing>>([]);
-  const [loadingLicenses, setLoadingLicenses] =
-    useState<LoadingState>("not-started");
-  const [licenseData, setLicenseData] = useState<ReadonlyArray<License>>([]);
-
-  useEffect(() => {
-    if (loadingTags === "not-started") {
-      setLoadingTags("loading");
-      fetch("/cc-bc/tags.json")
-        .then((res) => res.json())
-        .then((data) => setTagData(data))
-        .then(() => setLoadingTags("loaded"))
-        .catch(() => setLoadingTags("error"));
-    }
-  }, [loadingTags]);
-
-  useEffect(() => {
-    if (loadingUrls === "not-started") {
-      setLoadingUrls("loading");
-      fetch("/cc-bc/urls.json")
-        .then((res) => res.json())
-        .then((data) => setUrlData(data))
-        .then(() => setLoadingUrls("loaded"))
-        .catch(() => setLoadingUrls("error"));
-    }
-  }, [loadingUrls]);
-
-  useEffect(() => {
-    if (loadingLicenses === "not-started") {
-      setLoadingLicenses("loading");
-      fetch("/cc-bc/licenses.json")
-        .then((res) => res.json())
-        .then((data) => setLicenseData(data))
-        .then(() => setLoadingLicenses("loaded"))
-        .catch(() => setLoadingLicenses("error"));
-    }
-  }, [loadingLicenses]);
+  const { data: urlData, isPending: loadingUrls, error: urlsError } = useUrls();
+  const { data: tagData, isPending: loadingTags, error: tagsError } = useTags();
+  const {
+    data: licenseData,
+    isPending: loadingLicenses,
+    error: licensesError,
+  } = useLicenses();
 
   useEffect(() => {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   }, [search]);
+
+  const urlsLoaded = !loadingUrls && !urlsError;
+  const tagsLoaded = !loadingTags && !tagsError;
+  const licensesLoaded = !loadingLicenses && !licensesError;
+  const allLoaded = urlsLoaded && tagsLoaded && licensesLoaded;
+  const someError = urlsError || tagsError || licensesError;
 
   const licenseQuery = query.get("license");
   const selectedLicense = licenseQuery ? +licenseQuery : null;
@@ -80,6 +50,9 @@ function App() {
 
   // for the list
   const filteredUrls: ReadonlyArray<UrlListing> = useMemo(() => {
+    if (!allLoaded) {
+      return [];
+    }
     let filtered: ReadonlyArray<UrlListing> = urlData;
     if (selectedLicense) {
       filtered = filterUrlsByLicense(selectedLicense, filtered);
@@ -91,7 +64,7 @@ function App() {
       filtered = filterUrlsByFaves(filtered);
     }
     return filtered;
-  }, [urlData, selectedLicense, selectedTag, showingFaves]);
+  }, [allLoaded, urlData, selectedLicense, selectedTag, showingFaves]);
 
   // for the random button
   const collapsedUrls: ReadonlyArray<UrlListing> = useMemo(
@@ -101,7 +74,7 @@ function App() {
 
   function randomPageText() {
     const defaultText = "Random cc-bc album";
-    if (loadingUrls !== "loaded") {
+    if (!allLoaded) {
       return "Loading stuff...";
     }
     if (urlData.length === filteredUrls.length) return defaultText;
@@ -141,39 +114,34 @@ function App() {
       <button
         onClick={randomPage}
         className="app__random-button"
-        disabled={loadingUrls !== "loaded"}
+        disabled={!allLoaded}
       >
         {randomPageText()}
       </button>
 
       <Switch>
         <Route exact path="/">
-          {loadingTags === "loaded" ? (
-            <TagList tags={tagData} licenses={licenseData} />
-          ) : loadingTags === "error" ? (
+          {tagsLoaded ? (
+            <TagList />
+          ) : tagsError ? (
             <p>Error loading tags (sorry)</p>
           ) : (
-            <p>Loading tags...</p>
+            <p>Loading too much stuff...</p>
           )}
         </Route>
         <Route path="/list">
-          {loadingTags === "loaded" && loadingUrls === "loaded" ? (
-            <UrlList
-              urls={filteredUrls}
-              tags={tagData}
-              licenses={licenseData}
-              loadPlayer={setPlayerData}
-            />
-          ) : loadingTags === "error" || loadingUrls === "error" ? (
+          {allLoaded ? (
+            <UrlList loadPlayer={setPlayerData} />
+          ) : someError ? (
             <p>Error loading data (sorry)</p>
           ) : (
             <p>Loading too much stuff...</p>
           )}
         </Route>
         <Route path="/advanced">
-          {loadingTags === "loaded" && loadingUrls === "loaded" ? (
-            <Advanced tags={tagData} urls={filteredUrls} />
-          ) : loadingTags === "error" || loadingUrls === "error" ? (
+          {allLoaded ? (
+            <Advanced />
+          ) : someError ? (
             <p>Error loading data (sorry)</p>
           ) : (
             <p>Loading too much stuff...</p>
@@ -192,7 +160,7 @@ function App() {
         </div>
       )}
 
-      {loadingTags === "loaded" && loadingUrls === "loaded" && (
+      {allLoaded && (
         <footer>
           🍹{" "}
           <a href="https://github.com/handeyeco/cc-bc" target="_blank">

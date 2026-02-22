@@ -5,13 +5,11 @@ import { getTagByIdMemo } from "./util/tags";
 import { getLicenseNameByBcId } from "./util/licenses";
 
 import "./Advanced.css";
+import useUrls from "./hooks/useUrls";
+import useTags from "./hooks/useTags";
+import useLicenses from "./hooks/useLicenses";
 
 const SAMPLE_COUNT = 5;
-
-type AdvancedProps = {
-  urls: ReadonlyArray<UrlListing>;
-  tags: ReadonlyArray<TagListing>;
-};
 
 type AdvancedCardProps = {
   url: UrlListing;
@@ -19,7 +17,11 @@ type AdvancedCardProps = {
 };
 
 function AdvancedCard(props: AdvancedCardProps) {
+  const { data: licenseData } = useLicenses();
   const { url, tags } = props;
+
+  if (!licenseData) return null;
+
   return (
     <div className="advanced-card">
       <ul>
@@ -36,14 +38,19 @@ function AdvancedCard(props: AdvancedCardProps) {
         </li>
         <li>
           <span className="advanced-card__row-name">license:</span>{" "}
-          {getLicenseNameByBcId(url.license)}
+          {getLicenseNameByBcId(url.license, licenseData)}
         </li>
       </ul>
     </div>
   );
 }
 
-function Advanced(props: AdvancedProps) {
+function Advanced() {
+  // shared data
+  const { data: urlData } = useUrls();
+  const { data: tagData } = useTags();
+  const { data: licenseData } = useLicenses();
+
   // for the inputs
   const [includeTags, setIncludeTags] = useState<string>("");
   const [excludeTags, setExcludeTags] = useState<string>("");
@@ -80,6 +87,8 @@ function Advanced(props: AdvancedProps) {
   // There's bound to be a better way to do this,
   // but I just wanted to update the list when clicking submit
   const filteredUrls = useMemo(() => {
+    if (!licenseData || !urlData || !tagData) return [];
+
     return filterUrlsAdvanced(
       includeTagsFilter,
       excludeTagsFilter,
@@ -87,8 +96,9 @@ function Advanced(props: AdvancedProps) {
       excludeStringFilter,
       includeLicenseFilter,
       capUrlsPerAccountFilter,
-      props.tags,
-      props.urls
+      tagData,
+      urlData,
+      licenseData,
     );
   }, [
     includeTagsFilter,
@@ -97,15 +107,18 @@ function Advanced(props: AdvancedProps) {
     excludeStringFilter,
     includeLicenseFilter,
     capUrlsPerAccountFilter,
-    props.tags,
-    props.urls,
+    tagData,
+    urlData,
+    licenseData,
   ]);
 
   // for the random button
   const collapsedUrls: ReadonlyArray<UrlListing> = useMemo(
     () => collapseUrls(filteredUrls),
-    [filteredUrls]
+    [filteredUrls],
   );
+
+  if (!licenseData || !urlData || !tagData) return null;
 
   let displayedUrls = filteredUrls;
   if (!showAllResults) {
@@ -205,7 +218,7 @@ function Advanced(props: AdvancedProps) {
       </p>
 
       {displayedUrls.map((u) => (
-        <AdvancedCard key={u.url} url={u} tags={props.tags} />
+        <AdvancedCard key={u.url} url={u} tags={tagData} />
       ))}
 
       <div>
