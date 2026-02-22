@@ -3,7 +3,7 @@ import { Switch, Route, Link, useLocation } from "react-router-dom";
 import TagList from "./TagList";
 import UrlList from "./UrlList";
 
-import useQuery from "./hooks/useQuery";
+import useQueryString from "./hooks/useQueryString";
 import {
   collapseUrls,
   filterUrlsByFaves,
@@ -25,7 +25,7 @@ import "./App.css";
 
 function App() {
   const [playerData, setPlayerData] = useState<PlayerData>();
-  const query = useQuery();
+  const query = useQueryString();
   const { search } = useLocation();
 
   const [loadingTags, setLoadingTags] = useState<LoadingState>("not-started");

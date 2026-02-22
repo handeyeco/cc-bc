@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { License, PlayerData, TagListing, UrlListing } from "./types";
 
 import "./UrlList.css";
-import useQuery from "./hooks/useQuery";
+import useQueryString from "./hooks/useQueryString";
 import {
   getLicenseDescriptionByBcId,
   getLicenseUrlByBcId,
@@ -39,7 +39,7 @@ function shuffle(array: UrlListing[]) {
 
 export default function UrlList(props: Props) {
   const { urls, tags, loadPlayer } = props;
-  const query = useQuery();
+  const query = useQueryString();
   const [showAll, setShowAll] = useState<boolean>(false);
 
   const licenseQuery = query.get("license");
