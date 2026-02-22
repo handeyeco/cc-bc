@@ -10,13 +10,14 @@ import {
   getLicenseUrlByBcId,
   getLicenseNameByBcId,
 } from "./util/licenses";
-import useUrls from "./hooks/useUrls";
 import useTags from "./hooks/useTags";
 import useLicenses from "./hooks/useLicenses";
 
 const LANDING_COUNT = 10;
 
 type Props = {
+  // the filtered URLs
+  urls: ReadonlyArray<UrlListing>;
   loadPlayer: (data: PlayerData) => void;
 };
 
@@ -38,14 +39,14 @@ function shuffle(array: UrlListing[]) {
 }
 
 export default function UrlList(props: Props) {
-  const { data: urlData } = useUrls();
+  const { urls } = props;
   const { data: tagData } = useTags();
   const { data: licenseData } = useLicenses();
   const { loadPlayer } = props;
   const query = useQueryString();
   const [showAll, setShowAll] = useState<boolean>(false);
 
-  const stringJSON = JSON.stringify(urlData);
+  const stringJSON = JSON.stringify(urls);
   const shuffledUrls = useMemo<UrlListing[]>(() => {
     setShowAll(false);
     const urlCopy = JSON.parse(stringJSON);
@@ -64,13 +65,13 @@ export default function UrlList(props: Props) {
     return nextUrls;
   }, [shuffledUrls, showAll]);
 
-  if (!urlData || !tagData || !licenseData) return null;
+  if (!urls || !tagData || !licenseData) return null;
 
   const licenseQuery = query.get("license");
   const selectedLicense = licenseQuery ? +licenseQuery : null;
   const selectedTag = query.get("tag");
   const showingFaves = !!query.get("faves");
-  const hasResults = urlData.length !== 0;
+  const hasResults = urls.length !== 0;
 
   return (
     <div>
@@ -180,7 +181,7 @@ export default function UrlList(props: Props) {
       ))}
 
       <div>
-        {!showAll && urlData.length > LANDING_COUNT && (
+        {!showAll && urls.length > LANDING_COUNT && (
           <button onClick={() => setShowAll(true)} className="show-more-button">
             Show all albums
           </button>

@@ -131,7 +131,7 @@ function App() {
         </Route>
         <Route path="/list">
           {allLoaded ? (
-            <UrlList loadPlayer={setPlayerData} />
+            <UrlList urls={filteredUrls} loadPlayer={setPlayerData} />
           ) : someError ? (
             <p>Error loading data (sorry)</p>
           ) : (
