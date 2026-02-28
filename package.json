@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "yarn dev",
+    "start": "pnpm dev",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "yarn build && gh-pages -d dist"
+    "deploy": "pnpm build && gh-pages -d dist"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.21",
