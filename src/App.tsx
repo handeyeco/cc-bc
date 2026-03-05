@@ -19,6 +19,7 @@ import "./App.css";
 import useUrls from "./hooks/useUrls";
 import useLicenses from "./hooks/useLicenses";
 import useTags from "./hooks/useTags";
+import { useBandcampFriday } from "./hooks/useBandcampFriday";
 
 function App() {
   const [playerData, setPlayerData] = useState<PlayerData>();
@@ -32,6 +33,8 @@ function App() {
     isPending: loadingLicenses,
     error: licensesError,
   } = useLicenses();
+  const { isBandcampFriday, isCloseToBandcampFriday, nextBandcampFriday } =
+    useBandcampFriday();
 
   useEffect(() => {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
@@ -97,82 +100,98 @@ function App() {
   }
 
   return (
-    <div className="main-container">
-      <Link to="/" className="header-link">
-        <h1>cc-bc</h1>
-      </Link>
-      <p className="app__about">
-        Some{" "}
-        <a href="https://creativecommons.org/" target="_blank">
-          Creative Commons
-        </a>{" "}
-        music on{" "}
-        <a href="https://bandcamp.com/" target="_blank">
-          Bandcamp
-        </a>
-      </p>
-      <button
-        onClick={randomPage}
-        className="app__random-button"
-        disabled={!allLoaded}
-      >
-        {randomPageText()}
-      </button>
-
-      <Switch>
-        <Route exact path="/">
-          {tagsLoaded ? (
-            <TagList />
-          ) : tagsError ? (
-            <p>Error loading tags (sorry)</p>
-          ) : (
-            <p>Loading too much stuff...</p>
-          )}
-        </Route>
-        <Route path="/list">
-          {allLoaded ? (
-            <UrlList urls={filteredUrls} loadPlayer={setPlayerData} />
-          ) : someError ? (
-            <p>Error loading data (sorry)</p>
-          ) : (
-            <p>Loading too much stuff...</p>
-          )}
-        </Route>
-        <Route path="/advanced">
-          {allLoaded ? (
-            <Advanced />
-          ) : someError ? (
-            <p>Error loading data (sorry)</p>
-          ) : (
-            <p>Loading too much stuff...</p>
-          )}
-        </Route>
-      </Switch>
-
-      {playerData?.bc_id && (
-        <div className="sticky-player">
-          <iframe
-            src={`https://bandcamp.com/EmbeddedPlayer/album=${playerData.bc_id}/size=small/bgcol=ffffff/linkcol=ffb300/transparent=true/`}
-            seamless
-          >
-            <a href={playerData.url}>{playerData.title}</a>
-          </iframe>
+    <>
+      {(isBandcampFriday || isCloseToBandcampFriday) && (
+        <div
+          className={
+            "app__bandcamp-friday " +
+            (isBandcampFriday
+              ? "app__bandcamp-friday--active"
+              : "app__bandcamp-friday--close")
+          }
+        >
+          {isBandcampFriday
+            ? "It's Bandcamp Friday today! Yay!"
+            : `The next Bandcamp Friday is ${nextBandcampFriday}!`}
         </div>
       )}
-
-      {allLoaded && (
-        <footer>
-          🍹{" "}
-          <a href="https://github.com/handeyeco/cc-bc" target="_blank">
-            Source code and data
+      <div className="main-container">
+        <Link to="/" className="header-link">
+          <h1>cc-bc</h1>
+        </Link>
+        <p className="app__about">
+          Some{" "}
+          <a href="https://creativecommons.org/" target="_blank">
+            Creative Commons
+          </a>{" "}
+          music on{" "}
+          <a href="https://bandcamp.com/" target="_blank">
+            Bandcamp
           </a>
-          .
-          {!!urlData?.length && (
-            <span> Now up to {urlData.length.toLocaleString()} albums!</span>
-          )}
-        </footer>
-      )}
-    </div>
+        </p>
+        <button
+          onClick={randomPage}
+          className="app__random-button"
+          disabled={!allLoaded}
+        >
+          {randomPageText()}
+        </button>
+
+        <Switch>
+          <Route exact path="/">
+            {tagsLoaded ? (
+              <TagList />
+            ) : tagsError ? (
+              <p>Error loading tags (sorry)</p>
+            ) : (
+              <p>Loading too much stuff...</p>
+            )}
+          </Route>
+          <Route path="/list">
+            {allLoaded ? (
+              <UrlList urls={filteredUrls} loadPlayer={setPlayerData} />
+            ) : someError ? (
+              <p>Error loading data (sorry)</p>
+            ) : (
+              <p>Loading too much stuff...</p>
+            )}
+          </Route>
+          <Route path="/advanced">
+            {allLoaded ? (
+              <Advanced />
+            ) : someError ? (
+              <p>Error loading data (sorry)</p>
+            ) : (
+              <p>Loading too much stuff...</p>
+            )}
+          </Route>
+        </Switch>
+
+        {playerData?.bc_id && (
+          <div className="sticky-player">
+            <iframe
+              src={`https://bandcamp.com/EmbeddedPlayer/album=${playerData.bc_id}/size=small/bgcol=ffffff/linkcol=ffb300/transparent=true/`}
+              seamless
+            >
+              <a href={playerData.url}>{playerData.title}</a>
+            </iframe>
+          </div>
+        )}
+
+        {allLoaded && (
+          <footer>
+            🍹{" "}
+            <a href="https://github.com/handeyeco/cc-bc" target="_blank">
+              Source code and data
+            </a>
+            .
+            {!!urlData?.length && (
+              <span> Now up to {urlData.length.toLocaleString()} albums!</span>
+            )}
+          </footer>
+        )}
+      </div>
+    </>
   );
 }
 

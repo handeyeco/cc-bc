@@ -116,7 +116,7 @@ export default function UrlList(props: Props) {
 
               <ul className="url-list__blog-list">
                 {blogPostData?.map((e) => (
-                  <li>
+                  <li key={e.url}>
                     <a href={e.url} target="_blank">
                       {e.title}
                     </a>
