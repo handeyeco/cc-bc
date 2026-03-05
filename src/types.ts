@@ -23,6 +23,11 @@ export type License = {
   bc_id: number;
 };
 
+export type BlogData = {
+  url: string;
+  title: string;
+};
+
 export type PlayerData = {
   url: string;
   title: string;

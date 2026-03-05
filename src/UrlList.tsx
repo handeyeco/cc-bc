@@ -12,6 +12,7 @@ import {
 } from "./util/licenses";
 import useTags from "./hooks/useTags";
 import useLicenses from "./hooks/useLicenses";
+import useBlogPosts from "./hooks/useBlogPosts";
 
 const LANDING_COUNT = 10;
 
@@ -42,6 +43,7 @@ export default function UrlList(props: Props) {
   const { urls } = props;
   const { data: tagData } = useTags();
   const { data: licenseData } = useLicenses();
+  const { data: blogPostData } = useBlogPosts();
   const { loadPlayer } = props;
   const query = useQueryString();
   const [showAll, setShowAll] = useState<boolean>(false);
@@ -72,6 +74,7 @@ export default function UrlList(props: Props) {
   const selectedTag = query.get("tag");
   const showingFaves = !!query.get("faves");
   const hasResults = urls.length !== 0;
+  const hasBlogPosts = !!blogPostData?.length;
 
   return (
     <div>
@@ -107,11 +110,21 @@ export default function UrlList(props: Props) {
 
           <p>Thanks for checking out the site!</p>
 
-          {/* <p>
-            <a href="https://h-e.io/" target="_blank">
-              h-e.io
-            </a>
-          </p> */}
+          {hasBlogPosts && (
+            <>
+              <p>If you're looking for curated CC music, check out my blog:</p>
+
+              <ul className="url-list__blog-list">
+                {blogPostData?.map((e) => (
+                  <li>
+                    <a href={e.url} target="_blank">
+                      {e.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
       )}
       {filteredUrls.map((u) => (

@@ -103,3 +103,11 @@
 .url-list__listen.url-list__listen--fave {
   background: var(--fave-color);
 }
+
+.url-list__blog-list {
+  list-style-type: hiragana;
+}
+
+.url-list__blog-list li::marker {
+  color: var(--blue);
+}
