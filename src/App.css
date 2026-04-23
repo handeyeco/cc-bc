@@ -184,7 +184,7 @@ footer > a:active {
 .input-label__check {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
 }
 
 .input-label > input:not([type="checkbox"]) {

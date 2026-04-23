@@ -63,25 +63,45 @@ function Advanced() {
   const [excludeTags, setExcludeTags] = useState<string>("");
   const [includeString, setIncludeString] = useState<string>("");
   const [excludeString, setExcludeString] = useState<string>("");
-  const [includeLicense, setIncludeLicense] = useState<string>("");
+
+  const [licenses, setLicenses] = useState<Set<number>>(
+    new Set(licenseData!.map((l) => l.bc_id)),
+  );
+  const [sales, setSales] = useState<Set<number>>(new Set([0, 1, 2]));
   const [capUrlsPerAccount, setCapUrlsPerAccount] = useState<boolean>(false);
-  const [noneSales, setNoneSales] = useState<boolean>(true);
-  const [someSales, setSomeSales] = useState<boolean>(true);
-  const [manySales, setManySales] = useState<boolean>(true);
 
   // for the filtering
   const [includeTagsFilter, setIncludeTagsFilter] = useState<string>("");
   const [excludeTagsFilter, setExcludeTagsFilter] = useState<string>("");
   const [includeStringFilter, setIncludeStringFilter] = useState<string>("");
   const [excludeStringFilter, setExcludeStringFilter] = useState<string>("");
-  const [includeLicenseFilter, setIncludeLicenseFilter] = useState<string>("");
+
+  const [licensesFilter, setLicensesFilter] = useState<Set<number>>(licenses);
+  const [salesFilter, setSalesFilter] = useState<Set<number>>(sales);
   const [capUrlsPerAccountFilter, setCapUrlsPerAccountFilter] =
     useState<boolean>(false);
-  const [allowedSalesFilter, setAllowedSalesFilter] = useState<
-    ReadonlyArray<number>
-  >([]);
 
   const [showAllResults, setShowAllResults] = useState<boolean>(false);
+
+  function sharedSetLicenses(bc_id: number, value: boolean) {
+    const newSet = new Set(licenses);
+    if (value) {
+      newSet.add(bc_id);
+    } else {
+      newSet.delete(bc_id);
+    }
+    setLicenses(newSet);
+  }
+
+  function sharedSetSales(type: number, value: boolean) {
+    const newSet = new Set(sales);
+    if (value) {
+      newSet.add(type);
+    } else {
+      newSet.delete(type);
+    }
+    setSales(newSet);
+  }
 
   // update filters to trigger a recompute of the list
   function updateFilters(e: SyntheticEvent) {
@@ -93,14 +113,10 @@ function Advanced() {
     setExcludeTagsFilter(excludeTags);
     setIncludeStringFilter(includeString);
     setExcludeStringFilter(excludeString);
-    setIncludeLicenseFilter(includeLicense);
-    setCapUrlsPerAccountFilter(capUrlsPerAccount);
 
-    const allowed: number[] = [];
-    if (noneSales) allowed.push(SALES_NONE);
-    if (someSales) allowed.push(SALES_SOME);
-    if (manySales) allowed.push(SALES_MANY);
-    setAllowedSalesFilter(allowed);
+    setCapUrlsPerAccountFilter(capUrlsPerAccount);
+    setLicensesFilter(licenses);
+    setSalesFilter(sales);
   }
 
   // There's bound to be a better way to do this,
@@ -113,21 +129,20 @@ function Advanced() {
       excludeTagsFilter,
       includeStringFilter,
       excludeStringFilter,
-      includeLicenseFilter,
+      licensesFilter,
+      salesFilter,
       capUrlsPerAccountFilter,
-      allowedSalesFilter,
       tagData,
       urlData,
-      licenseData,
     );
   }, [
     includeTagsFilter,
     excludeTagsFilter,
     includeStringFilter,
     excludeStringFilter,
-    includeLicenseFilter,
+    licensesFilter,
     capUrlsPerAccountFilter,
-    allowedSalesFilter,
+    salesFilter,
     tagData,
     urlData,
     licenseData,
@@ -162,9 +177,6 @@ function Advanced() {
           </li>
           <li>
             Strings are checked against title and url: <i>"Boards","Canada"</i>
-          </li>
-          <li>
-            License is by abbreviation: <i>"by-nc-nd","by"</i>
           </li>
         </ul>
       </div>
@@ -202,53 +214,74 @@ function Advanced() {
           />
         </label>
 
-        <label className="input-label">
-          Include license (OR)
-          <input
-            value={includeLicense}
-            onChange={(e) => setIncludeLicense(e.target.value)}
-          />
-        </label>
+        <div className="advanced__check-group">
+          Filter by license:
+          <div className="advanced__check-flex">
+            {licenseData
+              .sort((a, b) => (a.name.length > b.name.length ? -1 : 1))
+              .map((license) => {
+                const checked = licenses.has(license.bc_id);
+                return (
+                  <label
+                    key={license.bc_id}
+                    className="input-label input-label__check"
+                  >
+                    <input
+                      type="checkbox"
+                      checked={checked}
+                      onChange={(e) => {
+                        sharedSetLicenses(license.bc_id, e.target.checked);
+                      }}
+                    />
+                    {license.name}
+                  </label>
+                );
+              })}
+          </div>
+        </div>
 
-        <label className="input-label input-label__check">
-          <input
-            type="checkbox"
-            checked={capUrlsPerAccount}
-            onChange={(e) => {
-              setCapUrlsPerAccount(e.target.checked);
-            }}
-          />
-          Cap listings ({URL_CAP} per account)
-        </label>
-
-        <div className="advances__sales">
+        <div className="advanced__check-group">
           Filter by sales:
-          <div className="advanced__sales-flex">
+          <div className="advanced__check-flex">
             <label className="input-label input-label__check">
               <input
                 type="checkbox"
-                checked={noneSales}
-                onChange={(e) => setNoneSales(e.target.checked)}
+                checked={sales.has(SALES_NONE)}
+                onChange={(e) => sharedSetSales(SALES_NONE, e.target.checked)}
               />
               No sales
             </label>
             <label className="input-label input-label__check">
               <input
                 type="checkbox"
-                checked={someSales}
-                onChange={(e) => setSomeSales(e.target.checked)}
+                checked={sales.has(SALES_SOME)}
+                onChange={(e) => sharedSetSales(SALES_SOME, e.target.checked)}
               />
               Some sales
             </label>
             <label className="input-label input-label__check">
               <input
                 type="checkbox"
-                checked={manySales}
-                onChange={(e) => setManySales(e.target.checked)}
+                checked={sales.has(SALES_MANY)}
+                onChange={(e) => sharedSetSales(SALES_MANY, e.target.checked)}
               />
               More sales
             </label>
           </div>
+        </div>
+
+        <div className="advanced__check-group">
+          Other:
+          <label className="input-label input-label__check">
+            <input
+              type="checkbox"
+              checked={capUrlsPerAccount}
+              onChange={(e) => {
+                setCapUrlsPerAccount(e.target.checked);
+              }}
+            />
+            Cap listings ({URL_CAP} per account)
+          </label>
         </div>
 
         <p>

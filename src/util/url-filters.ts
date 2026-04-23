@@ -1,4 +1,4 @@
-import { License, TagListing, UrlListing } from "../types";
+import { TagListing, UrlListing } from "../types";
 import { getTagByNameMemo } from "./tags";
 
 export const SALES_NONE = 0;
@@ -57,23 +57,26 @@ export function filterUrlsAdvanced(
   excludeTags: string,
   includeString: string,
   excludeString: string,
-  includeLicense: string,
+  licenses: Set<number>,
+  sales: Set<number>,
   capUrlsPerAccount: boolean,
-  allowedSales: ReadonlyArray<number>,
   tags: ReadonlyArray<TagListing>,
   urls: ReadonlyArray<UrlListing>,
-  licenses: ReadonlyArray<License>,
 ): ReadonlyArray<UrlListing> {
   if (
     !includeTags &&
     !excludeTags &&
     !includeString &&
     !excludeString &&
-    !includeLicense &&
     !capUrlsPerAccount &&
-    allowedSales.length === 3
+    licenses?.size === 6 &&
+    sales?.size === 3
   ) {
     return urls;
+  }
+
+  if (licenses?.size === 0 || sales?.size === 0) {
+    return [];
   }
 
   // precompute everything that doesn't change per-URL
@@ -85,15 +88,8 @@ export function filterUrlsAdvanced(
     : null;
   const includeStringTerms = includeString ? splitTerms(includeString) : null;
   const excludeStringTerms = excludeString ? splitTerms(excludeString) : null;
-  const allowedLicenseIds = includeLicense
-    ? new Set(
-        splitTerms(includeLicense).map(
-          (t) => licenses.find((l) => t === l.name)?.bc_id,
-        ),
-      )
-    : null;
-  const allowedSalesSet =
-    allowedSales.length < 3 ? new Set(allowedSales) : null;
+  const allowedLicenseSet = licenses.size < 6 ? new Set(licenses) : null;
+  const allowedSalesSet = sales.size < 3 ? new Set(sales) : null;
 
   let prefilteredUrls: ReadonlyArray<UrlListing> = urls;
   if (capUrlsPerAccount) {
@@ -111,7 +107,7 @@ export function filterUrlsAdvanced(
   }
 
   return prefilteredUrls.filter((u) => {
-    if (allowedLicenseIds && !allowedLicenseIds.has(u.license)) {
+    if (allowedLicenseSet && !allowedLicenseSet.has(u.license)) {
       return false;
     }
 
