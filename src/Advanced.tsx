@@ -217,26 +217,24 @@ function Advanced() {
         <div className="advanced__check-group">
           Filter by license:
           <div className="advanced__check-flex">
-            {licenseData
-              .sort((a, b) => (a.name.length > b.name.length ? -1 : 1))
-              .map((license) => {
-                const checked = licenses.has(license.bc_id);
-                return (
-                  <label
-                    key={license.bc_id}
-                    className="input-label input-label__check"
-                  >
-                    <input
-                      type="checkbox"
-                      checked={checked}
-                      onChange={(e) => {
-                        sharedSetLicenses(license.bc_id, e.target.checked);
-                      }}
-                    />
-                    {license.name}
-                  </label>
-                );
-              })}
+            {licenseData.map((license) => {
+              const checked = licenses.has(license.bc_id);
+              return (
+                <label
+                  key={license.bc_id}
+                  className="input-label input-label__check"
+                >
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    onChange={(e) => {
+                      sharedSetLicenses(license.bc_id, e.target.checked);
+                    }}
+                  />
+                  {license.name}
+                </label>
+              );
+            })}
           </div>
         </div>
 
