@@ -63,14 +63,18 @@ export function filterUrlsAdvanced(
   tags: ReadonlyArray<TagListing>,
   urls: ReadonlyArray<UrlListing>,
 ): ReadonlyArray<UrlListing> {
+  // TODO: don't hardcode magic numbers
+  const filteringLicenses = licenses.size < 6;
+  const filteringSales = sales.size < 3;
+
   if (
     !includeTags &&
     !excludeTags &&
     !includeString &&
     !excludeString &&
     !capUrlsPerAccount &&
-    licenses?.size === 6 &&
-    sales?.size === 3
+    !filteringLicenses &&
+    !filteringSales
   ) {
     return urls;
   }
@@ -88,8 +92,6 @@ export function filterUrlsAdvanced(
     : null;
   const includeStringTerms = includeString ? splitTerms(includeString) : null;
   const excludeStringTerms = excludeString ? splitTerms(excludeString) : null;
-  const allowedLicenseSet = licenses.size < 6 ? new Set(licenses) : null;
-  const allowedSalesSet = sales.size < 3 ? new Set(sales) : null;
 
   let prefilteredUrls: ReadonlyArray<UrlListing> = urls;
   if (capUrlsPerAccount) {
@@ -107,7 +109,11 @@ export function filterUrlsAdvanced(
   }
 
   return prefilteredUrls.filter((u) => {
-    if (allowedLicenseSet && !allowedLicenseSet.has(u.license)) {
+    if (filteringLicenses && !licenses.has(u.license)) {
+      return false;
+    }
+
+    if (filteringSales && !sales.has(u.sales)) {
       return false;
     }
 
@@ -146,10 +152,6 @@ export function filterUrlsAdvanced(
           return false;
         }
       }
-    }
-
-    if (allowedSalesSet && !allowedSalesSet.has(u.sales)) {
-      return false;
     }
 
     return true;
