@@ -76,79 +76,83 @@ export function filterUrlsAdvanced(
     return urls;
   }
 
+  // precompute everything that doesn't change per-URL
+  const includeTagTerms = includeTags
+    ? splitTerms(includeTags).map((t) => getTagByNameMemo(tags, t)?.tag_id)
+    : null;
+  const excludeTagTerms = excludeTags
+    ? splitTerms(excludeTags).map((t) => getTagByNameMemo(tags, t)?.tag_id)
+    : null;
+  const includeStringTerms = includeString ? splitTerms(includeString) : null;
+  const excludeStringTerms = excludeString ? splitTerms(excludeString) : null;
+  const allowedLicenseIds = includeLicense
+    ? new Set(
+        splitTerms(includeLicense).map(
+          (t) => licenses.find((l) => t === l.name)?.bc_id,
+        ),
+      )
+    : null;
+  const allowedSalesSet =
+    allowedSales.length < 3 ? new Set(allowedSales) : null;
+
   let prefilteredUrls: ReadonlyArray<UrlListing> = urls;
   if (capUrlsPerAccount) {
     const cappedList: Record<string, UrlListing[]> = {};
-
     urls.forEach((u) => {
       const origin = new URL(u.url).origin;
       if (!cappedList[origin]) {
         cappedList[origin] = [];
       }
-
       if (cappedList[origin].length < URL_CAP) {
         cappedList[origin].push(u);
       }
-
-      prefilteredUrls = Object.values(cappedList).flat();
     });
+    prefilteredUrls = Object.values(cappedList).flat();
   }
 
   return prefilteredUrls.filter((u) => {
-    if (includeLicense) {
-      const terms = splitTerms(includeLicense);
-      // allowed IDs
-      const ids = terms.map((t) => licenses.find((l) => t === l.name)?.bc_id);
-      if (!ids.includes(u.license)) {
-        return false;
+    if (allowedLicenseIds && !allowedLicenseIds.has(u.license)) {
+      return false;
+    }
+
+    if (includeStringTerms || excludeStringTerms) {
+      const lowerTitle = u.title.toLowerCase();
+      const lowerUrl = u.url.toLowerCase();
+
+      if (includeStringTerms) {
+        for (const t of includeStringTerms) {
+          if (!lowerTitle.includes(t) && !lowerUrl.includes(t)) {
+            return false;
+          }
+        }
+      }
+
+      if (excludeStringTerms) {
+        for (const t of excludeStringTerms) {
+          if (lowerTitle.includes(t) || lowerUrl.includes(t)) {
+            return false;
+          }
+        }
       }
     }
 
-    if (includeString) {
-      const terms = splitTerms(includeString);
-      for (const t of terms) {
-        if (
-          !u.title.toLowerCase().includes(t) &&
-          !u.url.toLowerCase().includes(t)
-        ) {
+    if (includeTagTerms) {
+      for (const tagId of includeTagTerms) {
+        if (tagId != null && !u.tags.includes(tagId)) {
           return false;
         }
       }
     }
 
-    if (excludeString) {
-      const terms = splitTerms(excludeString);
-      for (const t of terms) {
-        if (
-          u.title.toLowerCase().includes(t) ||
-          u.url.toLowerCase().includes(t)
-        ) {
+    if (excludeTagTerms) {
+      for (const tagId of excludeTagTerms) {
+        if (tagId != null && u.tags.includes(tagId)) {
           return false;
         }
       }
     }
 
-    if (includeTags) {
-      const terms = splitTerms(includeTags);
-      for (const t of terms) {
-        const tag = getTagByNameMemo(tags, t);
-        if (tag && !u.tags.includes(tag.tag_id)) {
-          return false;
-        }
-      }
-    }
-
-    if (excludeTags) {
-      const terms = splitTerms(excludeTags);
-      for (const t of terms) {
-        const tag = getTagByNameMemo(tags, t);
-        if (tag && u.tags.includes(tag.tag_id)) {
-          return false;
-        }
-      }
-    }
-
-    if (allowedSales.length < 3 && !allowedSales.includes(u.sales)) {
+    if (allowedSalesSet && !allowedSalesSet.has(u.sales)) {
       return false;
     }
 
