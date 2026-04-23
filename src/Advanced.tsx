@@ -1,6 +1,13 @@
 import { SyntheticEvent, useMemo, useState } from "react";
 import { TagListing, UrlListing } from "./types";
-import { collapseUrls, filterUrlsAdvanced, URL_CAP } from "./util/url-filters";
+import {
+  collapseUrls,
+  filterUrlsAdvanced,
+  SALES_MANY,
+  SALES_NONE,
+  SALES_SOME,
+  URL_CAP,
+} from "./util/url-filters";
 import { getTagByIdMemo } from "./util/tags";
 import { getLicenseNameByBcId } from "./util/licenses";
 
@@ -58,6 +65,9 @@ function Advanced() {
   const [excludeString, setExcludeString] = useState<string>("");
   const [includeLicense, setIncludeLicense] = useState<string>("");
   const [capUrlsPerAccount, setCapUrlsPerAccount] = useState<boolean>(false);
+  const [noneSales, setNoneSales] = useState<boolean>(true);
+  const [someSales, setSomeSales] = useState<boolean>(true);
+  const [manySales, setManySales] = useState<boolean>(true);
 
   // for the filtering
   const [includeTagsFilter, setIncludeTagsFilter] = useState<string>("");
@@ -67,6 +77,9 @@ function Advanced() {
   const [includeLicenseFilter, setIncludeLicenseFilter] = useState<string>("");
   const [capUrlsPerAccountFilter, setCapUrlsPerAccountFilter] =
     useState<boolean>(false);
+  const [allowedSalesFilter, setAllowedSalesFilter] = useState<
+    ReadonlyArray<number>
+  >([]);
 
   const [showAllResults, setShowAllResults] = useState<boolean>(false);
 
@@ -82,6 +95,12 @@ function Advanced() {
     setExcludeStringFilter(excludeString);
     setIncludeLicenseFilter(includeLicense);
     setCapUrlsPerAccountFilter(capUrlsPerAccount);
+
+    const allowed: number[] = [];
+    if (noneSales) allowed.push(SALES_NONE);
+    if (someSales) allowed.push(SALES_SOME);
+    if (manySales) allowed.push(SALES_MANY);
+    setAllowedSalesFilter(allowed);
   }
 
   // There's bound to be a better way to do this,
@@ -96,6 +115,7 @@ function Advanced() {
       excludeStringFilter,
       includeLicenseFilter,
       capUrlsPerAccountFilter,
+      allowedSalesFilter,
       tagData,
       urlData,
       licenseData,
@@ -107,6 +127,7 @@ function Advanced() {
     excludeStringFilter,
     includeLicenseFilter,
     capUrlsPerAccountFilter,
+    allowedSalesFilter,
     tagData,
     urlData,
     licenseData,
@@ -206,30 +227,24 @@ function Advanced() {
             <label className="input-label input-label__check">
               <input
                 type="checkbox"
-                checked={capUrlsPerAccount}
-                onChange={(e) => {
-                  setCapUrlsPerAccount(e.target.checked);
-                }}
+                checked={noneSales}
+                onChange={(e) => setNoneSales(e.target.checked)}
               />
               No sales
             </label>
             <label className="input-label input-label__check">
               <input
                 type="checkbox"
-                checked={capUrlsPerAccount}
-                onChange={(e) => {
-                  setCapUrlsPerAccount(e.target.checked);
-                }}
+                checked={someSales}
+                onChange={(e) => setSomeSales(e.target.checked)}
               />
               Some sales
             </label>
             <label className="input-label input-label__check">
               <input
                 type="checkbox"
-                checked={capUrlsPerAccount}
-                onChange={(e) => {
-                  setCapUrlsPerAccount(e.target.checked);
-                }}
+                checked={manySales}
+                onChange={(e) => setManySales(e.target.checked)}
               />
               More sales
             </label>

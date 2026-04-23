@@ -1,6 +1,10 @@
 import { License, TagListing, UrlListing } from "../types";
 import { getTagByNameMemo } from "./tags";
 
+export const SALES_NONE = 0;
+export const SALES_SOME = 1;
+export const SALES_MANY = 2;
+
 // this is an effort to highlight more artists,
 // rather than showing the same super-prolific artists
 // over and over again (cap listings by domain)
@@ -55,6 +59,7 @@ export function filterUrlsAdvanced(
   excludeString: string,
   includeLicense: string,
   capUrlsPerAccount: boolean,
+  allowedSales: ReadonlyArray<number>,
   tags: ReadonlyArray<TagListing>,
   urls: ReadonlyArray<UrlListing>,
   licenses: ReadonlyArray<License>,
@@ -65,7 +70,8 @@ export function filterUrlsAdvanced(
     !includeString &&
     !excludeString &&
     !includeLicense &&
-    !capUrlsPerAccount
+    !capUrlsPerAccount &&
+    allowedSales.length === 3
   ) {
     return urls;
   }
@@ -140,6 +146,10 @@ export function filterUrlsAdvanced(
           return false;
         }
       }
+    }
+
+    if (allowedSales.length < 3 && !allowedSales.includes(u.sales)) {
+      return false;
     }
 
     return true;
