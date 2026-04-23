@@ -22,3 +22,11 @@
 .advanced-card__row-name {
   color: var(--orange);
 }
+
+.advances__sales {
+  padding-top: 1rem;
+}
+
+.advanced__sales-flex {
+  display: flex;
+}

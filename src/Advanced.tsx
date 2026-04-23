@@ -189,8 +189,7 @@ function Advanced() {
           />
         </label>
 
-        <label className="input-label">
-          Cap listings ({URL_CAP} per account)
+        <label className="input-label input-label__check">
           <input
             type="checkbox"
             checked={capUrlsPerAccount}
@@ -198,7 +197,44 @@ function Advanced() {
               setCapUrlsPerAccount(e.target.checked);
             }}
           />
+          Cap listings ({URL_CAP} per account)
         </label>
+
+        <div className="advances__sales">
+          Filter by sales:
+          <div className="advanced__sales-flex">
+            <label className="input-label input-label__check">
+              <input
+                type="checkbox"
+                checked={capUrlsPerAccount}
+                onChange={(e) => {
+                  setCapUrlsPerAccount(e.target.checked);
+                }}
+              />
+              No sales
+            </label>
+            <label className="input-label input-label__check">
+              <input
+                type="checkbox"
+                checked={capUrlsPerAccount}
+                onChange={(e) => {
+                  setCapUrlsPerAccount(e.target.checked);
+                }}
+              />
+              Some sales
+            </label>
+            <label className="input-label input-label__check">
+              <input
+                type="checkbox"
+                checked={capUrlsPerAccount}
+                onChange={(e) => {
+                  setCapUrlsPerAccount(e.target.checked);
+                }}
+              />
+              More sales
+            </label>
+          </div>
+        </div>
 
         <p>
           <button className="advanced__submit">Submit →</button>
