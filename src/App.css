@@ -181,6 +181,12 @@ footer > a:active {
   padding: 1rem 0.25rem;
 }
 
+.input-label__check {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
 .input-label > input:not([type="checkbox"]) {
   width: 100%;
   border: 1px solid var(--primary-color);

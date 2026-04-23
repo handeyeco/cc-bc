@@ -14,6 +14,7 @@ export type UrlListing = {
   tags: ReadonlyArray<number>;
   favorite?: boolean;
   bc_id: number;
+  sales: number;
 };
 
 export type License = {

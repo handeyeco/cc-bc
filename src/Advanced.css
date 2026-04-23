@@ -22,3 +22,13 @@
 .advanced-card__row-name {
   color: var(--orange);
 }
+
+.advanced__check-group {
+  padding-top: 1rem;
+}
+
+.advanced__check-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}

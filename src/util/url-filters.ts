@@ -1,5 +1,9 @@
-import { License, TagListing, UrlListing } from "../types";
+import { TagListing, UrlListing } from "../types";
 import { getTagByNameMemo } from "./tags";
+
+export const SALES_NONE = 0;
+export const SALES_SOME = 1;
+export const SALES_MANY = 2;
 
 // this is an effort to highlight more artists,
 // rather than showing the same super-prolific artists
@@ -53,90 +57,98 @@ export function filterUrlsAdvanced(
   excludeTags: string,
   includeString: string,
   excludeString: string,
-  includeLicense: string,
+  licenses: Set<number>,
+  sales: Set<number>,
   capUrlsPerAccount: boolean,
   tags: ReadonlyArray<TagListing>,
   urls: ReadonlyArray<UrlListing>,
-  licenses: ReadonlyArray<License>,
 ): ReadonlyArray<UrlListing> {
+  // TODO: don't hardcode magic numbers
+  const filteringLicenses = licenses.size < 6;
+  const filteringSales = sales.size < 3;
+
   if (
     !includeTags &&
     !excludeTags &&
     !includeString &&
     !excludeString &&
-    !includeLicense &&
-    !capUrlsPerAccount
+    !capUrlsPerAccount &&
+    !filteringLicenses &&
+    !filteringSales
   ) {
     return urls;
   }
 
+  if (licenses?.size === 0 || sales?.size === 0) {
+    return [];
+  }
+
+  // precompute everything that doesn't change per-URL
+  const includeTagTerms = includeTags
+    ? splitTerms(includeTags).map((t) => getTagByNameMemo(tags, t)?.tag_id)
+    : null;
+  const excludeTagTerms = excludeTags
+    ? splitTerms(excludeTags).map((t) => getTagByNameMemo(tags, t)?.tag_id)
+    : null;
+  const includeStringTerms = includeString ? splitTerms(includeString) : null;
+  const excludeStringTerms = excludeString ? splitTerms(excludeString) : null;
+
   let prefilteredUrls: ReadonlyArray<UrlListing> = urls;
   if (capUrlsPerAccount) {
     const cappedList: Record<string, UrlListing[]> = {};
-
     urls.forEach((u) => {
       const origin = new URL(u.url).origin;
       if (!cappedList[origin]) {
         cappedList[origin] = [];
       }
-
       if (cappedList[origin].length < URL_CAP) {
         cappedList[origin].push(u);
       }
-
-      prefilteredUrls = Object.values(cappedList).flat();
     });
+    prefilteredUrls = Object.values(cappedList).flat();
   }
 
   return prefilteredUrls.filter((u) => {
-    if (includeLicense) {
-      const terms = splitTerms(includeLicense);
-      // allowed IDs
-      const ids = terms.map((t) => licenses.find((l) => t === l.name)?.bc_id);
-      if (!ids.includes(u.license)) {
-        return false;
+    if (filteringLicenses && !licenses.has(u.license)) {
+      return false;
+    }
+
+    if (filteringSales && !sales.has(u.sales)) {
+      return false;
+    }
+
+    if (includeStringTerms || excludeStringTerms) {
+      const lowerTitle = u.title.toLowerCase();
+      const lowerUrl = u.url.toLowerCase();
+
+      if (includeStringTerms) {
+        for (const t of includeStringTerms) {
+          if (!lowerTitle.includes(t) && !lowerUrl.includes(t)) {
+            return false;
+          }
+        }
+      }
+
+      if (excludeStringTerms) {
+        for (const t of excludeStringTerms) {
+          if (lowerTitle.includes(t) || lowerUrl.includes(t)) {
+            return false;
+          }
+        }
       }
     }
 
-    if (includeString) {
-      const terms = splitTerms(includeString);
-      for (const t of terms) {
-        if (
-          !u.title.toLowerCase().includes(t) &&
-          !u.url.toLowerCase().includes(t)
-        ) {
+    if (includeTagTerms) {
+      for (const tagId of includeTagTerms) {
+        if (tagId != null && !u.tags.includes(tagId)) {
           return false;
         }
       }
     }
 
-    if (excludeString) {
-      const terms = splitTerms(excludeString);
-      for (const t of terms) {
-        if (
-          u.title.toLowerCase().includes(t) ||
-          u.url.toLowerCase().includes(t)
-        ) {
-          return false;
-        }
-      }
-    }
-
-    if (includeTags) {
-      const terms = splitTerms(includeTags);
-      for (const t of terms) {
-        const tag = getTagByNameMemo(tags, t);
-        if (tag && !u.tags.includes(tag.tag_id)) {
-          return false;
-        }
-      }
-    }
-
-    if (excludeTags) {
-      const terms = splitTerms(excludeTags);
-      for (const t of terms) {
-        const tag = getTagByNameMemo(tags, t);
-        if (tag && u.tags.includes(tag.tag_id)) {
+    if (excludeTagTerms) {
+      for (const tagId of excludeTagTerms) {
+        if (tagId != null && u.tags.includes(tagId)) {
           return false;
         }
       }
