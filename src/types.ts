@@ -1,5 +1,3 @@
-export type LoadingState = "not-started" | "loading" | "loaded" | "error";
-
 export type TagListing = {
   tag_id: number;
   name: string;

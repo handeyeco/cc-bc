@@ -27,6 +27,12 @@
   padding-top: 1rem;
 }
 
+.advanced__inline-input-group input {
+  display: inline;
+  margin-left: 0.75rem;
+  border: 1px solid pink;
+}
+
 .advanced__check-flex {
   display: flex;
   flex-wrap: wrap;

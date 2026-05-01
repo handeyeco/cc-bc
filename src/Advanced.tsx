@@ -6,7 +6,6 @@ import {
   SALES_MANY,
   SALES_NONE,
   SALES_SOME,
-  URL_CAP,
 } from "./util/url-filters";
 import { getTagByIdMemo } from "./util/tags";
 import { getLicenseNameByBcId } from "./util/licenses";
@@ -68,7 +67,7 @@ function Advanced() {
     new Set(licenseData!.map((l) => l.bc_id)),
   );
   const [sales, setSales] = useState<Set<number>>(new Set([0, 1, 2]));
-  const [capUrlsPerAccount, setCapUrlsPerAccount] = useState<boolean>(false);
+  const [capUrlsPerAccount, setCapUrlsPerAccount] = useState<string>("");
 
   // for the filtering
   const [includeTagsFilter, setIncludeTagsFilter] = useState<string>("");
@@ -79,7 +78,7 @@ function Advanced() {
   const [licensesFilter, setLicensesFilter] = useState<Set<number>>(licenses);
   const [salesFilter, setSalesFilter] = useState<Set<number>>(sales);
   const [capUrlsPerAccountFilter, setCapUrlsPerAccountFilter] =
-    useState<boolean>(false);
+    useState<number>(0);
 
   const [showAllResults, setShowAllResults] = useState<boolean>(false);
 
@@ -114,9 +113,11 @@ function Advanced() {
     setIncludeStringFilter(includeString);
     setExcludeStringFilter(excludeString);
 
-    setCapUrlsPerAccountFilter(capUrlsPerAccount);
     setLicensesFilter(licenses);
     setSalesFilter(sales);
+
+    const parsedCap = parseInt(capUrlsPerAccount);
+    setCapUrlsPerAccountFilter(parsedCap || 0);
   }
 
   // There's bound to be a better way to do this,
@@ -214,6 +215,17 @@ function Advanced() {
           />
         </label>
 
+        <label className="input-label">
+          Cap listings per account (number)
+          <input
+            type="number"
+            step="1"
+            min="0"
+            value={capUrlsPerAccount}
+            onChange={(e) => setCapUrlsPerAccount(e.target.value)}
+          />
+        </label>
+
         <div className="advanced__check-group">
           Filter by license:
           <div className="advanced__check-flex">
@@ -266,20 +278,6 @@ function Advanced() {
               More sales
             </label>
           </div>
-        </div>
-
-        <div className="advanced__check-group">
-          Other:
-          <label className="input-label input-label__check">
-            <input
-              type="checkbox"
-              checked={capUrlsPerAccount}
-              onChange={(e) => {
-                setCapUrlsPerAccount(e.target.checked);
-              }}
-            />
-            Cap listings ({URL_CAP} per account)
-          </label>
         </div>
 
         <p>

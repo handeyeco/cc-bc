@@ -51,7 +51,6 @@ export function filterUrlsByFaves(
   return urls.filter((u) => !!u.favorite);
 }
 
-export const URL_CAP = 10;
 export function filterUrlsAdvanced(
   includeTags: string,
   excludeTags: string,
@@ -59,7 +58,7 @@ export function filterUrlsAdvanced(
   excludeString: string,
   licenses: Set<number>,
   sales: Set<number>,
-  capUrlsPerAccount: boolean,
+  capUrlsPerAccount: number,
   tags: ReadonlyArray<TagListing>,
   urls: ReadonlyArray<UrlListing>,
 ): ReadonlyArray<UrlListing> {
@@ -101,7 +100,7 @@ export function filterUrlsAdvanced(
       if (!cappedList[origin]) {
         cappedList[origin] = [];
       }
-      if (cappedList[origin].length < URL_CAP) {
+      if (cappedList[origin].length < capUrlsPerAccount) {
         cappedList[origin].push(u);
       }
     });
